@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-07-02T14:26:03.910516+00:00",
+  "items": [
+    {
+      "emoji": "🍌",
+      "title": "Bolo de banana madura",
+      "body": "Aproveita bananas que iriam para o lixo e vira lanche da semana. Pode ser feito com aveia para render mais.",
+      "meta": [
+        "45min",
+        "8 fatias",
+        "Medio"
+      ],
+      "url": "https://www.google.com/search?q=receita+bolo+de+banana+madura+com+aveia",
+      "link_label": "Ver receita",
+      "gradient": "linear-gradient(135deg,#1a1020,#0d1219)"
+    },
+    {
+      "emoji": "🍲",
+      "title": "Sopa de legumes com lentilha",
+      "body": "Rende bastante, congela bem e substitui refeicoes caras nos dias corridos.",
+      "meta": [
+        "35min",
+        "5 porcoes",
+        "Facil"
+      ],
+      "url": "https://www.google.com/search?q=receita+sopa+de+legumes+com+lentilha",
+      "link_label": "Ver receita",
+      "gradient": "linear-gradient(135deg,#162015,#0d1219)"
+    },
+    {
+      "emoji": "🌮",
+      "title": "Panqueca de frango com sobras",
+      "body": "Transforma pequenas sobras em refeicao nova. A massa leva poucos ingredientes e rende varias unidades.",
+      "meta": [
+        "40min",
+        "6 unidades",
+        "Medio"
+      ],
+      "url": "https://www.google.com/search?q=receita+panqueca+de+frango+com+sobras",
+      "link_label": "Ver receita",
+      "gradient": "linear-gradient(135deg,#201610,#0d1219)"
+    },
+    {
+      "emoji": "🍝",
+      "title": "Macarrao alho e oleo com legumes",
+      "body": "Base barata, rapida e flexivel. Use cenoura, abobrinha ou sobras da geladeira para aumentar rendimento.",
+      "meta": [
+        "20min",
+        "4 porcoes",
+        "Facil"
+      ],
+      "url": "https://www.google.com/search?q=receita+macarrao+alho+e+oleo+com+legumes",
+      "link_label": "Ver receita",
+      "gradient": "linear-gradient(135deg,#1a2535,#0d1219)"
+    }
+  ]
+}

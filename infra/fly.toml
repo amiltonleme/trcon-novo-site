@@ -1,0 +1,40 @@
+# Fly.io — alternativa de deploy do BACKEND (o Postgres é criado à parte com
+# `fly postgres create` e conectado com `fly postgres attach`).
+# Uso: a partir de site/backend, `fly launch --copy-config --no-deploy` usando
+# este arquivo, depois `fly deploy`. Docs: https://fly.io/docs/reference/configuration/
+#
+# O frontend estático pode ir para Fly (via Dockerfile de nginx) ou, mais simples,
+# para um host estático gratuito (GitHub Pages / Netlify / Cloudflare Pages).
+
+app = "trcon-site-backend"
+primary_region = "gru" # São Paulo
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  SPRING_PROFILES_ACTIVE = "prod"
+  # Atenção: `fly postgres attach` injeta DATABASE_URL no formato postgres://,
+  # que NÃO é o formato JDBC esperado pelo Spring. Defina os segredos de banco
+  # manualmente a partir dos dados do attach, ex.:
+  #   fly secrets set DB_HOST=... DB_PORT=5432 DB_NAME=... DB_USERNAME=... DB_PASSWORD=...
+  #   fly secrets set TRCON_CORS_ALLOWED_ORIGINS=https://trcongroup.com.br
+  # (o application.yml compõe a URL JDBC a partir de DB_HOST/DB_PORT/DB_NAME).
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = "stop"   # economiza quando ocioso (site institucional)
+  auto_start_machines = true
+  min_machines_running = 0
+
+  [[http_service.checks]]
+    method = "get"
+    path = "/actuator/health"
+    interval = "30s"
+    timeout = "5s"
+    grace_period = "40s"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "512mb"

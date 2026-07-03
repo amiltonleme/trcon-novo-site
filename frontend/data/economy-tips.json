@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-07-02T14:26:03.910516+00:00",
+  "items": [
+    {
+      "tag": "Cotidiano",
+      "tag_class": "tag-orange",
+      "title": "Revise assinaturas antes de cortar o essencial",
+      "body": "Some streaming, apps, armazenamento, clubes e planos esquecidos. Cancelar dois servicos pouco usados costuma gerar economia sem reduzir qualidade de vida.",
+      "meta": [
+        "4 min",
+        "Impacto imediato"
+      ],
+      "url": "https://www.google.com/search?q=como+cancelar+assinaturas+e+economizar+dinheiro",
+      "link_label": "Ver checklist",
+      "featured": true
+    },
+    {
+      "tag": "Mercado",
+      "tag_class": "tag-blue",
+      "title": "Reserva de emergencia vem antes do risco",
+      "body": "Antes de buscar rentabilidade alta, mantenha parte do dinheiro em produto conservador e liquido. Isso evita vender investimentos ruins em uma urgencia.",
+      "meta": [
+        "3 min",
+        "Baixo risco"
+      ],
+      "url": "https://www.google.com/search?q=como+montar+reserva+de+emergencia",
+      "link_label": "Ver passo a passo"
+    },
+    {
+      "tag": "Compras",
+      "tag_class": "tag-gold",
+      "title": "Compare preco por unidade, nao so o preco da embalagem",
+      "body": "No supermercado, olhe o preco por quilo, litro ou unidade. Promocoes grandes nem sempre sao mais baratas e podem virar desperdicio.",
+      "meta": [
+        "3 min",
+        "Economia recorrente"
+      ],
+      "url": "https://www.google.com/search?q=como+comparar+preco+por+quilo+litro+unidade",
+      "link_label": "Aprender a comparar"
+    },
+    {
+      "tag": "Cartao",
+      "tag_class": "tag-orange",
+      "title": "Transforme o cartao em meio de pagamento, nao credito",
+      "body": "Use o cartao com limite mensal definido e acompanhe a fatura toda semana. Parcelas pequenas somadas reduzem sua renda livre nos meses seguintes.",
+      "meta": [
+        "4 min",
+        "Controle alto"
+      ],
+      "url": "https://www.google.com/search?q=como+usar+cartao+de+credito+sem+se+endividar",
+      "link_label": "Ver cuidados"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+name: Backend CD
+
+# Deploy do backend em produção.
+#
+# Estratégia de baixo acoplamento:
+# - Render: o deploy é AUTOMÁTICO a partir do render.yaml (autoDeploy: true).
+#   Nesse caso este workflow serve como "deploy hook" opcional.
+# - Fly.io: usa `flyctl deploy`, guardado pelo secret FLY_API_TOKEN.
+#
+# O job só roda quando o secret existe — em forks/clones sem credenciais ele é
+# pulado, sem falhar o repositório.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "backend/**"
+      - "infra/fly.toml"
+      - ".github/workflows/backend-cd.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy-fly:
+    name: Deploy backend (Fly.io)
+    runs-on: ubuntu-latest
+    # Só executa se o token estiver configurado nos secrets do repositório.
+    if: ${{ vars.DEPLOY_TARGET == 'fly' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup flyctl
+        uses: superfly/flyctl-actions/setup-flyctl@master
+
+      - name: Deploy
+        run: flyctl deploy --config infra/fly.toml --dockerfile backend/Dockerfile ./backend
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+
+  render-note:
+    name: Render (deploy automático via Blueprint)
+    runs-on: ubuntu-latest
+    if: ${{ vars.DEPLOY_TARGET != 'fly' }}
+    steps:
+      - name: Info
+        run: |
+          echo "Render faz deploy automático a partir de infra/render.yaml (autoDeploy: true)."
+          echo "Nenhuma ação de CD necessária aqui. Para forçar, use um Deploy Hook do Render."

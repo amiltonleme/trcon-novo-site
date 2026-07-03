@@ -1,0 +1,59 @@
+name: Update site content
+
+# Pipeline de conteudo editorial (Camada 4/5 da arquitetura canonica).
+# Frequencia canonica: 2x por dia (08:00 e 20:00 UTC) — doc/02-ARQUITETURA-CANONICA.md.
+on:
+  schedule:
+    - cron: "0 8 * * *"
+    - cron: "0 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-content:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Testes do pipeline (funcoes puras, sem rede)
+        run: python -m unittest discover -s scripts -p "test_*.py"
+
+      # Cada script tem responsabilidade unica (SRP). Se um cair, os demais
+      # continuam — a degradacao é tratada dentro de cada script.
+      - name: Atualizar mercado
+        run: python scripts/update_market.py
+        continue-on-error: true
+
+      - name: Atualizar conteudo diario (dicas/receitas)
+        run: python scripts/update_daily_content.py
+        continue-on-error: true
+
+      - name: Atualizar Radar IA
+        run: python scripts/update_ai_radar.py
+        continue-on-error: true
+
+      - name: Atualizar Radar Tecnologia
+        run: python scripts/update_tech_radar.py
+        continue-on-error: true
+
+      - name: Consolidar payload da home (highlights + news-log)
+        run: python scripts/build_home_payload.py
+        continue-on-error: true
+
+      - name: Commit dos artefatos gerados
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update site content data"
+          file_pattern: frontend/data/*.json

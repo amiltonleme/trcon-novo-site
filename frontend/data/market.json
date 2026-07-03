@@ -1,0 +1,185 @@
+{
+  "generated_at": "2026-07-02T14:26:03.860685+00:00",
+  "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
+  "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
+  "ticker": [
+    {
+      "symbol": "USD/BRL",
+      "value": "R$ 5,20",
+      "change": "0,00%",
+      "direction": "flat"
+    },
+    {
+      "symbol": "EUR/BRL",
+      "value": "R$ 5,92",
+      "change": "0,00%",
+      "direction": "flat"
+    },
+    {
+      "symbol": "IBOVESPA",
+      "value": "173.199 pts",
+      "change": "estavel",
+      "direction": "flat"
+    },
+    {
+      "symbol": "BTC/USD",
+      "value": "US$ 61.700",
+      "change": "+3,28%",
+      "direction": "up"
+    },
+    {
+      "symbol": "ETH/USD",
+      "value": "US$ 1.706",
+      "change": "+6,33%",
+      "direction": "up"
+    },
+    {
+      "symbol": "OURO",
+      "value": "US$ 4.142",
+      "change": "estavel",
+      "direction": "flat"
+    },
+    {
+      "symbol": "SELIC",
+      "value": "14,25% a.a.",
+      "change": "estavel",
+      "direction": "flat"
+    },
+    {
+      "symbol": "CDI",
+      "value": "14,15% a.a.",
+      "change": "estavel",
+      "direction": "flat"
+    }
+  ],
+  "assets": [
+    {
+      "id": "usdbrl",
+      "name": "Dolar (USD)",
+      "icon": "💵",
+      "quote": "R$ 5,20",
+      "change": "0,00%",
+      "direction": "flat",
+      "recommendation": "Neutro",
+      "recommendation_class": "rec-watch",
+      "reason": "Cambio perto da estabilidade; compras parceladas reduzem o risco de acertar o pior momento."
+    },
+    {
+      "id": "eurbrl",
+      "name": "Euro (EUR)",
+      "icon": "💶",
+      "quote": "R$ 5,92",
+      "change": "0,00%",
+      "direction": "flat",
+      "recommendation": "Neutro",
+      "recommendation_class": "rec-watch",
+      "reason": "Cambio perto da estabilidade; compras parceladas reduzem o risco de acertar o pior momento."
+    },
+    {
+      "id": "ibov",
+      "name": "Ibovespa",
+      "icon": "📊",
+      "quote": "173.199 pts",
+      "change": "estavel",
+      "direction": "flat",
+      "recommendation": "Cautela",
+      "recommendation_class": "rec-avoid",
+      "reason": "Noticias recentes mostram mais risco; reduzir pressa ajuda a evitar decisoes emocionais."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "icon": "₿",
+      "quote": "US$ 61.700",
+      "change": "+3,28%",
+      "direction": "up",
+      "recommendation": "Moderado",
+      "recommendation_class": "rec-watch",
+      "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
+    },
+    {
+      "id": "eth",
+      "name": "Ethereum",
+      "icon": "Ξ",
+      "quote": "US$ 1.706",
+      "change": "+6,33%",
+      "direction": "up",
+      "recommendation": "Aguardar",
+      "recommendation_class": "rec-watch",
+      "reason": "Alta forte aumenta risco de comprar no impulso; entrada gradual e cautelosa faz mais sentido."
+    },
+    {
+      "id": "gold",
+      "name": "Ouro",
+      "icon": "🥇",
+      "quote": "US$ 4.142",
+      "change": "estavel",
+      "direction": "flat",
+      "recommendation": "Cautela",
+      "recommendation_class": "rec-avoid",
+      "reason": "Noticias recentes mostram mais risco; reduzir pressa ajuda a evitar decisoes emocionais."
+    },
+    {
+      "id": "selic",
+      "name": "Tesouro Selic",
+      "icon": "🏦",
+      "quote": "14,25% a.a.",
+      "change": "estavel",
+      "direction": "flat",
+      "recommendation": "Reserva",
+      "recommendation_class": "rec-buy",
+      "reason": "Produto conservador e liquido costuma ser adequado para reserva de emergencia."
+    },
+    {
+      "id": "cdi",
+      "name": "CDI",
+      "icon": "🏛️",
+      "quote": "14,15% a.a.",
+      "change": "estavel",
+      "direction": "flat",
+      "recommendation": "Cautela",
+      "recommendation_class": "rec-avoid",
+      "reason": "Noticias recentes mostram mais risco; reduzir pressa ajuda a evitar decisoes emocionais."
+    }
+  ],
+  "news": [
+    {
+      "title": "O que esperar da Bolsa e do dólar em julho após guerra e juros ditarem o ritmo dos mercados",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQekF3WTBBeGplQndvVExVTUd4OXdOazhxRVE2clBCQlQzejFQRkQwWHN3Q1F0cU42WnR1RVpKaWVvR0VmQkoyOG9Ja3cwbHktdkxBaXU1WFRKb3ZFZ0EtVkNDY1JWZkMzV3dGSEw0RzQ3QTBHQ3prNXB2SFQwLTRySDdwT1dTV3FPN2I3eDdiZXpRb0ZvTDNjbzZZMkNfR09Zc1BWdHRxRTdSdmxsbUFUdThDeFdjSE5Lc0tJSU96enoxN1c5S2R6YUxnQldyeV9tU2sxMmc2SDA4a3VVYS0yOEhJdnXSAeoBQVVfeXFMTkJ3RjI1NURKSnlmMzVHMzA2Q25XVkYxUHYwOVNsUm1WeUVucE1KQ09HWlIyY1Z5NElQMlRFSWNzdHFMRno0Zm9yejBLLTJZdE9Ma21XNk9YOFViS1NMaHVsU1J1LW5UNWlWZ3dZU0RfS1NGTmFraERkTVdmUEJSUUpoaFNlV1FwMHRLY3ZOMGtjcG10eFN1cEp4QklGZUV6TG5FRGEzZ0IyY1B2V1hYQlBrQWFsRTh4bXZ1aHh0cGVMQ3A1UzFESFhRUzFza0JKRk1Qa1pLMGZYSXlzMkJqTkpqaGEzcUlCUzR3?oc=5"
+    },
+    {
+      "title": "Dólar fecha acima de R$ 5,20 e Bolsa cai com pressão dos juros nos Estados Unidos",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaUpsOUJnZnhid29QM09xeU95cllqT1ZGUUJrU0hoNjlWUmlaNHozTzZjM1YtSHdzMUZZZVpsOUotbUVLMHNzdVpsaWY5Ny1IMEM0ZmxHOWRjTlF6Zm12Vm5KbjZQQkhJd3B6dDFIaXZJbnJGZ25Uc2xTb2UwaE5KZXU5d3pab1J1ZjFqVmxvQ0loNkJFVmJJOUxoZ2lodHhpM2lOZC1TbF9QbVlENXdZ?oc=5"
+    },
+    {
+      "title": "Dólar reage e Bolsa desacelera após Fed manter juros; mercado aguarda Copom",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQWdvVG9BemZJSG9yRXhXSzZOVHQ5OUZwcWlXQkc2Tk9faVNydDRlTGN2Z3dIMHcwd1doODZKRHZMV0VIWFIySjZWTEl4Y3ZYRWtvUU5pYTlaNUU1VjNyVUZDWUZBNVFXYUFIR19yM0EwWThLVVFuTzQwa25mU212OS1weFJHdU5ZNjdJeWZ1ZVVralctci1odWo3SXo?oc=5"
+    },
+    {
+      "title": "Dólar fecha acima de R$ 5,20 enquanto bolsa de valores recua",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUVZlMkpKSUo5ckVPNmEwUWpiYzJPeDBUTkpIdlpENWFUNDJSb2duUzVNajBMUVRkVGxUa01udUN6aEJRdUUtYllwb2FFTGFRNkRhNmx2cHFCR3Q2dWpvcjM4OXRBN2pGSkFSUVR3U1I1XzZjaGhoZTNzV1pJQjA2TVNfSFZDcjBhdWZIRGNhNDFiTzhHY21nQmkyQkk3RDQxU1dHYVJVckxRYzdROTQw0gG0AUFVX3lxTFBVNkZ5OTJWX1FkS19kSFBwdWc0MUJXeXJ6OElQei1kdVMyRzZKb04wQjZuN3hYd183M1Q5ZHNTYUV5REFmMVVRd1JYcUUwaVNfVDYwYXBQOXZHcmFQSnVpQW41RENFUmJST28yNWt1SkxKdnhtbXlCQ0ozU2pMcWQxbjNmWGdyWmVNNENqVTZKMzFjVWE3bnhTRTJfRl9rR2Q4QjItZzFLYTIxNHFmemFCSk9qUw?oc=5"
+    },
+    {
+      "title": "Ibovespa fecha com nova baixa, em meio a queda de Vale e ruídos geopolíticos",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY3Y4TkNaWXRyZkxOb1JXMFk1bkRUZGRUNDg0bTk5c0FRdUNtcmMxZjZ6UlBXY3NGU2dfcDBQMlI1bWpIY2JOeHo2Q0wtX2tObnhGbHZhZVFtbWlLUzFpRWQ0VXk5aEdWQ2tzYm90aUVkN3pJN01KalBFQmc0S0JRNnJQcC1BU1VxaUJ6ZGQ4SQ?oc=5"
+    },
+    {
+      "title": "Dólar cai e Bolsa sobe com decisões de juros do Brasil e dos Estados Unidos em foco",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOXl2ZmRLRmdPdTVEbEd4Z015LXJycDRybW5rTkhtU25yX1JlMHA2Zkt5ZzQ0OHBLWWs5WWxmcWJYZmRHRk1ESkRZUjBuWmowXzN4TVdLMUhTVFRPR1NTQVMyWXpzS1FJUW5TSUNtVU1jYlpEQ0ZHd1lNNWxvYkE2WjFOeUo1NXVGYkRZdkxES2tsX21iSDN4WmhjbXRIbFlXU0JhQXVpN2poaDdXTXVoS042N2VBdmhGSlE?oc=5"
+    },
+    {
+      "title": "Dólar sobe a R$ 5,20 e Bolsa cai, com juros incertos e petróleo em baixa",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdGx5MHp4aUdwYXdVcVBuNmc5ZVJRWDNBam55WE1UU3Y2THE0MjdZbnRHX1NZWG0tV3FQX29XRUVUMmtQR3ZFVGg3bnRZdFh1MkNtWlpFLTh2dGhzU1dtVHZJR3JJY0xsRzVLM0xRVUoyUWRwSVcwLTZ6eVY3c2g3aW4ySS0xeDcwZWZ1dnlrb1RHSU5jRVlRZG9pM20yUQ?oc=5"
+    },
+    {
+      "title": "Dólar sobe e mercado entra em compasso de espera para decisões de juros no Brasil e nos EUA",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQTnhOX0lFT2VSWXlaVFp2bkdWZmxBSm00QmM4UEx0VnEtcER1MFRpRndsMmh2cHZTcEo2WEhzZ0FBdVZ5bE1IZjRWSjVpQ3ZfYl9SdWQ5SkxUUDIyNnJwdVpWeWlkdGZEX3kzVW4yUTI5RHVEbWE3aG9POUptcDhCbE1DRU40U2RxT2NtdU9BUEhRRHV5RTV5NmtDelBUVTFRUHlsc3ZrR19NU2ZLekk2REZWWG5iQ0lUSF9pNXl0XzFDU2daUDUxYXZEa3Zoc2NwMHkycnZXazBKbjhNbTdFZjloZTBqSVFJaVRFT0RPWTNPUnRLb3Z5Qm12cw?oc=5"
+    }
+  ],
+  "market_mood": {
+    "label": "Cauteloso",
+    "summary": "O noticiario aponta mais incerteza; preservar liquidez e evitar concentracao ganha prioridade.",
+    "score": -3
+  },
+  "errors": []
+}

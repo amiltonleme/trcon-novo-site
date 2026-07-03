@@ -1,0 +1,19 @@
+{
+  "name": "trcon-site-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Frontend público do site TRCon (HTML/CSS/JS vanilla). Ver ../doc/03-FRONTEND-STACK-CANONICA.md",
+  "scripts": {
+    "dev": "node scripts/dev_server.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint \"assets/**/*.js\" \"tests/**/*.js\"",
+    "format": "prettier --write \"assets/**/*.js\" \"tests/**/*.js\""
+  },
+  "devDependencies": {
+    "eslint": "^9.15.0",
+    "prettier": "^3.4.1",
+    "vitest": "^2.1.6"
+  }
+}

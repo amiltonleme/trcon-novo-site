@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TRCon Group — Tecnologia & Inteligência Financeira</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="logo" data-page-link="home">
+    <img src="assets/trcon-logo.png" alt="TRCON" class="nav-logo-image">
+    <span class="logo-text">TRCon <span>Group</span></span>
+  </a>
+
+  <ul class="nav-links">
+    <li><a href="#" class="active" data-page-link="home">Home</a></li>
+    <li><a href="#" data-page-link="sobre">Quem Somos</a></li>
+    <li><a href="#" data-page-link="servicos">Serviços</a></li>
+    <li><a href="#" data-page-link="produtos">Produtos</a></li>
+    <li><a href="#" data-page-link="clientes">Clientes</a></li>
+  </ul>
+
+  <div class="nav-cta">
+    <button class="hamburger" type="button" data-mobile-open aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <button class="mobile-close" type="button" data-mobile-close>✕</button>
+  <a href="#" data-page-link="home" data-close-mobile>Home</a>
+  <a href="#" data-page-link="sobre" data-close-mobile>Quem Somos</a>
+  <a href="#" data-page-link="servicos" data-close-mobile>Serviços</a>
+  <a href="#" data-page-link="produtos" data-close-mobile>Produtos</a>
+  <a href="#" data-page-link="beta" data-close-mobile>Testar Beta</a>
+  <a href="#" data-page-link="clientes" data-close-mobile>Clientes</a>
+</div>
+
+<!-- ════════════════════════════════
+     PAGE: HOME
+════════════════════════════════ -->
+<div class="page active" id="page-home">
+
+  <!-- HERO -->
+  <section class="hero tr-hero">
+    <canvas class="tr-neural-canvas" id="neuralCanvas" aria-hidden="true"></canvas>
+    <div class="tr-grid-overlay"></div>
+    <div class="tr-scan-lines"></div>
+    <div class="tr-hero-glow tr-glow-1"></div>
+    <div class="tr-hero-glow tr-glow-2"></div>
+    <div class="tr-hero-glow tr-glow-3"></div>
+
+    <div class="tr-status-bar">
+      <div class="tr-status-brand">TRCON</div>
+      <div class="tr-status-items">
+        <div class="tr-status-item"><span class="tr-status-dot"></span>AI ENGINE ONLINE</div>
+        <div class="tr-status-item"><span class="tr-status-dot" style="background:#00d4ff;box-shadow:0 0 8px #00d4ff;"></span>MARKET FEED ACTIVE</div>
+        <div class="tr-status-item"><span class="tr-status-dot" style="animation-delay:.7s"></span>SISTEMAS OPERACIONAIS</div>
+      </div>
+      <div class="tr-status-time" id="heroClock">00:00:00</div>
+    </div>
+
+    <div class="tr-corner tl"><svg viewBox="0 0 60 60" fill="none"><path d="M2 58 L2 2 L58 2" stroke="#C8960C" stroke-width="1.5" stroke-opacity="0.6"/><path d="M2 30 L15 30" stroke="#00D4FF" stroke-width="1" stroke-opacity="0.5"/><circle cx="2" cy="2" r="2.5" fill="#C8960C" opacity="0.8"/></svg></div>
+    <div class="tr-corner tr"><svg viewBox="0 0 60 60" fill="none"><path d="M2 58 L2 2 L58 2" stroke="#C8960C" stroke-width="1.5" stroke-opacity="0.6"/><path d="M2 30 L15 30" stroke="#00D4FF" stroke-width="1" stroke-opacity="0.5"/><circle cx="2" cy="2" r="2.5" fill="#C8960C" opacity="0.8"/></svg></div>
+    <div class="tr-corner bl"><svg viewBox="0 0 60 60" fill="none"><path d="M2 58 L2 2 L58 2" stroke="#C8960C" stroke-width="1.5" stroke-opacity="0.6"/><circle cx="2" cy="2" r="2.5" fill="#C8960C" opacity="0.8"/></svg></div>
+    <div class="tr-corner br"><svg viewBox="0 0 60 60" fill="none"><path d="M2 58 L2 2 L58 2" stroke="#C8960C" stroke-width="1.5" stroke-opacity="0.6"/><circle cx="2" cy="2" r="2.5" fill="#C8960C" opacity="0.8"/></svg></div>
+
+    <div class="tr-stage">
+      <div class="tr-logo-wrap">
+        <div class="tr-hex-icon">
+          <div class="tr-ring tr-ring-1"></div>
+          <div class="tr-ring tr-ring-2"></div>
+          <div class="tr-ring tr-ring-3"></div>
+          <svg class="tr-hex-svg" viewBox="0 0 140 140" fill="none" aria-hidden="true">
+            <defs>
+              <linearGradient id="trHexGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#FFD700"/>
+                <stop offset="50%" stop-color="#C8960C"/>
+                <stop offset="100%" stop-color="#8B6914"/>
+              </linearGradient>
+              <filter id="trGlow">
+                <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+            </defs>
+            <path d="M70 8 L124 39 L124 101 L70 132 L16 101 L16 39 Z" stroke="url(#trHexGrad)" stroke-width="2" fill="rgba(200,150,12,0.04)" filter="url(#trGlow)"/>
+            <path d="M70 22 L112 46 L112 94 L70 118 L28 94 L28 46 Z" stroke="#00D4FF" stroke-width="1" stroke-opacity="0.35" fill="none"/>
+            <path d="M70 36 L100 53 L100 87 L70 104 L40 87 L40 53 Z" stroke="#C8960C" stroke-width="1" stroke-opacity="0.55" fill="rgba(2,4,8,0.45)"/>
+            <circle cx="70" cy="70" r="8" fill="none" stroke="#FFD700" stroke-width="0.5" opacity="0.4"/>
+          </svg>
+          <div class="tr-hex-inner-text">TR</div>
+        </div>
+
+        <div class="tr-wordmark">
+          <span class="tr-wordmark-tr">TR</span><span class="tr-wordmark-con">CON</span>
+        </div>
+        <div class="tr-tagline-bar">
+          <div class="tr-tag-line"></div>
+          <div class="tr-tagline-text">Inteligência · Tecnologia · Resultados</div>
+          <div class="tr-tag-line right"></div>
+        </div>
+        <div class="tr-full-name">Treinamento &amp; Consultoria Ltda</div>
+      </div>
+
+      <p class="tr-hero-copy">Informação de mercado, análise com IA e ferramentas práticas para transformar dados financeiros em decisões mais claras.</p>
+      <div class="tr-actions">
+        <a href="#" class="btn btn-primary btn-lg" data-page-link="produtos">Ver Produtos →</a>
+        <a href="#" class="btn btn-ghost btn-lg" data-page-link="sobre">Quem Somos</a>
+      </div>
+
+      <div class="tr-divider"></div>
+      <div class="tr-pillars">
+        <div class="tr-pillar">
+          <div class="tr-pillar-icon"><svg viewBox="0 0 24 24"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></div>
+          <div class="tr-pillar-label">Finanças &<br>Mercados</div>
+        </div>
+        <div class="tr-pillar">
+          <div class="tr-pillar-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2 L12 6 M12 18 L12 22 M2 12 L6 12 M18 12 L22 12"/><circle cx="12" cy="12" r="9" stroke-dasharray="3 3"/></svg></div>
+          <div class="tr-pillar-label">IA &<br>Analytics</div>
+        </div>
+        <div class="tr-pillar">
+          <div class="tr-pillar-icon"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+          <div class="tr-pillar-label">Software<br>Financeiro</div>
+        </div>
+        <div class="tr-pillar">
+          <div class="tr-pillar-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <div class="tr-pillar-label">Consultoria<br>Especializada</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TICKER -->
+    <div class="ticker-wrap" style="position:absolute;bottom:0;left:0;right:0;">
+      <div class="ticker" id="ticker">
+        <div class="ticker-item"><span class="sym">MERCADO</span><span class="val">Atualizando dados reais</span><span class="chg">...</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- O QUE A TRCON FAZ (4 LINHAS DE NEGÓCIO) -->
+  <section>
+    <div class="section-label">O que fazemos</div>
+    <div class="section-title">Tecnologia que vira <em style="color:var(--accent);font-style:normal">resultado</em></div>
+    <p class="section-sub">Da ideia ao software em produção — e o time certo para sustentar. Atuamos em quatro frentes conectadas por engenharia de verdade e foco em resultado.</p>
+
+    <div class="cards-grid" style="margin-top:40px;">
+      <div class="card">
+        <div class="card-icon" style="background:rgba(0,212,170,0.1)">🚀</div>
+        <h3>Produtos próprios</h3>
+        <p>Software pronto para usar, construído pela TRCon. Plataformas de inteligência financeira, análise de mercado e automação com IA — licenciados ou por assinatura.</p>
+        <a href="#" class="card-tag" data-page-link="produtos">Ver produtos →</a>
+      </div>
+      <div class="card">
+        <div class="card-icon" style="background:rgba(0,151,255,0.1)">🛠️</div>
+        <h3>Desenvolvimento sob demanda</h3>
+        <p>Projetos de software do zero, sob medida para o seu negócio. Arquitetura limpa, código testado e entrega com rigor de engenharia — do MVP à plataforma completa.</p>
+        <a href="#" class="card-tag" data-page-link="servicos" data-lead-type="DESENVOLVIMENTO_SOB_DEMANDA">Falar sobre um projeto →</a>
+      </div>
+      <div class="card">
+        <div class="card-icon" style="background:rgba(240,180,41,0.1)">⚙️</div>
+        <h3>Customização de sistemas</h3>
+        <p>Adaptamos produtos existentes — nossos ou do seu ambiente — a novas regras, integrações e fluxos. Evolução contínua sem reescrever o que já funciona.</p>
+        <a href="#" class="card-tag" data-page-link="servicos" data-lead-type="CUSTOMIZACAO">Ver como funciona →</a>
+      </div>
+      <div class="card">
+        <div class="card-icon" style="background:rgba(255,107,53,0.1)">👥</div>
+        <h3>Alocação de mão de obra</h3>
+        <p>Profissionais de tecnologia — desenvolvimento, dados, IA e QA — alocados no seu time. Squad dedicado, célula ágil ou profissional avulso, no modelo que o projeto pedir.</p>
+        <a href="#" class="card-tag" data-page-link="servicos" data-lead-type="ALOCACAO_MAO_DE_OBRA">Montar um time →</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- RADAR TRCON (highlights: API com fallback JSON) -->
+  <section>
+    <div class="section-label">Radar TRCon — Atualizado hoje</div>
+    <div class="section-title">Sinais de <em style="color:var(--accent);font-style:normal">IA e tecnologia</em></div>
+    <p class="section-sub">Curadoria automática dos principais movimentos de IA e tecnologia. Atualizado ao longo do dia.</p>
+    <div class="cards-grid" id="radarGrid" style="margin-top:40px;">
+      <div class="card"><p class="loading-row">Carregando o radar do dia...</p></div>
+    </div>
+    <div class="data-updated" id="radarUpdated"></div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- MARKET INSIGHTS -->
+  <section>
+    <div class="section-label">Mercado hoje</div>
+    <div class="section-title">O que está <em style="color:var(--accent);font-style:normal">aquecido</em> agora</div>
+    <p class="section-sub">Nossa análise simplificada do cenário atual, sem jargão. Só o que importa para seu bolso.</p>
+
+    <div style="overflow-x:auto;margin-top:32px;">
+      <table class="market-table">
+        <thead>
+          <tr>
+            <th>Ativo</th>
+            <th>Cotação</th>
+            <th>Variação</th>
+            <th>Recomendação</th>
+            <th>Por quê?</th>
+          </tr>
+        </thead>
+        <tbody id="marketRows">
+          <tr><td colspan="5" class="loading-row">Carregando cotações e leitura de mercado...</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="market-status" id="marketMood">
+      <strong>Humor de mercado:</strong> aguardando atualizacao dos dados.
+    </div>
+    <div class="market-disclaimer" id="marketDisclaimer">
+      Conteudo educacional. Nao constitui recomendacao individual de investimento.
+    </div>
+    <div class="data-updated" id="marketUpdated"></div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- DICAS FINANCEIRAS -->
+  <section>
+    <div class="section-label">Educação Financeira</div>
+    <div class="section-title">Como economizar <em style="color:var(--accent);font-style:normal">de verdade</em></div>
+    <p class="section-sub">Pequenas mudanças no cotidiano geram grandes resultados ao longo do tempo.</p>
+
+    <div class="insights-grid" id="tipsGrid">
+      <div class="insight-card">
+        <span class="insight-tag tag-blue">Atualizando</span>
+        <h3>Conteudo diario em preparacao</h3>
+        <p>As dicas de economia serao carregadas automaticamente a partir do arquivo data/economy-tips.json.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- RECEITAS -->
+  <section>
+    <div class="section-label">Bem-estar & Economia</div>
+    <div class="section-title">Receitas que <em style="color:var(--gold);font-style:normal">economizam</em></div>
+    <p class="section-sub">Comer bem em casa custa até 70% menos que no restaurante. Aqui tem receitas deliciosas, práticas e que cabem no bolso.</p>
+
+    <div class="recipe-grid" id="recipeGrid">
+      <div class="recipe-card">
+        <div class="recipe-thumb" style="background:linear-gradient(135deg,#1a2535,#0d1219)">🍽️</div>
+        <div class="recipe-body">
+          <h4>Receitas em atualizacao</h4>
+          <p>As sugestoes economicas serao carregadas automaticamente a partir do arquivo data/recipes.json.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- NOVIDADES (news-log: API com fallback JSON) -->
+  <section>
+    <div class="section-label">Novidades da TRCon</div>
+    <div class="section-title">O que <em style="color:var(--accent);font-style:normal">mudou</em> por aí</div>
+    <p class="section-sub">Feed de novidades de IA e tecnologia, consolidado automaticamente.</p>
+    <div class="pillar-list" id="newsList" style="max-width:760px;margin-top:40px;">
+      <div class="pillar"><div><p class="loading-row">Carregando novidades...</p></div></div>
+    </div>
+  </section>
+
+</div><!-- /page-home -->
+
+<!-- ════════════════════════════════
+     PAGE: QUEM SOMOS
+════════════════════════════════ -->
+<div class="page" id="page-sobre">
+  <section class="subpage-tr-hero">
+    <canvas class="tr-neural-canvas subpage-neural-canvas" aria-hidden="true"></canvas>
+    <div class="subpage-tr-status">
+      <span>TRCON PROFILE</span>
+      <span>INTELIGENCIA TECNOLOGIA RESULTADOS</span>
+    </div>
+    <div class="subpage-tr-grid"></div>
+    <div class="subpage-tr-corner tl"></div>
+    <div class="subpage-tr-corner tr"></div>
+    <div class="subpage-tr-corner bl"></div>
+    <div class="subpage-tr-corner br"></div>
+    <div class="subpage-tr-stage">
+      <div class="subpage-tr-logo">
+        <img src="assets/trcon-logo.png" alt="TRCON Group">
+      </div>
+      <span class="subpage-tr-kicker">Nossa história</span>
+      <h1 class="subpage-tr-title">Tecnologia a serviço<br>de quem <em>quer crescer</em></h1>
+      <p class="subpage-tr-copy">A TRCon Group nasceu da percepção de que a maioria das pessoas não tem acesso a ferramentas financeiras inteligentes, mas deveria ter.</p>
+      <div class="subpage-tr-divider"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="about-split">
+      <div class="about-visual">
+        <div class="about-visual-inner">
+          <div class="big-number">2005</div>
+          <p style="color:var(--text2);font-size:0.9rem;margin-top:8px;">Fundação da TRCon Group</p>
+          <div style="margin-top:32px;display:grid;grid-template-columns:1fr 1fr;gap:16px;text-align:left;">
+            <div style="background:var(--bg3);border-radius:10px;padding:16px;">
+              <div style="font-family:'Syne',sans-serif;font-size:1.6rem;font-weight:800;color:var(--accent)">3+</div>
+              <div style="font-size:0.78rem;color:var(--text3);margin-top:4px;">Produtos em desenvolvimento</div>
+            </div>
+            <div style="background:var(--bg3);border-radius:10px;padding:16px;">
+              <div style="font-family:'Syne',sans-serif;font-size:1.6rem;font-weight:800;color:var(--accent2)">IA</div>
+              <div style="font-size:0.78rem;color:var(--text3);margin-top:4px;">No núcleo de tudo</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-text">
+        <h2>De uma ideia simples para uma plataforma completa</h2>
+        <p>Tudo começou com uma pergunta: <em style="color:var(--text);">"Por que é tão difícil entender onde colocar meu dinheiro?"</em> A resposta nos levou a criar soluções que traduzem o complexo mundo financeiro em linguagem acessível para qualquer pessoa.</p>
+        <p>Hoje, desenvolvemos tecnologia que une inteligência artificial, análise de dados e design intuitivo para democratizar o acesso à inteligência financeira no Brasil.</p>
+        <p>Nosso próximo passo é lançar o <strong style="color:var(--accent)">Sírius - Hub de Inteligência Financeira</strong> — uma ferramenta que ajuda famílias brasileiras a organizarem suas finanças e descobrirem onde seu dinheiro pode render mais.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section>
+    <div class="section-label">Nossos pilares</div>
+    <div class="section-title">O que nos <em style="color:var(--accent);font-style:normal">move</em></div>
+
+    <div class="cards-grid" style="margin-top:40px;">
+      <div class="card">
+        <div class="card-icon" style="background:rgba(0,212,170,0.1)">🤖</div>
+        <h3>Inteligência Artificial</h3>
+        <p>Desenvolvemos modelos de IA para análise de humor de mercado, predição de tendências e sugestão de investimentos adaptados ao perfil do usuário. Nossa IA fala a língua do cotidiano.</p>
+        <span class="card-tag">Em desenvolvimento →</span>
+      </div>
+      <div class="card">
+        <div class="card-icon" style="background:rgba(0,151,255,0.1)">🎬</div>
+        <h3>IA Generativa & Mídia</h3>
+        <p>Criamos imagens, vídeos e conteúdos visuais com inteligência artificial. Produção de filmes, campanhas e material educativo com qualidade profissional e agilidade tecnológica.</p>
+        <span class="card-tag">Em desenvolvimento →</span>
+      </div>
+      <div class="card">
+        <div class="card-icon" style="background:rgba(240,180,41,0.1)">📊</div>
+        <h3>Big Data & BI</h3>
+        <p>Análise de grandes volumes de dados para gerar insights acionáveis. Business Intelligence aplicado ao mercado financeiro, comportamento de consumo e tendências econômicas.</p>
+        <span class="card-tag">Em desenvolvimento →</span>
+      </div>
+      <div class="card">
+        <div class="card-icon" style="background:rgba(255,107,53,0.1)">🏠</div>
+        <h3>Finanças Pessoais</h3>
+        <p>Ecossistema Financeiro Digital, calculadoras de investimento e guias práticos. Ajudamos famílias brasileiras a estruturarem suas finanças com simplicidade e eficiência.</p>
+        <span class="card-tag">Beta em breve →</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section>
+    <div class="section-label">Próximos passos</div>
+    <div class="section-title">Onde queremos <em style="color:var(--accent);font-style:normal">chegar</em></div>
+
+    <div class="pillar-list" style="max-width:680px;margin-top:40px;">
+      <div class="pillar">
+        <span class="pillar-icon">🚀</span>
+        <div>
+          <h4>App de Análise de Mercado com IA</h4>
+          <p>Um assistente financeiro inteligente que lê o humor do mercado em tempo real e traduz isso em recomendações simples e personalizadas para o seu perfil.</p>
+        </div>
+      </div>
+      <div class="pillar">
+        <span class="pillar-icon">📱</span>
+        <div>
+          <h4>Ecossistema Financeiro Digital</h4>
+          <p>App para controle financeiro doméstico com sugestões automáticas de onde aplicar o excedente do mês sem deixar o dinheiro perder valor para a inflação.</p>
+        </div>
+      </div>
+      <div class="pillar">
+        <span class="pillar-icon">🌐</span>
+        <div>
+          <h4>Plataforma de Conteúdo Financeiro</h4>
+          <p>Hub de informação onde qualquer pessoa encontra análises de mercado, dicas de economia e ferramentas financeiras em um só lugar acessível.</p>
+        </div>
+      </div>
+      <div class="pillar">
+        <span class="pillar-icon">🎓</span>
+        <div>
+          <h4>Educação Financeira Escalável</h4>
+          <p>Cursos, vídeos e materiais produzidos com IA generativa para democratizar o conhecimento financeiro em todo o Brasil.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ════════════════════════════════
+     PAGE: SERVIÇOS
+════════════════════════════════ -->
+<div class="page" id="page-servicos">
+  <section class="subpage-tr-hero">
+    <canvas class="tr-neural-canvas subpage-neural-canvas" aria-hidden="true"></canvas>
+    <div class="subpage-tr-status">
+      <span>TRCON SERVICES</span>
+      <span>DESENVOLVIMENTO CUSTOMIZACAO ALOCACAO</span>
+    </div>
+    <div class="subpage-tr-grid"></div>
+    <div class="subpage-tr-corner tl"></div>
+    <div class="subpage-tr-corner tr"></div>
+    <div class="subpage-tr-corner bl"></div>
+    <div class="subpage-tr-corner br"></div>
+    <div class="subpage-tr-stage">
+      <div class="subpage-tr-logo">
+        <img src="assets/trcon-logo.png" alt="TRCON Group">
+      </div>
+      <span class="subpage-tr-kicker">Nossos serviços</span>
+      <h1 class="subpage-tr-title">Software sob medida<br>e o <em>time</em> para sustentar</h1>
+      <p class="subpage-tr-copy">Da concepção à operação: construímos, adaptamos e reforçamos times de tecnologia com rigor de engenharia e foco em resultado de negócio.</p>
+      <div class="subpage-tr-divider"></div>
+    </div>
+  </section>
+
+  <!-- DESENVOLVIMENTO SOB DEMANDA -->
+  <section>
+    <div class="section-label">Desenvolvimento sob demanda</div>
+    <div class="section-title">Do <em style="color:var(--accent);font-style:normal">MVP</em> à plataforma completa</div>
+    <p class="section-sub">Projetos de software construídos do zero para o seu negócio, com arquitetura limpa (MVC/SOLID), cobertura de testes e entrega contínua.</p>
+
+    <div class="cards-grid" style="margin-top:40px;">
+      <div class="card">
+        <div class="card-icon" style="background:rgba(0,151,255,0.1)">🧭</div>
+        <h3>Descoberta e escopo</h3>
+        <p>Entendemos o problema antes de escrever código. Definição de escopo, arquitetura alvo e critérios de pronto acordados com você.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon" style="background:rgba(0,212,170,0.1)">🏗️</div>
+        <h3>Engenharia com rigor</h3>
+        <p>Camadas bem separadas, código testado (cobertura acima de 80%) e revisão de arquitetura em cada entrega. Nada de dívida técnica escondida.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon" style="background:rgba(240,180,41,0.1)">🚢</div>
+        <h3>Entrega e evolução</h3>
+        <p>CI/CD, ambientes controlados e observabilidade desde o início. Você recebe software que roda em produção, não só protótipo.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CUSTOMIZAÇÃO -->
+  <section>
+    <div class="section-label">Customização de sistemas</div>
+    <div class="section-title">Evoluir sem <em style="color:var(--accent);font-style:normal">recomeçar</em></div>
+    <p class="section-sub">Adaptamos produtos existentes — nossos ou do seu ambiente — a novas regras, integrações e fluxos, preservando o que já funciona.</p>
+
+    <div class="pillar-list" style="max-width:680px;margin-top:40px;">
+      <div class="pillar">
+        <span class="pillar-icon">🔌</span>
+        <div>
+          <h4>Integrações</h4>
+          <p>Conexão com ERPs, gateways, APIs de terceiros e serviços internos, com contratos claros e tratamento de falha previsível.</p>
+        </div>
+      </div>
+      <div class="pillar">
+        <span class="pillar-icon">📐</span>
+        <div>
+          <h4>Novas regras de negócio</h4>
+          <p>Ajuste de fluxos, cálculos e políticas sem reescrever o sistema — extensão por design, não remendo.</p>
+        </div>
+      </div>
+      <div class="pillar">
+        <span class="pillar-icon">🛡️</span>
+        <div>
+          <h4>Modernização segura</h4>
+          <p>Refatoração incremental com testes de regressão, para reduzir risco e manter o sistema no ar durante a evolução.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ALOCAÇÃO DE MÃO DE OBRA -->
+  <section>
+    <div class="section-label">Alocação de mão de obra</div>
+    <div class="section-title">O <em style="color:var(--accent);font-style:normal">time certo</em>, no modelo certo</div>
+    <p class="section-sub">Profissionais de tecnologia alocados no seu time, com o nível de senioridade e o formato de engajamento que o projeto exige.</p>
+
+    <div class="cards-grid" style="margin-top:40px;">
+      <div class="card">
+        <div class="card-icon" style="background:rgba(0,212,170,0.1)">🧩</div>
+        <h3>Squad dedicado</h3>
+        <p>Time completo (dev, dados, IA, QA) trabalhando de forma dedicada ao seu produto, com gestão e ritmo próprios.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon" style="background:rgba(0,151,255,0.1)">⚡</div>
+        <h3>Célula ágil</h3>
+        <p>Grupo menor e focado para uma frente específica, integrado ao seu processo e às suas cerimônias.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon" style="background:rgba(240,180,41,0.1)">🎯</div>
+        <h3>Profissional avulso</h3>
+        <p>Um especialista para cobrir uma competência pontual — reforço de senioridade sem overhead de estrutura.</p>
+      </div>
+    </div>
+
+    <div class="market-disclaimer" style="margin-top:24px;">
+      Perfis disponíveis: desenvolvimento (back-end, front-end, full-stack), dados e BI, IA/ML, QA e engenharia de qualidade, DevOps.
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CTA -->
+  <section style="text-align:center;">
+    <div class="section-title">Vamos conversar sobre o seu <em style="color:var(--accent);font-style:normal">desafio</em></div>
+    <p class="section-sub" style="margin-left:auto;margin-right:auto;">Conte o que você precisa — produto, projeto sob demanda, customização ou um time — e retornamos com o melhor caminho.</p>
+    <div class="tr-actions" style="justify-content:center;margin-top:28px;">
+      <a href="#" class="btn btn-primary btn-lg" data-page-link="beta" data-lead-type="ALOCACAO_MAO_DE_OBRA">Falar com um especialista →</a>
+      <a href="#" class="btn btn-ghost btn-lg" data-page-link="produtos">Ver produtos</a>
+    </div>
+  </section>
+</div>
+
+<!-- ════════════════════════════════
+     PAGE: PRODUTOS
+════════════════════════════════ -->
+<div class="page" id="page-produtos">
+  <section class="subpage-tr-hero subpage-tr-hero-products">
+    <canvas class="tr-neural-canvas subpage-neural-canvas" aria-hidden="true"></canvas>
+    <div class="subpage-tr-status">
+      <span>TRCON PRODUCTS</span>
+      <span>AI ENGINE ONLINE</span>
+    </div>
+    <div class="subpage-tr-grid"></div>
+    <div class="subpage-tr-corner tl"></div>
+    <div class="subpage-tr-corner tr"></div>
+    <div class="subpage-tr-corner bl"></div>
+    <div class="subpage-tr-corner br"></div>
+    <div class="subpage-tr-stage">
+      <div class="subpage-tr-logo">
+        <img src="assets/trcon-logo.png" alt="TRCON Group">
+      </div>
+      <span class="subpage-tr-kicker">Portfólio</span>
+      <h1 class="subpage-tr-title">Produtos em <em>desenvolvimento</em></h1>
+      <p class="subpage-tr-copy">Ferramentas construídas para democratizar o acesso à inteligência financeira. Alguns produtos já estão em fase beta para testes guiados.</p>
+      <div class="subpage-tr-divider"></div>
+    </div>
+  </section>
+
+  <div class="product-cards">
+
+    <div class="product-card">
+      <span class="product-badge badge-beta">Beta — Teste gratuito</span>
+      <h3>Sírius - Hub de Inteligência Financeira</h3>
+      <h4>Ecossistema Financeiro Digital</h4>
+      <p>Registre receitas e despesas e entenda seus hábitos financeiros para tomar decisões mais inteligentes.</p>
+      <div class="feature-list">
+        <div class="feature-item">Dashboard com visão mensal e periódica</div>
+        <div class="feature-item">Visão estruturada de saldos e valores comprometidos</div>
+        <div class="feature-item">Segurança para não ultrapassar os limites planejados</div>
+        <div class="feature-item">Alertas de gastos acima do planejado</div>
+       <!-- <div class="feature-item">Meta de reserva de emergência</div>-->
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;">
+        <a href="#" class="btn btn-primary" data-page-link="beta">Beta Test</a>
+        <a href="#" class="btn-outline" data-page-link="beta">Saiba mais</a>
+      </div>
+    </div>
+
+    <div class="product-card blue">
+      <span class="product-badge badge-dev">Em desenvolvimento</span>
+      <h3>Market AI — Análise de Mercado</h3>
+      <p>Assistente financeiro com IA que monitora o mercado 24/7 e te diz, em linguagem simples, quais ativos estão com melhor momento para aplicação agora.</p>
+      <div class="feature-list">
+        <div class="feature-item">Análise de humor de mercado em tempo real</div>
+        <div class="feature-item">Cotações: dólar, euro, bolsa, cripto</div>
+        <div class="feature-item">Recomendações personalizadas por perfil</div>
+        <div class="feature-item">Explicações sem jargão financeiro</div>
+        <div class="feature-item">Alertas de oportunidade e risco</div>
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;">
+        <a href="#" class="btn-outline btn-outline-primary">Em desenvolvimento</a>
+      </div>
+    </div>
+
+    <div class="product-card orange">
+      <span class="product-badge badge-soon">Breve</span>
+      <h3>BI & Analytics Dashboard</h3>
+      <p>Plataforma de Business Intelligence para análise de dados financeiros e comportamentais. Relatórios automatizados, visualizações interativas e insights acionáveis.</p>
+      <div class="feature-list">
+        <div class="feature-item">Conectores para múltiplas fontes de dados</div>
+        <div class="feature-item">Dashboards customizáveis</div>
+        <div class="feature-item">Análise preditiva com Machine Learning</div>
+        <div class="feature-item">Exportação em múltiplos formatos</div>
+        <div class="feature-item">API para integrações</div>
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;">
+          <a href="mailto:amilton.leme@trcongroup.com.br" class="btn btn-primary">Envie um email para um especialista</a>
+      </div>
+    </div>
+
+    <div class="product-card product-card-ia">
+      <div class="product-card-ia-layout">
+        <div>
+          <span class="product-badge badge-dev">Serviço Ativo</span>
+          <h3>IA Generativa & Produção de Conteúdo</h3>
+          <p>Criação de imagens, vídeos e filmes com inteligência artificial. Conteúdo para redes sociais, campanhas publicitárias e material educativo com velocidade e qualidade profissional.</p>
+          <div class="feature-list">
+            <div class="feature-item">Geração de imagens e vídeos com IA</div>
+            <div class="feature-item">Produção de filmes e animações</div>
+            <div class="feature-item">Conteúdo financeiro educativo</div>
+            <div class="feature-item">Campanhas para redes sociais</div>
+          </div>
+          <a href="mailto:amilton.leme@trcongroup.com.br" class="btn btn-primary" style="margin-top:8px;">Envie um email para o especialista</a>
+        </div>
+        <div class="product-card-ia-highlights">
+          <div style="background:var(--bg3);border-radius:12px;padding:20px;text-align:center;">
+            <div style="font-size:2rem;margin-bottom:8px;">🎬</div>
+            <div style="font-size:0.82rem;color:var(--text2)">Produção de vídeo</div>
+          </div>
+          <div style="background:var(--bg3);border-radius:12px;padding:20px;text-align:center;">
+            <div style="font-size:2rem;margin-bottom:8px;">🖼️</div>
+            <div style="font-size:0.82rem;color:var(--text2)">Imagens com IA</div>
+          </div>
+          <div style="background:var(--bg3);border-radius:12px;padding:20px;text-align:center;">
+            <div style="font-size:2rem;margin-bottom:8px;">📊</div>
+            <div style="font-size:0.82rem;color:var(--text2)">Análise de dados</div>
+          </div>
+          <div style="background:var(--bg3);border-radius:12px;padding:20px;text-align:center;">
+            <div style="font-size:2rem;margin-bottom:8px;">🤖</div>
+            <div style="font-size:0.82rem;color:var(--text2)">Automação IA</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ════════════════════════════════
+     PAGE: BETA ECOSSISTEMA FINANCEIRO DIGITAL
+════════════════════════════════ -->
+<div class="page" id="page-beta">
+  <section class="subpage-tr-hero subpage-tr-hero-beta">
+    <canvas class="tr-neural-canvas subpage-neural-canvas" aria-hidden="true"></canvas>
+    <div class="subpage-tr-status">
+      <span>BETA ACCESS</span>
+      <span>ECOSSISTEMA FINANCEIRO DIGITAL</span>
+    </div>
+    <div class="subpage-tr-grid"></div>
+    <div class="subpage-tr-corner tl"></div>
+    <div class="subpage-tr-corner tr"></div>
+    <div class="subpage-tr-corner bl"></div>
+    <div class="subpage-tr-corner br"></div>
+    <div class="subpage-tr-stage">
+      <div class="subpage-tr-logo">
+        <img src="assets/trcon-logo.png" alt="TRCON Group">
+      </div>
+      <span class="subpage-tr-kicker">Sírius - Hub de Inteligência Financeira</span>
+      <h1 class="subpage-tr-title subpage-tr-title-beta">
+        <span>Ecossistema Financeiro Digital</span>
+        <em>Sírius - Hub de Inteligência Financeira</em>
+      </h1>
+      <p class="subpage-tr-copy">Transforme dados financeiros em decisões inteligentes. Seja um dos pioneiros no Sírius Beta.</p>
+      <div class="subpage-tr-divider"></div>
+    </div>
+  </section>
+
+  <section class="waitlist-section">
+    <div class="waitlist-layout">
+      <div>
+        <div class="section-label">Acesso antecipado</div>
+        <h2 class="section-title">Organize sua casa com mais clareza</h2>
+        <p class="section-sub" style="margin:16px 0 0;">O Ecossistema Financeiro Digital ajuda a registrar entradas, despesas, metas e sobra mensal em uma visão simples para decisões financeiras melhores.</p>
+        <div class="waitlist-note">
+          As vagas são limitadas. Preencha o formulário e garanta seu acesso antecipado ao ecossistema financeiro que vai mudar sua relação com o dinheiro.
+          <br><br>Versão beta em testes. Algumas informações podem estar incompletas ou imprecisas — use com bom senso.
+        </div>
+      </div>
+
+      <form class="waitlist-form" id="betaWaitlistForm">
+        <div class="field-grid">
+          <label>
+            Nome
+            <input type="text" name="nome" autocomplete="name" required>
+          </label>
+          <label>
+            E-mail
+            <input type="email" name="email" autocomplete="email" required>
+          </label>
+          <label>
+            Telefone
+            <input type="tel" name="telefone" autocomplete="tel" required>
+          </label>
+          <label>
+            Tenho interesse em
+            <select name="tipoInteresse" required>
+              <option value="PRODUTO">Produto / acesso beta</option>
+              <option value="DESENVOLVIMENTO_SOB_DEMANDA">Desenvolvimento sob demanda</option>
+              <option value="CUSTOMIZACAO">Customização de sistema</option>
+              <option value="ALOCACAO_MAO_DE_OBRA">Alocação de mão de obra</option>
+            </select>
+          </label>
+          <label>
+            Uso pretendido <span style="color:var(--text3);font-weight:400;">(opcional)</span>
+            <select name="uso">
+              <option value="">Selecione</option>
+              <option>Organização familiar</option>
+              <option>Uso individual</option>
+              <option>Profissional liberal</option>
+              <option>Pequeno negócio</option>
+              <option>Estudo ou validação</option>
+            </select>
+          </label>
+          <label class="full-field">
+            Mensagem
+            <textarea name="mensagem" placeholder="Conte rapidamente o que você precisa: produto, projeto, customização ou um time."></textarea>
+          </label>
+        </div>
+        <div class="waitlist-actions">
+          <button type="submit" class="btn btn-primary">Entrar na fila de espera</button>
+          <a href="#" class="btn-outline" data-page-link="produtos">Voltar aos produtos</a>
+        </div>
+        <div class="waitlist-success" id="betaWaitlistSuccess" hidden>
+          <strong>Cadastro recebido!</strong>
+          <p>Seus dados foram enviados para a fila de espera. Logo entraremos em contato.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+</div>
+
+<!-- ════════════════════════════════
+     PAGE: CLIENTES
+════════════════════════════════ -->
+<div class="page" id="page-clientes">
+  <section class="subpage-tr-hero">
+    <canvas class="tr-neural-canvas subpage-neural-canvas" aria-hidden="true"></canvas>
+    <div class="subpage-tr-status">
+      <span>TRCON AUDIENCE</span>
+      <span>SISTEMAS OPERACIONAIS</span>
+    </div>
+    <div class="subpage-tr-grid"></div>
+    <div class="subpage-tr-corner tl"></div>
+    <div class="subpage-tr-corner tr"></div>
+    <div class="subpage-tr-corner bl"></div>
+    <div class="subpage-tr-corner br"></div>
+    <div class="subpage-tr-stage">
+      <div class="subpage-tr-logo">
+        <img src="assets/trcon-logo.png" alt="TRCON Group">
+      </div>
+      <span class="subpage-tr-kicker">Para quem é</span>
+      <h1 class="subpage-tr-title">Feito para quem<br><em>quer mais</em></h1>
+      <p class="subpage-tr-copy">Nossas soluções foram pensadas para diferentes perfis, de quem está começando a quem quer profissionalizar sua relação com o dinheiro.</p>
+      <div class="subpage-tr-divider"></div>
+    </div>
+  </section>
+
+  <div class="audience-grid">
+    <div class="audience-card">
+      <span class="audience-emoji">👨‍👩‍👧‍👦</span>
+      <h3>Famílias Brasileiras</h3>
+      <p>Para quem quer organizar as finanças da casa, cortar gastos desnecessários e começar a construir uma reserva financeira sólida sem precisar ser especialista.</p>
+    </div>
+    <div class="audience-card">
+      <span class="audience-emoji">🎓</span>
+      <h3>Jovens e Estudantes</h3>
+      <p>Para quem está começando a vida financeira e quer entender como funciona o mercado, onde investir o primeiro salário e como construir hábitos saudáveis desde cedo.</p>
+    </div>
+    <div class="audience-card">
+      <span class="audience-emoji">💼</span>
+      <h3>Profissionais Liberais</h3>
+      <p>Freelancers, autônomos e profissionais que têm renda variável e precisam de ferramentas para equilibrar meses bons e ruins, além de planejar a aposentadoria.</p>
+    </div>
+    <div class="audience-card">
+      <span class="audience-emoji">📈</span>
+      <h3>Investidores Iniciantes</h3>
+      <p>Para quem quer começar a investir mas se perde nos termos técnicos. Traduzimos o mercado financeiro em linguagem simples e acessível para decisões mais seguras.</p>
+    </div>
+    <div class="audience-card">
+      <span class="audience-emoji">🏢</span>
+      <h3>Pequenas Empresas</h3>
+      <p>Empreendedores que precisam de análise de dados, automação e inteligência de negócios para tomar melhores decisões sem contratar grandes equipes de TI.</p>
+    </div>
+    <div class="audience-card">
+      <span class="audience-emoji">🔬</span>
+      <h3>Entusiastas de Tecnologia</h3>
+      <p>Para quem acompanha o mercado de IA, cripto e inovação tecnológica e quer ferramentas que integrem o melhor dessas tendências ao mundo das finanças pessoais.</p>
+    </div>
+  </div>
+
+  <div class="cta-band">
+    <h2>Pronto para começar?</h2>
+    <p>Faça parte da comunidade TRCon Group e seja um dos primeiros a testar nossas ferramentas em beta.</p>
+    <div class="btn-group">
+      <a href="#" class="btn btn-primary btn-lg" data-page-link="produtos">Ver Produtos</a>
+      <a href="#" class="btn btn-ghost btn-lg">Contato</a>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER (aparece em todas as pages) -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <a href="#" class="logo" data-page-link="home" style="font-size:1rem;">
+        <div class="logo-mark" style="width:28px;height:28px;font-size:0.75rem;">TR</div>
+        TRCon <span>Group</span>
+      </a>
+      <p>Tecnologia e inteligência financeira para democratizar o acesso ao conhecimento e ferramentas que antes eram exclusivos de poucos.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Navegação</h5>
+      <ul>
+        <li><a href="#" data-page-link="home">Home</a></li>
+        <li><a href="#" data-page-link="sobre">Quem Somos</a></li>
+        <li><a href="#" data-page-link="servicos">Serviços</a></li>
+        <li><a href="#" data-page-link="produtos">Produtos</a></li>
+        <li><a href="#" data-page-link="clientes">Clientes</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Produtos</h5>
+      <ul>
+        <li><a href="#" data-page-link="beta">Ecossistema Financeiro Digital</a></li>
+        <li><a href="#">Market AI</a></li>
+        <li><a href="#">BI Dashboard</a></li>
+        <li><a href="#">IA Generativa</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Contato</h5>
+      <ul>
+        <li><a href="mailto:amilton.leme@trcongroup.com.br">contato@trcongroup.com.br</a></li>
+        <li><a href="https://trcongroup.com.br">trcongroup.com.br</a></li>
+        <li><a href="https://www.linkedin.com/company/trcongroup/">LinkedIn</a></li>
+        <li><a href="#">Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 TRCon Group. Todos os direitos reservados.</p>
+    <div class="footer-links">
+      <a href="#">Privacidade</a>
+      <a href="#">Termos</a>
+      <a href="#">Cookies</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/env.js"></script>
+<script type="module" src="assets/app.js"></script>
+</body>
+</html>
+
