@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T20:56:23.734038+00:00",
+  "generated_at": "2026-07-04T09:57:21.312939+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -31,29 +31,29 @@
       "signal": "flat"
     },
     {
+      "title": "O modelo de IA que sua empresa contratou pode estar desatualizado — e ninguém te avisou",
+      "summary": "O modelo de IA que sua empresa contratou pode estar desatualizado — e ninguém te avisou",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMmZ3dWFCSkJtaWJkdDdaR1YyNW1VQXgtQnVTeVdiTUktWGx4cEswRENzcVp6ZUJiRUNBVHIyRktXMnZ5VjNFRXYxaWY3OVA0bHpXdGxfdkF4T0g2Z3ppQTFGRVU4bkhvcFREejQzejI3d3RIY1hlLUhGei1IcWQzSUZFQUlta0diRFFMaWd6eE5tcjFuRFV4b2I4Y3VEOXFIRmFfSmliVmZBa2ZDazJfUkNjZTg3eEFOTFJTWmZzc1czQUtQMjZj?oc=5",
+      "source": "Exame",
+      "published_at": "Sat, 04 Jul 2026 09:21:02 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Empresa busca acelerar uso da inteligência artificial no Brasil",
+      "summary": "Empresa busca acelerar uso da inteligência artificial no Brasil",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSlB5elVxdk01ajJ1cVJBcVE0TkRfWERWcVBKZUxla3FYTzJ2c2xlTzdEMWxNelBJOU5USlc0TzIxMWd1akVfRm9JUkNBZWFpVHQzN2x3dWxZUnBSMDZ6T09PWXJ1U0RlMGR5N01vR3RBSE9XRXp2TDByRkl4cmo0UnEtenFOMlBvMVVaZ1I4UHNabnJ6NnpvTWtMZTIwR1JRYzVTVDJB0gGmAUFVX3lxTE1KUHl6VXF2TTVqMnVxUkFxUTRORF9YRFZxUEplTGVrcVhPMnZzbGVPN0QxbE16UEk5TlRKVzRPMjExZ3VqRV9Gb0lSQ0FlYWlUdDM3bHd1bFlScFIwNnpPT09ZcnVTRGUwZHk3TW9HdEFIT1dFenZMMHJGSXhyajRScS16cU4yUG8xVVpnUjhQc1pucno2em9Na0xlMjBHUlFjNVNUMkE?oc=5",
+      "source": "A Crítica",
+      "published_at": "Sat, 04 Jul 2026 00:37:55 GMT",
+      "category": "IA",
+      "signal": "up"
+    },
+    {
       "title": "Cada vez mais empresas recontratam funcionários demitidos por conta da IA: substituição não gerou lucros",
       "summary": "Cada vez mais empresas recontratam funcionários demitidos por conta da IA: substituição não gerou lucros",
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPclJILU5PM200OS1TT3RnSDhnWjVaMXRNQjV3SGE4NTRUem9uQTk3VlVNcVd6M2hUaVFWVzh0YVNwazg1aXhSRTJxMnJPQm1vZUVPN1MydUtaSmtnV05iWmkxdFNKbmdHR0E0ZkttVHZIc0FyUVlZcDlsa2RyUTVWWGZiS1k1cXJERC1FS3lvYTlydDMxY2E2UE11Z3FNczRLemNKaVEyeEg1ZkVZWi1RZmNfOC1HVHpEMTJSN3d5NW1RMnpleGhjclgyR2pjMVdNR2hJemtFOW5mQkJDV0I5N3ZjVWZsNkgzZ29JWUtuekdCemZMWjFNVmtlRWdWYUtxNG84b18wd2FDd2c?oc=5",
       "source": "Terra",
       "published_at": "Thu, 02 Jul 2026 16:02:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Com tecnologia já adotada por 72% das empresas, avanço de inteligência artificial pressiona decisões sobre uso de dados e design",
-      "summary": "Com tecnologia já adotada por 72% das empresas, avanço de inteligência artificial pressiona decisões sobre uso de dados e design",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQanBzaThkYkMxMWVwNnhyOXVmYjNfcDF5YmIzc3RqZnVvX3l6clpneWtHeEFOb3E2OE9DcXl3em9UM0NxbFBueDNPVk43RE1PSENfaS10SmJKZ29kUlBGblc2TTB6TEcxdm5HQmhYWEJnTk1RNU0tOFBHWS1LazZlTDdsMDhfc19idmtTOS1NWTN5YnE4OTZBS3FvSTkzYnlHR1JUMGIxU0ZQZWM2VjZmTzhVamIxYmdrX2hTNW1tX1ZQWG1qU2ZLU01oZ2tXWVFwWThIVXFEcVRIdS1zTk9YazVwb3JyZ3diNlhobA?oc=5",
-      "source": "cndl.org.br",
-      "published_at": "Fri, 03 Jul 2026 19:40:35 GMT",
-      "category": "IA",
-      "signal": "up"
-    },
-    {
-      "title": "Brasil pode exportar inteligência artificial em setores estratégicos, diz CEO do Templo",
-      "summary": "Brasil pode exportar inteligência artificial em setores estratégicos, diz CEO do Templo",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbERuMnQ3WXFHZkhEcGIweWw0R3FjUV96ZzVBLThURHpUNkp3bFNXTF9yXzVHRDVjUEUwTmZUWk9rTVdCMURpa2pFVmhmVURhWUw0UU12eS1EVm56eEdEcW9VNW5ITjFUaDE1clVfaXR1YkxnXy1OWEtvc3VSSU9QZWIwcDhuMkRBWmJTVVk3LTVfZ0t0YVFBZ052ay1kWDJ5RW1xT0d5eTVMTklzNnJSOUhZdy1LV2FsUmU5LW5YV1BhWVhOX01FYnN1WTdyLWNuNS0ydw?oc=5",
-      "source": "Times Brasil | CNBC",
-      "published_at": "Fri, 03 Jul 2026 17:30:00 GMT",
       "category": "IA",
       "signal": "flat"
     }
