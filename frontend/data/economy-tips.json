@@ -1,19 +1,6 @@
 {
-  "generated_at": "2026-07-04T20:46:32.477377+00:00",
+  "generated_at": "2026-07-05T10:01:13.244616+00:00",
   "items": [
-    {
-      "tag": "Compras",
-      "tag_class": "tag-gold",
-      "title": "Compare preco por unidade, nao so o preco da embalagem",
-      "body": "No supermercado, olhe o preco por quilo, litro ou unidade. Promocoes grandes nem sempre sao mais baratas e podem virar desperdicio.",
-      "meta": [
-        "3 min",
-        "Economia recorrente"
-      ],
-      "url": "https://www.google.com/search?q=como+comparar+preco+por+quilo+litro+unidade",
-      "link_label": "Aprender a comparar",
-      "featured": true
-    },
     {
       "tag": "Cartao",
       "tag_class": "tag-orange",
@@ -24,7 +11,8 @@
         "Controle alto"
       ],
       "url": "https://www.google.com/search?q=como+usar+cartao+de+credito+sem+se+endividar",
-      "link_label": "Ver cuidados"
+      "link_label": "Ver cuidados",
+      "featured": true
     },
     {
       "tag": "Renda Fixa",
@@ -67,6 +55,18 @@
           "color": "var(--gold)"
         }
       ]
+    },
+    {
+      "tag": "Cotidiano",
+      "tag_class": "tag-orange",
+      "title": "Revise assinaturas antes de cortar o essencial",
+      "body": "Some streaming, apps, armazenamento, clubes e planos esquecidos. Cancelar dois servicos pouco usados costuma gerar economia sem reduzir qualidade de vida.",
+      "meta": [
+        "4 min",
+        "Impacto imediato"
+      ],
+      "url": "https://www.google.com/search?q=como+cancelar+assinaturas+e+economizar+dinheiro",
+      "link_label": "Ver checklist"
     }
   ]
 }
