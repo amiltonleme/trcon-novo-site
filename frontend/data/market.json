@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T10:01:13.195381+00:00",
+  "generated_at": "2026-07-05T20:50:52.684287+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -23,15 +23,15 @@
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 62.568",
-      "change": "+0,24%",
-      "direction": "up"
+      "value": "US$ 62.702",
+      "change": "-0,89%",
+      "direction": "down"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 1.757",
-      "change": "+0,02%",
-      "direction": "up"
+      "value": "US$ 1.776",
+      "change": "-0,62%",
+      "direction": "down"
     },
     {
       "symbol": "OURO",
@@ -90,9 +90,9 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 62.568",
-      "change": "+0,24%",
-      "direction": "up",
+      "quote": "US$ 62.702",
+      "change": "-0,89%",
+      "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
       "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
@@ -101,9 +101,9 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 1.757",
-      "change": "+0,02%",
-      "direction": "up",
+      "quote": "US$ 1.776",
+      "change": "-0,62%",
+      "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
       "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
@@ -168,12 +168,12 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaS1CVUd0LUFkNjJIVHI3a1MxZmZ6b3ZTOHh4RWExTG04YmRVQlFtaFRTV1hkcEx6cFVodTFtS2FCTmxVTk84ZkNIZlZJcUtMNUh0SWNiQTBVdVduOVloM0NqdGhIejEyRHNpUmRub09WR01WOUdtd19LY1ROVVA5SXlqZ3BIeU9yenk1SF9mcXFzUUU0LU04TFY5eDk2Z00?oc=5"
     },
     {
-      "title": "Dólar fecha acima de R$ 5,20 enquanto bolsa de valores recua",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUVZlMkpKSUo5ckVPNmEwUWpiYzJPeDBUTkpIdlpENWFUNDJSb2duUzVNajBMUVRkVGxUa01udUN6aEJRdUUtYllwb2FFTGFRNkRhNmx2cHFCR3Q2dWpvcjM4OXRBN2pGSkFSUVR3U1I1XzZjaGhoZTNzV1pJQjA2TVNfSFZDcjBhdWZIRGNhNDFiTzhHY21nQmkyQkk3RDQxU1dHYVJVckxRYzdROTQw0gG0AUFVX3lxTFBVNkZ5OTJWX1FkS19kSFBwdWc0MUJXeXJ6OElQei1kdVMyRzZKb04wQjZuN3hYd183M1Q5ZHNTYUV5REFmMVVRd1JYcUUwaVNfVDYwYXBQOXZHcmFQSnVpQW41RENFUmJST28yNWt1SkxKdnhtbXlCQ0ozU2pMcWQxbjNmWGdyWmVNNENqVTZKMzFjVWE3bnhTRTJfRl9rR2Q4QjItZzFLYTIxNHFmemFCSk9qUw?oc=5"
-    },
-    {
       "title": "Ibovespa fecha em queda, com exterior, inflação nos EUA e guerra",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaEtuOVdEeFgwUG91RW4yRDhUaGJnUTgzNHV0cDJ5WWtOM2xfRVNrcjNlS3ZzTjVYODl6QkFyT0U2TjZJR1BRemJMNUU1OEtDNnhQcFBCQl9qalFiTXNiNXZYUGUtREVrWS1DVTJrOXlEMzNmWEhlRE9qNzJrTmsxa0RsWmNlQUdNVEZYZDNXcw?oc=5"
+    },
+    {
+      "title": "Dólar cai e Bolsa sobe com decisões de juros do Brasil e dos Estados Unidos em foco",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOXl2ZmRLRmdPdTVEbEd4Z015LXJycDRybW5rTkhtU25yX1JlMHA2Zkt5ZzQ0OHBLWWs5WWxmcWJYZmRHRk1ESkRZUjBuWmowXzN4TVdLMUhTVFRPR1NTQVMyWXpzS1FJUW5TSUNtVU1jYlpEQ0ZHd1lNNWxvYkE2WjFOeUo1NXVGYkRZdkxES2tsX21iSDN4WmhjbXRIbFlXU0JhQXVpN2poaDdXTXVoS042N2VBdmhGSlE?oc=5"
     }
   ],
   "market_mood": {
