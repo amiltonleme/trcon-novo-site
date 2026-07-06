@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-07-05T20:50:54.949863+00:00",
+  "generated_at": "2026-07-06T11:52:38.884325+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
+    {
+      "source": "Portal 93",
+      "category": "IA",
+      "title": "Quanto mais inteligência artificial, mais empregos",
+      "summary": "Quanto mais inteligência artificial, mais empregos",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1xTEFPMEpoY3ZSbWM4a2R3M0tFZ3hZMEF0SVRSaTVsMTc3MGNmaDFZdFZpQ1poSEY5QnNNcnlMVm9QQnM4WU9PX0tZZ1dWVWJHc0tPeUlWSnhBMmFWSngyMTNhNFQyUDJfZ1J5dS1OSDBhOEHSAXNBVV95cUxNcUxBTzBKaGN2Um1jOGtkdzNLRWd4WTBBdElUUmk1bDE3NzBjZmgxWXRWaUNaaEhGOUJzTXJ5TFZvUEJzOFlPT19LWWdXVlViR3NLT3lJVkp4QTJhVkp4MjEzYTRUMlAyX2dSeXUtTkgwYThB?oc=5",
+      "publishedAt": "Sun, 05 Jul 2026 23:30:01 GMT"
+    },
     {
       "source": "Seu Dinheiro",
       "category": "IA",
@@ -20,12 +28,12 @@
       "publishedAt": "Fri, 03 Jul 2026 18:59:57 GMT"
     },
     {
-      "source": "Exame",
+      "source": "A Gazeta",
       "category": "IA",
-      "title": "O modelo de IA que sua empresa contratou pode estar desatualizado — e ninguém te avisou",
-      "summary": "O modelo de IA que sua empresa contratou pode estar desatualizado — e ninguém te avisou",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMmZ3dWFCSkJtaWJkdDdaR1YyNW1VQXgtQnVTeVdiTUktWGx4cEswRENzcVp6ZUJiRUNBVHIyRktXMnZ5VjNFRXYxaWY3OVA0bHpXdGxfdkF4T0g2Z3ppQTFGRVU4bkhvcFREejQzejI3d3RIY1hlLUhGei1IcWQzSUZFQUlta0diRFFMaWd6eE5tcjFuRFV4b2I4Y3VEOXFIRmFfSmliVmZBa2ZDazJfUkNjZTg3eEFOTFJTWmZzc1czQUtQMjZj?oc=5",
-      "publishedAt": "Sat, 04 Jul 2026 09:21:02 GMT"
+      "title": "IA não é mágica: por que tantas empresas investem e ainda não conseguem resultados",
+      "summary": "IA não é mágica: por que tantas empresas investem e ainda não conseguem resultados",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOGVEcWVxV1puVDZ4UkZXNFVfOGUwLVlzX0RQcDVJeGYzOVYxSHR6aTEtVlpuYWU4eGFNbl85NkRWQ2pydjhOa3UxYlFjY2hZVXE1RE81Qm1IN3BiaGlRVkE5UEZ2UENMXzNTZV93d3lUa2JnNWZ0Q0dtOEI5TUhwcVRQdHV4RmdFOVhoLUpvdE5PS0VoWkJ6cWdrWEFzQnVNVzM1UDRmV3VZdHdSQ3VIQ3FIeUpuRnR0TUtSTWR3?oc=5",
+      "publishedAt": "Sat, 04 Jul 2026 17:00:00 GMT"
     },
     {
       "source": "Olhar Digital",
@@ -36,20 +44,12 @@
       "publishedAt": "Fri, 03 Jul 2026 13:13:00 GMT"
     },
     {
-      "source": "A Crítica",
+      "source": "Sindicato dos Bancários de Cascavel",
       "category": "IA",
-      "title": "Empresa busca acelerar uso da inteligência artificial no Brasil",
-      "summary": "Empresa busca acelerar uso da inteligência artificial no Brasil",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSlB5elVxdk01ajJ1cVJBcVE0TkRfWERWcVBKZUxla3FYTzJ2c2xlTzdEMWxNelBJOU5USlc0TzIxMWd1akVfRm9JUkNBZWFpVHQzN2x3dWxZUnBSMDZ6T09PWXJ1U0RlMGR5N01vR3RBSE9XRXp2TDByRkl4cmo0UnEtenFOMlBvMVVaZ1I4UHNabnJ6NnpvTWtMZTIwR1JRYzVTVDJB0gGmAUFVX3lxTE1KUHl6VXF2TTVqMnVxUkFxUTRORF9YRFZxUEplTGVrcVhPMnZzbGVPN0QxbE16UEk5TlRKVzRPMjExZ3VqRV9Gb0lSQ0FlYWlUdDM3bHd1bFlScFIwNnpPT09ZcnVTRGUwZHk3TW9HdEFIT1dFenZMMHJGSXhyajRScS16cU4yUG8xVVpnUjhQc1pucno2em9Na0xlMjBHUlFjNVNUMkE?oc=5",
-      "publishedAt": "Sat, 04 Jul 2026 00:37:55 GMT"
-    },
-    {
-      "source": "A Gazeta",
-      "category": "IA",
-      "title": "IA não é mágica: por que tantas empresas investem e ainda não conseguem resultados",
-      "summary": "IA não é mágica: por que tantas empresas investem e ainda não conseguem resultados",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOGVEcWVxV1puVDZ4UkZXNFVfOGUwLVlzX0RQcDVJeGYzOVYxSHR6aTEtVlpuYWU4eGFNbl85NkRWQ2pydjhOa3UxYlFjY2hZVXE1RE81Qm1IN3BiaGlRVkE5UEZ2UENMXzNTZV93d3lUa2JnNWZ0Q0dtOEI5TUhwcVRQdHV4RmdFOVhoLUpvdE5PS0VoWkJ6cWdrWEFzQnVNVzM1UDRmV3VZdHdSQ3VIQ3FIeUpuRnR0TUtSTWR3?oc=5",
-      "publishedAt": "Sat, 04 Jul 2026 17:00:00 GMT"
+      "title": "Cada vez mais empresas recontratam funcionários demitidos por conta da IA: substituição não gerou lucros",
+      "summary": "Cada vez mais empresas recontratam funcionários demitidos por conta da IA: substituição não gerou lucros",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQUJRb3JoYmpxY2tXUmhETTc0a3ZLRkowZTJTOW5WdUVVclhmNERSWmNvZlFfYzNoazJId1dQVmFENURKeFY5U1ZxRTM0UE9wclVJWXJoTl9OZWR2TXlVcC05Si13VDhtV05scUpKaWdDRVFkeXJNQWhvT1cxLVZnaWh3LWZERnhrZkUycXdqb183YjlwQUZseEctTlN1eldDVUg2dVYwcGx5RjdBN21ZSUtoSjV3YklYWnZPQU8tWHJJRDh0TGp0ZVRJdVdHREl2OWkzcFlxeHVSSHFRNThpc3dabw?oc=5",
+      "publishedAt": "Mon, 06 Jul 2026 11:33:00 GMT"
     },
     {
       "source": "jornaltribuna.com.br",

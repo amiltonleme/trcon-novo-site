@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T20:50:52.684287+00:00",
+  "generated_at": "2026-07-06T11:52:36.741968+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -23,19 +23,19 @@
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 62.702",
-      "change": "-0,89%",
-      "direction": "down"
+      "value": "US$ 62.891",
+      "change": "+0,44%",
+      "direction": "up"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 1.776",
-      "change": "-0,62%",
-      "direction": "down"
+      "value": "US$ 1.771",
+      "change": "+0,68%",
+      "direction": "up"
     },
     {
       "symbol": "OURO",
-      "value": "US$ 4.187",
+      "value": "US$ 4.166",
       "change": "estavel",
       "direction": "flat"
     },
@@ -90,9 +90,9 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 62.702",
-      "change": "-0,89%",
-      "direction": "down",
+      "quote": "US$ 62.891",
+      "change": "+0,44%",
+      "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
       "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
@@ -101,9 +101,9 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 1.776",
-      "change": "-0,62%",
-      "direction": "down",
+      "quote": "US$ 1.771",
+      "change": "+0,68%",
+      "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
       "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
@@ -112,7 +112,7 @@
       "id": "gold",
       "name": "Ouro",
       "icon": "🥇",
-      "quote": "US$ 4.187",
+      "quote": "US$ 4.166",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Cautela",
@@ -148,6 +148,10 @@
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQekF3WTBBeGplQndvVExVTUd4OXdOazhxRVE2clBCQlQzejFQRkQwWHN3Q1F0cU42WnR1RVpKaWVvR0VmQkoyOG9Ja3cwbHktdkxBaXU1WFRKb3ZFZ0EtVkNDY1JWZkMzV3dGSEw0RzQ3QTBHQ3prNXB2SFQwLTRySDdwT1dTV3FPN2I3eDdiZXpRb0ZvTDNjbzZZMkNfR09Zc1BWdHRxRTdSdmxsbUFUdThDeFdjSE5Lc0tJSU96enoxN1c5S2R6YUxnQldyeV9tU2sxMmc2SDA4a3VVYS0yOEhJdnXSAeoBQVVfeXFMTkJ3RjI1NURKSnlmMzVHMzA2Q25XVkYxUHYwOVNsUm1WeUVucE1KQ09HWlIyY1Z5NElQMlRFSWNzdHFMRno0Zm9yejBLLTJZdE9Ma21XNk9YOFViS1NMaHVsU1J1LW5UNWlWZ3dZU0RfS1NGTmFraERkTVdmUEJSUUpoaFNlV1FwMHRLY3ZOMGtjcG10eFN1cEp4QklGZUV6TG5FRGEzZ0IyY1B2V1hYQlBrQWFsRTh4bXZ1aHh0cGVMQ3A1UzFESFhRUzFza0JKRk1Qa1pLMGZYSXlzMkJqTkpqaGEzcUlCUzR3?oc=5"
     },
     {
+      "title": "Dólar reage e Bolsa desacelera após Fed manter juros; mercado aguarda Copom",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQWdvVG9BemZJSG9yRXhXSzZOVHQ5OUZwcWlXQkc2Tk9faVNydDRlTGN2Z3dIMHcwd1doODZKRHZMV0VIWFIySjZWTEl4Y3ZYRWtvUU5pYTlaNUU1VjNyVUZDWUZBNVFXYUFIR19yM0EwWThLVVFuTzQwa25mU212OS1weFJHdU5ZNjdJeWZ1ZVVralctci1odWo3SXo?oc=5"
+    },
+    {
       "title": "Dólar fecha acima de R$ 5,20 e Bolsa cai com pressão dos juros nos Estados Unidos",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaUpsOUJnZnhid29QM09xeU95cllqT1ZGUUJrU0hoNjlWUmlaNHozTzZjM1YtSHdzMUZZZVpsOUotbUVLMHNzdVpsaWY5Ny1IMEM0ZmxHOWRjTlF6Zm12Vm5KbjZQQkhJd3B6dDFIaXZJbnJGZ25Uc2xTb2UwaE5KZXU5d3pab1J1ZjFqVmxvQ0loNkJFVmJJOUxoZ2lodHhpM2lOZC1TbF9QbVlENXdZ?oc=5"
     },
@@ -156,30 +160,26 @@
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5IOGJiVEMtUGJESXpFdEM4MnpEZDhLM2ZLODRqRGFEZmdBckZVSGhfYmU3a195WlZjUnRKbVNlTnE2UE90blVVcDB2cFVuLWZFWjE4?oc=5"
     },
     {
-      "title": "Dólar reage e Bolsa desacelera após Fed manter juros; mercado aguarda Copom",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQWdvVG9BemZJSG9yRXhXSzZOVHQ5OUZwcWlXQkc2Tk9faVNydDRlTGN2Z3dIMHcwd1doODZKRHZMV0VIWFIySjZWTEl4Y3ZYRWtvUU5pYTlaNUU1VjNyVUZDWUZBNVFXYUFIR19yM0EwWThLVVFuTzQwa25mU212OS1weFJHdU5ZNjdJeWZ1ZVVralctci1odWo3SXo?oc=5"
+      "title": "Ibovespa fecha com nova baixa, em meio a queda de Vale e ruídos geopolíticos",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY3Y4TkNaWXRyZkxOb1JXMFk1bkRUZGRUNDg0bTk5c0FRdUNtcmMxZjZ6UlBXY3NGU2dfcDBQMlI1bWpIY2JOeHo2Q0wtX2tObnhGbHZhZVFtbWlLUzFpRWQ0VXk5aEdWQ2tzYm90aUVkN3pJN01KalBFQmc0S0JRNnJQcC1BU1VxaUJ6ZGQ4SQ?oc=5"
     },
     {
-      "title": "Dólar supera R$ 5,20 e bolsa cai com juros nos EUA",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xTDBOT2ZYc2FjbzJxaTgtaG8xUTdFSS0zWEZvbkVSZFdGcW4zamw5YVdaOGhkMnotUmEyOVcxQkktS1hiem9IMUctMFJxX1JPNjlBbXM4QjRrSGJJRFlBSTBaMGU?oc=5"
+      "title": "Bolsa, dólar e juros: o que esperar após EUA classificarem PCC e CV como terroristas",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZER3WDlEYkpJQVZrZWFiSGFrb1NYRzdSTkM0Rzkwc2pmTURnUUUzLWRBTTZjRW1vV3hTZW5CS2ctcnYxWEQwMDd6VXVid0syNWtEeTNLRC1jVDhSdTZTVTBxSlh0dnB3a0NuV3lVc3d3Q2M4cV9XOUdGQmx2RHVtbm9qb0xJTzUxd21lako1OGtXMFpDU1h3U0FyZFBGMXJIOWREMFR3OEpick01aVZkTUFGU2lObW80NnhFRmM1empfZ0hsb1dsbkJHc19KT3VOSDBCcDhKaElzMVZpeGd1UklzYVlaXzQ0VXFMbDJMNUFJcl95ZkpOeU5FWUVNRGRqMVU4WFpNS1FHSlXSAZoCQVVfeXFMUHVtMFU3QXFIZ25Hc2t4VTgwakJVLVU2XzE4U3E3LWcwZ3hqOGFMaUxzOV9MdWxUQTQ5RWZ6bkhtYUZsai1hNms5MHU5amFfSWRubHIxREZjaDdWOF9iVjNtNHpGQnVDemJ0Y2xFTlB1OXJVWnpCV2NlWWJBS3pyQk9ZV2lPaElRaGZ1VEgxN2JfUXhNVUxvekVpeGZ6Z1A5SEttdHhrWjJwdGtaMnpKa1o1MXBBM3ZIaTJ6QUEwQkM2OWdJSkZRMUZHdlVVVy1vY09ncWdiazA4VVRGVmRRNVN4d3FWd0xUV0hRX3ptN3pOeHJNUDRIZURPcU5xRmRJejdsb09hVTh0N21PMzY0NnkxY0dheUkybHF3?oc=5"
     },
     {
-      "title": "Por que a bolsa sobe e o dólar cai quando a indústria encolhe no Brasil?",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaS1CVUd0LUFkNjJIVHI3a1MxZmZ6b3ZTOHh4RWExTG04YmRVQlFtaFRTV1hkcEx6cFVodTFtS2FCTmxVTk84ZkNIZlZJcUtMNUh0SWNiQTBVdVduOVloM0NqdGhIejEyRHNpUmRub09WR01WOUdtd19LY1ROVVA5SXlqZ3BIeU9yenk1SF9mcXFzUUU0LU04TFY5eDk2Z00?oc=5"
+      "title": "Bolsa sobe 1,7% e bate recorde com cenário externo favorável",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUzJoMmFvd25vLWVHQUxBanFlQTUyeGF5MHVDTXZpSlVlcGh6cUFETG11c2g3UmpIQ1lwVC1oWENPU0RxOWtucHhPZDBZeXdxZS1OT3djbW9ZM1ZoUi1oOV9DTmMtVjlCWktCOTR3LVlQMHFxUi1IcWQtejYxUzE0UktrWnB2Uno4LVNnRFFtVU1lYVpmOERBSDl4SE9xRnBjQXJNcElqWUI1TjdIbjRKYTh1UDREN2c?oc=5"
     },
     {
-      "title": "Ibovespa fecha em queda, com exterior, inflação nos EUA e guerra",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaEtuOVdEeFgwUG91RW4yRDhUaGJnUTgzNHV0cDJ5WWtOM2xfRVNrcjNlS3ZzTjVYODl6QkFyT0U2TjZJR1BRemJMNUU1OEtDNnhQcFBCQl9qalFiTXNiNXZYUGUtREVrWS1DVTJrOXlEMzNmWEhlRE9qNzJrTmsxa0RsWmNlQUdNVEZYZDNXcw?oc=5"
-    },
-    {
-      "title": "Dólar cai e Bolsa sobe com decisões de juros do Brasil e dos Estados Unidos em foco",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOXl2ZmRLRmdPdTVEbEd4Z015LXJycDRybW5rTkhtU25yX1JlMHA2Zkt5ZzQ0OHBLWWs5WWxmcWJYZmRHRk1ESkRZUjBuWmowXzN4TVdLMUhTVFRPR1NTQVMyWXpzS1FJUW5TSUNtVU1jYlpEQ0ZHd1lNNWxvYkE2WjFOeUo1NXVGYkRZdkxES2tsX21iSDN4WmhjbXRIbFlXU0JhQXVpN2poaDdXTXVoS042N2VBdmhGSlE?oc=5"
+      "title": "Dólar fecha a R$ 4,91, menor valor em mais de dois anos; Ibovespa sobe",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWjZYck5DSHcyLWNjSXcyS2daaHIxZnpNMkxscGpwd1JQYm15Qk12RkttMXlVY05nZ0xJRm9sQkFvZFpYWlhCVldFdTR0Y0tPZmJYRVBSWnQ0bUhOZzZMaXpINmw0d0NoMjVsTExsbG9lb3REZzZNNnc1M1ViTkJWZkNMU1ZqVDU1NTdkSDhZeWpDRUVGWDdj?oc=5"
     }
   ],
   "market_mood": {
     "label": "Cauteloso",
     "summary": "O noticiario aponta mais incerteza; preservar liquidez e evitar concentracao ganha prioridade.",
-    "score": -4
+    "score": -2
   },
   "errors": []
 }
