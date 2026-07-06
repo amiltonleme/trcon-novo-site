@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T11:52:36.741968+00:00",
+  "generated_at": "2026-07-06T21:23:08.684733+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -11,31 +11,31 @@
     },
     {
       "symbol": "EUR/BRL",
-      "value": "R$ 5,92",
+      "value": "R$ 5,90",
       "change": "0,00%",
       "direction": "flat"
     },
     {
       "symbol": "IBOVESPA",
-      "value": "174.070 pts",
+      "value": "172.448 pts",
       "change": "estavel",
       "direction": "flat"
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 62.891",
-      "change": "+0,44%",
+      "value": "US$ 64.212",
+      "change": "+2,16%",
       "direction": "up"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 1.771",
-      "change": "+0,68%",
+      "value": "US$ 1.815",
+      "change": "+2,05%",
       "direction": "up"
     },
     {
       "symbol": "OURO",
-      "value": "US$ 4.166",
+      "value": "US$ 4.187",
       "change": "estavel",
       "direction": "flat"
     },
@@ -68,7 +68,7 @@
       "id": "eurbrl",
       "name": "Euro (EUR)",
       "icon": "💶",
-      "quote": "R$ 5,92",
+      "quote": "R$ 5,90",
       "change": "0,00%",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -79,7 +79,7 @@
       "id": "ibov",
       "name": "Ibovespa",
       "icon": "📊",
-      "quote": "174.070 pts",
+      "quote": "172.448 pts",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Cautela",
@@ -90,8 +90,8 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 62.891",
-      "change": "+0,44%",
+      "quote": "US$ 64.212",
+      "change": "+2,16%",
       "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -101,8 +101,8 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 1.771",
-      "change": "+0,68%",
+      "quote": "US$ 1.815",
+      "change": "+2,05%",
       "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -112,7 +112,7 @@
       "id": "gold",
       "name": "Ouro",
       "icon": "🥇",
-      "quote": "US$ 4.166",
+      "quote": "US$ 4.187",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Cautela",
@@ -160,8 +160,8 @@
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5IOGJiVEMtUGJESXpFdEM4MnpEZDhLM2ZLODRqRGFEZmdBckZVSGhfYmU3a195WlZjUnRKbVNlTnE2UE90blVVcDB2cFVuLWZFWjE4?oc=5"
     },
     {
-      "title": "Ibovespa fecha com nova baixa, em meio a queda de Vale e ruídos geopolíticos",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY3Y4TkNaWXRyZkxOb1JXMFk1bkRUZGRUNDg0bTk5c0FRdUNtcmMxZjZ6UlBXY3NGU2dfcDBQMlI1bWpIY2JOeHo2Q0wtX2tObnhGbHZhZVFtbWlLUzFpRWQ0VXk5aEdWQ2tzYm90aUVkN3pJN01KalBFQmc0S0JRNnJQcC1BU1VxaUJ6ZGQ4SQ?oc=5"
+      "title": "Ibovespa tem mais uma queda, com Vale e bancos; dólar cai e fica abaixo de R$ 5",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUS1lQnV6UEZER3Y1OGxIQU9IcXAzZmIxOUttLW41RW55ZzQtejlKOW1CUDRSVFdaQ1pSRGROQVVIR1FuWnNmTXlRM0hfcDFlb2YwMW96X0VYaG9DUzFadkdJZEVONE9paHl6V1NEVS1fMjRZU3JsOHhUY0lTUzJwZ0hXX1MzZHktQUgxRmNZdw?oc=5"
     },
     {
       "title": "Bolsa, dólar e juros: o que esperar após EUA classificarem PCC e CV como terroristas",
