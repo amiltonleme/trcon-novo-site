@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T21:23:09.945232+00:00",
+  "generated_at": "2026-07-07T10:42:49.277267+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -13,15 +13,6 @@
       "signal": "flat"
     },
     {
-      "title": "Inteligência artificial na Reforma Tributária exige uso de fontes oficiais e validação das informações",
-      "summary": "Inteligência artificial na Reforma Tributária exige uso de fontes oficiais e validação das informações",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNNEJQU2NxblF3VmpJOFFpSzFQam5OT00wT2hKWGRNZ2hweG0xTG1mbmk4SU5jU1NYVzVOQU9uOHlucjlsekVjSXRTUUhJaVFNQWpHUW53bkJRdWdzMTlPanpkaXJjdEJLYjlEZUg2RUp6YTlnSGRYUmo5d2VzRlNYMFJ1VHNuWkRNejdnNndrRVZib3ZOQUNHWEc0Y1ZjOXJCRVBvNncxVnY3NWhOcUhzdFNKLUxjZWw1cDFRVV9WWmZ3Z21TRDlaT2pOMHlObjVIWlRjOUp6d0NvVkdGbkRfeWxBcVhoZTAzS3h5WA?oc=5",
-      "source": "Sitecontabil",
-      "published_at": "Mon, 06 Jul 2026 12:06:41 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
       "title": "Inteligência artificial redefine valores nas empresas",
       "summary": "Inteligência artificial redefine valores nas empresas",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUXZwcllsM2J6b1dDRUhPczNxYmdrQ0VFRjBWUWtoeHd2S0c2ekpIMktXRkRRVnpjMnBldGU0by1BVGFqNEZ4d09Ua1F6LURXWEJmdXNaTHRhNnVPanVJRlZQMUh5a2NnNHlIUG1DakNVb2tZVnA2czF3RWRSRjM4SkJkUTdacW9kOVZNdUtxQkdqc01ub29NU19PeHZZcWJYX0FtTVN4cjJkaVlNTEJ6Q0NBb01vYV9iRWl3VEVuQkNHSk15cGtJN193bkRTQQ?oc=5",
@@ -31,11 +22,29 @@
       "signal": "flat"
     },
     {
-      "title": "Sul-coreana SK Hynix lança listagem de US$ 28 bilhões nos EUA para aproveitar onda global da inteligência artificial (IA)",
-      "summary": "Sul-coreana SK Hynix lança listagem de US$ 28 bilhões nos EUA para aproveitar onda global da inteligência artificial (IA)",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUUVuVWc1NXpFQjV1QkxpMW42M2xCSTR3SjdGVHBlQnZZa1BrUndnaXprN2szOHZMUzNKVFAxM3FKVHBpaWNLM2IzZGlNSktkVjlyU2hjeEpuWC1odzY4bEtTR0tRNUJrUnp2NExOXzBZM2c5eEtTMjY0ZzMxVWJBVEhLMWJhRThfSEg5Y055UndUQ1FMOVlpYl9VbXBtYXJFT0ZianJtbXFtOEhMVXFUTERoS1JYb3E4Y2RQcGVNVzZaRjBaOGR4U0lSZDF5SzFpelF6REY4c1I2Z0NOUWVheWMtbXVueFZteVE?oc=5",
-      "source": "Money Times",
-      "published_at": "Mon, 06 Jul 2026 13:15:00 GMT",
+      "title": "Primeiro Diálogo Global sobre Governança da Inteligência Artificial (IA)",
+      "summary": "Primeiro Diálogo Global sobre Governança da Inteligência Artificial (IA)",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTThJV0UtMlhaTC16TGNwWlhWTnd3Zm9qcHA5eUtsSFBJbEt5aXJWbC1DRWxKUEhYbC14V1VZbXZ6MXAtYW1DOFFST0o3SDU4Yko1Qm9aNHplRkZwTUUyUVR6aEl2TFo0VUJ0NEhKb2hhV0RQWFBaQ0xrTlJMRUowSFhMZjNtX0hxYmw3Y3dLNWxfSGNSR2NCcmRkcUQ0azZkLVdLLWJKSExPVzBVS0xCaTdjOENCNHh5TjFsaA?oc=5",
+      "source": "As Nações Unidas no Brasil",
+      "published_at": "Mon, 06 Jul 2026 19:51:51 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "3 sinais de uso de IA sem plano na empresa",
+      "summary": "3 sinais de uso de IA sem plano na empresa",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XQXpBbjJMWDdKZE9obks0OWFReGFSWWpIM0o2WGRFd2Qzb296V29WTDlRSFBuUGIwR3ptTDRGMl9kMHE5ai12dndFc0JLc21RQ0ZyekxFVHN2Zw?oc=5",
+      "source": "Associação Comercial e Industrial de Araçatuba",
+      "published_at": "Tue, 07 Jul 2026 03:36:01 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "HeadOffice lança a primeira franquia de inteligência artificial da América Latina",
+      "summary": "HeadOffice lança a primeira franquia de inteligência artificial da América Latina",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZkEwOEc5MHdDMU1ZYmMzUWxhYm8wSXNjMWlmZ0FBNXp3ZUFGdFNuYjQzRXhxRUR4bnFublBrYV9YZDVaUllxS3ctWUM5Ri1QMm85QnM3V1FCdWFESDBIQUdHTjVyaEdGZ243WVl5eHRjOXpnOWhzQ3hOX3lib3lUTWc5Mnh2Mi1vLVBCSnVHbzAxbDR2bmNhM2hXMXBCTkpIdXBoclNWTU80Z3NITnNrTEE0OFdyVVJWd1E?oc=5",
+      "source": "ABC da Comunicação",
+      "published_at": "Mon, 06 Jul 2026 21:41:43 GMT",
       "category": "IA",
       "signal": "up"
     },
@@ -45,15 +54,6 @@
       "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOSExhZFRZOEo1UHMwRkxMMjNtTUppSUJhWUhxend2VzNCSEFyUG1EQkx4RDRpTHZiaTBYc2VGWXpwNTAwNTJ3TUp5OHMtRkt6NWdaWEc3bWJRaVEzZmliVXpRSXFyTTRLekNwS3l1WVlJSllJSkU3aWVNRjVBR1ZiRVBvZEhPRlR5bUY2OUIxV0JleXNPTVNzaWZQSkF5bFB3cG9kYVp2Vkx4NVpsNWFYeTVxZ3VTdzg0MFdkdk5BaFRwd01LN3l5b21EZWtKclZ4MEpuZEFnX2hjaDI1M3FocEJHSWtHYnN6N1lkdnE4b3BuV2VmS2RndWgxSkZmbk1IdFBlSWtsMDZ6Y1VR0gGbAkFVX3lxTE5TTDlqd2NUU19NUnhFT0RtSzdKSGRGR0czSGZJU2R4cWZrVEZwMXNmSDduR3RycHByTmNTWW1hRXJPWVZ5OWpyNnQtMWdvdFV1UHFycDJmNXRZTWhLSV9XRW4zVk0yLTZXWGYzOVpPeUdpSHBTY2thWUg3b192MTd0MnN4UkZUYUFVTXhPRlptVnZodWVZU1dUUGFIQmZjT1Z2clBhbmNJS2I2NDJ6SVBFVnphUTNTVU8xcEhUOE0wSGJBTVlkYjNNbUMwNDhFbmdUZVk4clZ6dF8tb3kzVG50MjN6cTcxdC1SdUdGSGQ5MW9oREt0TnpwTzJubS1MTXMyaWdBRzBqT3hlZ2ZxUndBVTk5N21zYXBGZmc?oc=5",
       "source": "Pequenas Empresas & Grandes Negócios",
       "published_at": "Thu, 02 Jul 2026 19:14:32 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Inteligência artificial nas empresas exige gestão eficiente antes do investimento",
-      "summary": "Inteligência artificial nas empresas exige gestão eficiente antes do investimento",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBYcDBuRktITnhYMmZyRjB3cENzYWloR0pzOU5SOHpLNTdKQ3M1ZVNZQnJ6aGo5ZmpkTnVpY0Q1Z1ozRjMzZ2Z1eFJQWlpMcS1vcUZHaXkyQUJOc2JKc0NteHJZUUFWRVk4V0s3MUpEZllIYWppdnRV?oc=5",
-      "source": "Sobral Online",
-      "published_at": "Mon, 06 Jul 2026 20:30:55 GMT",
       "category": "IA",
       "signal": "flat"
     }
