@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-07-07T10:42:50.300834+00:00",
+  "generated_at": "2026-07-07T21:17:34.882236+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de tecnologia.",
   "errors": [],
   "items": [
+    {
+      "title": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
+      "summary": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUVRkY3hvRDJhQ3B1Y0R6MndjNXBQNHFGVVBLb2IzS0hkV3FsS3FkbkNkZzhXaTB2Tzl2QWZZUjZ1dmxFZUdRVEFIQUFCemFzMmlDQmpZTnJYTXdPXzBKSUdXYmZrTlNOWGVNNlZ0YlQ1eGwzT3NHV2pkTXpCck93M21SV2hYVkVHbGhfY01oVXI3ZFh5Uzd3VURZeDlCUXl3X3J3SWx4QzFIQ253c1B6aktSMUZVcE4temUzaGxR?oc=5",
+      "source": "TI INSIDE Online",
+      "published_at": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "category": "Tecnologia",
+      "signal": "flat"
+    },
     {
       "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
       "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
@@ -22,20 +31,11 @@
       "signal": "up"
     },
     {
-      "title": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
-      "summary": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUVRkY3hvRDJhQ3B1Y0R6MndjNXBQNHFGVVBLb2IzS0hkV3FsS3FkbkNkZzhXaTB2Tzl2QWZZUjZ1dmxFZUdRVEFIQUFCemFzMmlDQmpZTnJYTXdPXzBKSUdXYmZrTlNOWGVNNlZ0YlQ1eGwzT3NHV2pkTXpCck93M21SV2hYVkVHbGhfY01oVXI3ZFh5Uzd3VURZeDlCUXl3X3J3SWx4QzFIQ253c1B6aktSMUZVcE4temUzaGxR?oc=5",
-      "source": "TI INSIDE Online",
-      "published_at": "Wed, 03 Jun 2026 07:00:00 GMT",
-      "category": "Tecnologia",
-      "signal": "flat"
-    },
-    {
-      "title": "O impacto da inteligência artificial no desenvolvimento de software",
-      "summary": "O impacto da inteligência artificial no desenvolvimento de software",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRm11SXh1X1ZIZmFhS1dKclM2YkszdmpPS0QyMjhFZjd3dXVCVkxQZjAxbU9YOTVIWHpnNGkwSkFVVkowTUU1R3JuRElBN3lZdjRib3BqSHZYQVZVLUlDVjVZeXNNdXB2TWhUdDAwUmZZX1NQUG5mMkUxQ3lMTnZDLTJCLXlJMWhrZWtRYW8yRHVlTVBtN0hseXM2cDdseVU5ZlZ5X3owRkJwWFV5Ynlv?oc=5",
-      "source": "Rede PRESS",
-      "published_at": "Thu, 18 Jun 2026 18:38:47 GMT",
+      "title": "Análise e Desenvolvimento de Software na Saúde: por que a Faculdade Santa Casa é o futuro",
+      "summary": "Análise e Desenvolvimento de Software na Saúde: por que a Faculdade Santa Casa é o futuro",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQW1QYWdzZmhtelJEOHlXb0VldzhwX2JvaU1KSHp4TkM1Y3JjdlY0bjc0S01oOEFpaW9sREpKR25PRmtKVVY0LXVmZFZRMnpCUTZoVjktOHRidHlwQ0ZyR2JrdThQWnV6LTRiX1hvQXBhNHh3cXY2dldjRTZCek9fWFFVQTVFRTc0T1E?oc=5",
+      "source": "fcmsantacasasp.edu.br",
+      "published_at": "Fri, 15 May 2026 07:00:00 GMT",
       "category": "Tecnologia",
       "signal": "flat"
     },
@@ -49,11 +49,11 @@
       "signal": "flat"
     },
     {
-      "title": "Análise e Desenvolvimento de Software na Saúde: por que a Faculdade Santa Casa é o futuro",
-      "summary": "Análise e Desenvolvimento de Software na Saúde: por que a Faculdade Santa Casa é o futuro",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQW1QYWdzZmhtelJEOHlXb0VldzhwX2JvaU1KSHp4TkM1Y3JjdlY0bjc0S01oOEFpaW9sREpKR25PRmtKVVY0LXVmZFZRMnpCUTZoVjktOHRidHlwQ0ZyR2JrdThQWnV6LTRiX1hvQXBhNHh3cXY2dldjRTZCek9fWFFVQTVFRTc0T1E?oc=5",
-      "source": "fcmsantacasasp.edu.br",
-      "published_at": "Fri, 15 May 2026 07:00:00 GMT",
+      "title": "O impacto da inteligência artificial no desenvolvimento de software",
+      "summary": "O impacto da inteligência artificial no desenvolvimento de software",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRm11SXh1X1ZIZmFhS1dKclM2YkszdmpPS0QyMjhFZjd3dXVCVkxQZjAxbU9YOTVIWHpnNGkwSkFVVkowTUU1R3JuRElBN3lZdjRib3BqSHZYQVZVLUlDVjVZeXNNdXB2TWhUdDAwUmZZX1NQUG5mMkUxQ3lMTnZDLTJCLXlJMWhrZWtRYW8yRHVlTVBtN0hseXM2cDdseVU5ZlZ5X3owRkJwWFV5Ynlv?oc=5",
+      "source": "Rede PRESS",
+      "published_at": "Thu, 18 Jun 2026 18:38:47 GMT",
       "category": "Tecnologia",
       "signal": "flat"
     }
