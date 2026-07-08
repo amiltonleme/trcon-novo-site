@@ -1,31 +1,39 @@
 {
-  "generated_at": "2026-07-08T10:03:09.543778+00:00",
+  "generated_at": "2026-07-08T20:59:30.029738+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
     {
+      "source": "Money Times",
+      "category": "IA",
+      "title": "Adeus, OpenAI e Anthropic: Microsoft (MSTF) desenvolve e passa a usar inteligência artificial (IA) própria",
+      "summary": "Adeus, OpenAI e Anthropic: Microsoft (MSTF) desenvolve e passa a usar inteligência artificial (IA) própria",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbUZUSjR3T0hMbFZ4VF9MV0xYSDFJem9icGh2SWc4bVRObUxkVXZkR0lFU0k2V3BvUEFKcjBxR25tdXNzcnNlMkduZWdEV3ZxSHQwZTBDejJnYTB3dEY0elV5MFZvNGQzeWdoRW9QRFV2UHR5bE9TdUNZdFpxN012aC1KeWZhUWRXV1RSSjdaWUliQWVSN1g2cWtLUnR2bVBFMThyZlU4bWZ6c05kWURhZnRJcjNzS1I3VHZNc3Vzd1RMMmVLZnQyWVM5VGtaQVhiSXc?oc=5",
+      "publishedAt": "Wed, 08 Jul 2026 14:29:00 GMT"
+    },
+    {
+      "source": "G1",
+      "category": "IA",
+      "title": "Maiores empresas de IA falham em combater 'ameaças existenciais' ao homem, diz relatório global",
+      "summary": "Maiores empresas de IA falham em combater 'ameaças existenciais' ao homem, diz relatório global",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPajcyRFpUOG85OWxQbkd1ZDRxMWRiZGUyZ0xBRlg2TDVMS3dKUXJ0RzQxSG5ZMU9aaVNIa1M5SXdEV05NWmZ6WXVqalJtV05sUnVFcjA3LWFTenRISXVGMG00cHZiRXJnT05NYlRncWE2MWFLSU94cDZFdElZS2JBdjhvV2cwZjBiaXRfZzJJR1gwSjZEZkNjdU1zaUJUc2hTaERmZWNEVUlZeUtEM1FfaDdHVUdMeDhJemhkeTN2VTZfNmtf0gHTAUFVX3lxTE9heDNWUG5BWVN4TWpqN2RNQU0yN29wNGhQekFQaUdPeUtGZ25iYkhUbmhZLTNQQmRDYjZ4NG5lSGw3QzFNa3lNNlhpeGw0Q1hsd01wWUc5dnBlLTVzWVNucDgyYVJ3cHpQZTM4b1RjaDRVa0Q4OFJGZVNaVUlhTEdOc0hheUlRWFNKMDJVejZEMXdoVjBqaEpodXFEMUJoaDFBbTJsM3ZBOHc5MnFKSDlsRnp2dk5FZzM3cGFFQU5mTVFYLWpTTGJwbWp4UTNTS0VTQ1U?oc=5",
+      "publishedAt": "Wed, 08 Jul 2026 07:01:09 GMT"
+    },
+    {
       "source": "Olhar Digital",
       "category": "IA",
-      "title": "SpaceXAI planeja lançar novo modelo de IA em parceria com a Cursor",
-      "summary": "SpaceXAI planeja lançar novo modelo de IA em parceria com a Cursor",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaXdoSldENzJ2aHE2NC1qRjBMMzdwRFY2RUQwS0wydW5ER29yNXdWemJYeVN5VlZxT1ZxRmdWWHk0TUduTWhydVlXd25nbmNleGlyVkNYTmVGSmhmSzhjbjNrWEVEenBYclNsQzdCNmxPTjktTjhsdUZ5QjIwNW1ZR1c4TjJFRF9IVXpLRVRaTnhBZXpjbVFXejN4SlM4T2l4am9fbU1JS3UyanlWZUdkSVJzblZtRXRtVE93?oc=5",
-      "publishedAt": "Tue, 07 Jul 2026 23:44:00 GMT"
+      "title": "Ranking revela falhas graves nas maiores empresas de IA",
+      "summary": "Ranking revela falhas graves nas maiores empresas de IA",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcEVDQkhILXI4Z1RHUWU4cXRDUzdxcldadVk0S2tMYVFxcEdaanFqeFBpZXc4VEtQX2JpMXV2aFE5U2lsMndwSE1OVTQ0NG9mc0xsbUpnZ1l6bjBSRTRpbzlyYjVvQmV4WmF3aGlNZ09ScnhWWktwbm1wbjBxNjNRclRWTzFoUng1cnM5a0FwLWVuTE8zZ2hNQTlaMHdNVjlxbHBEUUxCRkwwTVFpSWEwSXg3c1lPaDE5TjVN?oc=5",
+      "publishedAt": "Wed, 08 Jul 2026 18:07:00 GMT"
     },
     {
-      "source": "Terra",
+      "source": "Economia SC",
       "category": "IA",
-      "title": "Inteligência artificial redefine valores nas empresas",
-      "summary": "Inteligência artificial redefine valores nas empresas",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUXZwcllsM2J6b1dDRUhPczNxYmdrQ0VFRjBWUWtoeHd2S0c2ekpIMktXRkRRVnpjMnBldGU0by1BVGFqNEZ4d09Ua1F6LURXWEJmdXNaTHRhNnVPanVJRlZQMUh5a2NnNHlIUG1DakNVb2tZVnA2czF3RWRSRjM4SkJkUTdacW9kOVZNdUtxQkdqc01ub29NU19PeHZZcWJYX0FtTVN4cjJkaVlNTEJ6Q0NBb01vYV9iRWl3VEVuQkNHSk15cGtJN193bkRTQQ?oc=5",
-      "publishedAt": "Mon, 06 Jul 2026 13:37:00 GMT"
-    },
-    {
-      "source": "CPG Click Petróleo e Gás",
-      "category": "IA",
-      "title": "Pesquisa com 2.500 profissionais mostra que a IA já preocupa dentro das empresas: 39% dizem que ela os torna menos inteligentes e 41% temem prejuízo na carreira no longo prazo",
-      "summary": "Pesquisa com 2.500 profissionais mostra que a IA já preocupa dentro das empresas: 39% dizem que ela os torna menos inteligentes e 41% temem prejuízo na carreira no longo prazo",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNckFIQUU0YWtySzgzVWdoMlRPaFF6UHFOMTl5bnV1LWpFTGY1azl4VUtSTXNUT1l6SXItT05YSmV4TzF1RnFKMFZiUERqekY5Wlk1T0NTend4cVNuVnIyWkI2WmRlTEEwTDlWWThjaGNhRHNMa284QWFfR0dIM1VuMGJab0Y1R1oxTDM0cGlTUU92M3BwbTF3RlAzaHVRbllfSXJqLUVFUnVDQ21VVUd0alhGLXdOSFlDdHVweEMtdlFiNVVDTEZNZ0kzYy13WHFJMFpHckhzYkl2ZUxsNi1oSW9kcFBQQk5LNERQTmxxcXdSOUVkWExxRzNFZ2stbWQ3dUtLMG9FeVF2RUo1RWFsYzdqNmE?oc=5",
-      "publishedAt": "Tue, 07 Jul 2026 12:03:00 GMT"
+      "title": "HostGator aposta em plataforma que centraliza as principais IAs e reduz custo para empresas",
+      "summary": "HostGator aposta em plataforma que centraliza as principais IAs e reduz custo para empresas",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVy1CakpvSjB3Y2Y4N0RaUGJyVHktbGJMU0ZKSVhLcmFEbDAtdDRHc2lHNlkyLVUzUDAzNFRZSHBVSW5kQm5QRVU3RlBaaHNYdmt2WEYzR0RTVmdYZnlXZ1pwYzhLNVptcGhhX0pTTUVKXzN4YXVfeDk5WHJQZ2JPY1czN2o4TWRzVDVFNnBIMDJxd3M4OS10WExicTN1Q3N5dUVCaGNUREhVSlRLc3J5SWhRRmVRNUFkdXZCbmh5LVNhbG5R?oc=5",
+      "publishedAt": "Wed, 08 Jul 2026 18:02:18 GMT"
     },
     {
       "source": "Exame",
@@ -36,20 +44,12 @@
       "publishedAt": "Tue, 07 Jul 2026 23:04:36 GMT"
     },
     {
-      "source": "Valor Econômico",
-      "category": "IA",
-      "title": "O dono da IA nas empresas tem nome: CAIO (Chief AI Officer)",
-      "summary": "O dono da IA nas empresas tem nome: CAIO (Chief AI Officer)",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdGQ4aExLb0VlRUZlenJkTU5XTFhKVHliNmUyTFMtRFZreGxUelRQdjhZb1dNQXpYTGFLRFJUM0gtTjAzOVBxSTdScjhmNmRFSzZ4RGFxclNJY0Nxek56WTlKaEZRcWVvVDZCai05djYwNEw2aXlLRk5fdGZxY3BLdERZWnFlWGtFV21sbHhPam4weE5zT3FOMkNLODEtRHV2djF2RGdHSzYwamNTSGVuVUU4WWlnY20wWmJNTUdsTEFfUdIB0AFBVV95cUxQbDJ5TGR1N3Vmd1l5TV9reDRoU3NNVlJBQWFkRm9TMlpMejl6OFZMaklZX3NiTm5Edk80WTFkRUZPQVF5S2xaamxMUG9oZEU2dUctYUVyY2xObmlmMWJTRURPLThTZHZTZkRWQi05dHNub25ZMzFUOXlseTZGX0FadFgzcjdoQm5Ha1hkRS12UTM2bXVoay0xTG9CdmJsRVRHbFRpa0NQYTZReTNqcDdYTFc5NzJQTUZDTDAxcVN5QUl1ZjVDMHlzR1J3V2x5cVRZ?oc=5",
-      "publishedAt": "Tue, 07 Jul 2026 12:14:55 GMT"
-    },
-    {
       "source": "SEGS Portal Nacional",
       "category": "IA",
-      "title": "Como pequenas e médias empresas podem adotar IA com segurança e baixo custo | SEGS Portal Nacional de...",
-      "summary": "Como pequenas e médias empresas podem adotar IA com segurança e baixo custo | SEGS Portal Nacional de...",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNG9kOFNLdDZtblRkRkhaYUFuUHhBOTRvVE1uQ0FzX2s1SHlYZzZ0MmZDeFAzNWlhVTJXYVdTdlBzT3dlR0xIU29pMGpPejFRUXRzRHZ6aEVRQXZ3Sm5lZzNfb3JWdFF0TWRUb1VTUllJYWF5Yi1hVTNLdU1OTlBSZ05KcVg2czBud0R0MHdRXzBrS2s1bXlGNEp4dU9JTzFYYTdZcjhUWUJNdnNEcmg4QTRSRjjSAboBQVVfeXFMTnNiWElKSFRranBVSWhhOGhhTnVCbHAxQXRPU0FKYUlpc2tqcWpLdmZYTzVPdnpkUU9lQTh0LUF1VzZKVVFUNkRuSDJxSnBHWkozSHFwUEJuZWU4NzBUUEdoX3BITHNsOUJIQ0VLa2ZYY3kza3FURGFUUjloUEljNnV5T2RJSExmUDFBNjZWUS02VG40YkF3WTc1OU92d19OWXF1MUtrdHlpUWhxRktZRFVXVHNxQ0owcDlR?oc=5",
-      "publishedAt": "Tue, 07 Jul 2026 18:27:12 GMT"
+      "title": "IA nas empresas: por que os processos são mais importantes que os agentes | SEGS Portal Nacional de...",
+      "summary": "IA nas empresas: por que os processos são mais importantes que os agentes | SEGS Portal Nacional de...",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONG80MFdtQTBBLUwzSkJpUUNKczdjdGd2WWR3MENGQkxVMmZraHpGWFoyREthWnhxNjZOd3ZBZkI5ZGk4Z3VfdGpEVVJSanNNTUd1Q04xT1hUQ3dabUoyMm1fbmQxMXRuY214dDZNUE41Rkp0bnZmVGc4eVgwdllpYVVXbFNmM0dDRmJXbURvd0VSMW1QX1ZBVGxjZVV1R0ozRWVsaHR1NTdqMW1ab1c2UtIBtgFBVV95cUxPczQ5ZU9nM3pPRlF6dVVRNVplN0wxQXoxRDNXSVc3czQ3cnlhRTczOEd0UEVwblRLNUYyal8zbWxuSzlTaUttTTI0dUZleVBXLTV1amNWM25saDZ6RkNneHVwMzJDWGJRaXFnck9XZENiTHYtVmZVY1pWWUVfWmV4VlZseDZBY2pJOW0ySEJGTllYY3pGMmJQOWo1NE1yXzQzS3prXzZoWWs5Q25zQkx1dmJiWjZEZw?oc=5",
+      "publishedAt": "Wed, 08 Jul 2026 19:14:08 GMT"
     },
     {
       "source": "TI INSIDE Online",
@@ -68,20 +68,20 @@
       "publishedAt": "Sat, 27 Jun 2026 00:06:00 GMT"
     },
     {
-      "source": "jornaltribuna.com.br",
-      "category": "Tecnologia",
-      "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
-      "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
-      "publishedAt": "Wed, 01 Jul 2026 18:54:07 GMT"
-    },
-    {
       "source": "fcmsantacasasp.edu.br",
       "category": "Tecnologia",
       "title": "Análise e Desenvolvimento de Software na Saúde: por que a Faculdade Santa Casa é o futuro",
       "summary": "Análise e Desenvolvimento de Software na Saúde: por que a Faculdade Santa Casa é o futuro",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQW1QYWdzZmhtelJEOHlXb0VldzhwX2JvaU1KSHp4TkM1Y3JjdlY0bjc0S01oOEFpaW9sREpKR25PRmtKVVY0LXVmZFZRMnpCUTZoVjktOHRidHlwQ0ZyR2JrdThQWnV6LTRiX1hvQXBhNHh3cXY2dldjRTZCek9fWFFVQTVFRTc0T1E?oc=5",
       "publishedAt": "Fri, 15 May 2026 07:00:00 GMT"
+    },
+    {
+      "source": "jornaltribuna.com.br",
+      "category": "Tecnologia",
+      "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
+      "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
+      "publishedAt": "Wed, 01 Jul 2026 18:54:07 GMT"
     },
     {
       "source": "ND Mais",
@@ -92,12 +92,12 @@
       "publishedAt": "Mon, 08 Jun 2026 07:00:00 GMT"
     },
     {
-      "source": "Rede PRESS",
+      "source": "IFRS",
       "category": "Tecnologia",
-      "title": "O impacto da inteligência artificial no desenvolvimento de software",
-      "summary": "O impacto da inteligência artificial no desenvolvimento de software",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRm11SXh1X1ZIZmFhS1dKclM2YkszdmpPS0QyMjhFZjd3dXVCVkxQZjAxbU9YOTVIWHpnNGkwSkFVVkowTUU1R3JuRElBN3lZdjRib3BqSHZYQVZVLUlDVjVZeXNNdXB2TWhUdDAwUmZZX1NQUG5mMkUxQ3lMTnZDLTJCLXlJMWhrZWtRYW8yRHVlTVBtN0hseXM2cDdseVU5ZlZ5X3owRkJwWFV5Ynlv?oc=5",
-      "publishedAt": "Thu, 18 Jun 2026 18:38:47 GMT"
+      "title": "Programa Bolsa Futuro Digital oferta cursos gratuitos sobre desenvolvimento de software",
+      "summary": "Programa Bolsa Futuro Digital oferta cursos gratuitos sobre desenvolvimento de software",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ2hudTJKeVVSVEtQc2VTSFM0blFsdEprd0pQMHV1aE1WamFoLWlpMjR0WVRYYWc1SlNhOWJaMGtrbmdHaGZiWGxzRzAxMXhQbnE2Y1ZFdFBPT2xRNE0yWXRUejNmeWlEZXBtRDh2eERSTnhOWVQzY25xZ3pYRHJJVmtIbm5lR0tEV3J6QkZKNVR0aFd4bTFGd3Rtc1JaSHdjY2JpRTRrRFRhdUgyMWNHUmdnb1M2SjVQdWc?oc=5",
+      "publishedAt": "Thu, 15 Jan 2026 08:00:00 GMT"
     }
   ]
 }

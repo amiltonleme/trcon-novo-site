@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T10:03:09.496024+00:00",
+  "generated_at": "2026-07-08T20:59:29.995412+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de tecnologia.",
   "errors": [],
   "items": [
@@ -22,20 +22,20 @@
       "signal": "up"
     },
     {
-      "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
-      "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
-      "source": "jornaltribuna.com.br",
-      "published_at": "Wed, 01 Jul 2026 18:54:07 GMT",
-      "category": "Tecnologia",
-      "signal": "flat"
-    },
-    {
       "title": "Análise e Desenvolvimento de Software na Saúde: por que a Faculdade Santa Casa é o futuro",
       "summary": "Análise e Desenvolvimento de Software na Saúde: por que a Faculdade Santa Casa é o futuro",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQW1QYWdzZmhtelJEOHlXb0VldzhwX2JvaU1KSHp4TkM1Y3JjdlY0bjc0S01oOEFpaW9sREpKR25PRmtKVVY0LXVmZFZRMnpCUTZoVjktOHRidHlwQ0ZyR2JrdThQWnV6LTRiX1hvQXBhNHh3cXY2dldjRTZCek9fWFFVQTVFRTc0T1E?oc=5",
       "source": "fcmsantacasasp.edu.br",
       "published_at": "Fri, 15 May 2026 07:00:00 GMT",
+      "category": "Tecnologia",
+      "signal": "flat"
+    },
+    {
+      "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
+      "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
+      "source": "jornaltribuna.com.br",
+      "published_at": "Wed, 01 Jul 2026 18:54:07 GMT",
       "category": "Tecnologia",
       "signal": "flat"
     },
@@ -49,11 +49,11 @@
       "signal": "flat"
     },
     {
-      "title": "O impacto da inteligência artificial no desenvolvimento de software",
-      "summary": "O impacto da inteligência artificial no desenvolvimento de software",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRm11SXh1X1ZIZmFhS1dKclM2YkszdmpPS0QyMjhFZjd3dXVCVkxQZjAxbU9YOTVIWHpnNGkwSkFVVkowTUU1R3JuRElBN3lZdjRib3BqSHZYQVZVLUlDVjVZeXNNdXB2TWhUdDAwUmZZX1NQUG5mMkUxQ3lMTnZDLTJCLXlJMWhrZWtRYW8yRHVlTVBtN0hseXM2cDdseVU5ZlZ5X3owRkJwWFV5Ynlv?oc=5",
-      "source": "Rede PRESS",
-      "published_at": "Thu, 18 Jun 2026 18:38:47 GMT",
+      "title": "Programa Bolsa Futuro Digital oferta cursos gratuitos sobre desenvolvimento de software",
+      "summary": "Programa Bolsa Futuro Digital oferta cursos gratuitos sobre desenvolvimento de software",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ2hudTJKeVVSVEtQc2VTSFM0blFsdEprd0pQMHV1aE1WamFoLWlpMjR0WVRYYWc1SlNhOWJaMGtrbmdHaGZiWGxzRzAxMXhQbnE2Y1ZFdFBPT2xRNE0yWXRUejNmeWlEZXBtRDh2eERSTnhOWVQzY25xZ3pYRHJJVmtIbm5lR0tEV3J6QkZKNVR0aFd4bTFGd3Rtc1JaSHdjY2JpRTRrRFRhdUgyMWNHUmdnb1M2SjVQdWc?oc=5",
+      "source": "IFRS",
+      "published_at": "Thu, 15 Jan 2026 08:00:00 GMT",
       "category": "Tecnologia",
       "signal": "flat"
     }
