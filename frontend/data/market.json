@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T20:59:27.530883+00:00",
+  "generated_at": "2026-07-09T10:42:54.829712+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -23,25 +23,25 @@
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 62.055",
-      "change": "-2,49%",
-      "direction": "down"
+      "value": "US$ 62.846",
+      "change": "+1,23%",
+      "direction": "up"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 1.735",
-      "change": "-2,65%",
-      "direction": "down"
+      "value": "US$ 1.751",
+      "change": "+0,72%",
+      "direction": "up"
     },
     {
       "symbol": "OURO",
-      "value": "US$ 4.085",
+      "value": "US$ 4.113",
       "change": "estavel",
       "direction": "flat"
     },
     {
       "symbol": "SELIC",
-      "value": "14,25% a.a.",
+      "value": "Atualizando",
       "change": "estavel",
       "direction": "flat"
     },
@@ -90,9 +90,9 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 62.055",
-      "change": "-2,49%",
-      "direction": "down",
+      "quote": "US$ 62.846",
+      "change": "+1,23%",
+      "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
       "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
@@ -101,9 +101,9 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 1.735",
-      "change": "-2,65%",
-      "direction": "down",
+      "quote": "US$ 1.751",
+      "change": "+0,72%",
+      "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
       "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
@@ -112,7 +112,7 @@
       "id": "gold",
       "name": "Ouro",
       "icon": "🥇",
-      "quote": "US$ 4.085",
+      "quote": "US$ 4.113",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Cautela",
@@ -123,7 +123,7 @@
       "id": "selic",
       "name": "Tesouro Selic",
       "icon": "🏦",
-      "quote": "14,25% a.a.",
+      "quote": "Atualizando",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Reserva",
@@ -160,26 +160,26 @@
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5IOGJiVEMtUGJESXpFdEM4MnpEZDhLM2ZLODRqRGFEZmdBckZVSGhfYmU3a195WlZjUnRKbVNlTnE2UE90blVVcDB2cFVuLWZFWjE4?oc=5"
     },
     {
+      "title": "Ibovespa cai com Fed mais duro e exterior em queda; dólar fica positivo",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS2FSbk13VW56T0UwS0dna1Nmc3VZQVNob0tYR3ZfWnV2SlZzU21kck5yb19lSE51dF9KVzNPWDE4OFlnZF9xTGRnTXNCY3VBZG1PYWN3WGk0LVk1TXlRRjFXeEE1NGJIakxLR1RKaHRic1czOVpMUm9pZjc1WTN4M2gxcGZRUVlteDJ6cVdDaw?oc=5"
+    },
+    {
+      "title": "Dólar volta a fechar em R$ 5 com juros no radar; Ibovespa cai 2%",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPalItclFPbG00SUw1TXBDX0Z5SnFVRjVybHNSZEk1TFFXaWp1Wk5nT190MW1FVlpsaUx5N3Zjb0hMQ2h3SWl4Vk1NMkR5U3o3bjIzZzB2eWJxUFFiV3pGdlo2bnlUODFWUl9JdThkNzdHVk9JcldUdXpqcy1WUTRySWMwSnNSYWlPSUd3RlZERndNN1NpWkpVTmNR?oc=5"
+    },
+    {
+      "title": "Bolsa, dólar e juros: o que esperar após EUA classificarem PCC e CV como terroristas",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZER3WDlEYkpJQVZrZWFiSGFrb1NYRzdSTkM0Rzkwc2pmTURnUUUzLWRBTTZjRW1vV3hTZW5CS2ctcnYxWEQwMDd6VXVid0syNWtEeTNLRC1jVDhSdTZTVTBxSlh0dnB3a0NuV3lVc3d3Q2M4cV9XOUdGQmx2RHVtbm9qb0xJTzUxd21lako1OGtXMFpDU1h3U0FyZFBGMXJIOWREMFR3OEpick01aVZkTUFGU2lObW80NnhFRmM1empfZ0hsb1dsbkJHc19KT3VOSDBCcDhKaElzMVZpeGd1UklzYVlaXzQ0VXFMbDJMNUFJcl95ZkpOeU5FWUVNRGRqMVU4WFpNS1FHSlXSAZoCQVVfeXFMUHVtMFU3QXFIZ25Hc2t4VTgwakJVLVU2XzE4U3E3LWcwZ3hqOGFMaUxzOV9MdWxUQTQ5RWZ6bkhtYUZsai1hNms5MHU5amFfSWRubHIxREZjaDdWOF9iVjNtNHpGQnVDemJ0Y2xFTlB1OXJVWnpCV2NlWWJBS3pyQk9ZV2lPaElRaGZ1VEgxN2JfUXhNVUxvekVpeGZ6Z1A5SEttdHhrWjJwdGtaMnpKa1o1MXBBM3ZIaTJ6QUEwQkM2OWdJSkZRMUZHdlVVVy1vY09ncWdiazA4VVRGVmRRNVN4d3FWd0xUV0hRX3ptN3pOeHJNUDRIZURPcU5xRmRJejdsb09hVTh0N21PMzY0NnkxY0dheUkybHF3?oc=5"
+    },
+    {
       "title": "Dólar cai e Bolsa sobe com decisões de juros do Brasil e dos Estados Unidos em foco",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOXl2ZmRLRmdPdTVEbEd4Z015LXJycDRybW5rTkhtU25yX1JlMHA2Zkt5ZzQ0OHBLWWs5WWxmcWJYZmRHRk1ESkRZUjBuWmowXzN4TVdLMUhTVFRPR1NTQVMyWXpzS1FJUW5TSUNtVU1jYlpEQ0ZHd1lNNWxvYkE2WjFOeUo1NXVGYkRZdkxES2tsX21iSDN4WmhjbXRIbFlXU0JhQXVpN2poaDdXTXVoS042N2VBdmhGSlE?oc=5"
-    },
-    {
-      "title": "Dólar sobe e mercado entra em compasso de espera para decisões de juros no Brasil e nos EUA",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQTnhOX0lFT2VSWXlaVFp2bkdWZmxBSm00QmM4UEx0VnEtcER1MFRpRndsMmh2cHZTcEo2WEhzZ0FBdVZ5bE1IZjRWSjVpQ3ZfYl9SdWQ5SkxUUDIyNnJwdVpWeWlkdGZEX3kzVW4yUTI5RHVEbWE3aG9POUptcDhCbE1DRU40U2RxT2NtdU9BUEhRRHV5RTV5NmtDelBUVTFRUHlsc3ZrR19NU2ZLekk2REZWWG5iQ0lUSF9pNXl0XzFDU2daUDUxYXZEa3Zoc2NwMHkycnZXazBKbjhNbTdFZjloZTBqSVFJaVRFT0RPWTNPUnRLb3Z5Qm12cw?oc=5"
-    },
-    {
-      "title": "Ibovespa fecha em queda, com exterior, inflação nos EUA e guerra",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaEtuOVdEeFgwUG91RW4yRDhUaGJnUTgzNHV0cDJ5WWtOM2xfRVNrcjNlS3ZzTjVYODl6QkFyT0U2TjZJR1BRemJMNUU1OEtDNnhQcFBCQl9qalFiTXNiNXZYUGUtREVrWS1DVTJrOXlEMzNmWEhlRE9qNzJrTmsxa0RsWmNlQUdNVEZYZDNXcw?oc=5"
-    },
-    {
-      "title": "COPOM e Fed dominam atenções do mercado: decisão sobre juros pode mexer com dólar, Bolsa e crédito no Brasil",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPU3p2aVc1c2hWU0YyTjVyOGtuXzlkTHRlUHgwekd1M0owS2tQQUpESVFZbF92VGE1bG4zbGxFVVJ5bVAwSlJiZUtBbDZ5TG5Xd3RpSU05cjdyeFNsTFdFQ2VyRl9OaFJCeC1Tam5id2N2Q0tTUllyczI0dEM2Q2J4RC1lYlJJbVNzc2t1bC1wZ0drdXJrRVcta3B4NFZxQ0czb3pOdXRRY2JvYVF2NXUyQVprbVFDYXZ3MlhUZHd3TVR3S01IOUZQSGtuNDh6X2hMRGc?oc=5"
     }
   ],
   "market_mood": {
     "label": "Cauteloso",
     "summary": "O noticiario aponta mais incerteza; preservar liquidez e evitar concentracao ganha prioridade.",
-    "score": -4
+    "score": -3
   },
   "errors": []
 }
