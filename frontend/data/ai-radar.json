@@ -1,8 +1,26 @@
 {
-  "generated_at": "2026-07-09T21:16:03.633750+00:00",
+  "generated_at": "2026-07-10T10:42:07.395197+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
+    {
+      "title": "China vive explosão de empresas individuais impulsionadas pela inteligência artificial",
+      "summary": "China vive explosão de empresas individuais impulsionadas pela inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTjc0MzZfS3Q4U2hGN0kzTHJvRlA5b2VqTmFWN2Z4azlJZmQxVVczWTZGWlgxMGRmOVUyYzFsaUwyWFpTZ3dfZ2tfVjB0WWlHU0h6Q3JWQ3BQa21md1NhMXJLN1Vpc29NZ2I5YjVlazkwV18wTGtVakRMNC1nY3YyUXR6S3dyUGVyRlQxOW5ReHJfU0FuWGhmbFRPcE1rSDR4eXBHRTFHYjdjUG96Wk9iQi1IdGMxdG5mdHZyblIzYm9rZw?oc=5",
+      "source": "Brasil 247",
+      "published_at": "Fri, 10 Jul 2026 09:33:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Por que cada vez mais países querem desenvolver sua própria inteligência artificial",
+      "summary": "Por que cada vez mais países querem desenvolver sua própria inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQc3BiTkUwdFpZeVBWdW55ei11d1JmS1pTU294ZURuNXZuRnFySURCaUJ3Uzctc2FjZkVBNlVUWFpaSl9WZi1oMXpKNDdPX09uOTcwZy0yMHBHeVp3bk9tcFBzQzVybmItbjVDdmV1Y0F6aGZ5U1Nfc2NYWTIxY3BjZUtzbDQ5aW5vWlhuWWJ2ZWJMUUdWWk1SbUltUWppNFg0Nk9iXzRJcTNqU1BiRGhrTElvTmlHSHNsYlcyWk4yVzR4Y3df?oc=5",
+      "source": "Exame",
+      "published_at": "Fri, 10 Jul 2026 08:08:58 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
     {
       "title": "A nova economia da inteligência artificial",
       "summary": "A nova economia da inteligência artificial",
@@ -36,24 +54,6 @@
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE44WXZkYkhmR3RtaXkySHQ4NGtxR2RxazFjWGhwUE9pX09pVENZdmRMZ3VNWkJzTldiZ3NOTE5DSmRibDNHSkFxbXl2Ujd6SHJuRUZMeFpsM2lIRFBHR2hrOUZHeERyODJ3b1RvUVZoUUF5S2xlSGRoNw?oc=5",
       "source": "Monitor Mercantil",
       "published_at": "Thu, 09 Jul 2026 17:45:07 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Meta lança novo modelo de IA e passa a cobrar pelo serviço",
-      "summary": "Meta lança novo modelo de IA e passa a cobrar pelo serviço",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRVlDMEYwdjNyNUo1bnYtSlMzVVFGMU1BcTBwVHVIUDdoOEhuU0JKT2ZtREdnOEF2cDdVdFNTRnJHY1YzZGJxWDdadE5keE5MMjh1TGM1UmNERjZmSWd2NzA3YzJaVEF5VnM2QWlDN1BtSDhxVUFGQmw5RlFmWXBTRGdsLTNkV1FjOGV4LTdEMVE2b1Q1RDl2MUt0VkVndVNqTlhuZVFNONIBrAFBVV95cUxNZDRUd2lTTDdEV0lRUEVPOUFzc2F3YXlxZHJqQkhKTnhFaTZveVlhbjFnRE93WkFlaXhZbkVfYVNDWXpNVXRtM3Rya0tUWlYyNS1hRDdMRmhpZkFRalkteDJGVDI1RHM3SEhYMmszVHRCWEhKd0hEa2p3S2hhaThPSWVRb2xjWkVxQkRxaERuNkZPTGF5ZWRIWkcteGR2RnlVdzRWNERqempKblpu?oc=5",
-      "source": "InfoMoney",
-      "published_at": "Thu, 09 Jul 2026 19:35:39 GMT",
-      "category": "IA",
-      "signal": "up"
-    },
-    {
-      "title": "Primeiro Diálogo Global sobre Governança da Inteligência Artificial (IA)",
-      "summary": "Primeiro Diálogo Global sobre Governança da Inteligência Artificial (IA)",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTThJV0UtMlhaTC16TGNwWlhWTnd3Zm9qcHA5eUtsSFBJbEt5aXJWbC1DRWxKUEhYbC14V1VZbXZ6MXAtYW1DOFFST0o3SDU4Yko1Qm9aNHplRkZwTUUyUVR6aEl2TFo0VUJ0NEhKb2hhV0RQWFBaQ0xrTlJMRUowSFhMZjNtX0hxYmw3Y3dLNWxfSGNSR2NCcmRkcUQ0azZkLVdLLWJKSExPVzBVS0xCaTdjOENCNHh5TjFsaA?oc=5",
-      "source": "As Nações Unidas no Brasil",
-      "published_at": "Mon, 06 Jul 2026 19:51:51 GMT",
       "category": "IA",
       "signal": "flat"
     }
