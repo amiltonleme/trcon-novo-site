@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T10:42:08.396770+00:00",
+  "generated_at": "2026-07-10T21:01:30.846172+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
@@ -12,6 +12,14 @@
       "publishedAt": "Fri, 10 Jul 2026 09:33:00 GMT"
     },
     {
+      "source": "ConvergenciaDigital",
+      "category": "IA",
+      "title": "Inteligência Artificial: Mais da metade dos pilotos termina sem dar retorno financeiro às empresas",
+      "summary": "Inteligência Artificial: Mais da metade dos pilotos termina sem dar retorno financeiro às empresas",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdV9mSXhQR2dDOFZOOC0xc3ZOWTEwSmFDSFhtRGE4YUl6b1M5RjNqZ2ROZXFiSUplMU1UV3VnakZQNHUxY3BnbzE1Q0ZNZkZMTmZJTkF6c2I4SHBvMnN2Zi1CRFRrbWJabmpQWU1lR28wcXRWUy1pdmlSeU43YTh3MC1RMUwwMFpBWnkzMTdRQ1lqUzJ3RS1Fc240SXpucmpNNHhMOUdKOEF4TTNLXzF1NEI5YWdiaGxaRVRzYnRXOHpJSHlhMWtJNGpoNVVzMWdNalc1QWhXd1o?oc=5",
+      "publishedAt": "Fri, 10 Jul 2026 18:21:32 GMT"
+    },
+    {
       "source": "Exame",
       "category": "IA",
       "title": "Por que cada vez mais países querem desenvolver sua própria inteligência artificial",
@@ -20,36 +28,28 @@
       "publishedAt": "Fri, 10 Jul 2026 08:08:58 GMT"
     },
     {
-      "source": "InfoMoney",
+      "source": "TecMundo",
       "category": "IA",
-      "title": "A nova economia da inteligência artificial",
-      "summary": "A nova economia da inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNm5RT3NfWVJIUXVsTTBwYjNDUUxJRlFzdHp1UHh6alU3Zi1iMV9ZNlIyN0J5aGd3MW1qSjdqM1hTQ3M5STRTQUxUYzRKVER5ZHFIZ2g5bTRXMk1wM1NJQ1hTY3RqeE1zYXV2ejNRVGVvc0dxYm1HUy1HcmpxOFpFalEydG5uYnlDTFd2ZUJ0T2RKcHNDVzBETEN4MEtsWkdSb2hn0gGoAUFVX3lxTFBOQkF5UVJKcEdiRU52eU9HUEp5bHBBUlVFVVlIOHpoR0JDVWx5aFU3VngzVTdjUHNzVE1KUzZxVE1fSHlqcU1lUzV4NG5neFhVTkxtOVJlZWpBTW44Zm1HWklBRndjZmtvNkFibUxadWZjVzlMdTZ5cGgySVdhUi04SHZlQ2RIbjFTcENNdWo1MXItakNneTVpTFVuN25DRTl5eWtITzYtaA?oc=5",
-      "publishedAt": "Thu, 09 Jul 2026 12:00:00 GMT"
+      "title": "Modelos chineses de IA avançam nos EUA com custo menor e alta adoção empresarial",
+      "summary": "Modelos chineses de IA avançam nos EUA com custo menor e alta adoção empresarial",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNY1F1UTY5TkZCWHBkMWFORGZ1LVFmOXJ2T3QwazNEOTVsd3BDLUhWSktlRjd3U3h0Z1RDQTQ3YjhPZ3ZyZGQ3dU4xZWFpemJaQjZ5OEdKZl84bWgwZFN4NmZjdk5ieFYwdE9ncC16TU5NelRybUVnR1VuNXE1UzNuWXZwR2NMc21GNVhlY3FWYVNKeF9BRXV5eXNPT2dxMXViMktZZFV4eXVYWjFvRWczV3dSVUxmRVE2bV9pT3RyQ0RHM01MMkE?oc=5",
+      "publishedAt": "Fri, 10 Jul 2026 17:05:00 GMT"
     },
     {
-      "source": "Olhar Digital",
+      "source": "G1",
       "category": "IA",
-      "title": "Ranking revela falhas graves nas maiores empresas de IA",
-      "summary": "Ranking revela falhas graves nas maiores empresas de IA",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcEVDQkhILXI4Z1RHUWU4cXRDUzdxcldadVk0S2tMYVFxcEdaanFqeFBpZXc4VEtQX2JpMXV2aFE5U2lsMndwSE1OVTQ0NG9mc0xsbUpnZ1l6bjBSRTRpbzlyYjVvQmV4WmF3aGlNZ09ScnhWWktwbm1wbjBxNjNRclRWTzFoUng1cnM5a0FwLWVuTE8zZ2hNQTlaMHdNVjlxbHBEUUxCRkwwTVFpSWEwSXg3c1lPaDE5TjVN?oc=5",
-      "publishedAt": "Wed, 08 Jul 2026 18:07:00 GMT"
+      "title": "Maiores empresas de IA falham em combater 'ameaças existenciais' ao homem, diz relatório global",
+      "summary": "Maiores empresas de IA falham em combater 'ameaças existenciais' ao homem, diz relatório global",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPajcyRFpUOG85OWxQbkd1ZDRxMWRiZGUyZ0xBRlg2TDVMS3dKUXJ0RzQxSG5ZMU9aaVNIa1M5SXdEV05NWmZ6WXVqalJtV05sUnVFcjA3LWFTenRISXVGMG00cHZiRXJnT05NYlRncWE2MWFLSU94cDZFdElZS2JBdjhvV2cwZjBiaXRfZzJJR1gwSjZEZkNjdU1zaUJUc2hTaERmZWNEVUlZeUtEM1FfaDdHVUdMeDhJemhkeTN2VTZfNmtf0gHTAUFVX3lxTE9heDNWUG5BWVN4TWpqN2RNQU0yN29wNGhQekFQaUdPeUtGZ25iYkhUbmhZLTNQQmRDYjZ4NG5lSGw3QzFNa3lNNlhpeGw0Q1hsd01wWUc5dnBlLTVzWVNucDgyYVJ3cHpQZTM4b1RjaDRVa0Q4OFJGZVNaVUlhTEdOc0hheUlRWFNKMDJVejZEMXdoVjBqaEpodXFEMUJoaDFBbTJsM3ZBOHc5MnFKSDlsRnp2dk5FZzM3cGFFQU5mTVFYLWpTTGJwbWp4UTNTS0VTQ1U?oc=5",
+      "publishedAt": "Wed, 08 Jul 2026 07:01:09 GMT"
     },
     {
-      "source": "Exame",
+      "source": "Valor Econômico",
       "category": "IA",
-      "title": "A IA está consumindo cada vez mais energia; entenda por que isso preocupa governos e empresas",
-      "summary": "A IA está consumindo cada vez mais energia; entenda por que isso preocupa governos e empresas",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRnhVeXZKaHJEUXBnWVpyeU1obl96ZFZ6UGRaQ0M1RDV3MHJzTU5NZUFRZDc0SXFfLWJZVkJETTdWZUdLdVJ0TFFVVkxWNXd1cEx4UjhhSm5Ib3FXSFk3b3J2VmYyUmZMbU85U29LbkpqeHRsRDZJVThZLWRISFFiY0FaZlk3QVZsMThvZWVMTVhPNGZVMXhtWkE4UVRyMERQMFc1akFoaTVnRXZTUm9OR21feFF2REhiNFM2T0FVb25GNHlSQ09nQ1VQZG1PeHJK?oc=5",
-      "publishedAt": "Thu, 09 Jul 2026 09:05:43 GMT"
-    },
-    {
-      "source": "Monitor Mercantil",
-      "category": "IA",
-      "title": "Inteligência artificial nas empresas e o novo valor competitivo",
-      "summary": "Inteligência artificial nas empresas e o novo valor competitivo",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE44WXZkYkhmR3RtaXkySHQ4NGtxR2RxazFjWGhwUE9pX09pVENZdmRMZ3VNWkJzTldiZ3NOTE5DSmRibDNHSkFxbXl2Ujd6SHJuRUZMeFpsM2lIRFBHR2hrOUZHeERyODJ3b1RvUVZoUUF5S2xlSGRoNw?oc=5",
-      "publishedAt": "Thu, 09 Jul 2026 17:45:07 GMT"
+      "title": "Vibra recorre à IA para ficar mais próxima de clientes corporativos",
+      "summary": "Vibra recorre à IA para ficar mais próxima de clientes corporativos",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaVRSUkp4eW91NFdWN2ZkSVBuaUdmOERCdjJKU2w5RWhDNFhpWWtLZ1EzQnR0TkRRbDQ5bGxUNy05QTRIdE1jSC1ndEFVcTBnMkYzeUE2WkN4dDBvS0Y5SHRoQ1p3VldNZjlaaE9EM2VybmtzNG5EM2ZVZWJKcnd5QmtYNFV5ZjlnN3ROZHg4bEhhQU1PaEtoTUxHc1h0MWhLX0l3WEJ3OS1HWktSQ1gzUHdtU2VoWm5iT1NILXBhdnVlWmPSAdIBQVVfeXFMTnJrVDZ3T2dIRl9jYlNoMVFEYzRuVDBod1doUWxqM1dHMk9yUC02WjN0NktwNlRlTnRPTUJSVzFqbnBtYVF3a1FEZnM4VWtILWZwVGV5WVJYeXBla3FDUXdVdGxDclVobVZ0bUlhcjVhM1d6NDJZT2dHSE81ekc0S1VZX2JXYkk3YVRTd1gzajBkNXVwUVNfNlA0TE90WUlsbEJNYmRWRDFqV0kySEJPc25maEFNNGpGemJwQVZsVkRWVlh1aG5ic3BHUVNmc1R1NkV3?oc=5",
+      "publishedAt": "Fri, 10 Jul 2026 12:00:34 GMT"
     },
     {
       "source": "TI INSIDE Online",
