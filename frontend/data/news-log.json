@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T09:13:09.838837+00:00",
+  "generated_at": "2026-07-11T20:40:51.129870+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
@@ -20,6 +20,22 @@
       "publishedAt": "Fri, 10 Jul 2026 18:21:32 GMT"
     },
     {
+      "source": "Times Brasil | CNBC",
+      "category": "IA",
+      "title": "Empresas de IA deixam de focar em modelos maiores e passam para sistemas mais baratos e inteligentes",
+      "summary": "Empresas de IA deixam de focar em modelos maiores e passam para sistemas mais baratos e inteligentes",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMGlPU1RTRHplenVSMTdtZjFYWnNKeFN4cXQzaktiVm5uWTFwZ2xhdnVyX0hwZmpjcF9LU01Ic1EtNURkQnZSNEJYekktcWZha1FCcE1HSDEzclRDazhDN3VMcDQzM1o0VlU4aExoazlzZmNob01scHFwMlFFSW15T2VCQ18wVWs3c0Z5aDJvdTM5UGVnMnlCZHFFQUxpNEl3cHBUWEZnZjhIRXJYcTh0NjdCbzJ6cHNvYVJQOVE1MV9WanBpYm1tYW9iSHBtNTh4YzlPOEw3dXFRazlS?oc=5",
+      "publishedAt": "Sat, 11 Jul 2026 12:26:00 GMT"
+    },
+    {
+      "source": "Exame",
+      "category": "IA",
+      "title": "Uma IA para cada tarefa: por que empresas estão abandonando o modelo \"faz tudo\"",
+      "summary": "Uma IA para cada tarefa: por que empresas estão abandonando o modelo \"faz tudo\"",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcG00cFFzd2pVVjZLSWFDYWl6dTFRRmhpOU5LdXVQZGJKMG5WaEJuOGxiSGN0dzNqa2wxbDRZX1hVRUU1NlYzTXJUeWVPX0VxLUxFS0VTR3B3OVFDVV9lTnRudVh4MkFHTWk3Rmx5TFJsT1VibnVpLVVjSEttTFlnZ1FEZnRMWE91b1c2dDYydUd0WkhuZ0NrS3FyaktxSVlkRGpIcGh5Qkc1Ti1Zczh0c2xIbFhYNHNXUm1Z?oc=5",
+      "publishedAt": "Sat, 11 Jul 2026 09:13:50 GMT"
+    },
+    {
       "source": "TecMundo",
       "category": "IA",
       "title": "Modelos chineses de IA avançam nos EUA com custo menor e alta adoção empresarial",
@@ -34,22 +50,6 @@
       "summary": "Ranking revela falhas graves nas maiores empresas de IA",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcEVDQkhILXI4Z1RHUWU4cXRDUzdxcldadVk0S2tMYVFxcEdaanFqeFBpZXc4VEtQX2JpMXV2aFE5U2lsMndwSE1OVTQ0NG9mc0xsbUpnZ1l6bjBSRTRpbzlyYjVvQmV4WmF3aGlNZ09ScnhWWktwbm1wbjBxNjNRclRWTzFoUng1cnM5a0FwLWVuTE8zZ2hNQTlaMHdNVjlxbHBEUUxCRkwwTVFpSWEwSXg3c1lPaDE5TjVN?oc=5",
       "publishedAt": "Wed, 08 Jul 2026 18:07:00 GMT"
-    },
-    {
-      "source": "ES Brasil",
-      "category": "IA",
-      "title": "IA preditiva ganha espaço nas decisões empresariais",
-      "summary": "IA preditiva ganha espaço nas decisões empresariais",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9CcUxOMGlTbTNZcUYxX2tyRGc4VEVmTDZ5R2FVMFQwTzZpTUNPQ0dpMnVlV21EUUh0YWFMbVNUWVZ1UDZCdHh2d05FR2ZIN3RTOWxyelUtMVV5T1A3YzdQS2xpNjJhc01ZZGE1b2hHVURjeThUYU92T3B6MHlTZw?oc=5",
-      "publishedAt": "Fri, 10 Jul 2026 18:06:38 GMT"
-    },
-    {
-      "source": "Paraíba Business",
-      "category": "IA",
-      "title": "IA agêntica avança e muda a automação dentro das empresas",
-      "summary": "IA agêntica avança e muda a automação dentro das empresas",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQU19aQVZYSUg2OVRwWDRnYUFrZUZpNXZPUXh3N3Q0YksyeXZ5RDVJMjNxclZPbVV6ajRON08yeldmbnFZcGVpTDlxOUJoWmRlMTAzSE1POGpZOE5ZQnRNNDZOSXdJS3FycGdXRnR4YWphZ3cwRlhpaWdHeURMZnZsdE5sN1JCQXN2T2wyZmZtUDhSbms?oc=5",
-      "publishedAt": "Fri, 10 Jul 2026 19:44:00 GMT"
     },
     {
       "source": "TI INSIDE Online",
