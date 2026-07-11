@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T21:01:29.565838+00:00",
+  "generated_at": "2026-07-11T09:13:08.801708+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -22,15 +22,6 @@
       "signal": "flat"
     },
     {
-      "title": "Por que cada vez mais países querem desenvolver sua própria inteligência artificial",
-      "summary": "Por que cada vez mais países querem desenvolver sua própria inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQc3BiTkUwdFpZeVBWdW55ei11d1JmS1pTU294ZURuNXZuRnFySURCaUJ3Uzctc2FjZkVBNlVUWFpaSl9WZi1oMXpKNDdPX09uOTcwZy0yMHBHeVp3bk9tcFBzQzVybmItbjVDdmV1Y0F6aGZ5U1Nfc2NYWTIxY3BjZUtzbDQ5aW5vWlhuWWJ2ZWJMUUdWWk1SbUltUWppNFg0Nk9iXzRJcTNqU1BiRGhrTElvTmlHSHNsYlcyWk4yVzR4Y3df?oc=5",
-      "source": "Exame",
-      "published_at": "Fri, 10 Jul 2026 08:08:58 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
       "title": "Modelos chineses de IA avançam nos EUA com custo menor e alta adoção empresarial",
       "summary": "Modelos chineses de IA avançam nos EUA com custo menor e alta adoção empresarial",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNY1F1UTY5TkZCWHBkMWFORGZ1LVFmOXJ2T3QwazNEOTVsd3BDLUhWSktlRjd3U3h0Z1RDQTQ3YjhPZ3ZyZGQ3dU4xZWFpemJaQjZ5OEdKZl84bWgwZFN4NmZjdk5ieFYwdE9ncC16TU5NelRybUVnR1VuNXE1UzNuWXZwR2NMc21GNVhlY3FWYVNKeF9BRXV5eXNPT2dxMXViMktZZFV4eXVYWjFvRWczV3dSVUxmRVE2bV9pT3RyQ0RHM01MMkE?oc=5",
@@ -40,20 +31,29 @@
       "signal": "flat"
     },
     {
-      "title": "Maiores empresas de IA falham em combater 'ameaças existenciais' ao homem, diz relatório global",
-      "summary": "Maiores empresas de IA falham em combater 'ameaças existenciais' ao homem, diz relatório global",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPajcyRFpUOG85OWxQbkd1ZDRxMWRiZGUyZ0xBRlg2TDVMS3dKUXJ0RzQxSG5ZMU9aaVNIa1M5SXdEV05NWmZ6WXVqalJtV05sUnVFcjA3LWFTenRISXVGMG00cHZiRXJnT05NYlRncWE2MWFLSU94cDZFdElZS2JBdjhvV2cwZjBiaXRfZzJJR1gwSjZEZkNjdU1zaUJUc2hTaERmZWNEVUlZeUtEM1FfaDdHVUdMeDhJemhkeTN2VTZfNmtf0gHTAUFVX3lxTE9heDNWUG5BWVN4TWpqN2RNQU0yN29wNGhQekFQaUdPeUtGZ25iYkhUbmhZLTNQQmRDYjZ4NG5lSGw3QzFNa3lNNlhpeGw0Q1hsd01wWUc5dnBlLTVzWVNucDgyYVJ3cHpQZTM4b1RjaDRVa0Q4OFJGZVNaVUlhTEdOc0hheUlRWFNKMDJVejZEMXdoVjBqaEpodXFEMUJoaDFBbTJsM3ZBOHc5MnFKSDlsRnp2dk5FZzM3cGFFQU5mTVFYLWpTTGJwbWp4UTNTS0VTQ1U?oc=5",
-      "source": "G1",
-      "published_at": "Wed, 08 Jul 2026 07:01:09 GMT",
+      "title": "Ranking revela falhas graves nas maiores empresas de IA",
+      "summary": "Ranking revela falhas graves nas maiores empresas de IA",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcEVDQkhILXI4Z1RHUWU4cXRDUzdxcldadVk0S2tMYVFxcEdaanFqeFBpZXc4VEtQX2JpMXV2aFE5U2lsMndwSE1OVTQ0NG9mc0xsbUpnZ1l6bjBSRTRpbzlyYjVvQmV4WmF3aGlNZ09ScnhWWktwbm1wbjBxNjNRclRWTzFoUng1cnM5a0FwLWVuTE8zZ2hNQTlaMHdNVjlxbHBEUUxCRkwwTVFpSWEwSXg3c1lPaDE5TjVN?oc=5",
+      "source": "Olhar Digital",
+      "published_at": "Wed, 08 Jul 2026 18:07:00 GMT",
       "category": "IA",
       "signal": "down"
     },
     {
-      "title": "Vibra recorre à IA para ficar mais próxima de clientes corporativos",
-      "summary": "Vibra recorre à IA para ficar mais próxima de clientes corporativos",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaVRSUkp4eW91NFdWN2ZkSVBuaUdmOERCdjJKU2w5RWhDNFhpWWtLZ1EzQnR0TkRRbDQ5bGxUNy05QTRIdE1jSC1ndEFVcTBnMkYzeUE2WkN4dDBvS0Y5SHRoQ1p3VldNZjlaaE9EM2VybmtzNG5EM2ZVZWJKcnd5QmtYNFV5ZjlnN3ROZHg4bEhhQU1PaEtoTUxHc1h0MWhLX0l3WEJ3OS1HWktSQ1gzUHdtU2VoWm5iT1NILXBhdnVlWmPSAdIBQVVfeXFMTnJrVDZ3T2dIRl9jYlNoMVFEYzRuVDBod1doUWxqM1dHMk9yUC02WjN0NktwNlRlTnRPTUJSVzFqbnBtYVF3a1FEZnM4VWtILWZwVGV5WVJYeXBla3FDUXdVdGxDclVobVZ0bUlhcjVhM1d6NDJZT2dHSE81ekc0S1VZX2JXYkk3YVRTd1gzajBkNXVwUVNfNlA0TE90WUlsbEJNYmRWRDFqV0kySEJPc25maEFNNGpGemJwQVZsVkRWVlh1aG5ic3BHUVNmc1R1NkV3?oc=5",
-      "source": "Valor Econômico",
-      "published_at": "Fri, 10 Jul 2026 12:00:34 GMT",
+      "title": "IA preditiva ganha espaço nas decisões empresariais",
+      "summary": "IA preditiva ganha espaço nas decisões empresariais",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9CcUxOMGlTbTNZcUYxX2tyRGc4VEVmTDZ5R2FVMFQwTzZpTUNPQ0dpMnVlV21EUUh0YWFMbVNUWVZ1UDZCdHh2d05FR2ZIN3RTOWxyelUtMVV5T1A3YzdQS2xpNjJhc01ZZGE1b2hHVURjeThUYU92T3B6MHlTZw?oc=5",
+      "source": "ES Brasil",
+      "published_at": "Fri, 10 Jul 2026 18:06:38 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "IA agêntica avança e muda a automação dentro das empresas",
+      "summary": "IA agêntica avança e muda a automação dentro das empresas",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQU19aQVZYSUg2OVRwWDRnYUFrZUZpNXZPUXh3N3Q0YksyeXZ5RDVJMjNxclZPbVV6ajRON08yeldmbnFZcGVpTDlxOUJoWmRlMTAzSE1POGpZOE5ZQnRNNDZOSXdJS3FycGdXRnR4YWphZ3cwRlhpaWdHeURMZnZsdE5sN1JCQXN2T2wyZmZtUDhSbms?oc=5",
+      "source": "Paraíba Business",
+      "published_at": "Fri, 10 Jul 2026 19:44:00 GMT",
       "category": "IA",
       "signal": "flat"
     }
