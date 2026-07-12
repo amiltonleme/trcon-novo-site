@@ -1,7 +1,9 @@
 {
   "generated_at": "2026-07-11T20:40:51.080945+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de tecnologia.",
-  "errors": [],
+  "errors": [
+    "Sem itens novos nesta execucao; mantido o ultimo artefato valido."
+  ],
   "items": [
     {
       "title": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",

@@ -1,7 +1,9 @@
 {
   "generated_at": "2026-07-11T20:40:50.025418+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
-  "errors": [],
+  "errors": [
+    "Sem itens novos nesta execucao; mantido o ultimo artefato valido."
+  ],
   "items": [
     {
       "title": "China vive explosão de empresas individuais impulsionadas pela inteligência artificial",
