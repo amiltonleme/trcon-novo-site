@@ -1,9 +1,7 @@
 {
-  "generated_at": "2026-07-11T20:40:51.080945+00:00",
+  "generated_at": "2026-07-12T20:37:18.676936+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de tecnologia.",
-  "errors": [
-    "Sem itens novos nesta execucao; mantido o ultimo artefato valido."
-  ],
+  "errors": [],
   "items": [
     {
       "title": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
@@ -51,11 +49,11 @@
       "signal": "flat"
     },
     {
-      "title": "Programa Bolsa Futuro Digital oferta cursos gratuitos sobre desenvolvimento de software",
-      "summary": "Programa Bolsa Futuro Digital oferta cursos gratuitos sobre desenvolvimento de software",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ2hudTJKeVVSVEtQc2VTSFM0blFsdEprd0pQMHV1aE1WamFoLWlpMjR0WVRYYWc1SlNhOWJaMGtrbmdHaGZiWGxzRzAxMXhQbnE2Y1ZFdFBPT2xRNE0yWXRUejNmeWlEZXBtRDh2eERSTnhOWVQzY25xZ3pYRHJJVmtIbm5lR0tEV3J6QkZKNVR0aFd4bTFGd3Rtc1JaSHdjY2JpRTRrRFRhdUgyMWNHUmdnb1M2SjVQdWc?oc=5",
-      "source": "IFRS",
-      "published_at": "Thu, 15 Jan 2026 08:00:00 GMT",
+      "title": "Agentes de IA no desenvolvimento de software: como a StackSpot AI muda o jogo",
+      "summary": "Agentes de IA no desenvolvimento de software: como a StackSpot AI muda o jogo",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUXUwZHI1Z2lZTWN2dE9JcDQxN3NidFVHN19sM2gxMWxJbU1haF9tV2I4S1c0cDBVd0lUTkp2OU8ta2tlRHFCblY1NUUtWnhuLWlZSUl6Q3YtWXlqaVZIOW5vWHhsVi1OQjVyNEdJMUpUNXJHUjNJcjNvanM0cThncmxEVGhFQnlBdjhfRWNfVWJsOEQwMlRnaDNVRU1FRS1lU05JMHRFc0x5c1dwbFE?oc=5",
+      "source": "StartSe",
+      "published_at": "Wed, 15 Oct 2025 07:00:00 GMT",
       "category": "Tecnologia",
       "signal": "flat"
     }

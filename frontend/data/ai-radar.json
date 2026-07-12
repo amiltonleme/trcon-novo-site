@@ -1,10 +1,17 @@
 {
-  "generated_at": "2026-07-11T20:40:50.025418+00:00",
+  "generated_at": "2026-07-12T20:37:17.583413+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
-  "errors": [
-    "Sem itens novos nesta execucao; mantido o ultimo artefato valido."
-  ],
+  "errors": [],
   "items": [
+    {
+      "title": "OpenAI, Meta e SpaceXAI travam disputa por modelos de IA mais eficientes e econômicos",
+      "summary": "OpenAI, Meta e SpaceXAI travam disputa por modelos de IA mais eficientes e econômicos",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWnRYRkNMOW1QdFYtTlZzQTFJc3VRRWdrclBWNzBqOC10MS1KZmJ0TnRwazBfLWRHeEdXYjRRVXpxY1Q2Q2FLU1RJMG00R21nSWQ3d3Rod21VaUJacUNsdThXZ0dIUl9idVhIdkVxenJfbENWLWFXY3cwQXRqT0JOYzVTY2ZSb3NrdmFuV0tqR2VxTUdYQUc1cjRnTTNxMUhhMHdrOFlGcW1HRHp3anh4bVROdWhIRzBpU01YV05wZjNZY3lQS1NFdjZRU3NvN25NZ2FxU1pzUnp4dzZSbVNpcnJYTXIzZnZZX1HSAfgBQVVfeXFMT1R2UWxPYnUtS21PclhpMENDbmZrc3hLS1pwQmd3VkF0OTQtaGZfelExRVVDQjJ6RUVUSEx6b0UtX2ZoOXhWUmNqb1cwdFcwMjhGaUJvVDQtdDYtQmJ1ZUR2M1FndXBwU0NhSTl1MWFkdk5BRkJKc1I5UHVoaTlOOV9mWThla2NfX1pWSXhXRi1GcWQtcVZ0UXMxTlVwSHJLOGNKMGgzVERROVdsM1VreXQ4VVp6ZkhIYU9KejhCUUtVdW5CUDNQblNLak9TanctTnlSRHJTdUFNRGhSSnltQXA2Sm1ZRDVhQUZYS0JCYmdFcW1UT1hTbWE?oc=5",
+      "source": "O GLOBO",
+      "published_at": "Sun, 12 Jul 2026 20:17:26 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
     {
       "title": "China vive explosão de empresas individuais impulsionadas pela inteligência artificial",
       "summary": "China vive explosão de empresas individuais impulsionadas pela inteligência artificial",
@@ -33,11 +40,11 @@
       "signal": "flat"
     },
     {
-      "title": "Uma IA para cada tarefa: por que empresas estão abandonando o modelo \"faz tudo\"",
-      "summary": "Uma IA para cada tarefa: por que empresas estão abandonando o modelo \"faz tudo\"",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcG00cFFzd2pVVjZLSWFDYWl6dTFRRmhpOU5LdXVQZGJKMG5WaEJuOGxiSGN0dzNqa2wxbDRZX1hVRUU1NlYzTXJUeWVPX0VxLUxFS0VTR3B3OVFDVV9lTnRudVh4MkFHTWk3Rmx5TFJsT1VibnVpLVVjSEttTFlnZ1FEZnRMWE91b1c2dDYydUd0WkhuZ0NrS3FyaktxSVlkRGpIcGh5Qkc1Ti1Zczh0c2xIbFhYNHNXUm1Z?oc=5",
+      "title": "Por que a memória da inteligência artificial se tornou uma das principais apostas das empresas",
+      "summary": "Por que a memória da inteligência artificial se tornou uma das principais apostas das empresas",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUklJTGJKUk1sZXNXam5ScFBMaFpicHIxbWw0aXBSUDBIZ3hDZkJZdHliY3lsc2FZYUQ0VHdtRHNUUzlobVZma28ycDA0ODMzNm1UWXV6Zk9VQUdFb1hsUUdQbVh6dENMbzRteXI4bXo1cndlZUhQMTVMNzRuS0pXYTJHbTB6RTFXRkFfeTNRRkt5ZnN5T3lELWk1N3VHRGcxaE9mQmc1Tm5rRDJBZkZ1R3dlMGdvWjBZRFZITFl3dHJJSHZkUmthdVk1b3NOVlRCakFr?oc=5",
       "source": "Exame",
-      "published_at": "Sat, 11 Jul 2026 09:13:50 GMT",
+      "published_at": "Sun, 12 Jul 2026 11:08:36 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -49,15 +56,6 @@
       "published_at": "Fri, 10 Jul 2026 17:05:00 GMT",
       "category": "IA",
       "signal": "flat"
-    },
-    {
-      "title": "Ranking revela falhas graves nas maiores empresas de IA",
-      "summary": "Ranking revela falhas graves nas maiores empresas de IA",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcEVDQkhILXI4Z1RHUWU4cXRDUzdxcldadVk0S2tMYVFxcEdaanFqeFBpZXc4VEtQX2JpMXV2aFE5U2lsMndwSE1OVTQ0NG9mc0xsbUpnZ1l6bjBSRTRpbzlyYjVvQmV4WmF3aGlNZ09ScnhWWktwbm1wbjBxNjNRclRWTzFoUng1cnM5a0FwLWVuTE8zZ2hNQTlaMHdNVjlxbHBEUUxCRkwwTVFpSWEwSXg3c1lPaDE5TjVN?oc=5",
-      "source": "Olhar Digital",
-      "published_at": "Wed, 08 Jul 2026 18:07:00 GMT",
-      "category": "IA",
-      "signal": "down"
     }
   ],
   "category": "IA"

@@ -1,18 +1,15 @@
 {
-  "generated_at": "2026-07-12T09:41:05.765280+00:00",
+  "generated_at": "2026-07-12T20:37:18.728698+00:00",
   "source_note": "Destaques consolidados dos radares TRCon (curadoria por regras).",
-  "errors": [
-    "Sem itens novos nesta execucao; mantido o ultimo artefato valido.",
-    "Sem itens novos nesta execucao; mantido o ultimo artefato valido."
-  ],
+  "errors": [],
   "items": [
     {
       "category": "IA",
-      "title": "China vive explosão de empresas individuais impulsionadas pela inteligência artificial",
-      "summary": "China vive explosão de empresas individuais impulsionadas pela inteligência artificial",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTjc0MzZfS3Q4U2hGN0kzTHJvRlA5b2VqTmFWN2Z4azlJZmQxVVczWTZGWlgxMGRmOVUyYzFsaUwyWFpTZ3dfZ2tfVjB0WWlHU0h6Q3JWQ3BQa21md1NhMXJLN1Vpc29NZ2I5YjVlazkwV18wTGtVakRMNC1nY3YyUXR6S3dyUGVyRlQxOW5ReHJfU0FuWGhmbFRPcE1rSDR4eXBHRTFHYjdjUG96Wk9iQi1IdGMxdG5mdHZyblIzYm9rZw?oc=5",
+      "title": "OpenAI, Meta e SpaceXAI travam disputa por modelos de IA mais eficientes e econômicos",
+      "summary": "OpenAI, Meta e SpaceXAI travam disputa por modelos de IA mais eficientes e econômicos",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWnRYRkNMOW1QdFYtTlZzQTFJc3VRRWdrclBWNzBqOC10MS1KZmJ0TnRwazBfLWRHeEdXYjRRVXpxY1Q2Q2FLU1RJMG00R21nSWQ3d3Rod21VaUJacUNsdThXZ0dIUl9idVhIdkVxenJfbENWLWFXY3cwQXRqT0JOYzVTY2ZSb3NrdmFuV0tqR2VxTUdYQUc1cjRnTTNxMUhhMHdrOFlGcW1HRHp3anh4bVROdWhIRzBpU01YV05wZjNZY3lQS1NFdjZRU3NvN25NZ2FxU1pzUnp4dzZSbVNpcnJYTXIzZnZZX1HSAfgBQVVfeXFMT1R2UWxPYnUtS21PclhpMENDbmZrc3hLS1pwQmd3VkF0OTQtaGZfelExRVVDQjJ6RUVUSEx6b0UtX2ZoOXhWUmNqb1cwdFcwMjhGaUJvVDQtdDYtQmJ1ZUR2M1FndXBwU0NhSTl1MWFkdk5BRkJKc1I5UHVoaTlOOV9mWThla2NfX1pWSXhXRi1GcWQtcVZ0UXMxTlVwSHJLOGNKMGgzVERROVdsM1VreXQ4VVp6ZkhIYU9KejhCUUtVdW5CUDNQblNLak9TanctTnlSRHJTdUFNRGhSSnltQXA2Sm1ZRDVhQUZYS0JCYmdFcW1UT1hTbWE?oc=5",
       "priority": 1,
-      "publishedAt": "Fri, 10 Jul 2026 09:33:00 GMT"
+      "publishedAt": "Sun, 12 Jul 2026 20:17:26 GMT"
     },
     {
       "category": "Tecnologia",
@@ -24,11 +21,11 @@
     },
     {
       "category": "IA",
-      "title": "Inteligência Artificial: Mais da metade dos pilotos termina sem dar retorno financeiro às empresas",
-      "summary": "Inteligência Artificial: Mais da metade dos pilotos termina sem dar retorno financeiro às empresas",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdV9mSXhQR2dDOFZOOC0xc3ZOWTEwSmFDSFhtRGE4YUl6b1M5RjNqZ2ROZXFiSUplMU1UV3VnakZQNHUxY3BnbzE1Q0ZNZkZMTmZJTkF6c2I4SHBvMnN2Zi1CRFRrbWJabmpQWU1lR28wcXRWUy1pdmlSeU43YTh3MC1RMUwwMFpBWnkzMTdRQ1lqUzJ3RS1Fc240SXpucmpNNHhMOUdKOEF4TTNLXzF1NEI5YWdiaGxaRVRzYnRXOHpJSHlhMWtJNGpoNVVzMWdNalc1QWhXd1o?oc=5",
+      "title": "China vive explosão de empresas individuais impulsionadas pela inteligência artificial",
+      "summary": "China vive explosão de empresas individuais impulsionadas pela inteligência artificial",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTjc0MzZfS3Q4U2hGN0kzTHJvRlA5b2VqTmFWN2Z4azlJZmQxVVczWTZGWlgxMGRmOVUyYzFsaUwyWFpTZ3dfZ2tfVjB0WWlHU0h6Q3JWQ3BQa21md1NhMXJLN1Vpc29NZ2I5YjVlazkwV18wTGtVakRMNC1nY3YyUXR6S3dyUGVyRlQxOW5ReHJfU0FuWGhmbFRPcE1rSDR4eXBHRTFHYjdjUG96Wk9iQi1IdGMxdG5mdHZyblIzYm9rZw?oc=5",
       "priority": 3,
-      "publishedAt": "Fri, 10 Jul 2026 18:21:32 GMT"
+      "publishedAt": "Fri, 10 Jul 2026 09:33:00 GMT"
     },
     {
       "category": "Tecnologia",
@@ -40,11 +37,11 @@
     },
     {
       "category": "IA",
-      "title": "Empresas de IA deixam de focar em modelos maiores e passam para sistemas mais baratos e inteligentes",
-      "summary": "Empresas de IA deixam de focar em modelos maiores e passam para sistemas mais baratos e inteligentes",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMGlPU1RTRHplenVSMTdtZjFYWnNKeFN4cXQzaktiVm5uWTFwZ2xhdnVyX0hwZmpjcF9LU01Ic1EtNURkQnZSNEJYekktcWZha1FCcE1HSDEzclRDazhDN3VMcDQzM1o0VlU4aExoazlzZmNob01scHFwMlFFSW15T2VCQ18wVWs3c0Z5aDJvdTM5UGVnMnlCZHFFQUxpNEl3cHBUWEZnZjhIRXJYcTh0NjdCbzJ6cHNvYVJQOVE1MV9WanBpYm1tYW9iSHBtNTh4YzlPOEw3dXFRazlS?oc=5",
+      "title": "Inteligência Artificial: Mais da metade dos pilotos termina sem dar retorno financeiro às empresas",
+      "summary": "Inteligência Artificial: Mais da metade dos pilotos termina sem dar retorno financeiro às empresas",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdV9mSXhQR2dDOFZOOC0xc3ZOWTEwSmFDSFhtRGE4YUl6b1M5RjNqZ2ROZXFiSUplMU1UV3VnakZQNHUxY3BnbzE1Q0ZNZkZMTmZJTkF6c2I4SHBvMnN2Zi1CRFRrbWJabmpQWU1lR28wcXRWUy1pdmlSeU43YTh3MC1RMUwwMFpBWnkzMTdRQ1lqUzJ3RS1Fc240SXpucmpNNHhMOUdKOEF4TTNLXzF1NEI5YWdiaGxaRVRzYnRXOHpJSHlhMWtJNGpoNVVzMWdNalc1QWhXd1o?oc=5",
       "priority": 5,
-      "publishedAt": "Sat, 11 Jul 2026 12:26:00 GMT"
+      "publishedAt": "Fri, 10 Jul 2026 18:21:32 GMT"
     },
     {
       "category": "Tecnologia",
