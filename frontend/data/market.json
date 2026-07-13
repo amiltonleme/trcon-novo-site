@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-07-13T10:46:26.627545+00:00",
+  "generated_at": "2026-07-13T20:52:44.381844+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
     {
       "symbol": "USD/BRL",
-      "value": "R$ 5,11",
+      "value": "R$ 5,12",
       "change": "0,00%",
       "direction": "flat"
     },
     {
       "symbol": "EUR/BRL",
-      "value": "R$ 5,84",
+      "value": "R$ 5,85",
       "change": "0,00%",
       "direction": "flat"
     },
     {
       "symbol": "IBOVESPA",
-      "value": "177.866 pts",
+      "value": "175.739 pts",
       "change": "estavel",
       "direction": "flat"
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 62.887",
-      "change": "-1,46%",
+      "value": "US$ 62.035",
+      "change": "-3,33%",
       "direction": "down"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 1.779",
-      "change": "-1,09%",
+      "value": "US$ 1.763",
+      "change": "-3,21%",
       "direction": "down"
     },
     {
       "symbol": "OURO",
-      "value": "US$ 4.075",
+      "value": "US$ 4.006",
       "change": "estavel",
       "direction": "flat"
     },
@@ -57,7 +57,7 @@
       "id": "usdbrl",
       "name": "Dolar (USD)",
       "icon": "💵",
-      "quote": "R$ 5,11",
+      "quote": "R$ 5,12",
       "change": "0,00%",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -68,7 +68,7 @@
       "id": "eurbrl",
       "name": "Euro (EUR)",
       "icon": "💶",
-      "quote": "R$ 5,84",
+      "quote": "R$ 5,85",
       "change": "0,00%",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -79,7 +79,7 @@
       "id": "ibov",
       "name": "Ibovespa",
       "icon": "📊",
-      "quote": "177.866 pts",
+      "quote": "175.739 pts",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Cautela",
@@ -90,8 +90,8 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 62.887",
-      "change": "-1,46%",
+      "quote": "US$ 62.035",
+      "change": "-3,33%",
       "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -101,8 +101,8 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 1.779",
-      "change": "-1,09%",
+      "quote": "US$ 1.763",
+      "change": "-3,21%",
       "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -112,7 +112,7 @@
       "id": "gold",
       "name": "Ouro",
       "icon": "🥇",
-      "quote": "US$ 4.075",
+      "quote": "US$ 4.006",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Cautela",
@@ -144,10 +144,6 @@
   ],
   "news": [
     {
-      "title": "Dólar recua, bolsa cai e petróleo dispara",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0zVldrWlVzdUlKTGpzWU5kRHAyVnJrazRTbldCQjNDeUdqWVdScVdfelhuNGFVcnNybmFnWHE3ZGR4SXRQMjZDTEpTMk1PMXgtazI1S1VVcXRLcG0xWXRJLXlZM29MeDJ4TWd5T2ZZMTQ?oc=5"
-    },
-    {
       "title": "Dólar reage e Bolsa desacelera após Fed manter juros; mercado aguarda Copom",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQWdvVG9BemZJSG9yRXhXSzZOVHQ5OUZwcWlXQkc2Tk9faVNydDRlTGN2Z3dIMHcwd1doODZKRHZMV0VIWFIySjZWTEl4Y3ZYRWtvUU5pYTlaNUU1VjNyVUZDWUZBNVFXYUFIR19yM0EwWThLVVFuTzQwa25mU212OS1weFJHdU5ZNjdJeWZ1ZVVralctci1odWo3SXo?oc=5"
     },
@@ -160,10 +156,6 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdGZWUWltSi15TWxWb3hDdEp3MVJaZGpCdzM2Zkd0S2dsaXVwdzJRVnZsQ2xaSVkyd0hBR3E1VDM4NmhBbk9tdkFQR0VVZDQwRkp6U3BmTzZPT1A4QTRwdmJJR083MHR2R1VBeGtiLXVYSXFLbTZ1ZVRLV0t6ME1aQ2FPbE8yYUVXVTJPbDY0WQ?oc=5"
     },
     {
-      "title": "Dólar sobe a R$ 5,17 e Ibovespa fecha em leve queda após decisões de juros",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdlpHUTFxQjhTS2NaYnV5OE9yQktmMjQ4djFHbGFiSEtzZms5aWZPWENDTUJyYzFQaTJiV0c1bFF6b3ZmYVdwTXFlcE1DdTZ6TEtKWDdva2ZOaGthSG8wZDUtQ2hQZ2pBMnV4UVZvTmI3cTBMc1BHbVlyZG1UT3puSVQydTJDbXdKRVN6OWwwNWVOMHdqNHl2YXZB?oc=5"
-    },
-    {
       "title": "Dólar abre em alta e mercado financeiro monitora juros, inflação e cenário global nesta terça-feira",
       "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaHRtazBKSkZQSWUyeEI0Q3VtYjRyMnZaU3I0N2trVWxxX0daSXJBNExLdFlyUkVzd0MyZVdiOGxyWDc1Vjl0alUtZHdwLXBNREExeTNxbVhSMWVTbm81SFU2cjBhVkpLWDhtQzVhamlWUlRWcDJBc1hYVkhlTDhDT1FNZkVnOUVCTmFrN2RNQzZCaFpBdjZTRTVqTmM1V2NGbEVKaHN4aE5iaDhhSVdwc05xdjk3ajF6VkVjWDlHbHhPOWtqSEdydEtoeURRcnhnOW5WX0VRaVZsbGNrUmw0aWpmclhrTXFUWUhMV1dXTXg1cFN0?oc=5"
     },
@@ -172,8 +164,16 @@
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5IOGJiVEMtUGJESXpFdEM4MnpEZDhLM2ZLODRqRGFEZmdBckZVSGhfYmU3a195WlZjUnRKbVNlTnE2UE90blVVcDB2cFVuLWZFWjE4?oc=5"
     },
     {
+      "title": "Dólar sobe a R$ 5,17 e Ibovespa fecha em leve queda após decisões de juros",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdlpHUTFxQjhTS2NaYnV5OE9yQktmMjQ4djFHbGFiSEtzZms5aWZPWENDTUJyYzFQaTJiV0c1bFF6b3ZmYVdwTXFlcE1DdTZ6TEtKWDdva2ZOaGthSG8wZDUtQ2hQZ2pBMnV4UVZvTmI3cTBMc1BHbVlyZG1UT3puSVQydTJDbXdKRVN6OWwwNWVOMHdqNHl2YXZB?oc=5"
+    },
+    {
       "title": "Dólar fecha acima de R$ 5,20 e Bolsa cai com pressão dos juros nos Estados Unidos",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaUpsOUJnZnhid29QM09xeU95cllqT1ZGUUJrU0hoNjlWUmlaNHozTzZjM1YtSHdzMUZZZVpsOUotbUVLMHNzdVpsaWY5Ny1IMEM0ZmxHOWRjTlF6Zm12Vm5KbjZQQkhJd3B6dDFIaXZJbnJGZ25Uc2xTb2UwaE5KZXU5d3pab1J1ZjFqVmxvQ0loNkJFVmJJOUxoZ2lodHhpM2lOZC1TbF9QbVlENXdZ?oc=5"
+    },
+    {
+      "title": "Dólar sobe e vai a R$ 5,17, após decisões de juros e acordo entre EUA e Irã; Ibovespa cai",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1od3R3UXg3SnFvR0hhUW5sd2dmNEM3Yy1lcW1EU1lKOHA5VGlNZkg1NXQyMzVpWWs0NGFtVXVUUlpJelBFMHBDeXluYzlVeGJZLV9YQkx5Y2E2WUFUa3ZLVWc5cjN0UVJVb2RCbjgydl9OMFhScm9LaNIBhwFBVV95cUxNSFQzR1Bmcm1EbWdNZHdRbFZvT3MxaHgwUDA1eG45Vi1WOW5GTWNNWlc2UWVXUGZoZ2RENDlCVVR6eWYzQnN5YmFQck0wdzM1VGw3MFJmMnZnMW5WOHhZb2E5WWl5aVo1Z0ZUQjdERkYyUmQtV2pXYnFySTRsQjhDX0lmeGN5Unc?oc=5"
     }
   ],
   "market_mood": {
