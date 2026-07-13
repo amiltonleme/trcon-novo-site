@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-07-12T20:37:18.728816+00:00",
+  "generated_at": "2026-07-13T10:46:28.824167+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
+    {
+      "source": "Times Brasil | CNBC",
+      "category": "IA",
+      "title": "Empresas de IA deixam de focar em modelos maiores e passam para sistemas mais baratos e inteligentes",
+      "summary": "Empresas de IA deixam de focar em modelos maiores e passam para sistemas mais baratos e inteligentes",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMGlPU1RTRHplenVSMTdtZjFYWnNKeFN4cXQzaktiVm5uWTFwZ2xhdnVyX0hwZmpjcF9LU01Ic1EtNURkQnZSNEJYekktcWZha1FCcE1HSDEzclRDazhDN3VMcDQzM1o0VlU4aExoazlzZmNob01scHFwMlFFSW15T2VCQ18wVWs3c0Z5aDJvdTM5UGVnMnlCZHFFQUxpNEl3cHBUWEZnZjhIRXJYcTh0NjdCbzJ6cHNvYVJQOVE1MV9WanBpYm1tYW9iSHBtNTh4YzlPOEw3dXFRazlS?oc=5",
+      "publishedAt": "Sat, 11 Jul 2026 12:26:00 GMT"
+    },
     {
       "source": "O GLOBO",
       "category": "IA",
@@ -10,14 +18,6 @@
       "summary": "OpenAI, Meta e SpaceXAI travam disputa por modelos de IA mais eficientes e econômicos",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWnRYRkNMOW1QdFYtTlZzQTFJc3VRRWdrclBWNzBqOC10MS1KZmJ0TnRwazBfLWRHeEdXYjRRVXpxY1Q2Q2FLU1RJMG00R21nSWQ3d3Rod21VaUJacUNsdThXZ0dIUl9idVhIdkVxenJfbENWLWFXY3cwQXRqT0JOYzVTY2ZSb3NrdmFuV0tqR2VxTUdYQUc1cjRnTTNxMUhhMHdrOFlGcW1HRHp3anh4bVROdWhIRzBpU01YV05wZjNZY3lQS1NFdjZRU3NvN25NZ2FxU1pzUnp4dzZSbVNpcnJYTXIzZnZZX1HSAfgBQVVfeXFMT1R2UWxPYnUtS21PclhpMENDbmZrc3hLS1pwQmd3VkF0OTQtaGZfelExRVVDQjJ6RUVUSEx6b0UtX2ZoOXhWUmNqb1cwdFcwMjhGaUJvVDQtdDYtQmJ1ZUR2M1FndXBwU0NhSTl1MWFkdk5BRkJKc1I5UHVoaTlOOV9mWThla2NfX1pWSXhXRi1GcWQtcVZ0UXMxTlVwSHJLOGNKMGgzVERROVdsM1VreXQ4VVp6ZkhIYU9KejhCUUtVdW5CUDNQblNLak9TanctTnlSRHJTdUFNRGhSSnltQXA2Sm1ZRDVhQUZYS0JCYmdFcW1UT1hTbWE?oc=5",
       "publishedAt": "Sun, 12 Jul 2026 20:17:26 GMT"
-    },
-    {
-      "source": "Brasil 247",
-      "category": "IA",
-      "title": "China vive explosão de empresas individuais impulsionadas pela inteligência artificial",
-      "summary": "China vive explosão de empresas individuais impulsionadas pela inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTjc0MzZfS3Q4U2hGN0kzTHJvRlA5b2VqTmFWN2Z4azlJZmQxVVczWTZGWlgxMGRmOVUyYzFsaUwyWFpTZ3dfZ2tfVjB0WWlHU0h6Q3JWQ3BQa21md1NhMXJLN1Vpc29NZ2I5YjVlazkwV18wTGtVakRMNC1nY3YyUXR6S3dyUGVyRlQxOW5ReHJfU0FuWGhmbFRPcE1rSDR4eXBHRTFHYjdjUG96Wk9iQi1IdGMxdG5mdHZyblIzYm9rZw?oc=5",
-      "publishedAt": "Fri, 10 Jul 2026 09:33:00 GMT"
     },
     {
       "source": "ConvergenciaDigital",
@@ -28,28 +28,28 @@
       "publishedAt": "Fri, 10 Jul 2026 18:21:32 GMT"
     },
     {
-      "source": "Times Brasil | CNBC",
+      "source": "DIARINHO",
       "category": "IA",
-      "title": "Empresas de IA deixam de focar em modelos maiores e passam para sistemas mais baratos e inteligentes",
-      "summary": "Empresas de IA deixam de focar em modelos maiores e passam para sistemas mais baratos e inteligentes",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMGlPU1RTRHplenVSMTdtZjFYWnNKeFN4cXQzaktiVm5uWTFwZ2xhdnVyX0hwZmpjcF9LU01Ic1EtNURkQnZSNEJYekktcWZha1FCcE1HSDEzclRDazhDN3VMcDQzM1o0VlU4aExoazlzZmNob01scHFwMlFFSW15T2VCQ18wVWs3c0Z5aDJvdTM5UGVnMnlCZHFFQUxpNEl3cHBUWEZnZjhIRXJYcTh0NjdCbzJ6cHNvYVJQOVE1MV9WanBpYm1tYW9iSHBtNTh4YzlPOEw3dXFRazlS?oc=5",
-      "publishedAt": "Sat, 11 Jul 2026 12:26:00 GMT"
+      "title": "Empresas disputam profissionais que a inteligência artificial não consegue substituir",
+      "summary": "Empresas disputam profissionais que a inteligência artificial não consegue substituir",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNXzdrSWlzTEhfTUNqd3hycEJHajdjWnpaTjBHRkdNVHVjWUp2RFJPaXpiSXZJZzFGZHFGTDRmNm1QNWdNcXNybWFIMXljck1TTmdBWllRTmRrd3F2WU05SzRTRHYxdU1PbW0wWkFobUxoX0l1NkY0NXYycHNmZklGbkNwYklWblVlTm41WmlNcGZYbl9QY2NmeEtNVUpPMXJ5am5CTURmM28zUmxkcVhKX3VQOUpBdw?oc=5",
+      "publishedAt": "Sun, 12 Jul 2026 23:01:00 GMT"
     },
     {
       "source": "Exame",
       "category": "IA",
-      "title": "Por que a memória da inteligência artificial se tornou uma das principais apostas das empresas",
-      "summary": "Por que a memória da inteligência artificial se tornou uma das principais apostas das empresas",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUklJTGJKUk1sZXNXam5ScFBMaFpicHIxbWw0aXBSUDBIZ3hDZkJZdHliY3lsc2FZYUQ0VHdtRHNUUzlobVZma28ycDA0ODMzNm1UWXV6Zk9VQUdFb1hsUUdQbVh6dENMbzRteXI4bXo1cndlZUhQMTVMNzRuS0pXYTJHbTB6RTFXRkFfeTNRRkt5ZnN5T3lELWk1N3VHRGcxaE9mQmc1Tm5rRDJBZkZ1R3dlMGdvWjBZRFZITFl3dHJJSHZkUmthdVk1b3NOVlRCakFr?oc=5",
-      "publishedAt": "Sun, 12 Jul 2026 11:08:36 GMT"
+      "title": "5 empresas que mais investem em inteligência artificial no mundo — o que isso revela sobre o mercado",
+      "summary": "5 empresas que mais investem em inteligência artificial no mundo — o que isso revela sobre o mercado",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQa3d4VFdGbGIyWGpyNDcyNzBheDIzc2pTQXBEaUZUZ3dVQXFnQldaa3VJbHEzZUoxNHhnSW5ZSDZtc19fMmRGVzl2c0NTTU40TUEzVnhvb1hMQW44MEZwMGhSNFhYVFRYeWpqUWpyVm43Y3J1VThFb254cnc2YzNCejBvOVhKTGdCWWdYRHJPNm13MUFTM0RQbThMNGMtSW8wRk84amREMzhUMnFUYXR3RGI0VkFuQ3NnSU9BeEpTVUdtQzVLN0ZNTGw4Yk5LMjl1YWcwLVdQeC0?oc=5",
+      "publishedAt": "Tue, 30 Jun 2026 07:00:00 GMT"
     },
     {
-      "source": "TecMundo",
+      "source": "Diário do Comércio",
       "category": "IA",
-      "title": "Modelos chineses de IA avançam nos EUA com custo menor e alta adoção empresarial",
-      "summary": "Modelos chineses de IA avançam nos EUA com custo menor e alta adoção empresarial",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNY1F1UTY5TkZCWHBkMWFORGZ1LVFmOXJ2T3QwazNEOTVsd3BDLUhWSktlRjd3U3h0Z1RDQTQ3YjhPZ3ZyZGQ3dU4xZWFpemJaQjZ5OEdKZl84bWgwZFN4NmZjdk5ieFYwdE9ncC16TU5NelRybUVnR1VuNXE1UzNuWXZwR2NMc21GNVhlY3FWYVNKeF9BRXV5eXNPT2dxMXViMktZZFV4eXVYWjFvRWczV3dSVUxmRVE2bV9pT3RyQ0RHM01MMkE?oc=5",
-      "publishedAt": "Fri, 10 Jul 2026 17:05:00 GMT"
+      "title": "Sua imagem profissional sobreviverá à Inteligência Artificial?",
+      "summary": "Sua imagem profissional sobreviverá à Inteligência Artificial?",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdVFXZDBWRE1HLXBLbmhhYVRJcUFqZjB6cklFNnpPQ21ZcW5UWXpJZGFkUzBneGRYSlJVQnNzSDNhQlBkcW45UFNacTJPZm56SFdCbnoxR1FkdENEWVJaNUx1Q3NQUElicEFLamNGc1M0VW5ZcFpWWXhwcmMyMXhRUm16Q21JT2d2WjRSSkhSWTZxRHQtbHJ0Q2NqcHphMW1QSFhZ?oc=5",
+      "publishedAt": "Mon, 13 Jul 2026 08:20:00 GMT"
     },
     {
       "source": "TI INSIDE Online",
