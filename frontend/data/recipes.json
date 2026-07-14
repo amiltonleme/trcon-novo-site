@@ -1,19 +1,6 @@
 {
-  "generated_at": "2026-07-13T20:52:44.700965+00:00",
+  "generated_at": "2026-07-14T09:42:49.632444+00:00",
   "items": [
-    {
-      "emoji": "🥗",
-      "title": "Salada reforcada com frango desfiado",
-      "body": "Boa para aproveitar frango cozido, arroz ou graos. Leve, nutritiva e mais barata que almoço fora.",
-      "meta": [
-        "15min",
-        "2 porcoes",
-        "Facil"
-      ],
-      "url": "https://www.google.com/search?q=receita+salada+reforcada+frango+desfiado",
-      "link_label": "Ver receita",
-      "gradient": "linear-gradient(135deg,#101a1a,#0d1219)"
-    },
     {
       "emoji": "🍌",
       "title": "Bolo de banana madura",
@@ -52,6 +39,19 @@
       "url": "https://www.google.com/search?q=receita+panqueca+de+frango+com+sobras",
       "link_label": "Ver receita",
       "gradient": "linear-gradient(135deg,#201610,#0d1219)"
+    },
+    {
+      "emoji": "🍝",
+      "title": "Macarrao alho e oleo com legumes",
+      "body": "Base barata, rapida e flexivel. Use cenoura, abobrinha ou sobras da geladeira para aumentar rendimento.",
+      "meta": [
+        "20min",
+        "4 porcoes",
+        "Facil"
+      ],
+      "url": "https://www.google.com/search?q=receita+macarrao+alho+e+oleo+com+legumes",
+      "link_label": "Ver receita",
+      "gradient": "linear-gradient(135deg,#1a2535,#0d1219)"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T20:52:47.853437+00:00",
+  "generated_at": "2026-07-14T09:42:51.813470+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
@@ -12,6 +12,22 @@
       "publishedAt": "Sat, 11 Jul 2026 12:26:00 GMT"
     },
     {
+      "source": "CNN Brasil",
+      "category": "IA",
+      "title": "Análise: Investimentos em Inteligência Artificial mais que dobram em 2026",
+      "summary": "Análise: Investimentos em Inteligência Artificial mais que dobram em 2026",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcjRpdG1KLVY2S0FNa01MU1QwRUYtZVhhdnd3elNQMlhyX2F4dEdPYjhVeUpWQ2lhR204ZlJ4UUZJVDFlclVfZDZqeGpXQU9sWndqY1RzbllzZjlVNEZWMU9GaW9Nb0NNUm9ueE40bTcza2VQR2pyT0pybW9PakVON2ZNWmlvRWF3X01pVFZJZ204WGdvMEJiVGVXTmRtZU96aUZScjhiRjRTY0ItRDlIc2hOMA?oc=5",
+      "publishedAt": "Mon, 13 Jul 2026 23:05:38 GMT"
+    },
+    {
+      "source": "Amazonas1",
+      "category": "IA",
+      "title": "DSX 2026 mostra como a inteligência artificial pode tornar empresas mais produtivas, competitivas e lucrativas",
+      "summary": "DSX 2026 mostra como a inteligência artificial pode tornar empresas mais produtivas, competitivas e lucrativas",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQUtqU1Y1LVNzSmdqSlNHM3dsUy1uZ2p4X21rZHd1RG5lT25Cc0cyVWtGS3lXcTIzQkthYV9MVlRJVTBoN3p4SU1kTTF4VzJsVEZOd3ZlTDc3SDVrUURMWV9GTUZ0V1YxZ004ZGVDLWtzMWxrWXdScUEyYXg3c05hN3hwckNVVnMxc1VUUWJRaEJoc1dhdmM4T2VKWkhpUzZiU1lheU5nMFRuXzVwY1dGb3JLWUQxazhLcVJxdXk1QjU3ZlVMS2pkZ0tZSkxYM196?oc=5",
+      "publishedAt": "Mon, 13 Jul 2026 23:59:00 GMT"
+    },
+    {
       "source": "O GLOBO",
       "category": "IA",
       "title": "OpenAI, Meta e SpaceXAI travam disputa por modelos de IA mais eficientes e econômicos",
@@ -20,36 +36,20 @@
       "publishedAt": "Sun, 12 Jul 2026 20:17:26 GMT"
     },
     {
-      "source": "Valor Investe",
-      "category": "IA",
-      "title": "Inteligência artificial; chips; Santander (SANB11): veja os destaques das empresas",
-      "summary": "Inteligência artificial; chips; Santander (SANB11): veja os destaques das empresas",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPMHRkLTctenBjX1loZm13ZVlWTnI3YmRWZWRWempPYVJwdWNiS0dkNVhOcGJMRXNiLXdyRGNpTzRzWmllaUE3cXV5cmlOZ19oSTk0WTg4VE84UG0wMjdLU3JXZTdleHV1WlBNbWR2UjgwUHBMa2VVb0xYd1N6ZXNrY2MzZXhSbGZHMVNNSUNmUk4tRWVjTjZRS05fNVNwY3czTjV5OWJUODNPM3Z4NWl3VjlVNDZleEEteWlfcmNYV1RzcUYwc1QyTlg0SXhWUVp5bEx0cW9NenpqZUNQNEJmcElTNEpDV2xXRmxuZXExRWpBendBc2JkZ2x30gGIAkFVX3lxTE9lekpqVHd2N0p2OUFINW9QNjQycXRyZDdUWFRuc3RGTHctV1BISGk5ODNBNGNQTmtoVDZBREJ2ZjFBMDRUNURNc0xMaWJJZnJqS2wtYkl3RGNmOEtmYUt0RFdGd2hhcnJjcVl4QjYtR1RYN0ZxOHNiZmx2X2ZnbDVjTU53X2pjX1l0WVYtZ2lnblQxWF9BdktrVXpGbTN6TTk0TzFraUxzTmx0WEFkUlNGV3UwMjZXeGRCaXRDVG9BMm9ObXJ4WXhWenY1c2pnNWdmNVlWcmRFUXlyOHliNjRGODdlYW5zalo4SUQ3SDJQaE5lcTIwTEFJS2ZSRTl2NnF2ZFoxLWpBTA?oc=5",
-      "publishedAt": "Mon, 13 Jul 2026 11:33:30 GMT"
-    },
-    {
-      "source": "Exame",
-      "category": "IA",
-      "title": "O que as empresas brasileiras já aprenderam sobre inteligência artificial",
-      "summary": "O que as empresas brasileiras já aprenderam sobre inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMHV4XzNSZ3BJbk1hSmVDb1FDbzJ2WDk2WDV5UlByQmFOZGlsUVFoUWVZcUdOemNpdGtPb0QxV296YWI2OWh3ai1RQ3VWV2xxMVZzb3JPU2hHYmZ1Y2N0SnJsSDM2SlNmLWx0NTZIdGdOQ3NpNnUtNmJRejc4Rnd6WGRaeExnR1hGdE1jdEU1MkdXUkM1SzdWYkZOa05oZ3FDdmZ5djVjam1tMnhVcy00?oc=5",
-      "publishedAt": "Mon, 13 Jul 2026 19:37:53 GMT"
-    },
-    {
-      "source": "Diário do Comércio",
-      "category": "IA",
-      "title": "Sua imagem profissional sobreviverá à Inteligência Artificial?",
-      "summary": "Sua imagem profissional sobreviverá à Inteligência Artificial?",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdVFXZDBWRE1HLXBLbmhhYVRJcUFqZjB6cklFNnpPQ21ZcW5UWXpJZGFkUzBneGRYSlJVQnNzSDNhQlBkcW45UFNacTJPZm56SFdCbnoxR1FkdENEWVJaNUx1Q3NQUElicEFLamNGc1M0VW5ZcFpWWXhwcmMyMXhRUm16Q21JT2d2WjRSSkhSWTZxRHQtbHJ0Q2NqcHphMW1QSFhZ?oc=5",
-      "publishedAt": "Mon, 13 Jul 2026 08:20:00 GMT"
-    },
-    {
       "source": "Exame",
       "category": "IA",
       "title": "Empresas trocam ChatGPT e Claude por modelos chineses de IA",
       "summary": "Empresas trocam ChatGPT e Claude por modelos chineses de IA",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYVpRU285Mjk1bTdQTlpzQUdRYjlaT3FxbkdXSW40UjBuNmhJcVBqV0xPVmpnSnFaVDJCWm5IZGdqNjZ2N1lvOVBzaGNIRjlvamhYaEptTXRwSUJhMHB0WGJZejVwZUNEbDNHNklma1ZpSVJCRUgxTFR1ZXZwQ253bFNHVWtUaEtzeGN1eWtacFdQcFdIV0RRZnphLW8zYTgyb0lnUg?oc=5",
       "publishedAt": "Mon, 13 Jul 2026 18:45:32 GMT"
+    },
+    {
+      "source": "Correio do Povo",
+      "category": "IA",
+      "title": "Após adotar inteligência artificial, desafio das empresas é organizar o uso da tecnologia",
+      "summary": "Após adotar inteligência artificial, desafio das empresas é organizar o uso da tecnologia",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQOVR5YjZxazU2LVFScVMtdnJDdFdkeUpBWE5UaXhPMUVmYW5wNGM2YkI1WF9tWHNGY3g2NFRYa3NrYUhweDR0NGxER1hNcllWZFN1MzlQQV9IUkhRaUFHeUdTRE5sRFU1X3FyM0d4NURvRzhiSkx3NHJpa3p1eGl2ZHVZMC12aG9CSlJmcThsT1ZxTWtsVk43M0Y2VGhwU2pwRE5sLVJlX0EwR3poQkdsN3h5dzVRajNzVGZHQUE4ekl6eHJPUnZNZ2VCUENkYzM4R0hlUUhtUU5SNGhheVRubGFfV1FhZXlvUGc?oc=5",
+      "publishedAt": "Mon, 13 Jul 2026 22:24:26 GMT"
     },
     {
       "source": "TI INSIDE Online",
