@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T09:45:52.176198+00:00",
+  "generated_at": "2026-07-15T20:52:19.418754+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -17,25 +17,25 @@
     },
     {
       "symbol": "IBOVESPA",
-      "value": "176.641 pts",
+      "value": "176.011 pts",
       "change": "estavel",
       "direction": "flat"
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 64.665",
-      "change": "+3,42%",
+      "value": "US$ 64.939",
+      "change": "+0,79%",
       "direction": "up"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 1.879",
-      "change": "+5,28%",
+      "value": "US$ 1.924",
+      "change": "+2,66%",
       "direction": "up"
     },
     {
       "symbol": "OURO",
-      "value": "US$ 4.033",
+      "value": "US$ 4.069",
       "change": "estavel",
       "direction": "flat"
     },
@@ -79,19 +79,19 @@
       "id": "ibov",
       "name": "Ibovespa",
       "icon": "📊",
-      "quote": "176.641 pts",
+      "quote": "176.011 pts",
       "change": "estavel",
       "direction": "flat",
-      "recommendation": "Cautela",
-      "recommendation_class": "rec-avoid",
-      "reason": "Noticias recentes mostram mais risco; reduzir pressa ajuda a evitar decisoes emocionais."
+      "recommendation": "Neutro",
+      "recommendation_class": "rec-watch",
+      "reason": "Cenario misto pede acompanhamento e aportes graduais."
     },
     {
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 64.665",
-      "change": "+3,42%",
+      "quote": "US$ 64.939",
+      "change": "+0,79%",
       "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -101,23 +101,23 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 1.879",
-      "change": "+5,28%",
+      "quote": "US$ 1.924",
+      "change": "+2,66%",
       "direction": "up",
-      "recommendation": "Aguardar",
+      "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
-      "reason": "Alta forte aumenta risco de comprar no impulso; entrada gradual e cautelosa faz mais sentido."
+      "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
     },
     {
       "id": "gold",
       "name": "Ouro",
       "icon": "🥇",
-      "quote": "US$ 4.033",
+      "quote": "US$ 4.069",
       "change": "estavel",
       "direction": "flat",
-      "recommendation": "Cautela",
-      "recommendation_class": "rec-avoid",
-      "reason": "Noticias recentes mostram mais risco; reduzir pressa ajuda a evitar decisoes emocionais."
+      "recommendation": "Neutro",
+      "recommendation_class": "rec-watch",
+      "reason": "Cenario misto pede acompanhamento e aportes graduais."
     },
     {
       "id": "selic",
@@ -137,9 +137,9 @@
       "quote": "14,15% a.a.",
       "change": "estavel",
       "direction": "flat",
-      "recommendation": "Cautela",
-      "recommendation_class": "rec-avoid",
-      "reason": "Noticias recentes mostram mais risco; reduzir pressa ajuda a evitar decisoes emocionais."
+      "recommendation": "Neutro",
+      "recommendation_class": "rec-watch",
+      "reason": "Cenario misto pede acompanhamento e aportes graduais."
     }
   ],
   "news": [
@@ -148,12 +148,12 @@
       "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQWm0zVHRiVFJwbmtGOTJ2OHQ5UDR5TWpFVGdTakNVODJDQktOclVlTWNvblZOcVJGaHhGdHdCdzVpNXVQbm1KdFQ1RFFPbFFDQUw1NnozSGxSRXlZVTh2QVl6LTV4OW4yWjhMZlB6NkwtSVV1Z2R1M082SjNnOXVOVWotRGZHUmExSE80UHdPRFhiN2t2MktMNG5UaDBfemY2Zm1LcUlZY0ZxMmpDNWhjVzYwQ2pQQXhaZmNpX0pFeVFVUndKWnRuQ0wzRVQ1LV81TXFialktRVVxMXhyLVl1TkppaTNUcndHdmhrUzRn?oc=5"
     },
     {
-      "title": "O que esperar da Bolsa e do dólar em julho após guerra e juros ditarem o ritmo dos mercados",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQekF3WTBBeGplQndvVExVTUd4OXdOazhxRVE2clBCQlQzejFQRkQwWHN3Q1F0cU42WnR1RVpKaWVvR0VmQkoyOG9Ja3cwbHktdkxBaXU1WFRKb3ZFZ0EtVkNDY1JWZkMzV3dGSEw0RzQ3QTBHQ3prNXB2SFQwLTRySDdwT1dTV3FPN2I3eDdiZXpRb0ZvTDNjbzZZMkNfR09Zc1BWdHRxRTdSdmxsbUFUdThDeFdjSE5Lc0tJSU96enoxN1c5S2R6YUxnQldyeV9tU2sxMmc2SDA4a3VVYS0yOEhJdnXSAeoBQVVfeXFMTkJ3RjI1NURKSnlmMzVHMzA2Q25XVkYxUHYwOVNsUm1WeUVucE1KQ09HWlIyY1Z5NElQMlRFSWNzdHFMRno0Zm9yejBLLTJZdE9Ma21XNk9YOFViS1NMaHVsU1J1LW5UNWlWZ3dZU0RfS1NGTmFraERkTVdmUEJSUUpoaFNlV1FwMHRLY3ZOMGtjcG10eFN1cEp4QklGZUV6TG5FRGEzZ0IyY1B2V1hYQlBrQWFsRTh4bXZ1aHh0cGVMQ3A1UzFESFhRUzFza0JKRk1Qa1pLMGZYSXlzMkJqTkpqaGEzcUlCUzR3?oc=5"
+      "title": "Dólar sobe a R$ 5,20 e Bolsa cai, com juros incertos e petróleo em baixa",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdGx5MHp4aUdwYXdVcVBuNmc5ZVJRWDNBam55WE1UU3Y2THE0MjdZbnRHX1NZWG0tV3FQX29XRUVUMmtQR3ZFVGg3bnRZdFh1MkNtWlpFLTh2dGhzU1dtVHZJR3JJY0xsRzVLM0xRVUoyUWRwSVcwLTZ6eVY3c2g3aW4ySS0xeDcwZWZ1dnlrb1RHSU5jRVlRZG9pM20yUQ?oc=5"
     },
     {
-      "title": "Dólar dispara e fecha em R$ 5,17 após decisões de juros no Brasil e nos EUA; juros futuros têm forte alta",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeGRtQUFUamJWMGFFcml1VFFXLTVqUFBmLURGd05GXzRnQ3FVVzZfeGJ5aDBWUml4WUx5M09JQnRONHZoVl9Xay0xYXVBUFBFb1kzcS05dVJHMFNhM2dDNS1FcDBCeHE1U2xBYmtWQ0c0bVhwVU50bWZTXzNYbUpwS1NCdkMtaXVtckhnaE02MEI0djdCaDE3cDduYjZZYXRFNWNXYm9kUlUzN3Itb3A3LVNiaU1XTWZyRnRwT0lZT3lNWVl6anNCS2x0dGo?oc=5"
+      "title": "O que esperar da Bolsa e do dólar em julho após guerra e juros ditarem o ritmo dos mercados",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQekF3WTBBeGplQndvVExVTUd4OXdOazhxRVE2clBCQlQzejFQRkQwWHN3Q1F0cU42WnR1RVpKaWVvR0VmQkoyOG9Ja3cwbHktdkxBaXU1WFRKb3ZFZ0EtVkNDY1JWZkMzV3dGSEw0RzQ3QTBHQ3prNXB2SFQwLTRySDdwT1dTV3FPN2I3eDdiZXpRb0ZvTDNjbzZZMkNfR09Zc1BWdHRxRTdSdmxsbUFUdThDeFdjSE5Lc0tJSU96enoxN1c5S2R6YUxnQldyeV9tU2sxMmc2SDA4a3VVYS0yOEhJdnXSAeoBQVVfeXFMTkJ3RjI1NURKSnlmMzVHMzA2Q25XVkYxUHYwOVNsUm1WeUVucE1KQ09HWlIyY1Z5NElQMlRFSWNzdHFMRno0Zm9yejBLLTJZdE9Ma21XNk9YOFViS1NMaHVsU1J1LW5UNWlWZ3dZU0RfS1NGTmFraERkTVdmUEJSUUpoaFNlV1FwMHRLY3ZOMGtjcG10eFN1cEp4QklGZUV6TG5FRGEzZ0IyY1B2V1hYQlBrQWFsRTh4bXZ1aHh0cGVMQ3A1UzFESFhRUzFza0JKRk1Qa1pLMGZYSXlzMkJqTkpqaGEzcUlCUzR3?oc=5"
     },
     {
       "title": "Ibovespa fecha com ampla alta, na contramão do exterior, com bancos e Petrobras",
@@ -168,8 +168,8 @@
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWnVEZmc1eTl4Q0lNU0w5MGdLVVhDMDJ0QWZSdzVQX1RYVkJpdkVCZ3N5dll0TG01emg2MzQwN2hKR1gydFMwYjFrejZsZEhUbzBKLVVsX1B0YXBXcFdxM0RPbXZ6a3I2NFJWT0ZCUEIzb090WUhfeEdqMlBXSlZ6M3RuRC12bVlWNUJMMzZpcTJUS24zNHF4cXlB?oc=5"
     },
     {
-      "title": "Dólar reage e Bolsa desacelera após Fed manter juros; mercado aguarda Copom",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQWdvVG9BemZJSG9yRXhXSzZOVHQ5OUZwcWlXQkc2Tk9faVNydDRlTGN2Z3dIMHcwd1doODZKRHZMV0VIWFIySjZWTEl4Y3ZYRWtvUU5pYTlaNUU1VjNyVUZDWUZBNVFXYUFIR19yM0EwWThLVVFuTzQwa25mU212OS1weFJHdU5ZNjdJeWZ1ZVVralctci1odWo3SXo?oc=5"
+      "title": "Dólar dispara e fecha em R$ 5,17 após decisões de juros no Brasil e nos EUA; juros futuros têm forte alta",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeGRtQUFUamJWMGFFcml1VFFXLTVqUFBmLURGd05GXzRnQ3FVVzZfeGJ5aDBWUml4WUx5M09JQnRONHZoVl9Xay0xYXVBUFBFb1kzcS05dVJHMFNhM2dDNS1FcDBCeHE1U2xBYmtWQ0c0bVhwVU50bWZTXzNYbUpwS1NCdkMtaXVtckhnaE02MEI0djdCaDE3cDduYjZZYXRFNWNXYm9kUlUzN3Itb3A3LVNiaU1XTWZyRnRwT0lZT3lNWVl6anNCS2x0dGo?oc=5"
     },
     {
       "title": "Ibovespa tem terceira alta seguida, com bancos e Petrobras, na contramão do exterior",
@@ -177,9 +177,9 @@
     }
   ],
   "market_mood": {
-    "label": "Cauteloso",
-    "summary": "O noticiario aponta mais incerteza; preservar liquidez e evitar concentracao ganha prioridade.",
-    "score": -2
+    "label": "Neutro",
+    "summary": "O mercado mostra sinais mistos; diversificacao e compras parceladas reduzem o risco de timing.",
+    "score": -1
   },
   "errors": []
 }
