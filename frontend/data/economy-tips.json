@@ -1,19 +1,6 @@
 {
-  "generated_at": "2026-07-14T20:52:56.428328+00:00",
+  "generated_at": "2026-07-15T09:45:52.226075+00:00",
   "items": [
-    {
-      "tag": "Cotidiano",
-      "tag_class": "tag-orange",
-      "title": "Revise assinaturas antes de cortar o essencial",
-      "body": "Some streaming, apps, armazenamento, clubes e planos esquecidos. Cancelar dois servicos pouco usados costuma gerar economia sem reduzir qualidade de vida.",
-      "meta": [
-        "4 min",
-        "Impacto imediato"
-      ],
-      "url": "https://www.google.com/search?q=como+cancelar+assinaturas+e+economizar+dinheiro",
-      "link_label": "Ver checklist",
-      "featured": true
-    },
     {
       "tag": "Mercado",
       "tag_class": "tag-blue",
@@ -24,7 +11,8 @@
         "Baixo risco"
       ],
       "url": "https://www.google.com/search?q=como+montar+reserva+de+emergencia",
-      "link_label": "Ver passo a passo"
+      "link_label": "Ver passo a passo",
+      "featured": true
     },
     {
       "tag": "Compras",
@@ -49,6 +37,18 @@
       ],
       "url": "https://www.google.com/search?q=como+usar+cartao+de+credito+sem+se+endividar",
       "link_label": "Ver cuidados"
+    },
+    {
+      "tag": "Renda Fixa",
+      "tag_class": "tag-blue",
+      "title": "Compare liquidez, imposto e prazo antes do rendimento",
+      "body": "Um CDB maior pode render menos se prender seu dinheiro ou tiver prazo ruim. Para reserva, liquidez e seguranca pesam mais que poucos pontos percentuais.",
+      "meta": [
+        "5 min",
+        "Decisao melhor"
+      ],
+      "url": "https://www.google.com/search?q=como+comparar+CDB+liquidez+imposto+prazo",
+      "link_label": "Ver comparativo"
     }
   ]
 }
