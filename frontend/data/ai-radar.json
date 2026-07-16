@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T20:52:20.557288+00:00",
+  "generated_at": "2026-07-16T09:52:38.677323+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -13,13 +13,13 @@
       "signal": "flat"
     },
     {
-      "title": "Inteligência Artificial deve ficar mais cara e restrita, alerta especialista",
-      "summary": "Inteligência Artificial deve ficar mais cara e restrita, alerta especialista",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR3VYbmNKcEZmbGc5VHhZZkpEYUpZYmJEcU11R01qb2xOalVzTXM3OEpBQTdsZW9KbGtpZXZGSGg5MmJqdFcyLXdWZHF6c1hfemRPSk5aSTNYSW5sTkdidzE1X3drVlFFRXAxWmFDaUxaWkNqdlUxdy1rZ29wTzRWN2k4dUM2OXUyZm9kSGh3dG9vMWV4ZTVhU2l1Rmk3RXNrV2I1clZfS1E2WkpNWU1PUFRRcjRkeGpSWG8yUTFGcng?oc=5",
-      "source": "Grupo A Hora",
-      "published_at": "Wed, 15 Jul 2026 14:35:00 GMT",
+      "title": "Ex-chefe da OpenAI lança IA que desafia o modelo do ChatGPT; entenda a aposta",
+      "summary": "Ex-chefe da OpenAI lança IA que desafia o modelo do ChatGPT; entenda a aposta",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQYnN3aW1menlwQUhmMjVJSzVaaUs2Ym45SGE4YzNwWElsWmgxV3FNRXFpcXpEZlJyUzJkM0kwQ2k0aVlZMTVGRngwRFpSNDlESVdDaXExQXI2cjgtYmpBZVBPOGNxeGgtTVV6b0g4V1pFRnVjdTVUVklDNlprY3JjTEdDbmpBQl9IYXdWc0M4RW96T0ZkcEttaFREbkFnN3BaRkJZOXl4VmdqYzNFOVhUWll1TEFfZUh3VnFVUEZSYi1FakRNTEQ0Ulh1b2lMZEZ3UXk4XzUyQQ?oc=5",
+      "source": "Olhar Digital",
+      "published_at": "Wed, 15 Jul 2026 20:52:00 GMT",
       "category": "IA",
-      "signal": "flat"
+      "signal": "up"
     },
     {
       "title": "85% das empresas afirmam que suas redes ainda não estão preparadas para a inteligência artificial | SEGS...",
@@ -49,11 +49,11 @@
       "signal": "flat"
     },
     {
-      "title": "Mais de 50% das empresas apontam falta de competências em IA",
-      "summary": "Mais de 50% das empresas apontam falta de competências em IA",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT3l3SXZ4ZGs0MzNQNHl1RktnWnBsb0M3RXdtQWY4aU52dHdtUE5OQ0pyREJYejdaRV85U05VaUxjd3pyX3lLdmJqejZTSl83WUxqTC1tWXZ2aUZjUlBTcEFhc25weFFHVW41cnVJdGdMeWJRN3pwd0JWR2tSTW5JcUEya1RYNE5xN2piWFBLMHVLYzRQWEkzRTNDZw?oc=5",
+      "title": "IA avança nas empresas, mas qualidade dos dados ainda fica em segundo plano",
+      "summary": "IA avança nas empresas, mas qualidade dos dados ainda fica em segundo plano",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcElIaU9wb2VtVXZkWEhHZlBxZ2xlNjVyT3NDTWZLQ0Q5bzByejhwTG82Q0JvRDJPZmt1TUhyd1RxMHozOTl1MHdaeFRiZWwydk40N0NIUWhwa1NIbFMyeGxlZFdWWmQyVkw3QmI3SFZwRkM3cG5qdDQweTgwZVExeFF5Rl9kV05zeE54NnpSc2JlU200Q2lxcWtuZ2theDFKamhwRGRzU0J5cnFQeDRJ?oc=5",
       "source": "TI INSIDE Online",
-      "published_at": "Tue, 14 Jul 2026 21:08:38 GMT",
+      "published_at": "Wed, 15 Jul 2026 21:12:12 GMT",
       "category": "IA",
       "signal": "flat"
     }

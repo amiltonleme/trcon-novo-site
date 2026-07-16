@@ -1,19 +1,6 @@
 {
-  "generated_at": "2026-07-15T20:52:19.471234+00:00",
+  "generated_at": "2026-07-16T09:52:37.288185+00:00",
   "items": [
-    {
-      "tag": "Mercado",
-      "tag_class": "tag-blue",
-      "title": "Reserva de emergencia vem antes do risco",
-      "body": "Antes de buscar rentabilidade alta, mantenha parte do dinheiro em produto conservador e liquido. Isso evita vender investimentos ruins em uma urgencia.",
-      "meta": [
-        "3 min",
-        "Baixo risco"
-      ],
-      "url": "https://www.google.com/search?q=como+montar+reserva+de+emergencia",
-      "link_label": "Ver passo a passo",
-      "featured": true
-    },
     {
       "tag": "Compras",
       "tag_class": "tag-gold",
@@ -24,7 +11,8 @@
         "Economia recorrente"
       ],
       "url": "https://www.google.com/search?q=como+comparar+preco+por+quilo+litro+unidade",
-      "link_label": "Aprender a comparar"
+      "link_label": "Aprender a comparar",
+      "featured": true
     },
     {
       "tag": "Cartao",
@@ -49,6 +37,36 @@
       ],
       "url": "https://www.google.com/search?q=como+comparar+CDB+liquidez+imposto+prazo",
       "link_label": "Ver comparativo"
+    },
+    {
+      "tag": "Estrategia Mensal",
+      "tag_class": "tag-green",
+      "title": "Use um teto semanal para gastos variaveis",
+      "body": "Separe mercado, transporte, delivery e lazer em um limite por semana. O controle fica mais facil porque voce corrige a rota antes do fim do mes.",
+      "meta": [
+        "5 min de leitura",
+        "Impacto alto"
+      ],
+      "url": "https://www.google.com/search?q=como+criar+orcamento+semanal+gastos+variaveis",
+      "link_label": "Ver guia",
+      "featured": true,
+      "chart": [
+        {
+          "label": "Contas fixas",
+          "value": 50,
+          "color": "var(--accent)"
+        },
+        {
+          "label": "Variaveis",
+          "value": 30,
+          "color": "var(--accent2)"
+        },
+        {
+          "label": "Reserva",
+          "value": 20,
+          "color": "var(--gold)"
+        }
+      ]
     }
   ]
 }
