@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-07-17T09:42:48.580110+00:00",
+  "generated_at": "2026-07-17T20:44:48.825357+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
     {
-      "title": "Europa obriga o Google a abrir o Android às rivais de Inteligência Artificial e de buscas online",
-      "summary": "Europa obriga o Google a abrir o Android às rivais de Inteligência Artificial e de buscas online",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYTY1dVJNdDl1NEh0MW5Zd1dWUzNYQjJvc1JkQmFDNE9mVUZYc3RGRmw2NFZTdXpXWWtxZk1xRk81T1hXOWpfelRyTXdNS1lQc0NVbm01SjFhbkVyUDdkdTlVSG80WjUzU1hzcnE4ZDM0Y0gxNzE4QXJzOE9XSFQ1ekFmSnFvcHhfVjFCbHRNeUxaNEJ0bXprcXA0ek9XRE8zdlNhUTdsRElZQmlUSzdaaUxFZlJRZHk1MjZqc0o1SmxTTjZkRnA1UE1CdnBkLTk4QUdEdGdRdTA?oc=5",
-      "source": "ConvergenciaDigital",
-      "published_at": "Thu, 16 Jul 2026 13:36:54 GMT",
+      "title": "O que está por trás da revolta da geração Z contra a inteligência artificial no trabalho",
+      "summary": "O que está por trás da revolta da geração Z contra a inteligência artificial no trabalho",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85VEJtTzlvRnhkQmNZU2pEaXFreGlmVWx1XzdtMDJ4SmpFUDlRTFlqRV9PUGZuQ1pmTmlYUjhieFdWTXRmNzdza1F4Q2kybC02ekhscVhza00zN3BObnNQS1o2QTFfRExzbFhQa0NXemUwZ0R6QmMwQmYyOEtBd9IBgwFBVV95cUxQT1Z1dVl5S3YxR0tqTW1sSjBIbU41VVRRcmo1Zjc5RFZvMWJSdXNLdHhTSmw3c1pxYzI3MUlFRGZnTHlIdEZ4ekIybG5Ta0pOeGJkMWIxN2UwNm9qa25LdWtlSnZoSEJsNXphbnh6MFFCdzRHY2NSdkRfUng4Y25NS0JPTQ?oc=5",
+      "source": "Estadão",
+      "published_at": "Fri, 17 Jul 2026 16:01:07 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "‘Boom’ de inteligência artificial alimenta IPO de empresas de energia",
-      "summary": "‘Boom’ de inteligência artificial alimenta IPO de empresas de energia",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ2JkXzBUUFY1RlRDU0NOSTA4RG5IX1pKMk9DYy1jM0hKZjl3M1RFLTNDTTVtck5PUl9RQk1OS2c4b21MbVc2cjhMZWQ1U3k3c1BuMndtR1EwUkZRdUtLUWI1WGFvZFBpeWNmc2RVdVVEVUNzQjR0MU1xUkRyck50eFg0WWpCQ3FJbVRzckRUQ3NZdVMzcjFYWGJlSnZGUE52M1FuQldlVVcwQjZERG53eEhVSVNxV2c2WFNEMnhqVGl3TXfSAdIBQVVfeXFMTWd5UEJYZXNELWh0TG9HdEVmbzJpTjQwX3BObnFVNlpXTTVQTHhpSnU2aThPQUZMRmJmNWwxWEl3alZIN2ZtV1dNN1ZYZmZfdUN4T28zWXcwdlRBSWpQcGNwVmd5MTdpQk5CMUN0MjlrLU9Kck5HNUdvYjdNU0U2LS1vZTFGaFJnY0pha2ZpMkdiRFZMS3lkSjhzT01HS19rSTJOTFoweGlLYTBkLWJaUmlTTjR2RmZWTHptdGpGNDkyemhteE9zUEZaT1BHSldfNjVB?oc=5",
-      "source": "Valor Econômico",
-      "published_at": "Fri, 17 Jul 2026 08:02:59 GMT",
+      "title": "Treinamento de R$ 37 pode colocar você no radar das empresas que buscam profissionais com IA",
+      "summary": "Treinamento de R$ 37 pode colocar você no radar das empresas que buscam profissionais com IA",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU1ZXLXA5eVJjVm9lWFdYc25hZ3JlSDIzSzJCN3BnUk1qV0NhY0ZRS2FYOElqOTV2TW1MVUdoa3hpQ0IxVUpiZjVMUXVZYnJHWnZzbUFNb0xVd1BuSG1EeENTOTc3UWNMMTRCMWlhQVM2QThKSTlGNlJqekdmMVdkbDRKVW84UGhfeFFaQkZhbmlzN0JjWUk1TE9jR0huWXFlbVV5N0VWWDc2THNWS281QVBHbnpLTTBSUFlpSXlOc3gyLXk4NndMSjVOVkFsTGM?oc=5",
+      "source": "Exame",
+      "published_at": "Thu, 16 Jul 2026 19:18:14 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -31,11 +31,20 @@
       "signal": "down"
     },
     {
-      "title": "Treinamento de R$ 37 pode colocar você no radar das empresas que buscam profissionais com IA",
-      "summary": "Treinamento de R$ 37 pode colocar você no radar das empresas que buscam profissionais com IA",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU1ZXLXA5eVJjVm9lWFdYc25hZ3JlSDIzSzJCN3BnUk1qV0NhY0ZRS2FYOElqOTV2TW1MVUdoa3hpQ0IxVUpiZjVMUXVZYnJHWnZzbUFNb0xVd1BuSG1EeENTOTc3UWNMMTRCMWlhQVM2QThKSTlGNlJqekdmMVdkbDRKVW84UGhfeFFaQkZhbmlzN0JjWUk1TE9jR0huWXFlbVV5N0VWWDc2THNWS281QVBHbnpLTTBSUFlpSXlOc3gyLXk4NndMSjVOVkFsTGM?oc=5",
-      "source": "Exame",
-      "published_at": "Thu, 16 Jul 2026 19:18:14 GMT",
+      "title": "IA Não Garante Vendas: Até 77% das Empresas dos Setores Líderes no Uso da Tecnologia Ficam Abaixo da Meta",
+      "summary": "IA Não Garante Vendas: Até 77% das Empresas dos Setores Líderes no Uso da Tecnologia Ficam Abaixo da Meta",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb18ycEowZHBTM2Vyell3eDZSc21GZDY3TjVRa25kZlJUVG1XZnk3OFJrWkdVcU5DM0d0WndLQlBwdWhpVE1vWVY2dl9kc3hwM1VVRzB1VklLYmVldm92TG9DYnZfS0xhWEhJYzJuQXI5b0RvV0NkYWkybS12QmRaQVotbmIzcjB6SG9yWVJWaUVsTUE3LU1iWTNUWWRIa0FGTW03dndPS09LZ1VfNWZ3Y1JBTGVEMjN2bk5EREJ1dEwxRElJN2hxY01tQkRHZF9jUDNzeFJlTExWNXM2RWJBYw?oc=5",
+      "source": "Forbes Brasil",
+      "published_at": "Fri, 17 Jul 2026 20:15:31 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "‘Boom’ de inteligência artificial alimenta IPO de empresas de energia",
+      "summary": "‘Boom’ de inteligência artificial alimenta IPO de empresas de energia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ2JkXzBUUFY1RlRDU0NOSTA4RG5IX1pKMk9DYy1jM0hKZjl3M1RFLTNDTTVtck5PUl9RQk1OS2c4b21MbVc2cjhMZWQ1U3k3c1BuMndtR1EwUkZRdUtLUWI1WGFvZFBpeWNmc2RVdVVEVUNzQjR0MU1xUkRyck50eFg0WWpCQ3FJbVRzckRUQ3NZdVMzcjFYWGJlSnZGUE52M1FuQldlVVcwQjZERG53eEhVSVNxV2c2WFNEMnhqVGl3TXfSAdIBQVVfeXFMTWd5UEJYZXNELWh0TG9HdEVmbzJpTjQwX3BObnFVNlpXTTVQTHhpSnU2aThPQUZMRmJmNWwxWEl3alZIN2ZtV1dNN1ZYZmZfdUN4T28zWXcwdlRBSWpQcGNwVmd5MTdpQk5CMUN0MjlrLU9Kck5HNUdvYjdNU0U2LS1vZTFGaFJnY0pha2ZpMkdiRFZMS3lkSjhzT01HS19rSTJOTFoweGlLYTBkLWJaUmlTTjR2RmZWTHptdGpGNDkyemhteE9zUEZaT1BHSldfNjVB?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Fri, 17 Jul 2026 08:02:59 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -45,15 +54,6 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNOS1rSTlyOHA3X2gyRUxuV1U0b19vZkhMa2JSeGZRV3RoVXRjTlJXNDVpZ2Y0ckRuX05nTVRCWTVVVkE0QUo4WHNUNm93YVk5SS1DVk42SElxT29sdkVZZ2drZWFyOVpzb1E?oc=5",
       "source": "fsa.br",
       "published_at": "Thu, 16 Jul 2026 13:36:40 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "IA avança nas empresas, mas uso ainda é limitado",
-      "summary": "IA avança nas empresas, mas uso ainda é limitado",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9EM05jZnFoWkc5NEwyWTdEa3RSSFB5YnJZT2tQem8yMF9ZNEN5aWVFZmZlQzJGRUxkQmQyMjBwTTl6VWZWSUJYNko3WFJ1blMtQ1BuT0Rzc3VER3dUWVAzazNqWkZ5ZzA3Nk90d3Jqc2VMUQ?oc=5",
-      "source": "ES Brasil",
-      "published_at": "Thu, 16 Jul 2026 20:53:04 GMT",
       "category": "IA",
       "signal": "flat"
     }
