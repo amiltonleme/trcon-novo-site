@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T20:50:03.307828+00:00",
+  "generated_at": "2026-07-17T09:42:48.580110+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -13,47 +13,47 @@
       "signal": "flat"
     },
     {
-      "title": "Nvidia apresenta novo modelo de I.A e amplia ecossistema de inteligência artificial física no Japão",
-      "summary": "Nvidia apresenta novo modelo de I.A e amplia ecossistema de inteligência artificial física no Japão",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOVWlSU0dwSVdKV0NHcUF2aTFRdHNWdjFFclZuWWY1aVo3dlZ1MHU4UFBaaEpBc29rQ0xuRGpEOXBEdzltWTExMzlKNUNQRW1IY1d1MGJ4WDVNc2x6VlhNUzBCcWM0WVpIRlFtd0N4SUlockZoSXozOTZleWQ1Q0ZtX1NOS1N6bHVPS2phT19Dak91aTlJMGpKVDVWa0oySWtvcFVJcjJPSVkzb204VWdHazJ2QXMyQVVFSzJZZkJLR3czOVVtQ2VZdExzMEtvMEhIVnVIcFlUSUltblJxa2ktTm8wMjBKTnhLQ2xENkgyUHhIdHhMOVVSRWdUbzdsLWZJ?oc=5",
-      "source": "Times Brasil | CNBC",
-      "published_at": "Thu, 16 Jul 2026 17:00:00 GMT",
+      "title": "‘Boom’ de inteligência artificial alimenta IPO de empresas de energia",
+      "summary": "‘Boom’ de inteligência artificial alimenta IPO de empresas de energia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ2JkXzBUUFY1RlRDU0NOSTA4RG5IX1pKMk9DYy1jM0hKZjl3M1RFLTNDTTVtck5PUl9RQk1OS2c4b21MbVc2cjhMZWQ1U3k3c1BuMndtR1EwUkZRdUtLUWI1WGFvZFBpeWNmc2RVdVVEVUNzQjR0MU1xUkRyck50eFg0WWpCQ3FJbVRzckRUQ3NZdVMzcjFYWGJlSnZGUE52M1FuQldlVVcwQjZERG53eEhVSVNxV2c2WFNEMnhqVGl3TXfSAdIBQVVfeXFMTWd5UEJYZXNELWh0TG9HdEVmbzJpTjQwX3BObnFVNlpXTTVQTHhpSnU2aThPQUZMRmJmNWwxWEl3alZIN2ZtV1dNN1ZYZmZfdUN4T28zWXcwdlRBSWpQcGNwVmd5MTdpQk5CMUN0MjlrLU9Kck5HNUdvYjdNU0U2LS1vZTFGaFJnY0pha2ZpMkdiRFZMS3lkSjhzT01HS19rSTJOTFoweGlLYTBkLWJaUmlTTjR2RmZWTHptdGpGNDkyemhteE9zUEZaT1BHSldfNjVB?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Fri, 17 Jul 2026 08:02:59 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Empresas trocam ChatGPT e Claude por modelos chineses de IA",
-      "summary": "Empresas trocam ChatGPT e Claude por modelos chineses de IA",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYVpRU285Mjk1bTdQTlpzQUdRYjlaT3FxbkdXSW40UjBuNmhJcVBqV0xPVmpnSnFaVDJCWm5IZGdqNjZ2N1lvOVBzaGNIRjlvamhYaEptTXRwSUJhMHB0WGJZejVwZUNEbDNHNklma1ZpSVJCRUgxTFR1ZXZwQ253bFNHVWtUaEtzeGN1eWtacFdQcFdIV0RRZnphLW8zYTgyb0lnUg?oc=5",
+      "title": "Uso de Inteligência Artificial nas empresas acende alerta para riscos de plágio e vazamento de dados",
+      "summary": "Uso de Inteligência Artificial nas empresas acende alerta para riscos de plágio e vazamento de dados",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOOFpvRVZ1UzNCNURYM1JLMnFPQVVQXzRPZWZKeWxZN25sYzFhdVVOQkEyb2M3bWJIa0w4dklUUFNydUxYcC1QZDRvMGYyMjFuNkNhVFJRWkRuN002Qk1EUGJKZ3p3ZU9UM1UxUWhSMEVobmNwSlJNd1prM2g3cTlkRnhKbFF3M3NFQWtJc19DUW1wWnVMMmJwZW9IRkpzU1BOS0dPcHJUSnowLUtMb3lXdWhJUmx2OFA5cy03YUdjUFV6d1Vub0ZwWFFINlV2YmVsYWE5SHpqbkNHZVYtVlY5SWF3LWZhYWtRcl840gHwAUFVX3lxTE9ldVh6NTVUWGczSmhLQ2NWOXJ6eUF3bTEyUUV1cGNXdjFvaEhZa2xWTERRMVVCQjZqR2dHMlptdndEMmxqT1lURndrTjliQUNxLVZFQ2ZxWWUzQzNWeG9UTG03YlhYck55N0VHbXMzZ1liLWZNRWhJY3llSkJpa0VnS2NHTVhKeFBkalpmcEN1Zm5RU3c0TTBYSi1XTk82VUVWNjJFVVRHTEx1Y09vTE9LSEtJV2FnLWtfQUk2VGlUU2xVODk3QlhtRTZxcndEckNBb2J1UThFNHk3UTRXOF80TlBMYjQ3bU5tOWpXUmZJSg?oc=5",
+      "source": "O TEMPO",
+      "published_at": "Thu, 16 Jul 2026 22:46:43 GMT",
+      "category": "IA",
+      "signal": "down"
+    },
+    {
+      "title": "Treinamento de R$ 37 pode colocar você no radar das empresas que buscam profissionais com IA",
+      "summary": "Treinamento de R$ 37 pode colocar você no radar das empresas que buscam profissionais com IA",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU1ZXLXA5eVJjVm9lWFdYc25hZ3JlSDIzSzJCN3BnUk1qV0NhY0ZRS2FYOElqOTV2TW1MVUdoa3hpQ0IxVUpiZjVMUXVZYnJHWnZzbUFNb0xVd1BuSG1EeENTOTc3UWNMMTRCMWlhQVM2QThKSTlGNlJqekdmMVdkbDRKVW84UGhfeFFaQkZhbmlzN0JjWUk1TE9jR0huWXFlbVV5N0VWWDc2THNWS281QVBHbnpLTTBSUFlpSXlOc3gyLXk4NndMSjVOVkFsTGM?oc=5",
       "source": "Exame",
-      "published_at": "Mon, 13 Jul 2026 18:45:32 GMT",
+      "published_at": "Thu, 16 Jul 2026 19:18:14 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "IA avança nas empresas, mas qualidade dos dados ainda fica em segundo plano",
-      "summary": "IA avança nas empresas, mas qualidade dos dados ainda fica em segundo plano",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcElIaU9wb2VtVXZkWEhHZlBxZ2xlNjVyT3NDTWZLQ0Q5bzByejhwTG82Q0JvRDJPZmt1TUhyd1RxMHozOTl1MHdaeFRiZWwydk40N0NIUWhwa1NIbFMyeGxlZFdWWmQyVkw3QmI3SFZwRkM3cG5qdDQweTgwZVExeFF5Rl9kV05zeE54NnpSc2JlU200Q2lxcWtuZ2theDFKamhwRGRzU0J5cnFQeDRJ?oc=5",
-      "source": "TI INSIDE Online",
-      "published_at": "Wed, 15 Jul 2026 21:12:12 GMT",
+      "title": "A IA já faz mais do que sua empresa aproveita",
+      "summary": "A IA já faz mais do que sua empresa aproveita",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNOS1rSTlyOHA3X2gyRUxuV1U0b19vZkhMa2JSeGZRV3RoVXRjTlJXNDVpZ2Y0ckRuX05nTVRCWTVVVkE0QUo4WHNUNm93YVk5SS1DVk42SElxT29sdkVZZ2drZWFyOVpzb1E?oc=5",
+      "source": "fsa.br",
+      "published_at": "Thu, 16 Jul 2026 13:36:40 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Nova empresa da 'mãe do ChatGPT' lança primeiro modelo de IA; conheça",
-      "summary": "Nova empresa da 'mãe do ChatGPT' lança primeiro modelo de IA; conheça",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVUdnUEVOeGVTODJJYnZGN2hHaVpCSE9GZDE4N3RQeHlXVHlrdVVuWl9MbDVma1ZFVEVmaG1iN1NoR0xCOUg5UURRbnlXemZzWHpQRTN6c3hmU2FlcEhFVWQxTDlCUGVGck1xRGx2b2t6MHNlbnJnTkFBNF9EVFhLaFdlSE03a0wtRjlPMk9EdnFxeEs1UUxVNTF6aHUwYktfUGRUYU1zbXFIbV9FY3MwWmM0ZlBFZGdhdG16LWJVdXRlbGpLRElEbjMzUzlIS194WWfSAeABQVVfeXFMUFluUjRjMWh0TGJnVDBMZnFFT2VqalpqUVlJRWdGUGtwRUZfQ2w5bFAtYzUwQXZlc1p2NFBReWM3Rndzb3NlUmJrLTVIdldlNVY5XzB2bHo0TDRzbjBwTTEzREtTMXljZ0VNMnFoRU1PQWRRaDdXYUlYenlQT0RUSWJudmxrck1mMjhSQmdqcktLQW5uSWx5SEF4Vm82M0NSbnNFdlZjdHdncS1OZmlyN05CNFhzRjhkSXFOenNUX1dtTnpkSnFUMW9STmdwbHMyeDl6WjVIYmQ1cUo0dy05c0o?oc=5",
-      "source": "O GLOBO",
-      "published_at": "Thu, 16 Jul 2026 14:48:37 GMT",
-      "category": "IA",
-      "signal": "up"
-    },
-    {
-      "title": "De redes sociais a plataformas de apostas: empresas usam IA para aprofundar checagem da vida digital de candidatos",
-      "summary": "De redes sociais a plataformas de apostas: empresas usam IA para aprofundar checagem da vida digital de candidatos",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQeTE1cjdjY1dkS09DZXNUQ2FaaWJlNXRhSW9jQVVYMUVoSS01VnF1clhQUXJrOHl5VEViSmZrSzNYQ2VYQXlvb00wdUotVm1Eem9UTlplalJLemdpckNxWjkwVDJzYmFYdzM3QmptVzN3azdFNEpXSjNKa0dPYWRRRWE4RUpjdHlnOEVJN2NJa2IyYXVVeHJ6NWQ4cW04LVRhMko1VzZiZEc4UVBkejNpMndhV215RW4yWHVzMGliRm56NTVVZWZ1QXVWTm5mWnNRSmNZVExUNXl4R3daaDdZbWpaeS1PaGl4anVLSkNJZFdBU3pqc3A2eVBHTk0tUzdPZmlTQzd1bzVrYjR3TGR6SDQ4SjVpd3lhYnZ30gGqAkFVX3lxTE04cTlpSk5oNk1PTzN5SFAyRksyS0xRUi1ta3REdWV2dlpoSWhzXy13RTBTeEhaQ3BPU24wVGJIX0RCbjFjUEUzR052M25NQnFCVEZkMW9BMlVrWVNKblJXUldyOS1sSXlNaGoxNktscWhqY2FNdVI5eGZlaFhVMElJUnhiVmNOTnltYkZkSW9mWUxCTUV3QU1qSGdNVTB6YnpkNW5RVk0zV3Y1VmdNa2gxWVdFcE0xeEYxM1BOQ3pmLVU1aGJmeHR4c0o3S0RTQ1A1TmVETHJQcF9XZTdrNEt5bm9NYkVtUGNBZUlGR0hXcW9CYk5qcDlmSy1taUY0Ri0xQTNIaU9sYjIwN0dsZnFnUGk1V0hBb2M5QkhHR29xTFZvc2RrR3MyR1E?oc=5",
-      "source": "Época Negócios",
-      "published_at": "Thu, 16 Jul 2026 12:59:02 GMT",
+      "title": "IA avança nas empresas, mas uso ainda é limitado",
+      "summary": "IA avança nas empresas, mas uso ainda é limitado",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9EM05jZnFoWkc5NEwyWTdEa3RSSFB5YnJZT2tQem8yMF9ZNEN5aWVFZmZlQzJGRUxkQmQyMjBwTTl6VWZWSUJYNko3WFJ1blMtQ1BuT0Rzc3VER3dUWVAzazNqWkZ5ZzA3Nk90d3Jqc2VMUQ?oc=5",
+      "source": "ES Brasil",
+      "published_at": "Thu, 16 Jul 2026 20:53:04 GMT",
       "category": "IA",
       "signal": "flat"
     }

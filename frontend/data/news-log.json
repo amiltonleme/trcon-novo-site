@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T20:50:04.376851+00:00",
+  "generated_at": "2026-07-17T09:42:49.573335+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
@@ -12,60 +12,44 @@
       "publishedAt": "Thu, 16 Jul 2026 13:36:54 GMT"
     },
     {
-      "source": "Times Brasil | CNBC",
+      "source": "Valor Econômico",
       "category": "IA",
-      "title": "Nvidia apresenta novo modelo de I.A e amplia ecossistema de inteligência artificial física no Japão",
-      "summary": "Nvidia apresenta novo modelo de I.A e amplia ecossistema de inteligência artificial física no Japão",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOVWlSU0dwSVdKV0NHcUF2aTFRdHNWdjFFclZuWWY1aVo3dlZ1MHU4UFBaaEpBc29rQ0xuRGpEOXBEdzltWTExMzlKNUNQRW1IY1d1MGJ4WDVNc2x6VlhNUzBCcWM0WVpIRlFtd0N4SUlockZoSXozOTZleWQ1Q0ZtX1NOS1N6bHVPS2phT19Dak91aTlJMGpKVDVWa0oySWtvcFVJcjJPSVkzb204VWdHazJ2QXMyQVVFSzJZZkJLR3czOVVtQ2VZdExzMEtvMEhIVnVIcFlUSUltblJxa2ktTm8wMjBKTnhLQ2xENkgyUHhIdHhMOVVSRWdUbzdsLWZJ?oc=5",
-      "publishedAt": "Thu, 16 Jul 2026 17:00:00 GMT"
+      "title": "‘Boom’ de inteligência artificial alimenta IPO de empresas de energia",
+      "summary": "‘Boom’ de inteligência artificial alimenta IPO de empresas de energia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ2JkXzBUUFY1RlRDU0NOSTA4RG5IX1pKMk9DYy1jM0hKZjl3M1RFLTNDTTVtck5PUl9RQk1OS2c4b21MbVc2cjhMZWQ1U3k3c1BuMndtR1EwUkZRdUtLUWI1WGFvZFBpeWNmc2RVdVVEVUNzQjR0MU1xUkRyck50eFg0WWpCQ3FJbVRzckRUQ3NZdVMzcjFYWGJlSnZGUE52M1FuQldlVVcwQjZERG53eEhVSVNxV2c2WFNEMnhqVGl3TXfSAdIBQVVfeXFMTWd5UEJYZXNELWh0TG9HdEVmbzJpTjQwX3BObnFVNlpXTTVQTHhpSnU2aThPQUZMRmJmNWwxWEl3alZIN2ZtV1dNN1ZYZmZfdUN4T28zWXcwdlRBSWpQcGNwVmd5MTdpQk5CMUN0MjlrLU9Kck5HNUdvYjdNU0U2LS1vZTFGaFJnY0pha2ZpMkdiRFZMS3lkSjhzT01HS19rSTJOTFoweGlLYTBkLWJaUmlTTjR2RmZWTHptdGpGNDkyemhteE9zUEZaT1BHSldfNjVB?oc=5",
+      "publishedAt": "Fri, 17 Jul 2026 08:02:59 GMT"
+    },
+    {
+      "source": "O TEMPO",
+      "category": "IA",
+      "title": "Uso de Inteligência Artificial nas empresas acende alerta para riscos de plágio e vazamento de dados",
+      "summary": "Uso de Inteligência Artificial nas empresas acende alerta para riscos de plágio e vazamento de dados",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOOFpvRVZ1UzNCNURYM1JLMnFPQVVQXzRPZWZKeWxZN25sYzFhdVVOQkEyb2M3bWJIa0w4dklUUFNydUxYcC1QZDRvMGYyMjFuNkNhVFJRWkRuN002Qk1EUGJKZ3p3ZU9UM1UxUWhSMEVobmNwSlJNd1prM2g3cTlkRnhKbFF3M3NFQWtJc19DUW1wWnVMMmJwZW9IRkpzU1BOS0dPcHJUSnowLUtMb3lXdWhJUmx2OFA5cy03YUdjUFV6d1Vub0ZwWFFINlV2YmVsYWE5SHpqbkNHZVYtVlY5SWF3LWZhYWtRcl840gHwAUFVX3lxTE9ldVh6NTVUWGczSmhLQ2NWOXJ6eUF3bTEyUUV1cGNXdjFvaEhZa2xWTERRMVVCQjZqR2dHMlptdndEMmxqT1lURndrTjliQUNxLVZFQ2ZxWWUzQzNWeG9UTG03YlhYck55N0VHbXMzZ1liLWZNRWhJY3llSkJpa0VnS2NHTVhKeFBkalpmcEN1Zm5RU3c0TTBYSi1XTk82VUVWNjJFVVRHTEx1Y09vTE9LSEtJV2FnLWtfQUk2VGlUU2xVODk3QlhtRTZxcndEckNBb2J1UThFNHk3UTRXOF80TlBMYjQ3bU5tOWpXUmZJSg?oc=5",
+      "publishedAt": "Thu, 16 Jul 2026 22:46:43 GMT"
     },
     {
       "source": "Exame",
       "category": "IA",
-      "title": "Empresas trocam ChatGPT e Claude por modelos chineses de IA",
-      "summary": "Empresas trocam ChatGPT e Claude por modelos chineses de IA",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYVpRU285Mjk1bTdQTlpzQUdRYjlaT3FxbkdXSW40UjBuNmhJcVBqV0xPVmpnSnFaVDJCWm5IZGdqNjZ2N1lvOVBzaGNIRjlvamhYaEptTXRwSUJhMHB0WGJZejVwZUNEbDNHNklma1ZpSVJCRUgxTFR1ZXZwQ253bFNHVWtUaEtzeGN1eWtacFdQcFdIV0RRZnphLW8zYTgyb0lnUg?oc=5",
-      "publishedAt": "Mon, 13 Jul 2026 18:45:32 GMT"
+      "title": "Treinamento de R$ 37 pode colocar você no radar das empresas que buscam profissionais com IA",
+      "summary": "Treinamento de R$ 37 pode colocar você no radar das empresas que buscam profissionais com IA",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU1ZXLXA5eVJjVm9lWFdYc25hZ3JlSDIzSzJCN3BnUk1qV0NhY0ZRS2FYOElqOTV2TW1MVUdoa3hpQ0IxVUpiZjVMUXVZYnJHWnZzbUFNb0xVd1BuSG1EeENTOTc3UWNMMTRCMWlhQVM2QThKSTlGNlJqekdmMVdkbDRKVW84UGhfeFFaQkZhbmlzN0JjWUk1TE9jR0huWXFlbVV5N0VWWDc2THNWS281QVBHbnpLTTBSUFlpSXlOc3gyLXk4NndMSjVOVkFsTGM?oc=5",
+      "publishedAt": "Thu, 16 Jul 2026 19:18:14 GMT"
     },
     {
-      "source": "TI INSIDE Online",
+      "source": "fsa.br",
       "category": "IA",
-      "title": "IA avança nas empresas, mas qualidade dos dados ainda fica em segundo plano",
-      "summary": "IA avança nas empresas, mas qualidade dos dados ainda fica em segundo plano",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcElIaU9wb2VtVXZkWEhHZlBxZ2xlNjVyT3NDTWZLQ0Q5bzByejhwTG82Q0JvRDJPZmt1TUhyd1RxMHozOTl1MHdaeFRiZWwydk40N0NIUWhwa1NIbFMyeGxlZFdWWmQyVkw3QmI3SFZwRkM3cG5qdDQweTgwZVExeFF5Rl9kV05zeE54NnpSc2JlU200Q2lxcWtuZ2theDFKamhwRGRzU0J5cnFQeDRJ?oc=5",
-      "publishedAt": "Wed, 15 Jul 2026 21:12:12 GMT"
+      "title": "A IA já faz mais do que sua empresa aproveita",
+      "summary": "A IA já faz mais do que sua empresa aproveita",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNOS1rSTlyOHA3X2gyRUxuV1U0b19vZkhMa2JSeGZRV3RoVXRjTlJXNDVpZ2Y0ckRuX05nTVRCWTVVVkE0QUo4WHNUNm93YVk5SS1DVk42SElxT29sdkVZZ2drZWFyOVpzb1E?oc=5",
+      "publishedAt": "Thu, 16 Jul 2026 13:36:40 GMT"
     },
     {
-      "source": "O GLOBO",
+      "source": "ES Brasil",
       "category": "IA",
-      "title": "Nova empresa da 'mãe do ChatGPT' lança primeiro modelo de IA; conheça",
-      "summary": "Nova empresa da 'mãe do ChatGPT' lança primeiro modelo de IA; conheça",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVUdnUEVOeGVTODJJYnZGN2hHaVpCSE9GZDE4N3RQeHlXVHlrdVVuWl9MbDVma1ZFVEVmaG1iN1NoR0xCOUg5UURRbnlXemZzWHpQRTN6c3hmU2FlcEhFVWQxTDlCUGVGck1xRGx2b2t6MHNlbnJnTkFBNF9EVFhLaFdlSE03a0wtRjlPMk9EdnFxeEs1UUxVNTF6aHUwYktfUGRUYU1zbXFIbV9FY3MwWmM0ZlBFZGdhdG16LWJVdXRlbGpLRElEbjMzUzlIS194WWfSAeABQVVfeXFMUFluUjRjMWh0TGJnVDBMZnFFT2VqalpqUVlJRWdGUGtwRUZfQ2w5bFAtYzUwQXZlc1p2NFBReWM3Rndzb3NlUmJrLTVIdldlNVY5XzB2bHo0TDRzbjBwTTEzREtTMXljZ0VNMnFoRU1PQWRRaDdXYUlYenlQT0RUSWJudmxrck1mMjhSQmdqcktLQW5uSWx5SEF4Vm82M0NSbnNFdlZjdHdncS1OZmlyN05CNFhzRjhkSXFOenNUX1dtTnpkSnFUMW9STmdwbHMyeDl6WjVIYmQ1cUo0dy05c0o?oc=5",
-      "publishedAt": "Thu, 16 Jul 2026 14:48:37 GMT"
-    },
-    {
-      "source": "Época Negócios",
-      "category": "IA",
-      "title": "De redes sociais a plataformas de apostas: empresas usam IA para aprofundar checagem da vida digital de candidatos",
-      "summary": "De redes sociais a plataformas de apostas: empresas usam IA para aprofundar checagem da vida digital de candidatos",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQeTE1cjdjY1dkS09DZXNUQ2FaaWJlNXRhSW9jQVVYMUVoSS01VnF1clhQUXJrOHl5VEViSmZrSzNYQ2VYQXlvb00wdUotVm1Eem9UTlplalJLemdpckNxWjkwVDJzYmFYdzM3QmptVzN3azdFNEpXSjNKa0dPYWRRRWE4RUpjdHlnOEVJN2NJa2IyYXVVeHJ6NWQ4cW04LVRhMko1VzZiZEc4UVBkejNpMndhV215RW4yWHVzMGliRm56NTVVZWZ1QXVWTm5mWnNRSmNZVExUNXl4R3daaDdZbWpaeS1PaGl4anVLSkNJZFdBU3pqc3A2eVBHTk0tUzdPZmlTQzd1bzVrYjR3TGR6SDQ4SjVpd3lhYnZ30gGqAkFVX3lxTE04cTlpSk5oNk1PTzN5SFAyRksyS0xRUi1ta3REdWV2dlpoSWhzXy13RTBTeEhaQ3BPU24wVGJIX0RCbjFjUEUzR052M25NQnFCVEZkMW9BMlVrWVNKblJXUldyOS1sSXlNaGoxNktscWhqY2FNdVI5eGZlaFhVMElJUnhiVmNOTnltYkZkSW9mWUxCTUV3QU1qSGdNVTB6YnpkNW5RVk0zV3Y1VmdNa2gxWVdFcE0xeEYxM1BOQ3pmLVU1aGJmeHR4c0o3S0RTQ1A1TmVETHJQcF9XZTdrNEt5bm9NYkVtUGNBZUlGR0hXcW9CYk5qcDlmSy1taUY0Ri0xQTNIaU9sYjIwN0dsZnFnUGk1V0hBb2M5QkhHR29xTFZvc2RrR3MyR1E?oc=5",
-      "publishedAt": "Thu, 16 Jul 2026 12:59:02 GMT"
-    },
-    {
-      "source": "noticenter.com.br",
-      "category": "Tecnologia",
-      "title": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
-      "summary": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNT2E4bTNLWFg4ZkIzRklOenItQXo1RHNWYVJ4VUFlQ18xYl9zZFpwY3hoMEdyZkNaU2JTbFl2VS02XzNrcUxCSlNuT0ZLUlFhRVJnY3ZISWNoeUhiYWloQ0x5dHlXbWNJNnlfQngxY0ZPSFVkdzBHM1c1Vm9QNzhBWlY1alVCa2E4T2VuejNrMlAxcGRGdXQ3VWZTTGZVS3ByMnI1TG9rbHpkR0dvMlQ2LV8yWHpUZjAtRExVbENrWkxBelNLV0p1VmNTUUtRN2lCazhaMkFMZjM?oc=5",
-      "publishedAt": "Sat, 27 Jun 2026 00:06:00 GMT"
-    },
-    {
-      "source": "jornaltribuna.com.br",
-      "category": "Tecnologia",
-      "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
-      "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
-      "publishedAt": "Wed, 01 Jul 2026 18:54:07 GMT"
+      "title": "IA avança nas empresas, mas uso ainda é limitado",
+      "summary": "IA avança nas empresas, mas uso ainda é limitado",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9EM05jZnFoWkc5NEwyWTdEa3RSSFB5YnJZT2tQem8yMF9ZNEN5aWVFZmZlQzJGRUxkQmQyMjBwTTl6VWZWSUJYNko3WFJ1blMtQ1BuT0Rzc3VER3dUWVAzazNqWkZ5ZzA3Nk90d3Jqc2VMUQ?oc=5",
+      "publishedAt": "Thu, 16 Jul 2026 20:53:04 GMT"
     },
     {
       "source": "TI INSIDE Online",
@@ -82,6 +66,22 @@
       "summary": "Análise e Desenvolvimento de Software na Saúde: por que a Faculdade Santa Casa é o futuro",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQW1QYWdzZmhtelJEOHlXb0VldzhwX2JvaU1KSHp4TkM1Y3JjdlY0bjc0S01oOEFpaW9sREpKR25PRmtKVVY0LXVmZFZRMnpCUTZoVjktOHRidHlwQ0ZyR2JrdThQWnV6LTRiX1hvQXBhNHh3cXY2dldjRTZCek9fWFFVQTVFRTc0T1E?oc=5",
       "publishedAt": "Fri, 15 May 2026 07:00:00 GMT"
+    },
+    {
+      "source": "noticenter.com.br",
+      "category": "Tecnologia",
+      "title": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
+      "summary": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSVJHd1ZRSXIyZllmWmJjWE9URWFfYzB4bWU0UUNxd3ZJdlBvMkhza0dOSHJDYmZoZjRkTmJUT2dKTjhVMkhmU1JVd2hsbnZINEFORFNIM2dmNjYxR3h3dUw3ZkNXTERDN0hCMjBmUGtFMV9weXc1R2tjOTlwdnNzVVpheFQxSDdPYkJpQy11d1k2ZnZHeGhyLTZwWllsR0d5dnZsSlpENTByVzNQSmlrdFZYdVpmOUo0c25fUUtHd0hBcWQwdnlTOUtqY0NPbW5ycmJzcXdQVXRwdFFPMFVjcThCbmZMR1dHSDVXb0k3S21vT0tCTmhJcg?oc=5",
+      "publishedAt": "Sat, 27 Jun 2026 00:06:00 GMT"
+    },
+    {
+      "source": "jornaltribuna.com.br",
+      "category": "Tecnologia",
+      "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
+      "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
+      "publishedAt": "Wed, 01 Jul 2026 18:54:07 GMT"
     },
     {
       "source": "ND Mais",

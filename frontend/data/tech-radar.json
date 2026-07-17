@@ -1,26 +1,8 @@
 {
-  "generated_at": "2026-07-16T20:50:04.323031+00:00",
+  "generated_at": "2026-07-17T09:42:49.525891+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de tecnologia.",
   "errors": [],
   "items": [
-    {
-      "title": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
-      "summary": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNT2E4bTNLWFg4ZkIzRklOenItQXo1RHNWYVJ4VUFlQ18xYl9zZFpwY3hoMEdyZkNaU2JTbFl2VS02XzNrcUxCSlNuT0ZLUlFhRVJnY3ZISWNoeUhiYWloQ0x5dHlXbWNJNnlfQngxY0ZPSFVkdzBHM1c1Vm9QNzhBWlY1alVCa2E4T2VuejNrMlAxcGRGdXQ3VWZTTGZVS3ByMnI1TG9rbHpkR0dvMlQ2LV8yWHpUZjAtRExVbENrWkxBelNLV0p1VmNTUUtRN2lCazhaMkFMZjM?oc=5",
-      "source": "noticenter.com.br",
-      "published_at": "Sat, 27 Jun 2026 00:06:00 GMT",
-      "category": "Tecnologia",
-      "signal": "up"
-    },
-    {
-      "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
-      "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
-      "source": "jornaltribuna.com.br",
-      "published_at": "Wed, 01 Jul 2026 18:54:07 GMT",
-      "category": "Tecnologia",
-      "signal": "flat"
-    },
     {
       "title": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
       "summary": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
@@ -36,6 +18,24 @@
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQW1QYWdzZmhtelJEOHlXb0VldzhwX2JvaU1KSHp4TkM1Y3JjdlY0bjc0S01oOEFpaW9sREpKR25PRmtKVVY0LXVmZFZRMnpCUTZoVjktOHRidHlwQ0ZyR2JrdThQWnV6LTRiX1hvQXBhNHh3cXY2dldjRTZCek9fWFFVQTVFRTc0T1E?oc=5",
       "source": "fcmsantacasasp.edu.br",
       "published_at": "Fri, 15 May 2026 07:00:00 GMT",
+      "category": "Tecnologia",
+      "signal": "flat"
+    },
+    {
+      "title": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
+      "summary": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSVJHd1ZRSXIyZllmWmJjWE9URWFfYzB4bWU0UUNxd3ZJdlBvMkhza0dOSHJDYmZoZjRkTmJUT2dKTjhVMkhmU1JVd2hsbnZINEFORFNIM2dmNjYxR3h3dUw3ZkNXTERDN0hCMjBmUGtFMV9weXc1R2tjOTlwdnNzVVpheFQxSDdPYkJpQy11d1k2ZnZHeGhyLTZwWllsR0d5dnZsSlpENTByVzNQSmlrdFZYdVpmOUo0c25fUUtHd0hBcWQwdnlTOUtqY0NPbW5ycmJzcXdQVXRwdFFPMFVjcThCbmZMR1dHSDVXb0k3S21vT0tCTmhJcg?oc=5",
+      "source": "noticenter.com.br",
+      "published_at": "Sat, 27 Jun 2026 00:06:00 GMT",
+      "category": "Tecnologia",
+      "signal": "up"
+    },
+    {
+      "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
+      "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
+      "source": "jornaltribuna.com.br",
+      "published_at": "Wed, 01 Jul 2026 18:54:07 GMT",
       "category": "Tecnologia",
       "signal": "flat"
     },
