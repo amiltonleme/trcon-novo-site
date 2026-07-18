@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T20:44:49.906590+00:00",
+  "generated_at": "2026-07-18T09:13:51.945524+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
@@ -28,14 +28,6 @@
       "publishedAt": "Thu, 16 Jul 2026 22:46:43 GMT"
     },
     {
-      "source": "Forbes Brasil",
-      "category": "IA",
-      "title": "IA Não Garante Vendas: Até 77% das Empresas dos Setores Líderes no Uso da Tecnologia Ficam Abaixo da Meta",
-      "summary": "IA Não Garante Vendas: Até 77% das Empresas dos Setores Líderes no Uso da Tecnologia Ficam Abaixo da Meta",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb18ycEowZHBTM2Vyell3eDZSc21GZDY3TjVRa25kZlJUVG1XZnk3OFJrWkdVcU5DM0d0WndLQlBwdWhpVE1vWVY2dl9kc3hwM1VVRzB1VklLYmVldm92TG9DYnZfS0xhWEhJYzJuQXI5b0RvV0NkYWkybS12QmRaQVotbmIzcjB6SG9yWVJWaUVsTUE3LU1iWTNUWWRIa0FGTW03dndPS09LZ1VfNWZ3Y1JBTGVEMjN2bk5EREJ1dEwxRElJN2hxY01tQkRHZF9jUDNzeFJlTExWNXM2RWJBYw?oc=5",
-      "publishedAt": "Fri, 17 Jul 2026 20:15:31 GMT"
-    },
-    {
       "source": "Valor Econômico",
       "category": "IA",
       "title": "‘Boom’ de inteligência artificial alimenta IPO de empresas de energia",
@@ -44,28 +36,20 @@
       "publishedAt": "Fri, 17 Jul 2026 08:02:59 GMT"
     },
     {
+      "source": "Forbes Brasil",
+      "category": "IA",
+      "title": "IA Não Garante Vendas: Até 77% das Empresas dos Setores Líderes no Uso da Tecnologia Ficam Abaixo da Meta",
+      "summary": "IA Não Garante Vendas: Até 77% das Empresas dos Setores Líderes no Uso da Tecnologia Ficam Abaixo da Meta",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb18ycEowZHBTM2Vyell3eDZSc21GZDY3TjVRa25kZlJUVG1XZnk3OFJrWkdVcU5DM0d0WndLQlBwdWhpVE1vWVY2dl9kc3hwM1VVRzB1VklLYmVldm92TG9DYnZfS0xhWEhJYzJuQXI5b0RvV0NkYWkybS12QmRaQVotbmIzcjB6SG9yWVJWaUVsTUE3LU1iWTNUWWRIa0FGTW03dndPS09LZ1VfNWZ3Y1JBTGVEMjN2bk5EREJ1dEwxRElJN2hxY01tQkRHZF9jUDNzeFJlTExWNXM2RWJBYw?oc=5",
+      "publishedAt": "Fri, 17 Jul 2026 20:15:31 GMT"
+    },
+    {
       "source": "fsa.br",
       "category": "IA",
       "title": "A IA já faz mais do que sua empresa aproveita",
       "summary": "A IA já faz mais do que sua empresa aproveita",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNOS1rSTlyOHA3X2gyRUxuV1U0b19vZkhMa2JSeGZRV3RoVXRjTlJXNDVpZ2Y0ckRuX05nTVRCWTVVVkE0QUo4WHNUNm93YVk5SS1DVk42SElxT29sdkVZZ2drZWFyOVpzb1E?oc=5",
       "publishedAt": "Thu, 16 Jul 2026 13:36:40 GMT"
-    },
-    {
-      "source": "noticenter.com.br",
-      "category": "Tecnologia",
-      "title": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
-      "summary": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSVJHd1ZRSXIyZllmWmJjWE9URWFfYzB4bWU0UUNxd3ZJdlBvMkhza0dOSHJDYmZoZjRkTmJUT2dKTjhVMkhmU1JVd2hsbnZINEFORFNIM2dmNjYxR3h3dUw3ZkNXTERDN0hCMjBmUGtFMV9weXc1R2tjOTlwdnNzVVpheFQxSDdPYkJpQy11d1k2ZnZHeGhyLTZwWllsR0d5dnZsSlpENTByVzNQSmlrdFZYdVpmOUo0c25fUUtHd0hBcWQwdnlTOUtqY0NPbW5ycmJzcXdQVXRwdFFPMFVjcThCbmZMR1dHSDVXb0k3S21vT0tCTmhJcg?oc=5",
-      "publishedAt": "Sat, 27 Jun 2026 00:06:00 GMT"
-    },
-    {
-      "source": "jornaltribuna.com.br",
-      "category": "Tecnologia",
-      "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
-      "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
-      "publishedAt": "Wed, 01 Jul 2026 18:54:07 GMT"
     },
     {
       "source": "TI INSIDE Online",
@@ -82,6 +66,22 @@
       "summary": "Análise e Desenvolvimento de Software na Saúde: por que a Faculdade Santa Casa é o futuro",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQW1QYWdzZmhtelJEOHlXb0VldzhwX2JvaU1KSHp4TkM1Y3JjdlY0bjc0S01oOEFpaW9sREpKR25PRmtKVVY0LXVmZFZRMnpCUTZoVjktOHRidHlwQ0ZyR2JrdThQWnV6LTRiX1hvQXBhNHh3cXY2dldjRTZCek9fWFFVQTVFRTc0T1E?oc=5",
       "publishedAt": "Fri, 15 May 2026 07:00:00 GMT"
+    },
+    {
+      "source": "noticenter.com.br",
+      "category": "Tecnologia",
+      "title": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
+      "summary": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSVJHd1ZRSXIyZllmWmJjWE9URWFfYzB4bWU0UUNxd3ZJdlBvMkhza0dOSHJDYmZoZjRkTmJUT2dKTjhVMkhmU1JVd2hsbnZINEFORFNIM2dmNjYxR3h3dUw3ZkNXTERDN0hCMjBmUGtFMV9weXc1R2tjOTlwdnNzVVpheFQxSDdPYkJpQy11d1k2ZnZHeGhyLTZwWllsR0d5dnZsSlpENTByVzNQSmlrdFZYdVpmOUo0c25fUUtHd0hBcWQwdnlTOUtqY0NPbW5ycmJzcXdQVXRwdFFPMFVjcThCbmZMR1dHSDVXb0k3S21vT0tCTmhJcg?oc=5",
+      "publishedAt": "Sat, 27 Jun 2026 00:06:00 GMT"
+    },
+    {
+      "source": "jornaltribuna.com.br",
+      "category": "Tecnologia",
+      "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
+      "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
+      "publishedAt": "Wed, 01 Jul 2026 18:54:07 GMT"
     },
     {
       "source": "ND Mais",

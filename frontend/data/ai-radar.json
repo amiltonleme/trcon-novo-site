@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T20:44:48.825357+00:00",
+  "generated_at": "2026-07-18T09:13:50.900986+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -31,20 +31,20 @@
       "signal": "down"
     },
     {
-      "title": "IA Não Garante Vendas: Até 77% das Empresas dos Setores Líderes no Uso da Tecnologia Ficam Abaixo da Meta",
-      "summary": "IA Não Garante Vendas: Até 77% das Empresas dos Setores Líderes no Uso da Tecnologia Ficam Abaixo da Meta",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb18ycEowZHBTM2Vyell3eDZSc21GZDY3TjVRa25kZlJUVG1XZnk3OFJrWkdVcU5DM0d0WndLQlBwdWhpVE1vWVY2dl9kc3hwM1VVRzB1VklLYmVldm92TG9DYnZfS0xhWEhJYzJuQXI5b0RvV0NkYWkybS12QmRaQVotbmIzcjB6SG9yWVJWaUVsTUE3LU1iWTNUWWRIa0FGTW03dndPS09LZ1VfNWZ3Y1JBTGVEMjN2bk5EREJ1dEwxRElJN2hxY01tQkRHZF9jUDNzeFJlTExWNXM2RWJBYw?oc=5",
-      "source": "Forbes Brasil",
-      "published_at": "Fri, 17 Jul 2026 20:15:31 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
       "title": "‘Boom’ de inteligência artificial alimenta IPO de empresas de energia",
       "summary": "‘Boom’ de inteligência artificial alimenta IPO de empresas de energia",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ2JkXzBUUFY1RlRDU0NOSTA4RG5IX1pKMk9DYy1jM0hKZjl3M1RFLTNDTTVtck5PUl9RQk1OS2c4b21MbVc2cjhMZWQ1U3k3c1BuMndtR1EwUkZRdUtLUWI1WGFvZFBpeWNmc2RVdVVEVUNzQjR0MU1xUkRyck50eFg0WWpCQ3FJbVRzckRUQ3NZdVMzcjFYWGJlSnZGUE52M1FuQldlVVcwQjZERG53eEhVSVNxV2c2WFNEMnhqVGl3TXfSAdIBQVVfeXFMTWd5UEJYZXNELWh0TG9HdEVmbzJpTjQwX3BObnFVNlpXTTVQTHhpSnU2aThPQUZMRmJmNWwxWEl3alZIN2ZtV1dNN1ZYZmZfdUN4T28zWXcwdlRBSWpQcGNwVmd5MTdpQk5CMUN0MjlrLU9Kck5HNUdvYjdNU0U2LS1vZTFGaFJnY0pha2ZpMkdiRFZMS3lkSjhzT01HS19rSTJOTFoweGlLYTBkLWJaUmlTTjR2RmZWTHptdGpGNDkyemhteE9zUEZaT1BHSldfNjVB?oc=5",
       "source": "Valor Econômico",
       "published_at": "Fri, 17 Jul 2026 08:02:59 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "IA Não Garante Vendas: Até 77% das Empresas dos Setores Líderes no Uso da Tecnologia Ficam Abaixo da Meta",
+      "summary": "IA Não Garante Vendas: Até 77% das Empresas dos Setores Líderes no Uso da Tecnologia Ficam Abaixo da Meta",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb18ycEowZHBTM2Vyell3eDZSc21GZDY3TjVRa25kZlJUVG1XZnk3OFJrWkdVcU5DM0d0WndLQlBwdWhpVE1vWVY2dl9kc3hwM1VVRzB1VklLYmVldm92TG9DYnZfS0xhWEhJYzJuQXI5b0RvV0NkYWkybS12QmRaQVotbmIzcjB6SG9yWVJWaUVsTUE3LU1iWTNUWWRIa0FGTW03dndPS09LZ1VfNWZ3Y1JBTGVEMjN2bk5EREJ1dEwxRElJN2hxY01tQkRHZF9jUDNzeFJlTExWNXM2RWJBYw?oc=5",
+      "source": "Forbes Brasil",
+      "published_at": "Fri, 17 Jul 2026 20:15:31 GMT",
       "category": "IA",
       "signal": "flat"
     },
