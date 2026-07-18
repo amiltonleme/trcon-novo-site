@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-07-18T09:13:50.900986+00:00",
+  "generated_at": "2026-07-18T20:39:23.544995+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
+    {
+      "title": "‘Boom’ de inteligência artificial alimenta IPO de empresas de energia",
+      "summary": "‘Boom’ de inteligência artificial alimenta IPO de empresas de energia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ2JkXzBUUFY1RlRDU0NOSTA4RG5IX1pKMk9DYy1jM0hKZjl3M1RFLTNDTTVtck5PUl9RQk1OS2c4b21MbVc2cjhMZWQ1U3k3c1BuMndtR1EwUkZRdUtLUWI1WGFvZFBpeWNmc2RVdVVEVUNzQjR0MU1xUkRyck50eFg0WWpCQ3FJbVRzckRUQ3NZdVMzcjFYWGJlSnZGUE52M1FuQldlVVcwQjZERG53eEhVSVNxV2c2WFNEMnhqVGl3TXfSAdIBQVVfeXFMTWd5UEJYZXNELWh0TG9HdEVmbzJpTjQwX3BObnFVNlpXTTVQTHhpSnU2aThPQUZMRmJmNWwxWEl3alZIN2ZtV1dNN1ZYZmZfdUN4T28zWXcwdlRBSWpQcGNwVmd5MTdpQk5CMUN0MjlrLU9Kck5HNUdvYjdNU0U2LS1vZTFGaFJnY0pha2ZpMkdiRFZMS3lkSjhzT01HS19rSTJOTFoweGlLYTBkLWJaUmlTTjR2RmZWTHptdGpGNDkyemhteE9zUEZaT1BHSldfNjVB?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Fri, 17 Jul 2026 08:02:59 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
     {
       "title": "O que está por trás da revolta da geração Z contra a inteligência artificial no trabalho",
       "summary": "O que está por trás da revolta da geração Z contra a inteligência artificial no trabalho",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85VEJtTzlvRnhkQmNZU2pEaXFreGlmVWx1XzdtMDJ4SmpFUDlRTFlqRV9PUGZuQ1pmTmlYUjhieFdWTXRmNzdza1F4Q2kybC02ekhscVhza00zN3BObnNQS1o2QTFfRExzbFhQa0NXemUwZ0R6QmMwQmYyOEtBd9IBgwFBVV95cUxQT1Z1dVl5S3YxR0tqTW1sSjBIbU41VVRRcmo1Zjc5RFZvMWJSdXNLdHhTSmw3c1pxYzI3MUlFRGZnTHlIdEZ4ekIybG5Ta0pOeGJkMWIxN2UwNm9qa25LdWtlSnZoSEJsNXphbnh6MFFCdzRHY2NSdkRfUng4Y25NS0JPTQ?oc=5",
       "source": "Estadão",
-      "published_at": "Fri, 17 Jul 2026 16:01:07 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Treinamento de R$ 37 pode colocar você no radar das empresas que buscam profissionais com IA",
-      "summary": "Treinamento de R$ 37 pode colocar você no radar das empresas que buscam profissionais com IA",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU1ZXLXA5eVJjVm9lWFdYc25hZ3JlSDIzSzJCN3BnUk1qV0NhY0ZRS2FYOElqOTV2TW1MVUdoa3hpQ0IxVUpiZjVMUXVZYnJHWnZzbUFNb0xVd1BuSG1EeENTOTc3UWNMMTRCMWlhQVM2QThKSTlGNlJqekdmMVdkbDRKVW84UGhfeFFaQkZhbmlzN0JjWUk1TE9jR0huWXFlbVV5N0VWWDc2THNWS281QVBHbnpLTTBSUFlpSXlOc3gyLXk4NndMSjVOVkFsTGM?oc=5",
-      "source": "Exame",
-      "published_at": "Thu, 16 Jul 2026 19:18:14 GMT",
+      "published_at": "Sat, 18 Jul 2026 16:18:31 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -31,20 +31,20 @@
       "signal": "down"
     },
     {
-      "title": "‘Boom’ de inteligência artificial alimenta IPO de empresas de energia",
-      "summary": "‘Boom’ de inteligência artificial alimenta IPO de empresas de energia",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ2JkXzBUUFY1RlRDU0NOSTA4RG5IX1pKMk9DYy1jM0hKZjl3M1RFLTNDTTVtck5PUl9RQk1OS2c4b21MbVc2cjhMZWQ1U3k3c1BuMndtR1EwUkZRdUtLUWI1WGFvZFBpeWNmc2RVdVVEVUNzQjR0MU1xUkRyck50eFg0WWpCQ3FJbVRzckRUQ3NZdVMzcjFYWGJlSnZGUE52M1FuQldlVVcwQjZERG53eEhVSVNxV2c2WFNEMnhqVGl3TXfSAdIBQVVfeXFMTWd5UEJYZXNELWh0TG9HdEVmbzJpTjQwX3BObnFVNlpXTTVQTHhpSnU2aThPQUZMRmJmNWwxWEl3alZIN2ZtV1dNN1ZYZmZfdUN4T28zWXcwdlRBSWpQcGNwVmd5MTdpQk5CMUN0MjlrLU9Kck5HNUdvYjdNU0U2LS1vZTFGaFJnY0pha2ZpMkdiRFZMS3lkSjhzT01HS19rSTJOTFoweGlLYTBkLWJaUmlTTjR2RmZWTHptdGpGNDkyemhteE9zUEZaT1BHSldfNjVB?oc=5",
-      "source": "Valor Econômico",
-      "published_at": "Fri, 17 Jul 2026 08:02:59 GMT",
+      "title": "Manaus abre inscrições para minicurso gratuito de Inteligência Artificial voltado a empresas e negócios",
+      "summary": "Manaus abre inscrições para minicurso gratuito de Inteligência Artificial voltado a empresas e negócios",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWnB3WlBIQ0dySi1oaFlyLXFFYTBaRmp0NVAxMU5OMHJkRzBZa3RQNENoRjZWXzRTVmNYdnZneV9GMDJUcFd4M0l5aEVwQklKWEJYQWJjUkZKc0U0QVlmcFJGUWVOOVRybTBnR3pCTEljZlJiNl85UUhCazkydExDWWduMEVHeVVhc0dRV082bkhEZDE4aEhIVHNPbjkwNDVjekJ5VGJZWkpjeVZMbG9Mbm1GYW1LMVpXbXZ3TUtEaUxZbGpVZHFjaTZ2THhDNU9MTThITVE2ZTQ5b2owUkJmUA?oc=5",
+      "source": "Portal do Holanda",
+      "published_at": "Sat, 18 Jul 2026 10:24:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "IA Não Garante Vendas: Até 77% das Empresas dos Setores Líderes no Uso da Tecnologia Ficam Abaixo da Meta",
-      "summary": "IA Não Garante Vendas: Até 77% das Empresas dos Setores Líderes no Uso da Tecnologia Ficam Abaixo da Meta",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb18ycEowZHBTM2Vyell3eDZSc21GZDY3TjVRa25kZlJUVG1XZnk3OFJrWkdVcU5DM0d0WndLQlBwdWhpVE1vWVY2dl9kc3hwM1VVRzB1VklLYmVldm92TG9DYnZfS0xhWEhJYzJuQXI5b0RvV0NkYWkybS12QmRaQVotbmIzcjB6SG9yWVJWaUVsTUE3LU1iWTNUWWRIa0FGTW03dndPS09LZ1VfNWZ3Y1JBTGVEMjN2bk5EREJ1dEwxRElJN2hxY01tQkRHZF9jUDNzeFJlTExWNXM2RWJBYw?oc=5",
-      "source": "Forbes Brasil",
-      "published_at": "Fri, 17 Jul 2026 20:15:31 GMT",
+      "title": "Treinamento de R$ 37 pode colocar você no radar das empresas que buscam profissionais com IA",
+      "summary": "Treinamento de R$ 37 pode colocar você no radar das empresas que buscam profissionais com IA",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU1ZXLXA5eVJjVm9lWFdYc25hZ3JlSDIzSzJCN3BnUk1qV0NhY0ZRS2FYOElqOTV2TW1MVUdoa3hpQ0IxVUpiZjVMUXVZYnJHWnZzbUFNb0xVd1BuSG1EeENTOTc3UWNMMTRCMWlhQVM2QThKSTlGNlJqekdmMVdkbDRKVW84UGhfeFFaQkZhbmlzN0JjWUk1TE9jR0huWXFlbVV5N0VWWDc2THNWS281QVBHbnpLTTBSUFlpSXlOc3gyLXk4NndMSjVOVkFsTGM?oc=5",
+      "source": "Exame",
+      "published_at": "Thu, 16 Jul 2026 19:18:14 GMT",
       "category": "IA",
       "signal": "flat"
     },

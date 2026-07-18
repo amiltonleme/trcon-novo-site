@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T09:13:49.823472+00:00",
+  "generated_at": "2026-07-18T20:39:22.344381+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -23,14 +23,14 @@
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 63.929",
-      "change": "+1,68%",
+      "value": "US$ 64.557",
+      "change": "+0,95%",
       "direction": "up"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 1.845",
-      "change": "+0,85%",
+      "value": "US$ 1.857",
+      "change": "+0,96%",
       "direction": "up"
     },
     {
@@ -90,8 +90,8 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 63.929",
-      "change": "+1,68%",
+      "quote": "US$ 64.557",
+      "change": "+0,95%",
       "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -101,8 +101,8 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 1.845",
-      "change": "+0,85%",
+      "quote": "US$ 1.857",
+      "change": "+0,96%",
       "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -144,12 +144,12 @@
   ],
   "news": [
     {
-      "title": "Gestores elevam cautela com Brasil e reduzem otimismo com Ibovespa, diz BofA",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORE0ycUdwMmU3LTFhWDZyRTFNVVBaWlI1TVZqd3A4NzhyeE9QT1VfVDVwRndMdjVrV0ltZGFpYmxtcXc3cWh4Tzd1X0RPTjJSeVhHaGNDTHBHTnExaXcyMWVnYkg2aVkzRTU2R0NxdEtHbm5HdnRSZ24tTlRLRGFzM3VENnoxcEU2cTFkTm5HR1hocjVEX1VoZC13R25MWTlvMUhMLVVPdWNfNHNvRHdDZkt0RENMM2dTRjNNV29kbmludHoxYmcxa0hXeTNxUVRYVjRyZll4V3RYS3FHTG5MOElVLWtYcDdhbDdr0gHwAUFVX3lxTE9iY3hQZXhoZTRtcHNKNEZyYUNpQVVTYnV2UXpvTEdkTjRKNk1EbVEzQkNiM1p4cjd3QmE3dWlpZWgtZmQ3LUpIajhaOEJsX3ZtbkNJcnVyOWpScWZqNWgzZFA4UkJHYnZIVkh5aVR5cjlZWmdjbFpuSmpZN3o2OWNybFhJNlhZZnZydVk3Xzl1QXRhdjlva1NGRU9IckJXT2tscHBER3lFRVhyYjlxblJjS1V4aVJ6NThQQUVxY1lNT0tUT0s3S2FiM3N6MUFjdG5rY01KbXdMTTljVDJuX3d4bHBseHhoRHRfZTJtTDU5Uw?oc=5"
-    },
-    {
       "title": "Indicadores do Brasil, EUA e China podem mexer com dólar, juros, Bolsa e agronegócio",
       "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQWm0zVHRiVFJwbmtGOTJ2OHQ5UDR5TWpFVGdTakNVODJDQktOclVlTWNvblZOcVJGaHhGdHdCdzVpNXVQbm1KdFQ1RFFPbFFDQUw1NnozSGxSRXlZVTh2QVl6LTV4OW4yWjhMZlB6NkwtSVV1Z2R1M082SjNnOXVOVWotRGZHUmExSE80UHdPRFhiN2t2MktMNG5UaDBfemY2Zm1LcUlZY0ZxMmpDNWhjVzYwQ2pQQXhaZmNpX0pFeVFVUndKWnRuQ0wzRVQ1LV81TXFialktRVVxMXhyLVl1TkppaTNUcndHdmhrUzRn?oc=5"
+    },
+    {
+      "title": "O que esperar da Bolsa e do dólar em julho após guerra e juros ditarem o ritmo dos mercados",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQekF3WTBBeGplQndvVExVTUd4OXdOazhxRVE2clBCQlQzejFQRkQwWHN3Q1F0cU42WnR1RVpKaWVvR0VmQkoyOG9Ja3cwbHktdkxBaXU1WFRKb3ZFZ0EtVkNDY1JWZkMzV3dGSEw0RzQ3QTBHQ3prNXB2SFQwLTRySDdwT1dTV3FPN2I3eDdiZXpRb0ZvTDNjbzZZMkNfR09Zc1BWdHRxRTdSdmxsbUFUdThDeFdjSE5Lc0tJSU96enoxN1c5S2R6YUxnQldyeV9tU2sxMmc2SDA4a3VVYS0yOEhJdnXSAeoBQVVfeXFMTkJ3RjI1NURKSnlmMzVHMzA2Q25XVkYxUHYwOVNsUm1WeUVucE1KQ09HWlIyY1Z5NElQMlRFSWNzdHFMRno0Zm9yejBLLTJZdE9Ma21XNk9YOFViS1NMaHVsU1J1LW5UNWlWZ3dZU0RfS1NGTmFraERkTVdmUEJSUUpoaFNlV1FwMHRLY3ZOMGtjcG10eFN1cEp4QklGZUV6TG5FRGEzZ0IyY1B2V1hYQlBrQWFsRTh4bXZ1aHh0cGVMQ3A1UzFESFhRUzFza0JKRk1Qa1pLMGZYSXlzMkJqTkpqaGEzcUlCUzR3?oc=5"
     },
     {
       "title": "Dólar sobe a R$ 5,20 e Bolsa cai, com juros incertos e petróleo em baixa",
@@ -168,18 +168,18 @@
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWnVEZmc1eTl4Q0lNU0w5MGdLVVhDMDJ0QWZSdzVQX1RYVkJpdkVCZ3N5dll0TG01emg2MzQwN2hKR1gydFMwYjFrejZsZEhUbzBKLVVsX1B0YXBXcFdxM0RPbXZ6a3I2NFJWT0ZCUEIzb090WUhfeEdqMlBXSlZ6M3RuRC12bVlWNUJMMzZpcTJUS24zNHF4cXlB?oc=5"
     },
     {
-      "title": "O que esperar da Bolsa e do dólar em julho após guerra e juros ditarem o ritmo dos mercados",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQekF3WTBBeGplQndvVExVTUd4OXdOazhxRVE2clBCQlQzejFQRkQwWHN3Q1F0cU42WnR1RVpKaWVvR0VmQkoyOG9Ja3cwbHktdkxBaXU1WFRKb3ZFZ0EtVkNDY1JWZkMzV3dGSEw0RzQ3QTBHQ3prNXB2SFQwLTRySDdwT1dTV3FPN2I3eDdiZXpRb0ZvTDNjbzZZMkNfR09Zc1BWdHRxRTdSdmxsbUFUdThDeFdjSE5Lc0tJSU96enoxN1c5S2R6YUxnQldyeV9tU2sxMmc2SDA4a3VVYS0yOEhJdnXSAeoBQVVfeXFMTkJ3RjI1NURKSnlmMzVHMzA2Q25XVkYxUHYwOVNsUm1WeUVucE1KQ09HWlIyY1Z5NElQMlRFSWNzdHFMRno0Zm9yejBLLTJZdE9Ma21XNk9YOFViS1NMaHVsU1J1LW5UNWlWZ3dZU0RfS1NGTmFraERkTVdmUEJSUUpoaFNlV1FwMHRLY3ZOMGtjcG10eFN1cEp4QklGZUV6TG5FRGEzZ0IyY1B2V1hYQlBrQWFsRTh4bXZ1aHh0cGVMQ3A1UzFESFhRUzFza0JKRk1Qa1pLMGZYSXlzMkJqTkpqaGEzcUlCUzR3?oc=5"
-    },
-    {
       "title": "Dólar cede a R$ 5,18 após dados econômicos de Brasil e EUA; Bolsa sobe",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTDBXazV1ZVVBdkkwX0NEWXNReEwzaldCNWI3MXhrOXVrVzhiWU5jV3lVVGc3ZEt6X01McnFwMWh4YlRZbVgwamgwb3QwQW8teE1vajI2UEc2MU5za0hTMjJSeDFHMG9ZNGNYbDMwSG1YYXhndjhfU09WWDNaM1h3d0loSVFIckZ1V1Vnbk5wSlBtTXJBODg1ZUdnd0swZw?oc=5"
+    },
+    {
+      "title": "Bolsa, dólar e juros: o que esperar após EUA classificarem PCC e CV como terroristas",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZER3WDlEYkpJQVZrZWFiSGFrb1NYRzdSTkM0Rzkwc2pmTURnUUUzLWRBTTZjRW1vV3hTZW5CS2ctcnYxWEQwMDd6VXVid0syNWtEeTNLRC1jVDhSdTZTVTBxSlh0dnB3a0NuV3lVc3d3Q2M4cV9XOUdGQmx2RHVtbm9qb0xJTzUxd21lako1OGtXMFpDU1h3U0FyZFBGMXJIOWREMFR3OEpick01aVZkTUFGU2lObW80NnhFRmM1empfZ0hsb1dsbkJHc19KT3VOSDBCcDhKaElzMVZpeGd1UklzYVlaXzQ0VXFMbDJMNUFJcl95ZkpOeU5FWUVNRGRqMVU4WFpNS1FHSlXSAZoCQVVfeXFMUHVtMFU3QXFIZ25Hc2t4VTgwakJVLVU2XzE4U3E3LWcwZ3hqOGFMaUxzOV9MdWxUQTQ5RWZ6bkhtYUZsai1hNms5MHU5amFfSWRubHIxREZjaDdWOF9iVjNtNHpGQnVDemJ0Y2xFTlB1OXJVWnpCV2NlWWJBS3pyQk9ZV2lPaElRaGZ1VEgxN2JfUXhNVUxvekVpeGZ6Z1A5SEttdHhrWjJwdGtaMnpKa1o1MXBBM3ZIaTJ6QUEwQkM2OWdJSkZRMUZHdlVVVy1vY09ncWdiazA4VVRGVmRRNVN4d3FWd0xUV0hRX3ptN3pOeHJNUDRIZURPcU5xRmRJejdsb09hVTh0N21PMzY0NnkxY0dheUkybHF3?oc=5"
     }
   ],
   "market_mood": {
     "label": "Neutro",
     "summary": "O mercado mostra sinais mistos; diversificacao e compras parceladas reduzem o risco de timing.",
-    "score": 0
+    "score": -1
   },
   "errors": []
 }
