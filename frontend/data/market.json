@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T20:39:22.344381+00:00",
+  "generated_at": "2026-07-19T09:41:16.505076+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -23,14 +23,14 @@
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 64.557",
-      "change": "+0,95%",
+      "value": "US$ 64.476",
+      "change": "+0,87%",
       "direction": "up"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 1.857",
-      "change": "+0,96%",
+      "value": "US$ 1.866",
+      "change": "+1,22%",
       "direction": "up"
     },
     {
@@ -90,8 +90,8 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 64.557",
-      "change": "+0,95%",
+      "quote": "US$ 64.476",
+      "change": "+0,87%",
       "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -101,8 +101,8 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 1.857",
-      "change": "+0,96%",
+      "quote": "US$ 1.866",
+      "change": "+1,22%",
       "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -172,8 +172,8 @@
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTDBXazV1ZVVBdkkwX0NEWXNReEwzaldCNWI3MXhrOXVrVzhiWU5jV3lVVGc3ZEt6X01McnFwMWh4YlRZbVgwamgwb3QwQW8teE1vajI2UEc2MU5za0hTMjJSeDFHMG9ZNGNYbDMwSG1YYXhndjhfU09WWDNaM1h3d0loSVFIckZ1V1Vnbk5wSlBtTXJBODg1ZUdnd0swZw?oc=5"
     },
     {
-      "title": "Bolsa, dólar e juros: o que esperar após EUA classificarem PCC e CV como terroristas",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZER3WDlEYkpJQVZrZWFiSGFrb1NYRzdSTkM0Rzkwc2pmTURnUUUzLWRBTTZjRW1vV3hTZW5CS2ctcnYxWEQwMDd6VXVid0syNWtEeTNLRC1jVDhSdTZTVTBxSlh0dnB3a0NuV3lVc3d3Q2M4cV9XOUdGQmx2RHVtbm9qb0xJTzUxd21lako1OGtXMFpDU1h3U0FyZFBGMXJIOWREMFR3OEpick01aVZkTUFGU2lObW80NnhFRmM1empfZ0hsb1dsbkJHc19KT3VOSDBCcDhKaElzMVZpeGd1UklzYVlaXzQ0VXFMbDJMNUFJcl95ZkpOeU5FWUVNRGRqMVU4WFpNS1FHSlXSAZoCQVVfeXFMUHVtMFU3QXFIZ25Hc2t4VTgwakJVLVU2XzE4U3E3LWcwZ3hqOGFMaUxzOV9MdWxUQTQ5RWZ6bkhtYUZsai1hNms5MHU5amFfSWRubHIxREZjaDdWOF9iVjNtNHpGQnVDemJ0Y2xFTlB1OXJVWnpCV2NlWWJBS3pyQk9ZV2lPaElRaGZ1VEgxN2JfUXhNVUxvekVpeGZ6Z1A5SEttdHhrWjJwdGtaMnpKa1o1MXBBM3ZIaTJ6QUEwQkM2OWdJSkZRMUZHdlVVVy1vY09ncWdiazA4VVRGVmRRNVN4d3FWd0xUV0hRX3ptN3pOeHJNUDRIZURPcU5xRmRJejdsb09hVTh0N21PMzY0NnkxY0dheUkybHF3?oc=5"
+      "title": "Ibovespa tem terceira alta seguida, com bancos e Petrobras, na contramão do exterior",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZGNHdEFQUUp5cTBBYTF1dmF0SUhIa1U3S1dKOThCVXZaQWw0bjU3VDRBRW5yQjBqclB3TUh3Y2M5a3l6YW1ROHQyUS1jdVVIaU5rUzFJUDVhaDV3OFB6ZHdmb2lJcm1xZHJsbVRkTVBFTVhoNzBqVlJuejk4dlZUanBkY2pOYTBkTEZ6ZXF2WQ?oc=5"
     }
   ],
   "market_mood": {

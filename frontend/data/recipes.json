@@ -1,19 +1,6 @@
 {
-  "generated_at": "2026-07-18T20:39:22.408207+00:00",
+  "generated_at": "2026-07-19T09:41:16.561557+00:00",
   "items": [
-    {
-      "emoji": "🥘",
-      "title": "Arroz, feijao e ovo cremoso",
-      "body": "Prato completo, proteico e barato. Funciona bem para marmitas e reduz pedidos de delivery durante a semana.",
-      "meta": [
-        "25min",
-        "3 porcoes",
-        "Facil"
-      ],
-      "url": "https://www.google.com/search?q=receita+arroz+feijao+ovo+cremoso",
-      "link_label": "Ver receita",
-      "gradient": "linear-gradient(135deg,#1f1a10,#0d1219)"
-    },
     {
       "emoji": "🥗",
       "title": "Salada reforcada com frango desfiado",
@@ -52,6 +39,19 @@
       "url": "https://www.google.com/search?q=receita+sopa+de+legumes+com+lentilha",
       "link_label": "Ver receita",
       "gradient": "linear-gradient(135deg,#162015,#0d1219)"
+    },
+    {
+      "emoji": "🌮",
+      "title": "Panqueca de frango com sobras",
+      "body": "Transforma pequenas sobras em refeicao nova. A massa leva poucos ingredientes e rende varias unidades.",
+      "meta": [
+        "40min",
+        "6 unidades",
+        "Medio"
+      ],
+      "url": "https://www.google.com/search?q=receita+panqueca+de+frango+com+sobras",
+      "link_label": "Ver receita",
+      "gradient": "linear-gradient(135deg,#201610,#0d1219)"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T20:39:23.544995+00:00",
+  "generated_at": "2026-07-19T09:41:17.778198+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -22,24 +22,6 @@
       "signal": "flat"
     },
     {
-      "title": "Uso de Inteligência Artificial nas empresas acende alerta para riscos de plágio e vazamento de dados",
-      "summary": "Uso de Inteligência Artificial nas empresas acende alerta para riscos de plágio e vazamento de dados",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOOFpvRVZ1UzNCNURYM1JLMnFPQVVQXzRPZWZKeWxZN25sYzFhdVVOQkEyb2M3bWJIa0w4dklUUFNydUxYcC1QZDRvMGYyMjFuNkNhVFJRWkRuN002Qk1EUGJKZ3p3ZU9UM1UxUWhSMEVobmNwSlJNd1prM2g3cTlkRnhKbFF3M3NFQWtJc19DUW1wWnVMMmJwZW9IRkpzU1BOS0dPcHJUSnowLUtMb3lXdWhJUmx2OFA5cy03YUdjUFV6d1Vub0ZwWFFINlV2YmVsYWE5SHpqbkNHZVYtVlY5SWF3LWZhYWtRcl840gHwAUFVX3lxTE9ldVh6NTVUWGczSmhLQ2NWOXJ6eUF3bTEyUUV1cGNXdjFvaEhZa2xWTERRMVVCQjZqR2dHMlptdndEMmxqT1lURndrTjliQUNxLVZFQ2ZxWWUzQzNWeG9UTG03YlhYck55N0VHbXMzZ1liLWZNRWhJY3llSkJpa0VnS2NHTVhKeFBkalpmcEN1Zm5RU3c0TTBYSi1XTk82VUVWNjJFVVRHTEx1Y09vTE9LSEtJV2FnLWtfQUk2VGlUU2xVODk3QlhtRTZxcndEckNBb2J1UThFNHk3UTRXOF80TlBMYjQ3bU5tOWpXUmZJSg?oc=5",
-      "source": "O TEMPO",
-      "published_at": "Thu, 16 Jul 2026 22:46:43 GMT",
-      "category": "IA",
-      "signal": "down"
-    },
-    {
-      "title": "Manaus abre inscrições para minicurso gratuito de Inteligência Artificial voltado a empresas e negócios",
-      "summary": "Manaus abre inscrições para minicurso gratuito de Inteligência Artificial voltado a empresas e negócios",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWnB3WlBIQ0dySi1oaFlyLXFFYTBaRmp0NVAxMU5OMHJkRzBZa3RQNENoRjZWXzRTVmNYdnZneV9GMDJUcFd4M0l5aEVwQklKWEJYQWJjUkZKc0U0QVlmcFJGUWVOOVRybTBnR3pCTEljZlJiNl85UUhCazkydExDWWduMEVHeVVhc0dRV082bkhEZDE4aEhIVHNPbjkwNDVjekJ5VGJZWkpjeVZMbG9Mbm1GYW1LMVpXbXZ3TUtEaUxZbGpVZHFjaTZ2THhDNU9MTThITVE2ZTQ5b2owUkJmUA?oc=5",
-      "source": "Portal do Holanda",
-      "published_at": "Sat, 18 Jul 2026 10:24:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
       "title": "Treinamento de R$ 37 pode colocar você no radar das empresas que buscam profissionais com IA",
       "summary": "Treinamento de R$ 37 pode colocar você no radar das empresas que buscam profissionais com IA",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU1ZXLXA5eVJjVm9lWFdYc25hZ3JlSDIzSzJCN3BnUk1qV0NhY0ZRS2FYOElqOTV2TW1MVUdoa3hpQ0IxVUpiZjVMUXVZYnJHWnZzbUFNb0xVd1BuSG1EeENTOTc3UWNMMTRCMWlhQVM2QThKSTlGNlJqekdmMVdkbDRKVW84UGhfeFFaQkZhbmlzN0JjWUk1TE9jR0huWXFlbVV5N0VWWDc2THNWS281QVBHbnpLTTBSUFlpSXlOc3gyLXk4NndMSjVOVkFsTGM?oc=5",
@@ -49,11 +31,29 @@
       "signal": "flat"
     },
     {
+      "title": "Uso de Inteligência Artificial nas empresas acende alerta para riscos de plágio e vazamento de dados",
+      "summary": "Uso de Inteligência Artificial nas empresas acende alerta para riscos de plágio e vazamento de dados",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOOFpvRVZ1UzNCNURYM1JLMnFPQVVQXzRPZWZKeWxZN25sYzFhdVVOQkEyb2M3bWJIa0w4dklUUFNydUxYcC1QZDRvMGYyMjFuNkNhVFJRWkRuN002Qk1EUGJKZ3p3ZU9UM1UxUWhSMEVobmNwSlJNd1prM2g3cTlkRnhKbFF3M3NFQWtJc19DUW1wWnVMMmJwZW9IRkpzU1BOS0dPcHJUSnowLUtMb3lXdWhJUmx2OFA5cy03YUdjUFV6d1Vub0ZwWFFINlV2YmVsYWE5SHpqbkNHZVYtVlY5SWF3LWZhYWtRcl840gHwAUFVX3lxTE9ldVh6NTVUWGczSmhLQ2NWOXJ6eUF3bTEyUUV1cGNXdjFvaEhZa2xWTERRMVVCQjZqR2dHMlptdndEMmxqT1lURndrTjliQUNxLVZFQ2ZxWWUzQzNWeG9UTG03YlhYck55N0VHbXMzZ1liLWZNRWhJY3llSkJpa0VnS2NHTVhKeFBkalpmcEN1Zm5RU3c0TTBYSi1XTk82VUVWNjJFVVRHTEx1Y09vTE9LSEtJV2FnLWtfQUk2VGlUU2xVODk3QlhtRTZxcndEckNBb2J1UThFNHk3UTRXOF80TlBMYjQ3bU5tOWpXUmZJSg?oc=5",
+      "source": "O TEMPO",
+      "published_at": "Thu, 16 Jul 2026 22:46:43 GMT",
+      "category": "IA",
+      "signal": "down"
+    },
+    {
       "title": "A IA já faz mais do que sua empresa aproveita",
       "summary": "A IA já faz mais do que sua empresa aproveita",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNOS1rSTlyOHA3X2gyRUxuV1U0b19vZkhMa2JSeGZRV3RoVXRjTlJXNDVpZ2Y0ckRuX05nTVRCWTVVVkE0QUo4WHNUNm93YVk5SS1DVk42SElxT29sdkVZZ2drZWFyOVpzb1E?oc=5",
       "source": "fsa.br",
       "published_at": "Thu, 16 Jul 2026 13:36:40 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "IA Não Garante Vendas: Até 77% das Empresas dos Setores Líderes no Uso da Tecnologia Ficam Abaixo da Meta",
+      "summary": "IA Não Garante Vendas: Até 77% das Empresas dos Setores Líderes no Uso da Tecnologia Ficam Abaixo da Meta",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb18ycEowZHBTM2Vyell3eDZSc21GZDY3TjVRa25kZlJUVG1XZnk3OFJrWkdVcU5DM0d0WndLQlBwdWhpVE1vWVY2dl9kc3hwM1VVRzB1VklLYmVldm92TG9DYnZfS0xhWEhJYzJuQXI5b0RvV0NkYWkybS12QmRaQVotbmIzcjB6SG9yWVJWaUVsTUE3LU1iWTNUWWRIa0FGTW03dndPS09LZ1VfNWZ3Y1JBTGVEMjN2bk5EREJ1dEwxRElJN2hxY01tQkRHZF9jUDNzeFJlTExWNXM2RWJBYw?oc=5",
+      "source": "Forbes Brasil",
+      "published_at": "Fri, 17 Jul 2026 20:15:31 GMT",
       "category": "IA",
       "signal": "flat"
     }
