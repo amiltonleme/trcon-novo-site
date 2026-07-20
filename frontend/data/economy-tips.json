@@ -1,36 +1,6 @@
 {
-  "generated_at": "2026-07-19T20:39:35.586817+00:00",
+  "generated_at": "2026-07-20T10:37:19.731837+00:00",
   "items": [
-    {
-      "tag": "Estrategia Mensal",
-      "tag_class": "tag-green",
-      "title": "Use um teto semanal para gastos variaveis",
-      "body": "Separe mercado, transporte, delivery e lazer em um limite por semana. O controle fica mais facil porque voce corrige a rota antes do fim do mes.",
-      "meta": [
-        "5 min de leitura",
-        "Impacto alto"
-      ],
-      "url": "https://www.google.com/search?q=como+criar+orcamento+semanal+gastos+variaveis",
-      "link_label": "Ver guia",
-      "featured": true,
-      "chart": [
-        {
-          "label": "Contas fixas",
-          "value": 50,
-          "color": "var(--accent)"
-        },
-        {
-          "label": "Variaveis",
-          "value": 30,
-          "color": "var(--accent2)"
-        },
-        {
-          "label": "Reserva",
-          "value": 20,
-          "color": "var(--gold)"
-        }
-      ]
-    },
     {
       "tag": "Cotidiano",
       "tag_class": "tag-orange",
@@ -41,7 +11,8 @@
         "Impacto imediato"
       ],
       "url": "https://www.google.com/search?q=como+cancelar+assinaturas+e+economizar+dinheiro",
-      "link_label": "Ver checklist"
+      "link_label": "Ver checklist",
+      "featured": true
     },
     {
       "tag": "Mercado",
@@ -66,6 +37,18 @@
       ],
       "url": "https://www.google.com/search?q=como+comparar+preco+por+quilo+litro+unidade",
       "link_label": "Aprender a comparar"
+    },
+    {
+      "tag": "Cartao",
+      "tag_class": "tag-orange",
+      "title": "Transforme o cartao em meio de pagamento, nao credito",
+      "body": "Use o cartao com limite mensal definido e acompanhe a fatura toda semana. Parcelas pequenas somadas reduzem sua renda livre nos meses seguintes.",
+      "meta": [
+        "4 min",
+        "Controle alto"
+      ],
+      "url": "https://www.google.com/search?q=como+usar+cartao+de+credito+sem+se+endividar",
+      "link_label": "Ver cuidados"
     }
   ]
 }

@@ -1,7 +1,9 @@
 {
   "generated_at": "2026-07-19T20:39:36.729511+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
-  "errors": [],
+  "errors": [
+    "Sem itens novos nesta execucao; mantido o ultimo artefato valido."
+  ],
   "items": [
     {
       "title": "‘Boom’ de inteligência artificial alimenta IPO de empresas de energia",

@@ -1,7 +1,10 @@
 {
-  "generated_at": "2026-07-19T20:39:37.872039+00:00",
+  "generated_at": "2026-07-20T10:37:52.300552+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
-  "errors": [],
+  "errors": [
+    "Sem itens novos nesta execucao; mantido o ultimo artefato valido.",
+    "Sem itens novos nesta execucao; mantido o ultimo artefato valido."
+  ],
   "items": [
     {
       "source": "Valor Econômico",
