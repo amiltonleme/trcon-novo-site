@@ -1,61 +1,59 @@
 {
-  "generated_at": "2026-07-19T20:39:36.729511+00:00",
+  "generated_at": "2026-07-20T21:04:06.732168+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
-  "errors": [
-    "Sem itens novos nesta execucao; mantido o ultimo artefato valido."
-  ],
+  "errors": [],
   "items": [
     {
-      "title": "‘Boom’ de inteligência artificial alimenta IPO de empresas de energia",
-      "summary": "‘Boom’ de inteligência artificial alimenta IPO de empresas de energia",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ2JkXzBUUFY1RlRDU0NOSTA4RG5IX1pKMk9DYy1jM0hKZjl3M1RFLTNDTTVtck5PUl9RQk1OS2c4b21MbVc2cjhMZWQ1U3k3c1BuMndtR1EwUkZRdUtLUWI1WGFvZFBpeWNmc2RVdVVEVUNzQjR0MU1xUkRyck50eFg0WWpCQ3FJbVRzckRUQ3NZdVMzcjFYWGJlSnZGUE52M1FuQldlVVcwQjZERG53eEhVSVNxV2c2WFNEMnhqVGl3TXfSAdIBQVVfeXFMTWd5UEJYZXNELWh0TG9HdEVmbzJpTjQwX3BObnFVNlpXTTVQTHhpSnU2aThPQUZMRmJmNWwxWEl3alZIN2ZtV1dNN1ZYZmZfdUN4T28zWXcwdlRBSWpQcGNwVmd5MTdpQk5CMUN0MjlrLU9Kck5HNUdvYjdNU0U2LS1vZTFGaFJnY0pha2ZpMkdiRFZMS3lkSjhzT01HS19rSTJOTFoweGlLYTBkLWJaUmlTTjR2RmZWTHptdGpGNDkyemhteE9zUEZaT1BHSldfNjVB?oc=5",
-      "source": "Valor Econômico",
-      "published_at": "Fri, 17 Jul 2026 08:02:59 GMT",
+      "title": "Alibaba lança modelo de IA e desafia líderes globais do setor",
+      "summary": "Alibaba lança modelo de IA e desafia líderes globais do setor",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRVNLa0dCem1TalptOVhHR3VzaDdVcmd0Um53eU5jQ0tndVIxVHhHeC0tT3hSdk8xcjBMMGM0ekF1bmNXS0hYTlhjMFRIT25jNzRBbHg5RldWM0U2eks0NlRUelhMbUZNWnB5SldCOGRvVGJrbkgxRU9DcUI0eThjMm9TRktKcUZJOGNsSGVSd3RLdW9vTHdPMUt3?oc=5",
+      "source": "Brasil 247",
+      "published_at": "Sun, 19 Jul 2026 13:33:00 GMT",
       "category": "IA",
-      "signal": "flat"
+      "signal": "up"
     },
     {
-      "title": "Treinamento de R$ 37 pode colocar você no radar das empresas que buscam profissionais com IA",
-      "summary": "Treinamento de R$ 37 pode colocar você no radar das empresas que buscam profissionais com IA",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU1ZXLXA5eVJjVm9lWFdYc25hZ3JlSDIzSzJCN3BnUk1qV0NhY0ZRS2FYOElqOTV2TW1MVUdoa3hpQ0IxVUpiZjVMUXVZYnJHWnZzbUFNb0xVd1BuSG1EeENTOTc3UWNMMTRCMWlhQVM2QThKSTlGNlJqekdmMVdkbDRKVW84UGhfeFFaQkZhbmlzN0JjWUk1TE9jR0huWXFlbVV5N0VWWDc2THNWS281QVBHbnpLTTBSUFlpSXlOc3gyLXk4NndMSjVOVkFsTGM?oc=5",
+      "title": "O que a parceria entre HP e OpenAI revela sobre o futuro da inteligência artificial nas empresas",
+      "summary": "O que a parceria entre HP e OpenAI revela sobre o futuro da inteligência artificial nas empresas",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVzVpSExDSUhwWnJVQzk3WUJtZ3lzWXpFcmotRVBSc0RkUmlPSGR2aFh6dC0xNHJsOGZGQjRFazV6Vm1pWHZJYXphYTNhSEp2U29acW1TRC1aMjdnRy1iREZ5dVB0SmJOdjVTUEpTZFBGbjNCMF9Ucl9GNUpXeFkxdWJGWllKQzczNFpHV3FYZ0ZvOXBQZ3BDcTN1RUpRbUpQM2hxbVRmTC1ZTHpjNmFzdTN6bnFINmRxXzdZWUMwcDRHQ1VuVEQzMTE2ODd0aXVReGMyU1ln?oc=5",
       "source": "Exame",
-      "published_at": "Thu, 16 Jul 2026 19:18:14 GMT",
+      "published_at": "Mon, 20 Jul 2026 19:29:49 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Manaus abre inscrições para minicurso gratuito de Inteligência Artificial voltado a empresas e negócios",
-      "summary": "Manaus abre inscrições para minicurso gratuito de Inteligência Artificial voltado a empresas e negócios",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWnB3WlBIQ0dySi1oaFlyLXFFYTBaRmp0NVAxMU5OMHJkRzBZa3RQNENoRjZWXzRTVmNYdnZneV9GMDJUcFd4M0l5aEVwQklKWEJYQWJjUkZKc0U0QVlmcFJGUWVOOVRybTBnR3pCTEljZlJiNl85UUhCazkydExDWWduMEVHeVVhc0dRV082bkhEZDE4aEhIVHNPbjkwNDVjekJ5VGJZWkpjeVZMbG9Mbm1GYW1LMVpXbXZ3TUtEaUxZbGpVZHFjaTZ2THhDNU9MTThITVE2ZTQ5b2owUkJmUA?oc=5",
-      "source": "Portal do Holanda",
-      "published_at": "Sat, 18 Jul 2026 10:24:00 GMT",
+      "title": "Startups: Metade das empresas que demitiram por IA vai recontratar até 2027",
+      "summary": "Startups: Metade das empresas que demitiram por IA vai recontratar até 2027",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcGs4VklhYmJHNnNnN3RObUdLMFZpSHFwUEpTUHY3THlFZmZFVlIxQXYxQlpzLU50eHI1a1QtMXU0OVhRZEh1NHcxM1pleFAtMm1hdUJOU2YwQTYxWTFEOU5EX3ByUmd1OWlKa2tiQ1lkQkpXeHRoVmllN0piTk9fdFJuYUZ5Vnhmd0o3TFI4ejNWaEZuQ21rV0E0Y3JmdWlkMU14b1Rwc2ZMUVNDWlphRE1kSdIBuAFBVV95cUxQX0dxbU5UNmVnd21SMTZyT2RTNHJRRlFkSGI5akdDeVA4dUNhY0EwSTcyXzc1MkZOS25NZ1RTazhTUjlWcVRCMjBMWDh1RDVFdDVJTkhjQzBmaGZUaURLLVU2dVJYRE5rOWxqcTZtSURBeGR3ZWtid01uMmhneGhwQkFqdnhhbmtWTERTeUJLNUNybEMyeE1BVlc2aFRSNVEtOFZ6cGx1SF95Z01rZmNlZVZTRmRjR0hy?oc=5",
+      "source": "InfoMoney",
+      "published_at": "Fri, 17 Jul 2026 22:18:43 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "O que está por trás da revolta da geração Z contra a inteligência artificial no trabalho",
-      "summary": "O que está por trás da revolta da geração Z contra a inteligência artificial no trabalho",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85VEJtTzlvRnhkQmNZU2pEaXFreGlmVWx1XzdtMDJ4SmpFUDlRTFlqRV9PUGZuQ1pmTmlYUjhieFdWTXRmNzdza1F4Q2kybC02ekhscVhza00zN3BObnNQS1o2QTFfRExzbFhQa0NXemUwZ0R6QmMwQmYyOEtBd9IBgwFBVV95cUxQT1Z1dVl5S3YxR0tqTW1sSjBIbU41VVRRcmo1Zjc5RFZvMWJSdXNLdHhTSmw3c1pxYzI3MUlFRGZnTHlIdEZ4ekIybG5Ta0pOeGJkMWIxN2UwNm9qa25LdWtlSnZoSEJsNXphbnh6MFFCdzRHY2NSdkRfUng4Y25NS0JPTQ?oc=5",
-      "source": "Estadão",
-      "published_at": "Sat, 18 Jul 2026 16:18:31 GMT",
+      "title": "Governança de inteligência artificial: o fator estratégico para as empresas",
+      "summary": "Governança de inteligência artificial: o fator estratégico para as empresas",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdTBmV3hlaWFhcEc2V0xjbjZUZnU4S3hPX1lqOWdfUXdHcGhWQVdRcWM4UVkwT0hIVWtBckpzeHFSSm1OeFJMZjJqWFFqV0MwU3kyZnZyVHlQQ0VyMVNsZVZRVHVqYzgzeXJkVy0zYVk5SVRMc1JxZU9HY19kbFBTWnpIdE5ZR0w0ZGROd0J3OGFwRUk2ek02U2NCTVlJU194RGJCYW1KYWNNU19UcXlTbw?oc=5",
+      "source": "NSC Total",
+      "published_at": "Mon, 20 Jul 2026 16:53:52 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "ARTIGO: A parte mais difícil da IA não é a tecnologia",
-      "summary": "ARTIGO: A parte mais difícil da IA não é a tecnologia",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTTBrSWNaak1LSjg0MU1vVFBZTXZWMkRJNS01ZWtGcUZKMUdiOS1sTE05Mlhib29IZTlBUXNmNzBiQVpuWENJeWpMa2x5bkI4dWYtN3ZkdEdSOXNjRVB5cGllZmpOWlF1WGFSM3o2YWpOR3ZQWEtITUV5cWd3eHVJSFBETFExbHpIdUE?oc=5",
-      "source": "NeoFeed",
-      "published_at": "Sun, 19 Jul 2026 16:50:00 GMT",
+      "title": "Estágios, trainees e IA: por que empresas precisam repensar a formação de jovens profissionais",
+      "summary": "Estágios, trainees e IA: por que empresas precisam repensar a formação de jovens profissionais",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdWlldTNhZ3lxSUVxalVOWlpKY3g5a25IT3NMQnZVVUtDMUpubjZYVkZHQVRQeDgzNXBycXRiSkVGalJSVUNRNF9vWGpEWWVOdm9qUlRSQl82X0otcEY3SXJ4M0VTVkJpc3NhZGkxVkhJVXgtTUxDX1pWckN3SnZwMWRFWmV6NENMdFVZUTJxRkRzTUV4VUxrUGYyZlFoRmVuMzFqSm9aYWEycWdGcDVjcUlIdTEwb2xuQ05PcnFnVUdndTM3SDlVdllheEQ2cXI4?oc=5",
+      "source": "Exame",
+      "published_at": "Mon, 20 Jul 2026 20:12:05 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "A IA já faz mais do que sua empresa aproveita",
-      "summary": "A IA já faz mais do que sua empresa aproveita",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNOS1rSTlyOHA3X2gyRUxuV1U0b19vZkhMa2JSeGZRV3RoVXRjTlJXNDVpZ2Y0ckRuX05nTVRCWTVVVkE0QUo4WHNUNm93YVk5SS1DVk42SElxT29sdkVZZ2drZWFyOVpzb1E?oc=5",
-      "source": "fsa.br",
-      "published_at": "Thu, 16 Jul 2026 13:36:40 GMT",
+      "title": "Uso individual da inteligência artificial nas empresas exige atenção por novos motivos | SEGS Portal...",
+      "summary": "Uso individual da inteligência artificial nas empresas exige atenção por novos motivos | SEGS Portal...",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdlZLQTNGc3VQM2lwbWU2YXhkcVZPLVhoM3FNY3FHZERDY0h5Y2pTdlEwd29qWVc1WjVYdDVkY203cGdlUDNWMU9TTjlHX21PUXA2VnZod05SeVpLemVzM0Ytc1h3R1A5NmJ4ZFpRVmk2NHAwaTVET0MwSkh1b0s5M1BBazVvZ0JmNUo5V05HMEZna1NoaHZPT2wweGo4WmJqblIwWjIwOW9qTzBOeEh2QUZUa2x0aW0wMGZtS0NpUHozdWZKTElVYtIByAFBVV95cUxNdlZLQTNGc3VQM2lwbWU2YXhkcVZPLVhoM3FNY3FHZERDY0h5Y2pTdlEwd29qWVc1WjVYdDVkY203cGdlUDNWMU9TTjlHX21PUXA2VnZod05SeVpLemVzM0Ytc1h3R1A5NmJ4ZFpRVmk2NHAwaTVET0MwSkh1b0s5M1BBazVvZ0JmNUo5V05HMEZna1NoaHZPT2wweGo4WmJqblIwWjIwOW9qTzBOeEh2QUZUa2x0aW0wMGZtS0NpUHozdWZKTElVYg?oc=5",
+      "source": "SEGS Portal Nacional",
+      "published_at": "Mon, 20 Jul 2026 17:13:17 GMT",
       "category": "IA",
       "signal": "flat"
     }
