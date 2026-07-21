@@ -1,7 +1,9 @@
 {
   "generated_at": "2026-07-20T21:04:06.732168+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
-  "errors": [],
+  "errors": [
+    "Sem itens novos nesta execucao; mantido o ultimo artefato valido."
+  ],
   "items": [
     {
       "title": "Alibaba lança modelo de IA e desafia líderes globais do setor",
