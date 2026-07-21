@@ -1,19 +1,8 @@
 {
-  "generated_at": "2026-07-20T21:04:07.877442+00:00",
+  "generated_at": "2026-07-21T20:59:37.972899+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de tecnologia.",
-  "errors": [
-    "Sem itens novos nesta execucao; mantido o ultimo artefato valido."
-  ],
+  "errors": [],
   "items": [
-    {
-      "title": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
-      "summary": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSVJHd1ZRSXIyZllmWmJjWE9URWFfYzB4bWU0UUNxd3ZJdlBvMkhza0dOSHJDYmZoZjRkTmJUT2dKTjhVMkhmU1JVd2hsbnZINEFORFNIM2dmNjYxR3h3dUw3ZkNXTERDN0hCMjBmUGtFMV9weXc1R2tjOTlwdnNzVVpheFQxSDdPYkJpQy11d1k2ZnZHeGhyLTZwWllsR0d5dnZsSlpENTByVzNQSmlrdFZYdVpmOUo0c25fUUtHd0hBcWQwdnlTOUtqY0NPbW5ycmJzcXdQVXRwdFFPMFVjcThCbmZMR1dHSDVXb0k3S21vT0tCTmhJcg?oc=5",
-      "source": "noticenter.com.br",
-      "published_at": "Sat, 27 Jun 2026 00:06:00 GMT",
-      "category": "Tecnologia",
-      "signal": "up"
-    },
     {
       "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
       "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
@@ -31,6 +20,15 @@
       "published_at": "Wed, 03 Jun 2026 07:00:00 GMT",
       "category": "Tecnologia",
       "signal": "flat"
+    },
+    {
+      "title": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
+      "summary": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSVJHd1ZRSXIyZllmWmJjWE9URWFfYzB4bWU0UUNxd3ZJdlBvMkhza0dOSHJDYmZoZjRkTmJUT2dKTjhVMkhmU1JVd2hsbnZINEFORFNIM2dmNjYxR3h3dUw3ZkNXTERDN0hCMjBmUGtFMV9weXc1R2tjOTlwdnNzVVpheFQxSDdPYkJpQy11d1k2ZnZHeGhyLTZwWllsR0d5dnZsSlpENTByVzNQSmlrdFZYdVpmOUo0c25fUUtHd0hBcWQwdnlTOUtqY0NPbW5ycmJzcXdQVXRwdFFPMFVjcThCbmZMR1dHSDVXb0k3S21vT0tCTmhJcg?oc=5",
+      "source": "noticenter.com.br",
+      "published_at": "Sat, 27 Jun 2026 00:06:00 GMT",
+      "category": "Tecnologia",
+      "signal": "up"
     },
     {
       "title": "Análise e Desenvolvimento de Software na Saúde: por que a Faculdade Santa Casa é o futuro",

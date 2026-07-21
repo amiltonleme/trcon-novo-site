@@ -1,25 +1,32 @@
 {
-  "generated_at": "2026-07-20T21:04:06.732168+00:00",
+  "generated_at": "2026-07-21T20:59:36.917486+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
-  "errors": [
-    "Sem itens novos nesta execucao; mantido o ultimo artefato valido."
-  ],
+  "errors": [],
   "items": [
     {
-      "title": "Alibaba lança modelo de IA e desafia líderes globais do setor",
-      "summary": "Alibaba lança modelo de IA e desafia líderes globais do setor",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRVNLa0dCem1TalptOVhHR3VzaDdVcmd0Um53eU5jQ0tndVIxVHhHeC0tT3hSdk8xcjBMMGM0ekF1bmNXS0hYTlhjMFRIT25jNzRBbHg5RldWM0U2eks0NlRUelhMbUZNWnB5SldCOGRvVGJrbkgxRU9DcUI0eThjMm9TRktKcUZJOGNsSGVSd3RLdW9vTHdPMUt3?oc=5",
-      "source": "Brasil 247",
-      "published_at": "Sun, 19 Jul 2026 13:33:00 GMT",
+      "title": "Moonshot AI e inteligência artificial",
+      "summary": "Moonshot AI e inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQndFYTlUc1gwQ2NOTTB6bTJyV0lKUktnUkZ2eGFxd3pBeUhnamRYaFVqcHRxZThpVUtuSlByYVg4dEpsSm1rcjdRMHR2MUMzeGhuaWxqc0o3dmhpRFJkb25BcUdLbUhIUVgycXdRR1Q1cXRRTnRGdE5fQ0FGRms0OUFDbTl0cGhhSjFnVTVHZDVyRzluR0xnLUstYmJBSHc?oc=5",
+      "source": "Startupi",
+      "published_at": "Tue, 21 Jul 2026 08:00:00 GMT",
       "category": "IA",
-      "signal": "up"
+      "signal": "flat"
     },
     {
-      "title": "O que a parceria entre HP e OpenAI revela sobre o futuro da inteligência artificial nas empresas",
-      "summary": "O que a parceria entre HP e OpenAI revela sobre o futuro da inteligência artificial nas empresas",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVzVpSExDSUhwWnJVQzk3WUJtZ3lzWXpFcmotRVBSc0RkUmlPSGR2aFh6dC0xNHJsOGZGQjRFazV6Vm1pWHZJYXphYTNhSEp2U29acW1TRC1aMjdnRy1iREZ5dVB0SmJOdjVTUEpTZFBGbjNCMF9Ucl9GNUpXeFkxdWJGWllKQzczNFpHV3FYZ0ZvOXBQZ3BDcTN1RUpRbUpQM2hxbVRmTC1ZTHpjNmFzdTN6bnFINmRxXzdZWUMwcDRHQ1VuVEQzMTE2ODd0aXVReGMyU1ln?oc=5",
-      "source": "Exame",
-      "published_at": "Mon, 20 Jul 2026 19:29:49 GMT",
+      "title": "Por que a inteligência artificial ainda não entregou o ganho de produtividade esperado?",
+      "summary": "Por que a inteligência artificial ainda não entregou o ganho de produtividade esperado?",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOM1ZJQ0JHNi1kVGpfcmNfeWR6ZEJIbTNoNkFnRkVIS1lRaWJjY3R0LUczdzJjc19EZzlDMGVob28xekRoNUpIdVRLUDhIU1RDM0lFM2VZdDU1UEY0a0lqUGtpTlAxckVuZk9kQVF1OXdMbkxwVDBDUHoycGpYa2tnVURsNHo1cC1rakdXN3VQcGJjLXQ1MVo4amwxQXVfZG1icTNOdVRORDRtaEE?oc=5",
+      "source": "Diário do Comércio",
+      "published_at": "Tue, 21 Jul 2026 08:35:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Profissionais de IA: por que o mercado disputa esses especialistas?",
+      "summary": "Profissionais de IA: por que o mercado disputa esses especialistas?",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdVEzQnM5OXMyckJOaWR4elBfS2JGaldVTDYtNW5fME9CUTQ0VGk0ZS0zemFFOS1iVjR1RHlzb3ZJLWpHb09GeHhCX0swd09nSFpjNnhKQTkwamJJRHJkR3E5dE5KeGJVblpMUXJZODQzYTV6UmxrNjAzYXU3ZzNtbm1YT3ZMSTdfd3VhT2FDdUZwUFNoQXhhQktoU3lmU2k5YWV1LWdVY2RjTzVuRXhTWE9JUWpGWElGTHBhWF9uWFhMeVRmV0lGbnYxVGJvQdIB0wFBVV95cUxOQi1KZ25UQ0UzTjZuVzZPblhmN0FrS0RFSGROLXM0WUpESFhSVUFSWHR0NTJFN3JuRTNvT0tHN25kc1JXYnVjV3FjbWd2cHZjVmp4VC1nZTMwSVl3QVRBQ28yU2lNc1lJQkNKS3NtNm5XQXJ2UkFTazJ6Q2JzWkVGSmFDaGRORElMdWRqVjlDb3RIQmt1eXY2U2VodHlZb0l5TlJzTWFBUVpRNXVyTlRhZTZwcXE3VndEMTVZNGZfdkhHcDdPUEJ6VnI1Szd1cTlsS2dv?oc=5",
+      "source": "Correio Braziliense",
+      "published_at": "Mon, 20 Jul 2026 23:31:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -33,29 +40,20 @@
       "signal": "flat"
     },
     {
-      "title": "Governança de inteligência artificial: o fator estratégico para as empresas",
-      "summary": "Governança de inteligência artificial: o fator estratégico para as empresas",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdTBmV3hlaWFhcEc2V0xjbjZUZnU4S3hPX1lqOWdfUXdHcGhWQVdRcWM4UVkwT0hIVWtBckpzeHFSSm1OeFJMZjJqWFFqV0MwU3kyZnZyVHlQQ0VyMVNsZVZRVHVqYzgzeXJkVy0zYVk5SVRMc1JxZU9HY19kbFBTWnpIdE5ZR0w0ZGROd0J3OGFwRUk2ek02U2NCTVlJU194RGJCYW1KYWNNU19UcXlTbw?oc=5",
-      "source": "NSC Total",
-      "published_at": "Mon, 20 Jul 2026 16:53:52 GMT",
+      "title": "IA sem governança vai gerar o maior passivo corporativo da década",
+      "summary": "IA sem governança vai gerar o maior passivo corporativo da década",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOd1VxQThtYk1HMDUwaE9RdVNLQ1BHREJLY3RsTlItQ2lVMVJVY3kxbThSaDVvakRvRHBnV0UwT2hfT25YOEpNR0s4V0NlcldiaEpzQnVVd0VxaHp3eXdwUF9aYURPWDJNb0NzRUFubjBpUmZtVFNtcVBhQ3pDelZqUVB6ams5cHpnLXY0MU5IVnhyR291YnVpUFdRTFZRQWN2bEVlV01Xbnp4VGQ5SUowWnl2aHVrZVdBc3R6ekREUHlJV19SZkdIc3p2T0lMeGE3TVlMczRhMm_SAecBQVVfeXFMTW9TOTNsbF9aRGl0dEY5QzVwLWVBd1FJUWlBZzJfeVlNNkJISWY5MEhuM2FOVE1ldHFFclpoME9TWnFCVVY1WTVrcXFrZjMwQUNKbU1EMk0tZm5ROUw1ejl5bW5FTW8yVGI5aC15emp6RTNzRTFQQkJNUGRadFgwamM2VWlDQi1tYlJtMGRtS1U2UmdWUmFTWG93Nm9qMDU2NTVhZmFlZHBZWldTQ0Y2MzgwSVoxczd5RTVJZkxSSnRMVEFjMmhoNEoyOGdlcnlUVHI0SEc3Q3hGNmZJLU5wWUU1M1cxZlZJ?oc=5",
+      "source": "O GLOBO",
+      "published_at": "Tue, 21 Jul 2026 19:11:57 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Estágios, trainees e IA: por que empresas precisam repensar a formação de jovens profissionais",
-      "summary": "Estágios, trainees e IA: por que empresas precisam repensar a formação de jovens profissionais",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdWlldTNhZ3lxSUVxalVOWlpKY3g5a25IT3NMQnZVVUtDMUpubjZYVkZHQVRQeDgzNXBycXRiSkVGalJSVUNRNF9vWGpEWWVOdm9qUlRSQl82X0otcEY3SXJ4M0VTVkJpc3NhZGkxVkhJVXgtTUxDX1pWckN3SnZwMWRFWmV6NENMdFVZUTJxRkRzTUV4VUxrUGYyZlFoRmVuMzFqSm9aYWEycWdGcDVjcUlIdTEwb2xuQ05PcnFnVUdndTM3SDlVdllheEQ2cXI4?oc=5",
-      "source": "Exame",
-      "published_at": "Mon, 20 Jul 2026 20:12:05 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Uso individual da inteligência artificial nas empresas exige atenção por novos motivos | SEGS Portal...",
-      "summary": "Uso individual da inteligência artificial nas empresas exige atenção por novos motivos | SEGS Portal...",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdlZLQTNGc3VQM2lwbWU2YXhkcVZPLVhoM3FNY3FHZERDY0h5Y2pTdlEwd29qWVc1WjVYdDVkY203cGdlUDNWMU9TTjlHX21PUXA2VnZod05SeVpLemVzM0Ytc1h3R1A5NmJ4ZFpRVmk2NHAwaTVET0MwSkh1b0s5M1BBazVvZ0JmNUo5V05HMEZna1NoaHZPT2wweGo4WmJqblIwWjIwOW9qTzBOeEh2QUZUa2x0aW0wMGZtS0NpUHozdWZKTElVYtIByAFBVV95cUxNdlZLQTNGc3VQM2lwbWU2YXhkcVZPLVhoM3FNY3FHZERDY0h5Y2pTdlEwd29qWVc1WjVYdDVkY203cGdlUDNWMU9TTjlHX21PUXA2VnZod05SeVpLemVzM0Ytc1h3R1A5NmJ4ZFpRVmk2NHAwaTVET0MwSkh1b0s5M1BBazVvZ0JmNUo5V05HMEZna1NoaHZPT2wweGo4WmJqblIwWjIwOW9qTzBOeEh2QUZUa2x0aW0wMGZtS0NpUHozdWZKTElVYg?oc=5",
-      "source": "SEGS Portal Nacional",
-      "published_at": "Mon, 20 Jul 2026 17:13:17 GMT",
+      "title": "IA já faz parte da rotina dos brasileiros, mas ainda não se traduz em transformação nas empresas",
+      "summary": "IA já faz parte da rotina dos brasileiros, mas ainda não se traduz em transformação nas empresas",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSmFrYnRqVEd5Y1pRQUFmX0w1WGZyX2xrUk5wRU5ycWtNdWNMWFN4MmNoUmJDb1lKV0tTNXdaVEV3TnZsb0tGOG16QVZickFwenR3ODE4dDRtX2FYeTh1ZHVodzR4ZU5aVnQxb2JJT3Q4Q3NYbzdWZkJ4OEhtMG5kdmlwX1BxNlRkaVI0YlBLdnM1UnRaZ0ViN2tmY3Z6akxyeXdRTUxGQzJrRU1fWGI4ZjYtcWQ1NG1TZExVYmZHOA?oc=5",
+      "source": "Experience Club",
+      "published_at": "Tue, 21 Jul 2026 19:12:30 GMT",
       "category": "IA",
       "signal": "flat"
     }
