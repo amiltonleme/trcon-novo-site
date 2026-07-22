@@ -1,23 +1,15 @@
 {
-  "generated_at": "2026-07-21T20:59:38.029564+00:00",
+  "generated_at": "2026-07-22T10:10:36.061796+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
     {
-      "source": "Startupi",
+      "source": "NSC Total",
       "category": "IA",
-      "title": "Moonshot AI e inteligência artificial",
-      "summary": "Moonshot AI e inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQndFYTlUc1gwQ2NOTTB6bTJyV0lKUktnUkZ2eGFxd3pBeUhnamRYaFVqcHRxZThpVUtuSlByYVg4dEpsSm1rcjdRMHR2MUMzeGhuaWxqc0o3dmhpRFJkb25BcUdLbUhIUVgycXdRR1Q1cXRRTnRGdE5fQ0FGRms0OUFDbTl0cGhhSjFnVTVHZDVyRzluR0xnLUstYmJBSHc?oc=5",
-      "publishedAt": "Tue, 21 Jul 2026 08:00:00 GMT"
-    },
-    {
-      "source": "Diário do Comércio",
-      "category": "IA",
-      "title": "Por que a inteligência artificial ainda não entregou o ganho de produtividade esperado?",
-      "summary": "Por que a inteligência artificial ainda não entregou o ganho de produtividade esperado?",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOM1ZJQ0JHNi1kVGpfcmNfeWR6ZEJIbTNoNkFnRkVIS1lRaWJjY3R0LUczdzJjc19EZzlDMGVob28xekRoNUpIdVRLUDhIU1RDM0lFM2VZdDU1UEY0a0lqUGtpTlAxckVuZk9kQVF1OXdMbkxwVDBDUHoycGpYa2tnVURsNHo1cC1rakdXN3VQcGJjLXQ1MVo4amwxQXVfZG1icTNOdVRORDRtaEE?oc=5",
-      "publishedAt": "Tue, 21 Jul 2026 08:35:00 GMT"
+      "title": "Governança de inteligência artificial: o fator estratégico para as empresas",
+      "summary": "Governança de inteligência artificial: o fator estratégico para as empresas",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVUx3cFBIOUJycEtmcFhQSmE5MVk0UXZLVTBNTkZkTy1nX3hHWlVDNkw5UF9xTEc5RmM1aTVjbHJOY01fZldSUTBzNzdJd1lkTS1Ia3JpT041SjUxZHp2VVBYbzhCT1FMdlAtdFplYnVvb2pJNTBFNWlDLVFjemdhTko0WUZRNFhLYWphM3N0WjdzQ1RBWDlQckdDRmFZVGlFOUhVNmdKZkVDZVVJN0VvT2FBSkVPbTZLaTJlcWg3Q1RtMTQx?oc=5",
+      "publishedAt": "Mon, 20 Jul 2026 16:50:00 GMT"
     },
     {
       "source": "Correio Braziliense",
@@ -36,14 +28,6 @@
       "publishedAt": "Fri, 17 Jul 2026 22:18:43 GMT"
     },
     {
-      "source": "O GLOBO",
-      "category": "IA",
-      "title": "IA sem governança vai gerar o maior passivo corporativo da década",
-      "summary": "IA sem governança vai gerar o maior passivo corporativo da década",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOd1VxQThtYk1HMDUwaE9RdVNLQ1BHREJLY3RsTlItQ2lVMVJVY3kxbThSaDVvakRvRHBnV0UwT2hfT25YOEpNR0s4V0NlcldiaEpzQnVVd0VxaHp3eXdwUF9aYURPWDJNb0NzRUFubjBpUmZtVFNtcVBhQ3pDelZqUVB6ams5cHpnLXY0MU5IVnhyR291YnVpUFdRTFZRQWN2bEVlV01Xbnp4VGQ5SUowWnl2aHVrZVdBc3R6ekREUHlJV19SZkdIc3p2T0lMeGE3TVlMczRhMm_SAecBQVVfeXFMTW9TOTNsbF9aRGl0dEY5QzVwLWVBd1FJUWlBZzJfeVlNNkJISWY5MEhuM2FOVE1ldHFFclpoME9TWnFCVVY1WTVrcXFrZjMwQUNKbU1EMk0tZm5ROUw1ejl5bW5FTW8yVGI5aC15emp6RTNzRTFQQkJNUGRadFgwamM2VWlDQi1tYlJtMGRtS1U2UmdWUmFTWG93Nm9qMDU2NTVhZmFlZHBZWldTQ0Y2MzgwSVoxczd5RTVJZkxSSnRMVEFjMmhoNEoyOGdlcnlUVHI0SEc3Q3hGNmZJLU5wWUU1M1cxZlZJ?oc=5",
-      "publishedAt": "Tue, 21 Jul 2026 19:11:57 GMT"
-    },
-    {
       "source": "Experience Club",
       "category": "IA",
       "title": "IA já faz parte da rotina dos brasileiros, mas ainda não se traduz em transformação nas empresas",
@@ -52,12 +36,20 @@
       "publishedAt": "Tue, 21 Jul 2026 19:12:30 GMT"
     },
     {
-      "source": "jornaltribuna.com.br",
-      "category": "Tecnologia",
-      "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
-      "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
-      "publishedAt": "Wed, 01 Jul 2026 18:54:07 GMT"
+      "source": "SEGS Portal Nacional",
+      "category": "IA",
+      "title": "Inteligência artificial nas empresas: entenda o que os agentes de IA realmente fazem | SEGS Portal...",
+      "summary": "Inteligência artificial nas empresas: entenda o que os agentes de IA realmente fazem | SEGS Portal...",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNDM0Q1dpdHVsZnJIR3NtbmFSRGtIajlOX3pYRE82TEUxQlNpU2Ixc2JXdzUyUWFrVUxLNVlFMnNrdUZ5dnVoR0lvNEwtclV4S0JsT19mYUVVMHBkTVE2bEZ2N0RQMG51Q3ZyZXZqelRFbkhVVklzS0FoODNfaHVFLWRraFFya1pueVI4RDB3VlJuU3A5aXViemRLTnczWHlQY215d2JKNWdyaDFidndTYmQwUUN0ZXRUcGs2dFRqTGFGWDhj0gHEAUFVX3lxTE80MzRDV2l0dWxmckhHc21uYVJEa0hqOU5felhETzZMRTFCU2lTYjFzYld3NTJRYWtVTEs1WUUyc2t1Rnl2dWhHSW80TC1yVXhLQmxPX2ZhRVUwcGRNUTZsRnY3RFAwbnVDdnJldmp6VEVuSFVWSXNLQWg4M19odUUtZGtoUXJrWm55UjhEMHdWUm5TcDlpdWJ6ZEtOdzNYeVBjbXl3Yko1Z3JoMWJ2d1NiZDBRQ3RldFRwazZ0VGpMYUZYOGM?oc=5",
+      "publishedAt": "Mon, 20 Jul 2026 17:40:58 GMT"
+    },
+    {
+      "source": "O GLOBO",
+      "category": "IA",
+      "title": "IA sem governança vai gerar o maior passivo corporativo da década",
+      "summary": "IA sem governança vai gerar o maior passivo corporativo da década",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOd1VxQThtYk1HMDUwaE9RdVNLQ1BHREJLY3RsTlItQ2lVMVJVY3kxbThSaDVvakRvRHBnV0UwT2hfT25YOEpNR0s4V0NlcldiaEpzQnVVd0VxaHp3eXdwUF9aYURPWDJNb0NzRUFubjBpUmZtVFNtcVBhQ3pDelZqUVB6ams5cHpnLXY0MU5IVnhyR291YnVpUFdRTFZRQWN2bEVlV01Xbnp4VGQ5SUowWnl2aHVrZVdBc3R6ekREUHlJV19SZkdIc3p2T0lMeGE3TVlMczRhMm_SAecBQVVfeXFMTW9TOTNsbF9aRGl0dEY5QzVwLWVBd1FJUWlBZzJfeVlNNkJISWY5MEhuM2FOVE1ldHFFclpoME9TWnFCVVY1WTVrcXFrZjMwQUNKbU1EMk0tZm5ROUw1ejl5bW5FTW8yVGI5aC15emp6RTNzRTFQQkJNUGRadFgwamM2VWlDQi1tYlJtMGRtS1U2UmdWUmFTWG93Nm9qMDU2NTVhZmFlZHBZWldTQ0Y2MzgwSVoxczd5RTVJZkxSSnRMVEFjMmhoNEoyOGdlcnlUVHI0SEc3Q3hGNmZJLU5wWUU1M1cxZlZJ?oc=5",
+      "publishedAt": "Tue, 21 Jul 2026 19:11:57 GMT"
     },
     {
       "source": "TI INSIDE Online",
@@ -66,6 +58,14 @@
       "summary": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUVRkY3hvRDJhQ3B1Y0R6MndjNXBQNHFGVVBLb2IzS0hkV3FsS3FkbkNkZzhXaTB2Tzl2QWZZUjZ1dmxFZUdRVEFIQUFCemFzMmlDQmpZTnJYTXdPXzBKSUdXYmZrTlNOWGVNNlZ0YlQ1eGwzT3NHV2pkTXpCck93M21SV2hYVkVHbGhfY01oVXI3ZFh5Uzd3VURZeDlCUXl3X3J3SWx4QzFIQ253c1B6aktSMUZVcE4temUzaGxR?oc=5",
       "publishedAt": "Wed, 03 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "source": "jornaltribuna.com.br",
+      "category": "Tecnologia",
+      "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
+      "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
+      "publishedAt": "Wed, 01 Jul 2026 18:54:07 GMT"
     },
     {
       "source": "noticenter.com.br",

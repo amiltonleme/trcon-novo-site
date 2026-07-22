@@ -1,23 +1,14 @@
 {
-  "generated_at": "2026-07-21T20:59:36.917486+00:00",
+  "generated_at": "2026-07-22T10:10:35.025739+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
     {
-      "title": "Moonshot AI e inteligência artificial",
-      "summary": "Moonshot AI e inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQndFYTlUc1gwQ2NOTTB6bTJyV0lKUktnUkZ2eGFxd3pBeUhnamRYaFVqcHRxZThpVUtuSlByYVg4dEpsSm1rcjdRMHR2MUMzeGhuaWxqc0o3dmhpRFJkb25BcUdLbUhIUVgycXdRR1Q1cXRRTnRGdE5fQ0FGRms0OUFDbTl0cGhhSjFnVTVHZDVyRzluR0xnLUstYmJBSHc?oc=5",
-      "source": "Startupi",
-      "published_at": "Tue, 21 Jul 2026 08:00:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Por que a inteligência artificial ainda não entregou o ganho de produtividade esperado?",
-      "summary": "Por que a inteligência artificial ainda não entregou o ganho de produtividade esperado?",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOM1ZJQ0JHNi1kVGpfcmNfeWR6ZEJIbTNoNkFnRkVIS1lRaWJjY3R0LUczdzJjc19EZzlDMGVob28xekRoNUpIdVRLUDhIU1RDM0lFM2VZdDU1UEY0a0lqUGtpTlAxckVuZk9kQVF1OXdMbkxwVDBDUHoycGpYa2tnVURsNHo1cC1rakdXN3VQcGJjLXQ1MVo4amwxQXVfZG1icTNOdVRORDRtaEE?oc=5",
-      "source": "Diário do Comércio",
-      "published_at": "Tue, 21 Jul 2026 08:35:00 GMT",
+      "title": "Governança de inteligência artificial: o fator estratégico para as empresas",
+      "summary": "Governança de inteligência artificial: o fator estratégico para as empresas",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVUx3cFBIOUJycEtmcFhQSmE5MVk0UXZLVTBNTkZkTy1nX3hHWlVDNkw5UF9xTEc5RmM1aTVjbHJOY01fZldSUTBzNzdJd1lkTS1Ia3JpT041SjUxZHp2VVBYbzhCT1FMdlAtdFplYnVvb2pJNTBFNWlDLVFjemdhTko0WUZRNFhLYWphM3N0WjdzQ1RBWDlQckdDRmFZVGlFOUhVNmdKZkVDZVVJN0VvT2FBSkVPbTZLaTJlcWg3Q1RtMTQx?oc=5",
+      "source": "NSC Total",
+      "published_at": "Mon, 20 Jul 2026 16:50:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -40,20 +31,29 @@
       "signal": "flat"
     },
     {
-      "title": "IA sem governança vai gerar o maior passivo corporativo da década",
-      "summary": "IA sem governança vai gerar o maior passivo corporativo da década",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOd1VxQThtYk1HMDUwaE9RdVNLQ1BHREJLY3RsTlItQ2lVMVJVY3kxbThSaDVvakRvRHBnV0UwT2hfT25YOEpNR0s4V0NlcldiaEpzQnVVd0VxaHp3eXdwUF9aYURPWDJNb0NzRUFubjBpUmZtVFNtcVBhQ3pDelZqUVB6ams5cHpnLXY0MU5IVnhyR291YnVpUFdRTFZRQWN2bEVlV01Xbnp4VGQ5SUowWnl2aHVrZVdBc3R6ekREUHlJV19SZkdIc3p2T0lMeGE3TVlMczRhMm_SAecBQVVfeXFMTW9TOTNsbF9aRGl0dEY5QzVwLWVBd1FJUWlBZzJfeVlNNkJISWY5MEhuM2FOVE1ldHFFclpoME9TWnFCVVY1WTVrcXFrZjMwQUNKbU1EMk0tZm5ROUw1ejl5bW5FTW8yVGI5aC15emp6RTNzRTFQQkJNUGRadFgwamM2VWlDQi1tYlJtMGRtS1U2UmdWUmFTWG93Nm9qMDU2NTVhZmFlZHBZWldTQ0Y2MzgwSVoxczd5RTVJZkxSSnRMVEFjMmhoNEoyOGdlcnlUVHI0SEc3Q3hGNmZJLU5wWUU1M1cxZlZJ?oc=5",
-      "source": "O GLOBO",
-      "published_at": "Tue, 21 Jul 2026 19:11:57 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
       "title": "IA já faz parte da rotina dos brasileiros, mas ainda não se traduz em transformação nas empresas",
       "summary": "IA já faz parte da rotina dos brasileiros, mas ainda não se traduz em transformação nas empresas",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSmFrYnRqVEd5Y1pRQUFmX0w1WGZyX2xrUk5wRU5ycWtNdWNMWFN4MmNoUmJDb1lKV0tTNXdaVEV3TnZsb0tGOG16QVZickFwenR3ODE4dDRtX2FYeTh1ZHVodzR4ZU5aVnQxb2JJT3Q4Q3NYbzdWZkJ4OEhtMG5kdmlwX1BxNlRkaVI0YlBLdnM1UnRaZ0ViN2tmY3Z6akxyeXdRTUxGQzJrRU1fWGI4ZjYtcWQ1NG1TZExVYmZHOA?oc=5",
       "source": "Experience Club",
       "published_at": "Tue, 21 Jul 2026 19:12:30 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Inteligência artificial nas empresas: entenda o que os agentes de IA realmente fazem | SEGS Portal...",
+      "summary": "Inteligência artificial nas empresas: entenda o que os agentes de IA realmente fazem | SEGS Portal...",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNDM0Q1dpdHVsZnJIR3NtbmFSRGtIajlOX3pYRE82TEUxQlNpU2Ixc2JXdzUyUWFrVUxLNVlFMnNrdUZ5dnVoR0lvNEwtclV4S0JsT19mYUVVMHBkTVE2bEZ2N0RQMG51Q3ZyZXZqelRFbkhVVklzS0FoODNfaHVFLWRraFFya1pueVI4RDB3VlJuU3A5aXViemRLTnczWHlQY215d2JKNWdyaDFidndTYmQwUUN0ZXRUcGs2dFRqTGFGWDhj0gHEAUFVX3lxTE80MzRDV2l0dWxmckhHc21uYVJEa0hqOU5felhETzZMRTFCU2lTYjFzYld3NTJRYWtVTEs1WUUyc2t1Rnl2dWhHSW80TC1yVXhLQmxPX2ZhRVUwcGRNUTZsRnY3RFAwbnVDdnJldmp6VEVuSFVWSXNLQWg4M19odUUtZGtoUXJrWm55UjhEMHdWUm5TcDlpdWJ6ZEtOdzNYeVBjbXl3Yko1Z3JoMWJ2d1NiZDBRQ3RldFRwazZ0VGpMYUZYOGM?oc=5",
+      "source": "SEGS Portal Nacional",
+      "published_at": "Mon, 20 Jul 2026 17:40:58 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "IA sem governança vai gerar o maior passivo corporativo da década",
+      "summary": "IA sem governança vai gerar o maior passivo corporativo da década",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOd1VxQThtYk1HMDUwaE9RdVNLQ1BHREJLY3RsTlItQ2lVMVJVY3kxbThSaDVvakRvRHBnV0UwT2hfT25YOEpNR0s4V0NlcldiaEpzQnVVd0VxaHp3eXdwUF9aYURPWDJNb0NzRUFubjBpUmZtVFNtcVBhQ3pDelZqUVB6ams5cHpnLXY0MU5IVnhyR291YnVpUFdRTFZRQWN2bEVlV01Xbnp4VGQ5SUowWnl2aHVrZVdBc3R6ekREUHlJV19SZkdIc3p2T0lMeGE3TVlMczRhMm_SAecBQVVfeXFMTW9TOTNsbF9aRGl0dEY5QzVwLWVBd1FJUWlBZzJfeVlNNkJISWY5MEhuM2FOVE1ldHFFclpoME9TWnFCVVY1WTVrcXFrZjMwQUNKbU1EMk0tZm5ROUw1ejl5bW5FTW8yVGI5aC15emp6RTNzRTFQQkJNUGRadFgwamM2VWlDQi1tYlJtMGRtS1U2UmdWUmFTWG93Nm9qMDU2NTVhZmFlZHBZWldTQ0Y2MzgwSVoxczd5RTVJZkxSSnRMVEFjMmhoNEoyOGdlcnlUVHI0SEc3Q3hGNmZJLU5wWUU1M1cxZlZJ?oc=5",
+      "source": "O GLOBO",
+      "published_at": "Tue, 21 Jul 2026 19:11:57 GMT",
       "category": "IA",
       "signal": "flat"
     }
