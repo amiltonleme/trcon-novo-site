@@ -1,32 +1,23 @@
 {
-  "generated_at": "2026-07-23T10:08:54.608253+00:00",
+  "generated_at": "2026-07-23T20:54:10.155588+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
     {
-      "title": "IA pode decidir atacar empresas? Entenda como foi a invasão 'sem precedentes' por modelo da OpenAI",
-      "summary": "IA pode decidir atacar empresas? Entenda como foi a invasão 'sem precedentes' por modelo da OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZERGS3Y5YjhZS0pJdDRpVGtqOXdWTDAyTE9ITHpmWmJadmV1SVQxNDZrREVhVU50NjNwYVpfaWF2N0gza1dVRTl4Ui1LSVNRaGpRWkk1SmZQLU5aNTRueDR2N1M0U2xiYndZV0tFMk9fbG9hdGUtN1NLcEZ1QkhzVnAzQldQeVdBcE5SOEJnNXIyWkludm93c1V6WkpVeXF4TTlyeFJWUENsU3Y4SmJnWmlEb1pSWWYxa1JSVdIBywFBVV95cUxQejFlUXZMWGRKNzJQTVAwa3VINTlGQVd4TWF6elNFYm9mZGNGSnB1N2NORFlZSXVGQmFvaEIxbkhuSTBfM1cyNTlCakpaTWNMblN6T2RoME42UVNNNGYzd3JkdGF1QnQ0VndPSDlWUVZFLVF4T3VLUTJIOXN3LTROb2pZcVpLWWZYYlduNDFoYUpSY29LanJPQXhVbENrWlVHaDE1cXZuZjlyMW5nNXBMWXlTUWppTHI3X2VHUDFfZEdrUFp5WmJCRHlSUQ?oc=5",
-      "source": "G1",
-      "published_at": "Thu, 23 Jul 2026 03:00:10 GMT",
+      "title": "OpenAI: o alerta da empresa Hugging Face, hackeada por modelo 'rebelde' de IA da criadora do ChatGPT",
+      "summary": "OpenAI: o alerta da empresa Hugging Face, hackeada por modelo 'rebelde' de IA da criadora do ChatGPT",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9rMzlvTUFzM2tPdDRjTlFaLUtaWXhpemZtd0VPd0pLSVpIOW0tTjZaYXMzU1Fjd0JnNUY1MDJabHA1UE5VaFU3OVRPR2Vib3JfWHRUbEd4Ny1DamxmMXJDV01R0gFnQVVfeXFMTlBoNDlpb3d1clg3VDVheHpOU0RYQTRXdU1UTHVtUkhqb2hua0JQTmFDeDBOQmpkWTRtajc4Z1JqNmx1NkVvTDZETDBabUEwelpqU0IwYVV6QkNWYVVrUFRkZWpPYkp5TQ?oc=5",
+      "source": "BBC",
+      "published_at": "Thu, 23 Jul 2026 16:46:26 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Governança de inteligência artificial: o fator estratégico para as empresas",
-      "summary": "Governança de inteligência artificial: o fator estratégico para as empresas",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVUx3cFBIOUJycEtmcFhQSmE5MVk0UXZLVTBNTkZkTy1nX3hHWlVDNkw5UF9xTEc5RmM1aTVjbHJOY01fZldSUTBzNzdJd1lkTS1Ia3JpT041SjUxZHp2VVBYbzhCT1FMdlAtdFplYnVvb2pJNTBFNWlDLVFjemdhTko0WUZRNFhLYWphM3N0WjdzQ1RBWDlQckdDRmFZVGlFOUhVNmdKZkVDZVVJN0VvT2FBSkVPbTZLaTJlcWg3Q1RtMTQx?oc=5",
-      "source": "NSC Total",
-      "published_at": "Mon, 20 Jul 2026 16:50:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Especialista destaca que após a IA Generativa, empresas entram na era da Autonomia Operacional",
-      "summary": "Especialista destaca que após a IA Generativa, empresas entram na era da Autonomia Operacional",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQLVBEb09lS2YtaDhZVXZXallWSXlyc3J1Rm5wMEgtWXRScHJHZ250a1U4VTNNc05JbnZiMjhnMUE1eFNCTE9qVC1wald5ZjlnVjFUQTlmT1QyX3pOZExNaUpUUmlxWnZHMlFuYkVSRktFdEZuNHB3MnhWODBnLVFKUWdWc05EX0xuZHB0Q2xOanVrenRVU3M1QkhRaF9GekZQSGpHUVctcUxXTWlzTW9QR2lhTE1aRDVKdW5CWVZlSGJiVEdnRUdQTTJLcHR1dw?oc=5",
-      "source": "Inforchannel",
-      "published_at": "Wed, 22 Jul 2026 10:58:09 GMT",
+      "title": "Depois da Nvidia, quem deve ganhar com a inteligência artificial? As empresas “chatas”, dizem gestores internacionais",
+      "summary": "Depois da Nvidia, quem deve ganhar com a inteligência artificial? As empresas “chatas”, dizem gestores internacionais",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNUS1fcDMydDBXOExwNnJDdW1nRWZnS3hpVURDX0trb2lSV1JfNEZqcVptLVBNVHhnV29ZczN0UnhIMWlxZHB5LUlrWndfemFNa05PSS1wbHBJLXhpUFBYbURPNk5GRWpPQTJSVEcwUWVCQzZLcUxsMWQ3TU5RRkJoWFdOeHJCSU9OWmNRbVh1VlVTaDNiajE0VXFkckE2Rm8ydDJoalc2NlIxaHFHUkJYQ3p2UjZEMTJZdzNGQkNTNW1pQ3luSlN0UzBCcTl6RFFuczlKTlNEN3VFZ3I0eVJoUXo3SDRnZ0FwUG82TE1zaXhZTkhSMG5qVENWRk9RYUFUSi00YmxuSklWVXhySEFR?oc=5",
+      "source": "Bora Investir",
+      "published_at": "Thu, 23 Jul 2026 19:42:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -40,20 +31,29 @@
       "signal": "flat"
     },
     {
-      "title": "Profissionais de IA: por que o mercado disputa esses especialistas?",
-      "summary": "Profissionais de IA: por que o mercado disputa esses especialistas?",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdVEzQnM5OXMyckJOaWR4elBfS2JGaldVTDYtNW5fME9CUTQ0VGk0ZS0zemFFOS1iVjR1RHlzb3ZJLWpHb09GeHhCX0swd09nSFpjNnhKQTkwamJJRHJkR3E5dE5KeGJVblpMUXJZODQzYTV6UmxrNjAzYXU3ZzNtbm1YT3ZMSTdfd3VhT2FDdUZwUFNoQXhhQktoU3lmU2k5YWV1LWdVY2RjTzVuRXhTWE9JUWpGWElGTHBhWF9uWFhMeVRmV0lGbnYxVGJvQdIB0wFBVV95cUxOQi1KZ25UQ0UzTjZuVzZPblhmN0FrS0RFSGROLXM0WUpESFhSVUFSWHR0NTJFN3JuRTNvT0tHN25kc1JXYnVjV3FjbWd2cHZjVmp4VC1nZTMwSVl3QVRBQ28yU2lNc1lJQkNKS3NtNm5XQXJ2UkFTazJ6Q2JzWkVGSmFDaGRORElMdWRqVjlDb3RIQmt1eXY2U2VodHlZb0l5TlJzTWFBUVpRNXVyTlRhZTZwcXE3VndEMTVZNGZfdkhHcDdPUEJ6VnI1Szd1cTlsS2dv?oc=5",
-      "source": "Correio Braziliense",
-      "published_at": "Mon, 20 Jul 2026 23:31:00 GMT",
+      "title": "Amazon corta empregos na unidade de inteligência artificial geral",
+      "summary": "Amazon corta empregos na unidade de inteligência artificial geral",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYS1RZHQzQkJRdnhNVEktUDc3SDZDVUgxUkJ6NnNaSFNVVVJ3NDc4WWRjZnVQNHNXdlJlUnJUcVVDeVdORzlSZkVoNlY4b1dQMWhPcWhHcjdYRUFmM3NBN1dpOVpLeHVyLVQ5MXpUZ0czSWE2Qnd3cjNfOFpuQzRRdjJzS1N0UHpteGNWbVFKcENYWC1pVkhtQkxtRnNzRGhNYkdsazh5VVdqX2xadl9HRnFjLTR2OERoWkJHbHF2NUHSAc8BQVVfeXFMUE5qS2RKVzNWM1k5MDVPWFlOTlcwSzBUNk9JdW5iQWVNS1lvMWFxQmJWMXhJUEtHRzJDbUF1alo4d283ajRLazluUUo1X2tBNHVjNlJCTEgxT0VYNnRDVVRFajJyWXBsV0ZsdElvVmlvZlduOExvbUU5VVZ0M3QyakM3RlBiY2lubWRnRjZid3RXMTRpZWtZbFJoa24xMDVNZ0RTYUFfT3BCQ3pKbksyT1hBMzBVR0prRmdyNDRNa1E0bjVSTlJ0WEM0d3l0bW5Z?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Wed, 22 Jul 2026 15:53:54 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "OpenAI diz que IA escapou de teste e lançou ataque cibernético",
-      "summary": "OpenAI diz que IA escapou de teste e lançou ataque cibernético",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU0hROV9SU0ZxSWM5WnNJaVp1WGRRNW5RTE81d2ZBNnNPUkduanUxY3h1OFhwUk5PbHR1Z0M1WnNQWmF4Yll1dGV6TmF4RDloT2hqeUVqdTYxdlRBRk1DSHBuekE3aU1QN1kzenpfWWhiZ2JQZE56dENSazRzeFBmMVI5emd4ZkYzN28tRC1QRnN4bGNyRHA2OTdQeG1kLXc?oc=5",
-      "source": "VEJA",
-      "published_at": "Wed, 22 Jul 2026 16:43:40 GMT",
+      "title": "A advertência de empresa hackeada por modelo 'rebelde' de IA da controladora do ChatGPT: 'É um sinal de alerta'",
+      "summary": "A advertência de empresa hackeada por modelo 'rebelde' de IA da controladora do ChatGPT: 'É um sinal de alerta'",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxObW81M1Z2SDNvNzhEN3NwVTF5T05zeFJxb2ZwVmFIeGpSOUl3d3pPbUFBMGEtVDF4M1YwN3FpZWFVX3VocHlnaV8wR2FhbkxFdEtxN1hPMVNKeElqN1k3MEhVcTJRNWVjalRGZ25EdnFERU1iQXpycnJFcTJ6LXItd1dyZFphMVhoSWhUVjhHbEZTaXh3eGFuQjdhajFFeWFsUm9EdmdiUnVPTkdLejczME9URnp1TFBLVlUyd3dJZERGVURhclBNWUZRTG5aSHFtN1o1YkRzVzByeXJKWVkyNzFaeFlPWldVb1ZnVmYxX0VJSE04dUHSAYQCQVVfeXFMTWJHRm9ubTc0aG84azNBT1NCZWIxTThTTmJXSV9RU0lvWjY4eWJmbldwX256MmVQWmhVLWFtSjZSRlhPNXl3eDBsMmtfS3ZOX3FqeUtic1otTHhWSFVScEtRb0sybjNXdUF0OWZQVGlpSGoyd1ljbUVJZ3NIdElQU0poU29OVlZ5N1pENGhwdWxnYk1vbVJheUxtX0M1M180WUFFVGNUaERXZW9CLTRIdUpRV3lqVlhxTFVxOVdoU0lVa0VMNmgzLWt6b1BmNjVYeE1PdENfVGZMTzcxVEFqczR2NWdLNTREUUdieXFaUFFuNGhiYU13TjNKRFlqdWRWSVhJbDY?oc=5",
+      "source": "G1",
+      "published_at": "Thu, 23 Jul 2026 17:02:14 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "IA aberta ou fechada? A escolha pode definir o futuro da inteligência artificial",
+      "summary": "IA aberta ou fechada? A escolha pode definir o futuro da inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR1VoWGR1OTZORmdhcF9ySHR4X21MZ1l2ZDV2ME15UWZ3R2t2YmZfTEpwT2VwcFg0NmZ1V2ZFVjhRT1B3VFRWbzRNYy1mMGtPMHdMdWxnY29ydHNfdmM3QW9vdk9PRnNEdzI5NzJrVld0RV9wNE9NVDVDSW1jWU9aVEY5eFRwSXdtU3o4c05SUUJWRHE4UHVERzdWaVVqN2dUWXBCZ1JiTk1tREg0ZzloOGRQMXFIbTN5bGJhMlI1RWlIQQ?oc=5",
+      "source": "Exame",
+      "published_at": "Thu, 23 Jul 2026 10:08:16 GMT",
       "category": "IA",
       "signal": "flat"
     }

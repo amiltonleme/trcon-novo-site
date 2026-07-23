@@ -1,47 +1,47 @@
 {
-  "generated_at": "2026-07-23T10:08:53.538927+00:00",
+  "generated_at": "2026-07-23T20:54:08.840941+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
     {
       "symbol": "USD/BRL",
-      "value": "R$ 5,06",
+      "value": "R$ 5,08",
       "change": "0,00%",
       "direction": "flat"
     },
     {
       "symbol": "EUR/BRL",
-      "value": "R$ 5,78",
+      "value": "R$ 5,79",
       "change": "0,00%",
       "direction": "flat"
     },
     {
       "symbol": "IBOVESPA",
-      "value": "177.548 pts",
+      "value": "176.724 pts",
       "change": "estavel",
       "direction": "flat"
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 65.645",
-      "change": "-0,34%",
+      "value": "US$ 65.090",
+      "change": "-1,22%",
       "direction": "down"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 1.924",
-      "change": "+0,07%",
-      "direction": "up"
+      "value": "US$ 1.884",
+      "change": "-2,23%",
+      "direction": "down"
     },
     {
       "symbol": "OURO",
-      "value": "US$ 4.092",
+      "value": "US$ 4.052",
       "change": "estavel",
       "direction": "flat"
     },
     {
       "symbol": "SELIC",
-      "value": "14,25% a.a.",
+      "value": "Atualizando",
       "change": "estavel",
       "direction": "flat"
     },
@@ -57,7 +57,7 @@
       "id": "usdbrl",
       "name": "Dolar (USD)",
       "icon": "💵",
-      "quote": "R$ 5,06",
+      "quote": "R$ 5,08",
       "change": "0,00%",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -68,7 +68,7 @@
       "id": "eurbrl",
       "name": "Euro (EUR)",
       "icon": "💶",
-      "quote": "R$ 5,78",
+      "quote": "R$ 5,79",
       "change": "0,00%",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -79,7 +79,7 @@
       "id": "ibov",
       "name": "Ibovespa",
       "icon": "📊",
-      "quote": "177.548 pts",
+      "quote": "176.724 pts",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -90,8 +90,8 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 65.645",
-      "change": "-0,34%",
+      "quote": "US$ 65.090",
+      "change": "-1,22%",
       "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -101,9 +101,9 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 1.924",
-      "change": "+0,07%",
-      "direction": "up",
+      "quote": "US$ 1.884",
+      "change": "-2,23%",
+      "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
       "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
@@ -112,7 +112,7 @@
       "id": "gold",
       "name": "Ouro",
       "icon": "🥇",
-      "quote": "US$ 4.092",
+      "quote": "US$ 4.052",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -123,7 +123,7 @@
       "id": "selic",
       "name": "Tesouro Selic",
       "icon": "🏦",
-      "quote": "14,25% a.a.",
+      "quote": "Atualizando",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Reserva",
@@ -148,12 +148,12 @@
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQV01abzg4VkhyTUhtT3hHU1hIZUxpSXo4QmVPWGJhLXpWbDNNNHRlN0tiT2d3Sk9TSktVa3V3djJJbjJsMW4yRlQxSXRDdEFYMXJSSkR2cFEwQlZ5QllleG5sLXZuS2Z6TUtZNEprUDNNbTZCbzVXQzg2OHAwUkdJMg?oc=5"
     },
     {
-      "title": "Queda do dólar impulsiona Bolsa diante da alta do petróleo",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMGZWbjBFdVdJMkY3bVAzNlpzVUdqT0ZvOVlwNXZhVlpEdjBoQWRyUndYQ2JZbzJ2ZkxySkZUUUk5R1puTmNUaGlPUjMySUl3X0JJTjFMbng1aElVWmpkUHMzaWlHbERPblI4amFOUHdQMnZaVU9LT2s5UFROU01seTgtdlRjX0ZsRExORTdrOERjcklWQ3Bxcy1jaXNtVDVQQXowOTNrOWdkNmdFRlpz0gG0AUFVX3lxTE9QN3Fib2s1TWQ1TVNLQ1NxQWJOaUhFNGZrOS12aWxJdm5NdVBsVWJiV2ozVTJwbkhWQlhyRENVM0dBMThTV01JSWl5dVhfZ0trLW9lRlhDaXhuejVCdjBNZDRsMXVmNU51cW9DTlJjSmQyLWNSX2V6bTRYbmFDOU9RRjVyY3lrM0E5c1h2OFc5dTdiazZwRllCVDRNNWxKTlRHcUNRSUJOMlZ3eEJxcWp5MnZaZQ?oc=5"
+      "title": "Dólar cai a R$ 5,05 e Bolsa supera 177 mil pontos",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPN01xRHctNUx1b1ZZVFFRRHI0MnpJTG52YVRzVmJPYTM1dmpRcExoUGRQV0R1ZDFXMGVEeTQ2Y0NCanJ5elZwTHFuLXp2bzJ3SUNJQ3VyWUcxSUUzVjVSbUgyeG5lOVc3MTVwMTg1ZzU2WDZsb05sNHNRRTdVaFMwSWY3T2hmWTVDdTVHUg?oc=5"
     },
     {
-      "title": "Dólar cai abaixo de R$ 5,09 enquanto Bolsa acumula quarta baixa consecutiva",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNzU1cnVDZ194NW5PMDRhcC15Y0thZU1ieEtrSldNeldid0NwckdfR3lHZ1V3RktraWIxNHdyM0RYQTNHWFJacDgzUE9aX2daQVRvMF93dURpN01va3ljSHUxdzlaSy0zcF9IdkczWXlDNVJnNFl4T1RWLWNXNU1EcFRCWjVQSmlQeTBINjMtaUFuX2hXWjJiZjlpaV9nVGlkdTR1OWdIVUE5clUwNVF4Rw?oc=5"
+      "title": "Queda do dólar impulsiona Bolsa diante da alta do petróleo",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMGZWbjBFdVdJMkY3bVAzNlpzVUdqT0ZvOVlwNXZhVlpEdjBoQWRyUndYQ2JZbzJ2ZkxySkZUUUk5R1puTmNUaGlPUjMySUl3X0JJTjFMbng1aElVWmpkUHMzaWlHbERPblI4amFOUHdQMnZaVU9LT2s5UFROU01seTgtdlRjX0ZsRExORTdrOERjcklWQ3Bxcy1jaXNtVDVQQXowOTNrOWdkNmdFRlpz0gG0AUFVX3lxTE9QN3Fib2s1TWQ1TVNLQ1NxQWJOaUhFNGZrOS12aWxJdm5NdVBsVWJiV2ozVTJwbkhWQlhyRENVM0dBMThTV01JSWl5dVhfZ0trLW9lRlhDaXhuejVCdjBNZDRsMXVmNU51cW9DTlJjSmQyLWNSX2V6bTRYbmFDOU9RRjVyY3lrM0E5c1h2OFc5dTdiazZwRllCVDRNNWxKTlRHcUNRSUJOMlZ3eEJxcWp5MnZaZQ?oc=5"
     },
     {
       "title": "Gestores elevam cautela com Brasil e reduzem otimismo com Ibovespa, diz BofA",
@@ -181,5 +181,7 @@
     "summary": "O mercado mostra sinais mistos; diversificacao e compras parceladas reduzem o risco de timing.",
     "score": 0
   },
-  "errors": []
+  "errors": [
+    "selic: HTTP Error 502: Bad Gateway"
+  ]
 }
