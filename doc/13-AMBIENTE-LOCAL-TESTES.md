@@ -28,6 +28,8 @@ No IntelliJ:
 5. Configure SDK Java 21 para o projeto/backend.
 6. Para o frontend, use o terminal integrado na pasta `frontend`.
 
+Documentação de integração com Sirius Marketing: [`../../sirius-marketing/projeto/docs/cursor/08_passo_a_passo.md`](../../sirius-marketing/projeto/docs/cursor/08_passo_a_passo.md) (Sprint 3).
+
 Só faz sentido abrir `backend/` e `frontend/` separados se você quiser janelas
 isoladas por preferência pessoal. Tecnicamente, para este monorepo, uma janela
 na raiz é mais simples.
@@ -56,9 +58,12 @@ Serviços:
 
 | Serviço | URL |
 |---|---|
-| Backend | `http://localhost:8080` |
-| Health | `http://localhost:8080/actuator/health` |
-| PostgreSQL | `localhost:5432` |
+| Backend (Docker default) | `http://localhost:8080` |
+| Backend (dev local com marketing) | **`http://localhost:8081`** |
+| Health | `http://localhost:8081/actuator/health` |
+| API Novidades | `http://localhost:8081/api/public/news` |
+| API Radar (highlights) | `http://localhost:8081/api/public/highlights` |
+| PostgreSQL | `localhost:5434` (se `5432` ocupada) ou `5432` |
 
 Banco local padrão:
 
@@ -106,17 +111,26 @@ O site local sobe em:
 http://127.0.0.1:4173
 ```
 
-Por padrão, o frontend funciona com JSON estático. Para testar integração com o
-backend local, edite temporariamente `frontend/assets/env.js` ou injete valores
-equivalentes no deploy local:
+Por padrão, o frontend usa JSON estático quando a API não está configurada.
+Para integração local com o backend (e com Sirius Marketing), `frontend/assets/env.js`
+já aponta para `:8081`:
 
 ```js
-window.TRCON_LEADS_API_URL      = 'http://localhost:8080/api/v1/site/leads';
-window.TRCON_HIGHLIGHTS_API_URL = 'http://localhost:8080/api/public/highlights';
-window.TRCON_NEWS_API_URL       = 'http://localhost:8080/api/public/news';
+window.TRCON_LEADS_API_URL = 'http://localhost:8081/api/v1/site/leads';
+window.TRCON_HIGHLIGHTS_API_URL = 'http://localhost:8081/api/public/highlights';
+window.TRCON_NEWS_API_URL = 'http://localhost:8081/api/public/news';
 ```
 
-Não commitar URLs locais em `env.js` se elas forem apenas para teste manual.
+### Radar TRCon vs Novidades TRCon
+
+| Seção na home | API | Conteúdo |
+|---|---|---|
+| **Radar TRCon** | `/api/public/highlights` | Curadoria IA/tecnologia (`daily_highlights`). Se API vazia → fallback `data/home-highlights.json` |
+| **Novidades TRCon** | `/api/public/news` | Artigos publicados pelo Sirius Marketing (`news_items`) |
+
+Não são o mesmo feed. Antes da API, ambos pareciam iguais porque usavam JSON derivado do radar.
+
+Em produção, substitua as URLs em `env.js` pelos domínios reais no deploy.
 
 ## Opção alternativa — Postgres no Docker e backend pelo IntelliJ
 
@@ -132,59 +146,30 @@ docker compose up -d postgres
 2. No IntelliJ, crie uma Run Configuration para
    `br.com.trcon.site.SiteBackendApplication`.
 
-3. Configure variáveis de ambiente:
+3. Profile Spring (**Active profiles** = `dev`, ou vazio — default é `dev`):
 
 ```text
-SPRING_PROFILES_ACTIVE=local
+SPRING_PROFILES_ACTIVE=dev
 ```
 
-No IntelliJ também pode configurar pelo campo **Active profiles** com o valor:
+Credenciais e porta do Postgres (exemplo quando site usa `5434:5432`):
 
 ```text
-local
+DB_URL=jdbc:postgresql://localhost:5434/trcon_site;DB_USERNAME=trcon;DB_PASSWORD=trcon;TRCON_CORS_ALLOWED_ORIGINS=http://localhost:4173,http://127.0.0.1:4173
 ```
 
-Use uma das duas opções. O importante é que o backend não seja iniciado sem
-profile, porque o `application.yml` só define datasource nos profiles `local`,
-`dev` e `prod`.
+4. Rode a aplicação pelo IntelliJ (porta **8081** via `application-dev.yml`).
 
-Se houver erro de senha no Postgres mesmo após recriar o volume, force também as
-credenciais locais na Run Configuration:
+O profile `dev` usa:
 
 ```text
-DB_USERNAME=trcon;DB_PASSWORD=trcon
-```
-
-4. Rode a aplicação pelo IntelliJ.
-
-O profile `local` usa:
-
-```text
-jdbc:postgresql://localhost:${DB_PORT:5432}/trcon_site
+jdbc:postgresql://localhost:5434/trcon_site
 DB_USERNAME=trcon
 DB_PASSWORD=trcon
+server.port=8081
 ```
 
-Se a porta `5432` estiver ocupada por outro projeto, como Hub Financeiro, defina
-`DB_PORT` ou `DB_URL` na Run Configuration do IntelliJ. Exemplo para Postgres do
-site publicado em `5434:5432`:
-
-```text
-DB_PORT=5434;DB_USERNAME=trcon;DB_PASSWORD=trcon
-```
-
-Para testar o formulário do frontend local contra o backend local, inclua também
-a origem CORS do dev server:
-
-```text
-DB_PORT=5434;DB_USERNAME=trcon;DB_PASSWORD=trcon;TRCON_CORS_ALLOWED_ORIGINS=http://localhost:4173,http://127.0.0.1:4173
-```
-
-ou:
-
-```text
-DB_URL=jdbc:postgresql://localhost:5434/trcon_site;DB_USERNAME=trcon;DB_PASSWORD=trcon
-```
+Se a porta `5432` estiver ocupada por outro projeto, defina `DB_PORT` ou `DB_URL` na Run Configuration.
 
 ## Testes do backend
 
@@ -251,15 +236,15 @@ python -m unittest discover scripts/tests
 
 Com backend e frontend rodando:
 
-1. Abrir `http://localhost:8080/actuator/health`.
+1. Abrir `http://localhost:8081/actuator/health`.
 2. Esperar resposta:
 
 ```json
 {"status":"UP"}
 ```
 
-3. Abrir `http://localhost:8080/api/public/highlights`.
-4. Abrir `http://localhost:8080/api/public/news`.
+3. Abrir `http://localhost:8081/api/public/highlights`.
+4. Abrir `http://localhost:8081/api/public/news`.
 5. Abrir `http://127.0.0.1:4173`.
 6. Enviar o formulário de contato.
 7. Esperar HTTP 201 no primeiro envio.
@@ -317,11 +302,11 @@ PostgreSQL com:
 
 | Sintoma | Causa provável | Ação |
 |---|---|---|
-| `Failed to determine a suitable driver class` ao iniciar o backend | backend iniciou sem profile ativo e sem `spring.datasource.url` | no IntelliJ, definir `SPRING_PROFILES_ACTIVE=local` ou **Active profiles** = `local` |
-| `FATAL: autenticação do tipo senha falhou para o usuário "trcon"` | backend conectou no Postgres de outro projeto ou o IntelliJ está passando senha diferente | conferir porta publicada no Docker; se o site estiver em `5434:5432`, usar `DB_PORT=5434;DB_USERNAME=trcon;DB_PASSWORD=trcon` |
-| `localhost:8080` não abre | backend não subiu ou porta ocupada | ver `docker compose ps` e usar `BACKEND_PORT=8081` |
-| Testcontainers não encontra Docker | configuração local do Docker Desktop no Windows | aplicar nota de `infra/README.md` |
-| Frontend abre, mas formulário não envia | `env.js` não aponta para API local ou CORS bloqueou | conferir URLs e `TRCON_CORS_ALLOWED_ORIGINS` |
+| `Failed to determine a suitable driver class` ao iniciar o backend | backend iniciou sem profile ativo | profile **`dev`** (default) ou Active profiles = `dev` |
+| `FATAL: autenticação do tipo senha falhou` | Postgres de outro projeto ou credenciais erradas | conferir porta (`5434`); `DB_URL=...5434/trcon_site` |
+| `localhost:8081` não abre | backend não subiu ou porta ocupada | marketing usa `:8080`; site deve usar `:8081` |
+| Radar vazio, Novidades ok | feeds distintos; highlights API vazia | esperado — Radar usa JSON fallback; Novidades = marketing |
+| Frontend abre, mas formulário não envia | `env.js` ou CORS | conferir `TRCON_CORS_ALLOWED_ORIGINS` e URLs em `env.js` |
 | `npm test` falha por dependência ausente | `node_modules` não instalado | rodar `npm install` em `frontend/` |
 | Backend falha por banco indisponível | PostgreSQL local não está pronto | aguardar health do container ou recriar com `docker compose up -d postgres` |
 

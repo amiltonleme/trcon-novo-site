@@ -31,6 +31,17 @@ describe('fetchWithFallback', () => {
     expect(fetchImpl).toHaveBeenCalledTimes(1);
   });
 
+  it('cai para o JSON quando a API responde lista vazia', async () => {
+    const fetchImpl = vi
+      .fn()
+      .mockResolvedValueOnce(ok({ items: [] }))
+      .mockResolvedValueOnce(ok({ items: [{ title: 'json-radar' }] }));
+    const res = await fetchWithFallback('http://api/highlights', 'data/x.json', { fetch: fetchImpl });
+    expect(res.source).toBe('json');
+    expect(res.items[0].title).toBe('json-radar');
+    expect(fetchImpl).toHaveBeenCalledTimes(2);
+  });
+
   it('cai para o JSON quando a API responde erro', async () => {
     const fetchImpl = vi
       .fn()

@@ -17,9 +17,9 @@ export function resolveApiConfig(overrides = {}) {
     leadsApiUrl:
       scope.TRCON_LEADS_API_URL ||
       scope.TRCON_WAITLIST_API_URL ||
-      'http://localhost:8080/api/v1/site/leads',
-    highlightsApiUrl: scope.TRCON_HIGHLIGHTS_API_URL || '',
-    newsApiUrl: scope.TRCON_NEWS_API_URL || '',
+      'http://localhost:8081/api/v1/site/leads',
+    highlightsApiUrl: scope.TRCON_HIGHLIGHTS_API_URL || 'http://localhost:8081/api/public/highlights',
+    newsApiUrl: scope.TRCON_NEWS_API_URL || 'http://localhost:8081/api/public/news',
   };
 }
 
