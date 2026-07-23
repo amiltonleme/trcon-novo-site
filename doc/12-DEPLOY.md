@@ -316,3 +316,17 @@ O workflow `.github/workflows/backend-cd.yml` apenas registra que a produção o
 ## Limite honesto desta fase
 
 A documentação define a rota oficial, mas ainda há artefatos legados de Render/Fly no repositório. Para fechar a migração operacional, criar os artefatos específicos de Coolify quando o servidor e os domínios finais forem provisionados.
+
+## Sirius Marketing (ecossistema)
+
+App editorial separado — monorepo `sirius-marketing/projeto`.
+
+| Componente | Coolify | Domínio sugerido |
+|---|---|---|
+| Frontend Angular | `frontend/Dockerfile` (nginx + proxy `/api`) | `marketing.trcongroup.com.br` |
+| Backend Spring Boot | `backend/Dockerfile` | rede interna ou `api-marketing.trcongroup.com.br` |
+| PostgreSQL | Neon — database **`sirius_marketing`** | — |
+
+Runbook dedicado: `sirius-marketing/projeto/docs/cursor/09_deploy_producao.md`.
+
+Integração: após approve, o marketing chama `POST /api/internal/news` e `POST /api/internal/highlights` neste site backend (`APP_SITE_API_URL` + API key compartilhada).
