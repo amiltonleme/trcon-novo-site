@@ -36,7 +36,7 @@ Manter **HTML/CSS/JavaScript estático (vanilla)**, sem framework de UI
 | Lint/format | ESLint + Prettier (config mínima, sem regra exótica) |
 | Testes de lógica JS | Vitest, apenas para funções não triviais (parsing/composição de dados de `data/*.json`) |
 | Acessibilidade | checagem manual + `axe-core` via extensão de navegador no checkpoint de revisão |
-| Hospedagem | GitHub Pages, Netlify, Vercel (estático) ou o provedor já usado hoje |
+| Hospedagem | Coolify no Hetzner, atrás do Cloudflare; alternativas estáticas ficam apenas como contingência |
 | Integração com backend | `fetch` para endpoints públicos do backend (`/api/public/...`), com fallback para JSON local conforme [07-MIGRACAO-PARALELA.md](./07-MIGRACAO-PARALELA.md) |
 
 ## O que não usar no início

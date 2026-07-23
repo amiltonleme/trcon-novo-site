@@ -61,8 +61,16 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
     const success = document.getElementById('betaWaitlistSuccess');
     if (!form || !success) return;
 
+    const hideSuccess = () => {
+      success.hidden = true;
+    };
+
+    form.addEventListener('input', hideSuccess);
+    form.addEventListener('change', hideSuccess);
+
     form.addEventListener('submit', async (event) => {
       event.preventDefault();
+      hideSuccess();
       const submitButton = form.querySelector('button[type="submit"]');
       const originalLabel = submitButton ? submitButton.textContent : '';
       const entries = Object.fromEntries(new FormData(form).entries());
@@ -603,4 +611,3 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
   setupBetaWaitlist();
   loadSiteData();
   loadHomeContent();
-

@@ -36,6 +36,7 @@ trcongroup/
 10. [10-TESTES-QUALIDADE.md](./10-TESTES-QUALIDADE.md)
 11. [11-SKILLS-AGENTS-CLAUDE.md](./11-SKILLS-AGENTS-CLAUDE.md)
 12. [12-DEPLOY.md](./12-DEPLOY.md)
+13. [13-AMBIENTE-LOCAL-TESTES.md](./13-AMBIENTE-LOCAL-TESTES.md)
 
 ## Papel de cada documento
 
@@ -52,7 +53,8 @@ trcongroup/
 | 09-PLANO-EXECUCAO-IA | Plano concreto: fases, prazos, pastas, custos, critérios de pronto |
 | 10-TESTES-QUALIDADE | Estratégia de testes (backend e frontend), gate de cobertura ≥ 80%, ferramentas |
 | 11-SKILLS-AGENTS-CLAUDE | Skills e subagents do Claude Code usados para construir e manter o projeto |
-| 12-DEPLOY | Runbook de deploy em produção: Render/Fly, checklist de env, smoke test, rollback, custos |
+| 12-DEPLOY | Runbook de deploy em produção: Cloudflare + Hetzner + Coolify + Neon, checklist de env, smoke test, rollback, custos |
+| 13-AMBIENTE-LOCAL-TESTES | Como abrir o projeto, subir ambiente local, rodar frontend/backend e executar testes |
 
 ## Regra de governança
 

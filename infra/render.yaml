@@ -1,66 +1,39 @@
-# Render Blueprint — deploy do site TRCon (backend + Postgres + frontend estático).
-# Uso: no painel do Render, "New" -> "Blueprint" apontando para este repositório.
-# Docs: https://render.com/docs/blueprint-spec
+# LEGADO — Render Blueprint do backend do site TRCon.
 #
-# Planos "free"/"starter" cobrem a fase inicial (baixo tráfego). Ajuste `plan`
-# conforme necessidade. Ver doc/12-DEPLOY.md e doc/09-PLANO-EXECUCAO-IA.md (custos).
-
-databases:
-  - name: trcon-site-db
-    databaseName: trcon_site
-    user: trcon
-    plan: free # 90 dias no free; migrar para starter quando justificar
+# A rota oficial de produção agora é Cloudflare + Hetzner + Coolify + Neon.
+# Este arquivo permanece apenas como referência histórica até ser removido.
+#
+# Uso legado: no Render, "New → Blueprint" apontando para este repositório.
+# Docs: https://render.com/docs/blueprint-spec
 
 services:
-  # --- Backend (Java/Spring Boot em container) ---
   - type: web
     name: trcon-site-backend
     runtime: docker
     dockerfilePath: ./backend/Dockerfile
     dockerContext: ./backend
-    plan: free
+    plan: free # suficiente para a fase inicial; suba de plano quando justificar
+    region: virginia # projeto Neon em AWS us-east-1 (N. Virginia) — manter perto
     healthCheckPath: /actuator/health
     autoDeploy: true
     envVars:
       - key: SPRING_PROFILES_ACTIVE
         value: prod
-      # Render injeta PORT automaticamente; o application.yml já o lê.
-      - key: DB_HOST
-        fromDatabase:
-          name: trcon-site-db
-          property: host
-      - key: DB_PORT
-        fromDatabase:
-          name: trcon-site-db
-          property: port
-      - key: DB_NAME
-        fromDatabase:
-          name: trcon-site-db
-          property: database
-      - key: DB_USERNAME
-        fromDatabase:
-          name: trcon-site-db
-          property: user
-      - key: DB_PASSWORD
-        fromDatabase:
-          name: trcon-site-db
-          property: password
-      # Origem do frontend permitida no CORS (ajuste para o domínio real).
-      - key: TRCON_CORS_ALLOWED_ORIGINS
-        sync: false # definir no painel: ex. https://trcongroup.com.br
+      # Render injeta PORT automaticamente (application.yml já o lê).
 
-  # --- Frontend estático ---
-  - type: web
-    name: trcon-site-frontend
-    runtime: static
-    buildCommand: "" # site estático puro, sem build
-    staticPublishPath: ./frontend
-    autoDeploy: true
-    headers:
-      - path: /*
-        name: X-Frame-Options
-        value: SAMEORIGIN
-    routes:
-      - type: rewrite
-        source: /*
-        destination: /index.html
+      # --- Conexão com o Neon (definir no painel; sync:false = não versionado) ---
+      # DB_URL é a JDBC URL do Neon SEM "-pooler" (evita conflito de prepared
+      # statements do Hibernate com o PgBouncer em modo transação) e SEM
+      # channel_binding (parâmetro libpq, não reconhecido pelo driver JDBC).
+      # Exemplo: jdbc:postgresql://ep-xxx.us-east-1.aws.neon.tech/trcon_site?sslmode=require
+      - key: DB_URL
+        sync: false
+      - key: DB_USERNAME
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+
+      # Origem do frontend permitida no CORS.
+      # Ex.: https://trcon-site.pages.dev  ou  https://trcongroup.com.br
+      - key: TRCON_CORS_ALLOWED_ORIGINS
+        sync: false

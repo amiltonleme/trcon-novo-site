@@ -1,0 +1,17 @@
+# Headers herdados do fluxo Cloudflare Pages.
+# Na rota oficial Hetzner/Coolify, usar como referência para configurar
+# headers equivalentes no proxy/Coolify/Cloudflare.
+
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+# JSON de conteúdo pode ser revalidado com frequência (pipeline 2x/dia).
+/data/*
+  Cache-Control: public, max-age=300, must-revalidate
+
+# env.js define as URLs da API — nunca deve ficar em cache agressivo.
+/assets/env.js
+  Cache-Control: no-cache

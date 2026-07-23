@@ -68,10 +68,14 @@ Arquitetura obrigatória: MVC modular monolith — controller / service / reposi
 
 - scripts pequenos e especializados por fonte/domínio (SRP)
 
-### Camada 5 — Orquestração (`site/infra`)
+### Camada 5 — Orquestração e produção
 
-- GitHub Actions para pipeline de conteúdo (2x/dia)
-- pipeline de build/deploy do backend (CI/CD)
+- Cloudflare na borda: DNS, SSL, CDN, cache e segurança
+- Hetzner como compute de produção para frontend, backend/APIs e aplicações TRCon
+- Coolify no Hetzner como orquestrador de deploy, proxy e serviços
+- Neon PostgreSQL como banco gerenciado externo
+- Redis, RabbitMQ e Workers IA como serviços privados no Coolify quando houver demanda concreta
+- GitHub Actions para pipeline de conteúdo (2x/dia) e validação de CI
 - docker-compose para ambiente local (backend + Postgres)
 
 ## Quando usar backend
@@ -95,7 +99,7 @@ Detalhamento por camada de código em [05-BACKEND-ARQUITETURA-MVC.md](./05-BACKE
 ## Regra de atualização automática
 
 - pipeline de conteúdo: 2 execuções diárias (08:00 e 20:00 UTC)
-- deploy de backend: sob demanda via CI/CD (merge em `main` após pipeline verde com gate de cobertura ≥ 80%)
+- deploy de produção: via Coolify/Git webhook após pipeline verde com gate de cobertura ≥ 80%
 
 ## Observabilidade mínima
 
@@ -117,6 +121,7 @@ Detalhamento por camada de código em [05-BACKEND-ARQUITETURA-MVC.md](./05-BACKE
 - frontend público leve (`site/frontend`)
 - backend próprio MVC para persistência e regras transacionais (`site/backend`)
 - conteúdo editorial gerado offline
-- infraestrutura e pipelines centralizados em `site/infra`
+- produção em Cloudflare + Hetzner + Coolify + Neon, conforme [12-DEPLOY.md](./12-DEPLOY.md)
+- infraestrutura local e pipelines centralizados em `site/infra`
 - cobertura de testes ≥ 80% como critério de aceite de qualquer entrega de backend
 - evolução incremental, guiada por SOLID e pelo [09-PLANO-EXECUCAO-IA.md](./09-PLANO-EXECUCAO-IA.md)

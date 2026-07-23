@@ -34,8 +34,10 @@ de manutenção, menor custo cognitivo, maior consistência.
 
 ## O que não usar no início
 
-Spring WebFlux, microsserviços, Kafka, Redis, NoSQL, mensageria distribuída,
-arquitetura orientada a eventos como fundação inicial. Só entram com demanda concreta.
+Spring WebFlux, microsserviços, Kafka, NoSQL e arquitetura orientada a eventos
+como fundação inicial. Redis, RabbitMQ e Workers IA podem existir na
+infraestrutura Coolify do ecossistema, mas o backend do site só deve depender
+deles quando houver demanda concreta.
 
 ## Arquitetura recomendada
 
@@ -93,8 +95,8 @@ para regras completas e exemplos.
 
 ## Deploy e operação
 
-- aplicação Spring Boot empacotada em container (imagem definida em `site/infra`)
-- PostgreSQL gerenciado ou em container, conforme ambiente
+- aplicação Spring Boot empacotada em container (`backend/Dockerfile`) e publicada pelo Coolify no Hetzner
+- PostgreSQL gerenciado no Neon em produção; Postgres em container apenas no ambiente local
 - variáveis por ambiente (`local`, `dev`, `prod`)
 - healthcheck via Actuator
 

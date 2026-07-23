@@ -1,0 +1,8 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:${DB_PORT:5434}/trcon_site}
+    username: ${DB_USERNAME:trcon}
+    password: ${DB_PASSWORD:trcon}

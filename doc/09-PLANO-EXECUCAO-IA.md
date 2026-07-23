@@ -42,7 +42,7 @@ trcongroup/
 | 5 | ✅ **Concluída.** Integração frontend → backend: módulo `lead-form.js` (`buildLeadPayload`/`submitLead`/`mensagemDeErro`), formulário com `tipoInteresse`, CTAs pré-selecionando o tipo via `data-lead-type`, config apontando para `/api/v1/site/leads`. Validado no navegador: 201 (persistido), 409 duplicado e fallback de backend offline. 32 testes Vitest | 1–2 sessões | Testar formulário ponta a ponta em ambiente de teste | Fases 1, 2, 4 |
 | 6 | ✅ **Concluída.** Pipeline SOLID (`core`/`providers`/`builders` + scripts finos) gerando `ai-radar.json`, `tech-radar.json`, `home-highlights.json`, `news-log.json` (shape = contratos do backend). 16 testes unittest, fallback ao último artefato validado, workflow `update-content.yml` 2x/dia | 2–3 sessões | Aprovar curadoria/fontes usadas | Fase 3 |
 | 7 | ✅ **Concluída.** Home com seções Radar TRCon (highlights) e Novidades (news), módulo `content.js` (`fetchWithFallback` API→JSON) + renderizadores puros. Validado no navegador: consome da API quando disponível (`source: api`) e cai para JSON estático quando o backend está fora (`source: json`). 45 testes Vitest | 1–2 sessões | Validar comportamento degradado (backend fora do ar) | Fases 1, 5, 6 |
-| 8 | ⏳ **Artefatos prontos (aguardando provisionamento humano).** `render.yaml` (Blueprint), `fly.toml`, `backend-cd.yml`, `env.js` (injeção de URLs), `application.yml` prod (PORT/DB por partes) e runbook [12-DEPLOY.md](./12-DEPLOY.md). Falta: criar contas cloud, domínio e segredos — ver "limite honesto" no runbook | 1 sessão de execução + tempo de provisionamento externo (contas, DNS) | Aprovar custo de infra e liberar produção | Fases 1–7 |
+| 8 | ⏳ **Documentação atualizada para produção alvo.** Rota oficial: Cloudflare → Hetzner → Coolify → aplicações/serviços, com banco no Neon. Artefatos Render/Fly ficam como legado até serem removidos ou substituídos por configuração Coolify. Falta: provisionar Hetzner, Coolify, Cloudflare, Neon, domínios e segredos — ver [12-DEPLOY.md](./12-DEPLOY.md) | 1 sessão de execução + tempo de provisionamento externo (servidor, DNS, banco, segredos) | Aprovar custo de infra e liberar produção | Fases 1–7 |
 | 9 | Consolidação: observação, ajuste fino, decisão de descontinuar `fluxo-caixa-app/site-trcon` | contínuo | Decisão explícita de corte | Fase 8 estável |
 
 ## Estimativa de calendário
@@ -71,18 +71,18 @@ e ferramentas**:
 | Item | Estimativa mensal (BRL) | Observação |
 |---|---|---|
 | Domínio (.com.br ou .com) | ~R$ 3–5/mês (cobrança anual ~R$ 40–60) | já pode existir |
-| Hospedagem do backend (container pequeno: Fly.io, Render, Railway ou VPS básica) | R$ 30–120/mês | plano de entrada é suficiente para o volume inicial (site institucional, baixo tráfego) |
-| PostgreSQL gerenciado (ou incluso no mesmo provedor) | R$ 0–60/mês | planos free/hobby cobrem a fase inicial; revisar se volume de leads crescer |
+| Hetzner VPS para frontend, backend, Hub, Agendador, APIs, Redis, RabbitMQ e workers leves | R$ 30–120/mês | começar pequeno e aumentar conforme uso real |
+| Neon PostgreSQL gerenciado | R$ 0–60/mês | planos free/hobby cobrem a fase inicial; revisar se volume de leads crescer |
 | CI/CD (GitHub Actions) | R$ 0 | dentro do free tier para repositório deste porte |
-| Hospedagem do frontend estático (GitHub Pages, Vercel, Netlify ou o provedor atual) | R$ 0 | mantém o modelo atual de baixo custo |
-| Monitoramento/observabilidade básica (Actuator + logs do provedor) | R$ 0 | sem ferramenta paga na fase inicial |
+| Cloudflare para DNS, SSL, CDN, cache e segurança | R$ 0 | plano inicial cobre a borda básica |
+| Monitoramento/observabilidade básica (Actuator + logs do Coolify/servidor) | R$ 0 | sem ferramenta paga na fase inicial |
 | Uso de IA em lote para curadoria de conteúdo (Radar IA/Tecnologia, opcional) | R$ 0–100/mês | só se optar por Nível 2 de IA em lote (ver `ARQUITETURA-CANONICA` herdado); começar em Nível 1 (sem custo) |
 | Uso de Claude Code para execução do desenvolvimento | custo já coberto pelo plano/assinatura de uso da ferramenta em vigor | não é custo adicional de infraestrutura do produto |
 
 **Estimativa total de operação mensal na fase inicial: R$ 35 a R$ 200/mês**,
-podendo começar próximo de R$ 35–60/mês usando tiers gratuitos/hobby de
-hospedagem e banco, subindo conforme tráfego e volume de leads justificarem
-planos pagos maiores.
+podendo começar próximo de R$ 35–120/mês com Hetzner pequeno, Cloudflare free e
+Neon free/hobby, subindo conforme tráfego, workers e volume de dados
+justificarem planos maiores.
 
 Custo de setup único (não recorrente): domínio (se ainda não houver), eventual
 taxa de configuração de conta cloud — tipicamente R$ 0–100.

@@ -1,7 +1,8 @@
 # TRCon Site — Infra
 
 Infraestrutura e orquestração do site TRCon: ambiente local (Docker Compose),
-pipelines de CI/CD, configuração de deploy.
+pipelines de CI/CD e configuração de deploy. A produção oficial é
+Cloudflare + Hetzner + Coolify + Neon, conforme `../doc/12-DEPLOY.md`.
 
 ## Status
 
@@ -10,7 +11,8 @@ pipelines de CI/CD, configuração de deploy.
   PostgreSQL e foi validado ponta a ponta (health `UP`, migrations aplicadas,
   `POST /api/v1/site/leads` persistindo, `GET /api/public/highlights` e
   `/news` respondendo, 409 em duplicado e 400 em payload inválido).
-- **Fase 8 (deploy real):** pendente.
+- **Fase 8 (deploy real):** documentação atualizada para Hetzner + Coolify +
+  Neon; provisionamento externo pendente.
 
 ## Ambiente local (Docker Compose)
 
@@ -53,7 +55,8 @@ Arquivos:
   > O workflow assume `trcongroup/site` como raiz do repositório git (é onde a
   > pasta `.github/` vive). Se o repositório for inicializado em outro nível,
   > mover `.github/` para a raiz e ajustar os `paths:` do workflow.
-- Pipeline de CD (build de imagem + deploy do backend): pendente (Fase 8).
+- Pipeline de CD (build/deploy de produção): deve ser configurado no Coolify por
+  Git/webhook após CI verde. O workflow antigo de Render/Fly é legado.
 - Pipeline de conteúdo recorrente (2x/dia — herdado do workflow atual em
   `fluxo-caixa-app/site-trcon/.github/workflows/update-site-data.yml`): pendente
   (entra na fase de migração do frontend).

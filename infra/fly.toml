@@ -1,10 +1,11 @@
-# Fly.io — alternativa de deploy do BACKEND (o Postgres é criado à parte com
-# `fly postgres create` e conectado com `fly postgres attach`).
-# Uso: a partir de site/backend, `fly launch --copy-config --no-deploy` usando
-# este arquivo, depois `fly deploy`. Docs: https://fly.io/docs/reference/configuration/
+# LEGADO — alternativa antiga de deploy do backend via Fly.io.
 #
-# O frontend estático pode ir para Fly (via Dockerfile de nginx) ou, mais simples,
-# para um host estático gratuito (GitHub Pages / Netlify / Cloudflare Pages).
+# A rota oficial de produção agora é Cloudflare + Hetzner + Coolify + Neon.
+# Este arquivo permanece apenas como referência histórica até ser removido.
+# Uso legado: a partir de site/backend, `fly launch --copy-config --no-deploy`
+# usando este arquivo, depois `fly deploy`.
+#
+# O frontend da rota oficial deve rodar no Coolify/Hetzner atrás do Cloudflare.
 
 app = "trcon-site-backend"
 primary_region = "gru" # São Paulo
