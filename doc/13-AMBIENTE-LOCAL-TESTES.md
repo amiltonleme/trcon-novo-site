@@ -125,7 +125,7 @@ window.TRCON_NEWS_API_URL = 'http://localhost:8081/api/public/news';
 
 | Seção na home | API | Conteúdo |
 |---|---|---|
-| **Radar TRCon** | `/api/public/highlights` | Curadoria IA/tecnologia (`daily_highlights`). Se API vazia → fallback `data/home-highlights.json` |
+| **Radar TRCon** | `/api/public/highlights` | Destaques (`daily_highlights`) — alimentado pelo Sirius Marketing via `POST /api/internal/highlights`; fallback JSON se API vazia |
 | **Novidades TRCon** | `/api/public/news` | Artigos publicados pelo Sirius Marketing (`news_items`) |
 
 Não são o mesmo feed. Antes da API, ambos pareciam iguais porque usavam JSON derivado do radar.
@@ -243,9 +243,9 @@ Com backend e frontend rodando:
 {"status":"UP"}
 ```
 
-3. Abrir `http://localhost:8081/api/public/highlights`.
-4. Abrir `http://localhost:8081/api/public/news`.
-5. Abrir `http://127.0.0.1:4173`.
+3. Abrir `http://localhost:8081/api/public/highlights` (Radar — após aprovar artigo no marketing, deve listar destaque).
+4. Abrir `http://localhost:8081/api/public/news` (Novidades — artigos aprovados).
+5. Abrir `http://127.0.0.1:4173` — conferir seções **Radar TRCon** e **Novidades TRCon**.
 6. Enviar o formulário de contato.
 7. Esperar HTTP 201 no primeiro envio.
 8. Reenviar o mesmo lead e esperar HTTP 409.
@@ -305,7 +305,7 @@ PostgreSQL com:
 | `Failed to determine a suitable driver class` ao iniciar o backend | backend iniciou sem profile ativo | profile **`dev`** (default) ou Active profiles = `dev` |
 | `FATAL: autenticação do tipo senha falhou` | Postgres de outro projeto ou credenciais erradas | conferir porta (`5434`); `DB_URL=...5434/trcon_site` |
 | `localhost:8081` não abre | backend não subiu ou porta ocupada | marketing usa `:8080`; site deve usar `:8081` |
-| Radar vazio, Novidades ok | feeds distintos; highlights API vazia | esperado — Radar usa JSON fallback; Novidades = marketing |
+| Radar vazio, Novidades ok | highlights ainda não publicados ou site backend antigo | aprovar artigo no marketing (S3.2); reiniciar site backend (Flyway V5); conferir `GET /api/public/highlights` |
 | Frontend abre, mas formulário não envia | `env.js` ou CORS | conferir `TRCON_CORS_ALLOWED_ORIGINS` e URLs em `env.js` |
 | `npm test` falha por dependência ausente | `node_modules` não instalado | rodar `npm install` em `frontend/` |
 | Backend falha por banco indisponível | PostgreSQL local não está pronto | aguardar health do container ou recriar com `docker compose up -d postgres` |

@@ -47,8 +47,11 @@ public class DailyHighlight {
     @Column(name = "updated_at", nullable = false)
     private Instant updatedAt;
 
+    @Column(name = "external_id", length = 120)
+    private String externalId;
+
     private DailyHighlight(UUID id, String category, String title, String summary, String link,
-                            int priority, boolean active, Instant publishedAt, Instant now) {
+                            int priority, boolean active, Instant publishedAt, Instant now, String externalId) {
         this.id = id;
         this.category = category;
         this.title = title;
@@ -59,12 +62,35 @@ public class DailyHighlight {
         this.publishedAt = publishedAt;
         this.createdAt = now;
         this.updatedAt = now;
+        this.externalId = externalId;
     }
 
     public static DailyHighlight novo(String category, String title, String summary, String link,
                                        int priority, boolean active, Instant publishedAt) {
         Instant now = Instant.now();
         return new DailyHighlight(UUID.randomUUID(), category, title, summary, link, priority, active,
-                publishedAt, now);
+                publishedAt, now, null);
+    }
+
+    public static DailyHighlight fromMarketing(
+            String category,
+            String title,
+            String summary,
+            String link,
+            int priority,
+            Instant publishedAt,
+            String externalId) {
+        Instant now = Instant.now();
+        return new DailyHighlight(
+                UUID.randomUUID(),
+                category,
+                title,
+                summary,
+                link,
+                priority,
+                true,
+                publishedAt,
+                now,
+                externalId);
     }
 }
