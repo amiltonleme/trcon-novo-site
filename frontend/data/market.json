@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T21:02:41.455802+00:00",
+  "generated_at": "2026-07-23T10:08:53.538927+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -23,19 +23,19 @@
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 65.884",
-      "change": "-0,62%",
+      "value": "US$ 65.645",
+      "change": "-0,34%",
       "direction": "down"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 1.926",
-      "change": "+0,34%",
+      "value": "US$ 1.924",
+      "change": "+0,07%",
       "direction": "up"
     },
     {
       "symbol": "OURO",
-      "value": "US$ 4.134",
+      "value": "US$ 4.092",
       "change": "estavel",
       "direction": "flat"
     },
@@ -90,8 +90,8 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 65.884",
-      "change": "-0,62%",
+      "quote": "US$ 65.645",
+      "change": "-0,34%",
       "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -101,8 +101,8 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 1.926",
-      "change": "+0,34%",
+      "quote": "US$ 1.924",
+      "change": "+0,07%",
       "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -112,7 +112,7 @@
       "id": "gold",
       "name": "Ouro",
       "icon": "🥇",
-      "quote": "US$ 4.134",
+      "quote": "US$ 4.092",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -144,12 +144,20 @@
   ],
   "news": [
     {
+      "title": "Dólar fecha a R$ 5,05 no menor patamar desde junho e Bolsa sobe 2,4%",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQV01abzg4VkhyTUhtT3hHU1hIZUxpSXo4QmVPWGJhLXpWbDNNNHRlN0tiT2d3Sk9TSktVa3V3djJJbjJsMW4yRlQxSXRDdEFYMXJSSkR2cFEwQlZ5QllleG5sLXZuS2Z6TUtZNEprUDNNbTZCbzVXQzg2OHAwUkdJMg?oc=5"
+    },
+    {
+      "title": "Queda do dólar impulsiona Bolsa diante da alta do petróleo",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMGZWbjBFdVdJMkY3bVAzNlpzVUdqT0ZvOVlwNXZhVlpEdjBoQWRyUndYQ2JZbzJ2ZkxySkZUUUk5R1puTmNUaGlPUjMySUl3X0JJTjFMbng1aElVWmpkUHMzaWlHbERPblI4amFOUHdQMnZaVU9LT2s5UFROU01seTgtdlRjX0ZsRExORTdrOERjcklWQ3Bxcy1jaXNtVDVQQXowOTNrOWdkNmdFRlpz0gG0AUFVX3lxTE9QN3Fib2s1TWQ1TVNLQ1NxQWJOaUhFNGZrOS12aWxJdm5NdVBsVWJiV2ozVTJwbkhWQlhyRENVM0dBMThTV01JSWl5dVhfZ0trLW9lRlhDaXhuejVCdjBNZDRsMXVmNU51cW9DTlJjSmQyLWNSX2V6bTRYbmFDOU9RRjVyY3lrM0E5c1h2OFc5dTdiazZwRllCVDRNNWxKTlRHcUNRSUJOMlZ3eEJxcWp5MnZaZQ?oc=5"
+    },
+    {
       "title": "Dólar cai abaixo de R$ 5,09 enquanto Bolsa acumula quarta baixa consecutiva",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNzU1cnVDZ194NW5PMDRhcC15Y0thZU1ieEtrSldNeldid0NwckdfR3lHZ1V3RktraWIxNHdyM0RYQTNHWFJacDgzUE9aX2daQVRvMF93dURpN01va3ljSHUxdzlaSy0zcF9IdkczWXlDNVJnNFl4T1RWLWNXNU1EcFRCWjVQSmlQeTBINjMtaUFuX2hXWjJiZjlpaV9nVGlkdTR1OWdIVUE5clUwNVF4Rw?oc=5"
     },
     {
-      "title": "O que esperar da Bolsa e do dólar em julho após guerra e juros ditarem o ritmo dos mercados",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQekF3WTBBeGplQndvVExVTUd4OXdOazhxRVE2clBCQlQzejFQRkQwWHN3Q1F0cU42WnR1RVpKaWVvR0VmQkoyOG9Ja3cwbHktdkxBaXU1WFRKb3ZFZ0EtVkNDY1JWZkMzV3dGSEw0RzQ3QTBHQ3prNXB2SFQwLTRySDdwT1dTV3FPN2I3eDdiZXpRb0ZvTDNjbzZZMkNfR09Zc1BWdHRxRTdSdmxsbUFUdThDeFdjSE5Lc0tJSU96enoxN1c5S2R6YUxnQldyeV9tU2sxMmc2SDA4a3VVYS0yOEhJdnXSAeoBQVVfeXFMTkJ3RjI1NURKSnlmMzVHMzA2Q25XVkYxUHYwOVNsUm1WeUVucE1KQ09HWlIyY1Z5NElQMlRFSWNzdHFMRno0Zm9yejBLLTJZdE9Ma21XNk9YOFViS1NMaHVsU1J1LW5UNWlWZ3dZU0RfS1NGTmFraERkTVdmUEJSUUpoaFNlV1FwMHRLY3ZOMGtjcG10eFN1cEp4QklGZUV6TG5FRGEzZ0IyY1B2V1hYQlBrQWFsRTh4bXZ1aHh0cGVMQ3A1UzFESFhRUzFza0JKRk1Qa1pLMGZYSXlzMkJqTkpqaGEzcUlCUzR3?oc=5"
+      "title": "Gestores elevam cautela com Brasil e reduzem otimismo com Ibovespa, diz BofA",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORE0ycUdwMmU3LTFhWDZyRTFNVVBaWlI1TVZqd3A4NzhyeE9QT1VfVDVwRndMdjVrV0ltZGFpYmxtcXc3cWh4Tzd1X0RPTjJSeVhHaGNDTHBHTnExaXcyMWVnYkg2aVkzRTU2R0NxdEtHbm5HdnRSZ24tTlRLRGFzM3VENnoxcEU2cTFkTm5HR1hocjVEX1VoZC13R25MWTlvMUhMLVVPdWNfNHNvRHdDZkt0RENMM2dTRjNNV29kbmludHoxYmcxa0hXeTNxUVRYVjRyZll4V3RYS3FHTG5MOElVLWtYcDdhbDdr0gHwAUFVX3lxTE9iY3hQZXhoZTRtcHNKNEZyYUNpQVVTYnV2UXpvTEdkTjRKNk1EbVEzQkNiM1p4cjd3QmE3dWlpZWgtZmQ3LUpIajhaOEJsX3ZtbkNJcnVyOWpScWZqNWgzZFA4UkJHYnZIVkh5aVR5cjlZWmdjbFpuSmpZN3o2OWNybFhJNlhZZnZydVk3Xzl1QXRhdjlva1NGRU9IckJXT2tscHBER3lFRVhyYjlxblJjS1V4aVJ6NThQQUVxY1lNT0tUT0s3S2FiM3N6MUFjdG5rY01KbXdMTTljVDJuX3d4bHBseHhoRHRfZTJtTDU5Uw?oc=5"
     },
     {
       "title": "Bolsa sobe 0,76%, puxada por juros futuros; Dólar é cotado a R$ 5,17",
@@ -166,20 +174,12 @@
     {
       "title": "Ibovespa inverte sinal e fecha em queda após Fed; dólar sobe a R$ 5,11",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWnVEZmc1eTl4Q0lNU0w5MGdLVVhDMDJ0QWZSdzVQX1RYVkJpdkVCZ3N5dll0TG01emg2MzQwN2hKR1gydFMwYjFrejZsZEhUbzBKLVVsX1B0YXBXcFdxM0RPbXZ6a3I2NFJWT0ZCUEIzb090WUhfeEdqMlBXSlZ6M3RuRC12bVlWNUJMMzZpcTJUS24zNHF4cXlB?oc=5"
-    },
-    {
-      "title": "Ibovespa tem terceira alta seguida, com bancos e Petrobras, na contramão do exterior",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZGNHdEFQUUp5cTBBYTF1dmF0SUhIa1U3S1dKOThCVXZaQWw0bjU3VDRBRW5yQjBqclB3TUh3Y2M5a3l6YW1ROHQyUS1jdVVIaU5rUzFJUDVhaDV3OFB6ZHdmb2lJcm1xZHJsbVRkTVBFTVhoNzBqVlJuejk4dlZUanBkY2pOYTBkTEZ6ZXF2WQ?oc=5"
-    },
-    {
-      "title": "Dólar cede a R$ 5,18 após dados econômicos de Brasil e EUA; Bolsa sobe",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTDBXazV1ZVVBdkkwX0NEWXNReEwzaldCNWI3MXhrOXVrVzhiWU5jV3lVVGc3ZEt6X01McnFwMWh4YlRZbVgwamgwb3QwQW8teE1vajI2UEc2MU5za0hTMjJSeDFHMG9ZNGNYbDMwSG1YYXhndjhfU09WWDNaM1h3d0loSVFIckZ1V1Vnbk5wSlBtTXJBODg1ZUdnd0swZw?oc=5"
     }
   ],
   "market_mood": {
     "label": "Neutro",
     "summary": "O mercado mostra sinais mistos; diversificacao e compras parceladas reduzem o risco de timing.",
-    "score": -1
+    "score": 0
   },
   "errors": []
 }

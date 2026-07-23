@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-07-22T21:02:42.570701+00:00",
+  "generated_at": "2026-07-23T10:08:54.608253+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
+    {
+      "title": "IA pode decidir atacar empresas? Entenda como foi a invasão 'sem precedentes' por modelo da OpenAI",
+      "summary": "IA pode decidir atacar empresas? Entenda como foi a invasão 'sem precedentes' por modelo da OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZERGS3Y5YjhZS0pJdDRpVGtqOXdWTDAyTE9ITHpmWmJadmV1SVQxNDZrREVhVU50NjNwYVpfaWF2N0gza1dVRTl4Ui1LSVNRaGpRWkk1SmZQLU5aNTRueDR2N1M0U2xiYndZV0tFMk9fbG9hdGUtN1NLcEZ1QkhzVnAzQldQeVdBcE5SOEJnNXIyWkludm93c1V6WkpVeXF4TTlyeFJWUENsU3Y4SmJnWmlEb1pSWWYxa1JSVdIBywFBVV95cUxQejFlUXZMWGRKNzJQTVAwa3VINTlGQVd4TWF6elNFYm9mZGNGSnB1N2NORFlZSXVGQmFvaEIxbkhuSTBfM1cyNTlCakpaTWNMblN6T2RoME42UVNNNGYzd3JkdGF1QnQ0VndPSDlWUVZFLVF4T3VLUTJIOXN3LTROb2pZcVpLWWZYYlduNDFoYUpSY29LanJPQXhVbENrWlVHaDE1cXZuZjlyMW5nNXBMWXlTUWppTHI3X2VHUDFfZEdrUFp5WmJCRHlSUQ?oc=5",
+      "source": "G1",
+      "published_at": "Thu, 23 Jul 2026 03:00:10 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
     {
       "title": "Governança de inteligência artificial: o fator estratégico para as empresas",
       "summary": "Governança de inteligência artificial: o fator estratégico para as empresas",
@@ -31,22 +40,13 @@
       "signal": "flat"
     },
     {
-      "title": "Amazon corta empregos na unidade de inteligência artificial geral",
-      "summary": "Amazon corta empregos na unidade de inteligência artificial geral",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYS1RZHQzQkJRdnhNVEktUDc3SDZDVUgxUkJ6NnNaSFNVVVJ3NDc4WWRjZnVQNHNXdlJlUnJUcVVDeVdORzlSZkVoNlY4b1dQMWhPcWhHcjdYRUFmM3NBN1dpOVpLeHVyLVQ5MXpUZ0czSWE2Qnd3cjNfOFpuQzRRdjJzS1N0UHpteGNWbVFKcENYWC1pVkhtQkxtRnNzRGhNYkdsazh5VVdqX2xadl9HRnFjLTR2OERoWkJHbHF2NUHSAc8BQVVfeXFMUE5qS2RKVzNWM1k5MDVPWFlOTlcwSzBUNk9JdW5iQWVNS1lvMWFxQmJWMXhJUEtHRzJDbUF1alo4d283ajRLazluUUo1X2tBNHVjNlJCTEgxT0VYNnRDVVRFajJyWXBsV0ZsdElvVmlvZlduOExvbUU5VVZ0M3QyakM3RlBiY2lubWRnRjZid3RXMTRpZWtZbFJoa24xMDVNZ0RTYUFfT3BCQ3pKbksyT1hBMzBVR0prRmdyNDRNa1E0bjVSTlJ0WEM0d3l0bW5Z?oc=5",
-      "source": "Valor Econômico",
-      "published_at": "Wed, 22 Jul 2026 15:53:54 GMT",
+      "title": "Profissionais de IA: por que o mercado disputa esses especialistas?",
+      "summary": "Profissionais de IA: por que o mercado disputa esses especialistas?",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdVEzQnM5OXMyckJOaWR4elBfS2JGaldVTDYtNW5fME9CUTQ0VGk0ZS0zemFFOS1iVjR1RHlzb3ZJLWpHb09GeHhCX0swd09nSFpjNnhKQTkwamJJRHJkR3E5dE5KeGJVblpMUXJZODQzYTV6UmxrNjAzYXU3ZzNtbm1YT3ZMSTdfd3VhT2FDdUZwUFNoQXhhQktoU3lmU2k5YWV1LWdVY2RjTzVuRXhTWE9JUWpGWElGTHBhWF9uWFhMeVRmV0lGbnYxVGJvQdIB0wFBVV95cUxOQi1KZ25UQ0UzTjZuVzZPblhmN0FrS0RFSGROLXM0WUpESFhSVUFSWHR0NTJFN3JuRTNvT0tHN25kc1JXYnVjV3FjbWd2cHZjVmp4VC1nZTMwSVl3QVRBQ28yU2lNc1lJQkNKS3NtNm5XQXJ2UkFTazJ6Q2JzWkVGSmFDaGRORElMdWRqVjlDb3RIQmt1eXY2U2VodHlZb0l5TlJzTWFBUVpRNXVyTlRhZTZwcXE3VndEMTVZNGZfdkhHcDdPUEJ6VnI1Szd1cTlsS2dv?oc=5",
+      "source": "Correio Braziliense",
+      "published_at": "Mon, 20 Jul 2026 23:31:00 GMT",
       "category": "IA",
       "signal": "flat"
-    },
-    {
-      "title": "OpenAI lança o Presence, plataforma para aprimorar o uso de agentes de IA nas empresas",
-      "summary": "OpenAI lança o Presence, plataforma para aprimorar o uso de agentes de IA nas empresas",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOOWkzdzIxc25Xb0pERlRGYzNKYTBaNl85MUhuUTg5dW1TQnpmdmRqNW9acWdZZ2FEUVZMVzNXYU1vNW4zY2lJYXo1U0dkUndRUkcyRVZfNFdHRDlKdDkwZTNNRGhTOXlpSl94a2ZjNEJNOHNyV2RCN1VEQWhHTDNPWjhHZmNITEtoRlhPT3M1M1lEUUE2UGtuYkxPc3VmcjN3SlBCN0xWYjNhYTlNUC12XzBibjRTOGFXcGRDYTVraFkzV0o0SlZZSnNJZDA2bTh4blR0YTZVS2p5SHBPWHJQeDNVTQ?oc=5",
-      "source": "Olhar Digital",
-      "published_at": "Wed, 22 Jul 2026 17:50:00 GMT",
-      "category": "IA",
-      "signal": "up"
     },
     {
       "title": "OpenAI diz que IA escapou de teste e lançou ataque cibernético",

@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-07-22T21:02:43.634705+00:00",
+  "generated_at": "2026-07-23T10:08:55.681220+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
+    {
+      "source": "G1",
+      "category": "IA",
+      "title": "IA pode decidir atacar empresas? Entenda como foi a invasão 'sem precedentes' por modelo da OpenAI",
+      "summary": "IA pode decidir atacar empresas? Entenda como foi a invasão 'sem precedentes' por modelo da OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZERGS3Y5YjhZS0pJdDRpVGtqOXdWTDAyTE9ITHpmWmJadmV1SVQxNDZrREVhVU50NjNwYVpfaWF2N0gza1dVRTl4Ui1LSVNRaGpRWkk1SmZQLU5aNTRueDR2N1M0U2xiYndZV0tFMk9fbG9hdGUtN1NLcEZ1QkhzVnAzQldQeVdBcE5SOEJnNXIyWkludm93c1V6WkpVeXF4TTlyeFJWUENsU3Y4SmJnWmlEb1pSWWYxa1JSVdIBywFBVV95cUxQejFlUXZMWGRKNzJQTVAwa3VINTlGQVd4TWF6elNFYm9mZGNGSnB1N2NORFlZSXVGQmFvaEIxbkhuSTBfM1cyNTlCakpaTWNMblN6T2RoME42UVNNNGYzd3JkdGF1QnQ0VndPSDlWUVZFLVF4T3VLUTJIOXN3LTROb2pZcVpLWWZYYlduNDFoYUpSY29LanJPQXhVbENrWlVHaDE1cXZuZjlyMW5nNXBMWXlTUWppTHI3X2VHUDFfZEdrUFp5WmJCRHlSUQ?oc=5",
+      "publishedAt": "Thu, 23 Jul 2026 03:00:10 GMT"
+    },
     {
       "source": "NSC Total",
       "category": "IA",
@@ -28,20 +36,12 @@
       "publishedAt": "Wed, 22 Jul 2026 17:54:50 GMT"
     },
     {
-      "source": "Valor Econômico",
+      "source": "Correio Braziliense",
       "category": "IA",
-      "title": "Amazon corta empregos na unidade de inteligência artificial geral",
-      "summary": "Amazon corta empregos na unidade de inteligência artificial geral",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYS1RZHQzQkJRdnhNVEktUDc3SDZDVUgxUkJ6NnNaSFNVVVJ3NDc4WWRjZnVQNHNXdlJlUnJUcVVDeVdORzlSZkVoNlY4b1dQMWhPcWhHcjdYRUFmM3NBN1dpOVpLeHVyLVQ5MXpUZ0czSWE2Qnd3cjNfOFpuQzRRdjJzS1N0UHpteGNWbVFKcENYWC1pVkhtQkxtRnNzRGhNYkdsazh5VVdqX2xadl9HRnFjLTR2OERoWkJHbHF2NUHSAc8BQVVfeXFMUE5qS2RKVzNWM1k5MDVPWFlOTlcwSzBUNk9JdW5iQWVNS1lvMWFxQmJWMXhJUEtHRzJDbUF1alo4d283ajRLazluUUo1X2tBNHVjNlJCTEgxT0VYNnRDVVRFajJyWXBsV0ZsdElvVmlvZlduOExvbUU5VVZ0M3QyakM3RlBiY2lubWRnRjZid3RXMTRpZWtZbFJoa24xMDVNZ0RTYUFfT3BCQ3pKbksyT1hBMzBVR0prRmdyNDRNa1E0bjVSTlJ0WEM0d3l0bW5Z?oc=5",
-      "publishedAt": "Wed, 22 Jul 2026 15:53:54 GMT"
-    },
-    {
-      "source": "Olhar Digital",
-      "category": "IA",
-      "title": "OpenAI lança o Presence, plataforma para aprimorar o uso de agentes de IA nas empresas",
-      "summary": "OpenAI lança o Presence, plataforma para aprimorar o uso de agentes de IA nas empresas",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOOWkzdzIxc25Xb0pERlRGYzNKYTBaNl85MUhuUTg5dW1TQnpmdmRqNW9acWdZZ2FEUVZMVzNXYU1vNW4zY2lJYXo1U0dkUndRUkcyRVZfNFdHRDlKdDkwZTNNRGhTOXlpSl94a2ZjNEJNOHNyV2RCN1VEQWhHTDNPWjhHZmNITEtoRlhPT3M1M1lEUUE2UGtuYkxPc3VmcjN3SlBCN0xWYjNhYTlNUC12XzBibjRTOGFXcGRDYTVraFkzV0o0SlZZSnNJZDA2bTh4blR0YTZVS2p5SHBPWHJQeDNVTQ?oc=5",
-      "publishedAt": "Wed, 22 Jul 2026 17:50:00 GMT"
+      "title": "Profissionais de IA: por que o mercado disputa esses especialistas?",
+      "summary": "Profissionais de IA: por que o mercado disputa esses especialistas?",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdVEzQnM5OXMyckJOaWR4elBfS2JGaldVTDYtNW5fME9CUTQ0VGk0ZS0zemFFOS1iVjR1RHlzb3ZJLWpHb09GeHhCX0swd09nSFpjNnhKQTkwamJJRHJkR3E5dE5KeGJVblpMUXJZODQzYTV6UmxrNjAzYXU3ZzNtbm1YT3ZMSTdfd3VhT2FDdUZwUFNoQXhhQktoU3lmU2k5YWV1LWdVY2RjTzVuRXhTWE9JUWpGWElGTHBhWF9uWFhMeVRmV0lGbnYxVGJvQdIB0wFBVV95cUxOQi1KZ25UQ0UzTjZuVzZPblhmN0FrS0RFSGROLXM0WUpESFhSVUFSWHR0NTJFN3JuRTNvT0tHN25kc1JXYnVjV3FjbWd2cHZjVmp4VC1nZTMwSVl3QVRBQ28yU2lNc1lJQkNKS3NtNm5XQXJ2UkFTazJ6Q2JzWkVGSmFDaGRORElMdWRqVjlDb3RIQmt1eXY2U2VodHlZb0l5TlJzTWFBUVpRNXVyTlRhZTZwcXE3VndEMTVZNGZfdkhHcDdPUEJ6VnI1Szd1cTlsS2dv?oc=5",
+      "publishedAt": "Mon, 20 Jul 2026 23:31:00 GMT"
     },
     {
       "source": "VEJA",
@@ -50,6 +50,14 @@
       "summary": "OpenAI diz que IA escapou de teste e lançou ataque cibernético",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU0hROV9SU0ZxSWM5WnNJaVp1WGRRNW5RTE81d2ZBNnNPUkduanUxY3h1OFhwUk5PbHR1Z0M1WnNQWmF4Yll1dGV6TmF4RDloT2hqeUVqdTYxdlRBRk1DSHBuekE3aU1QN1kzenpfWWhiZ2JQZE56dENSazRzeFBmMVI5emd4ZkYzN28tRC1QRnN4bGNyRHA2OTdQeG1kLXc?oc=5",
       "publishedAt": "Wed, 22 Jul 2026 16:43:40 GMT"
+    },
+    {
+      "source": "www.gov.br",
+      "category": "Tecnologia",
+      "title": "ONU Meio Ambiente inclui software brasileiro em plataforma de conversão de dados globais de sustentabilidade",
+      "summary": "ONU Meio Ambiente inclui software brasileiro em plataforma de conversão de dados globais de sustentabilidade",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOd1prTU9tbDJSdlNBRUJEOGdTU2U0NDV0Ymp1Z1ptRTRjSF96R1ViQlNhcklqY3NRQWRCbVhSYjlMN0VsM1BxWkNyN1RkcWlqMWFMXzRuY0JNT1ZnbXpucU1SWkYtTS11OU1uU0tUd3M4TnpOU20xTEVRMF93WUhWQUJoX0tyY1pOSUU0UHdmaW92TUFVTC0zV0YzVUhYVThSVkcyLTIyVzd3SlhzS3k2Vk4zU3dvTmFNNGFfWVI5bUpzdTNzVklNYlltSDhHUjdrMXZGVnZOaXZ3MWpzczgxTUFZR1BPaUtyOHJpcndMUG4wSDlFaWw5XzFNVERkZUxXYnc?oc=5",
+      "publishedAt": "Fri, 06 Feb 2026 08:00:00 GMT"
     },
     {
       "source": "TI INSIDE Online",
@@ -90,14 +98,6 @@
       "summary": "O desenvolvimento de software entra em uma nova fase",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSnpBeW1nUVZVRFp3cWlWRVB3RVV1blJjSEwwcFFpU2UyQ3h2Zk56M3Fjby1JU2JqdUhEMlR2X2dCQlBVTHlnd2R5b3ZhdTRhUjZ4c0pfVGpnUjIzMW5HU0pzMDVDTDFHRnZkNVlqMHh5UHNmNW5rdUhFQWVMeDh5QXY0WEhJcU1kS3FId2dIRQ?oc=5",
       "publishedAt": "Mon, 08 Jun 2026 07:00:00 GMT"
-    },
-    {
-      "source": "Maringá Post",
-      "category": "Tecnologia",
-      "title": "Software by Maringá conecta empresas e impulsiona o desenvolvimento tecnológico",
-      "summary": "Software by Maringá conecta empresas e impulsiona o desenvolvimento tecnológico",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcFMzRGI1RUd2UXRQNFVXeWZ0Y2NpZjBvdVlqMGJLVXJwZ0dZN1JsUERFd292UTdROVZSaV8wOUx4N3pYbEhCNFBKbU9qT09fRnlpaXRIdlhTVGRXaHN2YjR1bk9PUjUyU3hFNVcyU2VQdTd0ZnBobTFPMnBCTXp1ZGdnTDZzNUQ2Rm43UWY1LUhTU082d2ducTctVzMwVmJ2V2FYV2YtZFZYTWdibEthYnpnYXNlcWVySFB0czF5SkJwLTJzbkE?oc=5",
-      "publishedAt": "Mon, 25 May 2026 07:00:00 GMT"
     }
   ]
 }
