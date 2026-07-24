@@ -15,8 +15,12 @@ export function extractItems(payload) {
   return [];
 }
 
-// Busca com fallback: API (se houver URL) -> JSON estático. Retorna
+// Busca com fallback: API (se houver URL e itens) -> JSON estático. Retorna
 // { items, source }. `source` é 'api' ou 'json' (útil para debug/telemetria).
+//
+// Radar (highlights) e Novidades (news) usam endpoints distintos. Se a API
+// responder 200 com lista vazia, cai no JSON — evita esvaziar o Radar quando
+// só Novidades está sendo alimentada pelo Sirius Marketing.
 export async function fetchWithFallback(apiUrl, jsonUrl, deps = {}) {
   const fetchImpl = deps.fetch || (typeof fetch !== 'undefined' ? fetch : null);
   if (!fetchImpl) throw new Error('fetch indisponível neste ambiente.');
@@ -25,7 +29,10 @@ export async function fetchWithFallback(apiUrl, jsonUrl, deps = {}) {
     try {
       const res = await fetchImpl(apiUrl, { headers: { Accept: 'application/json' } });
       if (res.ok) {
-        return { items: extractItems(await res.json()), source: 'api' };
+        const items = extractItems(await res.json());
+        if (items.length > 0) {
+          return { items, source: 'api' };
+        }
       }
     } catch (error) {
       // silencioso: cai para o JSON estático abaixo

@@ -5,6 +5,8 @@ server:
 spring:
   application:
     name: site-backend
+  profiles:
+    default: dev
   jpa:
     hibernate:
       ddl-auto: validate
@@ -25,44 +27,5 @@ management:
 trcon:
   site:
     cors:
-      allowed-origins: ${TRCON_CORS_ALLOWED_ORIGINS:http://localhost:4173,http://127.0.0.1:4173}
-    internal-api-key: ${TRCON_SITE_INTERNAL_API_KEY:dev-internal-key-change-me}
-
----
-spring:
-  config:
-    activate:
-      on-profile: local
-  datasource:
-    url: ${DB_URL:jdbc:postgresql://localhost:${DB_PORT:5432}/trcon_site}
-    username: ${DB_USERNAME:trcon}
-    password: ${DB_PASSWORD:trcon}
-logging:
-  level:
-    br.com.trcon.site: DEBUG
-
----
-spring:
-  config:
-    activate:
-      on-profile: dev
-  datasource:
-    # Aceita DB_URL pronta (ex.: docker-compose) OU compõe a partir das partes
-    # (host/porta/nome) que provedores gerenciados costumam expor separadamente.
-    url: ${DB_URL:jdbc:postgresql://${DB_HOST}:${DB_PORT:5432}/${DB_NAME}}
-    username: ${DB_USERNAME}
-    password: ${DB_PASSWORD}
-
----
-spring:
-  config:
-    activate:
-      on-profile: prod
-  datasource:
-    url: ${DB_URL:jdbc:postgresql://${DB_HOST}:${DB_PORT:5432}/${DB_NAME}}
-    username: ${DB_USERNAME}
-    password: ${DB_PASSWORD}
-management:
-  endpoint:
-    health:
-      show-details: never
+      allowed-origins: ${TRCON_CORS_ALLOWED_ORIGINS}
+    internal-api-key: ${TRCON_SITE_INTERNAL_API_KEY}

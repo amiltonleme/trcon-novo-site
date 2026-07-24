@@ -9,9 +9,9 @@ describe('resolveApiConfig', () => {
       TRCON_HIGHLIGHTS_API_URL: undefined,
       TRCON_NEWS_API_URL: undefined,
     });
-    expect(cfg.leadsApiUrl).toBe('http://localhost:8080/api/v1/site/leads');
-    expect(cfg.highlightsApiUrl).toBe('');
-    expect(cfg.newsApiUrl).toBe('');
+    expect(cfg.leadsApiUrl).toBe('http://localhost:8081/api/v1/site/leads');
+    expect(cfg.highlightsApiUrl).toBe('http://localhost:8081/api/public/highlights');
+    expect(cfg.newsApiUrl).toBe('http://localhost:8081/api/public/news');
   });
 
   it('prioriza TRCON_LEADS_API_URL sobre o legado waitlist', () => {
