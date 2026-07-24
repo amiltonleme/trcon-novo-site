@@ -1,19 +1,6 @@
 {
-  "generated_at": "2026-07-23T20:54:08.898127+00:00",
+  "generated_at": "2026-07-24T10:03:43.834895+00:00",
   "items": [
-    {
-      "tag": "Cartao",
-      "tag_class": "tag-orange",
-      "title": "Transforme o cartao em meio de pagamento, nao credito",
-      "body": "Use o cartao com limite mensal definido e acompanhe a fatura toda semana. Parcelas pequenas somadas reduzem sua renda livre nos meses seguintes.",
-      "meta": [
-        "4 min",
-        "Controle alto"
-      ],
-      "url": "https://www.google.com/search?q=como+usar+cartao+de+credito+sem+se+endividar",
-      "link_label": "Ver cuidados",
-      "featured": true
-    },
     {
       "tag": "Renda Fixa",
       "tag_class": "tag-blue",
@@ -24,7 +11,8 @@
         "Decisao melhor"
       ],
       "url": "https://www.google.com/search?q=como+comparar+CDB+liquidez+imposto+prazo",
-      "link_label": "Ver comparativo"
+      "link_label": "Ver comparativo",
+      "featured": true
     },
     {
       "tag": "Estrategia Mensal",
@@ -67,6 +55,18 @@
       ],
       "url": "https://www.google.com/search?q=como+cancelar+assinaturas+e+economizar+dinheiro",
       "link_label": "Ver checklist"
+    },
+    {
+      "tag": "Mercado",
+      "tag_class": "tag-blue",
+      "title": "Reserva de emergencia vem antes do risco",
+      "body": "Antes de buscar rentabilidade alta, mantenha parte do dinheiro em produto conservador e liquido. Isso evita vender investimentos ruins em uma urgencia.",
+      "meta": [
+        "3 min",
+        "Baixo risco"
+      ],
+      "url": "https://www.google.com/search?q=como+montar+reserva+de+emergencia",
+      "link_label": "Ver passo a passo"
     }
   ]
 }

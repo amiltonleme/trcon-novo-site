@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-07-23T20:54:10.155588+00:00",
+  "generated_at": "2026-07-24T10:03:44.940415+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
-    {
-      "title": "OpenAI: o alerta da empresa Hugging Face, hackeada por modelo 'rebelde' de IA da criadora do ChatGPT",
-      "summary": "OpenAI: o alerta da empresa Hugging Face, hackeada por modelo 'rebelde' de IA da criadora do ChatGPT",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9rMzlvTUFzM2tPdDRjTlFaLUtaWXhpemZtd0VPd0pLSVpIOW0tTjZaYXMzU1Fjd0JnNUY1MDJabHA1UE5VaFU3OVRPR2Vib3JfWHRUbEd4Ny1DamxmMXJDV01R0gFnQVVfeXFMTlBoNDlpb3d1clg3VDVheHpOU0RYQTRXdU1UTHVtUkhqb2hua0JQTmFDeDBOQmpkWTRtajc4Z1JqNmx1NkVvTDZETDBabUEwelpqU0IwYVV6QkNWYVVrUFRkZWpPYkp5TQ?oc=5",
-      "source": "BBC",
-      "published_at": "Thu, 23 Jul 2026 16:46:26 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
     {
       "title": "Depois da Nvidia, quem deve ganhar com a inteligência artificial? As empresas “chatas”, dizem gestores internacionais",
       "summary": "Depois da Nvidia, quem deve ganhar com a inteligência artificial? As empresas “chatas”, dizem gestores internacionais",
       "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNUS1fcDMydDBXOExwNnJDdW1nRWZnS3hpVURDX0trb2lSV1JfNEZqcVptLVBNVHhnV29ZczN0UnhIMWlxZHB5LUlrWndfemFNa05PSS1wbHBJLXhpUFBYbURPNk5GRWpPQTJSVEcwUWVCQzZLcUxsMWQ3TU5RRkJoWFdOeHJCSU9OWmNRbVh1VlVTaDNiajE0VXFkckE2Rm8ydDJoalc2NlIxaHFHUkJYQ3p2UjZEMTJZdzNGQkNTNW1pQ3luSlN0UzBCcTl6RFFuczlKTlNEN3VFZ3I0eVJoUXo3SDRnZ0FwUG82TE1zaXhZTkhSMG5qVENWRk9RYUFUSi00YmxuSklWVXhySEFR?oc=5",
       "source": "Bora Investir",
       "published_at": "Thu, 23 Jul 2026 19:42:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "OpenAI: o alerta do diretor da empresa Hugging Face, atacada por IA 'rebelde'",
+      "summary": "OpenAI: o alerta do diretor da empresa Hugging Face, atacada por IA 'rebelde'",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9rMzlvTUFzM2tPdDRjTlFaLUtaWXhpemZtd0VPd0pLSVpIOW0tTjZaYXMzU1Fjd0JnNUY1MDJabHA1UE5VaFU3OVRPR2Vib3JfWHRUbEd4Ny1DamxmMXJDV01R0gFnQVVfeXFMTlBoNDlpb3d1clg3VDVheHpOU0RYQTRXdU1UTHVtUkhqb2hua0JQTmFDeDBOQmpkWTRtajc4Z1JqNmx1NkVvTDZETDBabUEwelpqU0IwYVV6QkNWYVVrUFRkZWpPYkp5TQ?oc=5",
+      "source": "BBC",
+      "published_at": "Thu, 23 Jul 2026 16:46:26 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -31,15 +31,6 @@
       "signal": "flat"
     },
     {
-      "title": "Amazon corta empregos na unidade de inteligência artificial geral",
-      "summary": "Amazon corta empregos na unidade de inteligência artificial geral",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYS1RZHQzQkJRdnhNVEktUDc3SDZDVUgxUkJ6NnNaSFNVVVJ3NDc4WWRjZnVQNHNXdlJlUnJUcVVDeVdORzlSZkVoNlY4b1dQMWhPcWhHcjdYRUFmM3NBN1dpOVpLeHVyLVQ5MXpUZ0czSWE2Qnd3cjNfOFpuQzRRdjJzS1N0UHpteGNWbVFKcENYWC1pVkhtQkxtRnNzRGhNYkdsazh5VVdqX2xadl9HRnFjLTR2OERoWkJHbHF2NUHSAc8BQVVfeXFMUE5qS2RKVzNWM1k5MDVPWFlOTlcwSzBUNk9JdW5iQWVNS1lvMWFxQmJWMXhJUEtHRzJDbUF1alo4d283ajRLazluUUo1X2tBNHVjNlJCTEgxT0VYNnRDVVRFajJyWXBsV0ZsdElvVmlvZlduOExvbUU5VVZ0M3QyakM3RlBiY2lubWRnRjZid3RXMTRpZWtZbFJoa24xMDVNZ0RTYUFfT3BCQ3pKbksyT1hBMzBVR0prRmdyNDRNa1E0bjVSTlJ0WEM0d3l0bW5Z?oc=5",
-      "source": "Valor Econômico",
-      "published_at": "Wed, 22 Jul 2026 15:53:54 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
       "title": "A advertência de empresa hackeada por modelo 'rebelde' de IA da controladora do ChatGPT: 'É um sinal de alerta'",
       "summary": "A advertência de empresa hackeada por modelo 'rebelde' de IA da controladora do ChatGPT: 'É um sinal de alerta'",
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxObW81M1Z2SDNvNzhEN3NwVTF5T05zeFJxb2ZwVmFIeGpSOUl3d3pPbUFBMGEtVDF4M1YwN3FpZWFVX3VocHlnaV8wR2FhbkxFdEtxN1hPMVNKeElqN1k3MEhVcTJRNWVjalRGZ25EdnFERU1iQXpycnJFcTJ6LXItd1dyZFphMVhoSWhUVjhHbEZTaXh3eGFuQjdhajFFeWFsUm9EdmdiUnVPTkdLejczME9URnp1TFBLVlUyd3dJZERGVURhclBNWUZRTG5aSHFtN1o1YkRzVzByeXJKWVkyNzFaeFlPWldVb1ZnVmYxX0VJSE04dUHSAYQCQVVfeXFMTWJHRm9ubTc0aG84azNBT1NCZWIxTThTTmJXSV9RU0lvWjY4eWJmbldwX256MmVQWmhVLWFtSjZSRlhPNXl3eDBsMmtfS3ZOX3FqeUtic1otTHhWSFVScEtRb0sybjNXdUF0OWZQVGlpSGoyd1ljbUVJZ3NIdElQU0poU29OVlZ5N1pENGhwdWxnYk1vbVJheUxtX0M1M180WUFFVGNUaERXZW9CLTRIdUpRV3lqVlhxTFVxOVdoU0lVa0VMNmgzLWt6b1BmNjVYeE1PdENfVGZMTzcxVEFqczR2NWdLNTREUUdieXFaUFFuNGhiYU13TjNKRFlqdWRWSVhJbDY?oc=5",
@@ -49,11 +40,20 @@
       "signal": "flat"
     },
     {
-      "title": "IA aberta ou fechada? A escolha pode definir o futuro da inteligência artificial",
-      "summary": "IA aberta ou fechada? A escolha pode definir o futuro da inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR1VoWGR1OTZORmdhcF9ySHR4X21MZ1l2ZDV2ME15UWZ3R2t2YmZfTEpwT2VwcFg0NmZ1V2ZFVjhRT1B3VFRWbzRNYy1mMGtPMHdMdWxnY29ydHNfdmM3QW9vdk9PRnNEdzI5NzJrVld0RV9wNE9NVDVDSW1jWU9aVEY5eFRwSXdtU3o4c05SUUJWRHE4UHVERzdWaVVqN2dUWXBCZ1JiTk1tREg0ZzloOGRQMXFIbTN5bGJhMlI1RWlIQQ?oc=5",
-      "source": "Exame",
-      "published_at": "Thu, 23 Jul 2026 10:08:16 GMT",
+      "title": "Empresas precisam mapear uso da inteligência artificial para reduzir riscos jurídicos",
+      "summary": "Empresas precisam mapear uso da inteligência artificial para reduzir riscos jurídicos",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRkFBcDZsbmZScXY3Z2JlOFdpSGpFMUdFQzgxRnljRzd2TE9nU0hLSHlBdHB6UlBrTEdmNFJKbXl6cTdXSVE4RzltNEx1QWFWWGM3VUgyMUJiVnNXM0JmMXZnaHRXSm5KbDhqM1B6a01xN2tQWGliSklKVGtnb1pwcTBDYVY1QU5pU2lnZzl0THdsQWFCUGlSNmJmaDBJV25SM0E?oc=5",
+      "source": "Diário do Comércio",
+      "published_at": "Fri, 24 Jul 2026 08:30:00 GMT",
+      "category": "IA",
+      "signal": "down"
+    },
+    {
+      "title": "Inteligência artificial nas empresas: entenda o que os agentes de IA realmente fazem | SEGS Portal...",
+      "summary": "Inteligência artificial nas empresas: entenda o que os agentes de IA realmente fazem | SEGS Portal...",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNDM0Q1dpdHVsZnJIR3NtbmFSRGtIajlOX3pYRE82TEUxQlNpU2Ixc2JXdzUyUWFrVUxLNVlFMnNrdUZ5dnVoR0lvNEwtclV4S0JsT19mYUVVMHBkTVE2bEZ2N0RQMG51Q3ZyZXZqelRFbkhVVklzS0FoODNfaHVFLWRraFFya1pueVI4RDB3VlJuU3A5aXViemRLTnczWHlQY215d2JKNWdyaDFidndTYmQwUUN0ZXRUcGs2dFRqTGFGWDhj0gHEAUFVX3lxTE80MzRDV2l0dWxmckhHc21uYVJEa0hqOU5felhETzZMRTFCU2lTYjFzYld3NTJRYWtVTEs1WUUyc2t1Rnl2dWhHSW80TC1yVXhLQmxPX2ZhRVUwcGRNUTZsRnY3RFAwbnVDdnJldmp6VEVuSFVWSXNLQWg4M19odUUtZGtoUXJrWm55UjhEMHdWUm5TcDlpdWJ6ZEtOdzNYeVBjbXl3Yko1Z3JoMWJ2d1NiZDBRQ3RldFRwazZ0VGpMYUZYOGM?oc=5",
+      "source": "SEGS Portal Nacional",
+      "published_at": "Mon, 20 Jul 2026 17:40:58 GMT",
       "category": "IA",
       "signal": "flat"
     }
