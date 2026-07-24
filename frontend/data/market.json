@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-07-24T10:03:43.785417+00:00",
+  "generated_at": "2026-07-24T20:56:42.652088+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
     {
       "symbol": "USD/BRL",
-      "value": "R$ 5,08",
+      "value": "R$ 5,07",
       "change": "0,00%",
       "direction": "flat"
     },
     {
       "symbol": "EUR/BRL",
-      "value": "R$ 5,79",
+      "value": "R$ 5,76",
       "change": "0,00%",
       "direction": "flat"
     },
     {
       "symbol": "IBOVESPA",
-      "value": "176.724 pts",
+      "value": "174.042 pts",
       "change": "estavel",
       "direction": "flat"
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 65.098",
-      "change": "-0,74%",
+      "value": "US$ 64.105",
+      "change": "-1,52%",
       "direction": "down"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 1.887",
-      "change": "-1,84%",
+      "value": "US$ 1.859",
+      "change": "-1,33%",
       "direction": "down"
     },
     {
       "symbol": "OURO",
-      "value": "US$ 4.060",
+      "value": "US$ 4.058",
       "change": "estavel",
       "direction": "flat"
     },
@@ -57,7 +57,7 @@
       "id": "usdbrl",
       "name": "Dolar (USD)",
       "icon": "💵",
-      "quote": "R$ 5,08",
+      "quote": "R$ 5,07",
       "change": "0,00%",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -68,7 +68,7 @@
       "id": "eurbrl",
       "name": "Euro (EUR)",
       "icon": "💶",
-      "quote": "R$ 5,79",
+      "quote": "R$ 5,76",
       "change": "0,00%",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -79,7 +79,7 @@
       "id": "ibov",
       "name": "Ibovespa",
       "icon": "📊",
-      "quote": "176.724 pts",
+      "quote": "174.042 pts",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -90,8 +90,8 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 65.098",
-      "change": "-0,74%",
+      "quote": "US$ 64.105",
+      "change": "-1,52%",
       "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -101,8 +101,8 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 1.887",
-      "change": "-1,84%",
+      "quote": "US$ 1.859",
+      "change": "-1,33%",
       "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -112,7 +112,7 @@
       "id": "gold",
       "name": "Ouro",
       "icon": "🥇",
-      "quote": "US$ 4.060",
+      "quote": "US$ 4.058",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -160,12 +160,12 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPN01xRHctNUx1b1ZZVFFRRHI0MnpJTG52YVRzVmJPYTM1dmpRcExoUGRQV0R1ZDFXMGVEeTQ2Y0NCanJ5elZwTHFuLXp2bzJ3SUNJQ3VyWUcxSUUzVjVSbUgyeG5lOVc3MTVwMTg1ZzU2WDZsb05sNHNRRTdVaFMwSWY3T2hmWTVDdTVHUg?oc=5"
     },
     {
-      "title": "Bolsa sobe 0,76%, puxada por juros futuros; Dólar é cotado a R$ 5,17",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdlQ4a3FKQ2xvUVd4VHhGYk9POEdNVFJzRkRhQndaMXEwNkUwbnUtV0pic29kZjFQeG9MaEdiejN6amY2T1c2cHBTX0hPUGVSSWhrbjZiREwxMU9NUC1tbEhOTWdHY0ZBVUJFREtzWHFNSVBCWS1ZX2hBNmtQLTdyVE03S0VpQ2dacE4weTFXX2xYZmFEYms1dHk1NElfZnpuaU14RXpzODgyLWxkMVpsN0RXRQ?oc=5"
-    },
-    {
       "title": "Indicadores do Brasil, EUA e China podem mexer com dólar, juros, Bolsa e agronegócio",
       "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQWm0zVHRiVFJwbmtGOTJ2OHQ5UDR5TWpFVGdTakNVODJDQktOclVlTWNvblZOcVJGaHhGdHdCdzVpNXVQbm1KdFQ1RFFPbFFDQUw1NnozSGxSRXlZVTh2QVl6LTV4OW4yWjhMZlB6NkwtSVV1Z2R1M082SjNnOXVOVWotRGZHUmExSE80UHdPRFhiN2t2MktMNG5UaDBfemY2Zm1LcUlZY0ZxMmpDNWhjVzYwQ2pQQXhaZmNpX0pFeVFVUndKWnRuQ0wzRVQ1LV81TXFialktRVVxMXhyLVl1TkppaTNUcndHdmhrUzRn?oc=5"
+    },
+    {
+      "title": "Bolsa sobe 0,76%, puxada por juros futuros; Dólar é cotado a R$ 5,17",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdlQ4a3FKQ2xvUVd4VHhGYk9POEdNVFJzRkRhQndaMXEwNkUwbnUtV0pic29kZjFQeG9MaEdiejN6amY2T1c2cHBTX0hPUGVSSWhrbjZiREwxMU9NUC1tbEhOTWdHY0ZBVUJFREtzWHFNSVBCWS1ZX2hBNmtQLTdyVE03S0VpQ2dacE4weTFXX2xYZmFEYms1dHk1NElfZnpuaU14RXpzODgyLWxkMVpsN0RXRQ?oc=5"
     },
     {
       "title": "Dólar fecha acima de R$ 5,20 e Bolsa cai com pressão dos juros nos Estados Unidos",
