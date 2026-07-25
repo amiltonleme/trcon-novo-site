@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-07-24T20:56:43.816615+00:00",
+  "generated_at": "2026-07-25T09:23:54.609179+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
+    {
+      "title": "Por que a inteligência artificial não funciona na maioria das empresas",
+      "summary": "Por que a inteligência artificial não funciona na maioria das empresas",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQU2xKeUE4dmp2Uk51LXM5eFM1ZDlhNzlXdVFqb2ctaDFhX0tEQV8yczNSVFNVUTNkbndhdTNKN1ROYXQ0UjhvQnQtMDdIN0tlZjMwSjBTUkR1NjMxUlp3RXMxbXpObHlKMmV2ajdOQk4tUnVBVk83ckVYM25sX1JqeUhyTnVnTzlVT2gxZlQySF9FVnJLU043MjNPQ1BidkVrQVlTNWIwcWJ5X1M2dFNhV0M5MmhpVHZVUUt2LWp3?oc=5",
+      "source": "CartaCapital",
+      "published_at": "Fri, 24 Jul 2026 21:00:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
     {
       "title": "Tecnologia: IA na publicidade desafia confiança entre marcas e consumidores Especialista defende que inteligência artificial potencializa a criatividade, mas alerta que autenticidade e transparência seguem essenciais para fortalecer a credibilidade das emp",
       "summary": "Tecnologia: IA na publicidade desafia confiança entre marcas e consumidores Especialista defende que inteligência artificial potencializa a criatividade, mas alerta que...",
@@ -13,11 +22,11 @@
       "signal": "flat"
     },
     {
-      "title": "Ataque rebelde de modelo de criadora do ChatGPT leva EUA a discutir 'botão' para desligar Inteligência Artificial",
-      "summary": "Ataque rebelde de modelo de criadora do ChatGPT leva EUA a discutir 'botão' para desligar Inteligência Artificial",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdkltM0Z0TzBKZ3Y3cF9iMkRUdXpHQzBFX0Jfc1VrUkVieVUzQ2VDUnN1WjhxWVNxUzU1cFFzbldsVnlqUy0tRDJJN3NNa2hrWW9WbHctdldRQkRQY2JJaUlSSjZWZWVuellGODBkeEdGX1JQV19mWHFHd2M0Nlg5QmZvdFpJa2tLM1A5ekZieDdxRHBfS09vQjJjNFBhcEU4T3lNZWliSko1cS1DVEFGRldNNEk2T3c1dlJyWFIzdkRkMkF0a3J4TC1QeWp2V0FFandpY2swa2x2OXNvajg4cm1B0gHwAUFVX3lxTFBiUkZoTnpVNE9LSmZ5cHVxdnprcDR6emNpbFRZSG5YcU1kREkzT0JTUHh0anlFaGQ0WnRDWFppWkYyMi15VVhraEJQZTBxMmxfbGtVZnVYSzlpMGVUclpuWVpKXzNQWmYtaVRyZnZvRllpZnVqTVZWRHJ2YzFiTzhxeXU0OVJRU0VmaDRuSzk1QWZjdHF0YjdYLU1ma19oOVZsNGtmanR6UzFDS0Jib29BVzc1RGNmX0xGQVNrZXVsYUFpTFowcFVWSVZtUjFwNzNGOGpvaHRIZDJReloxQXV3WlhKSGRmWE55UjZSb1Uxdw?oc=5",
-      "source": "G1",
-      "published_at": "Fri, 24 Jul 2026 11:05:28 GMT",
+      "title": "Depois da Nvidia, quem deve ganhar com a inteligência artificial? As empresas “chatas”, dizem gestores internacionais",
+      "summary": "Depois da Nvidia, quem deve ganhar com a inteligência artificial? As empresas “chatas”, dizem gestores internacionais",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNUS1fcDMydDBXOExwNnJDdW1nRWZnS3hpVURDX0trb2lSV1JfNEZqcVptLVBNVHhnV29ZczN0UnhIMWlxZHB5LUlrWndfemFNa05PSS1wbHBJLXhpUFBYbURPNk5GRWpPQTJSVEcwUWVCQzZLcUxsMWQ3TU5RRkJoWFdOeHJCSU9OWmNRbVh1VlVTaDNiajE0VXFkckE2Rm8ydDJoalc2NlIxaHFHUkJYQ3p2UjZEMTJZdzNGQkNTNW1pQ3luSlN0UzBCcTl6RFFuczlKTlNEN3VFZ3I0eVJoUXo3SDRnZ0FwUG82TE1zaXhZTkhSMG5qVENWRk9RYUFUSi00YmxuSklWVXhySEFR?oc=5",
+      "source": "Bora Investir",
+      "published_at": "Thu, 23 Jul 2026 19:42:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -31,15 +40,6 @@
       "signal": "flat"
     },
     {
-      "title": "IA aberta ou fechada? A escolha pode definir o futuro da inteligência artificial",
-      "summary": "IA aberta ou fechada? A escolha pode definir o futuro da inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR1VoWGR1OTZORmdhcF9ySHR4X21MZ1l2ZDV2ME15UWZ3R2t2YmZfTEpwT2VwcFg0NmZ1V2ZFVjhRT1B3VFRWbzRNYy1mMGtPMHdMdWxnY29ydHNfdmM3QW9vdk9PRnNEdzI5NzJrVld0RV9wNE9NVDVDSW1jWU9aVEY5eFRwSXdtU3o4c05SUUJWRHE4UHVERzdWaVVqN2dUWXBCZ1JiTk1tREg0ZzloOGRQMXFIbTN5bGJhMlI1RWlIQQ?oc=5",
-      "source": "Exame",
-      "published_at": "Thu, 23 Jul 2026 10:08:16 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
       "title": "Empresas precisam mapear uso da inteligência artificial para reduzir riscos jurídicos",
       "summary": "Empresas precisam mapear uso da inteligência artificial para reduzir riscos jurídicos",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRkFBcDZsbmZScXY3Z2JlOFdpSGpFMUdFQzgxRnljRzd2TE9nU0hLSHlBdHB6UlBrTEdmNFJKbXl6cTdXSVE4RzltNEx1QWFWWGM3VUgyMUJiVnNXM0JmMXZnaHRXSm5KbDhqM1B6a01xN2tQWGliSklKVGtnb1pwcTBDYVY1QU5pU2lnZzl0THdsQWFCUGlSNmJmaDBJV25SM0E?oc=5",
@@ -49,13 +49,13 @@
       "signal": "down"
     },
     {
-      "title": "Anthropic lança modelo de IA Opus 5",
-      "summary": "Anthropic lança modelo de IA Opus 5",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQXVneFhnSUF1d0FMZVFVWlBzTlpONjBfcVJBaGRyOUFUd1dhWTNjamhZVDhYd04yNVpwQU8zSEhmSXZFaF9CeTRYTGpmb3dXQkVGdENfWURVNE9TdFFucGhzTTZoUndySjdKMWJVTldkdGdTWkVXam5ONFFmTXdUa2FEUFRVX2RLLVdsdlBtNVJvek1RWE5KSdIBpwFBVV95cUxQOVUwVVNvdHJBY21nOExqY211MFkyQlVrZzl1ZE5HREhEYS05NTJGa0NwcVhNc0U0eDBhM0R3NUtFRTA5UzRrclY5bHd4Zkl0aTVpSjYtWTlDUmpnRTB4WmJGSkl6bUFua1hLTy1fdnhUUUlmSy14S1ZRLTVMcGFLd3Y0bWRRTmlPeXk1VzhwVjFLYm5uUHV0cUJNRnlhVFd1a2p6bHhyZw?oc=5",
-      "source": "Valor Econômico",
-      "published_at": "Fri, 24 Jul 2026 18:28:03 GMT",
+      "title": "Depois da corrida pela inteligência artificial, foco das empresas é escalar projetos com IA | SEGS Portal...",
+      "summary": "Depois da corrida pela inteligência artificial, foco das empresas é escalar projetos com IA | SEGS Portal...",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSG1nc1hnSDR2bDB2YXF1OTJSMXRKS1IxNE5uSEtBdlZCTVVLcWZBcGxwdmx0WjNaWWFlaGJUamJXYjl2a3FsdjcyU3F0WkhzTHpJc3dVMGJBMGVtWW54eWQ3VkEzQ1duSm1tZWdkU3F6eF9QdUs0b1g2WTdqazdpd2dWdzJrdmVheW53cnRDV1NqRmRUMnJBeTRQejZmUWh2SlY0LVlyZWhEd0JyZE5HYmE5LVc5dGJxU2c2aEpkYndaNEQwVGplUFZ5TGRYQdIBzgFBVV95cUxQSG1nc1hnSDR2bDB2YXF1OTJSMXRKS1IxNE5uSEtBdlZCTVVLcWZBcGxwdmx0WjNaWWFlaGJUamJXYjl2a3FsdjcyU3F0WkhzTHpJc3dVMGJBMGVtWW54eWQ3VkEzQ1duSm1tZWdkU3F6eF9QdUs0b1g2WTdqazdpd2dWdzJrdmVheW53cnRDV1NqRmRUMnJBeTRQejZmUWh2SlY0LVlyZWhEd0JyZE5HYmE5LVc5dGJxU2c2aEpkYndaNEQwVGplUFZ5TGRYQQ?oc=5",
+      "source": "SEGS Portal Nacional",
+      "published_at": "Fri, 24 Jul 2026 21:12:52 GMT",
       "category": "IA",
-      "signal": "up"
+      "signal": "flat"
     }
   ],
   "category": "IA"
