@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T09:48:56.860534+00:00",
+  "generated_at": "2026-07-26T20:49:08.551302+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -31,20 +31,20 @@
       "signal": "flat"
     },
     {
+      "title": "Por que empresas globais estão migrando para IA chinesa",
+      "summary": "Por que empresas globais estão migrando para IA chinesa",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORHc2Q3MtQkVJdFM1Tlhka0pGNjEzN0tOT0JCYkFGNzU0Q0s1RnR5Z19LR1FYMlExWlVMbnZ0N1daSm5jWUx6Nkw4eVZpZlljYUl2aVRNUGROSi1MYm92bmZHLTdKdHI0Y0RPRWY2TU9EbzdOYU5vSHRUOXpmMEVzMk5oRHE2OC1JUlhYVEI0UG5HVV9lb203dFpiSW7SAZwBQVVfeXFMTWdSZlZ2OVVfTEtySEJ0U2JZRnlyVlBZS0lhZXZ4clRYQUNkQ1I3MTllSDRWSmtCZnhkalFaUUNLOTlvai1mcWRpeHgtZTVnT0hkY2hFbVZ6RzMxQXJvZWJtRlFfckVaQnFGT0NVWXB1ZjlwSnRhVTlJOWQ1QVBxU0Y2LUdDZ0QwM3FIRlBGTnc5R2h2R0hQamVRUE5Y?oc=5",
+      "source": "dw.com",
+      "published_at": "Sat, 25 Jul 2026 15:39:08 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
       "title": "IA ainda é frágil no quesito segurança, revela indicador",
       "summary": "IA ainda é frágil no quesito segurança, revela indicador",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORXhwRkwyVkZyVzFZZEVXVXk4MEZfVFZJT3IxbTJvRmhNZ24zc1F0b1p5QWwtRlZLRklLLU1GeTlzZUlRNEJFVE1fMUFwZy1QYmNYbjAySGRXcXJ4cVJIZ2JtVHlaSGxmZi1qN0RNU2Jfc2NFTTVMZ3FnYzZGdkVMbnNLb0FLVFBEcjRPN0t4eXNWVjZUZHRJV2xzS2xqaXFMUThtaGRWUm5ZYllTdlBQZG1aRmlBOEQ5c0RXVUZ0R0_SAcYBQVVfeXFMT0xfcXVjQ3ZOcHRMbDd3Sjk2V1RTdmdvaXF0M3c5M2s1dXRtZjFvNmxQNmZHcVBFOGdibGFpWnNybXNPQkZYeDNjZHlzLU5kTWVVOUNjdzJROXkxd0czSXFPTlIwUlJrSmFETW9URlk2THhONzBSTzJJRERLcG1lazY3SERhMEFDSlgxYmJxWDZ6S1hRMTlWUTNMZ1RTc0Rub2tMMThuRmtrTzlNc2VVWVpOdGo5NjV6TmZUcWwwekJXaVcyMmVR?oc=5",
       "source": "Correio Braziliense",
       "published_at": "Sun, 26 Jul 2026 06:59:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Por que empresas globais estão migrando para IA chinesa",
-      "summary": "Por que empresas globais estão migrando para IA chinesa",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORHc2Q3MtQkVJdFM1Tlhka0pGNjEzN0tOT0JCYkFGNzU0Q0s1RnR5Z19LR1FYMlExWlVMbnZ0N1daSm5jWUx6Nkw4eVZpZlljYUl2aVRNUGROSi1MYm92bmZHLTdKdHI0Y0RPRWY2TU9EbzdOYU5vSHRUOXpmMEVzMk5oRHE2OC1JUlhYVEI0UG5HVV9lb203dFpiSW7SAZwBQVVfeXFMTWdSZlZ2OVVfTEtySEJ0U2JZRnlyVlBZS0lhZXZ4clRYQUNkQ1I3MTllSDRWSmtCZnhkalFaUUNLOTlvai1mcWRpeHgtZTVnT0hkY2hFbVZ6RzMxQXJvZWJtRlFfckVaQnFGT0NVWXB1ZjlwSnRhVTlJOWQ1QVBxU0Y2LUdDZ0QwM3FIRlBGTnc5R2h2R0hQamVRUE5Y?oc=5",
-      "source": "dw.com",
-      "published_at": "Sat, 25 Jul 2026 15:38:03 GMT",
       "category": "IA",
       "signal": "flat"
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T09:48:55.847851+00:00",
+  "generated_at": "2026-07-26T20:49:07.480882+00:00",
   "items": [
     {
       "emoji": "🍌",
@@ -12,7 +12,8 @@
       ],
       "url": "https://www.google.com/search?q=receita+bolo+de+banana+madura+com+aveia",
       "link_label": "Ver receita",
-      "gradient": "linear-gradient(135deg,#1a1020,#0d1219)"
+      "gradient": "linear-gradient(135deg,#1a1020,#0d1219)",
+      "featured": true
     },
     {
       "emoji": "🍲",
