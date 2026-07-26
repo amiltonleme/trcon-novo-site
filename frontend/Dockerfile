@@ -1,19 +1,24 @@
 # syntax=docker/dockerfile:1
 
-# Injeta versão + hash Git em assets/build-info.js antes de servir o site estático.
+# Build context = raiz do repo (Coolify: Base Directory "." ou vazio).
+# Dockerfile location: frontend/Dockerfile
+#
+# Assim .git entra no contexto e inject-build-info resolve o commit sem depender de build-arg.
+
 FROM node:22-alpine AS prepare
 WORKDIR /app
 
+COPY .git ./.git
+COPY frontend ./frontend
+
+WORKDIR /app/frontend
+
 ARG SOURCE_COMMIT=
 ARG GIT_COMMIT=
-ENV SOURCE_COMMIT=${SOURCE_COMMIT} \
-    GIT_COMMIT=${GIT_COMMIT}
-
-COPY . .
-RUN node scripts/inject-build-info.mjs
+RUN node scripts/inject-build-info.mjs "${SOURCE_COMMIT:-$GIT_COMMIT}"
 
 FROM nginx:1.27-alpine AS runtime
-COPY --from=prepare /app /usr/share/nginx/html
+COPY --from=prepare /app/frontend /usr/share/nginx/html
 
 EXPOSE 80
 

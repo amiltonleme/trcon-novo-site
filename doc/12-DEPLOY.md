@@ -209,13 +209,15 @@ O Build Pack **Static** do Coolify **não tem** campo Build Command — só publ
 | Campo | Valor |
 |---|---|
 | Build Pack | **Dockerfile** |
-| Base Directory | `frontend` |
-| Dockerfile location | `Dockerfile` |
+| Base Directory | **`.`** *(raiz do repo — necessário para incluir `.git` no build)* |
+| Dockerfile location | **`frontend/Dockerfile`** |
 | Port | `80` |
 | Is it a static site? | **não** *(container nginx)* |
 | Domains | `https://trcongroup.com.br`, `https://www.trcongroup.com.br` |
 
-O `frontend/Dockerfile` roda `node scripts/inject-build-info.mjs` na imagem. Coolify passa `SOURCE_COMMIT` automaticamente no build via Git.
+> **Importante:** se Base Directory for `frontend`, o Docker **não recebe** a pasta `.git` e o hash fica `unknown`. Use raiz do repo + `frontend/Dockerfile`.
+
+O `frontend/Dockerfile` copia `.git` + `frontend/`, roda `inject-build-info.mjs` e publica via nginx. Opcional: build-arg `SOURCE_COMMIT` (Coolify costuma injetar automaticamente).
 
 **Healthcheck** (Configuration → Healthcheck):
 
