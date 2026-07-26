@@ -3,6 +3,13 @@ spring:
     url: ${DB_URL:jdbc:postgresql://${DB_HOST}:${DB_PORT:5432}/${DB_NAME}}
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
+Correção Hikari e     hikari:
+      pool-name: site-trcon-hikari
+      maximum-pool-size: ${DB_POOL_MAX_SIZE:5}
+      minimum-idle: ${DB_POOL_MIN_IDLE:0}
+      idle-timeout: ${DB_POOL_IDLE_TIMEOUT_MS:30000}
+      max-lifetime: ${DB_POOL_MAX_LIFETIME_MS:540000}
+      connection-timeout: ${DB_POOL_CONNECTION_TIMEOUT_MS:10000}
 
 trcon:
   site:
@@ -14,3 +21,6 @@ management:
   endpoint:
     health:
       show-details: never
+  health:
+    db:
+      enabled: ${MANAGEMENT_HEALTH_DB_ENABLED:false}
