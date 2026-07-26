@@ -202,15 +202,40 @@ Resposta esperada no health:
 
 **+ New** no **mesmo repositório** — Base Directory **`frontend`**.
 
+### Opção A — Dockerfile *(recomendado: injeta versão + hash no build)*
+
+O Build Pack **Static** do Coolify **não tem** campo Build Command — só publica os arquivos como estão no Git. Para gerar `assets/build-info.js` com o hash do commit, use **Dockerfile**:
+
 | Campo | Valor |
 |---|---|
-| Build Pack | **Static site** |
+| Build Pack | **Dockerfile** |
 | Base Directory | `frontend` |
-| Build command | `node scripts/inject-build-info.mjs` *(injeta versão + hash Git em `assets/build-info.js`)* |
+| Dockerfile location | `Dockerfile` |
+| Port | `80` |
+| Is it a static site? | **não** *(container nginx)* |
+| Domains | `https://trcongroup.com.br`, `https://www.trcongroup.com.br` |
+
+O `frontend/Dockerfile` roda `node scripts/inject-build-info.mjs` na imagem. Coolify passa `SOURCE_COMMIT` automaticamente no build via Git.
+
+**Healthcheck** (Configuration → Healthcheck):
+
+| Campo | Valor |
+|---|---|
+| Path | `/` |
+| Port | `80` |
+| Start Period | `30` s |
+
+### Opção B — Static *(sem hash automático)*
+
+| Campo | Valor |
+|---|---|
+| Build Pack | **Static** |
+| Base Directory | `frontend` |
+| Static Image | `nginx:alpine` |
 | Port | `80` |
 | Is it a static site? | **sim** |
-| Domains | `https://trcongroup.com.br`, `https://www.trcongroup.com.br` |
-| Healthcheck | opcional — GET `/` → 200 |
+
+Sem build step: o rodapé fica com `dev` até você rodar `npm run build` localmente e commitar `assets/build-info.js`, ou migrar para a Opção A.
 
 Antes do deploy, `frontend/assets/env.js`:
 
@@ -222,7 +247,7 @@ window.TRCON_NEWS_API_URL       = 'https://api-site.trcongroup.com.br/api/public
 
 Nenhum segredo no frontend.
 
-Versão e commit aparecem no **rodapé** (`Versão X.Y.Z` + badge com hash). Coolify injeta `SOURCE_COMMIT` no build; localmente use `npm run build`.
+Versão e commit aparecem no **rodapé** (`Versão X.Y.Z` + badge com hash). Com **Dockerfile** (Opção A), o hash vem do `SOURCE_COMMIT` do Coolify a cada deploy.
 
 ## Passo 6 — Redis, RabbitMQ e Workers IA
 
