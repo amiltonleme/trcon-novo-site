@@ -36,7 +36,11 @@ jobs:
         run: python scripts/update_market.py
         continue-on-error: true
 
-      - name: Atualizar conteudo diario (dicas/receitas)
+      - name: Atualizar Educacao Financeira (RSS + fallback)
+        run: python scripts/update_economy_tips.py
+        continue-on-error: true
+
+      - name: Atualizar receitas economicas
         run: python scripts/update_daily_content.py
         continue-on-error: true
 

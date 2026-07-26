@@ -15,3 +15,4 @@ window.TRCON_NEWS_API_URL = 'http://localhost:8081/api/public/news';
 window.TRCON_LEADS_API_URL = 'https://api-site.trcongroup.com.br/api/v1/site/leads';
 window.TRCON_HIGHLIGHTS_API_URL = 'https://api-site.trcongroup.com.br/api/public/highlights';
 window.TRCON_NEWS_API_URL = 'https://api-site.trcongroup.com.br/api/public/news';
+window.TRCON_ECONOMY_TIPS_API_URL = 'https://api-site.trcongroup.com.br/api/public/economy-tips';

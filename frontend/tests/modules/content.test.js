@@ -4,6 +4,7 @@ import {
   fetchWithFallback,
   buildHighlightsHtml,
   buildNewsHtml,
+  loadEconomyTips,
 } from '../../assets/modules/content.js';
 
 const ok = (data) => ({ ok: true, json: () => Promise.resolve(data) });
@@ -75,6 +76,37 @@ describe('fetchWithFallback', () => {
     await expect(
       fetchWithFallback('', 'data/x.json', { fetch: fetchImpl }),
     ).rejects.toThrow(/Fallback indisponível/);
+  });
+});
+
+describe('loadEconomyTips', () => {
+  it('prioriza API e completa com JSON', async () => {
+    const fetchImpl = vi
+      .fn()
+      .mockResolvedValueOnce({
+        ok: true,
+        json: () =>
+          Promise.resolve({
+            disclaimer: 'Conteudo educacional.',
+            items: [{ title: 'Dica marketing' }],
+          }),
+      })
+      .mockResolvedValueOnce({
+        ok: true,
+        json: () =>
+          Promise.resolve({
+            disclaimer: 'Conteudo educacional.',
+            items: [{ title: 'Dica RSS' }, { title: 'Outra RSS' }],
+          }),
+      });
+    const res = await loadEconomyTips('http://api/economy-tips', 'data/economy-tips.json', 3, {
+      fetch: fetchImpl,
+    });
+    expect(res.source).toBe('api+json');
+    expect(res.items).toHaveLength(3);
+    expect(res.items[0].title).toBe('Dica marketing');
+    expect(res.items[0].featured).toBe(true);
+    expect(res.disclaimer).toContain('educacional');
   });
 });
 

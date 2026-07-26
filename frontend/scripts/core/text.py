@@ -54,6 +54,16 @@ def summarize(text: str, limit: int = 180) -> str:
     return corte.rstrip(".,;:") + "..."
 
 
+def strip_html(value: str) -> str:
+    """Remove tags HTML e normaliza espacos (RSS description/content)."""
+    if not value:
+        return ""
+    text = re.sub(r"<[^>]+>", " ", value)
+    text = text.replace("&nbsp;", " ")
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
 def dedup_by_title(items: list[dict]) -> list[dict]:
     """Remove itens com titulo normalizado repetido, preservando a ordem."""
     seen: set[str] = set()

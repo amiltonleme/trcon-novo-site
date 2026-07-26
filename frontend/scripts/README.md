@@ -20,9 +20,12 @@ scripts/
     home_builder.py  # build_home_highlights / build_news_log (shape = contratos do backend)
   update_ai_radar.py       # -> data/ai-radar.json
   update_tech_radar.py     # -> data/tech-radar.json
+  update_economy_tips.py   # -> data/economy-tips.json (RSS + catalogo estatico)
   build_home_payload.py    # -> data/home-highlights.json, data/news-log.json
   update_market.py         # (existente) -> data/market.json
-  update_daily_content.py  # (existente) -> data/economy-tips.json, data/recipes.json
+  update_daily_content.py  # -> data/recipes.json
+  catalog/
+    economy_tips_fallback.py  # dicas estaticas quando RSS falha ou complementa
   tests/
     test_pipeline.py       # unittest (stdlib), sem rede
 ```
@@ -50,6 +53,7 @@ home consuma JSON ou API sem diferença (Fase 7 — doc/07-MIGRACAO-PARALELA.md)
 ```bash
 python scripts/update_ai_radar.py
 python scripts/update_tech_radar.py
+python scripts/update_economy_tips.py
 python scripts/build_home_payload.py
 ```
 

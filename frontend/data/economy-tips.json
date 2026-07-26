@@ -1,54 +1,58 @@
 {
-  "generated_at": "2026-07-26T09:48:55.847851+00:00",
+  "generated_at": "2026-07-26T18:10:40.248460+00:00",
+  "source_note": "Curadoria automatica de educacao financeira a partir de feeds RSS publicos, com complemento do catalogo estatico TRCon quando necessario.",
+  "errors": [],
   "items": [
     {
-      "tag": "Cotidiano",
-      "tag_class": "tag-orange",
-      "title": "Revise assinaturas antes de cortar o essencial",
-      "body": "Some streaming, apps, armazenamento, clubes e planos esquecidos. Cancelar dois servicos pouco usados costuma gerar economia sem reduzir qualidade de vida.",
+      "tag": "Mercado",
+      "tag_class": "tag-blue",
+      "title": "Selic cai para 14,75% ao ano e começa a redesenhar crédito, dívidas e investimentos no Brasil",
+      "body": "Selic cai para 14,75% ao ano e começa a redesenhar crédito, dívidas e investimentos no Brasil",
       "meta": [
-        "4 min",
-        "Impacto imediato"
+        "Leitura rapida",
+        "Fonte: Jornal Grande Bahia"
       ],
-      "url": "https://www.google.com/search?q=como+cancelar+assinaturas+e+economizar+dinheiro",
-      "link_label": "Ver checklist",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYlQ2dS1xQTdKek1XSDVxZW14eXJkbzJ1bkx5Q1dYRGNjdGNSYVpaVWc1V2FseFpuQTdUZmMxaDV5YXR5OExuejBTeFVvRmNpcm9RNGdUY2VQczhFUFRpRWJGLUlMR2ZKRjdXYnF0b2lteG9IYkdrNGM0em9KRGJZVmpPX3NabFpGNmxlMGhlLVZNYVcwZmRTZ0VEdkhjZ2I3dGJsa3ZrV2FJOE9XTEVBb1NyRTFZRnBfS1hKamM4dmc2dDRGYjZOV253eHk?oc=5",
+      "link_label": "Ler mais",
       "featured": true
+    },
+    {
+      "tag": "Estrategia Mensal",
+      "tag_class": "tag-green",
+      "title": "Tesouro Reserva: como funciona e quanto rende a nova “poupança 24 horas” do governo",
+      "body": "Tesouro Reserva: como funciona e quanto rende a nova “poupança 24 horas” do governo",
+      "meta": [
+        "Leitura rapida",
+        "Fonte: InfoMoney"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdlBkM3hSODJ6dnBRdW5wdUZ5dE5jWUpISjBPVGZSdDVBVzAwYlFmTk1PQ3dYREUzVk9tWGJTWHQxeEVNaHlZUGY4azNSNVF6Nm1lNVdGT1Q3aXV1dEhYRXVnWWxTbjBXcFhacGp6eG5ReEVVeHoyZnVZTDl5d29iSFR2LVhRNUZ2MjlKa29RNUhod1UycVlzZUFOcl9xX2NDQWFGWTZMTlBKa3BOc243Nmh0OHA4OFd0UWFOYWJCNVV1QdIBxwFBVV95cUxQRzQ3R2lkOHZxRm9HbHgtMjdMUGdQZzNXanpiemdBMDBnMGdmUTBudnZwbjI4S3N4TjZHMkMzMTdhbmExYWZLMVNvZGJfWHc2bFNqeVBzdjd0dzJPbXRkc2g1amk0RzVhcm9COFFCYVBJdENWSWh1LWJfU3R2aVNiN2dCWW1iV2luNWZMTWFncTZYZkh5QVltbHJ0aHZ5aUpRS3VyY2xoWEllWVVNd1RYZXF2YjdWYm9KUTY2TTk3NnNFOE1CVHRN?oc=5",
+      "link_label": "Ler mais"
+    },
+    {
+      "tag": "Estrategia Mensal",
+      "tag_class": "tag-green",
+      "title": "Poupança ainda lidera investimentos no Brasil enquanto maioria segue sem reserva financeira",
+      "body": "Poupança ainda lidera investimentos no Brasil enquanto maioria segue sem reserva financeira",
+      "meta": [
+        "Leitura rapida",
+        "Fonte: A Revista"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUkxDU29hRWprVG9sNmp0MlpqdVp3Vk0tcjNac2gwS2dFMTA3Sm9XNVpOa1IwZ1BQaTRaTlIzblZaQmJyWl93dklncmg4Z0tUZUtjNk5fSXc5SnZRU1hScWlzZmtUbTNmVWhmbGk0OHJPWHZ1aEJoVWxSNnBNeE4xam1UdGRRLUdzOHVLalJzdndqM0dXNHZMejRENVFIcGpNaWRMLTZvUXVUazRHVFFmb0V6V01TZ1ZWcFRWV3hZRUdiVFVrSlpEd2RwWjRCV2xUZHc?oc=5",
+      "link_label": "Ler mais"
     },
     {
       "tag": "Mercado",
       "tag_class": "tag-blue",
-      "title": "Reserva de emergencia vem antes do risco",
-      "body": "Antes de buscar rentabilidade alta, mantenha parte do dinheiro em produto conservador e liquido. Isso evita vender investimentos ruins em uma urgencia.",
+      "title": "Pé-de-Meia: onde vale mais a pena investir o benefício, Tesouro Selic ou poupança?",
+      "body": "Pé-de-Meia: onde vale mais a pena investir o benefício, Tesouro Selic ou poupança?",
       "meta": [
-        "3 min",
-        "Baixo risco"
+        "Leitura rapida",
+        "Fonte: Times Brasil | CNBC"
       ],
-      "url": "https://www.google.com/search?q=como+montar+reserva+de+emergencia",
-      "link_label": "Ver passo a passo"
-    },
-    {
-      "tag": "Compras",
-      "tag_class": "tag-gold",
-      "title": "Compare preco por unidade, nao so o preco da embalagem",
-      "body": "No supermercado, olhe o preco por quilo, litro ou unidade. Promocoes grandes nem sempre sao mais baratas e podem virar desperdicio.",
-      "meta": [
-        "3 min",
-        "Economia recorrente"
-      ],
-      "url": "https://www.google.com/search?q=como+comparar+preco+por+quilo+litro+unidade",
-      "link_label": "Aprender a comparar"
-    },
-    {
-      "tag": "Cartao",
-      "tag_class": "tag-orange",
-      "title": "Transforme o cartao em meio de pagamento, nao credito",
-      "body": "Use o cartao com limite mensal definido e acompanhe a fatura toda semana. Parcelas pequenas somadas reduzem sua renda livre nos meses seguintes.",
-      "meta": [
-        "4 min",
-        "Controle alto"
-      ],
-      "url": "https://www.google.com/search?q=como+usar+cartao+de+credito+sem+se+endividar",
-      "link_label": "Ver cuidados"
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNWU1M1lta2JYcTlFdXg5em01SGtIeEVQdHREbldmQWs4WG1pWmJLTE95TjBOcDF0RFZPNWhLX1FmQ3A0aDFLdjBHZC1GaUtVUVRuaUV4NTlXNS1HbXYtdF9qdWY0RXFfSjdlNlhzVTBjTUp0dlkwelBVaDNVenh2VHZXYTExRURETUJhTlJCYk1xLVM4RTVBMWtKMFBwUVNYYko5SWU2UnVfZmpiOHlhSHc2QnJpVlE?oc=5",
+      "link_label": "Ler mais"
     }
-  ]
+  ],
+  "source_mode": "rss+catalogo",
+  "rss_items": 4
 }

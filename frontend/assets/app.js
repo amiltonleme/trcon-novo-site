@@ -9,7 +9,7 @@ import {
   safeUrl,
 } from './modules/sanitize.js';
 import { buildLeadPayload, submitLead, mensagemDeErro } from './modules/lead-form.js';
-import { fetchWithFallback, buildHighlightsHtml, buildNewsHtml } from './modules/content.js';
+import { fetchWithFallback, buildHighlightsHtml, buildNewsHtml, loadEconomyTips } from './modules/content.js';
 
 const LEADS_API_URL = apiConfig.leadsApiUrl;
 
@@ -548,9 +548,22 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
       document.getElementById('marketUpdated').textContent = 'Nao foi possivel carregar data/market.json.';
     }
 
+    const tipsDisclaimer = document.getElementById('tipsDisclaimer');
     try {
-      renderTips(await loadJson('data/economy-tips.json'));
-    } catch (error) {}
+      const { items, disclaimer } = await loadEconomyTips(
+        apiConfig.economyTipsApiUrl,
+        'data/economy-tips.json',
+      );
+      renderTips({ items, disclaimer });
+      if (tipsDisclaimer) {
+        tipsDisclaimer.textContent =
+          disclaimer || 'Conteudo educacional. Nao constitui recomendacao individual de investimento.';
+      }
+    } catch (error) {
+      if (tipsDisclaimer) {
+        tipsDisclaimer.textContent = 'Nao foi possivel carregar dicas de educacao financeira.';
+      }
+    }
 
     try {
       renderRecipes(await loadJson('data/recipes.json'));

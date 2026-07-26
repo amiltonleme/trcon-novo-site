@@ -12,12 +12,27 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
+from builders.economy_tips_builder import (
+    DEFAULT_TAG_RULES,
+    EconomyTipsConfig,
+    build_economy_tips,
+    classify_tip_tag,
+)
 from builders.home_builder import build_home_highlights, build_news_log
 from builders.radar_builder import RadarConfig, build_radar
 from core import text
 from core.rss import parse_rss
 from providers.rss_provider import RssProvider
 
+
+SAMPLE_RSS_WITH_DESC = """<?xml version="1.0"?>
+<rss version="2.0"><channel>
+  <item>
+    <title>Dica de poupanca - Portal</title>
+    <link>https://ex.com/poupanca</link>
+    <description><p>Monte sua reserva com <strong>Tesouro Selic</strong> liquido.</p></description>
+  </item>
+</channel></rss>"""
 
 SAMPLE_RSS = """<?xml version="1.0"?>
 <rss version="2.0"><channel>
@@ -60,6 +75,9 @@ class TextTests(unittest.TestCase):
         self.assertLessEqual(len(out), 53)
         self.assertTrue(out.endswith("..."))
 
+    def test_strip_html_removes_tags(self):
+        self.assertEqual(text.strip_html("<p>Ola <strong>mundo</strong></p>"), "Ola mundo")
+
     def test_dedup_by_title(self):
         items = [{"title": "A"}, {"title": "a"}, {"title": "B"}]
         self.assertEqual(len(text.dedup_by_title(items)), 2)
@@ -75,6 +93,11 @@ class RssTests(unittest.TestCase):
     def test_parse_rss_uses_fallback_source(self):
         items = parse_rss(SAMPLE_RSS, source_fallback="FB")
         self.assertEqual(items[1]["source"], "FB")
+
+    def test_parse_rss_extracts_description(self):
+        items = parse_rss(SAMPLE_RSS_WITH_DESC)
+        self.assertEqual(len(items), 1)
+        self.assertIn("Tesouro Selic", items[0]["description"])
 
     def test_parse_rss_invalid_returns_empty(self):
         self.assertEqual(parse_rss("<not xml"), [])
@@ -153,6 +176,52 @@ class BuilderTests(unittest.TestCase):
         radar = {"items": [], "errors": ["feed X caiu"], "category": "IA"}
         highlights = build_home_highlights([radar])
         self.assertIn("feed X caiu", highlights["errors"])
+
+
+class EconomyTipsBuilderTests(unittest.TestCase):
+    FINANCE_RSS = """<?xml version="1.0"?>
+<rss version="2.0"><channel>
+  <item>
+    <title>Como montar reserva de emergencia com Tesouro Selic - Portal Financas</title>
+    <link>https://ex.com/reserva</link>
+    <source>Portal Financas</source>
+    <pubDate>Mon, 01 Jul 2026 08:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Dicas de orcamento familiar para economizar no mercado - Blog</title>
+    <link>https://ex.com/orcamento</link>
+    <pubDate>Mon, 01 Jul 2026 07:00:00 GMT</pubDate>
+  </item>
+</channel></rss>"""
+
+    def test_classify_tip_tag(self):
+        tag, tag_class = classify_tip_tag("Tesouro Selic e CDB para reserva", DEFAULT_TAG_RULES)
+        self.assertEqual(tag, "Mercado")
+        self.assertEqual(tag_class, "tag-blue")
+
+    def test_build_economy_tips_from_rss(self):
+        provider = RssProvider("Fake", ["feed"], fetcher=lambda url: self.FINANCE_RSS)
+        cfg = EconomyTipsConfig(relevance_keywords={"reserva", "orcamento", "tesouro", "economizar"})
+        payload = build_economy_tips(provider, cfg, day_seed=100)
+        self.assertEqual(len(payload["items"]), 4)
+        self.assertIn("generated_at", payload)
+        self.assertEqual(payload["items"][0]["featured"], True)
+        self.assertIn("tag", payload["items"][0])
+        self.assertIn("body", payload["items"][0])
+
+    def test_build_economy_tips_fallback_when_rss_empty(self):
+        provider = RssProvider("Fake", ["feed"], fetcher=lambda url: "<rss></rss>")
+        cfg = EconomyTipsConfig(relevance_keywords={"xyz"})
+        payload = build_economy_tips(provider, cfg, day_seed=50)
+        self.assertEqual(len(payload["items"]), 4)
+        self.assertEqual(payload["source_mode"], "catalogo")
+        self.assertIn("disclaimer", payload)
+
+    def test_build_economy_tips_uses_rss_description(self):
+        provider = RssProvider("Fake", ["feed"], fetcher=lambda url: SAMPLE_RSS_WITH_DESC)
+        cfg = EconomyTipsConfig(relevance_keywords={"poupanca", "reserva", "tesouro"})
+        payload = build_economy_tips(provider, cfg, day_seed=10)
+        self.assertIn("Tesouro Selic", payload["items"][0]["body"])
 
 
 if __name__ == "__main__":

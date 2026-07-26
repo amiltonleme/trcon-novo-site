@@ -38,12 +38,16 @@ def parse_rss(xml_text: str, source_fallback: str = "RSS") -> list[dict]:
         if not title:
             continue
         source = _text(item, "source") or source_fallback
+        description = _text_content(item, "description")
+        if not description:
+            description = _text_content(item, "{http://purl.org/rss/1.0/modules/content/}encoded")
         items.append(
             {
                 "title": title,
                 "url": _text(item, "link"),
                 "source": source,
                 "published_at": _text(item, "pubDate"),
+                "description": description,
             }
         )
     return items
@@ -54,3 +58,10 @@ def _text(node, tag: str) -> str:
     if child is None or child.text is None:
         return ""
     return child.text.strip()
+
+
+def _text_content(node, tag: str) -> str:
+    child = node.find(tag)
+    if child is None:
+        return ""
+    return "".join(child.itertext()).strip()
