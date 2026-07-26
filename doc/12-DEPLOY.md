@@ -46,13 +46,16 @@ Cloudflare fica apenas na borda. O tráfego HTTP público chega no Hetzner pelo 
 
 ## Topologia de domínios
 
-| Serviço | Domínio sugerido | Origem no Coolify |
-|---|---|---|
-| Site TRCON | `trcongroup.com.br` / `www.trcongroup.com.br` | frontend |
-| API do site | `api.trcongroup.com.br` | backend Spring Boot |
-| Hub Financeiro | `hub.trcongroup.com.br` | app Hub Financeiro |
-| Agendador | `agenda.trcongroup.com.br` | app Agendador |
-| Coolify | `coolify.trcongroup.com.br` | painel administrativo |
+| Serviço | Domínio em produção (jul/2026) | Alvo futuro | Origem Coolify |
+|---|---|---|---|
+| Site TRCON | `trcongroup.com.br` / `www.trcongroup.com.br` | idem | frontend estático |
+| **API do site** | **`api-site.trcongroup.com.br`** | `api.trcongroup.com.br` *(após financeiro migrar)* | backend Spring Boot |
+| API financeiro (legado) | `api.trcongroup.com.br` | `hub.trcongroup.com.br` | Render *(CNAME — não usar para site)* |
+| Hub Financeiro | `hub.trcongroup.com.br` | idem | app Hub Financeiro |
+| Agendador | `agenda.trcongroup.com.br` | idem | app Agendador |
+| Coolify | `coolify.trcongroup.com.br` | idem | painel administrativo |
+
+**Motivo de `api-site`:** `api.trcongroup.com.br` já serve o backend do **Sirius Financeiro** no Render. Detalhes: [`sirius-marketing/projeto/docs/cursor/10_estrategia_infra_ecossistema.md`](../../sirius-marketing/projeto/docs/cursor/10_estrategia_infra_ecossistema.md).
 
 Regras:
 
@@ -66,7 +69,7 @@ Regras:
 |---|---|
 | `backend/Dockerfile` | Imagem de produção do backend Spring Boot. Usar no Coolify. |
 | `frontend/` | Site estático servido pelo Coolify, preferencialmente por Nginx/Caddy ou static site do Coolify. |
-| `frontend/assets/env.js` | Configuração pública das URLs da API. Em produção deve apontar para `https://api.trcongroup.com.br/...`. |
+| `frontend/assets/env.js` | URLs públicas da API — produção: `https://api-site.trcongroup.com.br/api/...` |
 | `frontend/_headers` | Headers herdados do fluxo Cloudflare Pages. Pode servir como referência para configurar headers no proxy/Coolify/Cloudflare. |
 | `backend/src/main/resources/application.yml` | Profile `prod`, leitura de `PORT`, `DB_URL`, `DB_USERNAME`, `DB_PASSWORD` e CORS. |
 | `infra/docker-compose.yml` | Ambiente local, não produção. |
@@ -135,18 +138,38 @@ As migrations Flyway (`V1..V3`) rodam automaticamente na primeira subida do back
 
 ## Passo 4 — Backend/API no Coolify
 
-Criar uma aplicação no Coolify para `site/backend`.
+Repositório GitHub: **`amiltonleme/trcon-novo-site`**. Monorepo: `backend/` e `frontend/` na raiz.
 
-Configuração:
+**Coolify:** Project `site-trcon` → **+ New** → Git (Deploy Key ou GitHub App).
+
+### Wizard — Create Application
 
 | Campo | Valor |
 |---|---|
-| Tipo | Dockerfile |
-| Contexto | `backend` |
-| Dockerfile | `backend/Dockerfile` |
-| Porta interna | `8080` |
-| Domínio | `api.trcongroup.com.br` |
-| Healthcheck | `/actuator/health` |
+| Repository | `trcon-novo-site` |
+| Branch | `main` |
+| Build Pack | **Dockerfile** |
+| Base Directory | **`backend`** |
+| Port | **`8080`** |
+| Is it a static site? | **não** |
+
+### Configuration → General
+
+| Campo | Valor |
+|---|---|
+| Name | `site-trcon-backend` |
+| Domains | **`https://api-site.trcongroup.com.br`** |
+| Dockerfile location | `Dockerfile` |
+| Ports Exposes | `8080` |
+
+### Healthcheck
+
+| Campo | Valor |
+|---|---|
+| Path | `/actuator/health` |
+| Port | `8080` |
+| Host | `localhost` *(check interno — não é URL pública)* |
+| Start Period | **90** s |
 
 Variáveis obrigatórias:
 
@@ -154,18 +177,22 @@ Variáveis obrigatórias:
 |---|---|
 | `SPRING_PROFILES_ACTIVE` | `prod` |
 | `PORT` | `8080` |
-| `DB_URL` | JDBC do Neon |
-| `DB_USERNAME` | usuário do Neon |
-| `DB_PASSWORD` | senha do Neon |
+| `DB_URL` | JDBC Neon database **`trcon_site`** |
+| `DB_USERNAME` | usuário Neon |
+| `DB_PASSWORD` | senha Neon |
+| `TRCON_SITE_INTERNAL_API_KEY` | `openssl rand -hex 32` — **guardar** para Sirius Marketing |
 | `TRCON_CORS_ALLOWED_ORIGINS` | `https://trcongroup.com.br,https://www.trcongroup.com.br` |
 
 Smoke test:
 
 ```text
-GET https://api.trcongroup.com.br/actuator/health
+GET https://api-site.trcongroup.com.br/actuator/health
+GET https://api-site.trcongroup.com.br/api/public/news
 ```
 
-Resposta esperada:
+A raiz `/` pode retornar JSON `INTERNAL_ERROR` — não há rota na raiz; isso **não** indica falha de deploy.
+
+Resposta esperada no health:
 
 ```json
 {"status":"UP"}
@@ -173,31 +200,26 @@ Resposta esperada:
 
 ## Passo 5 — Frontend no Coolify
 
-Criar uma aplicação no Coolify para `site/frontend`.
-
-Opções aceitáveis:
-
-1. Static site do Coolify, se disponível para servir a pasta `frontend`.
-2. Container Nginx/Caddy simples servindo `frontend/`.
-
-Configuração:
+**+ New** no **mesmo repositório** — Base Directory **`frontend`**.
 
 | Campo | Valor |
 |---|---|
-| Fonte | `frontend/` |
-| Build | nenhum, nesta fase |
-| Domínio | `trcongroup.com.br` e `www.trcongroup.com.br` |
-| Arquivo de entrada | `index.html` |
+| Build Pack | **Static site** |
+| Base Directory | `frontend` |
+| Port | `80` |
+| Is it a static site? | **sim** |
+| Domains | `https://trcongroup.com.br`, `https://www.trcongroup.com.br` |
+| Healthcheck | opcional — GET `/` → 200 |
 
-Antes do deploy, garantir que `frontend/assets/env.js` aponte para o domínio final da API:
+Antes do deploy, `frontend/assets/env.js`:
 
 ```js
-window.TRCON_LEADS_API_URL      = 'https://api.trcongroup.com.br/api/v1/site/leads';
-window.TRCON_HIGHLIGHTS_API_URL = 'https://api.trcongroup.com.br/api/public/highlights';
-window.TRCON_NEWS_API_URL       = 'https://api.trcongroup.com.br/api/public/news';
+window.TRCON_LEADS_API_URL      = 'https://api-site.trcongroup.com.br/api/v1/site/leads';
+window.TRCON_HIGHLIGHTS_API_URL = 'https://api-site.trcongroup.com.br/api/public/highlights';
+window.TRCON_NEWS_API_URL       = 'https://api-site.trcongroup.com.br/api/public/news';
 ```
 
-Nenhum segredo deve ir para o frontend.
+Nenhum segredo no frontend.
 
 ## Passo 6 — Redis, RabbitMQ e Workers IA
 
@@ -222,16 +244,21 @@ O backend atual do site ainda não depende de Redis/RabbitMQ. Eles entram como i
 
 No Cloudflare, configurar DNS para apontar os domínios públicos para o Hetzner.
 
-Registros sugeridos:
+Registros Coolify / Hetzner (**tipo `A`** para IP fixo):
 
-| Tipo | Nome | Valor |
-|---|---|---|
-| `A` | `@` | IP público do Hetzner |
-| `A` | `www` | IP público do Hetzner |
-| `A` | `api` | IP público do Hetzner |
-| `A` | `hub` | IP público do Hetzner |
-| `A` | `agenda` | IP público do Hetzner |
-| `A` | `coolify` | IP público do Hetzner |
+| Tipo | Nome | Valor | Notas |
+|---|---|---|---|
+| `A` | `api-site` | IP Hetzner | **API site** |
+| `A` | `@` | IP Hetzner | Site *(substituir CNAME Pages)* |
+| `A` | `www` | IP Hetzner | Site |
+| `A` | `coolify` | IP Hetzner | Painel |
+| `A` | `marketing` | IP Hetzner | Marketing |
+| `A` | `hub` | IP Hetzner | Futuro financeiro |
+| `A` | `agenda` | IP Hetzner | Futuro agendador |
+
+**Não alterar** o CNAME `api` → Render (financeiro) até a migração da Fase 3.
+
+**A vs CNAME:** Hetzner = **`A`** para o IP. Render/Pages = **`CNAME`** para hostname do SaaS.
 
 SSL/TLS:
 
@@ -257,9 +284,9 @@ Segurança:
 - [ ] Cloudflare apontando DNS para o IP do Hetzner.
 - [ ] SSL em modo Full (strict).
 - [ ] Neon criado com `sslmode=require`.
-- [ ] Backend publicado no Coolify com profile `prod`.
+- [ ] Backend publicado no Coolify (`api-site.trcongroup.com.br`).
 - [ ] Frontend publicado no Coolify.
-- [ ] `env.js` apontando para `https://api.trcongroup.com.br`.
+- [ ] `env.js` apontando para `https://api-site.trcongroup.com.br/api/...`.
 - [ ] CORS do backend liberando somente os domínios finais.
 - [ ] Redis e RabbitMQ privados, sem portas públicas.
 - [ ] Workers IA sem exposição pública por padrão.
@@ -267,9 +294,9 @@ Segurança:
 
 ## Smoke test pós-deploy
 
-1. `GET https://api.trcongroup.com.br/actuator/health` retorna `{"status":"UP"}`.
-2. `GET https://api.trcongroup.com.br/api/public/highlights` retorna 200.
-3. `GET https://api.trcongroup.com.br/api/public/news` retorna 200.
+1. `GET https://api-site.trcongroup.com.br/actuator/health` retorna `{"status":"UP"}`.
+2. `GET https://api-site.trcongroup.com.br/api/public/highlights` retorna 200.
+3. `GET https://api-site.trcongroup.com.br/api/public/news` retorna 200.
 4. Site abre em `https://trcongroup.com.br`.
 5. Formulário de contato envia lead e recebe 201.
 6. Reenvio do mesmo lead retorna 409.

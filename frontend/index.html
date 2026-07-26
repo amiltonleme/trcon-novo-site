@@ -183,19 +183,6 @@
 
   <div class="divider"></div>
 
-  <!-- RADAR TRCON (highlights: API com fallback JSON) -->
-  <section>
-    <div class="section-label">Radar TRCon — Atualizado hoje</div>
-    <div class="section-title">Sinais de <em style="color:var(--accent);font-style:normal">IA e tecnologia</em></div>
-    <p class="section-sub">Curadoria automática dos principais movimentos de IA e tecnologia. Atualizado ao longo do dia.</p>
-    <div class="cards-grid" id="radarGrid" style="margin-top:40px;">
-      <div class="card"><p class="loading-row">Carregando o radar do dia...</p></div>
-    </div>
-    <div class="data-updated" id="radarUpdated"></div>
-  </section>
-
-  <div class="divider"></div>
-
   <!-- MARKET INSIGHTS -->
   <section>
     <div class="section-label">Mercado hoje</div>
@@ -205,16 +192,16 @@
     <div style="overflow-x:auto;margin-top:32px;">
       <table class="market-table">
         <thead>
-          <tr>
-            <th>Ativo</th>
-            <th>Cotação</th>
-            <th>Variação</th>
-            <th>Recomendação</th>
-            <th>Por quê?</th>
-          </tr>
+        <tr>
+          <th>Ativo</th>
+          <th>Cotação</th>
+          <th>Variação</th>
+          <th>Recomendação</th>
+          <th>Por quê?</th>
+        </tr>
         </thead>
         <tbody id="marketRows">
-          <tr><td colspan="5" class="loading-row">Carregando cotações e leitura de mercado...</td></tr>
+        <tr><td colspan="5" class="loading-row">Carregando cotações e leitura de mercado...</td></tr>
         </tbody>
       </table>
     </div>
@@ -242,6 +229,19 @@
         <p>As dicas de economia serao carregadas automaticamente a partir do arquivo data/economy-tips.json.</p>
       </div>
     </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- RADAR TRCON (highlights: API com fallback JSON) -->
+  <section>
+    <div class="section-label">Radar TRCon — Atualizado hoje</div>
+    <div class="section-title">Sinais de <em style="color:var(--accent);font-style:normal">IA e tecnologia</em></div>
+    <p class="section-sub">Curadoria automática dos principais movimentos de IA e tecnologia. Atualizado ao longo do dia.</p>
+    <div class="cards-grid" id="radarGrid" style="margin-top:40px;">
+      <div class="card"><p class="loading-row">Carregando o radar do dia...</p></div>
+    </div>
+    <div class="data-updated" id="radarUpdated"></div>
   </section>
 
   <div class="divider"></div>
