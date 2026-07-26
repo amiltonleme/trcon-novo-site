@@ -1,3 +1,0 @@
-# Build artifacts (generated in Docker / local build)
-assets/.deploy-commit
-assets/.app-version

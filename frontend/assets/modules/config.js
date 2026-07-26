@@ -25,13 +25,4 @@ export function resolveApiConfig(overrides = {}) {
   };
 }
 
-export function resolveBuildInfo(overrides = {}) {
-  const scope = { ...globalScope, ...overrides };
-  return {
-    appVersion: scope.TRCON_APP_VERSION || 'dev',
-    commitHash: scope.TRCON_COMMIT_HASH || 'local',
-  };
-}
-
 export const apiConfig = resolveApiConfig();
-export const buildInfo = resolveBuildInfo();

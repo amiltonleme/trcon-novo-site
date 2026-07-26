@@ -202,63 +202,30 @@ Resposta esperada no health:
 
 **+ New** no **mesmo repositório** — Base Directory **`frontend`**.
 
-### Opção A — Dockerfile *(recomendado: injeta versão + hash no build)*
-
 | Campo | Valor |
 |---|---|
-| Build Pack | **Dockerfile** |
-| Base Directory | **`frontend`** |
-| Dockerfile location | **`Dockerfile`** |
+| Build Pack | **Dockerfile** ou **Static** |
+| Base Directory | `frontend` |
+| Dockerfile location | `Dockerfile` *(se Dockerfile — só nginx + COPY)* |
 | Port | `80` |
-| Is it a static site? | **não** |
 | Domains | `https://trcongroup.com.br`, `https://www.trcongroup.com.br` |
 
-Coolify **não envia** `.git` para o Docker. O hash vem de **`SOURCE_COMMIT`** (build-arg) e/ou variável de runtime.
+### Versão e hash no rodapé
 
-#### Environment Variables *(runtime — entrypoint)*
+Gravados **direto no `index.html`** (HTML estático — sem JS, sem env do Coolify).
 
-Configuration → **Environment Variables** → **+ Add**:
+- **`npm run build`** (local): `node scripts/stamp-build-info.mjs` — lê `package.json` + git
+- **CI**: workflow `.github/workflows/stamp-site-version.yml` roda a cada push em `frontend/**`, commita o rodapé com `github.sha` e `[skip ci]`
 
-| Name | Value | Buildtime | Runtime |
-|------|-------|-----------|---------|
-| `TRCON_COMMIT_HASH` | `$SOURCE_COMMIT` | ✓ | ✓ |
+Coolify só publica os arquivos; não precisa build command nem variáveis extras.
 
-Use **`TRCON_COMMIT_HASH`**, não duplique `SOURCE_COMMIT` com valor `$SOURCE_COMMIT` (pode ficar literal).
-
-#### Advanced → Custom Docker Options *(build-arg — se hash continuar unknown)*
-
-Se nos logs da build aparecer `build SOURCE_COMMIT=` vazio, adicione na caixa **Custom Docker Options**:
-
-```text
---build-arg SOURCE_COMMIT=$SOURCE_COMMIT
-```
-
-#### Depois do deploy
-
-1. **Force rebuild** (sem cache)
-2. Logs da build: `build SOURCE_COMMIT=923773c...`
-3. `https://trcongroup.com.br/assets/build-info.js` → hash correto, `Cache-Control: no-store`
-4. Rodapé: `Versão 0.1.0` + hash (não `—` nem `dev`)
-
-**Healthcheck** (Configuration → Healthcheck):
+**Healthcheck** (opcional):
 
 | Campo | Valor |
 |---|---|
 | Path | `/` |
 | Port | `80` |
 | Start Period | `30` s |
-
-### Opção B — Static *(sem hash automático)*
-
-| Campo | Valor |
-|---|---|
-| Build Pack | **Static** |
-| Base Directory | `frontend` |
-| Static Image | `nginx:alpine` |
-| Port | `80` |
-| Is it a static site? | **sim** |
-
-Sem build step: o rodapé fica com `dev` até você rodar `npm run build` localmente e commitar `assets/build-info.js`, ou migrar para a Opção A.
 
 Antes do deploy, `frontend/assets/env.js`:
 
@@ -269,8 +236,6 @@ window.TRCON_NEWS_API_URL       = 'https://api-site.trcongroup.com.br/api/public
 ```
 
 Nenhum segredo no frontend.
-
-Versão e commit aparecem no **rodapé** (`Versão X.Y.Z` + badge com hash). Com **Dockerfile** (Opção A), o hash vem do `SOURCE_COMMIT` do Coolify a cada deploy.
 
 ## Passo 6 — Redis, RabbitMQ e Workers IA
 
