@@ -63,6 +63,7 @@ Serviços:
 | Health | `http://localhost:8081/actuator/health` |
 | API Novidades | `http://localhost:8081/api/public/news` |
 | API Radar (highlights) | `http://localhost:8081/api/public/highlights` |
+| API Educação Financeira | `http://localhost:8081/api/public/economy-tips` |
 | PostgreSQL | `localhost:5434` (se `5432` ocupada) ou `5432` |
 
 Banco local padrão:
@@ -119,14 +120,16 @@ já aponta para `:8081`:
 window.TRCON_LEADS_API_URL = 'http://localhost:8081/api/v1/site/leads';
 window.TRCON_HIGHLIGHTS_API_URL = 'http://localhost:8081/api/public/highlights';
 window.TRCON_NEWS_API_URL = 'http://localhost:8081/api/public/news';
+window.TRCON_ECONOMY_TIPS_API_URL = 'http://localhost:8081/api/public/economy-tips';
 ```
 
-### Radar TRCon vs Novidades TRCon
+### Radar TRCon vs Novidades vs Educação Financeira
 
 | Seção na home | API | Conteúdo |
 |---|---|---|
 | **Radar TRCon** | `/api/public/highlights` | Destaques (`daily_highlights`) — alimentado pelo Sirius Marketing via `POST /api/internal/highlights`; fallback JSON se API vazia |
 | **Novidades TRCon** | `/api/public/news` | Artigos publicados pelo Sirius Marketing (`news_items`) |
+| **Educação Financeira** | `/api/public/economy-tips` + `data/economy-tips.json` | Merge: marketing (`LANDING_PAGE`/`NEWSLETTER` aprovados) tem prioridade; RSS preenche até 4 cards |
 
 Não são o mesmo feed. Antes da API, ambos pareciam iguais porque usavam JSON derivado do radar.
 
@@ -245,11 +248,12 @@ Com backend e frontend rodando:
 
 3. Abrir `http://localhost:8081/api/public/highlights` (Radar — após aprovar artigo no marketing, deve listar destaque).
 4. Abrir `http://localhost:8081/api/public/news` (Novidades — artigos aprovados).
-5. Abrir `http://127.0.0.1:4173` — conferir seções **Radar TRCon** e **Novidades TRCon**.
-6. Enviar o formulário de contato.
-7. Esperar HTTP 201 no primeiro envio.
-8. Reenviar o mesmo lead e esperar HTTP 409.
-9. Parar o backend e confirmar que a home continua abrindo com JSON estático.
+5. Abrir `http://localhost:8081/api/public/economy-tips` (Educação Financeira — após aprovar landing/newsletter no marketing).
+6. Abrir `http://127.0.0.1:4173` — conferir seções **Radar TRCon**, **Novidades TRCon** e **Educação Financeira**.
+7. Enviar o formulário de contato.
+8. Esperar HTTP 201 no primeiro envio.
+9. Reenviar o mesmo lead e esperar HTTP 409.
+10. Parar o backend e confirmar que a home continua abrindo com JSON estático.
 
 ## Acessar o banco local
 

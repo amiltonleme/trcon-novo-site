@@ -44,7 +44,8 @@ O site evolui para uma arquitetura **híbrida**, com:
 
 - renderização da interface institucional (posicionamento em [01-POSICIONAMENTO-INSTITUCIONAL.md](./01-POSICIONAMENTO-INSTITUCIONAL.md))
 - leitura de JSON publicado em `data/`
-- consumo de API pública do backend quando aplicável
+- consumo de API pública do backend quando aplicável (`news`, `highlights`, **`economy-tips`**)
+- **Educação Financeira:** merge `GET /api/public/economy-tips` (marketing) + `data/economy-tips.json` (RSS); disclaimer editorial na home
 - animações e interatividade no navegador
 
 ### Camada 2 — Backend próprio (`site/backend`)
@@ -55,18 +56,20 @@ Responsável por:
 - captação estruturada de leads comerciais (produto, dev sob demanda, customização, staffing)
 - autenticação e autorização, se existirem áreas privadas
 - histórico de eventos e novidades
+- **Educação Financeira curada:** tabela `economy_tips` (Flyway V6); ingestão via `POST /api/internal/economy-tips` (Sirius Marketing); leitura pública `GET /api/public/economy-tips`
 - APIs internas do ecossistema TRCon Site
 
 Arquitetura obrigatória: MVC modular monolith — controller / service / repository / mapper / VO / DTO / domain / shared. Detalhes completos em [05-BACKEND-ARQUITETURA-MVC.md](./05-BACKEND-ARQUITETURA-MVC.md).
 
 ### Camada 3 — Conteúdo gerado (`site/frontend/data`)
 
-- `market.json`, `economy-tips.json`, `recipes.json` (existentes)
-- `ai-radar.json`, `tech-radar.json`, `news-log.json`, `home-highlights.json` (planejados)
+- `market.json`, **`economy-tips.json`** (RSS + catálogo estático; complementa API marketing), `recipes.json` (existentes)
+- `ai-radar.json`, `tech-radar.json`, `news-log.json`, `home-highlights.json` (planejados / parcial)
 
 ### Camada 4 — Geração automática (`site/frontend/scripts` ou `site/infra/pipeline`)
 
 - scripts pequenos e especializados por fonte/domínio (SRP)
+- **`update_economy_tips.py`** — feeds RSS de educação financeira + fallback `catalog/economy_tips_fallback.py` (18 dicas); CI 2×/dia
 
 ### Camada 5 — Orquestração e produção
 

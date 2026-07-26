@@ -74,3 +74,20 @@ publicar vazio. O site nunca quebra por falha de feed externo
 
 `update-content.yml` (em `../.github/workflows/`) roda o pipeline **2x/dia**
 (08:00 e 20:00 UTC) e commita apenas `frontend/data/*.json`.
+
+## Integração Sirius Marketing (Educação Financeira)
+
+Conteúdos **`LANDING_PAGE`** e **`NEWSLETTER`** aprovados no marketing publicam via
+`POST /api/internal/economy-tips` (X-API-Key). Na home, `loadEconomyTips()` em
+`assets/modules/content.js` **prioriza a API** e completa com itens do JSON RSS até
+4 cards. Config prod: `TRCON_ECONOMY_TIPS_API_URL` em `env.js`.
+
+**Fluxo:**
+
+```text
+RSS (CI) → economy-tips.json ──┐
+                               ├── Home (merge, disclaimer)
+Marketing approve → Neon API ──┘
+```
+
+Ver também: `doc/02-ARQUITETURA-CANONICA.md` e runbook marketing `docs/cursor/09_deploy_producao.md`.
