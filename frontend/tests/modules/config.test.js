@@ -39,3 +39,25 @@ describe('resolveApiConfig', () => {
     expect(cfg.newsApiUrl).toBe('https://api.trcon.com.br/api/public/news');
   });
 });
+
+describe('resolveBuildInfo', () => {
+  it('usa defaults locais quando nenhuma variável é injetada', async () => {
+    const { resolveBuildInfo } = await import('../../assets/modules/config.js');
+    const info = resolveBuildInfo({
+      TRCON_APP_VERSION: undefined,
+      TRCON_COMMIT_HASH: undefined,
+    });
+    expect(info.appVersion).toBe('dev');
+    expect(info.commitHash).toBe('local');
+  });
+
+  it('propaga versão e commit quando injetados', async () => {
+    const { resolveBuildInfo } = await import('../../assets/modules/config.js');
+    const info = resolveBuildInfo({
+      TRCON_APP_VERSION: '0.2.0',
+      TRCON_COMMIT_HASH: 'abc1234',
+    });
+    expect(info.appVersion).toBe('0.2.0');
+    expect(info.commitHash).toBe('abc1234');
+  });
+});

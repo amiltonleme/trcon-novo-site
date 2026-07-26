@@ -206,6 +206,7 @@ Resposta esperada no health:
 |---|---|
 | Build Pack | **Static site** |
 | Base Directory | `frontend` |
+| Build command | `node scripts/inject-build-info.mjs` *(injeta versão + hash Git em `assets/build-info.js`)* |
 | Port | `80` |
 | Is it a static site? | **sim** |
 | Domains | `https://trcongroup.com.br`, `https://www.trcongroup.com.br` |
@@ -220,6 +221,8 @@ window.TRCON_NEWS_API_URL       = 'https://api-site.trcongroup.com.br/api/public
 ```
 
 Nenhum segredo no frontend.
+
+Versão e commit aparecem no **rodapé** (`Versão X.Y.Z` + badge com hash). Coolify injeta `SOURCE_COMMIT` no build; localmente use `npm run build`.
 
 ## Passo 6 — Redis, RabbitMQ e Workers IA
 

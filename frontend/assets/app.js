@@ -1,4 +1,4 @@
-import { apiConfig } from './modules/config.js';
+import { apiConfig, buildInfo } from './modules/config.js';
 import {
   changeClass,
   escapeHtml,
@@ -618,9 +618,22 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
     });
   }, { threshold: 0.1 });
 
+  function applyBuildInfo() {
+    const versionEl = document.getElementById('siteAppVersion');
+    const commitEl = document.getElementById('siteCommitHash');
+    const root = document.getElementById('siteBuildInfo');
+    if (!versionEl || !commitEl || !root) return;
+
+    const { appVersion, commitHash } = buildInfo;
+    versionEl.textContent = appVersion;
+    commitEl.textContent = commitHash;
+    root.setAttribute('aria-label', `Versão ${appVersion}, commit ${commitHash}`);
+  }
+
   initHeroScene();
   initSubpageHeroScenes();
   setupNavigation();
   setupBetaWaitlist();
+  applyBuildInfo();
   loadSiteData();
   loadHomeContent();
