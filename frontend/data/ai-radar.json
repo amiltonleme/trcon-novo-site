@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T20:41:54.710031+00:00",
+  "generated_at": "2026-07-26T09:48:56.860534+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -31,11 +31,20 @@
       "signal": "flat"
     },
     {
+      "title": "IA ainda é frágil no quesito segurança, revela indicador",
+      "summary": "IA ainda é frágil no quesito segurança, revela indicador",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORXhwRkwyVkZyVzFZZEVXVXk4MEZfVFZJT3IxbTJvRmhNZ24zc1F0b1p5QWwtRlZLRklLLU1GeTlzZUlRNEJFVE1fMUFwZy1QYmNYbjAySGRXcXJ4cVJIZ2JtVHlaSGxmZi1qN0RNU2Jfc2NFTTVMZ3FnYzZGdkVMbnNLb0FLVFBEcjRPN0t4eXNWVjZUZHRJV2xzS2xqaXFMUThtaGRWUm5ZYllTdlBQZG1aRmlBOEQ5c0RXVUZ0R0_SAcYBQVVfeXFMT0xfcXVjQ3ZOcHRMbDd3Sjk2V1RTdmdvaXF0M3c5M2s1dXRtZjFvNmxQNmZHcVBFOGdibGFpWnNybXNPQkZYeDNjZHlzLU5kTWVVOUNjdzJROXkxd0czSXFPTlIwUlJrSmFETW9URlk2THhONzBSTzJJRERLcG1lazY3SERhMEFDSlgxYmJxWDZ6S1hRMTlWUTNMZ1RTc0Rub2tMMThuRmtrTzlNc2VVWVpOdGo5NjV6TmZUcWwwekJXaVcyMmVR?oc=5",
+      "source": "Correio Braziliense",
+      "published_at": "Sun, 26 Jul 2026 06:59:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
       "title": "Por que empresas globais estão migrando para IA chinesa",
       "summary": "Por que empresas globais estão migrando para IA chinesa",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSk5PeVRsU2hjVFRZSWVnUVo5WFhLam5sRUJ5UjQtRkZ5WHdEZWFyeThPRGFqYnBZME4zU0pscU8yWFY0M0tzakJGWjlJOEQ4UzQ0WmtBdnc5MnRGM1NYOVk3TlRtN205cHdIMXp1VTFLQjdqTDZoZURFZzFMYnZPVFVkSWwwcFZDYmlvVFdBeVA0Y3VUdU1DTlc5UnBmRjFPWjktQWxldWhuTTJaRjVFOFBDeEhPS3g1NUtvSXdpV21BR0N0eC1TRE9MeWlCY3dGNWhUcnlidzhwaGhkdUFoUElB?oc=5",
-      "source": "UOL Notícias",
-      "published_at": "Sat, 25 Jul 2026 15:30:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORHc2Q3MtQkVJdFM1Tlhka0pGNjEzN0tOT0JCYkFGNzU0Q0s1RnR5Z19LR1FYMlExWlVMbnZ0N1daSm5jWUx6Nkw4eVZpZlljYUl2aVRNUGROSi1MYm92bmZHLTdKdHI0Y0RPRWY2TU9EbzdOYU5vSHRUOXpmMEVzMk5oRHE2OC1JUlhYVEI0UG5HVV9lb203dFpiSW7SAZwBQVVfeXFMTWdSZlZ2OVVfTEtySEJ0U2JZRnlyVlBZS0lhZXZ4clRYQUNkQ1I3MTllSDRWSmtCZnhkalFaUUNLOTlvai1mcWRpeHgtZTVnT0hkY2hFbVZ6RzMxQXJvZWJtRlFfckVaQnFGT0NVWXB1ZjlwSnRhVTlJOWQ1QVBxU0Y2LUdDZ0QwM3FIRlBGTnc5R2h2R0hQamVRUE5Y?oc=5",
+      "source": "dw.com",
+      "published_at": "Sat, 25 Jul 2026 15:38:03 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -45,15 +54,6 @@
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9rMzlvTUFzM2tPdDRjTlFaLUtaWXhpemZtd0VPd0pLSVpIOW0tTjZaYXMzU1Fjd0JnNUY1MDJabHA1UE5VaFU3OVRPR2Vib3JfWHRUbEd4Ny1DamxmMXJDV01R0gFnQVVfeXFMTlBoNDlpb3d1clg3VDVheHpOU0RYQTRXdU1UTHVtUkhqb2hua0JQTmFDeDBOQmpkWTRtajc4Z1JqNmx1NkVvTDZETDBabUEwelpqU0IwYVV6QkNWYVVrUFRkZWpPYkp5TQ?oc=5",
       "source": "BBC",
       "published_at": "Thu, 23 Jul 2026 16:46:26 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Depois da corrida pela inteligência artificial, foco das empresas é escalar projetos com IA | SEGS Portal...",
-      "summary": "Depois da corrida pela inteligência artificial, foco das empresas é escalar projetos com IA | SEGS Portal...",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSG1nc1hnSDR2bDB2YXF1OTJSMXRKS1IxNE5uSEtBdlZCTVVLcWZBcGxwdmx0WjNaWWFlaGJUamJXYjl2a3FsdjcyU3F0WkhzTHpJc3dVMGJBMGVtWW54eWQ3VkEzQ1duSm1tZWdkU3F6eF9QdUs0b1g2WTdqazdpd2dWdzJrdmVheW53cnRDV1NqRmRUMnJBeTRQejZmUWh2SlY0LVlyZWhEd0JyZE5HYmE5LVc5dGJxU2c2aEpkYndaNEQwVGplUFZ5TGRYQdIBzgFBVV95cUxQSG1nc1hnSDR2bDB2YXF1OTJSMXRKS1IxNE5uSEtBdlZCTVVLcWZBcGxwdmx0WjNaWWFlaGJUamJXYjl2a3FsdjcyU3F0WkhzTHpJc3dVMGJBMGVtWW54eWQ3VkEzQ1duSm1tZWdkU3F6eF9QdUs0b1g2WTdqazdpd2dWdzJrdmVheW53cnRDV1NqRmRUMnJBeTRQejZmUWh2SlY0LVlyZWhEd0JyZE5HYmE5LVc5dGJxU2c2aEpkYndaNEQwVGplUFZ5TGRYQQ?oc=5",
-      "source": "SEGS Portal Nacional",
-      "published_at": "Fri, 24 Jul 2026 21:12:52 GMT",
       "category": "IA",
       "signal": "flat"
     }
