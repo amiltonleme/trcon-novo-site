@@ -1,4 +1,4 @@
-import { apiConfig, buildInfo } from './modules/config.js';
+import { apiConfig, resolveBuildInfo } from './modules/config.js';
 import {
   changeClass,
   escapeHtml,
@@ -624,7 +624,7 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
     const root = document.getElementById('siteBuildInfo');
     if (!versionEl || !commitEl || !root) return;
 
-    const { appVersion, commitHash } = buildInfo;
+    const { appVersion, commitHash } = resolveBuildInfo();
     versionEl.textContent = appVersion;
     commitEl.textContent = commitHash;
     root.setAttribute('aria-label', `Versão ${appVersion}, commit ${commitHash}`);

@@ -213,26 +213,32 @@ Resposta esperada no health:
 | Is it a static site? | **não** |
 | Domains | `https://trcongroup.com.br`, `https://www.trcongroup.com.br` |
 
-Coolify **não envia** `.git` para o Docker (só o snapshot do código). O hash vem da variável **`SOURCE_COMMIT`**.
+Coolify **não envia** `.git` para o Docker. O hash vem de **`SOURCE_COMMIT`** (build-arg) e/ou variável de runtime.
 
-#### Environment Variables *(obrigatório para o hash)*
+#### Environment Variables *(runtime — entrypoint)*
 
 Configuration → **Environment Variables** → **+ Add**:
 
 | Name | Value | Buildtime | Runtime |
 |------|-------|-----------|---------|
-| `SOURCE_COMMIT` | `$SOURCE_COMMIT` | ✓ | ✓ |
+| `TRCON_COMMIT_HASH` | `$SOURCE_COMMIT` | ✓ | ✓ |
 
-Coolify substitui `$SOURCE_COMMIT` pelo SHA do deploy (ex.: `923773ceb665...`).
+Use **`TRCON_COMMIT_HASH`**, não duplique `SOURCE_COMMIT` com valor `$SOURCE_COMMIT` (pode ficar literal).
 
-O `docker-entrypoint.sh` regrava `assets/build-info.js` na subida do container se `SOURCE_COMMIT` existir (fallback se o build-arg falhar).
+#### Advanced → Custom Docker Options *(build-arg — se hash continuar unknown)*
 
-Depois: **Force rebuild** (sem cache) e confira nos logs:
+Se nos logs da build aparecer `build SOURCE_COMMIT=` vazio, adicione na caixa **Custom Docker Options**:
 
 ```text
-build SOURCE_COMMIT=923773c...
-Build info: v0.1.0 @ 923773c
+--build-arg SOURCE_COMMIT=$SOURCE_COMMIT
 ```
+
+#### Depois do deploy
+
+1. **Force rebuild** (sem cache)
+2. Logs da build: `build SOURCE_COMMIT=923773c...`
+3. `https://trcongroup.com.br/assets/build-info.js` → hash correto, `Cache-Control: no-store`
+4. Rodapé: `Versão 0.1.0` + hash (não `—` nem `dev`)
 
 **Healthcheck** (Configuration → Healthcheck):
 
