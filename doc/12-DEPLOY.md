@@ -204,20 +204,35 @@ Resposta esperada no health:
 
 ### Opção A — Dockerfile *(recomendado: injeta versão + hash no build)*
 
-O Build Pack **Static** do Coolify **não tem** campo Build Command — só publica os arquivos como estão no Git. Para gerar `assets/build-info.js` com o hash do commit, use **Dockerfile**:
-
 | Campo | Valor |
 |---|---|
 | Build Pack | **Dockerfile** |
-| Base Directory | **`.`** *(raiz do repo — necessário para incluir `.git` no build)* |
-| Dockerfile location | **`frontend/Dockerfile`** |
+| Base Directory | **`frontend`** |
+| Dockerfile location | **`Dockerfile`** |
 | Port | `80` |
-| Is it a static site? | **não** *(container nginx)* |
+| Is it a static site? | **não** |
 | Domains | `https://trcongroup.com.br`, `https://www.trcongroup.com.br` |
 
-> **Importante:** se Base Directory for `frontend`, o Docker **não recebe** a pasta `.git` e o hash fica `unknown`. Use raiz do repo + `frontend/Dockerfile`.
+Coolify **não envia** `.git` para o Docker (só o snapshot do código). O hash vem da variável **`SOURCE_COMMIT`**.
 
-O `frontend/Dockerfile` copia `.git` + `frontend/`, roda `inject-build-info.mjs` e publica via nginx. Opcional: build-arg `SOURCE_COMMIT` (Coolify costuma injetar automaticamente).
+#### Environment Variables *(obrigatório para o hash)*
+
+Configuration → **Environment Variables** → **+ Add**:
+
+| Name | Value | Buildtime | Runtime |
+|------|-------|-----------|---------|
+| `SOURCE_COMMIT` | `$SOURCE_COMMIT` | ✓ | ✓ |
+
+Coolify substitui `$SOURCE_COMMIT` pelo SHA do deploy (ex.: `923773ceb665...`).
+
+O `docker-entrypoint.sh` regrava `assets/build-info.js` na subida do container se `SOURCE_COMMIT` existir (fallback se o build-arg falhar).
+
+Depois: **Force rebuild** (sem cache) e confira nos logs:
+
+```text
+build SOURCE_COMMIT=923773c...
+Build info: v0.1.0 @ 923773c
+```
 
 **Healthcheck** (Configuration → Healthcheck):
 
