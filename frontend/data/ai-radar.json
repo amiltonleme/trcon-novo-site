@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T10:59:25.212828+00:00",
+  "generated_at": "2026-07-27T21:04:36.400912+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -13,6 +13,15 @@
       "signal": "flat"
     },
     {
+      "title": "IA transforma o mercado de trabalho e já impacta profissões mais expostas à automação",
+      "summary": "IA transforma o mercado de trabalho e já impacta profissões mais expostas à automação",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8zNnJEbllCaGduQ0dsR1o2cjRxbmhGRm5fSTgzS2NkZlJucjNOeDg5S0dLS0pVNUF2OUNjb3hRWjVJNUdySkJtbWpxY0gxSkJUazU4WHAybERaRWdqeVdBellfZjcwekdyT0E?oc=5",
+      "source": "CSB Central dos Sindicatos Brasileiros",
+      "published_at": "Mon, 27 Jul 2026 12:53:09 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
       "title": "Nova revolução industrial da China: Por que a inteligência artificial vai muito além das big techs",
       "summary": "Nova revolução industrial da China: Por que a inteligência artificial vai muito além das big techs",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOczdNYkU5NG5HaFlvVzNxQUZZR2Nib3BnQUtzTVlxR1ZXVVJaSmU5ZGpPSEpiUy05QnNqVXpCRzJxUzNGdF9tSTJqa1lYNC11REFzTFRDX2NuN0VNOWZTMHpNay03QjgxLWs0VWlwZzFkOEZKYm5PNUw5Q3g0WXJtUEVxRWlQVmY1eUZ4RDlDWU9mNVdwSlFieDFLTUx2cXl2STFUY3QxeGxYazFUbF85NkdiT3F4U3JNdDY3RHE2c0s3SjVDdC1Z?oc=5",
@@ -22,20 +31,11 @@
       "signal": "flat"
     },
     {
-      "title": "Depois da Nvidia, quem deve ganhar com a inteligência artificial? As empresas “chatas”, dizem gestores internacionais",
-      "summary": "Depois da Nvidia, quem deve ganhar com a inteligência artificial? As empresas “chatas”, dizem gestores internacionais",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNUS1fcDMydDBXOExwNnJDdW1nRWZnS3hpVURDX0trb2lSV1JfNEZqcVptLVBNVHhnV29ZczN0UnhIMWlxZHB5LUlrWndfemFNa05PSS1wbHBJLXhpUFBYbURPNk5GRWpPQTJSVEcwUWVCQzZLcUxsMWQ3TU5RRkJoWFdOeHJCSU9OWmNRbVh1VlVTaDNiajE0VXFkckE2Rm8ydDJoalc2NlIxaHFHUkJYQ3p2UjZEMTJZdzNGQkNTNW1pQ3luSlN0UzBCcTl6RFFuczlKTlNEN3VFZ3I0eVJoUXo3SDRnZ0FwUG82TE1zaXhZTkhSMG5qVENWRk9RYUFUSi00YmxuSklWVXhySEFR?oc=5",
-      "source": "Bora Investir",
-      "published_at": "Thu, 23 Jul 2026 19:42:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
       "title": "Por que empresas globais estão migrando para IA chinesa",
       "summary": "Por que empresas globais estão migrando para IA chinesa",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORHc2Q3MtQkVJdFM1Tlhka0pGNjEzN0tOT0JCYkFGNzU0Q0s1RnR5Z19LR1FYMlExWlVMbnZ0N1daSm5jWUx6Nkw4eVZpZlljYUl2aVRNUGROSi1MYm92bmZHLTdKdHI0Y0RPRWY2TU9EbzdOYU5vSHRUOXpmMEVzMk5oRHE2OC1JUlhYVEI0UG5HVV9lb203dFpiSW7SAZwBQVVfeXFMTWdSZlZ2OVVfTEtySEJ0U2JZRnlyVlBZS0lhZXZ4clRYQUNkQ1I3MTllSDRWSmtCZnhkalFaUUNLOTlvai1mcWRpeHgtZTVnT0hkY2hFbVZ6RzMxQXJvZWJtRlFfckVaQnFGT0NVWXB1ZjlwSnRhVTlJOWQ1QVBxU0Y2LUdDZ0QwM3FIRlBGTnc5R2h2R0hQamVRUE5Y?oc=5",
-      "source": "DW.com",
-      "published_at": "Sat, 25 Jul 2026 15:39:08 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORHBqRmR1RTJjOWxEWmtnT3RNeE9rampfVThHdEJtaWdlTUJ0alZEeFY3MmhlUkFOc3cxLXppMkRCbkJqTjRZWS1DNUxIT3lYMEt6MDdaVzJ5ZnJ4QUViaGRxc19BWk5zcTl3dThpcnNpX2oxTnNxTnZLWUVxenI1NjFGdGxRUVFzM3BXWmhRMHdXUjNiT3U2enlqRm5HYXBlOUV6SUl6T0ZQMllrMnRDU3ltSVhfWE1WY29tb3ZOQmVueUNvMkUzZA?oc=5",
+      "source": "UOL",
+      "published_at": "Mon, 27 Jul 2026 12:50:28 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -49,11 +49,11 @@
       "signal": "flat"
     },
     {
-      "title": "Especialistas apontam que IA autônoma vai transformar empresas, mas não substituir profissionais | Tecnologia e Mercado | O Liberal",
-      "summary": "Especialistas apontam que IA autônoma vai transformar empresas, mas não substituir profissionais | Tecnologia e Mercado | O Liberal",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQaElQc3kycWdKTnFPaDVPVzh2dWgwZEd1aDQxNG5NVWEweVY1MzJjR3ZTUHdZT3pZaU85MkdRVXRNMnZNbW9iNk5PWTRQVHBWeExrY2lyMmliZWNPV1p2aWt3SGpEbmZUa3NxSTQ2UklsYWpidzhHWHAyN2ZsWldqMURVU0FXSlRaRUx2RlhaS2pmTEIzWmpEaWFSR0Q4MXVmV3g5Wk51T3cwRlR5eHhKR0djTDJPWTczYk80VUFWZVE2UGdXVmp5R2pBZnhkbllJWGdYZHVzaVpvb2MtTGFuRy1pblNiQdIB6wFBVV95cUxQVjRUOGVUcXpNUENSNklvSFN5bDhlRmtQaWtSWFRqMXdaeE1XSDNzMFMxNVdRME55MUZnWDNUUHMyd1FvWmZOQ1ZrQTExSnJrMUQwa001S2FkbTVtaXpkZC1ZUzlRTUhZNU9CNlBJdDlBblBhUDNCX2prNVotS0hraVdvam9POWN6dWlUZ3IyYlI5UWhSWFBfd1EwSG5kaHBuOEdVcEdCb1RJZDM5MHFqYnFfV1JWUjdYRW5IRmVWdmowQUg5Y2ZGR0VCOUlRcEtBMThQeW8wWHN0UWtpWlVNdkFjWVpGQjNuOXNF?oc=5",
-      "source": "O Liberal",
-      "published_at": "Mon, 27 Jul 2026 10:00:04 GMT",
+      "title": "Painel S.A.: Apenas 7% das empresas estão prontas para IA, aponta pesquisa global",
+      "summary": "Painel S.A.: Apenas 7% das empresas estão prontas para IA, aponta pesquisa global",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOY2I1Y1dJRXZxY1JHSUs0a0Fzd3I2U0VSZ1FlSDd5R0k1T0ZmM0FOdEV1RWJtUk4zcGVEZmNTRnhvaXhUQU5taXZfRXdBZkNhRDVkcHlUUFVfY01yckh0Tzg4YVJUT1FfZG8zZ3pvNndwejRORVQ2eHNvd3BjSE9ySWRjc1h0TUxQcXdBYnRadkY2cTBVajNNTW9ZdGpXX1ZJRDhoQTlnTmVsRU5CWExqTnUwaFpVSmNiR3pNdW1SYnJ6RVhad2c?oc=5",
+      "source": "Folha de S.Paulo",
+      "published_at": "Mon, 27 Jul 2026 13:00:00 GMT",
       "category": "IA",
       "signal": "flat"
     }
