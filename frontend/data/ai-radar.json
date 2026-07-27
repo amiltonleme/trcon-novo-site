@@ -1,14 +1,23 @@
 {
-  "generated_at": "2026-07-26T09:48:56.860534+00:00",
+  "generated_at": "2026-07-27T10:59:25.212828+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
     {
       "title": "A inteligência artificial vai ajudar você no trabalho ou roubar seu emprego? Veja os cargos mais afetados",
       "summary": "A inteligência artificial vai ajudar você no trabalho ou roubar seu emprego? Veja os cargos mais afetados",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5vZkpEWmcxNm5FbDVSYzZLUWJBTUFuUEdQQWdOc3hhTER6MG5tMzQ0VzFxXzZvMWlwMXNDUkZNakhjcVNHYkFNNUdQNXFYeFQ1R1dlUV9OVUpvT1pzTGc2U1p30gFnQVVfeXFMTjBQVTA3WFdrcURZS0xZQnpXSWhxZDNKTWVXakVTNXN6OVJwOEt5T0ZuNERiRFRVRUxZNEJJcy0yd1lsWHo0bnVfSUl2VXNmWGpJWlZTVzFDVUdJZHEzVXdzV2N6NGlCRQ?oc=5",
-      "source": "BBC",
-      "published_at": "Sat, 25 Jul 2026 10:10:38 GMT",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOXzBaUjdvVnRSYkt1WlJsOVlvTW5oOC1iR0ZXbWVmRzJPZ1F4bF9LY0xoSnNiZEtFSUNIRFVWdThHN2d2MDhWS1ZKM3Zuai0tM0ZwbFlKU2RtSkRQWmFlYmxjNnl5YU5QNjNlVzhvQlk0RVB6V21OSWxKazlJUVV1UDRXZzdyRGFPQnBwQXJEdDJNMzNOWFhMMFh2RldPT3d1cjVFVjVZcnZSRjFoeDdCeHp1XzYzcHpqTncxcnZKaTkyaC13OEpkaGJFdEhuZ2pId0gwRmVZdnNCTGRqRHZta0FneV9ZTGFEMDZiQVI0VlRoeGFXcVFmSURVTnFtaVnSAY4CQVVfeXFMTUdJUDBqZlp2N3hURDB5eEE0cEFhTzZCNW5XaVh5U0N2UXMtdlpIMl9pbmNjS0xOQXNMVUh2TEZoQVZ1ODN0aVk2aHVUMFdIZ3lXdU04UEl3M3IzVkJwM1dBUVl3aHdwMUlsV1pyUFNnNjNPY2RHS3F6SF9DYzNpejc5VXBQSUFfV2FMSVJEMXMydUcxaVRLblhiZUtJaUNJZmZudkdYQjBZSjM5dXhYRXdsMVhUd3BiWUhYcHVSQkxZekdyd0NVNHFmQTgzdjRZY0I5OGtXS08zdHptYVdDdHJocEhmekw2X0FjZHZOd04wQ0VPOWF4NFREcTc1Zm9aekxwQXpiSGRvWmNEdVdR?oc=5",
+      "source": "G1",
+      "published_at": "Mon, 27 Jul 2026 06:00:32 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Nova revolução industrial da China: Por que a inteligência artificial vai muito além das big techs",
+      "summary": "Nova revolução industrial da China: Por que a inteligência artificial vai muito além das big techs",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOczdNYkU5NG5HaFlvVzNxQUZZR2Nib3BnQUtzTVlxR1ZXVVJaSmU5ZGpPSEpiUy05QnNqVXpCRzJxUzNGdF9tSTJqa1lYNC11REFzTFRDX2NuN0VNOWZTMHpNay03QjgxLWs0VWlwZzFkOEZKYm5PNUw5Q3g0WXJtUEVxRWlQVmY1eUZ4RDlDWU9mNVdwSlFieDFLTUx2cXl2STFUY3QxeGxYazFUbF85NkdiT3F4U3JNdDY3RHE2c0s3SjVDdC1Z?oc=5",
+      "source": "Money Times",
+      "published_at": "Mon, 27 Jul 2026 10:49:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -22,11 +31,11 @@
       "signal": "flat"
     },
     {
-      "title": "Por que a inteligência artificial não funciona na maioria das empresas",
-      "summary": "Por que a inteligência artificial não funciona na maioria das empresas",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQU2xKeUE4dmp2Uk51LXM5eFM1ZDlhNzlXdVFqb2ctaDFhX0tEQV8yczNSVFNVUTNkbndhdTNKN1ROYXQ0UjhvQnQtMDdIN0tlZjMwSjBTUkR1NjMxUlp3RXMxbXpObHlKMmV2ajdOQk4tUnVBVk83ckVYM25sX1JqeUhyTnVnTzlVT2gxZlQySF9FVnJLU043MjNPQ1BidkVrQVlTNWIwcWJ5X1M2dFNhV0M5MmhpVHZVUUt2LWp3?oc=5",
-      "source": "CartaCapital",
-      "published_at": "Fri, 24 Jul 2026 21:00:00 GMT",
+      "title": "Por que empresas globais estão migrando para IA chinesa",
+      "summary": "Por que empresas globais estão migrando para IA chinesa",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORHc2Q3MtQkVJdFM1Tlhka0pGNjEzN0tOT0JCYkFGNzU0Q0s1RnR5Z19LR1FYMlExWlVMbnZ0N1daSm5jWUx6Nkw4eVZpZlljYUl2aVRNUGROSi1MYm92bmZHLTdKdHI0Y0RPRWY2TU9EbzdOYU5vSHRUOXpmMEVzMk5oRHE2OC1JUlhYVEI0UG5HVV9lb203dFpiSW7SAZwBQVVfeXFMTWdSZlZ2OVVfTEtySEJ0U2JZRnlyVlBZS0lhZXZ4clRYQUNkQ1I3MTllSDRWSmtCZnhkalFaUUNLOTlvai1mcWRpeHgtZTVnT0hkY2hFbVZ6RzMxQXJvZWJtRlFfckVaQnFGT0NVWXB1ZjlwSnRhVTlJOWQ1QVBxU0Y2LUdDZ0QwM3FIRlBGTnc5R2h2R0hQamVRUE5Y?oc=5",
+      "source": "DW.com",
+      "published_at": "Sat, 25 Jul 2026 15:39:08 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -40,20 +49,11 @@
       "signal": "flat"
     },
     {
-      "title": "Por que empresas globais estão migrando para IA chinesa",
-      "summary": "Por que empresas globais estão migrando para IA chinesa",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORHc2Q3MtQkVJdFM1Tlhka0pGNjEzN0tOT0JCYkFGNzU0Q0s1RnR5Z19LR1FYMlExWlVMbnZ0N1daSm5jWUx6Nkw4eVZpZlljYUl2aVRNUGROSi1MYm92bmZHLTdKdHI0Y0RPRWY2TU9EbzdOYU5vSHRUOXpmMEVzMk5oRHE2OC1JUlhYVEI0UG5HVV9lb203dFpiSW7SAZwBQVVfeXFMTWdSZlZ2OVVfTEtySEJ0U2JZRnlyVlBZS0lhZXZ4clRYQUNkQ1I3MTllSDRWSmtCZnhkalFaUUNLOTlvai1mcWRpeHgtZTVnT0hkY2hFbVZ6RzMxQXJvZWJtRlFfckVaQnFGT0NVWXB1ZjlwSnRhVTlJOWQ1QVBxU0Y2LUdDZ0QwM3FIRlBGTnc5R2h2R0hQamVRUE5Y?oc=5",
-      "source": "dw.com",
-      "published_at": "Sat, 25 Jul 2026 15:38:03 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "OpenAI: o alerta do diretor da empresa Hugging Face, atacada por IA 'rebelde'",
-      "summary": "OpenAI: o alerta do diretor da empresa Hugging Face, atacada por IA 'rebelde'",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9rMzlvTUFzM2tPdDRjTlFaLUtaWXhpemZtd0VPd0pLSVpIOW0tTjZaYXMzU1Fjd0JnNUY1MDJabHA1UE5VaFU3OVRPR2Vib3JfWHRUbEd4Ny1DamxmMXJDV01R0gFnQVVfeXFMTlBoNDlpb3d1clg3VDVheHpOU0RYQTRXdU1UTHVtUkhqb2hua0JQTmFDeDBOQmpkWTRtajc4Z1JqNmx1NkVvTDZETDBabUEwelpqU0IwYVV6QkNWYVVrUFRkZWpPYkp5TQ?oc=5",
-      "source": "BBC",
-      "published_at": "Thu, 23 Jul 2026 16:46:26 GMT",
+      "title": "Especialistas apontam que IA autônoma vai transformar empresas, mas não substituir profissionais | Tecnologia e Mercado | O Liberal",
+      "summary": "Especialistas apontam que IA autônoma vai transformar empresas, mas não substituir profissionais | Tecnologia e Mercado | O Liberal",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQaElQc3kycWdKTnFPaDVPVzh2dWgwZEd1aDQxNG5NVWEweVY1MzJjR3ZTUHdZT3pZaU85MkdRVXRNMnZNbW9iNk5PWTRQVHBWeExrY2lyMmliZWNPV1p2aWt3SGpEbmZUa3NxSTQ2UklsYWpidzhHWHAyN2ZsWldqMURVU0FXSlRaRUx2RlhaS2pmTEIzWmpEaWFSR0Q4MXVmV3g5Wk51T3cwRlR5eHhKR0djTDJPWTczYk80VUFWZVE2UGdXVmp5R2pBZnhkbllJWGdYZHVzaVpvb2MtTGFuRy1pblNiQdIB6wFBVV95cUxQVjRUOGVUcXpNUENSNklvSFN5bDhlRmtQaWtSWFRqMXdaeE1XSDNzMFMxNVdRME55MUZnWDNUUHMyd1FvWmZOQ1ZrQTExSnJrMUQwa001S2FkbTVtaXpkZC1ZUzlRTUhZNU9CNlBJdDlBblBhUDNCX2prNVotS0hraVdvam9POWN6dWlUZ3IyYlI5UWhSWFBfd1EwSG5kaHBuOEdVcEdCb1RJZDM5MHFqYnFfV1JWUjdYRW5IRmVWdmowQUg5Y2ZGR0VCOUlRcEtBMThQeW8wWHN0UWtpWlVNdkFjWVpGQjNuOXNF?oc=5",
+      "source": "O Liberal",
+      "published_at": "Mon, 27 Jul 2026 10:00:04 GMT",
       "category": "IA",
       "signal": "flat"
     }
