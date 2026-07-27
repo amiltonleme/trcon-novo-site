@@ -7,18 +7,66 @@ Primeira versão implementável de `site/backend`, coerente com:
 [04-BACKEND-STACK-CANONICA.md](./04-BACKEND-STACK-CANONICA.md),
 [05-BACKEND-ARQUITETURA-MVC.md](./05-BACKEND-ARQUITETURA-MVC.md).
 
-## Escopo da primeira versão
+## Escopo da primeira versão (implementado — jul/2026)
 
-- persistência de **leads comerciais** (produto, desenvolvimento sob demanda, customização, alocação de mão de obra) — generalização do antigo módulo "waitlist" para refletir o posicionamento institucional ([01-POSICIONAMENTO-INSTITUCIONAL.md](./01-POSICIONAMENTO-INSTITUCIONAL.md))
-- exposição de highlights públicos
-- exposição de novidades públicas persistidas
-- healthcheck
-- base pronta para crescer sem retrabalho estrutural
+- persistência de **leads comerciais**
+- exposição de highlights públicos + ingestão interna (marketing)
+- exposição de novidades públicas + ingestão interna (marketing)
+- **Educação Financeira:** `economy_tips` (API + pipeline RSS)
+- healthcheck, profiles dev/prod, Docker/Coolify
 
-## Fora de escopo da primeira versão
+Ver matriz completa em [`14-STATUS-IMPLEMENTACAO.md`](./14-STATUS-IMPLEMENTACAO.md).
+
+- **Sprint 8:** artigo por slug, body, sitemap, RSS (V7 — ver [`14-STATUS-IMPLEMENTACAO.md`](./14-STATUS-IMPLEMENTACAO.md))
+
+## Fora de escopo (ainda)
 
 Autenticação de usuários finais, painel administrativo completo, upload de arquivos,
-backoffice de edição, multi-tenant, mensageria, cache distribuído.
+backoffice de edição, multi-tenant, mensageria, cache distribuído, **S8.7 SEO no form marketing**, capa/IA imagem (Sprint 9).
+
+## Módulo 4 — API interna (Sirius Marketing)
+
+Protegida por `InternalApiKeyFilter` — header `X-API-Key` = env `TRCON_SITE_INTERNAL_API_KEY`.
+
+| Endpoint | Função |
+|----------|--------|
+| `POST /api/internal/news` | Ingestão Novidades (slug, body, meta — V7); idempotência `externalId` |
+| `POST /api/internal/highlights` | Ingestão Radar (pipeline/manual); **não** usado por artigos marketing |
+| `POST /api/internal/economy-tips` | Ingestão Educação Financeira (V6) |
+
+### API pública relacionada (S8)
+
+| Endpoint | Função |
+|----------|--------|
+| `GET /api/public/news/{slug}` | Artigo completo |
+| `GET /sitemap.xml`, `GET /feed/news.xml` | SEO feeds |
+
+Request news (resumo):
+
+```json
+{
+  "title": "...",
+  "summary": "...",
+  "url": "https://trcongroup.com.br/...",
+  "category": "Tecnologia",
+  "brandSlug": "trcon",
+  "publishedAt": "2026-07-26T12:00:00Z",
+  "externalId": "{contentId}-v1",
+  "source": "sirius-marketing"
+}
+```
+
+## Módulo 5 — Economy tips (Educação Financeira)
+
+### Entidade `EconomyTip` (V6)
+
+`tag`, `tagClass`, `title`, `body` (≤600), `url`, `linkLabel`, `featured`, `active`, `priority`, `publishedAt`, `externalId`, `brandSlug`, `source`.
+
+### Endpoint `GET /api/public/economy-tips`
+
+Lista itens `active`, ordenados por prioridade/data. Resposta inclui `disclaimer` editorial.
+
+Pipeline RSS complementa via `frontend/data/economy-tips.json` — merge no frontend (`loadEconomyTips`).
 
 ## Módulo 1 — Lead
 
@@ -97,7 +145,9 @@ Response 400:
 
 ### Entidade `NewsItem`
 `id`, `source`, `category`, `title`, `summary`, `url`, `publishedAt`,
-`ingestionBatch`, `createdAt`.
+`brandSlug`, `externalId` (V4), `ingestionBatch`, `createdAt`.
+
+> **Pendente Sprint 8:** `slug`, `body`, metadados SEO para página dedicada.
 
 ### Endpoint `GET /api/public/news`
 - query params: `category` opcional, `limit` opcional (teto 50)
@@ -109,12 +159,15 @@ Response 400:
 
 ## Banco de dados
 
-Tabelas: `leads`, `daily_highlights`, `news_items`. Opcional: `content_updates`.
+Tabelas: `leads`, `daily_highlights`, `news_items`, **`economy_tips`**.
 
 Migrations:
 - `V1__create_leads.sql`
 - `V2__create_daily_highlights.sql`
 - `V3__create_news_items.sql`
+- `V4__news_editorial_fields.sql` — `brand_slug`, `external_id`
+- `V5__highlights_external_id.sql`
+- `V6__economy_tips.sql`
 
 ```sql
 create table leads (

@@ -13,6 +13,7 @@ import java.util.List;
 public class HighlightServiceImpl implements HighlightService {
 
     private static final int MAX_ITEMS = 6;
+    private static final int SCAN_LIMIT = 50;
 
     private final HighlightRepository highlightRepository;
     private final HighlightMapper highlightMapper;
@@ -24,8 +25,22 @@ public class HighlightServiceImpl implements HighlightService {
 
     @Override
     public HighlightListResponse listarAtivos() {
-        List<DailyHighlight> ativos =
-                highlightRepository.findByActiveTrueOrderByPriorityAscPublishedAtDesc(Limit.of(MAX_ITEMS));
-        return highlightMapper.toListResponse(ativos);
+        List<DailyHighlight> candidatos =
+                highlightRepository.findByActiveTrueOrderByPriorityAscPublishedAtDesc(Limit.of(SCAN_LIMIT));
+        List<DailyHighlight> pipeline = candidatos.stream()
+                .filter(this::isPipelineHighlight)
+                .limit(MAX_ITEMS)
+                .toList();
+        return highlightMapper.toListResponse(pipeline);
+    }
+
+    /** Radar = sinais do pipeline; artigos editoriais ficam só em Novidades. */
+    private boolean isPipelineHighlight(DailyHighlight highlight) {
+        String externalId = highlight.getExternalId();
+        if (externalId != null && externalId.endsWith("-radar")) {
+            return false;
+        }
+        String link = highlight.getLink();
+        return link == null || !link.contains("/novidades/");
     }
 }

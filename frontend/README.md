@@ -5,72 +5,58 @@ Stack e regras completas em `../doc/03-FRONTEND-STACK-CANONICA.md`.
 
 ## Status
 
-- **Fase 3 (migração do frontend):** concluída. Conteúdo migrado de
-  `C:\projetos-al\fluxo-caixa-app\site-trcon` e reorganizado em `assets/modules/`.
-  A pasta antiga permanece intacta e publicada até o corte oficial
-  (ver `../doc/07-MIGRACAO-PARALELA.md`, Fase 5).
-- **Fase 4 (conteúdo institucional):** concluída (copy aguardando revisão) —
-  página Serviços (`page-servicos`) com as 4 linhas de negócio + modelos de
-  engajamento de staffing, e blocos das 4 linhas na home. CTAs já carregam
-  `data-lead-type` (PRODUTO / DESENVOLVIMENTO_SOB_DEMANDA / CUSTOMIZACAO /
-  ALOCACAO_MAO_DE_OBRA) para a integração da Fase 5.
-- **Fase 5 (integração com backend):** concluída. O formulário envia para
-  `POST /api/v1/site/leads` via `assets/modules/lead-form.js`, com o campo
-  `tipoInteresse`, pré-seleção pelos CTAs (`data-lead-type`) e degradação
-  previsível se o backend estiver fora do ar. Validado no navegador (201, 409
-  duplicado, fallback offline).
+- **Fase 3–5:** migração, conteúdo institucional e leads → backend concluídos.
+- **Sprint 8 (jul/2026):** página `/novidades/{slug}`, artigo completo, OG tags, home com cards editoriais.
+- **Radar ≠ Novidades (27/07):** feeds separados; layout unificado em **grid de cards**.
 
 ## Estrutura
 
 ```text
 frontend/
-  index.html            # página única (SPA por show/hide de seções)
+  index.html            # home (SPA por show/hide)
+  novidades.html        # template página de artigo
   style.css
   assets/
-    app.js              # orquestrador (ES module)
-    trcon-logo.png
+    app.js              # orquestrador
+    env.js              # URLs API por ambiente (dev → :8081)
     modules/
-      config.js         # URLs de API por ambiente (window.TRCON_*_API_URL) + fallback
-      sanitize.js       # helpers puros de sanitização/formatação (testados)
-      lead-form.js      # montagem/envio de lead (POST /api/v1/site/leads) + fallback
-      content.js        # radar/novidades: fetchWithFallback (API→JSON) + render puro
-  data/                 # JSON público consumido pela home (Camada 3)
-  scripts/              # geração offline de conteúdo (pipeline SOLID — ver scripts/README.md)
-  tests/modules/        # testes Vitest dos módulos com lógica pura
+      config.js         # resolveApiConfig
+      content.js        # radar/novidades: fetch, render cards
+      article.js        # página /novidades/{slug}
+      lead-form.js
+      sanitize.js
+  data/                 # JSON fallback (pipeline)
+  tests/modules/        # Vitest
 ```
 
 ## Consumo de conteúdo (Radar / Novidades)
 
-As seções **Radar TRCon** (highlights) e **Novidades** (news) usam
-`assets/modules/content.js`: tentam a API pública do backend quando
-`window.TRCON_HIGHLIGHTS_API_URL` / `TRCON_NEWS_API_URL` estão configuradas e,
-em qualquer falha, caem para o JSON estático (`data/home-highlights.json`,
-`data/news-log.json`). O mesmo shape (camelCase) serve os dois casos, então a
-troca é transparente. Sem as variáveis, o site funciona 100% com o JSON
-publicado pelo pipeline.
+| Seção | API | Fallback JSON | Layout |
+|-------|-----|---------------|--------|
+| **Radar TRCon** | `GET /api/public/highlights` | `data/home-highlights.json` | `cards-grid` |
+| **Novidades TRCon** | `GET /api/public/news` | `data/news-log.json` | `cards-grid` |
+
+Implementação em `assets/modules/content.js`:
+
+- **`fetchWithFallback`** — API → JSON se falha ou lista vazia (news).
+- **`fetchRadarHighlights`** — exclui highlights editoriais legados; se API só tiver artigos marketing, cai no JSON do pipeline.
+- **`buildHighlightsHtml` / `buildNewsHtml`** — grid de cards compartilhado (`buildCardItemHtml`).
+- Novidades com `slug` → link interno `/novidades/{slug}` (mesma aba).
+
+Variáveis: `window.TRCON_HIGHLIGHTS_API_URL`, `TRCON_NEWS_API_URL` (via `env.js`).
 
 ## Desenvolvimento
 
 ```bash
-npm install       # instala vitest, eslint, prettier
-npm run dev       # serve o site em http://127.0.0.1:4173
-npm test          # roda os testes Vitest
-npm run lint      # ESLint
-npm run format    # Prettier
+npm install
+npm run dev       # http://127.0.0.1:4173
+npm test          # Vitest (58 testes)
 ```
 
-## Notas de migração
+**Smoke local:** site backend `:8081` + `env.js` apontando localhost. Hard refresh após mudanças.
 
-- O `app.js` é carregado como `<script type="module">`. As funções puras de
-  sanitização/formatação foram extraídas para `assets/modules/sanitize.js`
-  (testáveis sem navegador); a configuração de endpoints foi extraída para
-  `assets/modules/config.js`. O comportamento visual/funcional é idêntico ao do
-  site atual (paridade preservada).
-- `config.js` já expõe `leadsApiUrl` lendo `window.TRCON_LEADS_API_URL` com
-  fallback para o endpoint legado de waitlist — a troca efetiva do formulário
-  para o backend novo acontece na Fase 5.
-- `index_old.html` e `trcon-hero.html` (resíduos de desenvolvimento) **não**
-  foram migrados — não faziam parte do site publicado.
+## Referências
 
-Diretrizes de conteúdo e identidade visual: `../doc/01-POSICIONAMENTO-INSTITUCIONAL.md`
-e `../doc/08-REDESIGN-DIRETRIZES.md`.
+- [`../doc/13-AMBIENTE-LOCAL-TESTES.md`](../doc/13-AMBIENTE-LOCAL-TESTES.md)
+- [`../doc/16-PASSO-A-PASSO.md`](../doc/16-PASSO-A-PASSO.md)
+- [`../../sirius-marketing/projeto/docs/cursor/12_manual_usuario_marketing.md`](../../sirius-marketing/projeto/docs/cursor/12_manual_usuario_marketing.md)

@@ -1,8 +1,10 @@
 package br.com.trcon.site.news.controller;
 
+import br.com.trcon.site.news.dto.response.NewsArticleResponse;
 import br.com.trcon.site.news.dto.response.NewsListResponse;
 import br.com.trcon.site.news.service.NewsService;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -22,5 +24,10 @@ public class NewsController {
             @RequestParam(required = false) String category,
             @RequestParam(required = false) Integer limit) {
         return newsService.listar(category, limit);
+    }
+
+    @GetMapping("/{slug}")
+    public NewsArticleResponse buscarPorSlug(@PathVariable String slug) {
+        return newsService.buscarPorSlug(slug);
     }
 }

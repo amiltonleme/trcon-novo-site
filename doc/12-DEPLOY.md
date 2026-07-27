@@ -2,6 +2,9 @@
 
 Runbook canônico de produção do ecossistema TRCon.
 
+> **Status jul/2026:** backend site **no ar** (`api-site.*`). Frontend: redeploy + DNS `@`/`www` pendente.  
+> Matriz e pendências: [`14-STATUS-IMPLEMENTACAO.md`](./14-STATUS-IMPLEMENTACAO.md), [`16-PASSO-A-PASSO.md`](./16-PASSO-A-PASSO.md).
+
 Decisão oficial:
 
 - **Borda:** Cloudflare para DNS, SSL, CDN, cache e segurança.
@@ -188,7 +191,11 @@ Smoke test:
 ```text
 GET https://api-site.trcongroup.com.br/actuator/health
 GET https://api-site.trcongroup.com.br/api/public/news
+GET https://api-site.trcongroup.com.br/api/public/highlights
+GET https://api-site.trcongroup.com.br/api/public/economy-tips
 ```
+
+Após redeploy com Flyway **V6**, validar `economy-tips` retorna 200 (lista pode estar vazia até marketing publicar).
 
 A raiz `/` pode retornar JSON `INTERNAL_ERROR` — não há rota na raiz; isso **não** indica falha de deploy.
 
@@ -230,9 +237,10 @@ Coolify só publica os arquivos; não precisa build command nem variáveis extra
 Antes do deploy, `frontend/assets/env.js`:
 
 ```js
-window.TRCON_LEADS_API_URL      = 'https://api-site.trcongroup.com.br/api/v1/site/leads';
-window.TRCON_HIGHLIGHTS_API_URL = 'https://api-site.trcongroup.com.br/api/public/highlights';
-window.TRCON_NEWS_API_URL       = 'https://api-site.trcongroup.com.br/api/public/news';
+window.TRCON_LEADS_API_URL        = 'https://api-site.trcongroup.com.br/api/v1/site/leads';
+window.TRCON_HIGHLIGHTS_API_URL   = 'https://api-site.trcongroup.com.br/api/public/highlights';
+window.TRCON_NEWS_API_URL         = 'https://api-site.trcongroup.com.br/api/public/news';
+window.TRCON_ECONOMY_TIPS_API_URL = 'https://api-site.trcongroup.com.br/api/public/economy-tips';
 ```
 
 Nenhum segredo no frontend.
@@ -313,11 +321,14 @@ Segurança:
 1. `GET https://api-site.trcongroup.com.br/actuator/health` retorna `{"status":"UP"}`.
 2. `GET https://api-site.trcongroup.com.br/api/public/highlights` retorna 200.
 3. `GET https://api-site.trcongroup.com.br/api/public/news` retorna 200.
-4. Site abre em `https://trcongroup.com.br`.
-5. Formulário de contato envia lead e recebe 201.
-6. Reenvio do mesmo lead retorna 409.
-7. Se a API ficar indisponível, a home continua abrindo com JSON estático.
-8. Cloudflare não cacheia respostas de `/api/*`.
+4. `GET https://api-site.trcongroup.com.br/api/public/economy-tips` retorna 200.
+5. Site abre em `https://trcongroup.com.br`.
+6. Home: seções Radar, Novidades e **Educação Financeira** (merge API + JSON RSS).
+7. Formulário de contato envia lead e recebe 201.
+8. Reenvio do mesmo lead retorna 409.
+9. Se a API ficar indisponível, a home continua abrindo com JSON estático.
+10. Cloudflare não cacheia respostas de `/api/*`.
+11. *(Integração)* Aprovar `LANDING_PAGE` no marketing → item aparece em economy-tips.
 
 ## CI/CD
 

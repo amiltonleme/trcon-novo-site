@@ -118,6 +118,8 @@ Detalhamento por camada de código em [05-BACKEND-ARQUITETURA-MVC.md](./05-BACKE
 - nenhuma chave/segredo no frontend
 - segredos de IA em lote e credenciais de banco apenas em CI/ambiente do backend
 - nenhum dado sensível de usuário no pipeline de conteúdo editorial
+- **`TRCON_SITE_INTERNAL_API_KEY`** protege `/api/internal/*` (marketing)
+- rate limit recomendado na borda (Cloudflare) para leads — ver [`15-GAPS-PRODUCAO-SEGURANCA.md`](./15-GAPS-PRODUCAO-SEGURANCA.md)
 
 ## Decisão oficial
 

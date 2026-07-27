@@ -9,7 +9,7 @@ import {
   safeUrl,
 } from './modules/sanitize.js';
 import { buildLeadPayload, submitLead, mensagemDeErro } from './modules/lead-form.js';
-import { fetchWithFallback, buildHighlightsHtml, buildNewsHtml, loadEconomyTips } from './modules/content.js';
+import { fetchWithFallback, buildHighlightsHtml, buildNewsHtml, loadEconomyTips, fetchRadarHighlights } from './modules/content.js';
 
 const LEADS_API_URL = apiConfig.leadsApiUrl;
 
@@ -576,9 +576,25 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
   async function loadHomeContent() {
     const radarGrid = document.getElementById('radarGrid');
     const radarUpdated = document.getElementById('radarUpdated');
+    const newsList = document.getElementById('newsList');
+
+    let newsItems = [];
+    if (newsList) {
+      try {
+        const { items } = await fetchWithFallback(
+          apiConfig.newsApiUrl,
+          'data/news-log.json',
+        );
+        newsItems = items;
+        newsList.innerHTML = buildNewsHtml(items.slice(0, 8));
+      } catch (error) {
+        newsList.innerHTML = buildNewsHtml([]);
+      }
+    }
+
     if (radarGrid) {
       try {
-        const { items, source } = await fetchWithFallback(
+        const { items, source } = await fetchRadarHighlights(
           apiConfig.highlightsApiUrl,
           'data/home-highlights.json',
         );
@@ -591,19 +607,6 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
         observeDynamicCards();
       } catch (error) {
         radarGrid.innerHTML = buildHighlightsHtml([]);
-      }
-    }
-
-    const newsList = document.getElementById('newsList');
-    if (newsList) {
-      try {
-        const { items } = await fetchWithFallback(
-          apiConfig.newsApiUrl,
-          'data/news-log.json',
-        );
-        newsList.innerHTML = buildNewsHtml(items.slice(0, 8));
-      } catch (error) {
-        newsList.innerHTML = buildNewsHtml([]);
       }
     }
   }

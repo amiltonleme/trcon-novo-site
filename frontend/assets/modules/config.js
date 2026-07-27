@@ -22,6 +22,7 @@ export function resolveApiConfig(overrides = {}) {
     newsApiUrl: scope.TRCON_NEWS_API_URL || 'http://localhost:8081/api/public/news',
     economyTipsApiUrl:
       scope.TRCON_ECONOMY_TIPS_API_URL || 'http://localhost:8081/api/public/economy-tips',
+    siteBaseUrl: scope.TRCON_SITE_BASE_URL || 'https://trcongroup.com.br',
   };
 }
 

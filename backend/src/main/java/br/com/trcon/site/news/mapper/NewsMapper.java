@@ -1,6 +1,7 @@
 package br.com.trcon.site.news.mapper;
 
 import br.com.trcon.site.news.domain.NewsItem;
+import br.com.trcon.site.news.dto.response.NewsArticleResponse;
 import br.com.trcon.site.news.dto.response.NewsItemResponse;
 import br.com.trcon.site.news.dto.response.NewsListResponse;
 import org.mapstruct.Mapper;
@@ -11,6 +12,8 @@ import java.util.List;
 public interface NewsMapper {
 
     NewsItemResponse toResponse(NewsItem newsItem);
+
+    NewsArticleResponse toArticleResponse(NewsItem newsItem);
 
     List<NewsItemResponse> toResponseList(List<NewsItem> newsItems);
 

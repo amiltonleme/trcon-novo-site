@@ -13,4 +13,8 @@ public record InternalNewsCreateRequest(
         @NotBlank @Size(max = 80) String brandSlug,
         @NotNull Instant publishedAt,
         @NotBlank @Size(max = 120) String externalId,
-        @Size(max = 120) String source) {}
+        @Size(max = 120) String source,
+        @Size(max = 120) String slug,
+        @Size(max = 50000) String body,
+        @Size(max = 200) String metaTitle,
+        @Size(max = 320) String metaDescription) {}

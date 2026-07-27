@@ -7,6 +7,7 @@
 // de DOM/rede para serem testáveis com Vitest.
 
 import { escapeHtml, safeUrl } from './sanitize.js';
+import { isInternalArticleHref, resolveNewsHref } from './article.js';
 
 // Extrai a lista de itens do envelope canônico (ou do array puro).
 export function extractItems(payload) {
@@ -121,52 +122,81 @@ export async function loadEconomyTips(apiUrl, jsonUrl, maxItems = 4, deps = {}) 
   };
 }
 
+/** Destaque enviado pelo Sirius Marketing (legado: ia também para o Radar). */
+export function isEditorialHighlight(item) {
+  if (!item) return false;
+  const externalId = item.externalId || item.external_id || '';
+  if (typeof externalId === 'string' && externalId.endsWith('-radar')) return true;
+  return (item.link || item.url || '').includes('/novidades/');
+}
+
+/**
+ * Remove do Radar itens editoriais; sinais do pipeline permanecem.
+ */
+export function filterRadarDuplicates(highlights) {
+  if (!highlights?.length) return highlights || [];
+  return highlights.filter((item) => !isEditorialHighlight(item));
+}
+
+/**
+ * Radar: API (pipeline) → se só houver artigos editoriais, JSON estático do pipeline.
+ */
+export async function fetchRadarHighlights(apiUrl, jsonUrl, deps = {}) {
+  const primary = await fetchWithFallback(apiUrl, jsonUrl, deps);
+  const filtered = filterRadarDuplicates(primary.items);
+  if (filtered.length > 0) {
+    return { ...primary, items: filtered };
+  }
+  if (primary.source === 'api') {
+    const fallback = await fetchWithFallback('', jsonUrl, deps);
+    return {
+      ...fallback,
+      items: filterRadarDuplicates(fallback.items),
+      source: 'json',
+    };
+  }
+  return { ...primary, items: filtered };
+}
+
 const SIGNAL_LABEL = { up: '▲', down: '▼', flat: '•' };
 
-// HTML de um card de highlight/radar. Puro (usa apenas sanitize).
+function buildCardItemHtml(item, { preferExternalLinks = false } = {}) {
+  const href = preferExternalLinks
+    ? safeUrl(item.link || item.url)
+    : (() => {
+        const resolved = resolveNewsHref(item);
+        return resolved && isInternalArticleHref(resolved) ? resolved : safeUrl(resolved);
+      })();
+  const tag = escapeHtml(item.source || item.category || 'TRCon');
+  const titulo = escapeHtml(item.title);
+  const signal = SIGNAL_LABEL[item.signal] || '';
+  const internal = Boolean(href && isInternalArticleHref(href));
+  const linkHtml = href
+    ? internal
+      ? `<a class="content-link" href="${escapeHtml(href)}">${titulo} →</a>`
+      : `<a class="content-link" href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${titulo} →</a>`
+    : '';
+  return `
+      <div class="card">
+        <span class="card-tag">${tag}</span>
+        <h3>${signal ? signal + ' ' : ''}${titulo}</h3>
+        <p>${escapeHtml(item.summary || '')}</p>
+        ${linkHtml}
+      </div>`;
+}
+
+// HTML do radar — grid de cards.
 export function buildHighlightsHtml(items) {
   if (!items || !items.length) {
     return '<div class="card"><p class="loading-row">Sem destaques no momento.</p></div>';
   }
-  return items
-    .map((item) => {
-      const href = safeUrl(item.link || item.url);
-      const titulo = escapeHtml(item.title);
-      const tituloHtml = href
-        ? `<a class="content-link" href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${titulo} →</a>`
-        : titulo;
-      const signal = SIGNAL_LABEL[item.signal] || '';
-      return `
-      <div class="card">
-        <span class="card-tag">${escapeHtml(item.category || 'TRCon')}</span>
-        <h3>${signal ? signal + ' ' : ''}${escapeHtml(item.title)}</h3>
-        <p>${escapeHtml(item.summary || '')}</p>
-        ${href ? tituloHtml : ''}
-      </div>`;
-    })
-    .join('');
+  return items.map((item) => buildCardItemHtml(item, { preferExternalLinks: true })).join('');
 }
 
-// HTML da lista de novidades. Puro.
+// HTML das novidades — mesmo grid de cards do radar.
 export function buildNewsHtml(items) {
   if (!items || !items.length) {
-    return '<div class="pillar"><div><p class="loading-row">Sem novidades no momento.</p></div></div>';
+    return '<div class="card"><p class="loading-row">Sem novidades no momento.</p></div>';
   }
-  return items
-    .map((item) => {
-      const href = safeUrl(item.url || item.link);
-      const titulo = escapeHtml(item.title);
-      const tituloHtml = href
-        ? `<a class="content-link" href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${titulo} →</a>`
-        : titulo;
-      return `
-      <div class="pillar">
-        <span class="pillar-icon">📡</span>
-        <div>
-          <h4>${tituloHtml}</h4>
-          <p>${escapeHtml(item.summary || '')}${item.source ? ` <em>— ${escapeHtml(item.source)}</em>` : ''}</p>
-        </div>
-      </div>`;
-    })
-    .join('');
+  return items.map((item) => buildCardItemHtml(item)).join('');
 }

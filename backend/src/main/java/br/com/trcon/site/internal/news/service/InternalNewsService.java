@@ -5,7 +5,9 @@ import br.com.trcon.site.internal.news.dto.InternalNewsCreateResponse;
 import br.com.trcon.site.news.domain.NewsItem;
 import br.com.trcon.site.news.domain.NewsQueryInvalidaException;
 import br.com.trcon.site.news.repository.NewsRepository;
+import br.com.trcon.site.news.util.SlugUtils;
 import java.util.Set;
+import java.util.UUID;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -27,13 +29,32 @@ public class InternalNewsService {
                     "category deve ser um dos valores suportados: " + ALLOWED_CATEGORIES);
         }
 
+        String source = resolveSource(request.source());
+        String body = resolveBody(request.body(), request.summary());
+        final String metaTitle = resolveMetaTitle(request.metaTitle(), request.title());
+        final String metaDescription = resolveMetaDescription(request.metaDescription(), request.summary());
+
         return newsRepository
                 .findByExternalId(request.externalId())
-                .map(existing -> new InternalNewsCreateResponse(existing.getId(), true))
+                .map(existing -> {
+                    String slug = resolveUniqueSlug(request.slug(), request.title(), request.externalId(), existing.getId());
+                    existing.updateFromMarketing(
+                            source,
+                            request.category(),
+                            request.title().trim(),
+                            request.summary().trim(),
+                            request.url().trim(),
+                            request.publishedAt(),
+                            request.brandSlug().trim(),
+                            slug,
+                            body,
+                            metaTitle,
+                            metaDescription);
+                    NewsItem saved = newsRepository.save(existing);
+                    return new InternalNewsCreateResponse(saved.getId(), true);
+                })
                 .orElseGet(() -> {
-                    String source = request.source() == null || request.source().isBlank()
-                            ? "Sirius Marketing"
-                            : request.source().trim();
+                    String slug = resolveUniqueSlug(request.slug(), request.title(), request.externalId(), null);
                     NewsItem item = NewsItem.fromMarketing(
                             source,
                             request.category(),
@@ -42,9 +63,63 @@ public class InternalNewsService {
                             request.url().trim(),
                             request.publishedAt(),
                             request.brandSlug().trim(),
-                            request.externalId().trim());
+                            request.externalId().trim(),
+                            slug,
+                            body,
+                            metaTitle,
+                            metaDescription);
                     NewsItem saved = newsRepository.save(item);
                     return new InternalNewsCreateResponse(saved.getId(), false);
                 });
+    }
+
+    private String resolveSource(String source) {
+        if (source == null || source.isBlank()) {
+            return "Sirius Marketing";
+        }
+        return source.trim();
+    }
+
+    private String resolveBody(String body, String summary) {
+        if (body != null && !body.isBlank()) {
+            return body.trim();
+        }
+        return summary.trim();
+    }
+
+    private String blankToNull(String value) {
+        if (value == null || value.isBlank()) {
+            return null;
+        }
+        return value.trim();
+    }
+
+    private String resolveMetaTitle(String metaTitle, String title) {
+        String resolved = blankToNull(metaTitle);
+        return resolved != null ? resolved : title.trim();
+    }
+
+    private String resolveMetaDescription(String metaDescription, String summary) {
+        String resolved = blankToNull(metaDescription);
+        return resolved != null ? resolved : summary.trim();
+    }
+
+    private String resolveUniqueSlug(String requestedSlug, String title, String externalId, UUID existingId) {
+        String base = requestedSlug == null || requestedSlug.isBlank()
+                ? SlugUtils.slugify(title)
+                : SlugUtils.slugify(requestedSlug);
+        String candidate = base;
+        int suffix = 2;
+        while (true) {
+            var conflict = newsRepository.findBySlug(candidate);
+            if (conflict.isEmpty() || (existingId != null && conflict.get().getId().equals(existingId))) {
+                return candidate;
+            }
+            candidate = base + "-" + suffix;
+            suffix++;
+            if (suffix > 50) {
+                return base + "-" + Math.abs(externalId.hashCode());
+            }
+        }
     }
 }

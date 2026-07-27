@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TRCon Novidades</title>
+  <meta name="description" content="Artigos e novidades da TRCon Group." />
+  <meta property="og:site_name" content="TRCon Group" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body class="article-page">
+
+<nav>
+  <a href="/" class="logo">
+    <img src="/assets/trcon-logo.png" alt="TRCON" class="nav-logo-image">
+    <span class="logo-text">TRCon <span>Group</span></span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="/">Home</a></li>
+  </ul>
+</nav>
+
+<main class="article-shell">
+  <p id="articleLoading" class="article-loading">Carregando artigo…</p>
+  <p id="articleError" class="article-error" hidden>Não foi possível carregar este artigo.</p>
+  <div id="articleRoot" class="article-root" hidden></div>
+</main>
+
+<script src="/assets/env.js"></script>
+<script type="module" src="/assets/article.js"></script>
+</body>
+</html>

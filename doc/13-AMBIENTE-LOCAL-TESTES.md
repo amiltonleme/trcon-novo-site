@@ -125,13 +125,13 @@ window.TRCON_ECONOMY_TIPS_API_URL = 'http://localhost:8081/api/public/economy-ti
 
 ### Radar TRCon vs Novidades vs Educação Financeira
 
-| Seção na home | API | Conteúdo |
-|---|---|---|
-| **Radar TRCon** | `/api/public/highlights` | Destaques (`daily_highlights`) — alimentado pelo Sirius Marketing via `POST /api/internal/highlights`; fallback JSON se API vazia |
-| **Novidades TRCon** | `/api/public/news` | Artigos publicados pelo Sirius Marketing (`news_items`) |
-| **Educação Financeira** | `/api/public/economy-tips` + `data/economy-tips.json` | Merge: marketing (`LANDING_PAGE`/`NEWSLETTER` aprovados) tem prioridade; RSS preenche até 4 cards |
+| Seção na home | API | Conteúdo | Layout |
+|---|---|---|---|
+| **Radar TRCon** | `/api/public/highlights` | Sinais IA/tecnologia (pipeline JSON 2×/dia). API **exclui** artigos marketing (`/novidades/`, `-radar`). Fallback `home-highlights.json`. | `cards-grid` |
+| **Novidades TRCon** | `/api/public/news` | Artigos Sirius Marketing (`news_items`). Link → `/novidades/{slug}`. | `cards-grid` |
+| **Educação Financeira** | `/api/public/economy-tips` + JSON | Merge: marketing prioridade; RSS preenche até 4 cards | `insights-grid` |
 
-Não são o mesmo feed. Antes da API, ambos pareciam iguais porque usavam JSON derivado do radar.
+**Não são o mesmo feed.** Artigos aprovados vão **somente** a Novidades (correção 27/07/2026).
 
 Em produção, substitua as URLs em `env.js` pelos domínios reais no deploy.
 
@@ -246,11 +246,12 @@ Com backend e frontend rodando:
 {"status":"UP"}
 ```
 
-3. Abrir `http://localhost:8081/api/public/highlights` (Radar — após aprovar artigo no marketing, deve listar destaque).
+3. Abrir `http://localhost:8081/api/public/highlights` (Radar — sinais pipeline; **não** inclui artigos marketing).
 4. Abrir `http://localhost:8081/api/public/news` (Novidades — artigos aprovados).
-5. Abrir `http://localhost:8081/api/public/economy-tips` (Educação Financeira — após aprovar landing/newsletter no marketing).
-6. Abrir `http://127.0.0.1:4173` — conferir seções **Radar TRCon**, **Novidades TRCon** e **Educação Financeira**.
-7. Enviar o formulário de contato.
+5. Abrir `http://localhost:8081/api/public/news/{slug}` — artigo completo (S8).
+6. Abrir `http://localhost:8081/api/public/economy-tips` (Educação Financeira).
+7. Abrir `http://127.0.0.1:4173` — Radar, Novidades (cards-grid) e Educação Financeira.
+8. Enviar o formulário de contato.
 8. Esperar HTTP 201 no primeiro envio.
 9. Reenviar o mesmo lead e esperar HTTP 409.
 10. Parar o backend e confirmar que a home continua abrindo com JSON estático.
@@ -309,7 +310,9 @@ PostgreSQL com:
 | `Failed to determine a suitable driver class` ao iniciar o backend | backend iniciou sem profile ativo | profile **`dev`** (default) ou Active profiles = `dev` |
 | `FATAL: autenticação do tipo senha falhou` | Postgres de outro projeto ou credenciais erradas | conferir porta (`5434`); `DB_URL=...5434/trcon_site` |
 | `localhost:8081` não abre | backend não subiu ou porta ocupada | marketing usa `:8080`; site deve usar `:8081` |
-| Radar vazio, Novidades ok | highlights ainda não publicados ou site backend antigo | aprovar artigo no marketing (S3.2); reiniciar site backend (Flyway V5); conferir `GET /api/public/highlights` |
+| Radar vazio, Novidades ok | API só tinha highlights legados (artigos) ou pipeline não ingerido | esperado após 27/07: Radar usa JSON pipeline; conferir `fetchRadarHighlights` e `GET /api/public/highlights` |
+| Novidades vazia, Radar ok | site backend off ou `env.js` apontando prod | `env.js` → `localhost:8081`; marketing publicou? `GET /api/public/news` |
+| Artigo duplicado Radar + Novidades | deploy antigo (pré-27/07) | redeploy marketing + site; highlights legados filtrados na API |
 | Frontend abre, mas formulário não envia | `env.js` ou CORS | conferir `TRCON_CORS_ALLOWED_ORIGINS` e URLs em `env.js` |
 | `npm test` falha por dependência ausente | `node_modules` não instalado | rodar `npm install` em `frontend/` |
 | Backend falha por banco indisponível | PostgreSQL local não está pronto | aguardar health do container ou recriar com `docker compose up -d postgres` |

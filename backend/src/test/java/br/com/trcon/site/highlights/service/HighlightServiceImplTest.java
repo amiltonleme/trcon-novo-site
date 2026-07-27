@@ -29,21 +29,32 @@ class HighlightServiceImplTest {
     private HighlightMapper highlightMapper;
 
     @Test
-    void deveListarApenasAtivosOrdenadosPorPrioridade() {
+    void deveExcluirArtigosEditoriaisDoRadar() {
         HighlightServiceImpl service = new HighlightServiceImpl(highlightRepository, highlightMapper);
-        List<DailyHighlight> ativos = List.of();
+        DailyHighlight editorial = DailyHighlight.fromMarketing(
+                "Tecnologia",
+                "Artigo",
+                "Resumo",
+                "https://trcongroup.com.br/novidades/artigo",
+                1,
+                Instant.now(),
+                "ext-radar");
+        DailyHighlight pipeline = DailyHighlight.novo(
+                "IA", "Sinal pipeline", "Resumo", "https://example.com/noticia", 2, true, Instant.now());
+        List<DailyHighlight> pipelineOnly = List.of(pipeline);
         HighlightResponse item = new HighlightResponse(
-                UUID.randomUUID(), "IA", "Título", "Resumo", "/link", 1, Instant.now());
+                UUID.randomUUID(), "IA", "Sinal pipeline", "Resumo", "https://example.com/noticia", 2, Instant.now());
         HighlightListResponse esperado = HighlightListResponse.of(List.of(item));
 
         when(highlightRepository.findByActiveTrueOrderByPriorityAscPublishedAtDesc(any(Limit.class)))
-                .thenReturn(ativos);
-        when(highlightMapper.toListResponse(ativos)).thenReturn(esperado);
+                .thenReturn(List.of(editorial, pipeline));
+        when(highlightMapper.toListResponse(pipelineOnly)).thenReturn(esperado);
 
         HighlightListResponse resultado = service.listarAtivos();
 
         assertThat(resultado).isEqualTo(esperado);
         assertThat(resultado.items()).hasSize(1);
+        assertThat(resultado.items().get(0).title()).isEqualTo("Sinal pipeline");
     }
 
     @Test

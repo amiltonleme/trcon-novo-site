@@ -15,14 +15,23 @@ trcongroup/
     .claude/    -> skills e agents do Claude Code para este projeto
 ```
 
-> Nota de origem: o frontend atual do site vive hoje em
-> `C:\projetos-al\fluxo-caixa-app\site-trcon`. Ele será migrado para
-> `trcongroup/site/frontend` conforme [08-MIGRACAO-PARALELA.md](./08-MIGRACAO-PARALELA.md).
-> Até a migração acontecer, os documentos antigos em `fluxo-caixa-app/site-trcon/docs/`
-> ficam congelados como histórico; esta pasta (`trcongroup/site/doc`) passa a ser a
-> **fonte de verdade atual**.
+> **Estado jul/2026:** o frontend já vive em `trcongroup/site/frontend` (migração da Fase 3 concluída).
+> A pasta `fluxo-caixa-app/site-trcon` permanece como histórico até decisão de corte ([`16-PASSO-A-PASSO.md`](./16-PASSO-A-PASSO.md) Fase 9).
+> Documentação operacional atual: [`14-STATUS-IMPLEMENTACAO.md`](./14-STATUS-IMPLEMENTACAO.md), [`15-GAPS-PRODUCAO-SEGURANCA.md`](./15-GAPS-PRODUCAO-SEGURANCA.md), [`16-PASSO-A-PASSO.md`](./16-PASSO-A-PASSO.md).
 
 ## Ordem de leitura recomendada
+
+**Operacional (estado atual do código — jul/2026):**
+
+1. [`14-STATUS-IMPLEMENTACAO.md`](./14-STATUS-IMPLEMENTACAO.md) — matriz backend/frontend/infra
+2. [`16-PASSO-A-PASSO.md`](./16-PASSO-A-PASSO.md) — feito / em andamento / a fazer
+3. [`15-GAPS-PRODUCAO-SEGURANCA.md`](./15-GAPS-PRODUCAO-SEGURANCA.md) — gaps, segurança, prioridades
+4. [`12-DEPLOY.md`](./12-DEPLOY.md) — runbook Coolify/Hetzner/Neon
+5. [`13-AMBIENTE-LOCAL-TESTES.md`](./13-AMBIENTE-LOCAL-TESTES.md) — dev local + smoke
+6. [`18-MANUAL-MARKETING-EDITORIAL.md`](./18-MANUAL-MARKETING-EDITORIAL.md) — mapa editorial marketing → site
+7. [`17-CUSTOS-S8-MIDIA-IA.md`](./17-CUSTOS-S8-MIDIA-IA.md) — custos S8, mídia, IA imagem
+
+**Especificação e arquitetura (fonte de decisão):**
 
 1. [01-POSICIONAMENTO-INSTITUCIONAL.md](./01-POSICIONAMENTO-INSTITUCIONAL.md)
 2. [02-ARQUITETURA-CANONICA.md](./02-ARQUITETURA-CANONICA.md)
@@ -35,8 +44,6 @@ trcongroup/
 9. [09-PLANO-EXECUCAO-IA.md](./09-PLANO-EXECUCAO-IA.md)
 10. [10-TESTES-QUALIDADE.md](./10-TESTES-QUALIDADE.md)
 11. [11-SKILLS-AGENTS-CLAUDE.md](./11-SKILLS-AGENTS-CLAUDE.md)
-12. [12-DEPLOY.md](./12-DEPLOY.md)
-13. [13-AMBIENTE-LOCAL-TESTES.md](./13-AMBIENTE-LOCAL-TESTES.md)
 
 ## Papel de cada documento
 
@@ -53,12 +60,22 @@ trcongroup/
 | 09-PLANO-EXECUCAO-IA | Plano concreto: fases, prazos, pastas, custos, critérios de pronto |
 | 10-TESTES-QUALIDADE | Estratégia de testes (backend e frontend), gate de cobertura ≥ 80%, ferramentas |
 | 11-SKILLS-AGENTS-CLAUDE | Skills e subagents do Claude Code usados para construir e manter o projeto |
-| 12-DEPLOY | Runbook de deploy em produção: Cloudflare + Hetzner + Coolify + Neon, checklist de env, smoke test, rollback, custos |
-| 13-AMBIENTE-LOCAL-TESTES | Como abrir o projeto, subir ambiente local, rodar frontend/backend e executar testes |
+| 12-DEPLOY | Runbook de deploy em produção: Cloudflare + Hetzner + Coolify + Neon |
+| 13-AMBIENTE-LOCAL-TESTES | Ambiente local, testes, integração com Sirius Marketing |
+| 18-MANUAL-MARKETING-EDITORIAL | Mapa editorial Sirius Marketing → seções do site (Radar ≠ Novidades) |
+| **14-STATUS-IMPLEMENTACAO** | **Matriz do que existe hoje (backend, frontend, infra, marketing)** |
+| **15-GAPS-PRODUCAO-SEGURANCA** | **Gaps produção, segurança, priorização** |
+| **16-PASSO-A-PASSO** | **Feito / em andamento / a fazer (visão consolidada)** |
+| **17-CUSTOS-S8-MIDIA-IA** | **Custos Sprint 8, imagens, vídeo, IA visual (Sprint 9)** |
 
 ## Regra de governança
 
-Em caso de conflito:
+Em caso de conflito sobre **estado atual vs spec**:
+
+1. **14-STATUS-IMPLEMENTACAO** e **16-PASSO-A-PASSO** prevalecem sobre status operacional
+2. **15-GAPS-PRODUCAO-SEGURANCA** prevalece sobre lacunas de produção e segurança
+
+Em caso de conflito sobre **decisões técnicas e spec**:
 
 1. 02-ARQUITETURA-CANONICA prevalece sobre decisões técnicas amplas
 2. 03-FRONTEND-STACK-CANONICA prevalece sobre decisões específicas de frontend

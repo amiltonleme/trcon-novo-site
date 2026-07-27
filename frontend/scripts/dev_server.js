@@ -12,14 +12,22 @@ const types = {
   '.css': 'text/css; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8',
   '.png': 'image/png',
+  '.xml': 'application/xml; charset=utf-8',
 };
+
+function resolveFile(pathname) {
+  if (pathname === '/') return path.join(root, 'index.html');
+  if (pathname.startsWith('/novidades/') && pathname !== '/novidades.html') {
+    return path.join(root, 'novidades.html');
+  }
+  return path.join(root, pathname.slice(1));
+}
 
 http
   .createServer((req, res) => {
     let pathname = decodeURIComponent(req.url.split('?')[0]);
-    if (pathname === '/') pathname = '/index.html';
+    const file = resolveFile(pathname);
 
-    const file = path.resolve(root, '.' + pathname);
     if (!file.startsWith(root)) {
       res.writeHead(403);
       res.end('forbidden');

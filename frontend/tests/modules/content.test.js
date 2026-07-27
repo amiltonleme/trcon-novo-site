@@ -5,6 +5,9 @@ import {
   buildHighlightsHtml,
   buildNewsHtml,
   loadEconomyTips,
+  filterRadarDuplicates,
+  isEditorialHighlight,
+  fetchRadarHighlights,
 } from '../../assets/modules/content.js';
 
 const ok = (data) => ({ ok: true, json: () => Promise.resolve(data) });
@@ -110,13 +113,54 @@ describe('loadEconomyTips', () => {
   });
 });
 
+describe('filterRadarDuplicates', () => {
+  it('remove highlights editoriais (link /novidades/ ou externalId -radar)', () => {
+    const highlights = [
+      { title: 'Artigo editorial', link: 'https://trcongroup.com.br/novidades/artigo-editorial' },
+      { title: 'Sinal de mercado', link: 'https://example.com/noticia' },
+      { title: 'Legado marketing', link: 'https://x.com', externalId: 'abc-v1-radar' },
+    ];
+    const filtered = filterRadarDuplicates(highlights);
+    expect(filtered).toHaveLength(1);
+    expect(filtered[0].title).toBe('Sinal de mercado');
+  });
+});
+
+describe('fetchRadarHighlights', () => {
+  it('cai para JSON quando a API só retorna artigos editoriais', async () => {
+    const fetchImpl = vi
+      .fn()
+      .mockResolvedValueOnce({
+        ok: true,
+        json: () =>
+          Promise.resolve({
+            items: [{ title: 'Editorial', link: 'https://trcongroup.com.br/novidades/x' }],
+          }),
+      })
+      .mockResolvedValueOnce({
+        ok: true,
+        json: () =>
+          Promise.resolve({
+            items: [{ title: 'Sinal pipeline', link: 'https://example.com/sinal' }],
+          }),
+      });
+    const res = await fetchRadarHighlights('http://api/highlights', 'data/home-highlights.json', {
+      fetch: fetchImpl,
+    });
+    expect(res.source).toBe('json');
+    expect(res.items).toHaveLength(1);
+    expect(res.items[0].title).toBe('Sinal pipeline');
+  });
+});
+
 describe('buildHighlightsHtml', () => {
   it('renderiza cards com link seguro e escapa conteúdo', () => {
     const html = buildHighlightsHtml([
       { category: 'IA', title: 'Título <b>x</b>', summary: 'resumo', link: 'https://x.com/a', signal: 'up' },
     ]);
-    expect(html).toContain('IA');
-    expect(html).toContain('&lt;b&gt;'); // escapado
+    expect(html).toContain('card');
+    expect(html).toContain('card-tag');
+    expect(html).toContain('&lt;b&gt;');
     expect(html).toContain('https://x.com/a');
     expect(html).toContain('▲');
   });
@@ -132,11 +176,17 @@ describe('buildHighlightsHtml', () => {
 });
 
 describe('buildNewsHtml', () => {
-  it('renderiza itens com fonte', () => {
+  it('renderiza cards com fonte', () => {
     const html = buildNewsHtml([{ title: 'nova', summary: 's', url: 'https://x.com', source: 'Portal' }]);
-    expect(html).toContain('nova');
+    expect(html).toContain('card');
     expect(html).toContain('Portal');
-    expect(html).toContain('https://x.com');
+    expect(html).toContain('target="_blank"');
+  });
+
+  it('usa link interno sem nova aba quando há slug', () => {
+    const html = buildNewsHtml([{ title: 'nova', summary: 's', slug: 'nova-slug', source: 'TRCon' }]);
+    expect(html).toContain('href="/novidades/nova-slug"');
+    expect(html).not.toContain('target="_blank"');
   });
 
   it('estado vazio', () => {

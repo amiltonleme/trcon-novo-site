@@ -29,3 +29,4 @@ trcon:
     cors:
       allowed-origins: ${TRCON_CORS_ALLOWED_ORIGINS}
     internal-api-key: ${TRCON_SITE_INTERNAL_API_KEY}
+    public-base-url: ${TRCON_SITE_PUBLIC_BASE_URL:https://trcongroup.com.br}

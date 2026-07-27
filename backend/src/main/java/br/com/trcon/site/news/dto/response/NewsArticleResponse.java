@@ -3,7 +3,7 @@ package br.com.trcon.site.news.dto.response;
 import java.time.Instant;
 import java.util.UUID;
 
-public record NewsItemResponse(
+public record NewsArticleResponse(
         UUID id,
         String source,
         String category,
@@ -11,4 +11,8 @@ public record NewsItemResponse(
         String summary,
         String url,
         String slug,
+        String body,
+        String metaTitle,
+        String metaDescription,
+        String brandSlug,
         Instant publishedAt) {}

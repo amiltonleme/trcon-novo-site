@@ -47,6 +47,18 @@ public class NewsItem {
     @Column(name = "external_id", length = 120)
     private String externalId;
 
+    @Column(length = 120)
+    private String slug;
+
+    @Column(columnDefinition = "text")
+    private String body;
+
+    @Column(name = "meta_title", length = 200)
+    private String metaTitle;
+
+    @Column(name = "meta_description", length = 320)
+    private String metaDescription;
+
     @Column(name = "created_at", nullable = false)
     private Instant createdAt;
 
@@ -61,6 +73,10 @@ public class NewsItem {
             String ingestionBatch,
             String brandSlug,
             String externalId,
+            String slug,
+            String body,
+            String metaTitle,
+            String metaDescription,
             Instant createdAt) {
         this.id = id;
         this.source = source;
@@ -72,13 +88,17 @@ public class NewsItem {
         this.ingestionBatch = ingestionBatch;
         this.brandSlug = brandSlug;
         this.externalId = externalId;
+        this.slug = slug;
+        this.body = body;
+        this.metaTitle = metaTitle;
+        this.metaDescription = metaDescription;
         this.createdAt = createdAt;
     }
 
     public static NewsItem novo(String source, String category, String title, String summary, String url,
                                  Instant publishedAt, String ingestionBatch) {
         return new NewsItem(UUID.randomUUID(), source, category, title, summary, url, publishedAt,
-                ingestionBatch, null, null, Instant.now());
+                ingestionBatch, null, null, null, null, null, null, Instant.now());
     }
 
     public static NewsItem fromMarketing(
@@ -89,8 +109,37 @@ public class NewsItem {
             String url,
             Instant publishedAt,
             String brandSlug,
-            String externalId) {
+            String externalId,
+            String slug,
+            String body,
+            String metaTitle,
+            String metaDescription) {
         return new NewsItem(UUID.randomUUID(), source, category, title, summary, url, publishedAt,
-                "sirius-marketing", brandSlug, externalId, Instant.now());
+                "sirius-marketing", brandSlug, externalId, slug, body, metaTitle, metaDescription, Instant.now());
+    }
+
+    public void updateFromMarketing(
+            String source,
+            String category,
+            String title,
+            String summary,
+            String url,
+            Instant publishedAt,
+            String brandSlug,
+            String slug,
+            String body,
+            String metaTitle,
+            String metaDescription) {
+        this.source = source;
+        this.category = category;
+        this.title = title;
+        this.summary = summary;
+        this.url = url;
+        this.publishedAt = publishedAt;
+        this.brandSlug = brandSlug;
+        this.slug = slug;
+        this.body = body;
+        this.metaTitle = metaTitle;
+        this.metaDescription = metaDescription;
     }
 }

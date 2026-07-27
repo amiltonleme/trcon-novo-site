@@ -18,74 +18,53 @@ que `trcongroup/site` seja validado. Nenhuma remoção acontece antes da valida�
 3. Toda substituição deve ser reversível com baixo impacto.
 4. A nova arquitetura entra por incremento, nunca por reescrita total de uma vez.
 
-## Estado atual
+## Estado atual (jul/2026)
 
-- frontend estático publicado a partir de `fluxo-caixa-app/site-trcon` (`index.html`, `style.css`, `assets/app.js`, `data/*.json`)
-- pipeline de conteúdo via GitHub Actions (`update-site-data.yml`, a cada 6h)
-- nenhum backend próprio
-- nenhum monorepo `trcongroup/site` populado com código ainda (só estrutura de pastas e documentação)
+- frontend em **`trcongroup/site/frontend`** — paridade com antigo `fluxo-caixa-app/site-trcon` + evoluções (Serviços, API, economy tips)
+- backend Spring Boot em **`trcongroup/site/backend`** — leads, highlights, news, economy tips, APIs internas marketing
+- **Produção:** backend no Coolify (`api-site.trcongroup.com.br`); frontend migrando DNS para Hetzner
+- pipeline de conteúdo via GitHub Actions (`update-content.yml`, 2×/dia UTC)
+- integração Sirius Marketing ativa no código (smoke prod pós-redeploy V6)
 
-## Estado alvo
+## Estado alvo (quase alcançado)
 
-- `trcongroup/site/frontend` como novo lar do frontend público (idêntico ao atual + evoluções do backlog institucional)
-- `trcongroup/site/backend` como API própria (leads, highlights, news)
-- `trcongroup/site/infra` com docker-compose local e pipeline de CI/CD
-- convivência controlada entre JSON público (fallback) e API própria
+- `trcongroup/site/frontend` como **única** fonte publicada (`@`/`www` → Hetzner)
+- `fluxo-caixa-app/site-trcon` congelado como histórico ([`16-PASSO-A-PASSO.md`](./16-PASSO-A-PASSO.md) F9)
+- convivência JSON (fallback) + API própria — **implementada** (`fetchWithFallback`, `loadEconomyTips`)
 
 ## Fases de migração
 
-### Fase 0 — Fundação documental (concluída nesta rodada)
-- estrutura de pastas `trcongroup/site/{frontend,backend,infra,doc}`
-- documentação canônica completa
-- skills e agents do Claude Code
+### Fase 0 — Fundação documental ✅
 
-Risco: nenhum. Impacto no site publicado: nenhum.
+### Fase 1 — Backend isolado ✅
 
-### Fase 1 — Backend isolado sem impacto público
-- criar projeto Spring Boot em `trcongroup/site/backend`
-- subir PostgreSQL local via `trcongroup/site/infra/docker-compose.yml`
-- módulo `lead` completo com testes (≥ 80% cobertura)
-- nenhuma integração com o frontend público ainda
+### Fase 2 — Cópia/migração física do frontend ✅
 
-Risco: baixo. Impacto: nenhum (backend não está no ar publicamente).
+### Fase 3 — Formulário → backend ✅
 
-### Fase 2 — Cópia/migração física do frontend
-- copiar o conteúdo de `fluxo-caixa-app/site-trcon` (html/css/assets/data/scripts) para `trcongroup/site/frontend`
-- `fluxo-caixa-app/site-trcon` permanece intacto e publicado até a nova pasta estar validada (build local ok, paridade visual confirmada)
-- pipeline de CI/CD do novo local criado em paralelo, sem desligar o pipeline antigo
+### Fase 4 — Home consumindo highlights/news via API ✅
 
-Estratégia de reversão: manter o repositório/pasta antiga publicando normalmente
-até o corte oficial (Fase 5).
+`TRCON_HIGHLIGHTS_API_URL`, `TRCON_NEWS_API_URL`, `TRCON_ECONOMY_TIPS_API_URL` em `env.js`.
 
-### Fase 3 — Formulário do site aponta para o backend novo
-- formulário de contato/lead do frontend passa a chamar `POST /api/v1/site/leads`
-- variável de configuração (`TRCON_LEADS_API_URL`) controla o endpoint — se vazio/indisponível, cai para o comportamento atual (mailto ou formulário estático)
-- endpoints públicos de highlights/news disponíveis para teste, mas frontend continua consumindo os JSON estáticos por padrão
+### Fase 5 — Consolidação e corte oficial 🟡
 
-Impacto: limitado a uma funcionalidade (formulário), com fallback.
-
-### Fase 4 — Home consumindo highlights/news via API (opcional, por configuração)
-- flag decide se a home lê de `data/*.json` ou da API pública
-- fallback automático para JSON se a API não responder
-
-### Fase 5 — Consolidação e corte oficial
-- `trcongroup/site` passa a ser a fonte publicada oficial
-- DNS/publicação apontam para o novo local
-- `fluxo-caixa-app/site-trcon` é congelado como histórico (não apagado nesta fase — remoção é decisão explícita e posterior, fora deste plano)
+DNS `@`/`www` → Hetzner pendente; `fluxo-caixa-app/site-trcon` ainda não descontinuado formalmente.
 
 ## Fallback por capacidade
 
 | Capacidade | Se backend falhar |
 |---|---|
 | Leads | exibir erro claro no formulário, sem quebrar a página |
-| Highlights | usar JSON local ou último payload válido |
-| News | usar JSON local ou reduzir bloco a estado conservador |
+| Highlights | usar JSON local (`home-highlights.json`) se API vazia ou offline |
+| News | usar JSON local (`news-log.json`) se API vazia ou offline |
+| Economy tips | merge API + `economy-tips.json`; JSON se API offline |
 
 ## Rollout por configuração
 
 - `TRCON_LEADS_API_URL`
 - `TRCON_HIGHLIGHTS_API_URL`
 - `TRCON_NEWS_API_URL`
+- `TRCON_ECONOMY_TIPS_API_URL`
 
 Ausência de valor = usa o comportamento estático atual. Nenhuma URL fica hardcoded
 no frontend.
