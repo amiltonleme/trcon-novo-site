@@ -1,17 +1,8 @@
 {
-  "generated_at": "2026-07-27T21:04:36.400912+00:00",
+  "generated_at": "2026-07-28T10:18:32.494537+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
-    {
-      "title": "A inteligência artificial vai ajudar você no trabalho ou roubar seu emprego? Veja os cargos mais afetados",
-      "summary": "A inteligência artificial vai ajudar você no trabalho ou roubar seu emprego? Veja os cargos mais afetados",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOXzBaUjdvVnRSYkt1WlJsOVlvTW5oOC1iR0ZXbWVmRzJPZ1F4bF9LY0xoSnNiZEtFSUNIRFVWdThHN2d2MDhWS1ZKM3Zuai0tM0ZwbFlKU2RtSkRQWmFlYmxjNnl5YU5QNjNlVzhvQlk0RVB6V21OSWxKazlJUVV1UDRXZzdyRGFPQnBwQXJEdDJNMzNOWFhMMFh2RldPT3d1cjVFVjVZcnZSRjFoeDdCeHp1XzYzcHpqTncxcnZKaTkyaC13OEpkaGJFdEhuZ2pId0gwRmVZdnNCTGRqRHZta0FneV9ZTGFEMDZiQVI0VlRoeGFXcVFmSURVTnFtaVnSAY4CQVVfeXFMTUdJUDBqZlp2N3hURDB5eEE0cEFhTzZCNW5XaVh5U0N2UXMtdlpIMl9pbmNjS0xOQXNMVUh2TEZoQVZ1ODN0aVk2aHVUMFdIZ3lXdU04UEl3M3IzVkJwM1dBUVl3aHdwMUlsV1pyUFNnNjNPY2RHS3F6SF9DYzNpejc5VXBQSUFfV2FMSVJEMXMydUcxaVRLblhiZUtJaUNJZmZudkdYQjBZSjM5dXhYRXdsMVhUd3BiWUhYcHVSQkxZekdyd0NVNHFmQTgzdjRZY0I5OGtXS08zdHptYVdDdHJocEhmekw2X0FjZHZOd04wQ0VPOWF4NFREcTc1Zm9aekxwQXpiSGRvWmNEdVdR?oc=5",
-      "source": "G1",
-      "published_at": "Mon, 27 Jul 2026 06:00:32 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
     {
       "title": "IA transforma o mercado de trabalho e já impacta profissões mais expostas à automação",
       "summary": "IA transforma o mercado de trabalho e já impacta profissões mais expostas à automação",
@@ -22,29 +13,20 @@
       "signal": "flat"
     },
     {
-      "title": "Nova revolução industrial da China: Por que a inteligência artificial vai muito além das big techs",
-      "summary": "Nova revolução industrial da China: Por que a inteligência artificial vai muito além das big techs",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOczdNYkU5NG5HaFlvVzNxQUZZR2Nib3BnQUtzTVlxR1ZXVVJaSmU5ZGpPSEpiUy05QnNqVXpCRzJxUzNGdF9tSTJqa1lYNC11REFzTFRDX2NuN0VNOWZTMHpNay03QjgxLWs0VWlwZzFkOEZKYm5PNUw5Q3g0WXJtUEVxRWlQVmY1eUZ4RDlDWU9mNVdwSlFieDFLTUx2cXl2STFUY3QxeGxYazFUbF85NkdiT3F4U3JNdDY3RHE2c0s3SjVDdC1Z?oc=5",
-      "source": "Money Times",
-      "published_at": "Mon, 27 Jul 2026 10:49:00 GMT",
+      "title": "A inteligência artificial vai ajudar você no trabalho ou roubar seu emprego? Veja os cargos mais afetados",
+      "summary": "A inteligência artificial vai ajudar você no trabalho ou roubar seu emprego? Veja os cargos mais afetados",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOXzBaUjdvVnRSYkt1WlJsOVlvTW5oOC1iR0ZXbWVmRzJPZ1F4bF9LY0xoSnNiZEtFSUNIRFVWdThHN2d2MDhWS1ZKM3Zuai0tM0ZwbFlKU2RtSkRQWmFlYmxjNnl5YU5QNjNlVzhvQlk0RVB6V21OSWxKazlJUVV1UDRXZzdyRGFPQnBwQXJEdDJNMzNOWFhMMFh2RldPT3d1cjVFVjVZcnZSRjFoeDdCeHp1XzYzcHpqTncxcnZKaTkyaC13OEpkaGJFdEhuZ2pId0gwRmVZdnNCTGRqRHZta0FneV9ZTGFEMDZiQVI0VlRoeGFXcVFmSURVTnFtaVnSAY4CQVVfeXFMTUdJUDBqZlp2N3hURDB5eEE0cEFhTzZCNW5XaVh5U0N2UXMtdlpIMl9pbmNjS0xOQXNMVUh2TEZoQVZ1ODN0aVk2aHVUMFdIZ3lXdU04UEl3M3IzVkJwM1dBUVl3aHdwMUlsV1pyUFNnNjNPY2RHS3F6SF9DYzNpejc5VXBQSUFfV2FMSVJEMXMydUcxaVRLblhiZUtJaUNJZmZudkdYQjBZSjM5dXhYRXdsMVhUd3BiWUhYcHVSQkxZekdyd0NVNHFmQTgzdjRZY0I5OGtXS08zdHptYVdDdHJocEhmekw2X0FjZHZOd04wQ0VPOWF4NFREcTc1Zm9aekxwQXpiSGRvWmNEdVdR?oc=5",
+      "source": "G1",
+      "published_at": "Mon, 27 Jul 2026 06:00:32 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Por que empresas globais estão migrando para IA chinesa",
-      "summary": "Por que empresas globais estão migrando para IA chinesa",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORHBqRmR1RTJjOWxEWmtnT3RNeE9rampfVThHdEJtaWdlTUJ0alZEeFY3MmhlUkFOc3cxLXppMkRCbkJqTjRZWS1DNUxIT3lYMEt6MDdaVzJ5ZnJ4QUViaGRxc19BWk5zcTl3dThpcnNpX2oxTnNxTnZLWUVxenI1NjFGdGxRUVFzM3BXWmhRMHdXUjNiT3U2enlqRm5HYXBlOUV6SUl6T0ZQMllrMnRDU3ltSVhfWE1WY29tb3ZOQmVueUNvMkUzZA?oc=5",
-      "source": "UOL",
-      "published_at": "Mon, 27 Jul 2026 12:50:28 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "IA ainda é frágil no quesito segurança, revela indicador",
-      "summary": "IA ainda é frágil no quesito segurança, revela indicador",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORXhwRkwyVkZyVzFZZEVXVXk4MEZfVFZJT3IxbTJvRmhNZ24zc1F0b1p5QWwtRlZLRklLLU1GeTlzZUlRNEJFVE1fMUFwZy1QYmNYbjAySGRXcXJ4cVJIZ2JtVHlaSGxmZi1qN0RNU2Jfc2NFTTVMZ3FnYzZGdkVMbnNLb0FLVFBEcjRPN0t4eXNWVjZUZHRJV2xzS2xqaXFMUThtaGRWUm5ZYllTdlBQZG1aRmlBOEQ5c0RXVUZ0R0_SAcYBQVVfeXFMT0xfcXVjQ3ZOcHRMbDd3Sjk2V1RTdmdvaXF0M3c5M2s1dXRtZjFvNmxQNmZHcVBFOGdibGFpWnNybXNPQkZYeDNjZHlzLU5kTWVVOUNjdzJROXkxd0czSXFPTlIwUlJrSmFETW9URlk2THhONzBSTzJJRERLcG1lazY3SERhMEFDSlgxYmJxWDZ6S1hRMTlWUTNMZ1RTc0Rub2tMMThuRmtrTzlNc2VVWVpOdGo5NjV6TmZUcWwwekJXaVcyMmVR?oc=5",
-      "source": "Correio Braziliense",
-      "published_at": "Sun, 26 Jul 2026 06:59:00 GMT",
+      "title": "Como a IA tornou a Serasa Experian mais eficaz",
+      "summary": "Como a IA tornou a Serasa Experian mais eficaz",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOEtCa2xhbVYtMmYxSHFlUHlUQlUwaDJ0bGQ5WVNzTnZkTTFqNEdxRHVESHJPY1Zua1JnNVY3N3VFaUpMZTVhMGc4VllwQ1BvYkJ2b0xtQW1lc1dOa3lidTNnSlE3UGpKbllnQTBhOEl3SzhickgzWGFmelVqcUh0RGlUVlk4a24yRnBZeUVyY1pnNnp0VnYyM3piMkNLUXRTcWhIZVN3QdIBtgFBVV95cUxPc2lTeDRrdGI4TnRhdWN2LVZzOWtVVDdMUUkxVWNhOHdISVRHZUE1Sk9EU2UzVFNIZmhkbWVtMmw5bm1Jd294cVptTE1tVmx1c29LRDZ6bE5xYnJyV0JHZEVkR3NmUl9CZ0lzYWVoNUZQdk1OeVdSNFpPQkhlS3h0WnN1T0I2NWVjaDVGTm5MZ3VWVVJLRmVJUVppaWxwQjZxcGQxZnhnYjRtcU1nTFFyX3NSVXJjZw?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Tue, 28 Jul 2026 08:02:02 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -54,6 +36,24 @@
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOY2I1Y1dJRXZxY1JHSUs0a0Fzd3I2U0VSZ1FlSDd5R0k1T0ZmM0FOdEV1RWJtUk4zcGVEZmNTRnhvaXhUQU5taXZfRXdBZkNhRDVkcHlUUFVfY01yckh0Tzg4YVJUT1FfZG8zZ3pvNndwejRORVQ2eHNvd3BjSE9ySWRjc1h0TUxQcXdBYnRadkY2cTBVajNNTW9ZdGpXX1ZJRDhoQTlnTmVsRU5CWExqTnUwaFpVSmNiR3pNdW1SYnJ6RVhad2c?oc=5",
       "source": "Folha de S.Paulo",
       "published_at": "Mon, 27 Jul 2026 13:00:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Por que empresas globais estão migrando para IA chinesa",
+      "summary": "Por que empresas globais estão migrando para IA chinesa",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORHc2Q3MtQkVJdFM1Tlhka0pGNjEzN0tOT0JCYkFGNzU0Q0s1RnR5Z19LR1FYMlExWlVMbnZ0N1daSm5jWUx6Nkw4eVZpZlljYUl2aVRNUGROSi1MYm92bmZHLTdKdHI0Y0RPRWY2TU9EbzdOYU5vSHRUOXpmMEVzMk5oRHE2OC1JUlhYVEI0UG5HVV9lb203dFpiSW7SAZwBQVVfeXFMTWdSZlZ2OVVfTEtySEJ0U2JZRnlyVlBZS0lhZXZ4clRYQUNkQ1I3MTllSDRWSmtCZnhkalFaUUNLOTlvai1mcWRpeHgtZTVnT0hkY2hFbVZ6RzMxQXJvZWJtRlFfckVaQnFGT0NVWXB1ZjlwSnRhVTlJOWQ1QVBxU0Y2LUdDZ0QwM3FIRlBGTnc5R2h2R0hQamVRUE5Y?oc=5",
+      "source": "DW.com",
+      "published_at": "Sat, 25 Jul 2026 15:39:08 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "IA ainda é frágil no quesito segurança, revela indicador",
+      "summary": "IA ainda é frágil no quesito segurança, revela indicador",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORXhwRkwyVkZyVzFZZEVXVXk4MEZfVFZJT3IxbTJvRmhNZ24zc1F0b1p5QWwtRlZLRklLLU1GeTlzZUlRNEJFVE1fMUFwZy1QYmNYbjAySGRXcXJ4cVJIZ2JtVHlaSGxmZi1qN0RNU2Jfc2NFTTVMZ3FnYzZGdkVMbnNLb0FLVFBEcjRPN0t4eXNWVjZUZHRJV2xzS2xqaXFMUThtaGRWUm5ZYllTdlBQZG1aRmlBOEQ5c0RXVUZ0R0_SAcYBQVVfeXFMT0xfcXVjQ3ZOcHRMbDd3Sjk2V1RTdmdvaXF0M3c5M2s1dXRtZjFvNmxQNmZHcVBFOGdibGFpWnNybXNPQkZYeDNjZHlzLU5kTWVVOUNjdzJROXkxd0czSXFPTlIwUlJrSmFETW9URlk2THhONzBSTzJJRERLcG1lazY3SERhMEFDSlgxYmJxWDZ6S1hRMTlWUTNMZ1RTc0Rub2tMMThuRmtrTzlNc2VVWVpOdGo5NjV6TmZUcWwwekJXaVcyMmVR?oc=5",
+      "source": "Correio Braziliense",
+      "published_at": "Sun, 26 Jul 2026 06:59:00 GMT",
       "category": "IA",
       "signal": "flat"
     }
