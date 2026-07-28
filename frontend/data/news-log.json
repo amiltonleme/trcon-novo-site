@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-28T10:18:33.568867+00:00",
+  "generated_at": "2026-07-28T21:01:56.666138+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
     {
-      "source": "CSB Central dos Sindicatos Brasileiros",
+      "source": "Capital Digital",
       "category": "IA",
-      "title": "IA transforma o mercado de trabalho e já impacta profissões mais expostas à automação",
-      "summary": "IA transforma o mercado de trabalho e já impacta profissões mais expostas à automação",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8zNnJEbllCaGduQ0dsR1o2cjRxbmhGRm5fSTgzS2NkZlJucjNOeDg5S0dLS0pVNUF2OUNjb3hRWjVJNUdySkJtbWpxY0gxSkJUazU4WHAybERaRWdqeVdBellfZjcwekdyT0E?oc=5",
-      "publishedAt": "Mon, 27 Jul 2026 12:53:09 GMT"
+      "title": "Falta de governança de dados ainda ameaça sucesso de projetos de inteligência artificial nas empresas",
+      "summary": "Falta de governança de dados ainda ameaça sucesso de projetos de inteligência artificial nas empresas",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZDE0SmtZWDNrM3hVSnphdl9haG1rRDg3SFlDMkZDZkh4OHVjWGhYLXpMUEJpekIzV2g1OHlrRzgtWmdyZU91aWVTQnlMYXJ0VFZuZnJfbGdsMEZFbzNBU3dObTlSWmRETHRtOWc5YzZ3NGUyT3BlSS1nTDlodE9FeGEzTjFGdGdhUF85MXIwcl9kS3dlMEdSeTM1d05ISm1nNlp6OVNpenZIaDlzZ1RjNVI3N1ZPX1dKelBQVTBPemNZMkRjTkQzME4wNUs?oc=5",
+      "publishedAt": "Tue, 28 Jul 2026 16:34:28 GMT"
     },
     {
       "source": "G1",
@@ -18,6 +18,14 @@
       "summary": "A inteligência artificial vai ajudar você no trabalho ou roubar seu emprego? Veja os cargos mais afetados",
       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOXzBaUjdvVnRSYkt1WlJsOVlvTW5oOC1iR0ZXbWVmRzJPZ1F4bF9LY0xoSnNiZEtFSUNIRFVWdThHN2d2MDhWS1ZKM3Zuai0tM0ZwbFlKU2RtSkRQWmFlYmxjNnl5YU5QNjNlVzhvQlk0RVB6V21OSWxKazlJUVV1UDRXZzdyRGFPQnBwQXJEdDJNMzNOWFhMMFh2RldPT3d1cjVFVjVZcnZSRjFoeDdCeHp1XzYzcHpqTncxcnZKaTkyaC13OEpkaGJFdEhuZ2pId0gwRmVZdnNCTGRqRHZta0FneV9ZTGFEMDZiQVI0VlRoeGFXcVFmSURVTnFtaVnSAY4CQVVfeXFMTUdJUDBqZlp2N3hURDB5eEE0cEFhTzZCNW5XaVh5U0N2UXMtdlpIMl9pbmNjS0xOQXNMVUh2TEZoQVZ1ODN0aVk2aHVUMFdIZ3lXdU04UEl3M3IzVkJwM1dBUVl3aHdwMUlsV1pyUFNnNjNPY2RHS3F6SF9DYzNpejc5VXBQSUFfV2FMSVJEMXMydUcxaVRLblhiZUtJaUNJZmZudkdYQjBZSjM5dXhYRXdsMVhUd3BiWUhYcHVSQkxZekdyd0NVNHFmQTgzdjRZY0I5OGtXS08zdHptYVdDdHJocEhmekw2X0FjZHZOd04wQ0VPOWF4NFREcTc1Zm9aekxwQXpiSGRvWmNEdVdR?oc=5",
       "publishedAt": "Mon, 27 Jul 2026 06:00:32 GMT"
+    },
+    {
+      "source": "Safra",
+      "category": "IA",
+      "title": "Quais os riscos de investir em Inteligência Artificial?",
+      "summary": "Quais os riscos de investir em Inteligência Artificial?",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLU1IdHhDVG9kQVFVY2t5TzZpX1BPMEQ5bW5qUHY1MDRNTmd6Z3dlNzV4a1VBUDYzaGwxaHJhVWhKYnl0YVlndFMyQXhQb21SYmhnSUZzMkQ2ODJJUFg4Ums4d192WlhvSHcwakwxM0poMjl0ZEc5YkVlSmFDMV9TdkxJcw?oc=5",
+      "publishedAt": "Tue, 28 Jul 2026 19:54:33 GMT"
     },
     {
       "source": "Valor Econômico",
@@ -42,14 +50,6 @@
       "summary": "Por que empresas globais estão migrando para IA chinesa",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORHc2Q3MtQkVJdFM1Tlhka0pGNjEzN0tOT0JCYkFGNzU0Q0s1RnR5Z19LR1FYMlExWlVMbnZ0N1daSm5jWUx6Nkw4eVZpZlljYUl2aVRNUGROSi1MYm92bmZHLTdKdHI0Y0RPRWY2TU9EbzdOYU5vSHRUOXpmMEVzMk5oRHE2OC1JUlhYVEI0UG5HVV9lb203dFpiSW7SAZwBQVVfeXFMTWdSZlZ2OVVfTEtySEJ0U2JZRnlyVlBZS0lhZXZ4clRYQUNkQ1I3MTllSDRWSmtCZnhkalFaUUNLOTlvai1mcWRpeHgtZTVnT0hkY2hFbVZ6RzMxQXJvZWJtRlFfckVaQnFGT0NVWXB1ZjlwSnRhVTlJOWQ1QVBxU0Y2LUdDZ0QwM3FIRlBGTnc5R2h2R0hQamVRUE5Y?oc=5",
       "publishedAt": "Sat, 25 Jul 2026 15:39:08 GMT"
-    },
-    {
-      "source": "Correio Braziliense",
-      "category": "IA",
-      "title": "IA ainda é frágil no quesito segurança, revela indicador",
-      "summary": "IA ainda é frágil no quesito segurança, revela indicador",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORXhwRkwyVkZyVzFZZEVXVXk4MEZfVFZJT3IxbTJvRmhNZ24zc1F0b1p5QWwtRlZLRklLLU1GeTlzZUlRNEJFVE1fMUFwZy1QYmNYbjAySGRXcXJ4cVJIZ2JtVHlaSGxmZi1qN0RNU2Jfc2NFTTVMZ3FnYzZGdkVMbnNLb0FLVFBEcjRPN0t4eXNWVjZUZHRJV2xzS2xqaXFMUThtaGRWUm5ZYllTdlBQZG1aRmlBOEQ5c0RXVUZ0R0_SAcYBQVVfeXFMT0xfcXVjQ3ZOcHRMbDd3Sjk2V1RTdmdvaXF0M3c5M2s1dXRtZjFvNmxQNmZHcVBFOGdibGFpWnNybXNPQkZYeDNjZHlzLU5kTWVVOUNjdzJROXkxd0czSXFPTlIwUlJrSmFETW9URlk2THhONzBSTzJJRERLcG1lazY3SERhMEFDSlgxYmJxWDZ6S1hRMTlWUTNMZ1RTc0Rub2tMMThuRmtrTzlNc2VVWVpOdGo5NjV6TmZUcWwwekJXaVcyMmVR?oc=5",
-      "publishedAt": "Sun, 26 Jul 2026 06:59:00 GMT"
     },
     {
       "source": "www.gov.br",
