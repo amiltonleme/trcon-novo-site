@@ -43,12 +43,12 @@ class InternalHighlightControllerIT {
         highlightRepository.deleteAll();
 
         InternalHighlightCreateRequest request = new InternalHighlightCreateRequest(
-                "Sirius Marketing integrado ao Radar",
-                "Artigo editorial publicado via API interna.",
-                "https://trcongroup.com.br/novidades/sirius-marketing",
+                "Sinal de mercado IA",
+                "Resumo de sinal do pipeline (nao editorial).",
+                "https://news.example.com/ai-signal",
                 "Tecnologia",
                 Instant.parse("2026-07-23T18:00:00Z"),
-                "content-456-v1-radar",
+                "pipeline-signal-456",
                 10);
 
         ResponseEntity<InternalHighlightCreateResponse> createResponse =
@@ -63,7 +63,33 @@ class InternalHighlightControllerIT {
 
         assertThat(publicResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
         assertThat(publicResponse.getBody().items()).hasSize(1);
-        assertThat(publicResponse.getBody().items().get(0).title()).isEqualTo("Sirius Marketing integrado ao Radar");
+        assertThat(publicResponse.getBody().items().get(0).title()).isEqualTo("Sinal de mercado IA");
+    }
+
+    @Test
+    void naoExpoeHighlightEditorialNoEndpointPublico() {
+        highlightRepository.deleteAll();
+
+        InternalHighlightCreateRequest editorial = new InternalHighlightCreateRequest(
+                "Sirius Marketing integrado ao Radar",
+                "Artigo editorial publicado via API interna.",
+                "https://trcongroup.com.br/novidades/sirius-marketing",
+                "Tecnologia",
+                Instant.parse("2026-07-23T18:00:00Z"),
+                "content-456-v1-radar",
+                10);
+
+        ResponseEntity<InternalHighlightCreateResponse> createResponse =
+                restTemplate.postForEntity("/api/internal/highlights", entity(editorial), InternalHighlightCreateResponse.class);
+
+        assertThat(createResponse.getStatusCode()).isEqualTo(HttpStatus.CREATED);
+        assertThat(highlightRepository.count()).isEqualTo(1);
+
+        ResponseEntity<HighlightListResponse> publicResponse =
+                restTemplate.getForEntity("/api/public/highlights", HighlightListResponse.class);
+
+        assertThat(publicResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(publicResponse.getBody().items()).isEmpty();
     }
 
     @Test
