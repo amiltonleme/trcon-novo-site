@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T21:01:55.565494+00:00",
+  "generated_at": "2026-07-29T10:24:29.885994+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -24,20 +24,11 @@
     {
       "title": "Quais os riscos de investir em Inteligência Artificial?",
       "summary": "Quais os riscos de investir em Inteligência Artificial?",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLU1IdHhDVG9kQVFVY2t5TzZpX1BPMEQ5bW5qUHY1MDRNTmd6Z3dlNzV4a1VBUDYzaGwxaHJhVWhKYnl0YVlndFMyQXhQb21SYmhnSUZzMkQ2ODJJUFg4Ums4d192WlhvSHcwakwxM0poMjl0ZEc5YkVlSmFDMV9TdkxJcw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU2JoNC03WE1KMnFTSDhlbnNLTDZ4THBoekxyd1lfVXBjUnhBNUE5UDRUd3lpWlh3VEJldlAyUzVnTF90RW5FU0Z2MGo5YjR5V3gxWkhsM1BEZS1VWC1yb2M0RXNWeWo3M2ctemVBSzBycHhlTnRoaHVQYnpRYTBWeVp5aDRuYlZZ?oc=5",
       "source": "Safra",
       "published_at": "Tue, 28 Jul 2026 19:54:33 GMT",
       "category": "IA",
       "signal": "down"
-    },
-    {
-      "title": "Como a IA tornou a Serasa Experian mais eficaz",
-      "summary": "Como a IA tornou a Serasa Experian mais eficaz",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOEtCa2xhbVYtMmYxSHFlUHlUQlUwaDJ0bGQ5WVNzTnZkTTFqNEdxRHVESHJPY1Zua1JnNVY3N3VFaUpMZTVhMGc4VllwQ1BvYkJ2b0xtQW1lc1dOa3lidTNnSlE3UGpKbllnQTBhOEl3SzhickgzWGFmelVqcUh0RGlUVlk4a24yRnBZeUVyY1pnNnp0VnYyM3piMkNLUXRTcWhIZVN3QdIBtgFBVV95cUxPc2lTeDRrdGI4TnRhdWN2LVZzOWtVVDdMUUkxVWNhOHdISVRHZUE1Sk9EU2UzVFNIZmhkbWVtMmw5bm1Jd294cVptTE1tVmx1c29LRDZ6bE5xYnJyV0JHZEVkR3NmUl9CZ0lzYWVoNUZQdk1OeVdSNFpPQkhlS3h0WnN1T0I2NWVjaDVGTm5MZ3VWVVJLRmVJUVppaWxwQjZxcGQxZnhnYjRtcU1nTFFyX3NSVXJjZw?oc=5",
-      "source": "Valor Econômico",
-      "published_at": "Tue, 28 Jul 2026 08:02:02 GMT",
-      "category": "IA",
-      "signal": "flat"
     },
     {
       "title": "Painel S.A.: Apenas 7% das empresas estão prontas para IA, aponta pesquisa global",
@@ -49,11 +40,20 @@
       "signal": "flat"
     },
     {
+      "title": "Empresas apostam em modelo de IA para competitividade no e-commerce",
+      "summary": "Empresas apostam em modelo de IA para competitividade no e-commerce",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZGVGaGZMMWRCbjdnVHNCUFRKSVJYcGE1eDA3M1VfdzREcU5zcEdlWEdBME9IeEVUc0s1WlBjY19fZFNpNTQ1Vm1aalZieEU3UDRlMFdOX3BTaGJjTnpobkJFTUlfc3NvUkRFTUN4QnlXZWZTQmQxcnp5S3dOTWFVd1l6UVEtX1VCcWlxMEdKdzRkLTZSWnNtcDlSRUJZSEswajFaZ0ZpenN6ZjBoaU9leDJNazc4QQ?oc=5",
+      "source": "CNN Brasil",
+      "published_at": "Wed, 29 Jul 2026 00:33:33 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
       "title": "Por que empresas globais estão migrando para IA chinesa",
       "summary": "Por que empresas globais estão migrando para IA chinesa",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORHc2Q3MtQkVJdFM1Tlhka0pGNjEzN0tOT0JCYkFGNzU0Q0s1RnR5Z19LR1FYMlExWlVMbnZ0N1daSm5jWUx6Nkw4eVZpZlljYUl2aVRNUGROSi1MYm92bmZHLTdKdHI0Y0RPRWY2TU9EbzdOYU5vSHRUOXpmMEVzMk5oRHE2OC1JUlhYVEI0UG5HVV9lb203dFpiSW7SAZwBQVVfeXFMTWdSZlZ2OVVfTEtySEJ0U2JZRnlyVlBZS0lhZXZ4clRYQUNkQ1I3MTllSDRWSmtCZnhkalFaUUNLOTlvai1mcWRpeHgtZTVnT0hkY2hFbVZ6RzMxQXJvZWJtRlFfckVaQnFGT0NVWXB1ZjlwSnRhVTlJOWQ1QVBxU0Y2LUdDZ0QwM3FIRlBGTnc5R2h2R0hQamVRUE5Y?oc=5",
-      "source": "DW.com",
-      "published_at": "Sat, 25 Jul 2026 15:39:08 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQlRfVHgyLUxqZUFpZmN1MTFfdVkxcDNwbzByM2Q5UnVaUzM1MTJXZVpFUHB3S3VlWVdRY09GdDNxa1BnWnFUakE0RnlWMFB4STE2X2hnaEdTbURqNTVzcTBxaE44RjNINlJOUXdyaHVjeVlWNWVZZDRjUVBjai0yV3JkOGlULW9ZNWJITVF5WG9wcnNEa2JPOU9HVnNBSjdLUkHSAacBQVVfeXFMUHFmNllBdmFZakg3amRNTUMtZmtPbW9YMVpqSVZ0bElqR3hlWENqVHgxY1BtaEREMmZpeERENWhZa0plTGYxcUhtbFU2S214QmxGUnQ1ZWtERUtHRGUyMC1jd25ybHVuaG9jeEJmRDkySkVzU0d4VzJlZndRaVJpUDJtOG1wVWpINGw1NGlSTmpJVDlaVURiLXlnZEVZV19kYzBpNGFIRTA?oc=5",
+      "source": "Portal iG",
+      "published_at": "Mon, 27 Jul 2026 17:45:00 GMT",
       "category": "IA",
       "signal": "flat"
     }
