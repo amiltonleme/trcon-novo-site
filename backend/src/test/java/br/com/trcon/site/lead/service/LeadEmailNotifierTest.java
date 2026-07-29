@@ -67,6 +67,20 @@ class LeadEmailNotifierTest {
     }
 
     @Test
+    void enviaMensagemVaziaComoTraco() {
+        MailProperties props = new MailProperties(
+                true, "re_test", "noreply@trcongroup.com.br", "amilton.leme@trcongroup.com.br");
+        LeadEmailNotifier notifier = new LeadEmailNotifier(props, resendEmailClient);
+        Lead lead = Lead.novo("Ana", "ana@ex.com", "11", LeadType.PRODUTO, null, "site-trcon", true);
+
+        notifier.notifyNewLead(lead);
+
+        ArgumentCaptor<String> html = ArgumentCaptor.forClass(String.class);
+        verify(resendEmailClient).sendHtml(anyString(), anyString(), html.capture(), anyString());
+        assertThat(html.getValue()).contains("<br>—");
+    }
+
+    @Test
     void absorveFalhaDoResend() {
         MailProperties props = new MailProperties(
                 true, "re_test", "noreply@trcongroup.com.br", "amilton.leme@trcongroup.com.br");

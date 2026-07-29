@@ -4,8 +4,9 @@ import br.com.trcon.site.shared.config.MailProperties;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
+import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClient;
 
 @Component
@@ -14,9 +15,15 @@ public class ResendEmailClient {
     private final MailProperties mailProperties;
     private final RestClient restClient;
 
+    @Autowired
     public ResendEmailClient(MailProperties mailProperties) {
+        this(mailProperties, RestClient.builder().baseUrl("https://api.resend.com").build());
+    }
+
+    /** Construtor para testes com RestClient apontando a um servidor mock. */
+    ResendEmailClient(MailProperties mailProperties, RestClient restClient) {
         this.mailProperties = mailProperties;
-        this.restClient = RestClient.builder().baseUrl("https://api.resend.com").build();
+        this.restClient = restClient;
     }
 
     public void sendHtml(String to, String subject, String html, String replyTo) {

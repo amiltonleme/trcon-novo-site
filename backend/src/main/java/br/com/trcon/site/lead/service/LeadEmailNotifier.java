@@ -33,12 +33,11 @@ public class LeadEmailNotifier implements LeadNotifier {
         }
 
         try {
-            String subject = EmailTextSanitizer.header(
-                    "[TRCon Site] Novo lead — " + lead.getTipoInteresse() + " (" + lead.getOrigem() + ")");
-            String html = buildHtml(lead);
-            String replyTo = EmailTextSanitizer.header(lead.getEmail());
-
-            resendEmailClient.sendHtml(mailProperties.notifyTo(), subject, html, replyTo);
+            resendEmailClient.sendHtml(
+                    mailProperties.notifyTo(),
+                    LeadNotificationMessageBuilder.subject(lead),
+                    LeadNotificationMessageBuilder.html(lead),
+                    EmailTextSanitizer.header(lead.getEmail()));
             log.info("Notificacao de lead enviada. leadId={} to={}", lead.getId(), mailProperties.notifyTo());
         } catch (RuntimeException ex) {
             log.error(
@@ -46,31 +45,5 @@ public class LeadEmailNotifier implements LeadNotifier {
                     lead.getId(),
                     ex.getMessage());
         }
-    }
-
-    String buildHtml(Lead lead) {
-        String mensagem = lead.getMensagem() == null || lead.getMensagem().isBlank()
-                ? "—"
-                : EmailTextSanitizer.html(lead.getMensagem()).replace("\n", "<br>");
-
-        return """
-                <h2>Novo lead no site TRCon</h2>
-                <p><strong>ID:</strong> %s</p>
-                <p><strong>Nome:</strong> %s</p>
-                <p><strong>E-mail:</strong> %s</p>
-                <p><strong>Telefone:</strong> %s</p>
-                <p><strong>Interesse:</strong> %s</p>
-                <p><strong>Origem:</strong> %s</p>
-                <p><strong>Mensagem:</strong><br>%s</p>
-                <p style="color:#666;font-size:12px;">Responda este e-mail para falar com o lead (Reply-To).</p>
-                """
-                .formatted(
-                        EmailTextSanitizer.html(String.valueOf(lead.getId())),
-                        EmailTextSanitizer.html(lead.getNome()),
-                        EmailTextSanitizer.html(lead.getEmail()),
-                        EmailTextSanitizer.html(lead.getTelefone()),
-                        EmailTextSanitizer.html(String.valueOf(lead.getTipoInteresse())),
-                        EmailTextSanitizer.html(lead.getOrigem()),
-                        mensagem);
     }
 }

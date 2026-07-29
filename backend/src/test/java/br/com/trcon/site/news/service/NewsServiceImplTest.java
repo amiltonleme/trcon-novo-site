@@ -77,4 +77,22 @@ class NewsServiceImplTest {
         assertThatThrownBy(() -> service.listar(null, 51))
                 .isInstanceOf(NewsQueryInvalidaException.class);
     }
+
+    @Test
+    void listarComSlugUsaLimiteDefaultEClamp() {
+        when(newsRepository.findBySlugIsNotNullOrderByPublishedAtDesc(any(Limit.class))).thenReturn(List.of());
+        when(newsMapper.toListResponse(List.of())).thenReturn(NewsListResponse.of(List.of()));
+
+        assertThat(service.listarComSlug(null).items()).isEmpty();
+        assertThat(service.listarComSlug(0).items()).isEmpty();
+        assertThat(service.listarComSlug(999).items()).isEmpty();
+    }
+
+    @Test
+    void buscarPorSlugRejeitaVazio() {
+        assertThatThrownBy(() -> service.buscarPorSlug("  "))
+                .isInstanceOf(NewsQueryInvalidaException.class);
+        assertThatThrownBy(() -> service.buscarPorSlug(null))
+                .isInstanceOf(NewsQueryInvalidaException.class);
+    }
 }

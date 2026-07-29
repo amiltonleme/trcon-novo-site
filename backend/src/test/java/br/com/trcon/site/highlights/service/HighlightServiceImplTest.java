@@ -58,6 +58,21 @@ class HighlightServiceImplTest {
     }
 
     @Test
+    void incluiHighlightSemExternalIdESemLink() {
+        HighlightServiceImpl service = new HighlightServiceImpl(highlightRepository, highlightMapper);
+        DailyHighlight semMeta = DailyHighlight.novo("IA", "Local", "Resumo", null, 1, true, Instant.now());
+        HighlightResponse item = new HighlightResponse(
+                UUID.randomUUID(), "IA", "Local", "Resumo", null, 1, Instant.now());
+        HighlightListResponse esperado = HighlightListResponse.of(List.of(item));
+
+        when(highlightRepository.findByActiveTrueOrderByPriorityAscPublishedAtDesc(any(Limit.class)))
+                .thenReturn(List.of(semMeta));
+        when(highlightMapper.toListResponse(List.of(semMeta))).thenReturn(esperado);
+
+        assertThat(service.listarAtivos().items()).hasSize(1);
+    }
+
+    @Test
     void deveRetornarListaVaziaQuandoNaoHaDestaqueAtivo() {
         HighlightServiceImpl service = new HighlightServiceImpl(highlightRepository, highlightMapper);
         when(highlightRepository.findByActiveTrueOrderByPriorityAscPublishedAtDesc(any(Limit.class)))

@@ -9,6 +9,7 @@ class EmailTextSanitizerTest {
     @Test
     void removeQuebrasDeLinhaDoHeader() {
         assertThat(EmailTextSanitizer.header("assunto\r\ninjetado")).isEqualTo("assunto  injetado");
+        assertThat(EmailTextSanitizer.header(null)).isEmpty();
     }
 
     @Test
