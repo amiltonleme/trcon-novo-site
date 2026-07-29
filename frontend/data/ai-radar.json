@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-29T10:24:29.885994+00:00",
+  "generated_at": "2026-07-29T20:44:58.712781+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
     {
-      "title": "Falta de governança de dados ainda ameaça sucesso de projetos de inteligência artificial nas empresas",
-      "summary": "Falta de governança de dados ainda ameaça sucesso de projetos de inteligência artificial nas empresas",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZDE0SmtZWDNrM3hVSnphdl9haG1rRDg3SFlDMkZDZkh4OHVjWGhYLXpMUEJpekIzV2g1OHlrRzgtWmdyZU91aWVTQnlMYXJ0VFZuZnJfbGdsMEZFbzNBU3dObTlSWmRETHRtOWc5YzZ3NGUyT3BlSS1nTDlodE9FeGEzTjFGdGdhUF85MXIwcl9kS3dlMEdSeTM1d05ISm1nNlp6OVNpenZIaDlzZ1RjNVI3N1ZPX1dKelBQVTBPemNZMkRjTkQzME4wNUs?oc=5",
-      "source": "Capital Digital",
-      "published_at": "Tue, 28 Jul 2026 16:34:28 GMT",
+      "title": "Agente de inteligência artificial da OpenAI invadiu outras quatro plataformas, confirma empresa",
+      "summary": "Agente de inteligência artificial da OpenAI invadiu outras quatro plataformas, confirma empresa",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPVFRFb21YMnA2MWlXb3R0cTF2U1AtU2ZKS3JMVDNrTGRhSkk2Mm9ONEhLQzN0VFlsMnJ4cTBXcThWQ1ZGdFp1RFllbEdLVDVvdzViNjFGdHJ1WWFlaFUyUVhyQ3Y3R2RRVGlYcy1oMU9sNWJNdXU4UEdoVVFaemp4bTFLbkNuWjlTVTZQSFhaQUxnNEo2bDVhNjZsaTlrT2tJQ2lRdG9TdW1fXzZkVHVwdkVfOHpKSzZMUzQ4ckhtZ3ZrQ2FIdEl3UHBQWTE1UTJuTmVyNnlFUGtvWmMwekFicHY0aEpJUEQ4RGFKT213STBnZW5Dc24w0gGGAkFVX3lxTFBYUUpPeDA2a04zcmxKbkx4M0xvanVFY2hYUTI0ZjB4MjkyR3UzSDBUTlBxaHotQXRnWEJmOXM0OE1DX1Q2YWNTem8taV9pbTJXbmRvSVpRVmtnd2NSSXFrcXNJWk1ncnNsU0NXTjkxZUpNZV9sdXVjYmc4WkF0WlZxRXEyRlVQdnJIdTZuX0lHbTlUemhjNTNTVmh2TFVWWjd5ZnF0U2tzNDFucUZQNzNOZ1hySmhSWGRDdWtoSTltaXhXdzM1MUF6MlBNYzgyamlvUFZwcTNYT3RVTXpUTHprclBKNC1kNlhqNTdyTTBPVXRGLTNfQzV3RHRhUlQ2MVRDNW01VUE?oc=5",
+      "source": "O GLOBO",
+      "published_at": "Wed, 29 Jul 2026 15:28:46 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -22,13 +22,13 @@
       "signal": "flat"
     },
     {
-      "title": "Quais os riscos de investir em Inteligência Artificial?",
-      "summary": "Quais os riscos de investir em Inteligência Artificial?",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU2JoNC03WE1KMnFTSDhlbnNLTDZ4THBoekxyd1lfVXBjUnhBNUE5UDRUd3lpWlh3VEJldlAyUzVnTF90RW5FU0Z2MGo5YjR5V3gxWkhsM1BEZS1VWC1yb2M0RXNWeWo3M2ctemVBSzBycHhlTnRoaHVQYnpRYTBWeVp5aDRuYlZZ?oc=5",
-      "source": "Safra",
-      "published_at": "Tue, 28 Jul 2026 19:54:33 GMT",
+      "title": "Adoção da inteligência artificial avança mais rapidamente que sua governança nas empresas",
+      "summary": "Adoção da inteligência artificial avança mais rapidamente que sua governança nas empresas",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdDFCdjMzZ0lrdmxRRlNlTGlrZ1FDeHZGTVZNRlRsQmx6OGN1VklXQUZQWUEtX3J4ZWhSMmt6OWMwQlhVOEMxbUhWMFpmci16MUNPX2ptZjJ3SkU3bjVhT2dLejBxY09lYzI3bjh5LU93UUtRd1lrTVRNX2lDUDRFalVsNDdMRUtJaVNfdHhZVzF0R3UyS3NJRzVqNU05aGh1dXhIVUdzWGx5YTVCT0dvYU5zYnJ4Zw?oc=5",
+      "source": "niddedigital.com",
+      "published_at": "Wed, 29 Jul 2026 15:05:10 GMT",
       "category": "IA",
-      "signal": "down"
+      "signal": "flat"
     },
     {
       "title": "Painel S.A.: Apenas 7% das empresas estão prontas para IA, aponta pesquisa global",
@@ -40,22 +40,22 @@
       "signal": "flat"
     },
     {
-      "title": "Empresas apostam em modelo de IA para competitividade no e-commerce",
-      "summary": "Empresas apostam em modelo de IA para competitividade no e-commerce",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZGVGaGZMMWRCbjdnVHNCUFRKSVJYcGE1eDA3M1VfdzREcU5zcEdlWEdBME9IeEVUc0s1WlBjY19fZFNpNTQ1Vm1aalZieEU3UDRlMFdOX3BTaGJjTnpobkJFTUlfc3NvUkRFTUN4QnlXZWZTQmQxcnp5S3dOTWFVd1l6UVEtX1VCcWlxMEdKdzRkLTZSWnNtcDlSRUJZSEswajFaZ0ZpenN6ZjBoaU9leDJNazc4QQ?oc=5",
-      "source": "CNN Brasil",
-      "published_at": "Wed, 29 Jul 2026 00:33:33 GMT",
+      "title": "IA não vai salvar uma empresa mal gerenciada: sem processos, a tecnologia apenas acelera os erros",
+      "summary": "IA não vai salvar uma empresa mal gerenciada: sem processos, a tecnologia apenas acelera os erros",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NMG0tRHd0dElpbkpycGNDYWRqbGRwM3lVMjJWRm5uRWVnOVpMNEpGZEdQMjc0Ul9PQ0ZiVVlkUnB6cEs0dy1WYjQ2M3h2UFBPWmNxWFVXbXNrQWpJTHhwMW5mMFBGMGlWU2phYUpKWExRS2hyTGJiaXBGdTRVNEk?oc=5",
+      "source": "Quero Bolsa",
+      "published_at": "Wed, 29 Jul 2026 14:13:41 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Por que empresas globais estão migrando para IA chinesa",
-      "summary": "Por que empresas globais estão migrando para IA chinesa",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQlRfVHgyLUxqZUFpZmN1MTFfdVkxcDNwbzByM2Q5UnVaUzM1MTJXZVpFUHB3S3VlWVdRY09GdDNxa1BnWnFUakE0RnlWMFB4STE2X2hnaEdTbURqNTVzcTBxaE44RjNINlJOUXdyaHVjeVlWNWVZZDRjUVBjai0yV3JkOGlULW9ZNWJITVF5WG9wcnNEa2JPOU9HVnNBSjdLUkHSAacBQVVfeXFMUHFmNllBdmFZakg3amRNTUMtZmtPbW9YMVpqSVZ0bElqR3hlWENqVHgxY1BtaEREMmZpeERENWhZa0plTGYxcUhtbFU2S214QmxGUnQ1ZWtERUtHRGUyMC1jd25ybHVuaG9jeEJmRDkySkVzU0d4VzJlZndRaVJpUDJtOG1wVWpINGw1NGlSTmpJVDlaVURiLXlnZEVZV19kYzBpNGFIRTA?oc=5",
-      "source": "Portal iG",
-      "published_at": "Mon, 27 Jul 2026 17:45:00 GMT",
+      "title": "OpenAI e rivais defendem pausa estratégica no avanço da IA",
+      "summary": "OpenAI e rivais defendem pausa estratégica no avanço da IA",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRGhIYUdWblVqTHdla0NQUUljb1d2MFNIWHVzUXVub2hwb1RIYm5zTGtZV0pKeU9zVktDLUF6M2t6ZFdBekZheDlrbVdzcWszS1VaVy1rdnA5QWJneDhOREtwYVhSSDcycU5jMEljQTJEeXlENDQ3YUR4aU1nS1ZWajRGUlIzSHBfU09tME5uNUNKdEJiQmhwMDN2ektDSlhEbVVySzBVbUFEaXE2MkZ5eUp3bWFDSDNHNzhZLXBGVQ?oc=5",
+      "source": "Olhar Digital",
+      "published_at": "Wed, 29 Jul 2026 13:53:00 GMT",
       "category": "IA",
-      "signal": "flat"
+      "signal": "up"
     }
   ],
   "category": "IA"
