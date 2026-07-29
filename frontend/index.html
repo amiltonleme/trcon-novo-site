@@ -40,7 +40,8 @@
   <a href="#" data-page-link="sobre" data-close-mobile>Quem Somos</a>
   <a href="#" data-page-link="servicos" data-close-mobile>Serviços</a>
   <a href="#" data-page-link="produtos" data-close-mobile>Produtos</a>
-  <a href="#" data-page-link="beta" data-close-mobile>Testar Beta</a>
+  <a href="#" data-page-link="hub" data-close-mobile>Testar Beta</a>
+  <a href="#" data-page-link="contato" data-product="servicos" data-close-mobile>Contato</a>
   <a href="#" data-page-link="clientes" data-close-mobile>Clientes</a>
 </div>
 
@@ -164,19 +165,19 @@
         <div class="card-icon" style="background:rgba(0,151,255,0.1)">🛠️</div>
         <h3>Desenvolvimento sob demanda</h3>
         <p>Projetos de software do zero, sob medida para o seu negócio. Arquitetura limpa, código testado e entrega com rigor de engenharia — do MVP à plataforma completa.</p>
-        <a href="#" class="card-tag" data-page-link="servicos" data-lead-type="DESENVOLVIMENTO_SOB_DEMANDA">Falar sobre um projeto →</a>
+        <a href="#" class="card-tag" data-page-link="contato" data-product="servicos" data-lead-type="DESENVOLVIMENTO_SOB_DEMANDA">Falar sobre um projeto →</a>
       </div>
       <div class="card">
         <div class="card-icon" style="background:rgba(240,180,41,0.1)">⚙️</div>
         <h3>Customização de sistemas</h3>
         <p>Adaptamos produtos existentes — nossos ou do seu ambiente — a novas regras, integrações e fluxos. Evolução contínua sem reescrever o que já funciona.</p>
-        <a href="#" class="card-tag" data-page-link="servicos" data-lead-type="CUSTOMIZACAO">Ver como funciona →</a>
+        <a href="#" class="card-tag" data-page-link="contato" data-product="servicos" data-lead-type="CUSTOMIZACAO">Ver como funciona →</a>
       </div>
       <div class="card">
         <div class="card-icon" style="background:rgba(255,107,53,0.1)">👥</div>
         <h3>Alocação de mão de obra</h3>
         <p>Profissionais de tecnologia — desenvolvimento, dados, IA e QA — alocados no seu time. Squad dedicado, célula ágil ou profissional avulso, no modelo que o projeto pedir.</p>
-        <a href="#" class="card-tag" data-page-link="servicos" data-lead-type="ALOCACAO_MAO_DE_OBRA">Montar um time →</a>
+        <a href="#" class="card-tag" data-page-link="contato" data-product="servicos" data-lead-type="ALOCACAO_MAO_DE_OBRA">Montar um time →</a>
       </div>
     </div>
   </section>
@@ -508,7 +509,7 @@
     <div class="section-title">Vamos conversar sobre o seu <em style="color:var(--accent);font-style:normal">desafio?</em></div>
     <p class="section-sub" style="margin-left:auto;margin-right:auto;">Conte o que você precisa — produto, projeto sob demanda, customização ou um time — e retornamos com o melhor caminho.</p>
     <div class="tr-actions" style="justify-content:center;margin-top:28px;">
-      <a href="#" class="btn btn-primary btn-lg" data-page-link="beta" data-lead-type="ALOCACAO_MAO_DE_OBRA">Falar com um especialista →</a>
+      <a href="#" class="btn btn-primary btn-lg" data-page-link="contato" data-product="servicos" data-lead-type="ALOCACAO_MAO_DE_OBRA">Falar com um especialista →</a>
       <a href="#" class="btn btn-ghost btn-lg" data-page-link="produtos">Ver produtos</a>
     </div>
   </section>
@@ -552,11 +553,44 @@
         <div class="feature-item">Visão estruturada de saldos e valores comprometidos</div>
         <div class="feature-item">Segurança para não ultrapassar os limites planejados</div>
         <div class="feature-item">Alertas de gastos acima do planejado</div>
-       <!-- <div class="feature-item">Meta de reserva de emergência</div>-->
       </div>
       <div style="display:flex;gap:10px;flex-wrap:wrap;">
-        <a href="#" class="btn btn-primary" data-page-link="beta">Beta Test</a>
-        <a href="#" class="btn-outline" data-page-link="beta">Saiba mais</a>
+        <a href="#" class="btn btn-primary" data-page-link="contato" data-product="hub" data-lead-type="PRODUTO">Beta Test</a>
+        <a href="#" class="btn-outline" data-page-link="hub">Saiba mais</a>
+      </div>
+    </div>
+
+    <div class="product-card blue">
+      <span class="product-badge badge-dev">Em desenvolvimento</span>
+      <h3>Sírius Agendamento</h3>
+      <h4>Assistente de agendamento autônomo</h4>
+      <p>Agenda, confirma e lembra clientes por canais como WhatsApp, com painel para profissionais, clientes e conversas.</p>
+      <div class="feature-list">
+        <div class="feature-item">Agenda, slots e disponibilidade</div>
+        <div class="feature-item">Conversas e canais (WhatsApp e extensões)</div>
+        <div class="feature-item">Confirmação e lembretes automáticos</div>
+        <div class="feature-item">Dashboard operacional multi-tenant</div>
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;">
+        <a href="#" class="btn-outline btn-outline-primary">Em desenvolvimento</a>
+        <a href="#" class="btn-outline" data-page-link="agendamento">Saiba mais</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <span class="product-badge badge-dev">Em desenvolvimento</span>
+      <h3>Sírius Marketing</h3>
+      <h4>Conteúdo, aprovação e publicação</h4>
+      <p>Do planejamento editorial à publicação no site e redes, com aprovação, calendário, SEO e histórico.</p>
+      <div class="feature-list">
+        <div class="feature-item">Conteúdos, versões e aprovação</div>
+        <div class="feature-item">Calendário e agendamento de publicação</div>
+        <div class="feature-item">Publicação no site e LinkedIn</div>
+        <div class="feature-item">SEO, sitemap, RSS e histórico</div>
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;">
+        <a href="#" class="btn-outline btn-outline-primary">Em desenvolvimento</a>
+        <a href="#" class="btn-outline" data-page-link="marketing">Saiba mais</a>
       </div>
     </div>
 
@@ -588,7 +622,7 @@
         <div class="feature-item">API para integrações</div>
       </div>
       <div style="display:flex;gap:10px;flex-wrap:wrap;">
-          <a href="mailto:amilton.leme@trcongroup.com.br" class="btn btn-primary">Envie um email para um especialista</a>
+          <a href="#" class="btn btn-primary" data-page-link="contato" data-product="servicos">Falar com um especialista</a>
       </div>
     </div>
 
@@ -604,7 +638,7 @@
             <div class="feature-item">Conteúdo financeiro educativo</div>
             <div class="feature-item">Campanhas para redes sociais</div>
           </div>
-          <a href="mailto:amilton.leme@trcongroup.com.br" class="btn btn-primary" style="margin-top:8px;">Envie um email para o especialista</a>
+          <a href="#" class="btn btn-primary" style="margin-top:8px;" data-page-link="contato" data-product="servicos">Falar com um especialista</a>
         </div>
         <div class="product-card-ia-highlights">
           <div style="background:var(--bg3);border-radius:12px;padding:20px;text-align:center;">
@@ -631,9 +665,9 @@
 </div>
 
 <!-- ════════════════════════════════
-     PAGE: BETA ECOSSISTEMA FINANCEIRO DIGITAL
+     PAGE: HUB FINANCEIRO (detalhe, sem form)
 ════════════════════════════════ -->
-<div class="page" id="page-beta">
+<div class="page" id="page-hub">
   <section class="subpage-tr-hero subpage-tr-hero-beta">
     <canvas class="tr-neural-canvas subpage-neural-canvas" aria-hidden="true"></canvas>
     <div class="subpage-tr-status">
@@ -660,18 +694,165 @@
   </section>
 
   <section class="waitlist-section">
+    <div class="product-detail-content">
+      <div class="section-label">Produto em beta</div>
+      <h2 class="section-title">Organize sua casa com mais clareza</h2>
+      <p class="section-sub" style="margin:16px 0 0;">O Ecossistema Financeiro Digital ajuda a registrar entradas, despesas, metas e sobra mensal em uma visão simples para decisões financeiras melhores.</p>
+      <div class="waitlist-note" style="margin-top:24px;">
+        Versão beta em testes. Algumas informações podem estar incompletas ou imprecisas — use com bom senso. As vagas são limitadas.
+      </div>
+      <div class="feature-list" style="margin-top:28px;">
+        <div class="feature-item">Visão Estratégica — painel principal de acompanhamento</div>
+        <div class="feature-item">Programações — planeje receitas, despesas e recorrências</div>
+        <div class="feature-item">Lançamentos — execute o que está pendente no dia a dia</div>
+        <div class="feature-item">Transferências — mova saldo entre recursos sem gerar receita ou despesa</div>
+        <div class="feature-item">Relatórios — saldos, categorias, limites e leitura do período</div>
+      </div>
+      <div class="waitlist-actions" style="margin-top:32px;">
+        <a href="#" class="btn btn-primary" data-page-link="contato" data-product="hub" data-lead-type="PRODUTO">Entrar na fila de espera</a>
+        <a href="#" class="btn-outline" data-page-link="produtos">Voltar aos produtos</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ════════════════════════════════
+     PAGE: AGENDAMENTO (detalhe, sem form)
+════════════════════════════════ -->
+<div class="page" id="page-agendamento">
+  <section class="subpage-tr-hero subpage-tr-hero-products">
+    <canvas class="tr-neural-canvas subpage-neural-canvas" aria-hidden="true"></canvas>
+    <div class="subpage-tr-status">
+      <span>EM DESENVOLVIMENTO</span>
+      <span>SÍRIUS AGENDAMENTO</span>
+    </div>
+    <div class="subpage-tr-grid"></div>
+    <div class="subpage-tr-corner tl"></div>
+    <div class="subpage-tr-corner tr"></div>
+    <div class="subpage-tr-corner bl"></div>
+    <div class="subpage-tr-corner br"></div>
+    <div class="subpage-tr-stage">
+      <div class="subpage-tr-logo">
+        <img src="assets/trcon-logo.png" alt="TRCON Group">
+      </div>
+      <span class="subpage-tr-kicker">Sírius Agendamento</span>
+      <h1 class="subpage-tr-title">Assistente de <em>agendamento</em> autônomo</h1>
+      <p class="subpage-tr-copy">Agenda, confirma e lembra clientes por canais como WhatsApp — com painel para profissionais, clientes e conversas.</p>
+      <div class="subpage-tr-divider"></div>
+    </div>
+  </section>
+
+  <section class="waitlist-section">
+    <div class="product-detail-content">
+      <div class="section-label">Em desenvolvimento</div>
+      <h2 class="section-title">Menos ida e volta, mais horários confirmados</h2>
+      <p class="section-sub" style="margin:16px 0 0;">O Sírius Agendamento é uma plataforma multi-tenant para negócios de serviço: o cliente conversa no canal preferido, o sistema interpreta a intenção, oferece slots e registra o compromisso — com confirmações e lembretes automáticos.</p>
+      <div class="waitlist-note" style="margin-top:24px;">
+        Produto em desenvolvimento. Cadastre seu interesse para ser avisado quando abrirmos testes guiados.
+      </div>
+      <div class="feature-list" style="margin-top:28px;">
+        <div class="feature-item">Agenda, slots e disponibilidade de profissionais</div>
+        <div class="feature-item">Conversas e canais (WhatsApp texto; voz e outros módulos no roadmap)</div>
+        <div class="feature-item">Confirmação e lembretes (ex.: 24h e 1h antes)</div>
+        <div class="feature-item">Clientes, profissionais e histórico de conversas</div>
+        <div class="feature-item">Dashboard operacional e relatórios de ocupação</div>
+        <div class="feature-item">Arquitetura multi-tenant com módulos de canal extensíveis</div>
+      </div>
+      <div class="waitlist-actions" style="margin-top:32px;">
+        <a href="#" class="btn btn-primary" data-page-link="contato" data-product="agendamento" data-lead-type="PRODUTO">Quero ser avisado</a>
+        <a href="#" class="btn-outline" data-page-link="produtos">Voltar aos produtos</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ════════════════════════════════
+     PAGE: MARKETING (detalhe, sem form)
+════════════════════════════════ -->
+<div class="page" id="page-marketing">
+  <section class="subpage-tr-hero subpage-tr-hero-products">
+    <canvas class="tr-neural-canvas subpage-neural-canvas" aria-hidden="true"></canvas>
+    <div class="subpage-tr-status">
+      <span>EM DESENVOLVIMENTO</span>
+      <span>SÍRIUS MARKETING</span>
+    </div>
+    <div class="subpage-tr-grid"></div>
+    <div class="subpage-tr-corner tl"></div>
+    <div class="subpage-tr-corner tr"></div>
+    <div class="subpage-tr-corner bl"></div>
+    <div class="subpage-tr-corner br"></div>
+    <div class="subpage-tr-stage">
+      <div class="subpage-tr-logo">
+        <img src="assets/trcon-logo.png" alt="TRCON Group">
+      </div>
+      <span class="subpage-tr-kicker">Sírius Marketing</span>
+      <h1 class="subpage-tr-title">Conteúdo do <em>planejamento</em> à publicação</h1>
+      <p class="subpage-tr-copy">Centralize editorial, aprovação, calendário e distribuição no site e nas redes — com SEO e histórico.</p>
+      <div class="subpage-tr-divider"></div>
+    </div>
+  </section>
+
+  <section class="waitlist-section">
+    <div class="product-detail-content">
+      <div class="section-label">Em desenvolvimento</div>
+      <h2 class="section-title">Marketing com ritmo e rastreio</h2>
+      <p class="section-sub" style="margin:16px 0 0;">O Sírius Marketing AI é a plataforma da TRCon para planejar, produzir, aprovar, agendar e publicar conteúdo — do site institucional às redes sociais — com visão de SEO e registro do que foi entregue.</p>
+      <div class="waitlist-note" style="margin-top:24px;">
+        Produto em desenvolvimento. Cadastre seu interesse para ser avisado quando abrirmos acesso antecipado.
+      </div>
+      <div class="feature-list" style="margin-top:28px;">
+        <div class="feature-item">Planejamento editorial, conteúdos e versões</div>
+        <div class="feature-item">Fluxo de aprovação antes de publicar</div>
+        <div class="feature-item">Calendário e agendamento de publicações</div>
+        <div class="feature-item">Publicação no site e LinkedIn (Facebook e Instagram no roadmap)</div>
+        <div class="feature-item">SEO, sitemap, RSS e histórico com retries</div>
+      </div>
+      <div class="waitlist-actions" style="margin-top:32px;">
+        <a href="#" class="btn btn-primary" data-page-link="contato" data-product="marketing" data-lead-type="PRODUTO">Quero ser avisado</a>
+        <a href="#" class="btn-outline" data-page-link="produtos">Voltar aos produtos</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ════════════════════════════════
+     PAGE: CONTATO (formulário comum)
+════════════════════════════════ -->
+<div class="page" id="page-contato">
+  <section class="subpage-tr-hero">
+    <canvas class="tr-neural-canvas subpage-neural-canvas" aria-hidden="true"></canvas>
+    <div class="subpage-tr-status">
+      <span>CONTATO</span>
+      <span>LEAD COMERCIAL</span>
+    </div>
+    <div class="subpage-tr-grid"></div>
+    <div class="subpage-tr-corner tl"></div>
+    <div class="subpage-tr-corner tr"></div>
+    <div class="subpage-tr-corner bl"></div>
+    <div class="subpage-tr-corner br"></div>
+    <div class="subpage-tr-stage">
+      <div class="subpage-tr-logo">
+        <img src="assets/trcon-logo.png" alt="TRCON Group">
+      </div>
+      <span class="subpage-tr-kicker">Fale com a TRCon</span>
+      <h1 class="subpage-tr-title">Conte o seu <em>desafio</em></h1>
+      <p class="subpage-tr-copy">Produto, projeto, customização ou um time — retornamos com o melhor caminho.</p>
+      <div class="subpage-tr-divider"></div>
+    </div>
+  </section>
+
+  <section class="waitlist-section">
     <div class="waitlist-layout">
       <div>
-        <div class="section-label">Acesso antecipado</div>
-        <h2 class="section-title">Organize sua casa com mais clareza</h2>
-        <p class="section-sub" style="margin:16px 0 0;">O Ecossistema Financeiro Digital ajuda a registrar entradas, despesas, metas e sobra mensal em uma visão simples para decisões financeiras melhores.</p>
-        <div class="waitlist-note">
-          As vagas são limitadas. Preencha o formulário e garanta seu acesso antecipado ao ecossistema financeiro que vai mudar sua relação com o dinheiro.
-          <br><br>Versão beta em testes. Algumas informações podem estar incompletas ou imprecisas — use com bom senso.
+        <div class="section-label" id="contatoContextLabel">Contato</div>
+        <h2 class="section-title" id="contatoContextTitle">Vamos conversar</h2>
+        <p class="section-sub" id="contatoContextCopy" style="margin:16px 0 0;">Preencha o formulário. Usamos seus dados apenas para retornar o contato comercial.</p>
+        <div class="waitlist-note" id="contatoContextNote">
+          Escolha o tipo de interesse e descreva brevemente o que você precisa.
         </div>
       </div>
 
-      <form class="waitlist-form" id="betaWaitlistForm">
+      <form class="waitlist-form" id="contatoLeadForm">
         <div class="field-grid">
           <label>
             Nome
@@ -694,7 +875,7 @@
               <option value="ALOCACAO_MAO_DE_OBRA">Alocação de mão de obra</option>
             </select>
           </label>
-          <label>
+          <label id="contatoUsoField">
             Uso pretendido <span style="color:var(--text3);font-weight:400;">(opcional)</span>
             <select name="uso">
               <option value="">Selecione</option>
@@ -711,12 +892,12 @@
           </label>
         </div>
         <div class="waitlist-actions">
-          <button type="submit" class="btn btn-primary">Entrar na fila de espera</button>
+          <button type="submit" class="btn btn-primary" id="contatoSubmitBtn">Enviar mensagem</button>
           <a href="#" class="btn-outline" data-page-link="produtos">Voltar aos produtos</a>
         </div>
-        <div class="waitlist-success" id="betaWaitlistSuccess" hidden>
+        <div class="waitlist-success" id="contatoLeadSuccess" hidden>
           <strong>Cadastro recebido!</strong>
-          <p>Seus dados foram enviados para a fila de espera. Logo entraremos em contato.</p>
+          <p id="contatoSuccessCopy">Seus dados foram enviados. Logo entraremos em contato.</p>
         </div>
       </form>
     </div>
@@ -787,7 +968,7 @@
     <p>Faça parte da comunidade TRCon Group e seja um dos primeiros a testar nossas ferramentas em beta.</p>
     <div class="btn-group">
       <a href="#" class="btn btn-primary btn-lg" data-page-link="produtos">Ver Produtos</a>
-      <a href="#" class="btn btn-ghost btn-lg">Contato</a>
+      <a href="#" class="btn btn-ghost btn-lg" data-page-link="contato" data-product="servicos">Contato</a>
     </div>
   </div>
 </div>
@@ -815,15 +996,16 @@
     <div class="footer-col">
       <h5>Produtos</h5>
       <ul>
-        <li><a href="#" data-page-link="beta">Ecossistema Financeiro Digital</a></li>
-        <li><a href="#">Market AI</a></li>
-        <li><a href="#">BI Dashboard</a></li>
-        <li><a href="#">IA Generativa</a></li>
+        <li><a href="#" data-page-link="hub">Sírius Hub Financeiro</a></li>
+        <li><a href="#" data-page-link="agendamento">Sírius Agendamento</a></li>
+        <li><a href="#" data-page-link="marketing">Sírius Marketing</a></li>
+        <li><a href="#" data-page-link="produtos">Ver todos</a></li>
       </ul>
     </div>
     <div class="footer-col">
       <h5>Contato</h5>
       <ul>
+        <li><a href="#" data-page-link="contato" data-product="servicos">Fale conosco</a></li>
         <li><a href="mailto:amilton.leme@trcongroup.com.br">contato@trcongroup.com.br</a></li>
         <li><a href="https://trcongroup.com.br">trcongroup.com.br</a></li>
         <li><a href="https://www.linkedin.com/company/trcongroup/">LinkedIn</a></li>

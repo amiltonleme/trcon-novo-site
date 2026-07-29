@@ -26,7 +26,7 @@ Legenda: ✅ implementado · 🟡 parcial · ❌ pendente
 | Marketing → highlights (Radar) | ✅ API existe | **Artigos marketing não usam** (27/07) | Pipeline / manual |
 | Marketing → economy tips | ✅ | V6 + `InternalEconomyTipController` | **Redeploy prod V6** + smoke |
 | Pipeline RSS economy tips | ✅ | CI 2×/dia, merge na home | Ampliar feeds / curadoria |
-| Notificação de novo lead | ❌ | Lead persiste no Postgres | E-mail/Slack para comercial (Resend/webhook) |
+| Notificação de novo lead | ✅ | Lead persiste + e-mail Resend (`LeadEmailNotifier`) | Configurar `TRCON_SITE_MAIL_*` no Coolify |
 | CRM externo | ❌ | — | Export ou integração futura |
 
 ---

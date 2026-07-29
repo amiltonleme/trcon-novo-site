@@ -49,14 +49,18 @@ O site institucional precisa deixar essas 4 linhas claras e navegáveis — hoje
 ### Produtos
 - página existente de produtos, mantida e reforçada narrativamente (ver [08-REDESIGN-DIRETRIZES.md](./08-REDESIGN-DIRETRIZES.md))
 
-### Beta
-- página de conversão para produto em beta (já prevista no backlog anterior)
+### Produtos (detalhe)
+- páginas de detalhe por produto Sírius (Hub, Agendamento, Marketing), sem formulário embutido
+- Hub: status beta; Agendamento e Marketing: em desenvolvimento
+- CTAs de cada página levam ao formulário de contato com contexto do produto
 
 ### Novidades / Laboratório
 - conteúdo recorrente e demonstrações (já previstos no backlog anterior)
 
 ### Contato / Waitlist / Fale com um especialista
-- formulário único que serve tanto lead de produto quanto lead de serviço/staffing, com campo de "interesse" (produto, desenvolvimento, customização, alocação)
+- formulário único (`#page-contato`) que serve lead de produto e de serviço/staffing, com campo de "interesse" (produto, desenvolvimento, customização, alocação)
+- painel contextual conforme origem (`data-product`: hub, agendamento, marketing, servicos)
+- identificação do produto no lead via `origem` e prefixo na mensagem (sem campo novo no backend)
 
 ## Impacto na arquitetura
 

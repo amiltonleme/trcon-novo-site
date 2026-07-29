@@ -14,6 +14,11 @@ trcon:
     cors:
       allowed-origins: ${TRCON_CORS_ALLOWED_ORIGINS:http://localhost:4173,http://127.0.0.1:4173}
     internal-api-key: ${TRCON_SITE_INTERNAL_API_KEY:dev-internal-key-change-me}
+    mail:
+      enabled: ${TRCON_SITE_MAIL_ENABLED:false}
+      api-key: ${TRCON_SITE_MAIL_API_KEY:}
+      from: ${TRCON_SITE_MAIL_FROM:}
+      notify-to: ${TRCON_SITE_LEAD_NOTIFY_TO:amilton.leme@trcongroup.com.br}
 
 logging:
   level:

@@ -13,6 +13,71 @@ import { fetchWithFallback, buildHighlightsHtml, buildNewsHtml, loadEconomyTips,
 
 const LEADS_API_URL = apiConfig.leadsApiUrl;
 
+  const LEAD_CONTEXTS = {
+    hub: {
+      label: 'Acesso antecipado',
+      title: 'Sírius Hub — fila beta',
+      copy: 'Garanta seu acesso antecipado ao Ecossistema Financeiro Digital e ajude a validar o produto em testes reais.',
+      note: 'Versão beta em testes. Algumas informações podem estar incompletas ou imprecisas — use com bom senso. Vagas limitadas.',
+      leadType: 'PRODUTO',
+      origem: 'site-trcon-hub',
+      produtoLabel: 'Sírius Hub de Inteligência Financeira',
+      submitLabel: 'Entrar na fila de espera',
+      successCopy: 'Seus dados foram enviados para a fila de espera. Logo entraremos em contato.',
+      showUso: true,
+    },
+    agendamento: {
+      label: 'Em desenvolvimento',
+      title: 'Sírius Agendamento',
+      copy: 'Cadastre seu interesse no assistente de agendamento autônomo. Avisaremos quando abrirmos testes guiados.',
+      note: 'Produto em desenvolvimento — WhatsApp, agenda, confirmações e lembretes.',
+      leadType: 'PRODUTO',
+      origem: 'site-trcon-agendamento',
+      produtoLabel: 'Sírius Agendamento',
+      submitLabel: 'Quero ser avisado',
+      successCopy: 'Interesse registrado. Avisaremos quando o Sírius Agendamento estiver disponível para testes.',
+      showUso: false,
+    },
+    marketing: {
+      label: 'Em desenvolvimento',
+      title: 'Sírius Marketing',
+      copy: 'Cadastre seu interesse na plataforma de conteúdo, aprovação e publicação. Avisaremos no acesso antecipado.',
+      note: 'Produto em desenvolvimento — editorial, calendário, site e redes sociais.',
+      leadType: 'PRODUTO',
+      origem: 'site-trcon-marketing',
+      produtoLabel: 'Sírius Marketing',
+      submitLabel: 'Quero ser avisado',
+      successCopy: 'Interesse registrado. Avisaremos quando o Sírius Marketing estiver disponível para testes.',
+      showUso: false,
+    },
+    servicos: {
+      label: 'Serviços',
+      title: 'Fale com um especialista',
+      copy: 'Conte o que você precisa — projeto sob demanda, customização ou alocação de time — e retornamos com o melhor caminho.',
+      note: 'Atendimento comercial da TRCon Group. Sem compromisso de waitlist de produto.',
+      leadType: 'ALOCACAO_MAO_DE_OBRA',
+      origem: 'site-trcon-servicos',
+      produtoLabel: '',
+      submitLabel: 'Enviar mensagem',
+      successCopy: 'Mensagem recebida. Em breve entraremos em contato.',
+      showUso: false,
+    },
+    default: {
+      label: 'Contato',
+      title: 'Vamos conversar',
+      copy: 'Preencha o formulário. Usamos seus dados apenas para retornar o contato comercial.',
+      note: 'Escolha o tipo de interesse e descreva brevemente o que você precisa.',
+      leadType: 'PRODUTO',
+      origem: 'site-trcon',
+      produtoLabel: '',
+      submitLabel: 'Enviar mensagem',
+      successCopy: 'Seus dados foram enviados. Logo entraremos em contato.',
+      showUso: false,
+    },
+  };
+
+  let contatoContextKey = 'default';
+
   // PAGE NAVIGATION
   function showPage(id) {
     const page = document.getElementById('page-' + id);
@@ -32,11 +97,37 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
   function openMobile() { document.getElementById('mobileNav').classList.add('open'); }
   function closeMobile() { document.getElementById('mobileNav').classList.remove('open'); }
 
+  function applyContatoContext(productKey, leadType) {
+    const key = LEAD_CONTEXTS[productKey] ? productKey : 'default';
+    const ctx = LEAD_CONTEXTS[key];
+    contatoContextKey = key;
+
+    const setText = (id, value) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = value;
+    };
+
+    setText('contatoContextLabel', ctx.label);
+    setText('contatoContextTitle', ctx.title);
+    setText('contatoContextCopy', ctx.copy);
+    setText('contatoContextNote', ctx.note);
+    setText('contatoSuccessCopy', ctx.successCopy);
+
+    const submitBtn = document.getElementById('contatoSubmitBtn');
+    if (submitBtn) submitBtn.textContent = ctx.submitLabel;
+
+    const usoField = document.getElementById('contatoUsoField');
+    if (usoField) usoField.hidden = !ctx.showUso;
+
+    const tipo = leadType || ctx.leadType;
+    preselectLeadType(tipo);
+  }
+
   // Pré-seleciona o tipo de interesse no formulário quando o usuário chega por
   // um CTA que carrega data-lead-type (ex.: "Montar um time" -> ALOCACAO...).
   function preselectLeadType(tipo) {
     if (!tipo) return;
-    const select = document.querySelector('#betaWaitlistForm select[name="tipoInteresse"]');
+    const select = document.querySelector('#contatoLeadForm select[name="tipoInteresse"]');
     if (select && [...select.options].some(o => o.value === tipo)) {
       select.value = tipo;
     }
@@ -46,8 +137,13 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
     document.querySelectorAll('[data-page-link]').forEach(link => {
       link.addEventListener('click', event => {
         event.preventDefault();
-        showPage(link.dataset.pageLink);
-        preselectLeadType(link.dataset.leadType);
+        const pageId = link.dataset.pageLink;
+        showPage(pageId);
+        if (pageId === 'contato') {
+          applyContatoContext(link.dataset.product, link.dataset.leadType);
+        } else if (link.dataset.leadType) {
+          preselectLeadType(link.dataset.leadType);
+        }
         if (link.hasAttribute('data-close-mobile')) closeMobile();
       });
     });
@@ -56,9 +152,9 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
     document.querySelector('[data-mobile-close]')?.addEventListener('click', closeMobile);
   }
 
-  function setupBetaWaitlist() {
-    const form = document.getElementById('betaWaitlistForm');
-    const success = document.getElementById('betaWaitlistSuccess');
+  function setupContatoLeadForm() {
+    const form = document.getElementById('contatoLeadForm');
+    const success = document.getElementById('contatoLeadSuccess');
     if (!form || !success) return;
 
     const hideSuccess = () => {
@@ -72,9 +168,14 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
       event.preventDefault();
       hideSuccess();
       const submitButton = form.querySelector('button[type="submit"]');
-      const originalLabel = submitButton ? submitButton.textContent : '';
+      const ctx = LEAD_CONTEXTS[contatoContextKey] || LEAD_CONTEXTS.default;
+      const originalLabel = submitButton ? submitButton.textContent : ctx.submitLabel;
       const entries = Object.fromEntries(new FormData(form).entries());
-      const payload = buildLeadPayload(entries, { origem: 'site-trcon' });
+      const payload = buildLeadPayload(entries, {
+        origem: ctx.origem,
+        produtoLabel: ctx.produtoLabel,
+        defaultTipoInteresse: ctx.leadType,
+      });
 
       if (submitButton) {
         submitButton.disabled = true;
@@ -84,6 +185,7 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
       try {
         await submitLead(LEADS_API_URL, payload);
         form.reset();
+        preselectLeadType(ctx.leadType);
         success.hidden = false;
         success.scrollIntoView({ behavior: 'smooth', block: 'center' });
       } catch (error) {
@@ -92,7 +194,7 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
       } finally {
         if (submitButton) {
           submitButton.disabled = false;
-          submitButton.textContent = originalLabel || 'Entrar na fila de espera';
+          submitButton.textContent = originalLabel || ctx.submitLabel;
         }
       }
     });
@@ -624,6 +726,7 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
   initHeroScene();
   initSubpageHeroScenes();
   setupNavigation();
-  setupBetaWaitlist();
+  setupContatoLeadForm();
+  applyContatoContext('default');
   loadSiteData();
   loadHomeContent();

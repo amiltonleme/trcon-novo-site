@@ -14,10 +14,13 @@ public class LeadServiceImpl implements LeadService {
 
     private final LeadRepository leadRepository;
     private final LeadMapper leadMapper;
+    private final LeadNotifier leadNotifier;
 
-    public LeadServiceImpl(LeadRepository leadRepository, LeadMapper leadMapper) {
+    public LeadServiceImpl(
+            LeadRepository leadRepository, LeadMapper leadMapper, LeadNotifier leadNotifier) {
         this.leadRepository = leadRepository;
         this.leadMapper = leadMapper;
+        this.leadNotifier = leadNotifier;
     }
 
     @Override
@@ -30,6 +33,7 @@ public class LeadServiceImpl implements LeadService {
 
         Lead lead = leadMapper.toDomain(request, emailNormalizado);
         Lead salvo = leadRepository.save(lead);
+        leadNotifier.notifyNewLead(salvo);
         return leadMapper.toResponse(salvo);
     }
 }

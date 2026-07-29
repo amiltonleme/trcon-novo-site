@@ -115,7 +115,7 @@ Marketing → POST /api/internal/economy-tips ──┘
 | SEC1 | Rate limit Cloudflare em `POST /api/v1/site/leads` |
 | SEC2 | Rate limit CF em `/api/internal/*` |
 | SEC3 | Processo LGPD: export/exclusão leads |
-| SEC4 | E-mail/Slack ao receber lead |
+| SEC4 | E-mail ao receber lead (Resend) | ✅ código; configurar `TRCON_SITE_MAIL_*` no Coolify |
 | SEC5 | Ambiente staging (Neon branch + subdomínio) |
 
 ### Fase 9 — Consolidação ([`09-PLANO-EXECUCAO-IA.md`](09-PLANO-EXECUCAO-IA.md))

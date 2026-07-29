@@ -25,6 +25,9 @@ export function buildLeadPayload(entries = {}, options = {}) {
   const tipoInteresse = normalizarTipo(entries.tipoInteresse, options.defaultTipoInteresse);
 
   const partesMensagem = [];
+  if (options.produtoLabel && String(options.produtoLabel).trim()) {
+    partesMensagem.push(`Produto: ${String(options.produtoLabel).trim()}`);
+  }
   if (entries.mensagem && String(entries.mensagem).trim()) {
     partesMensagem.push(String(entries.mensagem).trim());
   }

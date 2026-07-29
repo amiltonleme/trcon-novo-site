@@ -36,7 +36,9 @@ jobs:
       # Testcontainers usa o Docker já disponível no runner ubuntu-latest.
       # Em Linux não é necessário o ajuste de api.version exigido no Windows local.
       - name: Build, testes e verificação de cobertura
-        run: ./mvnw -B clean verify
+        run: |
+          chmod +x ./mvnw
+          ./mvnw -B clean verify
 
       - name: Publicar relatório JaCoCo
         if: always()

@@ -185,6 +185,10 @@ Variáveis obrigatórias:
 | `DB_PASSWORD` | senha Neon |
 | `TRCON_SITE_INTERNAL_API_KEY` | `openssl rand -hex 32` — **guardar** para Sirius Marketing |
 | `TRCON_CORS_ALLOWED_ORIGINS` | `https://trcongroup.com.br,https://www.trcongroup.com.br` |
+| `TRCON_SITE_MAIL_ENABLED` | `true` (liga notificação de lead via Resend) |
+| `TRCON_SITE_MAIL_API_KEY` | API key Resend (`re_...`) — **nunca** no Git |
+| `TRCON_SITE_MAIL_FROM` | Remetente verificado no Resend, ex. `Site TRCon <noreply@trcongroup.com.br>` |
+| `TRCON_SITE_LEAD_NOTIFY_TO` | Destinatário comercial (default `amilton.leme@trcongroup.com.br`) |
 
 Smoke test:
 

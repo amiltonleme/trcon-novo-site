@@ -63,6 +63,21 @@ describe('buildLeadPayload', () => {
     expect(p.origem).toBe('site-trcon-servicos');
   });
 
+  it('prefixa produtoLabel na mensagem quando informado', () => {
+    const p = buildLeadPayload(
+      {
+        nome: 'X',
+        email: 'x@y.com',
+        telefone: '1',
+        tipoInteresse: 'PRODUTO',
+        mensagem: 'quero testar',
+      },
+      { produtoLabel: 'Sírius Hub de Inteligência Financeira', origem: 'site-trcon-hub' },
+    );
+    expect(p.origem).toBe('site-trcon-hub');
+    expect(p.mensagem).toBe('Produto: Sírius Hub de Inteligência Financeira\nquero testar');
+  });
+
   it('expõe os 4 tipos de lead do backend', () => {
     expect(LEAD_TYPES).toEqual([
       'PRODUTO',
