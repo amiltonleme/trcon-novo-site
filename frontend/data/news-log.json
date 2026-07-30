@@ -1,47 +1,15 @@
 {
-  "generated_at": "2026-07-30T10:07:52.680949+00:00",
+  "generated_at": "2026-07-30T20:59:23.846638+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
     {
-      "source": "niddedigital.com",
+      "source": "Olhar Digital",
       "category": "IA",
-      "title": "Adoção da inteligência artificial avança mais rapidamente que sua governança nas empresas",
-      "summary": "Adoção da inteligência artificial avança mais rapidamente que sua governança nas empresas",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdDFCdjMzZ0lrdmxRRlNlTGlrZ1FDeHZGTVZNRlRsQmx6OGN1VklXQUZQWUEtX3J4ZWhSMmt6OWMwQlhVOEMxbUhWMFpmci16MUNPX2ptZjJ3SkU3bjVhT2dLejBxY09lYzI3bjh5LU93UUtRd1lrTVRNX2lDUDRFalVsNDdMRUtJaVNfdHhZVzF0R3UyS3NJRzVqNU05aGh1dXhIVUdzWGx5YTVCT0dvYU5zYnJ4Zw?oc=5",
-      "publishedAt": "Wed, 29 Jul 2026 15:05:10 GMT"
-    },
-    {
-      "source": "O GLOBO",
-      "category": "IA",
-      "title": "Agente de inteligência artificial da OpenAI invadiu outras quatro plataformas, confirma empresa",
-      "summary": "Agente de inteligência artificial da OpenAI invadiu outras quatro plataformas, confirma empresa",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPVFRFb21YMnA2MWlXb3R0cTF2U1AtU2ZKS3JMVDNrTGRhSkk2Mm9ONEhLQzN0VFlsMnJ4cTBXcThWQ1ZGdFp1RFllbEdLVDVvdzViNjFGdHJ1WWFlaFUyUVhyQ3Y3R2RRVGlYcy1oMU9sNWJNdXU4UEdoVVFaemp4bTFLbkNuWjlTVTZQSFhaQUxnNEo2bDVhNjZsaTlrT2tJQ2lRdG9TdW1fXzZkVHVwdkVfOHpKSzZMUzQ4ckhtZ3ZrQ2FIdEl3UHBQWTE1UTJuTmVyNnlFUGtvWmMwekFicHY0aEpJUEQ4RGFKT213STBnZW5Dc24w0gGGAkFVX3lxTFBYUUpPeDA2a04zcmxKbkx4M0xvanVFY2hYUTI0ZjB4MjkyR3UzSDBUTlBxaHotQXRnWEJmOXM0OE1DX1Q2YWNTem8taV9pbTJXbmRvSVpRVmtnd2NSSXFrcXNJWk1ncnNsU0NXTjkxZUpNZV9sdXVjYmc4WkF0WlZxRXEyRlVQdnJIdTZuX0lHbTlUemhjNTNTVmh2TFVWWjd5ZnF0U2tzNDFucUZQNzNOZ1hySmhSWGRDdWtoSTltaXhXdzM1MUF6MlBNYzgyamlvUFZwcTNYT3RVTXpUTHprclBKNC1kNlhqNTdyTTBPVXRGLTNfQzV3RHRhUlQ2MVRDNW01VUE?oc=5",
-      "publishedAt": "Wed, 29 Jul 2026 15:28:46 GMT"
-    },
-    {
-      "source": "O GLOBO",
-      "category": "IA",
-      "title": "‘Hacker’ autônomo: como IA da OpenAI 'invadiu' várias plataformas e por que isso preocupa analistas e empresas?",
-      "summary": "‘Hacker’ autônomo: como IA da OpenAI 'invadiu' várias plataformas e por que isso preocupa analistas e empresas?",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOSUViY05iYkw2N3RGNXpxZGFMTFg2cWNOUDVjYnJDampDemlaZEYtUDNPZzBocUJNUnB3WmkxV3NUdEdEWm1BdmFFbjY0S25TWl9sbVlfTU81anFfWndheV95WmlReGQ3ejExN2x1UlYxMC1IZ0hWVmJsN2stQXpOOWxYR3ZkaWI0M01RQUd3a0FIU1BZUUN6UlN2MU9zeFJQcjJSU1RrQmdYbEhGQ1hIVTVldmdiclV5bTRLN0diNUhVOXl4LVlrbTRtbjQydF9NUGJYbExvTzhfVEphNGMyWThVMktCTkhfY0VMdllPcm1mNWZrR1g3d0FYUkFEcDhjTW51NXpn0gGUAkFVX3lxTE5KVzdfYUVicWxMYmRHdjVpR3R0Qm9OZ1RSbW10Wk4zb2NtQ1BxVmtZV1dlUTdWRVhaMk5jcDhXTmZyU2ZuOUlLbTR3UXB0RlliaEFTREMzSS02Q2ZjUGhadE9MZXFqbUVuWnZPcTR5eGY3OXFvYXJlQnhlXzcxYWdlUEhNRVdVYmlPZk1CMTVjR2dpWEp5OGhqeFVxOU95VElSbWFhTFd5bDBpYTVqSGdDUUhFOHdWdFBhMVJhdWhrUlRNQWNuTkNUYnZXbkxZbk5wMllRb1FCU2JTSlBGajBOY3o5S2h0NklTQmJJMjB1aUlLZUxfLXVYMjJQRU5SQ0NHRnZiaGh1eVN6a1ZJaTBxQnV3SA?oc=5",
-      "publishedAt": "Thu, 30 Jul 2026 07:00:51 GMT"
-    },
-    {
-      "source": "Folha de S.Paulo",
-      "category": "IA",
-      "title": "Painel S.A.: Apenas 7% das empresas estão prontas para IA, aponta pesquisa global",
-      "summary": "Painel S.A.: Apenas 7% das empresas estão prontas para IA, aponta pesquisa global",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOY2I1Y1dJRXZxY1JHSUs0a0Fzd3I2U0VSZ1FlSDd5R0k1T0ZmM0FOdEV1RWJtUk4zcGVEZmNTRnhvaXhUQU5taXZfRXdBZkNhRDVkcHlUUFVfY01yckh0Tzg4YVJUT1FfZG8zZ3pvNndwejRORVQ2eHNvd3BjSE9ySWRjc1h0TUxQcXdBYnRadkY2cTBVajNNTW9ZdGpXX1ZJRDhoQTlnTmVsRU5CWExqTnUwaFpVSmNiR3pNdW1SYnJ6RVhad2c?oc=5",
-      "publishedAt": "Mon, 27 Jul 2026 13:00:00 GMT"
-    },
-    {
-      "source": "querobolsa.com.br",
-      "category": "IA",
-      "title": "IA não vai salvar uma empresa mal gerenciada: sem processos, a tecnologia apenas acelera os erros",
-      "summary": "IA não vai salvar uma empresa mal gerenciada: sem processos, a tecnologia apenas acelera os erros",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NMG0tRHd0dElpbkpycGNDYWRqbGRwM3lVMjJWRm5uRWVnOVpMNEpGZEdQMjc0Ul9PQ0ZiVVlkUnB6cEs0dy1WYjQ2M3h2UFBPWmNxWFVXbXNrQWpJTHhwMW5mMFBGMGlWU2phYUpKWExRS2hyTGJiaXBGdTRVNEk?oc=5",
-      "publishedAt": "Wed, 29 Jul 2026 14:13:41 GMT"
+      "title": "OpenAI abre guerra de preços na IA com cortes de até 80% nos modelos menores",
+      "summary": "OpenAI abre guerra de preços na IA com cortes de até 80% nos modelos menores",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVTJCSGczM2JWa3VERThfeFdtbEZzX25PbmxRcjVJTXFZMmJUd2ZtdG8yU3ppcXcxZU12aDhwZl96bzhJUFpUYzNBc3kxZ1J6ZmZvdzRSMmNSWFdSbU5XZVNXNWdWbzNZMlpzM3BPc01jODc4QnBwSnctRlFVSDBvWlJSTGlGc2tTS0ZXbUw0andCXzBLVEo0VXBCdEdpbTBXUmh2YzFhTjkwY1JOZUdVWEdCWE90OHV1RnNHLV9vcTZsUmpzSjhXSUFYdm5CT1VQbVM5emtR?oc=5",
+      "publishedAt": "Thu, 30 Jul 2026 18:59:00 GMT"
     },
     {
       "source": "CNN Brasil",
@@ -50,6 +18,38 @@
       "summary": "Limite da IA: empresas de tecnologia pedem que EUA freiem modelos avançados",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY0dENTR0MDRlRnJjT3Y0RE1TUVRkTjJIeHlyS0pIRkd3WkdSNjJoZUpqTThZa3dvVEl3YTZhNFhnVldDLUQ3VUpyUDU2czl4WVVHdlpZanhiOXByOWxvSWNkeTBxM2NsWlVwS1NqejBJckNNTUJUR2dxdDJtTXVEblpYR2JuX3RVQ3hqT1B3aTNJU01ZUjV6ZWYxUXJ1enYtN01WcW1ESjR6NkF3WkV4Vm5BNnM2QQ?oc=5",
       "publishedAt": "Wed, 29 Jul 2026 21:29:02 GMT"
+    },
+    {
+      "source": "Quero Bolsa",
+      "category": "IA",
+      "title": "IA não vai salvar uma empresa mal gerenciada: sem processos, a tecnologia apenas acelera os erros",
+      "summary": "IA não vai salvar uma empresa mal gerenciada: sem processos, a tecnologia apenas acelera os erros",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NMG0tRHd0dElpbkpycGNDYWRqbGRwM3lVMjJWRm5uRWVnOVpMNEpGZEdQMjc0Ul9PQ0ZiVVlkUnB6cEs0dy1WYjQ2M3h2UFBPWmNxWFVXbXNrQWpJTHhwMW5mMFBGMGlWU2phYUpKWExRS2hyTGJiaXBGdTRVNEk?oc=5",
+      "publishedAt": "Wed, 29 Jul 2026 14:13:41 GMT"
+    },
+    {
+      "source": "Olhar Digital",
+      "category": "IA",
+      "title": "OpenAI e rivais defendem pausa estratégica no avanço da IA",
+      "summary": "OpenAI e rivais defendem pausa estratégica no avanço da IA",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRGhIYUdWblVqTHdla0NQUUljb1d2MFNIWHVzUXVub2hwb1RIYm5zTGtZV0pKeU9zVktDLUF6M2t6ZFdBekZheDlrbVdzcWszS1VaVy1rdnA5QWJneDhOREtwYVhSSDcycU5jMEljQTJEeXlENDQ3YUR4aU1nS1ZWajRGUlIzSHBfU09tME5uNUNKdEJiQmhwMDN2ektDSlhEbVVySzBVbUFEaXE2MkZ5eUp3bWFDSDNHNzhZLXBGVQ?oc=5",
+      "publishedAt": "Wed, 29 Jul 2026 13:53:00 GMT"
+    },
+    {
+      "source": "Diário do Comércio",
+      "category": "IA",
+      "title": "Apesar do avanço da IA, 86% das empresas ainda não exploram todo o potencial da tecnologia",
+      "summary": "Apesar do avanço da IA, 86% das empresas ainda não exploram todo o potencial da tecnologia",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5xUGMzZE0wTGVqSnlsUHlEYUlPel9iX3k2MmtNYzhOX3VMX2JLU0t5Qk9GbmRjRnFQU0gwQTVrWUozckxaeWVQU0d4QmlBNnJjNGNIOHIxZVJjX0ZvckV5Yk54X0hGS2xQVVRzUDZsbWw3aDMtZUYwSGd1aXI3RUE?oc=5",
+      "publishedAt": "Thu, 30 Jul 2026 09:50:00 GMT"
+    },
+    {
+      "source": "Valor Econômico",
+      "category": "IA",
+      "title": "IA impulsiona gastos globais com tecnologia em 2026",
+      "summary": "IA impulsiona gastos globais com tecnologia em 2026",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRjJGbDl0TEk2R0trYTVwbV9mNlhicG55bzhsdENEc2VtQU9hV1phR2NTWms0UVN2bmtEak93SC1SeHEzMTN4T2h2dEtGLUNTYlhndUpsS0VTdUtPWWlNYTRRLWpyLVJrRWhxWVZvMzREbVQ1NjY0MXBMTUhVcktrRDBBWWVGeUM2LTBCVVRsTWh5QTZPNmlCSVhpdk9pRlBsS1hVOTZfdEVFOGVyeXdYLWVDOFpIeUYzLUNaUndTVWhQdWIybk9JYU1iSktCZ9IB3AFBVV95cUxQdV9RQjJFU1l3THRmd2UtaV9SRnc1TkRUNmx2aUx0R0pCOEU5eExrU3JkV3VrTXJHb0lSN2xOQ0Q0SzBNeHRkZU5ONl9rbDNGRFhZOEdmOVQwajNNNVBiWnBfLXNzZ0J1REJ3MG5NTFFlTEFKU3owNHJrVks0VTlaRW1ETXFJZnNnTUc4dGxLMnZQNk5wbU1Jd2dWZHdZSlF5ajB6T3REYW54eFlmQVFTX0ZUM2hwa1VLQ2lNQzRNLTBQNjd1WkEyeXNnbjBUeVhVVFNZeWFJdHJrN2pP?oc=5",
+      "publishedAt": "Thu, 30 Jul 2026 13:00:13 GMT"
     },
     {
       "source": "www.gov.br",
