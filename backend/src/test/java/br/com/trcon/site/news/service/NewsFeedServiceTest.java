@@ -30,6 +30,7 @@ class NewsFeedServiceTest {
                 "Resumo & co",
                 "https://ignored.example/a",
                 "meu-slug",
+                null,
                 Instant.parse("2026-07-23T18:00:00Z"));
         when(newsService.listarComSlug(50)).thenReturn(NewsListResponse.of(List.of(item)));
 
@@ -54,6 +55,7 @@ class NewsFeedServiceTest {
                 "Resumo",
                 "https://example.com/ext",
                 "  ",
+                null,
                 null);
         when(newsService.listarComSlug(50)).thenReturn(NewsListResponse.of(List.of(item)));
 
@@ -67,9 +69,9 @@ class NewsFeedServiceTest {
     void gerarSitemapIncluiHomeEArtigos() {
         NewsFeedService service = new NewsFeedService(newsService, "https://trcongroup.com.br");
         NewsItemResponse comSlug = new NewsItemResponse(
-                UUID.randomUUID(), "s", "IA", "A", "r", "https://x", "slug-a", Instant.parse("2026-01-02T00:00:00Z"));
+                UUID.randomUUID(), "s", "IA", "A", "r", "https://x", "slug-a", null, Instant.parse("2026-01-02T00:00:00Z"));
         NewsItemResponse semSlug =
-                new NewsItemResponse(UUID.randomUUID(), "s", "IA", "B", "r", "https://y.com/b", null, null);
+                new NewsItemResponse(UUID.randomUUID(), "s", "IA", "B", "r", "https://y.com/b", null, null, null);
         when(newsService.listarComSlug(200)).thenReturn(NewsListResponse.of(List.of(comSlug, semSlug)));
 
         String sitemap = service.gerarSitemap();

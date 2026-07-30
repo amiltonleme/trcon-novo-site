@@ -199,7 +199,9 @@ GET https://api-site.trcongroup.com.br/api/public/highlights
 GET https://api-site.trcongroup.com.br/api/public/economy-tips
 ```
 
-Após redeploy com Flyway **V6**, validar `economy-tips` retorna 200 (lista pode estar vazia até marketing publicar).
+Após redeploy com Flyway **V6 + V7**, validar `economy-tips` e `GET /api/public/news/{slug}` (200). Lista de economy-tips pode estar vazia até marketing publicar.
+
+Com mail ligado, smoke: `POST /api/v1/site/leads` → 201 e e-mail em `TRCON_SITE_LEAD_NOTIFY_TO` (falha de Resend não deve quebrar o 201).
 
 A raiz `/` pode retornar JSON `INTERNAL_ERROR` — não há rota na raiz; isso **não** indica falha de deploy.
 

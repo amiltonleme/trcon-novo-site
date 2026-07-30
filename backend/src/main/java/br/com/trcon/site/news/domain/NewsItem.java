@@ -59,6 +59,9 @@ public class NewsItem {
     @Column(name = "meta_description", length = 320)
     private String metaDescription;
 
+    @Column(name = "cover_image_url", length = 500)
+    private String coverImageUrl;
+
     @Column(name = "created_at", nullable = false)
     private Instant createdAt;
 
@@ -77,6 +80,7 @@ public class NewsItem {
             String body,
             String metaTitle,
             String metaDescription,
+            String coverImageUrl,
             Instant createdAt) {
         this.id = id;
         this.source = source;
@@ -92,13 +96,14 @@ public class NewsItem {
         this.body = body;
         this.metaTitle = metaTitle;
         this.metaDescription = metaDescription;
+        this.coverImageUrl = coverImageUrl;
         this.createdAt = createdAt;
     }
 
     public static NewsItem novo(String source, String category, String title, String summary, String url,
                                  Instant publishedAt, String ingestionBatch) {
         return new NewsItem(UUID.randomUUID(), source, category, title, summary, url, publishedAt,
-                ingestionBatch, null, null, null, null, null, null, Instant.now());
+                ingestionBatch, null, null, null, null, null, null, null, Instant.now());
     }
 
     public static NewsItem fromMarketing(
@@ -113,9 +118,11 @@ public class NewsItem {
             String slug,
             String body,
             String metaTitle,
-            String metaDescription) {
+            String metaDescription,
+            String coverImageUrl) {
         return new NewsItem(UUID.randomUUID(), source, category, title, summary, url, publishedAt,
-                "sirius-marketing", brandSlug, externalId, slug, body, metaTitle, metaDescription, Instant.now());
+                "sirius-marketing", brandSlug, externalId, slug, body, metaTitle, metaDescription,
+                coverImageUrl, Instant.now());
     }
 
     public void updateFromMarketing(
@@ -129,7 +136,8 @@ public class NewsItem {
             String slug,
             String body,
             String metaTitle,
-            String metaDescription) {
+            String metaDescription,
+            String coverImageUrl) {
         this.source = source;
         this.category = category;
         this.title = title;
@@ -141,5 +149,6 @@ public class NewsItem {
         this.body = body;
         this.metaTitle = metaTitle;
         this.metaDescription = metaDescription;
+        this.coverImageUrl = coverImageUrl;
     }
 }

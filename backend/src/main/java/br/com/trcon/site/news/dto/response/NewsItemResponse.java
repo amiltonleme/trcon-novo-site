@@ -11,4 +11,5 @@ public record NewsItemResponse(
         String summary,
         String url,
         String slug,
+        String coverImageUrl,
         Instant publishedAt) {}

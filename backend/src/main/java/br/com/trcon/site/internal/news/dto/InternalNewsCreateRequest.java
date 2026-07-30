@@ -17,4 +17,5 @@ public record InternalNewsCreateRequest(
         @Size(max = 120) String slug,
         @Size(max = 50000) String body,
         @Size(max = 200) String metaTitle,
-        @Size(max = 320) String metaDescription) {}
+        @Size(max = 320) String metaDescription,
+        @Size(max = 500) String coverImageUrl) {}

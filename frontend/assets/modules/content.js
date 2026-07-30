@@ -6,7 +6,7 @@
 // Funções puras de render (buildHighlightsHtml / buildNewsHtml) ficam isoladas
 // de DOM/rede para serem testáveis com Vitest.
 
-import { escapeHtml, safeUrl } from './sanitize.js';
+import { escapeHtml, safeUrl, localizeSiteHref } from './sanitize.js';
 import { isInternalArticleHref, resolveNewsHref } from './article.js';
 
 // Extrai a lista de itens do envelope canônico (ou do array puro).
@@ -161,12 +161,14 @@ export async function fetchRadarHighlights(apiUrl, jsonUrl, deps = {}) {
 const SIGNAL_LABEL = { up: '▲', down: '▼', flat: '•' };
 
 function buildCardItemHtml(item, { preferExternalLinks = false } = {}) {
-  const href = preferExternalLinks
-    ? safeUrl(item.link || item.url)
-    : (() => {
-        const resolved = resolveNewsHref(item);
-        return resolved && isInternalArticleHref(resolved) ? resolved : safeUrl(resolved);
-      })();
+  const href = localizeSiteHref(
+    preferExternalLinks
+      ? safeUrl(item.link || item.url)
+      : (() => {
+          const resolved = resolveNewsHref(item);
+          return resolved && isInternalArticleHref(resolved) ? resolved : safeUrl(resolved);
+        })(),
+  );
   const tag = escapeHtml(item.source || item.category || 'TRCon');
   const titulo = escapeHtml(item.title);
   const signal = SIGNAL_LABEL[item.signal] || '';

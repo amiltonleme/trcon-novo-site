@@ -18,12 +18,12 @@ class NewsFeedXmlSupportTest {
     @Test
     void articleUrlPrefereSlug() {
         NewsItemResponse comSlug =
-                new NewsItemResponse(UUID.randomUUID(), "s", "IA", "t", "r", "https://x", "abc", Instant.now());
+                new NewsItemResponse(UUID.randomUUID(), "s", "IA", "t", "r", "https://x", "abc", null, Instant.now());
         assertThat(NewsFeedXmlSupport.articleUrl("https://trcongroup.com.br", comSlug))
                 .isEqualTo("https://trcongroup.com.br/novidades/abc");
 
         NewsItemResponse semSlug =
-                new NewsItemResponse(UUID.randomUUID(), "s", "IA", "t", "r", "https://x.com", null, Instant.now());
+                new NewsItemResponse(UUID.randomUUID(), "s", "IA", "t", "r", "https://x.com", null, null, Instant.now());
         assertThat(NewsFeedXmlSupport.articleUrl("https://trcongroup.com.br", semSlug)).isEqualTo("https://x.com");
     }
 

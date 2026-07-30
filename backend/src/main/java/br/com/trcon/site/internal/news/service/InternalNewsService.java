@@ -5,6 +5,7 @@ import br.com.trcon.site.internal.news.dto.InternalNewsCreateResponse;
 import br.com.trcon.site.news.domain.NewsItem;
 import br.com.trcon.site.news.domain.NewsQueryInvalidaException;
 import br.com.trcon.site.news.repository.NewsRepository;
+import br.com.trcon.site.news.util.CoverImageUrls;
 import br.com.trcon.site.news.util.SlugUtils;
 import java.util.Set;
 import java.util.UUID;
@@ -33,6 +34,12 @@ public class InternalNewsService {
         String body = resolveBody(request.body(), request.summary());
         final String metaTitle = resolveMetaTitle(request.metaTitle(), request.title());
         final String metaDescription = resolveMetaDescription(request.metaDescription(), request.summary());
+        final String coverImageUrl;
+        try {
+            coverImageUrl = CoverImageUrls.normalize(request.coverImageUrl());
+        } catch (IllegalArgumentException ex) {
+            throw new NewsQueryInvalidaException(ex.getMessage());
+        }
 
         return newsRepository
                 .findByExternalId(request.externalId())
@@ -49,7 +56,8 @@ public class InternalNewsService {
                             slug,
                             body,
                             metaTitle,
-                            metaDescription);
+                            metaDescription,
+                            coverImageUrl);
                     NewsItem saved = newsRepository.save(existing);
                     return new InternalNewsCreateResponse(saved.getId(), true);
                 })
@@ -67,7 +75,8 @@ public class InternalNewsService {
                             slug,
                             body,
                             metaTitle,
-                            metaDescription);
+                            metaDescription,
+                            coverImageUrl);
                     NewsItem saved = newsRepository.save(item);
                     return new InternalNewsCreateResponse(saved.getId(), false);
                 });

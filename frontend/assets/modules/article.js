@@ -1,6 +1,6 @@
 // Página de artigo /novidades/{slug} — fetch, meta SEO e render do corpo.
 
-import { escapeHtml } from './sanitize.js';
+import { escapeHtml, safeHttpsImageUrl, videoEmbedSrc } from './sanitize.js';
 import { resolveApiConfig } from './config.js';
 
 export function parseArticleSlug(pathname = '') {
@@ -35,6 +35,31 @@ export function resolveNewsHref(item) {
   return href || '';
 }
 
+function renderParagraph(paragraph) {
+  const trimmed = String(paragraph || '').trim();
+  if (!trimmed) return '';
+
+  const singleLine = trimmed.includes('\n') ? null : trimmed;
+  const embedSrc = singleLine ? videoEmbedSrc(singleLine) : null;
+  if (embedSrc) {
+    return `<div class="article-video"><iframe src="${escapeHtml(embedSrc)}" title="Vídeo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>`;
+  }
+
+  const lines = trimmed
+    .split('\n')
+    .map((line) => {
+      const embed = videoEmbedSrc(line.trim());
+      if (embed) {
+        return `</p><div class="article-video"><iframe src="${escapeHtml(embed)}" title="Vídeo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div><p>`;
+      }
+      return escapeHtml(line.trim());
+    })
+    .filter(Boolean)
+    .join('<br />');
+
+  return `<p>${lines}</p>`;
+}
+
 export function renderArticleBody(body) {
   if (!body || !String(body).trim()) {
     return '<p class="article-empty">Conteúdo indisponível.</p>';
@@ -42,14 +67,7 @@ export function renderArticleBody(body) {
   return String(body)
     .trim()
     .split(/\n\s*\n/)
-    .map((paragraph) => {
-      const lines = paragraph
-        .split('\n')
-        .map((line) => escapeHtml(line.trim()))
-        .filter(Boolean)
-        .join('<br />');
-      return `<p>${lines}</p>`;
-    })
+    .map(renderParagraph)
     .join('');
 }
 
@@ -76,6 +94,7 @@ export function applyArticleMeta(article, deps = {}) {
   const title = article.metaTitle || article.title || 'TRCon Novidades';
   const description = article.metaDescription || article.summary || '';
   const canonical = buildArticleUrl(article.slug, deps.siteBase);
+  const cover = safeHttpsImageUrl(article.coverImageUrl);
 
   doc.title = `${title} — TRCon Group`;
 
@@ -84,6 +103,9 @@ export function applyArticleMeta(article, deps = {}) {
   setMeta(doc, 'property', 'og:description', description);
   setMeta(doc, 'property', 'og:url', canonical);
   setMeta(doc, 'property', 'og:type', 'article');
+  if (cover) {
+    setMeta(doc, 'property', 'og:image', cover);
+  }
 
   let canonicalLink = doc.querySelector('link[rel="canonical"]');
   if (!canonicalLink) {
@@ -128,6 +150,10 @@ export function renderArticlePage(article, root, deps = {}) {
   const category = escapeHtml(article.category || 'TRCon');
   const source = article.source ? `<span>${escapeHtml(article.source)}</span>` : '';
   const brand = article.brandSlug ? `<span>${escapeHtml(article.brandSlug)}</span>` : '';
+  const cover = safeHttpsImageUrl(article.coverImageUrl);
+  const coverHtml = cover
+    ? `<figure class="article-cover"><img src="${escapeHtml(cover)}" alt="" loading="eager" decoding="async" /></figure>`
+    : '';
 
   root.innerHTML = `
     <nav class="article-breadcrumb" aria-label="Breadcrumb">
@@ -135,6 +161,7 @@ export function renderArticlePage(article, root, deps = {}) {
       <span aria-hidden="true">→</span>
       <span>Novidades</span>
     </nav>
+    ${coverHtml}
     <header class="article-header">
       <span class="article-tag">${category}</span>
       <h1>${escapeHtml(article.title || '')}</h1>

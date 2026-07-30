@@ -1910,6 +1910,20 @@
       margin-bottom: 32px;
     }
 
+    .article-cover {
+      margin: 0 0 28px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid color-mix(in srgb, var(--text3) 35%, transparent);
+    }
+
+    .article-cover img {
+      display: block;
+      width: 100%;
+      max-height: 420px;
+      object-fit: cover;
+    }
+
     .article-tag {
       display: inline-block;
       font-size: 0.72rem;
@@ -1954,6 +1968,29 @@
 
     .article-body p:last-child {
       margin-bottom: 0;
+    }
+
+    .article-body p:empty {
+      display: none;
+    }
+
+    .article-video {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      margin: 1.4em 0;
+      border-radius: 12px;
+      overflow: hidden;
+      background: #0a0f16;
+      border: 1px solid color-mix(in srgb, var(--text3) 35%, transparent);
+    }
+
+    .article-video iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
     }
 
     .article-empty {

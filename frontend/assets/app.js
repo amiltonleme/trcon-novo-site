@@ -2,6 +2,7 @@ import { apiConfig } from './modules/config.js';
 import {
   changeClass,
   escapeHtml,
+  localizeSiteHref,
   safeClass,
   safeCssColor,
   safeGradient,
@@ -534,10 +535,14 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
   // com Vitest). Ver doc/03-FRONTEND-STACK-CANONICA.md.
 
   function renderContentLink(item, fallbackLabel) {
-    const href = safeUrl(item.url);
-    if (!href) return '';
+    const href = localizeSiteHref(safeUrl(item.url));
+    if (!href || href === '/') {
+      return '';
+    }
     const label = item.link_label || fallbackLabel;
-    return `<a class="content-link" href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)} →</a>`;
+    const internal = href.startsWith('/');
+    const targetAttrs = internal ? '' : ' target="_blank" rel="noopener noreferrer"';
+    return `<a class="content-link" href="${escapeHtml(href)}"${targetAttrs}>${escapeHtml(label)} →</a>`;
   }
 
   function renderTicker(items) {

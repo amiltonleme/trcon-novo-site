@@ -14,5 +14,6 @@ public record NewsArticleResponse(
         String body,
         String metaTitle,
         String metaDescription,
+        String coverImageUrl,
         String brandSlug,
         Instant publishedAt) {}

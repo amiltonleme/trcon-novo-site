@@ -55,7 +55,8 @@ class InternalNewsControllerIT {
                 "lancamento-sirius-marketing",
                 "Corpo completo do artigo com varios paragrafos.",
                 "Lancamento Sirius Marketing",
-                "Plataforma editorial integrada ao site TRCON.");
+                "Plataforma editorial integrada ao site TRCON.",
+                "https://images.unsplash.com/photo-cover-example");
 
         ResponseEntity<InternalNewsCreateResponse> createResponse =
                 restTemplate.postForEntity("/api/internal/news", entity(request), InternalNewsCreateResponse.class);
@@ -70,6 +71,8 @@ class InternalNewsControllerIT {
         assertThat(articleResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
         assertThat(articleResponse.getBody().body()).contains("Corpo completo");
         assertThat(articleResponse.getBody().metaTitle()).isEqualTo("Lancamento Sirius Marketing");
+        assertThat(articleResponse.getBody().coverImageUrl())
+                .isEqualTo("https://images.unsplash.com/photo-cover-example");
 
         ResponseEntity<NewsListResponse> publicResponse =
                 restTemplate.getForEntity("/api/public/news?category=Tecnologia", NewsListResponse.class);
@@ -93,6 +96,7 @@ class InternalNewsControllerIT {
                 "titulo-v1",
                 "Corpo v1",
                 null,
+                null,
                 null);
 
         restTemplate.postForEntity("/api/internal/news", entity(request), InternalNewsCreateResponse.class);
@@ -108,6 +112,7 @@ class InternalNewsControllerIT {
                 null,
                 "titulo-v2",
                 "Corpo v2 atualizado",
+                null,
                 null,
                 null);
 
@@ -139,6 +144,7 @@ class InternalNewsControllerIT {
                 null,
                 null,
                 null,
+                null,
                 null);
 
         ResponseEntity<InternalNewsCreateResponse> first =
@@ -163,6 +169,7 @@ class InternalNewsControllerIT {
                         "trcon",
                         Instant.now(),
                         "no-key",
+                        null,
                         null,
                         null,
                         null,

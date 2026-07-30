@@ -35,10 +35,10 @@ Este arquivo resume o mesmo conteúdo para leitura no monorepo **site**; detalhe
 
 ## Imagens e vídeo
 
-- **Capa manual (URL):** R$ 0 infra — campo `cover_image_url` + hero na `/novidades/{slug}`
-- **Cloudflare R2:** free tier cobre dezenas/centenas de capas (~150 KB cada)
+- **Capa manual (URL):** ✅ Desenho A (30/07) — campo `cover_image_url` + hero + `og:image`
+- **Cloudflare R2:** free tier cobre dezenas/centenas de capas (~150 KB cada) — Desenho B
 - **IA imagem:** **não** DeepSeek — API separada (~US$ 0,01–0,04/imagem); quota **US$ 5/mês** separada recomendada
-- **Vídeo:** embed YouTube/Vimeo = R$ 0; Stream hospedado = R$ 50+/mês — evitar no MVP
+- **Vídeo:** embed YouTube/Vimeo = ✅ Desenho A (URL no body); Stream hospedado = R$ 50+/mês — evitar no MVP
 
 ---
 
@@ -50,13 +50,14 @@ Hoje **não existe**. Exige:
 
 **Site:** Flyway V7+ (`cover_image_url`), API news estendida, hero + `og:image` na página artigo.
 
-Ver tabelas completas e fluxo em [`11_custos_sprint8_midia_ia.md`](../../sirius-marketing/projeto/docs/cursor/11_custos_sprint8_midia_ia.md).
+Ver tabelas completas e fluxo em [`11_custos_sprint8_midia_ia.md`](../../sirius-marketing/projeto/docs/cursor/11_custos_sprint8_midia_ia.md).  
+Desenho arquitetural A/B: [`19-DESENHO-MIDIA.md`](./19-DESENHO-MIDIA.md) / canônico [`13_desenho_midia_imagens_videos.md`](../../sirius-marketing/projeto/docs/cursor/13_desenho_midia_imagens_videos.md).
 
 ---
 
 ## Ordem recomendada
 
-1. **S8 mínima** (S8.1–S8.6) — alto benefício, custo infra ~zero  
-2. Capa opcional via URL externa  
-3. **S9** — IA visual + R2, se produto validar necessidade  
-4. Vídeo = embed no body
+1. **S8 mínima** (S8.1–S8.6) — ✅
+2. Capa opcional via URL externa + vídeo embed — ✅ Desenho A (30/07)
+3. **S9 / Desenho B** — IA visual + R2, se produto validar necessidade
+4. Stream só se volume justificar

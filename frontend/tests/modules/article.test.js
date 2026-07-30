@@ -45,6 +45,12 @@ describe('renderArticleBody', () => {
     expect(html).toContain('<p>Linha 1</p>');
     expect(html).toContain('&lt;b&gt;');
   });
+
+  it('converte URL YouTube em iframe', () => {
+    const html = renderArticleBody('Intro\n\nhttps://www.youtube.com/watch?v=dQw4w9WgXcQ\n\nFim');
+    expect(html).toContain('youtube.com/embed/dQw4w9WgXcQ');
+    expect(html).toContain('iframe');
+  });
 });
 
 describe('formatArticleDate', () => {

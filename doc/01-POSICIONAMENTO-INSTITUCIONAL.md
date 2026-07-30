@@ -1,5 +1,7 @@
 # Posicionamento Institucional — TRCon
 
+> Atualizado em **29/07/2026** — páginas de detalhe de produto + formulário único de contato no frontend.
+
 ## Quem é a TRCon
 
 **TRCon — Tecnologia, Inteligência e Resultados.**

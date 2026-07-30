@@ -5,8 +5,11 @@ import {
   safeClass,
   safeCssColor,
   safeGradient,
+  safeHttpsImageUrl,
   safePercent,
   safeUrl,
+  videoEmbedSrc,
+  localizeSiteHref,
 } from '../../assets/modules/sanitize.js';
 
 const BASE = 'https://trcon.com.br/';
@@ -101,5 +104,57 @@ describe('safeGradient', () => {
     expect(safeGradient('url(javascript:x)')).toBe(
       'linear-gradient(135deg,#1a2535,#0d1219)',
     );
+  });
+});
+
+describe('safeHttpsImageUrl', () => {
+  it('aceita apenas https absoluto', () => {
+    expect(safeHttpsImageUrl('https://images.unsplash.com/photo')).toContain('unsplash');
+    expect(safeHttpsImageUrl('http://example.com/a.jpg')).toBe('');
+    expect(safeHttpsImageUrl('/local.jpg')).toBe('');
+  });
+
+  it('converte página Unsplash em URL de download', () => {
+    const page =
+      'https://unsplash.com/pt-br/fotografias/uma-pessoa-segurando-um-telefone-celular-na-frente-de-um-grafico-de-acoes-K5mPtONmpHM';
+    expect(safeHttpsImageUrl(page)).toBe(
+      'https://unsplash.com/photos/K5mPtONmpHM/download?force=true&w=1600',
+    );
+  });
+});
+
+describe('localizeSiteHref', () => {
+  it('em local reescreve domínio prod para path relativo', () => {
+    expect(
+      localizeSiteHref('https://trcongroup.com.br/novidades/meu-slug', {
+        hostname: '127.0.0.1',
+      }),
+    ).toBe('/novidades/meu-slug');
+    expect(
+      localizeSiteHref('https://www.trcongroup.com.br/', { hostname: 'localhost' }),
+    ).toBe('/');
+  });
+
+  it('em prod mantém URL absoluta', () => {
+    expect(
+      localizeSiteHref('https://trcongroup.com.br/novidades/x', {
+        hostname: 'trcongroup.com.br',
+      }),
+    ).toBe('https://trcongroup.com.br/novidades/x');
+  });
+});
+
+describe('videoEmbedSrc', () => {
+  it('converte YouTube e Vimeo', () => {
+    expect(videoEmbedSrc('https://www.youtube.com/watch?v=dQw4w9WgXcQ')).toBe(
+      'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    );
+    expect(videoEmbedSrc('https://youtu.be/dQw4w9WgXcQ')).toBe(
+      'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    );
+    expect(videoEmbedSrc('https://vimeo.com/123456789')).toBe(
+      'https://player.vimeo.com/video/123456789',
+    );
+    expect(videoEmbedSrc('https://example.com/video')).toBeNull();
   });
 });

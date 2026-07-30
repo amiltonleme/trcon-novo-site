@@ -15,13 +15,13 @@ trcongroup/
     .claude/    -> skills e agents do Claude Code para este projeto
 ```
 
-> **Estado jul/2026:** o frontend já vive em `trcongroup/site/frontend` (migração da Fase 3 concluída).
+> **Estado 30/07/2026:** frontend em `trcongroup/site/frontend`; backend **0.4.0** (V1–**V8** capa, mail lead, S8 + Desenho A).
 > A pasta `fluxo-caixa-app/site-trcon` permanece como histórico até decisão de corte ([`16-PASSO-A-PASSO.md`](./16-PASSO-A-PASSO.md) Fase 9).
-> Documentação operacional atual: [`14-STATUS-IMPLEMENTACAO.md`](./14-STATUS-IMPLEMENTACAO.md), [`15-GAPS-PRODUCAO-SEGURANCA.md`](./15-GAPS-PRODUCAO-SEGURANCA.md), [`16-PASSO-A-PASSO.md`](./16-PASSO-A-PASSO.md).
+> Documentação operacional atual: [`14-STATUS-IMPLEMENTACAO.md`](./14-STATUS-IMPLEMENTACAO.md), [`15-GAPS-PRODUCAO-SEGURANCA.md`](./15-GAPS-PRODUCAO-SEGURANCA.md), [`16-PASSO-A-PASSO.md`](./16-PASSO-A-PASSO.md), [`19-DESENHO-MIDIA.md`](./19-DESENHO-MIDIA.md).
 
 ## Ordem de leitura recomendada
 
-**Operacional (estado atual do código — jul/2026):**
+**Operacional (estado atual do código — 29/07/2026):**
 
 1. [`14-STATUS-IMPLEMENTACAO.md`](./14-STATUS-IMPLEMENTACAO.md) — matriz backend/frontend/infra
 2. [`16-PASSO-A-PASSO.md`](./16-PASSO-A-PASSO.md) — feito / em andamento / a fazer
@@ -30,6 +30,7 @@ trcongroup/
 5. [`13-AMBIENTE-LOCAL-TESTES.md`](./13-AMBIENTE-LOCAL-TESTES.md) — dev local + smoke
 6. [`18-MANUAL-MARKETING-EDITORIAL.md`](./18-MANUAL-MARKETING-EDITORIAL.md) — mapa editorial marketing → site
 7. [`17-CUSTOS-S8-MIDIA-IA.md`](./17-CUSTOS-S8-MIDIA-IA.md) — custos S8, mídia, IA imagem
+8. [`19-DESENHO-MIDIA.md`](./19-DESENHO-MIDIA.md) — desenho A (URL/embed) + B (R2 + IA); canônico no marketing
 
 **Especificação e arquitetura (fonte de decisão):**
 
@@ -67,6 +68,7 @@ trcongroup/
 | **15-GAPS-PRODUCAO-SEGURANCA** | **Gaps produção, segurança, priorização** |
 | **16-PASSO-A-PASSO** | **Feito / em andamento / a fazer (visão consolidada)** |
 | **17-CUSTOS-S8-MIDIA-IA** | **Custos Sprint 8, imagens, vídeo, IA visual (Sprint 9)** |
+| **19-DESENHO-MIDIA** | **Desenho A (URL/embed) + B (R2 + IA); canônico no marketing `13_desenho_…`** |
 
 ## Regra de governança
 

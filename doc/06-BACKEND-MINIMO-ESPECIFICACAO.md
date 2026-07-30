@@ -30,7 +30,7 @@ Protegida por `InternalApiKeyFilter` — header `X-API-Key` = env `TRCON_SITE_IN
 
 | Endpoint | Função |
 |----------|--------|
-| `POST /api/internal/news` | Ingestão Novidades (slug, body, meta — V7); idempotência `externalId` |
+| `POST /api/internal/news` | Ingestão Novidades (slug, body, meta — V7; **`coverImageUrl` — V8**); idempotência `externalId` |
 | `POST /api/internal/highlights` | Ingestão Radar (pipeline/manual); **não** usado por artigos marketing |
 | `POST /api/internal/economy-tips` | Ingestão Educação Financeira (V6) |
 
@@ -52,10 +52,14 @@ Request news (resumo):
   "brandSlug": "trcon",
   "publishedAt": "2026-07-26T12:00:00Z",
   "externalId": "{contentId}-v1",
-  "source": "sirius-marketing"
+  "source": "sirius-marketing",
+  "slug": "...",
+  "body": "...",
+  "coverImageUrl": "https://images.unsplash.com/..."
 }
 ```
 
+`coverImageUrl` é opcional (HTTPS, ≤500). Desenho A — ver [`19-DESENHO-MIDIA.md`](./19-DESENHO-MIDIA.md).
 ## Módulo 5 — Economy tips (Educação Financeira)
 
 ### Entidade `EconomyTip` (V6)
