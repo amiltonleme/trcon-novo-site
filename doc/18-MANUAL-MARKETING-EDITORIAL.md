@@ -2,7 +2,7 @@
 
 > Manual completo: [`../../sirius-marketing/projeto/docs/cursor/12_manual_usuario_marketing.md`](../../sirius-marketing/projeto/docs/cursor/12_manual_usuario_marketing.md)  
 > **Guia capa / demos / apresentação:** §4.1 do manual completo.  
-> Atualizado em **30/07/2026**
+> Atualizado em **31/07/2026**
 
 ## O que vai para onde
 
@@ -13,6 +13,8 @@
 | **Post social** | LinkedIn (não site) |
 
 **Radar TRCon** (Sinais de IA e tecnologia) **não** recebe artigos do marketing — só pipeline automático de sinais externos.
+
+No marketing, o editor vê **pré-visualização** do artigo (layout ≈ `/novidades/…`) e do post LinkedIn **antes** de aprovar.
 
 ## Layout na home (jul/2026)
 
