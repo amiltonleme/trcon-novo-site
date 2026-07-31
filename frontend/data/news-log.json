@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-07-31T10:25:12.004740+00:00",
+  "generated_at": "2026-07-31T20:57:00.029220+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
+    {
+      "source": "Olhar Digital",
+      "category": "IA",
+      "title": "OpenAI alcança 1 bilhão de usuários após reduzir preços de modelos de IA",
+      "summary": "OpenAI alcança 1 bilhão de usuários após reduzir preços de modelos de IA",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNDlpb3hCbk15X0FOUTUwSG9uT05nMzJYenUxbkVvdlEweXRUM2llRXZqRWpLeXhYY0dnN2E2VnpLVFo0WlgtVlJqQll1aTMySTZ6RmVnZlJhVWxXYlFzRXFhSTZCN0lxWHRvOGhFT3FTUGJad3dfU1NlOTJfNGMyNHFoM3hVVVlUOXZOZFlMN19pcXNxR3RRZ2FiX1htMnNwTlI2MEViR1Nzc0Z2bnNmbFliemFCVUNtQmRnX3Z1Nl9hV3VWbFhKM3VaTVdfMXdYdVE?oc=5",
+      "publishedAt": "Fri, 31 Jul 2026 20:23:00 GMT"
+    },
     {
       "source": "BBC",
       "category": "IA",
@@ -12,20 +20,12 @@
       "publishedAt": "Sat, 25 Jul 2026 10:10:38 GMT"
     },
     {
-      "source": "CNN Brasil",
+      "source": "TecMundo",
       "category": "IA",
-      "title": "Limite da IA: empresas de tecnologia pedem que EUA freiem modelos avançados",
-      "summary": "Limite da IA: empresas de tecnologia pedem que EUA freiem modelos avançados",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY0dENTR0MDRlRnJjT3Y0RE1TUVRkTjJIeHlyS0pIRkd3WkdSNjJoZUpqTThZa3dvVEl3YTZhNFhnVldDLUQ3VUpyUDU2czl4WVVHdlpZanhiOXByOWxvSWNkeTBxM2NsWlVwS1NqejBJckNNTUJUR2dxdDJtTXVEblpYR2JuX3RVQ3hqT1B3aTNJU01ZUjV6ZWYxUXJ1enYtN01WcW1ESjR6NkF3WkV4Vm5BNnM2QQ?oc=5",
-      "publishedAt": "Wed, 29 Jul 2026 21:29:02 GMT"
-    },
-    {
-      "source": "Olhar Digital",
-      "category": "IA",
-      "title": "Efeito OpenAI: Anthropic diz que IA invadiu sistemas de três empresas",
-      "summary": "Efeito OpenAI: Anthropic diz que IA invadiu sistemas de três empresas",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRGhVdXVraENWR0ZHOFZsQUQ5WEE3dnA3VVZWVlVQcW5aRElXZ3BvbE9FdlhNdlRaaGgwTGhqS3NVU2ZKa2FWR054R3dmelBGZEs2a2xvdDlrVGx1eUlxMC1wOHJ6bmpadFVHN0xPblNlQzdWa1UzandTbXJVTjNoNEtWdExLc1M2N1NJdlZoTWRsQWpuaUs3LTduUzlvMU10bWRKb1oyRzUxUG5MTC1vazExeFVnc2VRY3c?oc=5",
-      "publishedAt": "Thu, 30 Jul 2026 23:55:00 GMT"
+      "title": "CEO da Microsoft diz que empresas podem falir ao terceirizar IA demais",
+      "summary": "CEO da Microsoft diz que empresas podem falir ao terceirizar IA demais",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaElNY3JJWFBySDZMNU9Xd185MXVlX2pfSW81c2Y5OXh0a1hIaFIxV2dOallZWTdTTGtnWjZBX1JFaTJBTUVzR05RY2ppRV84Uks0YnVjZUhHbXhfTGN6dGxkWUlnd0NCUXRCMFRiTHp5SUprUG9WUXo3c0xGcDlTeGdLWllnd3gtY1cxSm45aWdmamJtSS1zRlhNYXJIdW14b0VPRFNXWTNNdFN4Vi1ydVBNVnFmQmRi?oc=5",
+      "publishedAt": "Fri, 31 Jul 2026 18:45:00 GMT"
     },
     {
       "source": "Quero Bolsa",
@@ -44,12 +44,12 @@
       "publishedAt": "Thu, 30 Jul 2026 09:50:00 GMT"
     },
     {
-      "source": "CNN Brasil",
+      "source": "Monitor Mercantil",
       "category": "IA",
-      "title": "Empresas apostam em modelo de IA para competitividade no e-commerce",
-      "summary": "Empresas apostam em modelo de IA para competitividade no e-commerce",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZGVGaGZMMWRCbjdnVHNCUFRKSVJYcGE1eDA3M1VfdzREcU5zcEdlWEdBME9IeEVUc0s1WlBjY19fZFNpNTQ1Vm1aalZieEU3UDRlMFdOX3BTaGJjTnpobkJFTUlfc3NvUkRFTUN4QnlXZWZTQmQxcnp5S3dOTWFVd1l6UVEtX1VCcWlxMEdKdzRkLTZSWnNtcDlSRUJZSEswajFaZ0ZpenN6ZjBoaU9leDJNazc4QQ?oc=5",
-      "publishedAt": "Fri, 31 Jul 2026 09:22:18 GMT"
+      "title": "dataRain: ‘Não se vende solução de IA sem testá-la no seu próprio negócio’",
+      "summary": "dataRain: ‘Não se vende solução de IA sem testá-la no seu próprio negócio’",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMkM3NlB1TnRMTTMwWTJjWkVjaDRXVFZwemtUd0daQWJLcjhHOHBoQWpiTVBzbG01MG9pQU0tVkIyblhJd3JqcVN0dmZVTWVNYmN1a09oTWg1VlB0MC1sazRhOXg2Q2tOV0UtRFFFd2VWV2tzMUZaRnhtTlYzeHlYNGlocEp4ZmctTE1rTnNzeEkyZGdqS3RGODdCMEFWSDBPSlJra2psQQ?oc=5",
+      "publishedAt": "Fri, 31 Jul 2026 18:41:42 GMT"
     },
     {
       "source": "www.gov.br",
@@ -76,20 +76,12 @@
       "publishedAt": "Fri, 15 May 2026 07:00:00 GMT"
     },
     {
-      "source": "ndmais.com.br",
+      "source": "ND Mais",
       "category": "Tecnologia",
       "title": "O desenvolvimento de software entra em uma nova fase",
       "summary": "O desenvolvimento de software entra em uma nova fase",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSnpBeW1nUVZVRFp3cWlWRVB3RVV1blJjSEwwcFFpU2UyQ3h2Zk56M3Fjby1JU2JqdUhEMlR2X2dCQlBVTHlnd2R5b3ZhdTRhUjZ4c0pfVGpnUjIzMW5HU0pzMDVDTDFHRnZkNVlqMHh5UHNmNW5rdUhFQWVMeDh5QXY0WEhJcU1kS3FId2dIRQ?oc=5",
       "publishedAt": "Mon, 08 Jun 2026 07:00:00 GMT"
-    },
-    {
-      "source": "maringapost.com.br",
-      "category": "Tecnologia",
-      "title": "Software by Maringá conecta empresas e impulsiona o desenvolvimento tecnológico",
-      "summary": "Software by Maringá conecta empresas e impulsiona o desenvolvimento tecnológico",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcFMzRGI1RUd2UXRQNFVXeWZ0Y2NpZjBvdVlqMGJLVXJwZ0dZN1JsUERFd292UTdROVZSaV8wOUx4N3pYbEhCNFBKbU9qT09fRnlpaXRIdlhTVGRXaHN2YjR1bk9PUjUyU3hFNVcyU2VQdTd0ZnBobTFPMnBCTXp1ZGdnTDZzNUQ2Rm43UWY1LUhTU082d2ducTctVzMwVmJ2V2FYV2YtZFZYTWdibEthYnpnYXNlcWVySFB0czF5SkJwLTJzbkE?oc=5",
-      "publishedAt": "Mon, 25 May 2026 07:00:00 GMT"
     },
     {
       "source": "noticenter.com.br",
@@ -98,6 +90,14 @@
       "summary": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSVJHd1ZRSXIyZllmWmJjWE9URWFfYzB4bWU0UUNxd3ZJdlBvMkhza0dOSHJDYmZoZjRkTmJUT2dKTjhVMkhmU1JVd2hsbnZINEFORFNIM2dmNjYxR3h3dUw3ZkNXTERDN0hCMjBmUGtFMV9weXc1R2tjOTlwdnNzVVpheFQxSDdPYkJpQy11d1k2ZnZHeGhyLTZwWllsR0d5dnZsSlpENTByVzNQSmlrdFZYdVpmOUo0c25fUUtHd0hBcWQwdnlTOUtqY0NPbW5ycmJzcXdQVXRwdFFPMFVjcThCbmZMR1dHSDVXb0k3S21vT0tCTmhJcg?oc=5",
       "publishedAt": "Sat, 27 Jun 2026 00:06:00 GMT"
+    },
+    {
+      "source": "jornaltribuna.com.br",
+      "category": "Tecnologia",
+      "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
+      "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
+      "publishedAt": "Wed, 01 Jul 2026 07:00:00 GMT"
     }
   ]
 }

@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-07-31T10:25:10.937855+00:00",
+  "generated_at": "2026-07-31T20:56:58.988796+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
+    {
+      "title": "OpenAI alcança 1 bilhão de usuários após reduzir preços de modelos de IA",
+      "summary": "OpenAI alcança 1 bilhão de usuários após reduzir preços de modelos de IA",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNDlpb3hCbk15X0FOUTUwSG9uT05nMzJYenUxbkVvdlEweXRUM2llRXZqRWpLeXhYY0dnN2E2VnpLVFo0WlgtVlJqQll1aTMySTZ6RmVnZlJhVWxXYlFzRXFhSTZCN0lxWHRvOGhFT3FTUGJad3dfU1NlOTJfNGMyNHFoM3hVVVlUOXZOZFlMN19pcXNxR3RRZ2FiX1htMnNwTlI2MEViR1Nzc0Z2bnNmbFliemFCVUNtQmRnX3Z1Nl9hV3VWbFhKM3VaTVdfMXdYdVE?oc=5",
+      "source": "Olhar Digital",
+      "published_at": "Fri, 31 Jul 2026 20:23:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
     {
       "title": "A inteligência artificial vai ajudar você no trabalho ou roubar seu emprego? Veja os cargos mais afetados",
       "summary": "A inteligência artificial vai ajudar você no trabalho ou roubar seu emprego? Veja os cargos mais afetados",
@@ -13,20 +22,11 @@
       "signal": "flat"
     },
     {
-      "title": "Limite da IA: empresas de tecnologia pedem que EUA freiem modelos avançados",
-      "summary": "Limite da IA: empresas de tecnologia pedem que EUA freiem modelos avançados",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY0dENTR0MDRlRnJjT3Y0RE1TUVRkTjJIeHlyS0pIRkd3WkdSNjJoZUpqTThZa3dvVEl3YTZhNFhnVldDLUQ3VUpyUDU2czl4WVVHdlpZanhiOXByOWxvSWNkeTBxM2NsWlVwS1NqejBJckNNTUJUR2dxdDJtTXVEblpYR2JuX3RVQ3hqT1B3aTNJU01ZUjV6ZWYxUXJ1enYtN01WcW1ESjR6NkF3WkV4Vm5BNnM2QQ?oc=5",
-      "source": "CNN Brasil",
-      "published_at": "Wed, 29 Jul 2026 21:29:02 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Efeito OpenAI: Anthropic diz que IA invadiu sistemas de três empresas",
-      "summary": "Efeito OpenAI: Anthropic diz que IA invadiu sistemas de três empresas",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRGhVdXVraENWR0ZHOFZsQUQ5WEE3dnA3VVZWVlVQcW5aRElXZ3BvbE9FdlhNdlRaaGgwTGhqS3NVU2ZKa2FWR054R3dmelBGZEs2a2xvdDlrVGx1eUlxMC1wOHJ6bmpadFVHN0xPblNlQzdWa1UzandTbXJVTjNoNEtWdExLc1M2N1NJdlZoTWRsQWpuaUs3LTduUzlvMU10bWRKb1oyRzUxUG5MTC1vazExeFVnc2VRY3c?oc=5",
-      "source": "Olhar Digital",
-      "published_at": "Thu, 30 Jul 2026 23:55:00 GMT",
+      "title": "CEO da Microsoft diz que empresas podem falir ao terceirizar IA demais",
+      "summary": "CEO da Microsoft diz que empresas podem falir ao terceirizar IA demais",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaElNY3JJWFBySDZMNU9Xd185MXVlX2pfSW81c2Y5OXh0a1hIaFIxV2dOallZWTdTTGtnWjZBX1JFaTJBTUVzR05RY2ppRV84Uks0YnVjZUhHbXhfTGN6dGxkWUlnd0NCUXRCMFRiTHp5SUprUG9WUXo3c0xGcDlTeGdLWllnd3gtY1cxSm45aWdmamJtSS1zRlhNYXJIdW14b0VPRFNXWTNNdFN4Vi1ydVBNVnFmQmRi?oc=5",
+      "source": "TecMundo",
+      "published_at": "Fri, 31 Jul 2026 18:45:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -49,11 +49,11 @@
       "signal": "up"
     },
     {
-      "title": "Empresas apostam em modelo de IA para competitividade no e-commerce",
-      "summary": "Empresas apostam em modelo de IA para competitividade no e-commerce",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZGVGaGZMMWRCbjdnVHNCUFRKSVJYcGE1eDA3M1VfdzREcU5zcEdlWEdBME9IeEVUc0s1WlBjY19fZFNpNTQ1Vm1aalZieEU3UDRlMFdOX3BTaGJjTnpobkJFTUlfc3NvUkRFTUN4QnlXZWZTQmQxcnp5S3dOTWFVd1l6UVEtX1VCcWlxMEdKdzRkLTZSWnNtcDlSRUJZSEswajFaZ0ZpenN6ZjBoaU9leDJNazc4QQ?oc=5",
-      "source": "CNN Brasil",
-      "published_at": "Fri, 31 Jul 2026 09:22:18 GMT",
+      "title": "dataRain: ‘Não se vende solução de IA sem testá-la no seu próprio negócio’",
+      "summary": "dataRain: ‘Não se vende solução de IA sem testá-la no seu próprio negócio’",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMkM3NlB1TnRMTTMwWTJjWkVjaDRXVFZwemtUd0daQWJLcjhHOHBoQWpiTVBzbG01MG9pQU0tVkIyblhJd3JqcVN0dmZVTWVNYmN1a09oTWg1VlB0MC1sazRhOXg2Q2tOV0UtRFFFd2VWV2tzMUZaRnhtTlYzeHlYNGlocEp4ZmctTE1rTnNzeEkyZGdqS3RGODdCMEFWSDBPSlJra2psQQ?oc=5",
+      "source": "Monitor Mercantil",
+      "published_at": "Fri, 31 Jul 2026 18:41:42 GMT",
       "category": "IA",
       "signal": "flat"
     }
