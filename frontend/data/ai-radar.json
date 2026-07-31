@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-30T20:59:22.591494+00:00",
+  "generated_at": "2026-07-31T10:25:10.937855+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
     {
-      "title": "OpenAI abre guerra de preços na IA com cortes de até 80% nos modelos menores",
-      "summary": "OpenAI abre guerra de preços na IA com cortes de até 80% nos modelos menores",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVTJCSGczM2JWa3VERThfeFdtbEZzX25PbmxRcjVJTXFZMmJUd2ZtdG8yU3ppcXcxZU12aDhwZl96bzhJUFpUYzNBc3kxZ1J6ZmZvdzRSMmNSWFdSbU5XZVNXNWdWbzNZMlpzM3BPc01jODc4QnBwSnctRlFVSDBvWlJSTGlGc2tTS0ZXbUw0andCXzBLVEo0VXBCdEdpbTBXUmh2YzFhTjkwY1JOZUdVWEdCWE90OHV1RnNHLV9vcTZsUmpzSjhXSUFYdm5CT1VQbVM5emtR?oc=5",
-      "source": "Olhar Digital",
-      "published_at": "Thu, 30 Jul 2026 18:59:00 GMT",
+      "title": "A inteligência artificial vai ajudar você no trabalho ou roubar seu emprego? Veja os cargos mais afetados",
+      "summary": "A inteligência artificial vai ajudar você no trabalho ou roubar seu emprego? Veja os cargos mais afetados",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5vZkpEWmcxNm5FbDVSYzZLUWJBTUFuUEdQQWdOc3hhTER6MG5tMzQ0VzFxXzZvMWlwMXNDUkZNakhjcVNHYkFNNUdQNXFYeFQ1R1dlUV9OVUpvT1pzTGc2U1p30gFnQVVfeXFMTjBQVTA3WFdrcURZS0xZQnpXSWhxZDNKTWVXakVTNXN6OVJwOEt5T0ZuNERiRFRVRUxZNEJJcy0yd1lsWHo0bnVfSUl2VXNmWGpJWlZTVzFDVUdJZHEzVXdzV2N6NGlCRQ?oc=5",
+      "source": "BBC",
+      "published_at": "Sat, 25 Jul 2026 10:10:38 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -22,6 +22,15 @@
       "signal": "flat"
     },
     {
+      "title": "Efeito OpenAI: Anthropic diz que IA invadiu sistemas de três empresas",
+      "summary": "Efeito OpenAI: Anthropic diz que IA invadiu sistemas de três empresas",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRGhVdXVraENWR0ZHOFZsQUQ5WEE3dnA3VVZWVlVQcW5aRElXZ3BvbE9FdlhNdlRaaGgwTGhqS3NVU2ZKa2FWR054R3dmelBGZEs2a2xvdDlrVGx1eUlxMC1wOHJ6bmpadFVHN0xPblNlQzdWa1UzandTbXJVTjNoNEtWdExLc1M2N1NJdlZoTWRsQWpuaUs3LTduUzlvMU10bWRKb1oyRzUxUG5MTC1vazExeFVnc2VRY3c?oc=5",
+      "source": "Olhar Digital",
+      "published_at": "Thu, 30 Jul 2026 23:55:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
       "title": "IA não vai salvar uma empresa mal gerenciada: sem processos, a tecnologia apenas acelera os erros",
       "summary": "IA não vai salvar uma empresa mal gerenciada: sem processos, a tecnologia apenas acelera os erros",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NMG0tRHd0dElpbkpycGNDYWRqbGRwM3lVMjJWRm5uRWVnOVpMNEpGZEdQMjc0Ul9PQ0ZiVVlkUnB6cEs0dy1WYjQ2M3h2UFBPWmNxWFVXbXNrQWpJTHhwMW5mMFBGMGlWU2phYUpKWExRS2hyTGJiaXBGdTRVNEk?oc=5",
@@ -29,15 +38,6 @@
       "published_at": "Wed, 29 Jul 2026 14:13:41 GMT",
       "category": "IA",
       "signal": "flat"
-    },
-    {
-      "title": "OpenAI e rivais defendem pausa estratégica no avanço da IA",
-      "summary": "OpenAI e rivais defendem pausa estratégica no avanço da IA",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRGhIYUdWblVqTHdla0NQUUljb1d2MFNIWHVzUXVub2hwb1RIYm5zTGtZV0pKeU9zVktDLUF6M2t6ZFdBekZheDlrbVdzcWszS1VaVy1rdnA5QWJneDhOREtwYVhSSDcycU5jMEljQTJEeXlENDQ3YUR4aU1nS1ZWajRGUlIzSHBfU09tME5uNUNKdEJiQmhwMDN2ektDSlhEbVVySzBVbUFEaXE2MkZ5eUp3bWFDSDNHNzhZLXBGVQ?oc=5",
-      "source": "Olhar Digital",
-      "published_at": "Wed, 29 Jul 2026 13:53:00 GMT",
-      "category": "IA",
-      "signal": "up"
     },
     {
       "title": "Apesar do avanço da IA, 86% das empresas ainda não exploram todo o potencial da tecnologia",
@@ -49,11 +49,11 @@
       "signal": "up"
     },
     {
-      "title": "IA impulsiona gastos globais com tecnologia em 2026",
-      "summary": "IA impulsiona gastos globais com tecnologia em 2026",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRjJGbDl0TEk2R0trYTVwbV9mNlhicG55bzhsdENEc2VtQU9hV1phR2NTWms0UVN2bmtEak93SC1SeHEzMTN4T2h2dEtGLUNTYlhndUpsS0VTdUtPWWlNYTRRLWpyLVJrRWhxWVZvMzREbVQ1NjY0MXBMTUhVcktrRDBBWWVGeUM2LTBCVVRsTWh5QTZPNmlCSVhpdk9pRlBsS1hVOTZfdEVFOGVyeXdYLWVDOFpIeUYzLUNaUndTVWhQdWIybk9JYU1iSktCZ9IB3AFBVV95cUxQdV9RQjJFU1l3THRmd2UtaV9SRnc1TkRUNmx2aUx0R0pCOEU5eExrU3JkV3VrTXJHb0lSN2xOQ0Q0SzBNeHRkZU5ONl9rbDNGRFhZOEdmOVQwajNNNVBiWnBfLXNzZ0J1REJ3MG5NTFFlTEFKU3owNHJrVks0VTlaRW1ETXFJZnNnTUc4dGxLMnZQNk5wbU1Jd2dWZHdZSlF5ajB6T3REYW54eFlmQVFTX0ZUM2hwa1VLQ2lNQzRNLTBQNjd1WkEyeXNnbjBUeVhVVFNZeWFJdHJrN2pP?oc=5",
-      "source": "Valor Econômico",
-      "published_at": "Thu, 30 Jul 2026 13:00:13 GMT",
+      "title": "Empresas apostam em modelo de IA para competitividade no e-commerce",
+      "summary": "Empresas apostam em modelo de IA para competitividade no e-commerce",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZGVGaGZMMWRCbjdnVHNCUFRKSVJYcGE1eDA3M1VfdzREcU5zcEdlWEdBME9IeEVUc0s1WlBjY19fZFNpNTQ1Vm1aalZieEU3UDRlMFdOX3BTaGJjTnpobkJFTUlfc3NvUkRFTUN4QnlXZWZTQmQxcnp5S3dOTWFVd1l6UVEtX1VCcWlxMEdKdzRkLTZSWnNtcDlSRUJZSEswajFaZ0ZpenN6ZjBoaU9leDJNazc4QQ?oc=5",
+      "source": "CNN Brasil",
+      "published_at": "Fri, 31 Jul 2026 09:22:18 GMT",
       "category": "IA",
       "signal": "flat"
     }
