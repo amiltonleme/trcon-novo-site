@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-08-01T09:47:20.823326+00:00",
+  "generated_at": "2026-08-01T20:42:02.113087+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
+    {
+      "source": "Monitor Mercantil",
+      "category": "IA",
+      "title": "O verdadeiro ROI da inteligência artificial não está na IA generativa, mas nas decisões que ela acelera",
+      "summary": "O verdadeiro ROI da inteligência artificial não está na IA generativa, mas nas decisões que ela acelera",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMTdzNmVhS2s4X21vTEhjSzVzRnViMUZFRi04S2pJRGMtalIwRnhKLVhOaXJsVThWVkdNNXNfOE9GM01vT1lTdzllbUJfeUhmajJFck44WGNEa2poS01wTlc2MXNTTXZpa2VlZndYRUczdEE5clc0S3ByOTR5OG1LVDBnQUF1QkZoUzVOWDRvU1l6R0J3UEdIcm5TTlp0Yi04UmpPRjBPYzdyakxlckdWY0RSQ1l2R1VlYVVDdUZmUFBycmJuUEpKUVRLYU1BbWxJ?oc=5",
+      "publishedAt": "Sat, 01 Aug 2026 00:30:04 GMT"
+    },
     {
       "source": "G1",
       "category": "IA",
@@ -12,44 +20,36 @@
       "publishedAt": "Mon, 27 Jul 2026 06:00:32 GMT"
     },
     {
-      "source": "Época Negócios",
+      "source": "CNN Brasil",
+      "category": "IA",
+      "title": "Limite da IA: empresas de tecnologia pedem que EUA freiem modelos avançados",
+      "summary": "Limite da IA: empresas de tecnologia pedem que EUA freiem modelos avançados",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY0dENTR0MDRlRnJjT3Y0RE1TUVRkTjJIeHlyS0pIRkd3WkdSNjJoZUpqTThZa3dvVEl3YTZhNFhnVldDLUQ3VUpyUDU2czl4WVVHdlpZanhiOXByOWxvSWNkeTBxM2NsWlVwS1NqejBJckNNTUJUR2dxdDJtTXVEblpYR2JuX3RVQ3hqT1B3aTNJU01ZUjV6ZWYxUXJ1enYtN01WcW1ESjR6NkF3WkV4Vm5BNnM2QQ?oc=5",
+      "publishedAt": "Wed, 29 Jul 2026 21:29:02 GMT"
+    },
+    {
+      "source": "O GLOBO",
+      "category": "IA",
+      "title": "‘Hacker’ autônomo: como IA da OpenAI 'invadiu' várias plataformas e por que isso preocupa analistas e empresas?",
+      "summary": "‘Hacker’ autônomo: como IA da OpenAI 'invadiu' várias plataformas e por que isso preocupa analistas e empresas?",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOSUViY05iYkw2N3RGNXpxZGFMTFg2cWNOUDVjYnJDampDemlaZEYtUDNPZzBocUJNUnB3WmkxV3NUdEdEWm1BdmFFbjY0S25TWl9sbVlfTU81anFfWndheV95WmlReGQ3ejExN2x1UlYxMC1IZ0hWVmJsN2stQXpOOWxYR3ZkaWI0M01RQUd3a0FIU1BZUUN6UlN2MU9zeFJQcjJSU1RrQmdYbEhGQ1hIVTVldmdiclV5bTRLN0diNUhVOXl4LVlrbTRtbjQydF9NUGJYbExvTzhfVEphNGMyWThVMktCTkhfY0VMdllPcm1mNWZrR1g3d0FYUkFEcDhjTW51NXpn0gGUAkFVX3lxTE5KVzdfYUVicWxMYmRHdjVpR3R0Qm9OZ1RSbW10Wk4zb2NtQ1BxVmtZV1dlUTdWRVhaMk5jcDhXTmZyU2ZuOUlLbTR3UXB0RlliaEFTREMzSS02Q2ZjUGhadE9MZXFqbUVuWnZPcTR5eGY3OXFvYXJlQnhlXzcxYWdlUEhNRVdVYmlPZk1CMTVjR2dpWEp5OGhqeFVxOU95VElSbWFhTFd5bDBpYTVqSGdDUUhFOHdWdFBhMVJhdWhrUlRNQWNuTkNUYnZXbkxZbk5wMllRb1FCU2JTSlBGajBOY3o5S2h0NklTQmJJMjB1aUlLZUxfLXVYMjJQRU5SQ0NHRnZiaGh1eVN6a1ZJaTBxQnV3SA?oc=5",
+      "publishedAt": "Thu, 30 Jul 2026 07:00:51 GMT"
+    },
+    {
+      "source": "epocanegocios.globo.com",
+      "category": "IA",
+      "title": "Modelos de IA da Anthropic invadiram três empresas após falha em teste de segurança",
+      "summary": "Modelos de IA da Anthropic invadiram três empresas após falha em teste de segurança",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxON3lYWFVwLU9taGd2M3ozS1FfTHEyRzc4dGxVeXEyNTFBWTEzUGJoOGlKYkhkZkd5RmdnNGgwS1BncUt6WUlUenZxODkzM2Z2akthLUF1MWhQRkRLYmoxTEhJM0h2RXZFNmNreG1uSVlwLWlSSkVyb04zbVJoN1RZZkhnSUhUaXFKRmhpVUFEdWozc3FGZkZKaEs3Zm9EUmhjQ0c2Rl9TN3hHNHhtZllJVUtaLW1XUVFqRnhZWUdwSTNvWlBDbFNaSnVCRmhmbGp0UHBkTzVGMHUxRkh5M0Fkd3pTVjVyOXNPZFRQX1pkbDdkQVHSAYICQVVfeXFMTUVGUElmTFBsTUNFWVYybEF5ZFA5aVNMLXozZ2pNZnlQbWZYb3pkUFBRTUplLTBzQ3Via01oVjJCQzNydE1UWUgyajcxeDVRWnpfYjJmeWpuYzVvb0JlbVNrVkVzSjNadHpwTGFxY1lHTi1BcjFmbTN5RFlqM1Rncnp1ajBGMElsQV9VOUlHYlFzV0hjbVRWQW5xS0gyaC1qNUgybk1hOTVoTm5laFJHNEUyQWRIYkVQNHduNjVianNQV0JkSU43MG4tSjNOZC0xZE5YWmZOTElSS1pXRHM5bm13Rk5ybExOMUs4REFBM0hJc21uSkwyT2FROFZicnZWWHh3?oc=5",
+      "publishedAt": "Fri, 31 Jul 2026 12:52:42 GMT"
+    },
+    {
+      "source": "epocanegocios.globo.com",
       "category": "IA",
       "title": "Empresas de IA compram livros raros para treinar seus modelos, digitalizam conteúdo e destroem exemplares físicos",
       "summary": "Empresas de IA compram livros raros para treinar seus modelos, digitalizam conteúdo e destroem exemplares físicos",
       "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQTXpsZFFsVTNCUEdvd2M2WlZickkxN3ZKRlFldlFCZXZYcXZ3Z1FUZDZkS0ZlNGRnQmVUMXQyYW1qbFNHcGZqMV96M0lITm5rLThKT2U3Ni1oc1pQbWNoUlZ1bGFmVk5PVzdhNnBidE9vOERIUV9NbDNKWnNxdGtVY0o3ay1kNXhjUl9naWROU1NYdW1ITUJCV2dZaWYxelBzcGI0QVNkUzZMcFZfdExkamNsVFk2a3B0N3d0cDhtS3NCOGlPb2hpczdVT0k4YnlETXVscElUYnVtQzJ1Rm94NGE3b1Jqa3FHMWMxc1hsaGlUbVBWemFZNWk5cHR4Rnpzd2RXeUc5bTlSZS05UDgzbXlMcXlFQVpMVnfSAagCQVVfeXFMTUx4Z184RnFjYmNaRDhIeW5USnRFNDhSVDdkZk1EVm95OHEweXMwRk5CZmw1dVdNeG9ZZ0Vfd0EtSTRjLTEyLWp1a25lNGs3N292UWJRSGZpYWNodEhyM3NfbVNCb2loREVmR2RiRTZLNnZRRlE0a0VsVEV5U1FINEZ4WlhTaERKenFJNWNkNkF0VVFkQUp0RVZ5VXlWcll3NFhsOGhuSnhxOGdRTFJnU3U3NmdMUWpXTzVualdpMFlRWHRKZUllRTMtQl93Wnh6UWxpSmVUc2J4SVBMb0FTcHhqb21PNXE4OFdaS2RIU2QwQnpnclZsa0NoejYtV2kxdlE5LWtRdjRmYlY3dHpReWszVUZBUkxXbzRROGl4T0JSSjl3ekJXZk0?oc=5",
       "publishedAt": "Wed, 29 Jul 2026 12:17:43 GMT"
-    },
-    {
-      "source": "TecMundo",
-      "category": "IA",
-      "title": "CEO da Microsoft diz que empresas podem falir ao terceirizar IA demais",
-      "summary": "CEO da Microsoft diz que empresas podem falir ao terceirizar IA demais",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaElNY3JJWFBySDZMNU9Xd185MXVlX2pfSW81c2Y5OXh0a1hIaFIxV2dOallZWTdTTGtnWjZBX1JFaTJBTUVzR05RY2ppRV84Uks0YnVjZUhHbXhfTGN6dGxkWUlnd0NCUXRCMFRiTHp5SUprUG9WUXo3c0xGcDlTeGdLWllnd3gtY1cxSm45aWdmamJtSS1zRlhNYXJIdW14b0VPRFNXWTNNdFN4Vi1ydVBNVnFmQmRi?oc=5",
-      "publishedAt": "Fri, 31 Jul 2026 18:45:00 GMT"
-    },
-    {
-      "source": "Diário do Comércio",
-      "category": "IA",
-      "title": "Apesar do avanço da IA, 86% das empresas ainda não exploram todo o potencial da tecnologia",
-      "summary": "Apesar do avanço da IA, 86% das empresas ainda não exploram todo o potencial da tecnologia",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5xUGMzZE0wTGVqSnlsUHlEYUlPel9iX3k2MmtNYzhOX3VMX2JLU0t5Qk9GbmRjRnFQU0gwQTVrWUozckxaeWVQU0d4QmlBNnJjNGNIOHIxZVJjX0ZvckV5Yk54X0hGS2xQVVRzUDZsbWw3aDMtZUYwSGd1aXI3RUE?oc=5",
-      "publishedAt": "Thu, 30 Jul 2026 09:50:00 GMT"
-    },
-    {
-      "source": "Quero Bolsa",
-      "category": "IA",
-      "title": "IA não vai salvar uma empresa mal gerenciada: sem processos, a tecnologia apenas acelera os erros",
-      "summary": "IA não vai salvar uma empresa mal gerenciada: sem processos, a tecnologia apenas acelera os erros",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NMG0tRHd0dElpbkpycGNDYWRqbGRwM3lVMjJWRm5uRWVnOVpMNEpGZEdQMjc0Ul9PQ0ZiVVlkUnB6cEs0dy1WYjQ2M3h2UFBPWmNxWFVXbXNrQWpJTHhwMW5mMFBGMGlWU2phYUpKWExRS2hyTGJiaXBGdTRVNEk?oc=5",
-      "publishedAt": "Wed, 29 Jul 2026 14:13:41 GMT"
-    },
-    {
-      "source": "Exame",
-      "category": "IA",
-      "title": "O profissional \"AI-First\": por que empresas estão valorizando quem começa o trabalho pela IA",
-      "summary": "O profissional \"AI-First\": por que empresas estão valorizando quem começa o trabalho pela IA",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcHlkRFk2T21oUmpfVWNKaEdHUWl3YVEyeS05Wm9XWTRqcGFvQ1FXbmJjYkJkWXl1N01zYUs0aktibEtiZnZmdWw4U29XaWd4MThPNjFUX1Itc3UzM1ZXSEdiT21ONTJ2dWhiQWtOak9OWm5kVGhqTmdBbXlETTZtaE93b3JXUDVveng2d3VmUk53bFRmYXRvUC1XcjFIMkpBWXB5LUl3OF90d0RrdW5ra0hBLXhXSTRZVm9mSS01NXhIM2owSVFldUhISVc?oc=5",
-      "publishedAt": "Sat, 01 Aug 2026 08:10:53 GMT"
     },
     {
       "source": "www.gov.br",
@@ -60,7 +60,7 @@
       "publishedAt": "Fri, 06 Feb 2026 08:00:00 GMT"
     },
     {
-      "source": "TI INSIDE Online",
+      "source": "tiinside.com.br",
       "category": "Tecnologia",
       "title": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
       "summary": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
