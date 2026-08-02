@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T09:46:47.566398+00:00",
+  "generated_at": "2026-08-02T20:44:43.332241+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
@@ -12,44 +12,44 @@
       "publishedAt": "Sat, 01 Aug 2026 00:30:04 GMT"
     },
     {
-      "source": "TecMundo",
+      "source": "BBC",
       "category": "IA",
-      "title": "CEO da Microsoft diz que empresas podem falir ao terceirizar IA demais",
-      "summary": "CEO da Microsoft diz que empresas podem falir ao terceirizar IA demais",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaElNY3JJWFBySDZMNU9Xd185MXVlX2pfSW81c2Y5OXh0a1hIaFIxV2dOallZWTdTTGtnWjZBX1JFaTJBTUVzR05RY2ppRV84Uks0YnVjZUhHbXhfTGN6dGxkWUlnd0NCUXRCMFRiTHp5SUprUG9WUXo3c0xGcDlTeGdLWllnd3gtY1cxSm45aWdmamJtSS1zRlhNYXJIdW14b0VPRFNXWTNNdFN4Vi1ydVBNVnFmQmRi?oc=5",
-      "publishedAt": "Fri, 31 Jul 2026 18:45:00 GMT"
+      "title": "A inteligência artificial vai ajudar você no trabalho ou roubar seu emprego? Veja os cargos mais afetados",
+      "summary": "A inteligência artificial vai ajudar você no trabalho ou roubar seu emprego? Veja os cargos mais afetados",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5vZkpEWmcxNm5FbDVSYzZLUWJBTUFuUEdQQWdOc3hhTER6MG5tMzQ0VzFxXzZvMWlwMXNDUkZNakhjcVNHYkFNNUdQNXFYeFQ1R1dlUV9OVUpvT1pzTGc2U1p30gFnQVVfeXFMTjBQVTA3WFdrcURZS0xZQnpXSWhxZDNKTWVXakVTNXN6OVJwOEt5T0ZuNERiRFRVRUxZNEJJcy0yd1lsWHo0bnVfSUl2VXNmWGpJWlZTVzFDVUdJZHEzVXdzV2N6NGlCRQ?oc=5",
+      "publishedAt": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
       "source": "Exame",
       "category": "IA",
-      "title": "A IA mudou o emprego de entrada: empresas esperam mais dos profissionais juniores",
-      "summary": "A IA mudou o emprego de entrada: empresas esperam mais dos profissionais juniores",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcGJCZVQ3cW91UnQwa1FEWUhyaG1UM1RVcmZzQ0RUSllhMjA1V1o2bXhKMFBMZ2kyODFhcUtfSjlQa2xJamgtRWFweThTcDk0cmRXMUF1cFZsb2NFdWRBaFllMnBfUnZTUGZ4ZzI2RkwwektudGNudkpYbFRYR1llUTk3cFNuMDhhTGMwSjlmSmFoeUVOVk9BYVdQSmNxNDAyX0czM1RlcXVDX21X?oc=5",
-      "publishedAt": "Fri, 31 Jul 2026 14:25:04 GMT"
+      "title": "O profissional \"AI-First\": por que empresas estão valorizando quem começa o trabalho pela IA",
+      "summary": "O profissional \"AI-First\": por que empresas estão valorizando quem começa o trabalho pela IA",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcHlkRFk2T21oUmpfVWNKaEdHUWl3YVEyeS05Wm9XWTRqcGFvQ1FXbmJjYkJkWXl1N01zYUs0aktibEtiZnZmdWw4U29XaWd4MThPNjFUX1Itc3UzM1ZXSEdiT21ONTJ2dWhiQWtOak9OWm5kVGhqTmdBbXlETTZtaE93b3JXUDVveng2d3VmUk53bFRmYXRvUC1XcjFIMkpBWXB5LUl3OF90d0RrdW5ra0hBLXhXSTRZVm9mSS01NXhIM2owSVFldUhISVc?oc=5",
+      "publishedAt": "Sat, 01 Aug 2026 08:10:53 GMT"
     },
     {
       "source": "O GLOBO",
       "category": "IA",
-      "title": "Na corrida do ouro da IA, ganha mais dinheiro quem tem ‘pá e picareta’",
-      "summary": "Na corrida do ouro da IA, ganha mais dinheiro quem tem ‘pá e picareta’",
+      "title": "Nem OpenAI, nem Anthropic: veja quem são os vencedores da corrida da IA",
+      "summary": "Nem OpenAI, nem Anthropic: veja quem são os vencedores da corrida da IA",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSnJBT3MxbHVoOFBPQmJ2NkJvOXV3Y1lLaGJxV2RnajgyM0V2MGtfVHhFS2t5cnVydGtEVUk0aHh2ZzdfQjQxLWotaGE4NWJrN3BUNzc2OGJzblVCZ3ctVUlnWEJ5THdIRFdlcHc4Nmt0M19VbVFzcTFHd1MySTJieG1McE5LYVFYU2VrN3BxdzVnc2dHVHZHVEtJMW5NcmczSlhHUUg4X3NOTlE2WHBRaW1lSk9DY0xPcHVhSDJKRjRDOGpfbkM2M1hkXzJ6c3NXRzFB0gHiAUFVX3lxTFBRcGIwdXU4WHlvREtNREdReURTb2RTUDZLcjJ3aHFtSFNfa0ZKWldVMDdiTEpYMHJZR2VtQTVSRE41eUJlOXFGYWV3dm9RcHRhVTk2bjJFUWhDVFIyNzNSSDFkRm11MDV3TjhOTGNoZVZqblRqX2FxcHl4UGpzRHQ5aDVhcXVaUjBxY2FncU5pQk9Ua3N3Tk4tYThRajlvX0o4bTVEeDFibjFCVXJrMXJXMm1MYktTNHRSR0ZrWlNNaTY5dW9aRWNLek5pY3Q5TlE1Z0V0ZGVYM2lKZmhWSWg1T3c?oc=5",
       "publishedAt": "Sun, 02 Aug 2026 07:30:15 GMT"
     },
     {
-      "source": "CNN Brasil",
+      "source": "Economic News Brasil",
+      "category": "IA",
+      "title": "Claude expôs um risco que empresas ainda não colocaram na conta ao adotar IA",
+      "summary": "Claude expôs um risco que empresas ainda não colocaram na conta ao adotar IA",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPb2Yzbm1rNDNOdHZxa3d0SXRUYXg2NzhZdnVHcTBMbTJMSjkxaWs1RU1vb3hDZDNtNFptWHBuLUY3VEpBYUdkLVdEc2NFWFM3ckhZbC1VR1I4Z3ZrejBraEhxV0lOXzQtcmRUcFl3eG1GMmhNMllVU3pCeE13M1hmelRn?oc=5",
+      "publishedAt": "Sun, 02 Aug 2026 15:06:00 GMT"
+    },
+    {
+      "source": "cnnbrasil.com.br",
       "category": "IA",
       "title": "Limite da IA: empresas de tecnologia pedem que EUA freiem modelos avançados",
       "summary": "Limite da IA: empresas de tecnologia pedem que EUA freiem modelos avançados",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY0dENTR0MDRlRnJjT3Y0RE1TUVRkTjJIeHlyS0pIRkd3WkdSNjJoZUpqTThZa3dvVEl3YTZhNFhnVldDLUQ3VUpyUDU2czl4WVVHdlpZanhiOXByOWxvSWNkeTBxM2NsWlVwS1NqejBJckNNTUJUR2dxdDJtTXVEblpYR2JuX3RVQ3hqT1B3aTNJU01ZUjV6ZWYxUXJ1enYtN01WcW1ESjR6NkF3WkV4Vm5BNnM2QQ?oc=5",
       "publishedAt": "Wed, 29 Jul 2026 21:29:02 GMT"
-    },
-    {
-      "source": "BBC",
-      "category": "IA",
-      "title": "Os planos da Amazon e da Apple para inteligência artificial — e as dificuldades financeiras que eles causam",
-      "summary": "Os planos da Amazon e da Apple para inteligência artificial — e as dificuldades financeiras que eles causam",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBoanJsSFpZSXhzTUFCZGt2THJJQmtqd0JsVldxRHd4U2ZCYUJUUnJGeVcySUF2UkRtZ2h6OXkwWlg2eUpqOTgzcy1CdE5OdndBcUtvQ0hYUUZhSWNzMGdPaW9B0gFnQVVfeXFMTV9kTU96ZUZqYXdRZ2NhOFRIQ3dkb216YnkybmZEcWFmcEp4WkV0QW5sbUo4U1dXMUVFV2MwTUxpelQyVjRuRkFXeG5OSFdNVFhhLTc3OUV0d1FQM3U2Q0hFcldwVTZ5aw?oc=5",
-      "publishedAt": "Fri, 31 Jul 2026 20:03:17 GMT"
     },
     {
       "source": "www.gov.br",
