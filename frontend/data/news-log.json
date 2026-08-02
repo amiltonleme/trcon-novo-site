@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T20:42:02.113087+00:00",
+  "generated_at": "2026-08-02T09:46:47.566398+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
@@ -12,12 +12,28 @@
       "publishedAt": "Sat, 01 Aug 2026 00:30:04 GMT"
     },
     {
-      "source": "G1",
+      "source": "TecMundo",
       "category": "IA",
-      "title": "A inteligência artificial vai ajudar você no trabalho ou roubar seu emprego? Veja os cargos mais afetados",
-      "summary": "A inteligência artificial vai ajudar você no trabalho ou roubar seu emprego? Veja os cargos mais afetados",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOXzBaUjdvVnRSYkt1WlJsOVlvTW5oOC1iR0ZXbWVmRzJPZ1F4bF9LY0xoSnNiZEtFSUNIRFVWdThHN2d2MDhWS1ZKM3Zuai0tM0ZwbFlKU2RtSkRQWmFlYmxjNnl5YU5QNjNlVzhvQlk0RVB6V21OSWxKazlJUVV1UDRXZzdyRGFPQnBwQXJEdDJNMzNOWFhMMFh2RldPT3d1cjVFVjVZcnZSRjFoeDdCeHp1XzYzcHpqTncxcnZKaTkyaC13OEpkaGJFdEhuZ2pId0gwRmVZdnNCTGRqRHZta0FneV9ZTGFEMDZiQVI0VlRoeGFXcVFmSURVTnFtaVnSAY4CQVVfeXFMTUdJUDBqZlp2N3hURDB5eEE0cEFhTzZCNW5XaVh5U0N2UXMtdlpIMl9pbmNjS0xOQXNMVUh2TEZoQVZ1ODN0aVk2aHVUMFdIZ3lXdU04UEl3M3IzVkJwM1dBUVl3aHdwMUlsV1pyUFNnNjNPY2RHS3F6SF9DYzNpejc5VXBQSUFfV2FMSVJEMXMydUcxaVRLblhiZUtJaUNJZmZudkdYQjBZSjM5dXhYRXdsMVhUd3BiWUhYcHVSQkxZekdyd0NVNHFmQTgzdjRZY0I5OGtXS08zdHptYVdDdHJocEhmekw2X0FjZHZOd04wQ0VPOWF4NFREcTc1Zm9aekxwQXpiSGRvWmNEdVdR?oc=5",
-      "publishedAt": "Mon, 27 Jul 2026 06:00:32 GMT"
+      "title": "CEO da Microsoft diz que empresas podem falir ao terceirizar IA demais",
+      "summary": "CEO da Microsoft diz que empresas podem falir ao terceirizar IA demais",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaElNY3JJWFBySDZMNU9Xd185MXVlX2pfSW81c2Y5OXh0a1hIaFIxV2dOallZWTdTTGtnWjZBX1JFaTJBTUVzR05RY2ppRV84Uks0YnVjZUhHbXhfTGN6dGxkWUlnd0NCUXRCMFRiTHp5SUprUG9WUXo3c0xGcDlTeGdLWllnd3gtY1cxSm45aWdmamJtSS1zRlhNYXJIdW14b0VPRFNXWTNNdFN4Vi1ydVBNVnFmQmRi?oc=5",
+      "publishedAt": "Fri, 31 Jul 2026 18:45:00 GMT"
+    },
+    {
+      "source": "Exame",
+      "category": "IA",
+      "title": "A IA mudou o emprego de entrada: empresas esperam mais dos profissionais juniores",
+      "summary": "A IA mudou o emprego de entrada: empresas esperam mais dos profissionais juniores",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcGJCZVQ3cW91UnQwa1FEWUhyaG1UM1RVcmZzQ0RUSllhMjA1V1o2bXhKMFBMZ2kyODFhcUtfSjlQa2xJamgtRWFweThTcDk0cmRXMUF1cFZsb2NFdWRBaFllMnBfUnZTUGZ4ZzI2RkwwektudGNudkpYbFRYR1llUTk3cFNuMDhhTGMwSjlmSmFoeUVOVk9BYVdQSmNxNDAyX0czM1RlcXVDX21X?oc=5",
+      "publishedAt": "Fri, 31 Jul 2026 14:25:04 GMT"
+    },
+    {
+      "source": "O GLOBO",
+      "category": "IA",
+      "title": "Na corrida do ouro da IA, ganha mais dinheiro quem tem ‘pá e picareta’",
+      "summary": "Na corrida do ouro da IA, ganha mais dinheiro quem tem ‘pá e picareta’",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSnJBT3MxbHVoOFBPQmJ2NkJvOXV3Y1lLaGJxV2RnajgyM0V2MGtfVHhFS2t5cnVydGtEVUk0aHh2ZzdfQjQxLWotaGE4NWJrN3BUNzc2OGJzblVCZ3ctVUlnWEJ5THdIRFdlcHc4Nmt0M19VbVFzcTFHd1MySTJieG1McE5LYVFYU2VrN3BxdzVnc2dHVHZHVEtJMW5NcmczSlhHUUg4X3NOTlE2WHBRaW1lSk9DY0xPcHVhSDJKRjRDOGpfbkM2M1hkXzJ6c3NXRzFB0gHiAUFVX3lxTFBRcGIwdXU4WHlvREtNREdReURTb2RTUDZLcjJ3aHFtSFNfa0ZKWldVMDdiTEpYMHJZR2VtQTVSRE41eUJlOXFGYWV3dm9RcHRhVTk2bjJFUWhDVFIyNzNSSDFkRm11MDV3TjhOTGNoZVZqblRqX2FxcHl4UGpzRHQ5aDVhcXVaUjBxY2FncU5pQk9Ua3N3Tk4tYThRajlvX0o4bTVEeDFibjFCVXJrMXJXMm1MYktTNHRSR0ZrWlNNaTY5dW9aRWNLek5pY3Q5TlE1Z0V0ZGVYM2lKZmhWSWg1T3c?oc=5",
+      "publishedAt": "Sun, 02 Aug 2026 07:30:15 GMT"
     },
     {
       "source": "CNN Brasil",
@@ -28,28 +44,12 @@
       "publishedAt": "Wed, 29 Jul 2026 21:29:02 GMT"
     },
     {
-      "source": "O GLOBO",
+      "source": "BBC",
       "category": "IA",
-      "title": "‘Hacker’ autônomo: como IA da OpenAI 'invadiu' várias plataformas e por que isso preocupa analistas e empresas?",
-      "summary": "‘Hacker’ autônomo: como IA da OpenAI 'invadiu' várias plataformas e por que isso preocupa analistas e empresas?",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOSUViY05iYkw2N3RGNXpxZGFMTFg2cWNOUDVjYnJDampDemlaZEYtUDNPZzBocUJNUnB3WmkxV3NUdEdEWm1BdmFFbjY0S25TWl9sbVlfTU81anFfWndheV95WmlReGQ3ejExN2x1UlYxMC1IZ0hWVmJsN2stQXpOOWxYR3ZkaWI0M01RQUd3a0FIU1BZUUN6UlN2MU9zeFJQcjJSU1RrQmdYbEhGQ1hIVTVldmdiclV5bTRLN0diNUhVOXl4LVlrbTRtbjQydF9NUGJYbExvTzhfVEphNGMyWThVMktCTkhfY0VMdllPcm1mNWZrR1g3d0FYUkFEcDhjTW51NXpn0gGUAkFVX3lxTE5KVzdfYUVicWxMYmRHdjVpR3R0Qm9OZ1RSbW10Wk4zb2NtQ1BxVmtZV1dlUTdWRVhaMk5jcDhXTmZyU2ZuOUlLbTR3UXB0RlliaEFTREMzSS02Q2ZjUGhadE9MZXFqbUVuWnZPcTR5eGY3OXFvYXJlQnhlXzcxYWdlUEhNRVdVYmlPZk1CMTVjR2dpWEp5OGhqeFVxOU95VElSbWFhTFd5bDBpYTVqSGdDUUhFOHdWdFBhMVJhdWhrUlRNQWNuTkNUYnZXbkxZbk5wMllRb1FCU2JTSlBGajBOY3o5S2h0NklTQmJJMjB1aUlLZUxfLXVYMjJQRU5SQ0NHRnZiaGh1eVN6a1ZJaTBxQnV3SA?oc=5",
-      "publishedAt": "Thu, 30 Jul 2026 07:00:51 GMT"
-    },
-    {
-      "source": "epocanegocios.globo.com",
-      "category": "IA",
-      "title": "Modelos de IA da Anthropic invadiram três empresas após falha em teste de segurança",
-      "summary": "Modelos de IA da Anthropic invadiram três empresas após falha em teste de segurança",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxON3lYWFVwLU9taGd2M3ozS1FfTHEyRzc4dGxVeXEyNTFBWTEzUGJoOGlKYkhkZkd5RmdnNGgwS1BncUt6WUlUenZxODkzM2Z2akthLUF1MWhQRkRLYmoxTEhJM0h2RXZFNmNreG1uSVlwLWlSSkVyb04zbVJoN1RZZkhnSUhUaXFKRmhpVUFEdWozc3FGZkZKaEs3Zm9EUmhjQ0c2Rl9TN3hHNHhtZllJVUtaLW1XUVFqRnhZWUdwSTNvWlBDbFNaSnVCRmhmbGp0UHBkTzVGMHUxRkh5M0Fkd3pTVjVyOXNPZFRQX1pkbDdkQVHSAYICQVVfeXFMTUVGUElmTFBsTUNFWVYybEF5ZFA5aVNMLXozZ2pNZnlQbWZYb3pkUFBRTUplLTBzQ3Via01oVjJCQzNydE1UWUgyajcxeDVRWnpfYjJmeWpuYzVvb0JlbVNrVkVzSjNadHpwTGFxY1lHTi1BcjFmbTN5RFlqM1Rncnp1ajBGMElsQV9VOUlHYlFzV0hjbVRWQW5xS0gyaC1qNUgybk1hOTVoTm5laFJHNEUyQWRIYkVQNHduNjVianNQV0JkSU43MG4tSjNOZC0xZE5YWmZOTElSS1pXRHM5bm13Rk5ybExOMUs4REFBM0hJc21uSkwyT2FROFZicnZWWHh3?oc=5",
-      "publishedAt": "Fri, 31 Jul 2026 12:52:42 GMT"
-    },
-    {
-      "source": "epocanegocios.globo.com",
-      "category": "IA",
-      "title": "Empresas de IA compram livros raros para treinar seus modelos, digitalizam conteúdo e destroem exemplares físicos",
-      "summary": "Empresas de IA compram livros raros para treinar seus modelos, digitalizam conteúdo e destroem exemplares físicos",
-      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQTXpsZFFsVTNCUEdvd2M2WlZickkxN3ZKRlFldlFCZXZYcXZ3Z1FUZDZkS0ZlNGRnQmVUMXQyYW1qbFNHcGZqMV96M0lITm5rLThKT2U3Ni1oc1pQbWNoUlZ1bGFmVk5PVzdhNnBidE9vOERIUV9NbDNKWnNxdGtVY0o3ay1kNXhjUl9naWROU1NYdW1ITUJCV2dZaWYxelBzcGI0QVNkUzZMcFZfdExkamNsVFk2a3B0N3d0cDhtS3NCOGlPb2hpczdVT0k4YnlETXVscElUYnVtQzJ1Rm94NGE3b1Jqa3FHMWMxc1hsaGlUbVBWemFZNWk5cHR4Rnpzd2RXeUc5bTlSZS05UDgzbXlMcXlFQVpMVnfSAagCQVVfeXFMTUx4Z184RnFjYmNaRDhIeW5USnRFNDhSVDdkZk1EVm95OHEweXMwRk5CZmw1dVdNeG9ZZ0Vfd0EtSTRjLTEyLWp1a25lNGs3N292UWJRSGZpYWNodEhyM3NfbVNCb2loREVmR2RiRTZLNnZRRlE0a0VsVEV5U1FINEZ4WlhTaERKenFJNWNkNkF0VVFkQUp0RVZ5VXlWcll3NFhsOGhuSnhxOGdRTFJnU3U3NmdMUWpXTzVualdpMFlRWHRKZUllRTMtQl93Wnh6UWxpSmVUc2J4SVBMb0FTcHhqb21PNXE4OFdaS2RIU2QwQnpnclZsa0NoejYtV2kxdlE5LWtRdjRmYlY3dHpReWszVUZBUkxXbzRROGl4T0JSSjl3ekJXZk0?oc=5",
-      "publishedAt": "Wed, 29 Jul 2026 12:17:43 GMT"
+      "title": "Os planos da Amazon e da Apple para inteligência artificial — e as dificuldades financeiras que eles causam",
+      "summary": "Os planos da Amazon e da Apple para inteligência artificial — e as dificuldades financeiras que eles causam",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBoanJsSFpZSXhzTUFCZGt2THJJQmtqd0JsVldxRHd4U2ZCYUJUUnJGeVcySUF2UkRtZ2h6OXkwWlg2eUpqOTgzcy1CdE5OdndBcUtvQ0hYUUZhSWNzMGdPaW9B0gFnQVVfeXFMTV9kTU96ZUZqYXdRZ2NhOFRIQ3dkb216YnkybmZEcWFmcEp4WkV0QW5sbUo4U1dXMUVFV2MwTUxpelQyVjRuRkFXeG5OSFdNVFhhLTc3OUV0d1FQM3U2Q0hFcldwVTZ5aw?oc=5",
+      "publishedAt": "Fri, 31 Jul 2026 20:03:17 GMT"
     },
     {
       "source": "www.gov.br",
@@ -60,7 +60,7 @@
       "publishedAt": "Fri, 06 Feb 2026 08:00:00 GMT"
     },
     {
-      "source": "tiinside.com.br",
+      "source": "TI INSIDE Online",
       "category": "Tecnologia",
       "title": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
       "summary": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
@@ -84,20 +84,20 @@
       "publishedAt": "Mon, 08 Jun 2026 07:00:00 GMT"
     },
     {
-      "source": "noticenter.com.br",
-      "category": "Tecnologia",
-      "title": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
-      "summary": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSVJHd1ZRSXIyZllmWmJjWE9URWFfYzB4bWU0UUNxd3ZJdlBvMkhza0dOSHJDYmZoZjRkTmJUT2dKTjhVMkhmU1JVd2hsbnZINEFORFNIM2dmNjYxR3h3dUw3ZkNXTERDN0hCMjBmUGtFMV9weXc1R2tjOTlwdnNzVVpheFQxSDdPYkJpQy11d1k2ZnZHeGhyLTZwWllsR0d5dnZsSlpENTByVzNQSmlrdFZYdVpmOUo0c25fUUtHd0hBcWQwdnlTOUtqY0NPbW5ycmJzcXdQVXRwdFFPMFVjcThCbmZMR1dHSDVXb0k3S21vT0tCTmhJcg?oc=5",
-      "publishedAt": "Sat, 27 Jun 2026 00:06:00 GMT"
-    },
-    {
       "source": "jornaltribuna.com.br",
       "category": "Tecnologia",
       "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
       "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
       "publishedAt": "Wed, 01 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "source": "StartSe",
+      "category": "Tecnologia",
+      "title": "Agentes de IA no desenvolvimento de software: como a StackSpot AI muda o jogo",
+      "summary": "Agentes de IA no desenvolvimento de software: como a StackSpot AI muda o jogo",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUXUwZHI1Z2lZTWN2dE9JcDQxN3NidFVHN19sM2gxMWxJbU1haF9tV2I4S1c0cDBVd0lUTkp2OU8ta2tlRHFCblY1NUUtWnhuLWlZSUl6Q3YtWXlqaVZIOW5vWHhsVi1OQjVyNEdJMUpUNXJHUjNJcjNvanM0cThncmxEVGhFQnlBdjhfRWNfVWJsOEQwMlRnaDNVRU1FRS1lU05JMHRFc0x5c1dwbFE?oc=5",
+      "publishedAt": "Wed, 15 Oct 2025 07:00:00 GMT"
     }
   ]
 }
