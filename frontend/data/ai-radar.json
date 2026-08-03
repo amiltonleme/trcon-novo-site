@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T11:02:08.024072+00:00",
+  "generated_at": "2026-08-03T20:57:30.756221+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -13,31 +13,40 @@
       "signal": "up"
     },
     {
-      "title": "A inteligência artificial vai ajudar você no trabalho ou roubar seu emprego? Veja os cargos mais afetados",
-      "summary": "A inteligência artificial vai ajudar você no trabalho ou roubar seu emprego? Veja os cargos mais afetados",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5vZkpEWmcxNm5FbDVSYzZLUWJBTUFuUEdQQWdOc3hhTER6MG5tMzQ0VzFxXzZvMWlwMXNDUkZNakhjcVNHYkFNNUdQNXFYeFQ1R1dlUV9OVUpvT1pzTGc2U1p30gFnQVVfeXFMTjBQVTA3WFdrcURZS0xZQnpXSWhxZDNKTWVXakVTNXN6OVJwOEt5T0ZuNERiRFRVRUxZNEJJcy0yd1lsWHo0bnVfSUl2VXNmWGpJWlZTVzFDVUdJZHEzVXdzV2N6NGlCRQ?oc=5",
-      "source": "BBC",
-      "published_at": "Sat, 25 Jul 2026 07:00:00 GMT",
+      "title": "UE coloca em vigor a ‘AI Act’ para regular a inteligência artificial; entenda as novas regras",
+      "summary": "UE coloca em vigor a ‘AI Act’ para regular a inteligência artificial; entenda as novas regras",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOV3ZyVFdRUHFqNkRxYTN2RXZFTTdEWXpNcEJzVEtUTzZFaDdkcXVZWkNDLU9kMUhHaUdBSEFKOXFCUWxFdUxNdEhDajRrU2JGcXE4NVRwdEU2YWdUeW1DOXlXR1VpUjJ3OEZKcjRGdzdqVklUR3dhWTd5emlYRE1nVThKMFE1dy1mTnJvSS1UT3pqWlFablJZUjFpOWE2eXg3RDdhSC1qZ0dNMHfSAbABQVVfeXFMTVZYaUYwYmJqMENaNkdidVVTM0NaLUpKSDY1Z0FfNEdMY2lHRGlkLU9idkVXNlkwUUcxN1l1Wnh1NGZsSWJKUWt2bXdLOFBDQ29uSFJ2LW41dWFjRUUxbzdaQlF1WHRmWTFaTlluTHp0aGpnREd1N2ZZUGk1QVlyWWxKY0haWnNUY3pYeHl1ZU5vOWRoSnNRT2ZSdm9WSUl6QmpXUkFGZk1INk9MSk1hV2Y?oc=5",
+      "source": "estadao.com.br",
+      "published_at": "Sun, 02 Aug 2026 12:27:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "O verdadeiro ROI da inteligência artificial não está na IA generativa, mas nas decisões que ela acelera",
-      "summary": "O verdadeiro ROI da inteligência artificial não está na IA generativa, mas nas decisões que ela acelera",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMTdzNmVhS2s4X21vTEhjSzVzRnViMUZFRi04S2pJRGMtalIwRnhKLVhOaXJsVThWVkdNNXNfOE9GM01vT1lTdzllbUJfeUhmajJFck44WGNEa2poS01wTlc2MXNTTXZpa2VlZndYRUczdEE5clc0S3ByOTR5OG1LVDBnQUF1QkZoUzVOWDRvU1l6R0J3UEdIcm5TTlp0Yi04UmpPRjBPYzdyakxlckdWY0RSQ1l2R1VlYVVDdUZmUFBycmJuUEpKUVRLYU1BbWxJ?oc=5",
-      "source": "Monitor Mercantil",
-      "published_at": "Sat, 01 Aug 2026 00:30:04 GMT",
+      "title": "UE aplica regras mais rígidas para inteligência artificial",
+      "summary": "UE aplica regras mais rígidas para inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTVRPS0txd3lzakNxbmptNDBSY0dhcWVtcnRLVEFja1hWa0owNklsMGZMeE5iQUJ2eEVXT3JpcHRPMk9hYWdMOGRwbWNWNXB4Y0dCNllJbDM0eHdIb3N4eF9UUC1INWwtdm5BNm81bDJWMzVDM294QURlYzFMTHBsNWpreGZiaVZoWGVKdDdTc3pQc3hRZ3p0MXRpUGZ0c245RWFGS3ZBb3VxVVk?oc=5",
+      "source": "Poder360",
+      "published_at": "Mon, 03 Aug 2026 19:40:21 GMT",
       "category": "IA",
-      "signal": "up"
+      "signal": "flat"
     },
     {
-      "title": "Mais de mil funcionários de empresas de IA pedem desaceleração no desenvolvimento da tecnologia",
-      "summary": "Mais de mil funcionários de empresas de IA pedem desaceleração no desenvolvimento da tecnologia",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUV9Vc0hlaDJ0MGxyOVFxeVZwSk5tVEszSEVCUWNrWFJORjZlQU5vYW1oZkhZaFZJa05BV3VOUVdmbUVzOC1hWUlpWmtBVGtkMEZ3b2MzQURVYm45Um1Lck5YQ0ltbEtySElfY2JrMFJrajNobjdTeUJ2MjUzeDJzeVEyOHUzcFFiWnhfMVhtcGZ2WGlac0ZEbzgxSldFMk5xRUdyU214Vm9tbzk3LVFWWG1lVnFyMFJpTWRYU1RR?oc=5",
-      "source": "Jornal Opção",
-      "published_at": "Sun, 02 Aug 2026 20:58:00 GMT",
+      "title": "Empresas ampliam busca por profissionais mais adaptáveis",
+      "summary": "Empresas ampliam busca por profissionais mais adaptáveis",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYV9RS09yYWlOVlRIZ2VrMXowc0F6dG1MN1FrcFdXMG5mUjJ4TlI0NDMzcl9rMHE3TGNFcDM0cmFGNzBxbDFOeGJWcjZLYXcyM2VnQXA3a0l6eS10RS0wV0VXRlQxRjVoVVc3d2Q1eWRkbzdoUzRXN3BHZUNhdjNQb3RrbFBhYl9iMGxiWEZSMk9uYUdzanN1dTZHNnBYNUhGT2FncFNkRndCdDJVS0JmRDh1OXg5RjJpLXhoRDFSX2pyUdIB0AFBVV95cUxOSUFIZlpwR2RnSnNKUW40RmMwUlNJSUl2ZC0xQndLcFFRVnFzdmJBeC1nT0pYVW5vbU5yYUhqYjhNLWxCVWpWMEdMRjRGdlJ0bXFWOUVsS1FmZDJmLVlNdmY3MWdzUVBYR3EweG1rS09Hc0l5aGR0WDZNSnZnWVpxalN4TWd6bmhWT3A4ODg2akZjUk5MRGVkSjVqbmpYM1R2R3IxYW9pWlV4MW9CWGxYdTNnN1V3c3BSYlluQUl1OGVkM253dWNDZUFZT0ZVWFpo?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Mon, 03 Aug 2026 17:46:19 GMT",
       "category": "IA",
-      "signal": "up"
+      "signal": "flat"
+    },
+    {
+      "title": "Empresas começam a rejeitar serviços feitos por inteligência artificial; entenda o motivo",
+      "summary": "Empresas começam a rejeitar serviços feitos por inteligência artificial; entenda o motivo",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZjlmOHI4Q1lTZkdmc1NhS3F1ZnBlVG1CV2FUSTgwN0dUTGo4d0JoWVktQWZQSDJOVlhSX2M2SlU5WEg5Tk5aM2lrc2hfRmYxWWhNNncxdVB0ZHVTYU9vbmNzVmREbDV1M2hrY1hLQndWdnhMa1RCQndmWmd0NldXLVdxc3NvZE91bEhlMnppelNzNzJKdHpqNnd5WEJLRmxwNTBidkdyQUZKWHl6QmY5cURsTXU2QTNYX2VpU1FjNWNORGxpWVNYNEZKek9SZDJndVR3ZV9MTQ?oc=5",
+      "source": "A Tribuna",
+      "published_at": "Mon, 03 Aug 2026 15:48:00 GMT",
+      "category": "IA",
+      "signal": "flat"
     },
     {
       "title": "As empresas mais valiosas do mundo seguem caminhos opostos na corrida da IA",
@@ -45,15 +54,6 @@
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdE1EaEpQWFZnSGFrb25KRUdITi1hcmVwRUk5MV9vMnFIdXVudjl5WUJSUWh2ZHJVVWZpN2N2d3V5anJ6Tl84clBROWtFaE5qVFE3bzlKOTdsNzNGUDlJa0xiVnJpanMzR3QtTEdjWW1HWnBCX1FqbnR1cExmaWVWcHZxY3FQWGtsRXpBN01Yak8yS0tKNHBSN1kxWmJaTklJbjhJTGloTWFvRXl2X0NwYS0xcDlEeHhRWXRaMzV4RDZOZHl2S29CUkxR?oc=5",
       "source": "R7",
       "published_at": "Mon, 03 Aug 2026 05:00:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "O profissional \"AI-First\": por que empresas estão valorizando quem começa o trabalho pela IA",
-      "summary": "O profissional \"AI-First\": por que empresas estão valorizando quem começa o trabalho pela IA",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcHlkRFk2T21oUmpfVWNKaEdHUWl3YVEyeS05Wm9XWTRqcGFvQ1FXbmJjYkJkWXl1N01zYUs0aktibEtiZnZmdWw4U29XaWd4MThPNjFUX1Itc3UzM1ZXSEdiT21ONTJ2dWhiQWtOak9OWm5kVGhqTmdBbXlETTZtaE93b3JXUDVveng2d3VmUk53bFRmYXRvUC1XcjFIMkpBWXB5LUl3OF90d0RrdW5ra0hBLXhXSTRZVm9mSS01NXhIM2owSVFldUhISVc?oc=5",
-      "source": "Exame",
-      "published_at": "Sat, 01 Aug 2026 08:10:53 GMT",
       "category": "IA",
       "signal": "flat"
     }
