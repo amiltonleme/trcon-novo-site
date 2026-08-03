@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-02T20:44:42.096467+00:00",
+  "generated_at": "2026-08-03T11:02:08.024072+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
     {
-      "title": "O verdadeiro ROI da inteligência artificial não está na IA generativa, mas nas decisões que ela acelera",
-      "summary": "O verdadeiro ROI da inteligência artificial não está na IA generativa, mas nas decisões que ela acelera",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMTdzNmVhS2s4X21vTEhjSzVzRnViMUZFRi04S2pJRGMtalIwRnhKLVhOaXJsVThWVkdNNXNfOE9GM01vT1lTdzllbUJfeUhmajJFck44WGNEa2poS01wTlc2MXNTTXZpa2VlZndYRUczdEE5clc0S3ByOTR5OG1LVDBnQUF1QkZoUzVOWDRvU1l6R0J3UEdIcm5TTlp0Yi04UmpPRjBPYzdyakxlckdWY0RSQ1l2R1VlYVVDdUZmUFBycmJuUEpKUVRLYU1BbWxJ?oc=5",
-      "source": "Monitor Mercantil",
-      "published_at": "Sat, 01 Aug 2026 00:30:04 GMT",
+      "title": "Alibaba lança o Qwen3.8-Max, seu mais avançado modelo de inteligência artificial",
+      "summary": "Alibaba lança o Qwen3.8-Max, seu mais avançado modelo de inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUDltdnFGUXlWeEhzLTBReExLTzNSMGhNOFBPLUNKVHpUZHpzUVppeVprTzZrOWJrZnpLVkRBWk1CeHRydXdoQm16d25DQ0pkUTQ2SWY1WmEzZzRlY3FwdGlNNGdtQWpYcHlDVmlvTHMxVm9LbkpqX0E0NVU4RUdNMl93dTczanZxaW9TeFh4bGZ1QjFNZFM4bVpPdHQ0SmlPMDlHQnZhdVd6V3F2ZEZnVUc4cHd5TVIxTDBkYU80SlZ3RDB2LXQybXphN3l0eV9iVXfSAeABQVVfeXFMTlEyZWUzdWNmX2g5ZU5ZOFA2R3ljRmpzMkg4bmE0RTd4bnVid1V6TjlEQUZnTDVrRlMzMnpXSTJZTjlrN0JjV1lTN2dwQWVpajRNa2ctQ1NVZ1laMW1wdkxOXzBWWUdjYXBuVDBsY1FHQndKWVpYSGk2Zjc5NC1scmk0Q3FQb1Y3TVJ5Qm93WkgzZzRGUmVxWUh5M09HTFBaSmVMR0pDYXdFNUZMZWJZM2szSHZiNnJzVlZENlZlOXpiUlBBTHJ5ZThCWkxkOTNUSGNvM2p2eXZ1TUFiY0hpeEU?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Mon, 03 Aug 2026 04:29:02 GMT",
       "category": "IA",
       "signal": "up"
     },
@@ -22,38 +22,38 @@
       "signal": "flat"
     },
     {
+      "title": "O verdadeiro ROI da inteligência artificial não está na IA generativa, mas nas decisões que ela acelera",
+      "summary": "O verdadeiro ROI da inteligência artificial não está na IA generativa, mas nas decisões que ela acelera",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMTdzNmVhS2s4X21vTEhjSzVzRnViMUZFRi04S2pJRGMtalIwRnhKLVhOaXJsVThWVkdNNXNfOE9GM01vT1lTdzllbUJfeUhmajJFck44WGNEa2poS01wTlc2MXNTTXZpa2VlZndYRUczdEE5clc0S3ByOTR5OG1LVDBnQUF1QkZoUzVOWDRvU1l6R0J3UEdIcm5TTlp0Yi04UmpPRjBPYzdyakxlckdWY0RSQ1l2R1VlYVVDdUZmUFBycmJuUEpKUVRLYU1BbWxJ?oc=5",
+      "source": "Monitor Mercantil",
+      "published_at": "Sat, 01 Aug 2026 00:30:04 GMT",
+      "category": "IA",
+      "signal": "up"
+    },
+    {
+      "title": "Mais de mil funcionários de empresas de IA pedem desaceleração no desenvolvimento da tecnologia",
+      "summary": "Mais de mil funcionários de empresas de IA pedem desaceleração no desenvolvimento da tecnologia",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUV9Vc0hlaDJ0MGxyOVFxeVZwSk5tVEszSEVCUWNrWFJORjZlQU5vYW1oZkhZaFZJa05BV3VOUVdmbUVzOC1hWUlpWmtBVGtkMEZ3b2MzQURVYm45Um1Lck5YQ0ltbEtySElfY2JrMFJrajNobjdTeUJ2MjUzeDJzeVEyOHUzcFFiWnhfMVhtcGZ2WGlac0ZEbzgxSldFMk5xRUdyU214Vm9tbzk3LVFWWG1lVnFyMFJpTWRYU1RR?oc=5",
+      "source": "Jornal Opção",
+      "published_at": "Sun, 02 Aug 2026 20:58:00 GMT",
+      "category": "IA",
+      "signal": "up"
+    },
+    {
+      "title": "As empresas mais valiosas do mundo seguem caminhos opostos na corrida da IA",
+      "summary": "As empresas mais valiosas do mundo seguem caminhos opostos na corrida da IA",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdE1EaEpQWFZnSGFrb25KRUdITi1hcmVwRUk5MV9vMnFIdXVudjl5WUJSUWh2ZHJVVWZpN2N2d3V5anJ6Tl84clBROWtFaE5qVFE3bzlKOTdsNzNGUDlJa0xiVnJpanMzR3QtTEdjWW1HWnBCX1FqbnR1cExmaWVWcHZxY3FQWGtsRXpBN01Yak8yS0tKNHBSN1kxWmJaTklJbjhJTGloTWFvRXl2X0NwYS0xcDlEeHhRWXRaMzV4RDZOZHl2S29CUkxR?oc=5",
+      "source": "R7",
+      "published_at": "Mon, 03 Aug 2026 05:00:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
       "title": "O profissional \"AI-First\": por que empresas estão valorizando quem começa o trabalho pela IA",
       "summary": "O profissional \"AI-First\": por que empresas estão valorizando quem começa o trabalho pela IA",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcHlkRFk2T21oUmpfVWNKaEdHUWl3YVEyeS05Wm9XWTRqcGFvQ1FXbmJjYkJkWXl1N01zYUs0aktibEtiZnZmdWw4U29XaWd4MThPNjFUX1Itc3UzM1ZXSEdiT21ONTJ2dWhiQWtOak9OWm5kVGhqTmdBbXlETTZtaE93b3JXUDVveng2d3VmUk53bFRmYXRvUC1XcjFIMkpBWXB5LUl3OF90d0RrdW5ra0hBLXhXSTRZVm9mSS01NXhIM2owSVFldUhISVc?oc=5",
       "source": "Exame",
       "published_at": "Sat, 01 Aug 2026 08:10:53 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Nem OpenAI, nem Anthropic: veja quem são os vencedores da corrida da IA",
-      "summary": "Nem OpenAI, nem Anthropic: veja quem são os vencedores da corrida da IA",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSnJBT3MxbHVoOFBPQmJ2NkJvOXV3Y1lLaGJxV2RnajgyM0V2MGtfVHhFS2t5cnVydGtEVUk0aHh2ZzdfQjQxLWotaGE4NWJrN3BUNzc2OGJzblVCZ3ctVUlnWEJ5THdIRFdlcHc4Nmt0M19VbVFzcTFHd1MySTJieG1McE5LYVFYU2VrN3BxdzVnc2dHVHZHVEtJMW5NcmczSlhHUUg4X3NOTlE2WHBRaW1lSk9DY0xPcHVhSDJKRjRDOGpfbkM2M1hkXzJ6c3NXRzFB0gHiAUFVX3lxTFBRcGIwdXU4WHlvREtNREdReURTb2RTUDZLcjJ3aHFtSFNfa0ZKWldVMDdiTEpYMHJZR2VtQTVSRE41eUJlOXFGYWV3dm9RcHRhVTk2bjJFUWhDVFIyNzNSSDFkRm11MDV3TjhOTGNoZVZqblRqX2FxcHl4UGpzRHQ5aDVhcXVaUjBxY2FncU5pQk9Ua3N3Tk4tYThRajlvX0o4bTVEeDFibjFCVXJrMXJXMm1MYktTNHRSR0ZrWlNNaTY5dW9aRWNLek5pY3Q5TlE1Z0V0ZGVYM2lKZmhWSWg1T3c?oc=5",
-      "source": "O GLOBO",
-      "published_at": "Sun, 02 Aug 2026 07:30:15 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Claude expôs um risco que empresas ainda não colocaram na conta ao adotar IA",
-      "summary": "Claude expôs um risco que empresas ainda não colocaram na conta ao adotar IA",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPb2Yzbm1rNDNOdHZxa3d0SXRUYXg2NzhZdnVHcTBMbTJMSjkxaWs1RU1vb3hDZDNtNFptWHBuLUY3VEpBYUdkLVdEc2NFWFM3ckhZbC1VR1I4Z3ZrejBraEhxV0lOXzQtcmRUcFl3eG1GMmhNMllVU3pCeE13M1hmelRn?oc=5",
-      "source": "Economic News Brasil",
-      "published_at": "Sun, 02 Aug 2026 15:06:00 GMT",
-      "category": "IA",
-      "signal": "down"
-    },
-    {
-      "title": "Limite da IA: empresas de tecnologia pedem que EUA freiem modelos avançados",
-      "summary": "Limite da IA: empresas de tecnologia pedem que EUA freiem modelos avançados",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY0dENTR0MDRlRnJjT3Y0RE1TUVRkTjJIeHlyS0pIRkd3WkdSNjJoZUpqTThZa3dvVEl3YTZhNFhnVldDLUQ3VUpyUDU2czl4WVVHdlpZanhiOXByOWxvSWNkeTBxM2NsWlVwS1NqejBJckNNTUJUR2dxdDJtTXVEblpYR2JuX3RVQ3hqT1B3aTNJU01ZUjV6ZWYxUXJ1enYtN01WcW1ESjR6NkF3WkV4Vm5BNnM2QQ?oc=5",
-      "source": "cnnbrasil.com.br",
-      "published_at": "Wed, 29 Jul 2026 21:29:02 GMT",
       "category": "IA",
       "signal": "flat"
     }
