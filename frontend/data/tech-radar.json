@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T20:57:31.928172+00:00",
+  "generated_at": "2026-08-04T10:24:03.231304+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de tecnologia.",
   "errors": [],
   "items": [
@@ -40,20 +40,20 @@
       "signal": "flat"
     },
     {
+      "title": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
+      "summary": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSVJHd1ZRSXIyZllmWmJjWE9URWFfYzB4bWU0UUNxd3ZJdlBvMkhza0dOSHJDYmZoZjRkTmJUT2dKTjhVMkhmU1JVd2hsbnZINEFORFNIM2dmNjYxR3h3dUw3ZkNXTERDN0hCMjBmUGtFMV9weXc1R2tjOTlwdnNzVVpheFQxSDdPYkJpQy11d1k2ZnZHeGhyLTZwWllsR0d5dnZsSlpENTByVzNQSmlrdFZYdVpmOUo0c25fUUtHd0hBcWQwdnlTOUtqY0NPbW5ycmJzcXdQVXRwdFFPMFVjcThCbmZMR1dHSDVXb0k3S21vT0tCTmhJcg?oc=5",
+      "source": "noticenter.com.br",
+      "published_at": "Fri, 26 Jun 2026 07:00:00 GMT",
+      "category": "Tecnologia",
+      "signal": "up"
+    },
+    {
       "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
       "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
       "source": "jornaltribuna.com.br",
       "published_at": "Wed, 01 Jul 2026 07:00:00 GMT",
-      "category": "Tecnologia",
-      "signal": "flat"
-    },
-    {
-      "title": "Agentes de IA no desenvolvimento de software: como a StackSpot AI muda o jogo",
-      "summary": "Agentes de IA no desenvolvimento de software: como a StackSpot AI muda o jogo",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUXUwZHI1Z2lZTWN2dE9JcDQxN3NidFVHN19sM2gxMWxJbU1haF9tV2I4S1c0cDBVd0lUTkp2OU8ta2tlRHFCblY1NUUtWnhuLWlZSUl6Q3YtWXlqaVZIOW5vWHhsVi1OQjVyNEdJMUpUNXJHUjNJcjNvanM0cThncmxEVGhFQnlBdjhfRWNfVWJsOEQwMlRnaDNVRU1FRS1lU05JMHRFc0x5c1dwbFE?oc=5",
-      "source": "StartSe",
-      "published_at": "Wed, 15 Oct 2025 07:00:00 GMT",
       "category": "Tecnologia",
       "signal": "flat"
     }

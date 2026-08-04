@@ -1,23 +1,15 @@
 {
-  "generated_at": "2026-08-03T20:57:31.983499+00:00",
+  "generated_at": "2026-08-04T10:24:03.277997+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
     {
-      "source": "Valor Econômico",
+      "source": "Computer Weekly",
       "category": "IA",
-      "title": "Alibaba lança o Qwen3.8-Max, seu mais avançado modelo de inteligência artificial",
-      "summary": "Alibaba lança o Qwen3.8-Max, seu mais avançado modelo de inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUDltdnFGUXlWeEhzLTBReExLTzNSMGhNOFBPLUNKVHpUZHpzUVppeVprTzZrOWJrZnpLVkRBWk1CeHRydXdoQm16d25DQ0pkUTQ2SWY1WmEzZzRlY3FwdGlNNGdtQWpYcHlDVmlvTHMxVm9LbkpqX0E0NVU4RUdNMl93dTczanZxaW9TeFh4bGZ1QjFNZFM4bVpPdHQ0SmlPMDlHQnZhdVd6V3F2ZEZnVUc4cHd5TVIxTDBkYU80SlZ3RDB2LXQybXphN3l0eV9iVXfSAeABQVVfeXFMTlEyZWUzdWNmX2g5ZU5ZOFA2R3ljRmpzMkg4bmE0RTd4bnVid1V6TjlEQUZnTDVrRlMzMnpXSTJZTjlrN0JjV1lTN2dwQWVpajRNa2ctQ1NVZ1laMW1wdkxOXzBWWUdjYXBuVDBsY1FHQndKWVpYSGk2Zjc5NC1scmk0Q3FQb1Y3TVJ5Qm93WkgzZzRGUmVxWUh5M09HTFBaSmVMR0pDYXdFNUZMZWJZM2szSHZiNnJzVlZENlZlOXpiUlBBTHJ5ZThCWkxkOTNUSGNvM2p2eXZ1TUFiY0hpeEU?oc=5",
-      "publishedAt": "Mon, 03 Aug 2026 04:29:02 GMT"
-    },
-    {
-      "source": "estadao.com.br",
-      "category": "IA",
-      "title": "UE coloca em vigor a ‘AI Act’ para regular a inteligência artificial; entenda as novas regras",
-      "summary": "UE coloca em vigor a ‘AI Act’ para regular a inteligência artificial; entenda as novas regras",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOV3ZyVFdRUHFqNkRxYTN2RXZFTTdEWXpNcEJzVEtUTzZFaDdkcXVZWkNDLU9kMUhHaUdBSEFKOXFCUWxFdUxNdEhDajRrU2JGcXE4NVRwdEU2YWdUeW1DOXlXR1VpUjJ3OEZKcjRGdzdqVklUR3dhWTd5emlYRE1nVThKMFE1dy1mTnJvSS1UT3pqWlFablJZUjFpOWE2eXg3RDdhSC1qZ0dNMHfSAbABQVVfeXFMTVZYaUYwYmJqMENaNkdidVVTM0NaLUpKSDY1Z0FfNEdMY2lHRGlkLU9idkVXNlkwUUcxN1l1Wnh1NGZsSWJKUWt2bXdLOFBDQ29uSFJ2LW41dWFjRUUxbzdaQlF1WHRmWTFaTlluTHp0aGpnREd1N2ZZUGk1QVlyWWxKY0haWnNUY3pYeHl1ZU5vOWRoSnNRT2ZSdm9WSUl6QmpXUkFGZk1INk9MSk1hV2Y?oc=5",
-      "publishedAt": "Sun, 02 Aug 2026 12:27:00 GMT"
+      "title": "Maior risco da inteligência artificial pode estar dentro da própria organização",
+      "summary": "Maior risco da inteligência artificial pode estar dentro da própria organização",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMTJSYTAwN3B3ODJ4QXY4Snpkc2tESzRiWnlsSjlpQ3hMMmtwYmdNTmtzYk1oa05jVGRTZXpENUwxZkI0OUtRbG14cWFoQ2pieGVjd1JvZFc5bk1KT2RmWjJJelFQSnlxaURsTm5MR29hVm85MnhQdVkyN1BSNG1yR1VJWlozbGk4SFZiRzdKMmtiSE5CRG9QN0NPclFGemtIMndhUXJjMFBhQ1VHZFBZN0xSZW1TYVFnRDluYUpB?oc=5",
+      "publishedAt": "Tue, 04 Aug 2026 05:36:07 GMT"
     },
     {
       "source": "Poder360",
@@ -30,26 +22,34 @@
     {
       "source": "Valor Econômico",
       "category": "IA",
-      "title": "Empresas ampliam busca por profissionais mais adaptáveis",
-      "summary": "Empresas ampliam busca por profissionais mais adaptáveis",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYV9RS09yYWlOVlRIZ2VrMXowc0F6dG1MN1FrcFdXMG5mUjJ4TlI0NDMzcl9rMHE3TGNFcDM0cmFGNzBxbDFOeGJWcjZLYXcyM2VnQXA3a0l6eS10RS0wV0VXRlQxRjVoVVc3d2Q1eWRkbzdoUzRXN3BHZUNhdjNQb3RrbFBhYl9iMGxiWEZSMk9uYUdzanN1dTZHNnBYNUhGT2FncFNkRndCdDJVS0JmRDh1OXg5RjJpLXhoRDFSX2pyUdIB0AFBVV95cUxOSUFIZlpwR2RnSnNKUW40RmMwUlNJSUl2ZC0xQndLcFFRVnFzdmJBeC1nT0pYVW5vbU5yYUhqYjhNLWxCVWpWMEdMRjRGdlJ0bXFWOUVsS1FmZDJmLVlNdmY3MWdzUVBYR3EweG1rS09Hc0l5aGR0WDZNSnZnWVpxalN4TWd6bmhWT3A4ODg2akZjUk5MRGVkSjVqbmpYM1R2R3IxYW9pWlV4MW9CWGxYdTNnN1V3c3BSYlluQUl1OGVkM253dWNDZUFZT0ZVWFpo?oc=5",
-      "publishedAt": "Mon, 03 Aug 2026 17:46:19 GMT"
+      "title": "Empresas precisam redesenhar negócios para extrair valor da IA, diz Silvio Meira",
+      "summary": "Empresas precisam redesenhar negócios para extrair valor da IA, diz Silvio Meira",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbXdpcDF6aWhOZFNodW9KY21ZNHlRZWtUT25aSEZMX0d5OTY4U2ttOHQtN2FIRzl5RjNYdTU3WVZ4YVFsV21VeFk2MThOUHVuSUEzVHRvWXNObzBwNjN4TF8yR1FkejlTNWE2Zl9LQWNCNjlmY1NoYW13RkVUdjNxeEZDM0tzZEpqZk9qVVhWSXFPaFh6MlRrVWYtN0FYblR0dTNXQWNUOHdNdUJzYTZCZHJFQVEtS3lUU1cxWmlpZ1VJdThmNmRPUGlDTThtVVR0SkpN0gHiAUFVX3lxTE9DX1puZjZGWWJhRFVvY1pfZjlsQ0RCdkg4QUVqdlEwVkNBd0k4VU5IdmhwRE9DS1B4cHFxdWNxbWhKMVFUUzlVU2JKS2Z4RE10R1J0eGxIMk5fTER3WXF3V2FyT25zOHVjRW9Eak92cTF6OURKajB1OEVlX0x2TWVjOVh1WG1EUmZ1WGJ4QWhpSzZRejd0UkgwQTlfMmgyWkRfVDg1LWt1SzRFTmZLck9SbEg3dTQ5dnpVd2xOb1hDVHhhbmt6amJhaUc1Y0gzMWxzWVBvU3ZBYWNXbjJaa2REQ2c?oc=5",
+      "publishedAt": "Tue, 04 Aug 2026 01:42:27 GMT"
     },
     {
-      "source": "A Tribuna",
+      "source": "Agência Pública",
       "category": "IA",
-      "title": "Empresas começam a rejeitar serviços feitos por inteligência artificial; entenda o motivo",
-      "summary": "Empresas começam a rejeitar serviços feitos por inteligência artificial; entenda o motivo",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZjlmOHI4Q1lTZkdmc1NhS3F1ZnBlVG1CV2FUSTgwN0dUTGo4d0JoWVktQWZQSDJOVlhSX2M2SlU5WEg5Tk5aM2lrc2hfRmYxWWhNNncxdVB0ZHVTYU9vbmNzVmREbDV1M2hrY1hLQndWdnhMa1RCQndmWmd0NldXLVdxc3NvZE91bEhlMnppelNzNzJKdHpqNnd5WEJLRmxwNTBidkdyQUZKWHl6QmY5cURsTXU2QTNYX2VpU1FjNWNORGxpWVNYNEZKek9SZDJndVR3ZV9MTQ?oc=5",
-      "publishedAt": "Mon, 03 Aug 2026 15:48:00 GMT"
+      "title": "A empresa de IA que destruiu milhões de livros para treinar seu modelo",
+      "summary": "A empresa de IA que destruiu milhões de livros para treinar seu modelo",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVXBUZHd5MXdwNjc2ZHl4NUtxVzBrM2VEMTRNSnk5NHBfQ0ZJTUk3T3NYSC15YzJGYUZjcl9TdEZ2N0pJYm9QYVhoNFR3NHhYSW1jMjV6TWJQLWs5QVd1NmlUTnRkTHk3VzA2NGI2VFRZUVZEQzRMNDQybmY5ODJqVEw1a0RKNTNqUl85UlNER1lsaVJTUGRhZ2NSMV9pTml2RWfSAacBQVVfeXFMT2YwSjNiV29leUF0RGREb0lRMWJNWEdVVURZckc4QXJ0RHV1SnlnM3ZaWmhScGpnSktRcnV4ZzNGWmpIYVV4VzdCcTZadEwtN3pEZFFqQTlVOWlTNUU0bl91X09DeTVHeDU4U3N1WTg5VUphbGVSZUxlMFpSaVFkS0pJdDJpSEFSREp2Mk0ySlQwU3dSYndLRmRRQ1JycjdWMTBRN0Rndzg?oc=5",
+      "publishedAt": "Mon, 03 Aug 2026 20:35:20 GMT"
     },
     {
-      "source": "R7",
+      "source": "Terra",
       "category": "IA",
-      "title": "As empresas mais valiosas do mundo seguem caminhos opostos na corrida da IA",
-      "summary": "As empresas mais valiosas do mundo seguem caminhos opostos na corrida da IA",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdE1EaEpQWFZnSGFrb25KRUdITi1hcmVwRUk5MV9vMnFIdXVudjl5WUJSUWh2ZHJVVWZpN2N2d3V5anJ6Tl84clBROWtFaE5qVFE3bzlKOTdsNzNGUDlJa0xiVnJpanMzR3QtTEdjWW1HWnBCX1FqbnR1cExmaWVWcHZxY3FQWGtsRXpBN01Yak8yS0tKNHBSN1kxWmJaTklJbjhJTGloTWFvRXl2X0NwYS0xcDlEeHhRWXRaMzV4RDZOZHl2S29CUkxR?oc=5",
-      "publishedAt": "Mon, 03 Aug 2026 05:00:00 GMT"
+      "title": "Empresas ampliam busca por profissionais mais adaptáveis",
+      "summary": "Empresas ampliam busca por profissionais mais adaptáveis",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTC1NZDN2TTU4YlNudUNGcjRuZTJXbFZHcXZBM1ZTWDh0ZWFLczZlcVFYRGJhS0dRYy1EaklBU3BURHlvT3NZY1l4ODNYdVBKNmpTamFEOEZfZGM0a0w2TXBnRTlLSmItSXJoY1BMU2JpOFhMYW1UNjVTQzRuXzJSeDJOejI2RmJyVFphcFRhNlZTd213Sld4bGlaZWdnX1VJT3Z5RF8xQnF0SmxXZDI5OVduVkVSWTZOcmluRjVhMHJ4UGtqUENCTk1UT1A5Y1IwWWc?oc=5",
+      "publishedAt": "Mon, 03 Aug 2026 17:50:00 GMT"
+    },
+    {
+      "source": "Jornal Opção",
+      "category": "IA",
+      "title": "Mais de mil funcionários de empresas de IA pedem desaceleração no desenvolvimento da tecnologia",
+      "summary": "Mais de mil funcionários de empresas de IA pedem desaceleração no desenvolvimento da tecnologia",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUV9Vc0hlaDJ0MGxyOVFxeVZwSk5tVEszSEVCUWNrWFJORjZlQU5vYW1oZkhZaFZJa05BV3VOUVdmbUVzOC1hWUlpWmtBVGtkMEZ3b2MzQURVYm45Um1Lck5YQ0ltbEtySElfY2JrMFJrajNobjdTeUJ2MjUzeDJzeVEyOHUzcFFiWnhfMVhtcGZ2WGlac0ZEbzgxSldFMk5xRUdyU214Vm9tbzk3LVFWWG1lVnFyMFJpTWRYU1RR?oc=5",
+      "publishedAt": "Sun, 02 Aug 2026 20:58:00 GMT"
     },
     {
       "source": "www.gov.br",
@@ -84,20 +84,20 @@
       "publishedAt": "Mon, 08 Jun 2026 07:00:00 GMT"
     },
     {
+      "source": "noticenter.com.br",
+      "category": "Tecnologia",
+      "title": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
+      "summary": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSVJHd1ZRSXIyZllmWmJjWE9URWFfYzB4bWU0UUNxd3ZJdlBvMkhza0dOSHJDYmZoZjRkTmJUT2dKTjhVMkhmU1JVd2hsbnZINEFORFNIM2dmNjYxR3h3dUw3ZkNXTERDN0hCMjBmUGtFMV9weXc1R2tjOTlwdnNzVVpheFQxSDdPYkJpQy11d1k2ZnZHeGhyLTZwWllsR0d5dnZsSlpENTByVzNQSmlrdFZYdVpmOUo0c25fUUtHd0hBcWQwdnlTOUtqY0NPbW5ycmJzcXdQVXRwdFFPMFVjcThCbmZMR1dHSDVXb0k3S21vT0tCTmhJcg?oc=5",
+      "publishedAt": "Fri, 26 Jun 2026 07:00:00 GMT"
+    },
+    {
       "source": "jornaltribuna.com.br",
       "category": "Tecnologia",
       "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
       "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
       "publishedAt": "Wed, 01 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "source": "StartSe",
-      "category": "Tecnologia",
-      "title": "Agentes de IA no desenvolvimento de software: como a StackSpot AI muda o jogo",
-      "summary": "Agentes de IA no desenvolvimento de software: como a StackSpot AI muda o jogo",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUXUwZHI1Z2lZTWN2dE9JcDQxN3NidFVHN19sM2gxMWxJbU1haF9tV2I4S1c0cDBVd0lUTkp2OU8ta2tlRHFCblY1NUUtWnhuLWlZSUl6Q3YtWXlqaVZIOW5vWHhsVi1OQjVyNEdJMUpUNXJHUjNJcjNvanM0cThncmxEVGhFQnlBdjhfRWNfVWJsOEQwMlRnaDNVRU1FRS1lU05JMHRFc0x5c1dwbFE?oc=5",
-      "publishedAt": "Wed, 15 Oct 2025 07:00:00 GMT"
     }
   ]
 }
