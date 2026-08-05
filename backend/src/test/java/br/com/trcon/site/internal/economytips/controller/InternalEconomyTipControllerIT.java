@@ -99,6 +99,54 @@ class InternalEconomyTipControllerIT {
         assertThat(economyTipRepository.count()).isEqualTo(1);
     }
 
+    @Test
+    void deveAtualizarTipExistenteAoRepublicar() {
+        economyTipRepository.deleteAll();
+        InternalEconomyTipCreateRequest first = new InternalEconomyTipCreateRequest(
+                "Mercado",
+                "tag-blue",
+                "Titulo antigo",
+                "Resumo antigo",
+                "https://trcongroup.com.br",
+                "Ler mais",
+                true,
+                5,
+                Instant.parse("2026-08-01T12:00:00Z"),
+                "republish-edu-1",
+                "trcon",
+                "TRCON");
+
+        restTemplate.postForEntity("/api/internal/economy-tips", entity(first), InternalEconomyTipCreateResponse.class);
+
+        InternalEconomyTipCreateRequest updated = new InternalEconomyTipCreateRequest(
+                "Mercado",
+                "tag-blue",
+                "Titulo novo",
+                "Resumo novo",
+                "https://trcongroup.com.br/novidades/titulo-novo",
+                "Ler mais",
+                true,
+                5,
+                Instant.parse("2026-08-05T12:00:00Z"),
+                "republish-edu-1",
+                "trcon",
+                "TRCON");
+
+        ResponseEntity<InternalEconomyTipCreateResponse> response = restTemplate.postForEntity(
+                "/api/internal/economy-tips", entity(updated), InternalEconomyTipCreateResponse.class);
+
+        assertThat(response.getStatusCode()).isEqualTo(HttpStatus.CREATED);
+        assertThat(response.getBody().duplicate()).isTrue();
+        assertThat(economyTipRepository.count()).isEqualTo(1);
+
+        ResponseEntity<EconomyTipListResponse> publicResponse =
+                restTemplate.getForEntity("/api/public/economy-tips", EconomyTipListResponse.class);
+        assertThat(publicResponse.getBody().items()).hasSize(1);
+        assertThat(publicResponse.getBody().items().get(0).title()).isEqualTo("Titulo novo");
+        assertThat(publicResponse.getBody().items().get(0).url())
+                .isEqualTo("https://trcongroup.com.br/novidades/titulo-novo");
+    }
+
     private HttpEntity<InternalEconomyTipCreateRequest> entity(InternalEconomyTipCreateRequest request) {
         HttpHeaders headers = new HttpHeaders();
         headers.set("X-API-Key", API_KEY);

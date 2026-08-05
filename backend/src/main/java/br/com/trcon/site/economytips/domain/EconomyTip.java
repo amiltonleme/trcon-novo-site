@@ -129,4 +129,31 @@ public class EconomyTip {
                 source,
                 now);
     }
+
+    public void updateFromMarketing(
+            String tag,
+            String tagClass,
+            String title,
+            String body,
+            String url,
+            String linkLabel,
+            boolean featured,
+            int priority,
+            Instant publishedAt,
+            String brandSlug,
+            String source) {
+        this.tag = tag;
+        this.tagClass = tagClass;
+        this.title = title;
+        this.body = body;
+        this.url = url;
+        this.linkLabel = linkLabel;
+        this.featured = featured;
+        this.active = true;
+        this.priority = priority;
+        this.publishedAt = publishedAt;
+        this.brandSlug = brandSlug;
+        this.source = source;
+        this.updatedAt = Instant.now();
+    }
 }
