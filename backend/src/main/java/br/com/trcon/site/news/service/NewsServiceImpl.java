@@ -19,7 +19,10 @@ public class NewsServiceImpl implements NewsService {
     private static final int DEFAULT_LIMIT = 20;
     private static final int MAX_LIMIT = 50;
     private static final int FEED_LIMIT = 200;
+    /** Categorias filtráveis na API pública (Educacao fica de fora do grid Novidades). */
     private static final Set<String> ALLOWED_CATEGORIES = Set.of("IA", "Tecnologia", "Financas", "Mercado");
+    /** Newsletter/landing: página /novidades/{slug} existe, mas não entra no grid Novidades. */
+    private static final String EDUCATION_READING_CATEGORY = "Educacao";
 
     private final NewsRepository newsRepository;
     private final NewsMapper newsMapper;
@@ -43,7 +46,8 @@ public class NewsServiceImpl implements NewsService {
             return newsMapper.toListResponse(itens);
         }
 
-        List<NewsItem> itens = newsRepository.findAllByOrderByPublishedAtDesc(Limit.of(limiteEfetivo));
+        List<NewsItem> itens = newsRepository.findByCategoryNotOrderByPublishedAtDesc(
+                EDUCATION_READING_CATEGORY, Limit.of(limiteEfetivo));
         return newsMapper.toListResponse(itens);
     }
 
@@ -61,7 +65,8 @@ public class NewsServiceImpl implements NewsService {
     @Override
     public NewsListResponse listarComSlug(Integer limit) {
         int limiteEfetivo = limit == null ? FEED_LIMIT : Math.min(Math.max(limit, 1), FEED_LIMIT);
-        List<NewsItem> itens = newsRepository.findBySlugIsNotNullOrderByPublishedAtDesc(Limit.of(limiteEfetivo));
+        List<NewsItem> itens = newsRepository.findBySlugIsNotNullAndCategoryNotOrderByPublishedAtDesc(
+                EDUCATION_READING_CATEGORY, Limit.of(limiteEfetivo));
         return newsMapper.toListResponse(itens);
     }
 

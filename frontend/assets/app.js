@@ -534,13 +534,24 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
   // safeGradient agora vivem em ./modules/sanitize.js (funções puras, testadas
   // com Vitest). Ver doc/03-FRONTEND-STACK-CANONICA.md.
 
+  function isInternalSitePath(href) {
+    if (!href) return false;
+    if (href.startsWith('/')) return true;
+    try {
+      const url = new URL(href);
+      return url.pathname.startsWith('/novidades/');
+    } catch {
+      return false;
+    }
+  }
+
   function renderContentLink(item, fallbackLabel) {
     const href = localizeSiteHref(safeUrl(item.url));
     if (!href || href === '/') {
       return '';
     }
     const label = item.link_label || fallbackLabel;
-    const internal = href.startsWith('/');
+    const internal = isInternalSitePath(href);
     const targetAttrs = internal ? '' : ' target="_blank" rel="noopener noreferrer"';
     return `<a class="content-link" href="${escapeHtml(href)}"${targetAttrs}>${escapeHtml(label)} →</a>`;
   }

@@ -14,9 +14,14 @@ public interface NewsRepository extends JpaRepository<NewsItem, UUID> {
 
     List<NewsItem> findAllByOrderByPublishedAtDesc(Limit limit);
 
+    /** Grid Novidades / feed RSS: exclui páginas de leitura de Educação Financeira. */
+    List<NewsItem> findByCategoryNotOrderByPublishedAtDesc(String category, Limit limit);
+
     Optional<NewsItem> findByExternalId(String externalId);
 
     Optional<NewsItem> findBySlug(String slug);
 
     List<NewsItem> findBySlugIsNotNullOrderByPublishedAtDesc(Limit limit);
+
+    List<NewsItem> findBySlugIsNotNullAndCategoryNotOrderByPublishedAtDesc(String category, Limit limit);
 }

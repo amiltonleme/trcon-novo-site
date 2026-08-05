@@ -20,21 +20,38 @@ public class InternalEconomyTipService {
 
     @Transactional
     public InternalEconomyTipCreateResponse criar(InternalEconomyTipCreateRequest request) {
+        int priority = request.priority() != null ? request.priority() : DEFAULT_PRIORITY;
+        boolean featured = Boolean.TRUE.equals(request.featured());
+        String url = request.url() == null || request.url().isBlank() ? null : request.url().trim();
+        String linkLabel =
+                request.linkLabel() == null || request.linkLabel().isBlank()
+                        ? "Ler mais"
+                        : request.linkLabel().trim();
+        String source =
+                request.source() == null || request.source().isBlank()
+                        ? "Sirius Marketing"
+                        : request.source().trim();
+        String brandSlug = request.brandSlug() != null ? request.brandSlug().trim() : null;
+
         return economyTipRepository
                 .findByExternalId(request.externalId().trim())
-                .map(existing -> new InternalEconomyTipCreateResponse(existing.getId(), true))
+                .map(existing -> {
+                    existing.updateFromMarketing(
+                            request.tag().trim(),
+                            request.tagClass().trim(),
+                            request.title().trim(),
+                            request.body().trim(),
+                            url,
+                            linkLabel,
+                            featured,
+                            priority,
+                            request.publishedAt(),
+                            brandSlug,
+                            source);
+                    EconomyTip saved = economyTipRepository.save(existing);
+                    return new InternalEconomyTipCreateResponse(saved.getId(), true);
+                })
                 .orElseGet(() -> {
-                    int priority = request.priority() != null ? request.priority() : DEFAULT_PRIORITY;
-                    boolean featured = Boolean.TRUE.equals(request.featured());
-                    String url = request.url() == null || request.url().isBlank() ? null : request.url().trim();
-                    String linkLabel =
-                            request.linkLabel() == null || request.linkLabel().isBlank()
-                                    ? "Ler mais"
-                                    : request.linkLabel().trim();
-                    String source =
-                            request.source() == null || request.source().isBlank()
-                                    ? "Sirius Marketing"
-                                    : request.source().trim();
                     EconomyTip tip = EconomyTip.fromMarketing(
                             request.tag().trim(),
                             request.tagClass().trim(),
@@ -46,7 +63,7 @@ public class InternalEconomyTipService {
                             priority,
                             request.publishedAt(),
                             request.externalId().trim(),
-                            request.brandSlug() != null ? request.brandSlug().trim() : null,
+                            brandSlug,
                             source);
                     EconomyTip saved = economyTipRepository.save(tip);
                     return new InternalEconomyTipCreateResponse(saved.getId(), false);

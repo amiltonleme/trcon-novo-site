@@ -15,7 +15,9 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 public class InternalNewsService {
 
-    private static final Set<String> ALLOWED_CATEGORIES = Set.of("IA", "Tecnologia", "Financas", "Mercado");
+    /** Educacao = página de leitura de newsletter/landing (fora do grid Novidades). */
+    private static final Set<String> ALLOWED_CATEGORIES =
+            Set.of("IA", "Tecnologia", "Financas", "Mercado", "Educacao");
 
     private final NewsRepository newsRepository;
 

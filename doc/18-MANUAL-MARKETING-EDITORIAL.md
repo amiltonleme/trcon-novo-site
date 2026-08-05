@@ -2,17 +2,19 @@
 
 > Manual completo: [`../../sirius-marketing/projeto/docs/cursor/12_manual_usuario_marketing.md`](../../sirius-marketing/projeto/docs/cursor/12_manual_usuario_marketing.md)  
 > **Guia capa / demos / apresentação:** §4.1 do manual completo.  
-> Atualizado em **30/07/2026**
+> Atualizado em **31/07/2026**
 
 ## O que vai para onde
 
 | Tipo marketing | Seção no site `trcongroup.com.br` |
 |----------------|-----------------------------------|
 | **Artigo** | **Novidades TRCon** apenas (grid de cards + `/novidades/{slug}`) |
-| **Newsletter** / **Landing page** | Educação Financeira |
+| **Newsletter** / **Landing page** | Educação Financeira (card) + leitura `/novidades/{slug}` (fora do grid Novidades) |
 | **Post social** | LinkedIn (não site) |
 
 **Radar TRCon** (Sinais de IA e tecnologia) **não** recebe artigos do marketing — só pipeline automático de sinais externos.
+
+No marketing, o editor vê **pré-visualização** do artigo (layout ≈ `/novidades/…`) e do post LinkedIn **antes** de aprovar.
 
 ## Layout na home (jul/2026)
 
@@ -54,6 +56,7 @@ Marketing: `APP_SITE_DEFAULT_URL=http://127.0.0.1:4173` para os links gravados n
 
 | Data | Correção |
 |------|----------|
+| 05/08/2026 | Newsletter/landing: leitura completa em `/novidades/{slug}`; excluídas do grid Novidades (categoria Educacao); upsert economy-tips |
 | 30/07/2026 | Desenho A: capa URL + `og:image` + embed YouTube/Vimeo; guia editorial §4.1 |
 | 27/07/2026 | Artigos deixam de duplicar no Radar |
 | 27/07/2026 | API highlights exclui itens com link `/novidades/` ou `external_id` `-radar` |
