@@ -1,8 +1,26 @@
 {
-  "generated_at": "2026-08-04T21:04:29.077292+00:00",
+  "generated_at": "2026-08-05T10:19:52.633842+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
+    {
+      "title": "Inteligência artificial sai da fase de testes e entra na geração de valor nas empresas, diz sócio da EY Davi Dias",
+      "summary": "Inteligência artificial sai da fase de testes e entra na geração de valor nas empresas, diz sócio da EY Davi Dias",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQTWxuUWVpNEFrTUVLZFh4MU5uWVdFV1NZWTc0QzZYeTVISkFCc2w4Z056aXpLYWNQZGF4OS1rZXVMZERPUzVKcWtkeUhMTmZaU2ZXMjYyOXJFcE8tRWJRdDRpU0w5RzNyVDZaOTNBcHFVNGZJc1pDQ3U1TUlWVGt4cU1QUGNwWUEzVGhBV1lxTFpsbDhWNTAyYVBKTXlSeHlLVVdmZnJFVWZTblNpVFNRZ3BLSkI0Y1I1YTBSejVpVGs2LWNjZFd2ZW5FczdyanhtNzJkbGlRZWxHbWxlZEVNeW9JRWFwZ3BiakZuWERMWnlaUQ?oc=5",
+      "source": "Times Brasil | CNBC",
+      "published_at": "Wed, 05 Aug 2026 01:36:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Nova onda de modelos chineses de IA ameaça domínio das empresas dos EUA",
+      "summary": "Nova onda de modelos chineses de IA ameaça domínio das empresas dos EUA",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPS1ZNQmg0SzBxMjQ3TGFvbkdNVXBOdWVGeE5aUGw2S3lYRUZtcy01LU1JUVRvcW1mZ2lZQ3M1aXZZUTVOdVVQN3REczdjV2tKQm51Wm0xak5CNjM5amltcTZnZWFabTNnQ2ItYXhHeXozcXFaSmIwamFqWVJ1VU1ia29sdmtqeDNzb0RtVVZISXdRNTV3am94OTlUeWd3M1U1MzFER2VJMUhXbTdqY1FhaWFHVlMxZzJXS3lDSkpsNkpURzZxcXVkbnNMeE9ZU0ha?oc=5",
+      "source": "Olhar Digital",
+      "published_at": "Tue, 04 Aug 2026 15:50:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
     {
       "title": "Empresas precisam redesenhar negócios para extrair valor da IA, diz Silvio Meira",
       "summary": "Empresas precisam redesenhar negócios para extrair valor da IA, diz Silvio Meira",
@@ -31,29 +49,11 @@
       "signal": "flat"
     },
     {
-      "title": "Nova onda de modelos chineses de IA ameaça domínio das empresas dos EUA",
-      "summary": "Nova onda de modelos chineses de IA ameaça domínio das empresas dos EUA",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPS1ZNQmg0SzBxMjQ3TGFvbkdNVXBOdWVGeE5aUGw2S3lYRUZtcy01LU1JUVRvcW1mZ2lZQ3M1aXZZUTVOdVVQN3REczdjV2tKQm51Wm0xak5CNjM5amltcTZnZWFabTNnQ2ItYXhHeXozcXFaSmIwamFqWVJ1VU1ia29sdmtqeDNzb0RtVVZISXdRNTV3am94OTlUeWd3M1U1MzFER2VJMUhXbTdqY1FhaWFHVlMxZzJXS3lDSkpsNkpURzZxcXVkbnNMeE9ZU0ha?oc=5",
-      "source": "Olhar Digital",
-      "published_at": "Tue, 04 Aug 2026 15:50:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
       "title": "Manual e inteligência artificial anti-washing orientam empresas",
       "summary": "Manual e inteligência artificial anti-washing orientam empresas",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZUh2cnIwU051SGFnbWZFVHdiYXlxeVU1ZjhBUDFBTk13NDFwZUlIZlViM2VyOWpVZ0JFSVBWQkY0YzhYY0FkTHVmQWMyOVZQTHZyQk5KbkFJeXZBVlNIbG9mdXlwZ1BfcjhPU1EwYUhxU05kSmVLNTVvdnAxQVFmZVVvQzdsSnZyOXVJRHktbWpVZ3M?oc=5",
       "source": "Amazonas1",
       "published_at": "Tue, 04 Aug 2026 11:13:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Melhores palestrantes de inteligência artificial para empresas no Brasil: como escolher o profissional ideal",
-      "summary": "Melhores palestrantes de inteligência artificial para empresas no Brasil: como escolher o profissional ideal",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcUhWY1pRRVhKRFU1VW81MnFNdDRSdWVQblh2YW9ZM2VRdllPdWt2Y1lZLURncTdjc2pDYlUteVc5QmZ2dDV0MlN4Q3g3WUM5UWxrYnJhLWEyTG9WdGViX1BFZGNsazJCWnBVejM0NmZOeTV3aU1odlczQzNoS3NOUzVKUnRiZ09tZGNXUFhBMkgwa3JaZWhXSWJBSXI0MkVMM2dqRExHQkpDdw?oc=5",
-      "source": "Quero Bolsa",
-      "published_at": "Tue, 04 Aug 2026 10:43:49 GMT",
       "category": "IA",
       "signal": "flat"
     }

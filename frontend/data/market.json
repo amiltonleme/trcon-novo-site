@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T21:04:26.219984+00:00",
+  "generated_at": "2026-08-05T10:19:49.587224+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -23,19 +23,19 @@
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 64.252",
-      "change": "+0,87%",
+      "value": "US$ 64.082",
+      "change": "+1,02%",
       "direction": "up"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 1.874",
-      "change": "+0,44%",
+      "value": "US$ 1.869",
+      "change": "+0,84%",
       "direction": "up"
     },
     {
       "symbol": "OURO",
-      "value": "US$ 4.134",
+      "value": "US$ 4.212",
       "change": "estavel",
       "direction": "flat"
     },
@@ -90,8 +90,8 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 64.252",
-      "change": "+0,87%",
+      "quote": "US$ 64.082",
+      "change": "+1,02%",
       "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -101,8 +101,8 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 1.874",
-      "change": "+0,44%",
+      "quote": "US$ 1.869",
+      "change": "+0,84%",
       "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -112,7 +112,7 @@
       "id": "gold",
       "name": "Ouro",
       "icon": "🥇",
-      "quote": "US$ 4.134",
+      "quote": "US$ 4.212",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -144,8 +144,8 @@
   ],
   "news": [
     {
-      "title": "Dólar sobe a R$ 5,20 e Bolsa cai, com juros incertos e petróleo em baixa",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdGx5MHp4aUdwYXdVcVBuNmc5ZVJRWDNBam55WE1UU3Y2THE0MjdZbnRHX1NZWG0tV3FQX29XRUVUMmtQR3ZFVGg3bnRZdFh1MkNtWlpFLTh2dGhzU1dtVHZJR3JJY0xsRzVLM0xRVUoyUWRwSVcwLTZ6eVY3c2g3aW4ySS0xeDcwZWZ1dnlrb1RHSU5jRVlRZG9pM20yUQ?oc=5"
+      "title": "Dólar reverte perdas e sobe para R$ 5,11 com apostas de alta de juros nos EUA; Bolsa cai",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZGUtdVEzVTg2cDYyOGkxaGt0LXlydzltT3Npd25KTXpmbHg0Znd3OVBqVkR0THRUM01HdVctRE15M0tTcHFUMUVOcl9HUzBOSmczVHJ6YnRmWHFFcndzbkZIc1MyQng5bWowdU45cGQ2Q1ZYWV8zNGY3amNtYVNUeDlYM3kwcWtfQWxqbWxwN25mcmJTUXd3TVpNamdMN084eVhyY2s1TVNxSGw5b3N4LWI4WEQ5OElBLWFDbHVRamthYVVsdzRBclIxMC1uLTRs?oc=5"
     },
     {
       "title": "Ibovespa inverte sinal e fecha em queda após Fed; dólar sobe a R$ 5,11",
@@ -160,8 +160,12 @@
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQekF3WTBBeGplQndvVExVTUd4OXdOazhxRVE2clBCQlQzejFQRkQwWHN3Q1F0cU42WnR1RVpKaWVvR0VmQkoyOG9Ja3cwbHktdkxBaXU1WFRKb3ZFZ0EtVkNDY1JWZkMzV3dGSEw0RzQ3QTBHQ3prNXB2SFQwLTRySDdwT1dTV3FPN2I3eDdiZXpRb0ZvTDNjbzZZMkNfR09Zc1BWdHRxRTdSdmxsbUFUdThDeFdjSE5Lc0tJSU96enoxN1c5S2R6YUxnQldyeV9tU2sxMmc2SDA4a3VVYS0yOEhJdnXSAeoBQVVfeXFMTkJ3RjI1NURKSnlmMzVHMzA2Q25XVkYxUHYwOVNsUm1WeUVucE1KQ09HWlIyY1Z5NElQMlRFSWNzdHFMRno0Zm9yejBLLTJZdE9Ma21XNk9YOFViS1NMaHVsU1J1LW5UNWlWZ3dZU0RfS1NGTmFraERkTVdmUEJSUUpoaFNlV1FwMHRLY3ZOMGtjcG10eFN1cEp4QklGZUV6TG5FRGEzZ0IyY1B2V1hYQlBrQWFsRTh4bXZ1aHh0cGVMQ3A1UzFESFhRUzFza0JKRk1Qa1pLMGZYSXlzMkJqTkpqaGEzcUlCUzR3?oc=5"
     },
     {
-      "title": "Dólar reverte perdas e sobe para R$ 5,11 com apostas de alta de juros nos EUA; Bolsa cai",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZGUtdVEzVTg2cDYyOGkxaGt0LXlydzltT3Npd25KTXpmbHg0Znd3OVBqVkR0THRUM01HdVctRE15M0tTcHFUMUVOcl9HUzBOSmczVHJ6YnRmWHFFcndzbkZIc1MyQng5bWowdU45cGQ2Q1ZYWV8zNGY3amNtYVNUeDlYM3kwcWtfQWxqbWxwN25mcmJTUXd3TVpNamdMN084eVhyY2s1TVNxSGw5b3N4LWI4WEQ5OElBLWFDbHVRamthYVVsdzRBclIxMC1uLTRs?oc=5"
+      "title": "Ibovespa cai com Fed mais duro e exterior em queda; dólar fica positivo",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS2FSbk13VW56T0UwS0dna1Nmc3VZQVNob0tYR3ZfWnV2SlZzU21kck5yb19lSE51dF9KVzNPWDE4OFlnZF9xTGRnTXNCY3VBZG1PYWN3WGk0LVk1TXlRRjFXeEE1NGJIakxLR1RKaHRic1czOVpMUm9pZjc1WTN4M2gxcGZRUVlteDJ6cVdDaw?oc=5"
+    },
+    {
+      "title": "Dólar sobe a R$ 5,20 e Bolsa cai, com juros incertos e petróleo em baixa",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdGx5MHp4aUdwYXdVcVBuNmc5ZVJRWDNBam55WE1UU3Y2THE0MjdZbnRHX1NZWG0tV3FQX29XRUVUMmtQR3ZFVGg3bnRZdFh1MkNtWlpFLTh2dGhzU1dtVHZJR3JJY0xsRzVLM0xRVUoyUWRwSVcwLTZ6eVY3c2g3aW4ySS0xeDcwZWZ1dnlrb1RHSU5jRVlRZG9pM20yUQ?oc=5"
     },
     {
       "title": "Dólar sobe a R$ 5,17 e Ibovespa fecha em leve queda após decisões de juros",
@@ -170,10 +174,6 @@
     {
       "title": "Dólar reage e Bolsa desacelera após Fed manter juros; mercado aguarda Copom",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQWdvVG9BemZJSG9yRXhXSzZOVHQ5OUZwcWlXQkc2Tk9faVNydDRlTGN2Z3dIMHcwd1doODZKRHZMV0VIWFIySjZWTEl4Y3ZYRWtvUU5pYTlaNUU1VjNyVUZDWUZBNVFXYUFIR19yM0EwWThLVVFuTzQwa25mU212OS1weFJHdU5ZNjdJeWZ1ZVVralctci1odWo3SXo?oc=5"
-    },
-    {
-      "title": "Dólar volta a fechar em R$ 5 com juros no radar; Ibovespa cai 2%",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPalItclFPbG00SUw1TXBDX0Z5SnFVRjVybHNSZEk1TFFXaWp1Wk5nT190MW1FVlpsaUx5N3Zjb0hMQ2h3SWl4Vk1NMkR5U3o3bjIzZzB2eWJxUFFiV3pGdlo2bnlUODFWUl9JdThkNzdHVk9JcldUdXpqcy1WUTRySWMwSnNSYWlPSUd3RlZERndNN1NpWkpVTmNR?oc=5"
     }
   ],
   "market_mood": {
