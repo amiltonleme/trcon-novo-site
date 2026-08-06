@@ -4,6 +4,9 @@ import br.com.trcon.site.economytips.domain.EconomyTip;
 import br.com.trcon.site.economytips.repository.EconomyTipRepository;
 import br.com.trcon.site.internal.economytips.dto.InternalEconomyTipCreateRequest;
 import br.com.trcon.site.internal.economytips.dto.InternalEconomyTipCreateResponse;
+import br.com.trcon.site.shared.config.ContentTtlProperties;
+import br.com.trcon.site.shared.expiry.ExpiryInstantCalculator;
+import java.time.Instant;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -13,9 +16,16 @@ public class InternalEconomyTipService {
     private static final int DEFAULT_PRIORITY = 10;
 
     private final EconomyTipRepository economyTipRepository;
+    private final ExpiryInstantCalculator expiryInstantCalculator;
+    private final ContentTtlProperties contentTtlProperties;
 
-    public InternalEconomyTipService(EconomyTipRepository economyTipRepository) {
+    public InternalEconomyTipService(
+            EconomyTipRepository economyTipRepository,
+            ExpiryInstantCalculator expiryInstantCalculator,
+            ContentTtlProperties contentTtlProperties) {
         this.economyTipRepository = economyTipRepository;
+        this.expiryInstantCalculator = expiryInstantCalculator;
+        this.contentTtlProperties = contentTtlProperties;
     }
 
     @Transactional
@@ -32,6 +42,11 @@ public class InternalEconomyTipService {
                         ? "Sirius Marketing"
                         : request.source().trim();
         String brandSlug = request.brandSlug() != null ? request.brandSlug().trim() : null;
+        Instant expiresAt = expiryInstantCalculator.resolve(
+                request.publishedAt(),
+                request.ttlDays(),
+                request.expiresAt(),
+                contentTtlProperties.ttlDays());
 
         return economyTipRepository
                 .findByExternalId(request.externalId().trim())
@@ -47,7 +62,8 @@ public class InternalEconomyTipService {
                             priority,
                             request.publishedAt(),
                             brandSlug,
-                            source);
+                            source,
+                            expiresAt);
                     EconomyTip saved = economyTipRepository.save(existing);
                     return new InternalEconomyTipCreateResponse(saved.getId(), true);
                 })
@@ -64,7 +80,8 @@ public class InternalEconomyTipService {
                             request.publishedAt(),
                             request.externalId().trim(),
                             brandSlug,
-                            source);
+                            source,
+                            expiresAt);
                     EconomyTip saved = economyTipRepository.save(tip);
                     return new InternalEconomyTipCreateResponse(saved.getId(), false);
                 });

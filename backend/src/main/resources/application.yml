@@ -30,6 +30,10 @@ trcon:
       allowed-origins: ${TRCON_CORS_ALLOWED_ORIGINS}
     internal-api-key: ${TRCON_SITE_INTERNAL_API_KEY}
     public-base-url: ${TRCON_SITE_PUBLIC_BASE_URL:https://trcongroup.com.br}
+    content:
+      # Default de fábrica = 3; 0 = permanente. Override: SITE_CONTENT_TTL_DAYS=2|6|…
+      ttl-days: ${SITE_CONTENT_TTL_DAYS:3}
+      expiry-cron: ${SITE_CONTENT_EXPIRY_CRON:0 15 3 * * *}
     mail:
       enabled: ${TRCON_SITE_MAIL_ENABLED:false}
       api-key: ${TRCON_SITE_MAIL_API_KEY:}

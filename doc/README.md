@@ -31,6 +31,7 @@ trcongroup/
 6. [`18-MANUAL-MARKETING-EDITORIAL.md`](./18-MANUAL-MARKETING-EDITORIAL.md) — mapa editorial marketing → site
 7. [`17-CUSTOS-S8-MIDIA-IA.md`](./17-CUSTOS-S8-MIDIA-IA.md) — custos S8, mídia, IA imagem
 8. [`19-DESENHO-MIDIA.md`](./19-DESENHO-MIDIA.md) — desenho A (URL/embed) + B (R2 + IA); canônico no marketing
+9. [`20-LOTE-EDITORIAL-SEMANAL.md`](./20-LOTE-EDITORIAL-SEMANAL.md) — impacto no site do lote semanal (proposta; canônico no marketing)
 
 **Especificação e arquitetura (fonte de decisão):**
 

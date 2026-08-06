@@ -1,5 +1,6 @@
 package br.com.trcon.site.internal.news.dto;
 
+import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
@@ -18,4 +19,8 @@ public record InternalNewsCreateRequest(
         @Size(max = 50000) String body,
         @Size(max = 200) String metaTitle,
         @Size(max = 320) String metaDescription,
-        @Size(max = 500) String coverImageUrl) {}
+        @Size(max = 500) String coverImageUrl,
+        /** Dias de visibilidade; 0 = permanente. Null = usar default do site. */
+        @Min(0) Integer ttlDays,
+        /** Se preenchido, prevalece sobre ttlDays. */
+        Instant expiresAt) {}

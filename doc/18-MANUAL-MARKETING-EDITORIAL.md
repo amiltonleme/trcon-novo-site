@@ -2,7 +2,7 @@
 
 > Manual completo: [`../../sirius-marketing/projeto/docs/cursor/12_manual_usuario_marketing.md`](../../sirius-marketing/projeto/docs/cursor/12_manual_usuario_marketing.md)  
 > **Guia capa / demos / apresentação:** §4.1 do manual completo.  
-> Atualizado em **31/07/2026**
+> Atualizado em **06/08/2026**
 
 ## O que vai para onde
 
@@ -15,6 +15,27 @@
 **Radar TRCon** (Sinais de IA e tecnologia) **não** recebe artigos do marketing — só pipeline automático de sinais externos.
 
 No marketing, o editor vê **pré-visualização** do artigo (layout ≈ `/novidades/…`) e do post LinkedIn **antes** de aprovar.
+
+## TTL — visibilidade no site (L0)
+
+Artigos e dicas editoriais **somem da home** após N dias (soft-hide). Default de fábrica: **4 dias**.
+
+| Config | Valor |
+|--------|--------|
+| Site | `SITE_CONTENT_TTL_DAYS` (env) / `trcon.site.content.ttl-days` |
+| Marketing (publish) | `APP_SITE_CONTENT_TTL_DAYS` → payload `ttlDays` |
+| Permanente | `ttlDays=0` → `expires_at` null |
+| Override por peça | body `ttlDays` / `expiresAt` no `POST /api/internal/news` e economy-tips |
+
+Slug expirado → **404**. Sitemap/RSS usam as mesmas listagens filtradas.
+
+### Smoke TTL
+
+```text
+1. POST /api/internal/news com ttlDays=2 e publishedAt antigo → GET /api/public/news não lista; slug 404
+2. POST com ttlDays=0 → permanece em listagens
+3. Marketing: APP_SITE_CONTENT_TTL_DAYS=4 (default) no publish
+```
 
 ## Layout na home (jul/2026)
 
@@ -56,6 +77,7 @@ Marketing: `APP_SITE_DEFAULT_URL=http://127.0.0.1:4173` para os links gravados n
 
 | Data | Correção |
 |------|----------|
+| 06/08/2026 | L0 TTL: `expires_at` em news/economy-tips; env `SITE_CONTENT_TTL_DAYS`; soft-hide home |
 | 05/08/2026 | Newsletter/landing: leitura completa em `/novidades/{slug}`; excluídas do grid Novidades (categoria Educacao); upsert economy-tips |
 | 30/07/2026 | Desenho A: capa URL + `og:image` + embed YouTube/Vimeo; guia editorial §4.1 |
 | 27/07/2026 | Artigos deixam de duplicar no Radar |

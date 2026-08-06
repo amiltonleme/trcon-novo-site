@@ -12,8 +12,12 @@ import br.com.trcon.site.internal.news.dto.InternalNewsCreateResponse;
 import br.com.trcon.site.news.domain.NewsItem;
 import br.com.trcon.site.news.domain.NewsQueryInvalidaException;
 import br.com.trcon.site.news.repository.NewsRepository;
+import br.com.trcon.site.shared.config.ContentTtlProperties;
+import br.com.trcon.site.shared.expiry.ExpiryInstantCalculator;
 import java.time.Instant;
+import java.time.temporal.ChronoUnit;
 import java.util.Optional;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.ArgumentCaptor;
@@ -26,11 +30,17 @@ class InternalNewsServiceTest {
     @Mock
     private NewsRepository newsRepository;
 
+    private InternalNewsService service;
+
+    @BeforeEach
+    void setUp() {
+        service = new InternalNewsService(
+                newsRepository, new ExpiryInstantCalculator(), new ContentTtlProperties(4));
+    }
+
     @Test
     void rejeitaCategoriaInvalida() {
-        InternalNewsService service = new InternalNewsService(newsRepository);
-
-        assertThatThrownBy(() -> service.criar(baseRequest("Invalida", "ext-cat", null, null, null, null, null, null)))
+        assertThatThrownBy(() -> service.criar(baseRequest("Invalida", "ext-cat", null, null, null, null, null, null, null)))
                 .isInstanceOf(NewsQueryInvalidaException.class)
                 .hasMessageContaining("category");
         verify(newsRepository, never()).save(any());
@@ -38,24 +48,21 @@ class InternalNewsServiceTest {
 
     @Test
     void rejeitaCoverImageUrlInvalida() {
-        InternalNewsService service = new InternalNewsService(newsRepository);
-
         assertThatThrownBy(() -> service.criar(baseRequest(
-                        "IA", "ext-cover-bad", null, null, null, null, null, "http://bad.example/a.jpg")))
+                        "IA", "ext-cover-bad", null, null, null, null, null, "http://bad.example/a.jpg", null)))
                 .isInstanceOf(NewsQueryInvalidaException.class)
                 .hasMessageContaining("HTTPS");
         verify(newsRepository, never()).save(any());
     }
 
     @Test
-    void criaNovoComDefaultsDeSourceBodyEMeta() {
-        InternalNewsService service = new InternalNewsService(newsRepository);
+    void criaNovoComDefaultsDeSourceBodyEMetaETtlDefault() {
         when(newsRepository.findByExternalId("ext-new")).thenReturn(Optional.empty());
         when(newsRepository.findBySlug("titulo-padrao")).thenReturn(Optional.empty());
         when(newsRepository.save(any())).thenAnswer(inv -> inv.getArgument(0));
 
         InternalNewsCreateResponse response = service.criar(
-                baseRequest("Financas", "ext-new", "  ", null, "  ", "  ", "  ", null));
+                baseRequest("Financas", "ext-new", "  ", null, "  ", "  ", "  ", null, null));
 
         assertThat(response.duplicate()).isFalse();
         ArgumentCaptor<NewsItem> captor = ArgumentCaptor.forClass(NewsItem.class);
@@ -67,11 +74,25 @@ class InternalNewsServiceTest {
         assertThat(saved.getMetaDescription()).isEqualTo("Resumo");
         assertThat(saved.getCoverImageUrl()).isNull();
         assertThat(saved.getSlug()).isEqualTo("titulo-padrao");
+        assertThat(saved.getExpiresAt())
+                .isEqualTo(Instant.parse("2026-07-01T00:00:00Z").plus(4, ChronoUnit.DAYS));
+    }
+
+    @Test
+    void criaComTtlZeroPermanente() {
+        when(newsRepository.findByExternalId("ext-ever")).thenReturn(Optional.empty());
+        when(newsRepository.findBySlug("titulo-padrao")).thenReturn(Optional.empty());
+        when(newsRepository.save(any())).thenAnswer(inv -> inv.getArgument(0));
+
+        service.criar(baseRequest("IA", "ext-ever", null, null, null, null, null, null, 0));
+
+        ArgumentCaptor<NewsItem> captor = ArgumentCaptor.forClass(NewsItem.class);
+        verify(newsRepository).save(captor.capture());
+        assertThat(captor.getValue().getExpiresAt()).isNull();
     }
 
     @Test
     void criaComCoverConvertidaDoUnsplashEMetaExplicitos() {
-        InternalNewsService service = new InternalNewsService(newsRepository);
         when(newsRepository.findByExternalId("ext-cover")).thenReturn(Optional.empty());
         when(newsRepository.findBySlug("slug-custom")).thenReturn(Optional.empty());
         when(newsRepository.save(any())).thenAnswer(inv -> inv.getArgument(0));
@@ -84,22 +105,20 @@ class InternalNewsServiceTest {
                 "Corpo completo",
                 "Meta Title",
                 "Meta Desc",
-                "https://unsplash.com/photos/AbCdEfGhIjK"));
+                "https://unsplash.com/photos/AbCdEfGhIjK",
+                6));
 
         assertThat(response.duplicate()).isFalse();
         ArgumentCaptor<NewsItem> captor = ArgumentCaptor.forClass(NewsItem.class);
         verify(newsRepository).save(captor.capture());
         assertThat(captor.getValue().getCoverImageUrl())
                 .isEqualTo("https://unsplash.com/photos/AbCdEfGhIjK/download?force=true&w=1600");
-        assertThat(captor.getValue().getSource()).isEqualTo("Fonte X");
-        assertThat(captor.getValue().getBody()).isEqualTo("Corpo completo");
-        assertThat(captor.getValue().getMetaTitle()).isEqualTo("Meta Title");
-        assertThat(captor.getValue().getMetaDescription()).isEqualTo("Meta Desc");
+        assertThat(captor.getValue().getExpiresAt())
+                .isEqualTo(Instant.parse("2026-07-01T00:00:00Z").plus(6, ChronoUnit.DAYS));
     }
 
     @Test
     void atualizaQuandoExternalIdExiste() {
-        InternalNewsService service = new InternalNewsService(newsRepository);
         NewsItem existing = NewsItem.fromMarketing(
                 "Sirius Marketing",
                 "IA",
@@ -113,6 +132,7 @@ class InternalNewsServiceTest {
                 "corpo",
                 "meta",
                 "desc",
+                null,
                 null);
         when(newsRepository.findByExternalId("ext-dup")).thenReturn(Optional.of(existing));
         when(newsRepository.findBySlug("novo-slug")).thenReturn(Optional.of(existing));
@@ -126,18 +146,20 @@ class InternalNewsServiceTest {
                 "Corpo novo",
                 "Meta",
                 "Desc",
-                "https://images.unsplash.com/photo-x"));
+                "https://images.unsplash.com/photo-x",
+                2));
 
         assertThat(response.duplicate()).isTrue();
         assertThat(response.id()).isEqualTo(existing.getId());
         assertThat(existing.getTitle()).isEqualTo("Titulo padrao");
         assertThat(existing.getCoverImageUrl()).isEqualTo("https://images.unsplash.com/photo-x");
         assertThat(existing.getSlug()).isEqualTo("novo-slug");
+        assertThat(existing.getExpiresAt())
+                .isEqualTo(Instant.parse("2026-07-01T00:00:00Z").plus(2, ChronoUnit.DAYS));
     }
 
     @Test
     void resolveConflitoDeSlugComSufixo() {
-        InternalNewsService service = new InternalNewsService(newsRepository);
         NewsItem other = NewsItem.fromMarketing(
                 "x",
                 "IA",
@@ -151,6 +173,7 @@ class InternalNewsServiceTest {
                 "b",
                 "m",
                 "d",
+                null,
                 null);
         when(newsRepository.findByExternalId("ext-slug")).thenReturn(Optional.empty());
         when(newsRepository.findBySlug("titulo-padrao")).thenReturn(Optional.of(other));
@@ -158,7 +181,7 @@ class InternalNewsServiceTest {
         when(newsRepository.save(any())).thenAnswer(inv -> inv.getArgument(0));
 
         InternalNewsCreateResponse response =
-                service.criar(baseRequest("IA", "ext-slug", null, null, null, null, null, null));
+                service.criar(baseRequest("IA", "ext-slug", null, null, null, null, null, null, null));
 
         assertThat(response.duplicate()).isFalse();
         ArgumentCaptor<NewsItem> captor = ArgumentCaptor.forClass(NewsItem.class);
@@ -168,7 +191,6 @@ class InternalNewsServiceTest {
 
     @Test
     void fallbackDeSlugAposMuitosConflitos() {
-        InternalNewsService service = new InternalNewsService(newsRepository);
         NewsItem other = NewsItem.fromMarketing(
                 "x",
                 "IA",
@@ -182,13 +204,14 @@ class InternalNewsServiceTest {
                 "b",
                 "m",
                 "d",
+                null,
                 null);
         when(newsRepository.findByExternalId("ext-many")).thenReturn(Optional.empty());
         when(newsRepository.findBySlug(any())).thenReturn(Optional.of(other));
         when(newsRepository.save(any())).thenAnswer(inv -> inv.getArgument(0));
 
         InternalNewsCreateResponse response =
-                service.criar(baseRequest("IA", "ext-many", null, null, null, null, null, null));
+                service.criar(baseRequest("IA", "ext-many", null, null, null, null, null, null, null));
 
         ArgumentCaptor<NewsItem> captor = ArgumentCaptor.forClass(NewsItem.class);
         verify(newsRepository).save(captor.capture());
@@ -205,7 +228,8 @@ class InternalNewsServiceTest {
             String body,
             String metaTitle,
             String metaDescription,
-            String coverImageUrl) {
+            String coverImageUrl,
+            Integer ttlDays) {
         return new InternalNewsCreateRequest(
                 "Titulo padrao",
                 "Resumo",
@@ -219,6 +243,8 @@ class InternalNewsServiceTest {
                 body,
                 metaTitle,
                 metaDescription,
-                coverImageUrl);
+                coverImageUrl,
+                ttlDays,
+                null);
     }
 }

@@ -40,7 +40,7 @@ class NewsServiceImplTest {
     void deveListarSemFiltroDeCategoriaUsandoLimiteDefault() {
         List<NewsItem> itens = List.of();
         NewsListResponse esperado = NewsListResponse.of(List.of());
-        when(newsRepository.findByCategoryNotOrderByPublishedAtDesc(eq("Educacao"), any(Limit.class)))
+        when(newsRepository.findActiveExcludingCategory(eq("Educacao"), any(), any(Limit.class)))
                 .thenReturn(itens);
         when(newsMapper.toListResponse(itens)).thenReturn(esperado);
 
@@ -53,7 +53,7 @@ class NewsServiceImplTest {
     void deveFiltrarPorCategoriaValida() {
         List<NewsItem> itens = List.of();
         NewsListResponse esperado = NewsListResponse.of(List.of());
-        when(newsRepository.findByCategoryOrderByPublishedAtDesc(eq("IA"), any(Limit.class))).thenReturn(itens);
+        when(newsRepository.findActiveByCategory(eq("IA"), any(), any(Limit.class))).thenReturn(itens);
         when(newsMapper.toListResponse(itens)).thenReturn(esperado);
 
         NewsListResponse resultado = service.listar("IA", 10);
@@ -81,8 +81,7 @@ class NewsServiceImplTest {
 
     @Test
     void listarComSlugUsaLimiteDefaultEClamp() {
-        when(newsRepository.findBySlugIsNotNullAndCategoryNotOrderByPublishedAtDesc(
-                        eq("Educacao"), any(Limit.class)))
+        when(newsRepository.findActiveWithSlugExcludingCategory(eq("Educacao"), any(), any(Limit.class)))
                 .thenReturn(List.of());
         when(newsMapper.toListResponse(List.of())).thenReturn(NewsListResponse.of(List.of()));
 
