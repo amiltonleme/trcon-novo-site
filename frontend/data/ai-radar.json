@@ -1,17 +1,8 @@
 {
-  "generated_at": "2026-08-06T10:21:57.601403+00:00",
+  "generated_at": "2026-08-07T00:51:11.893334+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
-    {
-      "title": "Inteligência artificial já impacta 78% dos profissionais no Brasil e vira tema de evento em Natal nesta quinta-feira (6)",
-      "summary": "Inteligência artificial já impacta 78% dos profissionais no Brasil e vira tema de evento em Natal nesta quinta-feira (6)",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOeDkwRnlYeThtTWVocjYyYWVoendGSXNqV2JlcFdwR1puaWVzOU9vVk9oWnRfMUJqYkR0SWJlZFBpRGJWRENXVzJ2YnFjWnViMlFnTUtrNUl4a2VSV0pZYVJHUXZpSkpOLXdEb0xLbC15NUtuMVFrR21Gb0lVdi1NT1Nib1prNV9XN1NWTzB4enZnUldfS0ZXX2JaSmlWblhQMVN3TFBoR2ozWWl0WGRtLS0zNGplaTE0N2RNOGhyUTQtdzI4VC1SQjJMMk1PUlNsQUNHeWkwaFNYZjhjNWF1ZlZuZEliNmVYQmJGOGQyZlhxZDBvaTA4?oc=5",
-      "source": "Portal 98 FM Natal",
-      "published_at": "Wed, 05 Aug 2026 19:03:56 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
     {
       "title": "Nova onda de modelos chineses de IA ameaça domínio das empresas dos EUA",
       "summary": "Nova onda de modelos chineses de IA ameaça domínio das empresas dos EUA",
@@ -22,31 +13,40 @@
       "signal": "flat"
     },
     {
-      "title": "Governo dos EUA diz a empresas de IA que modelos de peso aberto da China serão dispensados de testes",
-      "summary": "Governo dos EUA diz a empresas de IA que modelos de peso aberto da China serão dispensados de testes",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPZDJ5ZFRkakdyY1Y1TlhNcnh5YlhQQm1meko5dGlFXzJoQ09SbFpWRnZlVm8tQzZxc01nM2c3cUV1ZkxSR2FxTUZtcUhNOHIyajhESHE4bGpLb1AySUQyRE01NXBmMTFuaHlnZDdTSWQ2V2xEYkVwRDlzVnhTQ1VubEFnVFdieXJYQXBtZ09yMmlsN2lPcmJjYUVLbkxweTUzQ2NkUEs0TjEtc2lsX2dVSkJ1NnBPYThpWHJsV3owV1hjMkNPa1FnRzNJem1PYlF0dllqcTRIWkFuR0JnaG00RjBDUHhRR1U3LVZvT2lpSTR4SGp5VGhpVnJwdWs3VEHSAY4CQVVfeXFMTnQ5WC12R0x4WnpBUGlrWjU5dVBpOEpyX09rT0paUm1FUHdkOXlEaGRVUkNnV2hIamhJZWxUS0Z4NFUtSzR3SzE2NkktWEJNQWc5azV3NDVYd3NTLTVEc1phZkgtNkJSMGNzUmE2eG9nbVBWT0xRWXBybzlwTkFXZmpRN1ZKa1laTkE2OHRYSFNwN3dncWJIN1dEdS0yYUdwNDBQeUwzeURqVXMwdDZLSGtfanlGcDlxMG8xVG90b3dfcjViWEZYODg4d2ZQZWlfVkY5OVJxa3RwQ3NIOVBvU3Fxc0F2V1lyQmJFWXRNQ28zNWNEcGVVSU5sVXhlT3pFd2h3R0RlRV83Q3VJOWJn?oc=5",
-      "source": "O GLOBO",
-      "published_at": "Wed, 05 Aug 2026 01:48:13 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "A empresa de IA que destruiu milhões de livros para treinar seu modelo",
-      "summary": "A empresa de IA que destruiu milhões de livros para treinar seu modelo",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVXBUZHd5MXdwNjc2ZHl4NUtxVzBrM2VEMTRNSnk5NHBfQ0ZJTUk3T3NYSC15YzJGYUZjcl9TdEZ2N0pJYm9QYVhoNFR3NHhYSW1jMjV6TWJQLWs5QVd1NmlUTnRkTHk3VzA2NGI2VFRZUVZEQzRMNDQybmY5ODJqVEw1a0RKNTNqUl85UlNER1lsaVJTUGRhZ2NSMV9pTml2RWfSAacBQVVfeXFMT2YwSjNiV29leUF0RGREb0lRMWJNWEdVVURZckc4QXJ0RHV1SnlnM3ZaWmhScGpnSktRcnV4ZzNGWmpIYVV4VzdCcTZadEwtN3pEZFFqQTlVOWlTNUU0bl91X09DeTVHeDU4U3N1WTg5VUphbGVSZUxlMFpSaVFkS0pJdDJpSEFSREp2Mk0ySlQwU3dSYndLRmRRQ1JycjdWMTBRN0Rndzg?oc=5",
-      "source": "Agência Pública",
-      "published_at": "Mon, 03 Aug 2026 20:35:20 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Empresas precisam redesenhar negócios para extrair valor da IA, diz Silvio Meira",
-      "summary": "Empresas precisam redesenhar negócios para extrair valor da IA, diz Silvio Meira",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbXdpcDF6aWhOZFNodW9KY21ZNHlRZWtUT25aSEZMX0d5OTY4U2ttOHQtN2FIRzl5RjNYdTU3WVZ4YVFsV21VeFk2MThOUHVuSUEzVHRvWXNObzBwNjN4TF8yR1FkejlTNWE2Zl9LQWNCNjlmY1NoYW13RkVUdjNxeEZDM0tzZEpqZk9qVVhWSXFPaFh6MlRrVWYtN0FYblR0dTNXQWNUOHdNdUJzYTZCZHJFQVEtS3lUU1cxWmlpZ1VJdThmNmRPUGlDTThtVVR0SkpN0gHiAUFVX3lxTE9DX1puZjZGWWJhRFVvY1pfZjlsQ0RCdkg4QUVqdlEwVkNBd0k4VU5IdmhwRE9DS1B4cHFxdWNxbWhKMVFUUzlVU2JKS2Z4RE10R1J0eGxIMk5fTER3WXF3V2FyT25zOHVjRW9Eak92cTF6OURKajB1OEVlX0x2TWVjOVh1WG1EUmZ1WGJ4QWhpSzZRejd0UkgwQTlfMmgyWkRfVDg1LWt1SzRFTmZLck9SbEg3dTQ5dnpVd2xOb1hDVHhhbmt6amJhaUc1Y0gzMWxzWVBvU3ZBYWNXbjJaa2REQ2c?oc=5",
+      "title": "Volume de processos judiciais contra empresas de IA cresce em ritmo forte",
+      "summary": "Volume de processos judiciais contra empresas de IA cresce em ritmo forte",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbHcwZUY2WDRaNkpQZUdCMThMSEtsVnNHWkItMXhmRGdKb2pvbHo2MmFpOTM1ZmFfWGItZGRKNjlOTFRyRGdZaHdKMHF0bmhhMjB1ZlVuWWxDb25IU3hFM0J0SnZrYm9xVWpIZ09kRnB4VGhUZ0JZMVVfRmFMeUhweFBfenQ2NEc4dWdJQjRJSEtEWDh4SFl2ZjNvdVozbU5MbzE3QUo3YkhiODY4N2JCem9PdHREVTAweVdtUjNDbDg1bVlKUDM5b1dZUdIB2gFBVV95cUxOM2JXSDY4RGxnOW9RdERKLVd1MVU2a19rdzdDMldhS2s1Qkdlb3daZlRQamVSSGlZVm9BdWhDSVFQN3o3TUdDN3R4NXBXeGlBYTBiZ1J4clZKeW9RZ2g3VE1VWEdUSmhyb1BQaXMxak9vdjNJTGJvZWZQVmVRSjlMU2tBYWtydUZKTm5KVUxGWUVPREoxZUJPY0tERkIzc21aV0hzWnBIUk1ZZl91VGZMOVI0a3hscmd0Y050N2hBQktieFJjazl1VjQyT2thck9KeWVudHVXc1V6UQ?oc=5",
       "source": "Valor Econômico",
-      "published_at": "Tue, 04 Aug 2026 01:42:27 GMT",
+      "published_at": "Thu, 06 Aug 2026 08:00:31 GMT",
       "category": "IA",
       "signal": "flat"
+    },
+    {
+      "title": "A IA vai te substituir? Veja o que diz um relatório da Google",
+      "summary": "A IA vai te substituir? Veja o que diz um relatório da Google",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYlpyUVR1ckJudGlwU0h4VGFpUlFvUVhfOFk5d01WVml5bDFKZVBueW5JNEZhM0F0V2V3RWR4anFFNklmYm9fOU1LMUVoZlVnc1p1cDMwYWpTUHpxUHdkcEwtV01RcjdxZE1VYjlCUzNzdzNReWV5MUdHM2pqVWtsTm9laDcwdWZ1Z0NyRDNuZzdoVWF4Q3R4bjJoMDRCdm5qaTBzWDRR?oc=5",
+      "source": "Brasil Paralelo",
+      "published_at": "Thu, 06 Aug 2026 21:52:59 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "'Hack culposo'? Como modelos de IA estão invadindo empresas no improviso",
+      "summary": "'Hack culposo'? Como modelos de IA estão invadindo empresas no improviso",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNamRoMVp4S2JEV1M5N2J3d1dQSVhFUUM1Y2F4WmV4LVRPNnFMWFF2MnlubUNOOU05NEZVdDVWdGtxZm9KdUJLUThnSFVId215SUl5U20tLTRPV0NJbTAwN25NSGV0OWRYSGJJbG5ITEtITFpyV3ZNVmNpeUkzOV9NWXBlWGpCOFZLOElSQ2VoMGdjVUxSTWQxbkJkSndvcXpweC0tUU1XUFRtbmt0OUdGc1Vn?oc=5",
+      "source": "exame.com",
+      "published_at": "Thu, 06 Aug 2026 13:02:59 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Empresas investem cada vez mais em IA. O resultado não anda no mesmo ritmo",
+      "summary": "Empresas investem cada vez mais em IA. O resultado não anda no mesmo ritmo",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcThqSHNSX01zUmlXQV95Qy00OWFEaVlUdVp6SFFaa3lyU291UDZSb2JSSk8tNy1PUDF4SzdJNEg2dW1GQTJrV3hvSVVLZ0p1cHJhWkI3WG81TzEwQkZoUFlmSnpuRW94dWpSUHBsRXhMRmlIY2RqNk1fM1JCMGxIMG5iV1JGVjFNUlBmNGN3XzZ3OFRNVGZSMGp6ZE1iNWpRTlJIMHZpUUxNdkF0Y0k3Y2I3dkFPYUU?oc=5",
+      "source": "E-Commerce Brasil",
+      "published_at": "Thu, 06 Aug 2026 12:24:17 GMT",
+      "category": "IA",
+      "signal": "up"
     },
     {
       "title": "Melhores palestrantes de inteligência artificial para empresas no Brasil: como escolher o profissional ideal",

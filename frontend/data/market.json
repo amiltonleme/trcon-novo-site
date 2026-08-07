@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-08-06T10:21:54.731073+00:00",
+  "generated_at": "2026-08-07T00:51:08.670586+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
     {
       "symbol": "USD/BRL",
-      "value": "R$ 5,12",
+      "value": "R$ 5,10",
       "change": "0,00%",
       "direction": "flat"
     },
     {
       "symbol": "EUR/BRL",
-      "value": "R$ 5,91",
+      "value": "R$ 5,89",
       "change": "0,00%",
       "direction": "flat"
     },
     {
       "symbol": "IBOVESPA",
-      "value": "177.726 pts",
+      "value": "175.546 pts",
       "change": "estavel",
       "direction": "flat"
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 64.582",
-      "change": "+0,77%",
-      "direction": "up"
+      "value": "US$ 64.241",
+      "change": "-0,52%",
+      "direction": "down"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 1.903",
-      "change": "+1,80%",
-      "direction": "up"
+      "value": "US$ 1.901",
+      "change": "-0,38%",
+      "direction": "down"
     },
     {
       "symbol": "OURO",
-      "value": "US$ 4.329",
+      "value": "US$ 4.289",
       "change": "estavel",
       "direction": "flat"
     },
@@ -57,7 +57,7 @@
       "id": "usdbrl",
       "name": "Dolar (USD)",
       "icon": "💵",
-      "quote": "R$ 5,12",
+      "quote": "R$ 5,10",
       "change": "0,00%",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -68,7 +68,7 @@
       "id": "eurbrl",
       "name": "Euro (EUR)",
       "icon": "💶",
-      "quote": "R$ 5,91",
+      "quote": "R$ 5,89",
       "change": "0,00%",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -79,7 +79,7 @@
       "id": "ibov",
       "name": "Ibovespa",
       "icon": "📊",
-      "quote": "177.726 pts",
+      "quote": "175.546 pts",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -90,9 +90,9 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 64.582",
-      "change": "+0,77%",
-      "direction": "up",
+      "quote": "US$ 64.241",
+      "change": "-0,52%",
+      "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
       "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
@@ -101,9 +101,9 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 1.903",
-      "change": "+1,80%",
-      "direction": "up",
+      "quote": "US$ 1.901",
+      "change": "-0,38%",
+      "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
       "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
@@ -112,7 +112,7 @@
       "id": "gold",
       "name": "Ouro",
       "icon": "🥇",
-      "quote": "US$ 4.329",
+      "quote": "US$ 4.289",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -160,8 +160,8 @@
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWnVEZmc1eTl4Q0lNU0w5MGdLVVhDMDJ0QWZSdzVQX1RYVkJpdkVCZ3N5dll0TG01emg2MzQwN2hKR1gydFMwYjFrejZsZEhUbzBKLVVsX1B0YXBXcFdxM0RPbXZ6a3I2NFJWT0ZCUEIzb090WUhfeEdqMlBXSlZ6M3RuRC12bVlWNUJMMzZpcTJUS24zNHF4cXlB?oc=5"
     },
     {
-      "title": "Bolsa, dólar e juros: o que esperar após EUA classificarem PCC e CV como terroristas",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZER3WDlEYkpJQVZrZWFiSGFrb1NYRzdSTkM0Rzkwc2pmTURnUUUzLWRBTTZjRW1vV3hTZW5CS2ctcnYxWEQwMDd6VXVid0syNWtEeTNLRC1jVDhSdTZTVTBxSlh0dnB3a0NuV3lVc3d3Q2M4cV9XOUdGQmx2RHVtbm9qb0xJTzUxd21lako1OGtXMFpDU1h3U0FyZFBGMXJIOWREMFR3OEpick01aVZkTUFGU2lObW80NnhFRmM1empfZ0hsb1dsbkJHc19KT3VOSDBCcDhKaElzMVZpeGd1UklzYVlaXzQ0VXFMbDJMNUFJcl95ZkpOeU5FWUVNRGRqMVU4WFpNS1FHSlXSAZoCQVVfeXFMUHVtMFU3QXFIZ25Hc2t4VTgwakJVLVU2XzE4U3E3LWcwZ3hqOGFMaUxzOV9MdWxUQTQ5RWZ6bkhtYUZsai1hNms5MHU5amFfSWRubHIxREZjaDdWOF9iVjNtNHpGQnVDemJ0Y2xFTlB1OXJVWnpCV2NlWWJBS3pyQk9ZV2lPaElRaGZ1VEgxN2JfUXhNVUxvekVpeGZ6Z1A5SEttdHhrWjJwdGtaMnpKa1o1MXBBM3ZIaTJ6QUEwQkM2OWdJSkZRMUZHdlVVVy1vY09ncWdiazA4VVRGVmRRNVN4d3FWd0xUV0hRX3ptN3pOeHJNUDRIZURPcU5xRmRJejdsb09hVTh0N21PMzY0NnkxY0dheUkybHF3?oc=5"
+      "title": "Dólar sobe e vai a R$ 5,17, após decisões de juros e acordo entre EUA e Irã; Ibovespa cai",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1od3R3UXg3SnFvR0hhUW5sd2dmNEM3Yy1lcW1EU1lKOHA5VGlNZkg1NXQyMzVpWWs0NGFtVXVUUlpJelBFMHBDeXluYzlVeGJZLV9YQkx5Y2E2WUFUa3ZLVWc5cjN0UVJVb2RCbjgydl9OMFhScm9LaNIBhwFBVV95cUxNSFQzR1Bmcm1EbWdNZHdRbFZvT3MxaHgwUDA1eG45Vi1WOW5GTWNNWlc2UWVXUGZoZ2RENDlCVVR6eWYzQnN5YmFQck0wdzM1VGw3MFJmMnZnMW5WOHhZb2E5WWl5aVo1Z0ZUQjdERkYyUmQtV2pXYnFySTRsQjhDX0lmeGN5Unc?oc=5"
     },
     {
       "title": "Dólar sobe a R$ 5,20 e Bolsa cai, com juros incertos e petróleo em baixa",
@@ -172,8 +172,8 @@
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdlpHUTFxQjhTS2NaYnV5OE9yQktmMjQ4djFHbGFiSEtzZms5aWZPWENDTUJyYzFQaTJiV0c1bFF6b3ZmYVdwTXFlcE1DdTZ6TEtKWDdva2ZOaGthSG8wZDUtQ2hQZ2pBMnV4UVZvTmI3cTBMc1BHbVlyZG1UT3puSVQydTJDbXdKRVN6OWwwNWVOMHdqNHl2YXZB?oc=5"
     },
     {
-      "title": "Dólar sobe e vai a R$ 5,17, após decisões de juros e acordo entre EUA e Irã; Ibovespa cai",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1od3R3UXg3SnFvR0hhUW5sd2dmNEM3Yy1lcW1EU1lKOHA5VGlNZkg1NXQyMzVpWWs0NGFtVXVUUlpJelBFMHBDeXluYzlVeGJZLV9YQkx5Y2E2WUFUa3ZLVWc5cjN0UVJVb2RCbjgydl9OMFhScm9LaNIBhwFBVV95cUxNSFQzR1Bmcm1EbWdNZHdRbFZvT3MxaHgwUDA1eG45Vi1WOW5GTWNNWlc2UWVXUGZoZ2RENDlCVVR6eWYzQnN5YmFQck0wdzM1VGw3MFJmMnZnMW5WOHhZb2E5WWl5aVo1Z0ZUQjdERkYyUmQtV2pXYnFySTRsQjhDX0lmeGN5Unc?oc=5"
+      "title": "Bolsa, dólar e juros: o que esperar após EUA classificarem PCC e CV como terroristas",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZER3WDlEYkpJQVZrZWFiSGFrb1NYRzdSTkM0Rzkwc2pmTURnUUUzLWRBTTZjRW1vV3hTZW5CS2ctcnYxWEQwMDd6VXVid0syNWtEeTNLRC1jVDhSdTZTVTBxSlh0dnB3a0NuV3lVc3d3Q2M4cV9XOUdGQmx2RHVtbm9qb0xJTzUxd21lako1OGtXMFpDU1h3U0FyZFBGMXJIOWREMFR3OEpick01aVZkTUFGU2lObW80NnhFRmM1empfZ0hsb1dsbkJHc19KT3VOSDBCcDhKaElzMVZpeGd1UklzYVlaXzQ0VXFMbDJMNUFJcl95ZkpOeU5FWUVNRGRqMVU4WFpNS1FHSlXSAZoCQVVfeXFMUHVtMFU3QXFIZ25Hc2t4VTgwakJVLVU2XzE4U3E3LWcwZ3hqOGFMaUxzOV9MdWxUQTQ5RWZ6bkhtYUZsai1hNms5MHU5amFfSWRubHIxREZjaDdWOF9iVjNtNHpGQnVDemJ0Y2xFTlB1OXJVWnpCV2NlWWJBS3pyQk9ZV2lPaElRaGZ1VEgxN2JfUXhNVUxvekVpeGZ6Z1A5SEttdHhrWjJwdGtaMnpKa1o1MXBBM3ZIaTJ6QUEwQkM2OWdJSkZRMUZHdlVVVy1vY09ncWdiazA4VVRGVmRRNVN4d3FWd0xUV0hRX3ptN3pOeHJNUDRIZURPcU5xRmRJejdsb09hVTh0N21PMzY0NnkxY0dheUkybHF3?oc=5"
     }
   ],
   "market_mood": {
