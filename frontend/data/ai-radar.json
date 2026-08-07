@@ -1,7 +1,9 @@
 {
   "generated_at": "2026-08-07T00:51:11.893334+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
-  "errors": [],
+  "errors": [
+    "Sem itens novos nesta execucao; mantido o ultimo artefato valido."
+  ],
   "items": [
     {
       "title": "Nova onda de modelos chineses de IA ameaça domínio das empresas dos EUA",

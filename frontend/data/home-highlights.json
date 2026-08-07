@@ -1,7 +1,10 @@
 {
-  "generated_at": "2026-08-07T00:51:12.997059+00:00",
+  "generated_at": "2026-08-07T08:44:35.434693+00:00",
   "source_note": "Destaques consolidados dos radares TRCon (curadoria por regras).",
-  "errors": [],
+  "errors": [
+    "Sem itens novos nesta execucao; mantido o ultimo artefato valido.",
+    "Sem itens novos nesta execucao; mantido o ultimo artefato valido."
+  ],
   "items": [
     {
       "category": "IA",
