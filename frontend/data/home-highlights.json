@@ -1,47 +1,50 @@
 {
-  "generated_at": "2026-07-30T10:07:52.680822+00:00",
+  "generated_at": "2026-08-07T08:44:35.434693+00:00",
   "source_note": "Destaques consolidados dos radares TRCon (curadoria por regras).",
-  "errors": [],
+  "errors": [
+    "Sem itens novos nesta execucao; mantido o ultimo artefato valido.",
+    "Sem itens novos nesta execucao; mantido o ultimo artefato valido."
+  ],
   "items": [
     {
       "category": "IA",
-      "title": "Adoção da inteligência artificial avança mais rapidamente que sua governança nas empresas",
-      "summary": "Adoção da inteligência artificial avança mais rapidamente que sua governança nas empresas",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdDFCdjMzZ0lrdmxRRlNlTGlrZ1FDeHZGTVZNRlRsQmx6OGN1VklXQUZQWUEtX3J4ZWhSMmt6OWMwQlhVOEMxbUhWMFpmci16MUNPX2ptZjJ3SkU3bjVhT2dLejBxY09lYzI3bjh5LU93UUtRd1lrTVRNX2lDUDRFalVsNDdMRUtJaVNfdHhZVzF0R3UyS3NJRzVqNU05aGh1dXhIVUdzWGx5YTVCT0dvYU5zYnJ4Zw?oc=5",
+      "title": "Nova onda de modelos chineses de IA ameaça domínio das empresas dos EUA",
+      "summary": "Nova onda de modelos chineses de IA ameaça domínio das empresas dos EUA",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPS1ZNQmg0SzBxMjQ3TGFvbkdNVXBOdWVGeE5aUGw2S3lYRUZtcy01LU1JUVRvcW1mZ2lZQ3M1aXZZUTVOdVVQN3REczdjV2tKQm51Wm0xak5CNjM5amltcTZnZWFabTNnQ2ItYXhHeXozcXFaSmIwamFqWVJ1VU1ia29sdmtqeDNzb0RtVVZISXdRNTV3am94OTlUeWd3M1U1MzFER2VJMUhXbTdqY1FhaWFHVlMxZzJXS3lDSkpsNkpURzZxcXVkbnNMeE9ZU0ha?oc=5",
       "priority": 1,
-      "publishedAt": "Wed, 29 Jul 2026 15:05:10 GMT"
-    },
-    {
-      "category": "Tecnologia",
-      "title": "ONU Meio Ambiente inclui software brasileiro em plataforma de conversão de dados globais de sustentabilidade",
-      "summary": "ONU Meio Ambiente inclui software brasileiro em plataforma de conversão de dados globais de sustentabilidade",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOd1prTU9tbDJSdlNBRUJEOGdTU2U0NDV0Ymp1Z1ptRTRjSF96R1ViQlNhcklqY3NRQWRCbVhSYjlMN0VsM1BxWkNyN1RkcWlqMWFMXzRuY0JNT1ZnbXpucU1SWkYtTS11OU1uU0tUd3M4TnpOU20xTEVRMF93WUhWQUJoX0tyY1pOSUU0UHdmaW92TUFVTC0zV0YzVUhYVThSVkcyLTIyVzd3SlhzS3k2Vk4zU3dvTmFNNGFfWVI5bUpzdTNzVklNYlltSDhHUjdrMXZGVnZOaXZ3MWpzczgxTUFZR1BPaUtyOHJpcndMUG4wSDlFaWw5XzFNVERkZUxXYnc?oc=5",
-      "priority": 2,
-      "publishedAt": "Fri, 06 Feb 2026 08:00:00 GMT"
-    },
-    {
-      "category": "IA",
-      "title": "Agente de inteligência artificial da OpenAI invadiu outras quatro plataformas, confirma empresa",
-      "summary": "Agente de inteligência artificial da OpenAI invadiu outras quatro plataformas, confirma empresa",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPVFRFb21YMnA2MWlXb3R0cTF2U1AtU2ZKS3JMVDNrTGRhSkk2Mm9ONEhLQzN0VFlsMnJ4cTBXcThWQ1ZGdFp1RFllbEdLVDVvdzViNjFGdHJ1WWFlaFUyUVhyQ3Y3R2RRVGlYcy1oMU9sNWJNdXU4UEdoVVFaemp4bTFLbkNuWjlTVTZQSFhaQUxnNEo2bDVhNjZsaTlrT2tJQ2lRdG9TdW1fXzZkVHVwdkVfOHpKSzZMUzQ4ckhtZ3ZrQ2FIdEl3UHBQWTE1UTJuTmVyNnlFUGtvWmMwekFicHY0aEpJUEQ4RGFKT213STBnZW5Dc24w0gGGAkFVX3lxTFBYUUpPeDA2a04zcmxKbkx4M0xvanVFY2hYUTI0ZjB4MjkyR3UzSDBUTlBxaHotQXRnWEJmOXM0OE1DX1Q2YWNTem8taV9pbTJXbmRvSVpRVmtnd2NSSXFrcXNJWk1ncnNsU0NXTjkxZUpNZV9sdXVjYmc4WkF0WlZxRXEyRlVQdnJIdTZuX0lHbTlUemhjNTNTVmh2TFVWWjd5ZnF0U2tzNDFucUZQNzNOZ1hySmhSWGRDdWtoSTltaXhXdzM1MUF6MlBNYzgyamlvUFZwcTNYT3RVTXpUTHprclBKNC1kNlhqNTdyTTBPVXRGLTNfQzV3RHRhUlQ2MVRDNW01VUE?oc=5",
-      "priority": 3,
-      "publishedAt": "Wed, 29 Jul 2026 15:28:46 GMT"
+      "publishedAt": "Tue, 04 Aug 2026 15:50:00 GMT"
     },
     {
       "category": "Tecnologia",
       "title": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
       "summary": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUVRkY3hvRDJhQ3B1Y0R6MndjNXBQNHFGVVBLb2IzS0hkV3FsS3FkbkNkZzhXaTB2Tzl2QWZZUjZ1dmxFZUdRVEFIQUFCemFzMmlDQmpZTnJYTXdPXzBKSUdXYmZrTlNOWGVNNlZ0YlQ1eGwzT3NHV2pkTXpCck93M21SV2hYVkVHbGhfY01oVXI3ZFh5Uzd3VURZeDlCUXl3X3J3SWx4QzFIQ253c1B6aktSMUZVcE4temUzaGxR?oc=5",
-      "priority": 4,
+      "priority": 2,
       "publishedAt": "Wed, 03 Jun 2026 07:00:00 GMT"
     },
     {
       "category": "IA",
-      "title": "‘Hacker’ autônomo: como IA da OpenAI 'invadiu' várias plataformas e por que isso preocupa analistas e empresas?",
-      "summary": "‘Hacker’ autônomo: como IA da OpenAI 'invadiu' várias plataformas e por que isso preocupa analistas e empresas?",
-      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOSUViY05iYkw2N3RGNXpxZGFMTFg2cWNOUDVjYnJDampDemlaZEYtUDNPZzBocUJNUnB3WmkxV3NUdEdEWm1BdmFFbjY0S25TWl9sbVlfTU81anFfWndheV95WmlReGQ3ejExN2x1UlYxMC1IZ0hWVmJsN2stQXpOOWxYR3ZkaWI0M01RQUd3a0FIU1BZUUN6UlN2MU9zeFJQcjJSU1RrQmdYbEhGQ1hIVTVldmdiclV5bTRLN0diNUhVOXl4LVlrbTRtbjQydF9NUGJYbExvTzhfVEphNGMyWThVMktCTkhfY0VMdllPcm1mNWZrR1g3d0FYUkFEcDhjTW51NXpn0gGUAkFVX3lxTE5KVzdfYUVicWxMYmRHdjVpR3R0Qm9OZ1RSbW10Wk4zb2NtQ1BxVmtZV1dlUTdWRVhaMk5jcDhXTmZyU2ZuOUlLbTR3UXB0RlliaEFTREMzSS02Q2ZjUGhadE9MZXFqbUVuWnZPcTR5eGY3OXFvYXJlQnhlXzcxYWdlUEhNRVdVYmlPZk1CMTVjR2dpWEp5OGhqeFVxOU95VElSbWFhTFd5bDBpYTVqSGdDUUhFOHdWdFBhMVJhdWhrUlRNQWNuTkNUYnZXbkxZbk5wMllRb1FCU2JTSlBGajBOY3o5S2h0NklTQmJJMjB1aUlLZUxfLXVYMjJQRU5SQ0NHRnZiaGh1eVN6a1ZJaTBxQnV3SA?oc=5",
+      "title": "Volume de processos judiciais contra empresas de IA cresce em ritmo forte",
+      "summary": "Volume de processos judiciais contra empresas de IA cresce em ritmo forte",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbHcwZUY2WDRaNkpQZUdCMThMSEtsVnNHWkItMXhmRGdKb2pvbHo2MmFpOTM1ZmFfWGItZGRKNjlOTFRyRGdZaHdKMHF0bmhhMjB1ZlVuWWxDb25IU3hFM0J0SnZrYm9xVWpIZ09kRnB4VGhUZ0JZMVVfRmFMeUhweFBfenQ2NEc4dWdJQjRJSEtEWDh4SFl2ZjNvdVozbU5MbzE3QUo3YkhiODY4N2JCem9PdHREVTAweVdtUjNDbDg1bVlKUDM5b1dZUdIB2gFBVV95cUxOM2JXSDY4RGxnOW9RdERKLVd1MVU2a19rdzdDMldhS2s1Qkdlb3daZlRQamVSSGlZVm9BdWhDSVFQN3o3TUdDN3R4NXBXeGlBYTBiZ1J4clZKeW9RZ2g3VE1VWEdUSmhyb1BQaXMxak9vdjNJTGJvZWZQVmVRSjlMU2tBYWtydUZKTm5KVUxGWUVPREoxZUJPY0tERkIzc21aV0hzWnBIUk1ZZl91VGZMOVI0a3hscmd0Y050N2hBQktieFJjazl1VjQyT2thck9KeWVudHVXc1V6UQ?oc=5",
+      "priority": 3,
+      "publishedAt": "Thu, 06 Aug 2026 08:00:31 GMT"
+    },
+    {
+      "category": "Tecnologia",
+      "title": "O desenvolvimento de software entra em uma nova fase",
+      "summary": "O desenvolvimento de software entra em uma nova fase",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSnpBeW1nUVZVRFp3cWlWRVB3RVV1blJjSEwwcFFpU2UyQ3h2Zk56M3Fjby1JU2JqdUhEMlR2X2dCQlBVTHlnd2R5b3ZhdTRhUjZ4c0pfVGpnUjIzMW5HU0pzMDVDTDFHRnZkNVlqMHh5UHNmNW5rdUhFQWVMeDh5QXY0WEhJcU1kS3FId2dIRQ?oc=5",
+      "priority": 4,
+      "publishedAt": "Thu, 16 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "category": "IA",
+      "title": "A IA vai te substituir? Veja o que diz um relatório da Google",
+      "summary": "A IA vai te substituir? Veja o que diz um relatório da Google",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYlpyUVR1ckJudGlwU0h4VGFpUlFvUVhfOFk5d01WVml5bDFKZVBueW5JNEZhM0F0V2V3RWR4anFFNklmYm9fOU1LMUVoZlVnc1p1cDMwYWpTUHpxUHdkcEwtV01RcjdxZE1VYjlCUzNzdzNReWV5MUdHM2pqVWtsTm9laDcwdWZ1Z0NyRDNuZzdoVWF4Q3R4bjJoMDRCdm5qaTBzWDRR?oc=5",
       "priority": 5,
-      "publishedAt": "Thu, 30 Jul 2026 07:00:51 GMT"
+      "publishedAt": "Thu, 06 Aug 2026 21:52:59 GMT"
     },
     {
       "category": "Tecnologia",
