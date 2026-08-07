@@ -49,14 +49,16 @@ class InternalNewsControllerIT {
                 "https://trcongroup.com.br/novidades/lancamento-sirius-marketing",
                 "Tecnologia",
                 "sirius-marketing",
-                Instant.parse("2026-07-22T18:00:00Z"),
+                Instant.now(),
                 "content-123-v1",
                 "Sirius Marketing AI",
                 "lancamento-sirius-marketing",
                 "Corpo completo do artigo com varios paragrafos.",
                 "Lancamento Sirius Marketing",
                 "Plataforma editorial integrada ao site TRCON.",
-                "https://images.unsplash.com/photo-cover-example");
+                "https://images.unsplash.com/photo-cover-example",
+                null,
+                null);
 
         ResponseEntity<InternalNewsCreateResponse> createResponse =
                 restTemplate.postForEntity("/api/internal/news", entity(request), InternalNewsCreateResponse.class);
@@ -97,6 +99,8 @@ class InternalNewsControllerIT {
                 "Corpo v1",
                 null,
                 null,
+                null,
+                null,
                 null);
 
         restTemplate.postForEntity("/api/internal/news", entity(request), InternalNewsCreateResponse.class);
@@ -112,6 +116,8 @@ class InternalNewsControllerIT {
                 null,
                 "titulo-v2",
                 "Corpo v2 atualizado",
+                null,
+                null,
                 null,
                 null,
                 null);
@@ -145,6 +151,8 @@ class InternalNewsControllerIT {
                 null,
                 null,
                 null,
+                null,
+                null,
                 null);
 
         ResponseEntity<InternalNewsCreateResponse> first =
@@ -169,6 +177,8 @@ class InternalNewsControllerIT {
                         "trcon",
                         Instant.now(),
                         "no-key",
+                        null,
+                        null,
                         null,
                         null,
                         null,

@@ -58,6 +58,10 @@ public class EconomyTip {
     @Column(length = 120)
     private String source;
 
+    /** Null = permanente. */
+    @Column(name = "expires_at")
+    private Instant expiresAt;
+
     @Column(name = "created_at", nullable = false)
     private Instant createdAt;
 
@@ -79,6 +83,7 @@ public class EconomyTip {
             String externalId,
             String brandSlug,
             String source,
+            Instant expiresAt,
             Instant now) {
         this.id = id;
         this.tag = tag;
@@ -94,6 +99,7 @@ public class EconomyTip {
         this.externalId = externalId;
         this.brandSlug = brandSlug;
         this.source = source;
+        this.expiresAt = expiresAt;
         this.createdAt = now;
         this.updatedAt = now;
     }
@@ -110,7 +116,8 @@ public class EconomyTip {
             Instant publishedAt,
             String externalId,
             String brandSlug,
-            String source) {
+            String source,
+            Instant expiresAt) {
         Instant now = Instant.now();
         return new EconomyTip(
                 UUID.randomUUID(),
@@ -127,6 +134,7 @@ public class EconomyTip {
                 externalId,
                 brandSlug,
                 source,
+                expiresAt,
                 now);
     }
 
@@ -141,7 +149,8 @@ public class EconomyTip {
             int priority,
             Instant publishedAt,
             String brandSlug,
-            String source) {
+            String source,
+            Instant expiresAt) {
         this.tag = tag;
         this.tagClass = tagClass;
         this.title = title;
@@ -154,6 +163,16 @@ public class EconomyTip {
         this.publishedAt = publishedAt;
         this.brandSlug = brandSlug;
         this.source = source;
+        this.expiresAt = expiresAt;
         this.updatedAt = Instant.now();
+    }
+
+    public void deactivate(Instant now) {
+        this.active = false;
+        this.updatedAt = now;
+    }
+
+    public boolean isVisibleAt(Instant now) {
+        return active && (expiresAt == null || expiresAt.isAfter(now));
     }
 }

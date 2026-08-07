@@ -50,10 +50,12 @@ class InternalEconomyTipControllerIT {
                 "Ler guia",
                 true,
                 5,
-                Instant.parse("2026-07-26T18:00:00Z"),
+                Instant.now(),
                 "content-edu-1-v1",
                 "sirius-marketing",
-                "Sirius Marketing");
+                "Sirius Marketing",
+                null,
+                null);
 
         ResponseEntity<InternalEconomyTipCreateResponse> createResponse = restTemplate.postForEntity(
                 "/api/internal/economy-tips", entity(request), InternalEconomyTipCreateResponse.class);
@@ -87,6 +89,8 @@ class InternalEconomyTipControllerIT {
                 Instant.now(),
                 "dup-edu-1",
                 null,
+                null,
+                null,
                 null);
 
         ResponseEntity<InternalEconomyTipCreateResponse> first =
@@ -111,10 +115,12 @@ class InternalEconomyTipControllerIT {
                 "Ler mais",
                 true,
                 5,
-                Instant.parse("2026-08-01T12:00:00Z"),
+                Instant.now().minusSeconds(3600),
                 "republish-edu-1",
                 "trcon",
-                "TRCON");
+                "TRCON",
+                null,
+                null);
 
         restTemplate.postForEntity("/api/internal/economy-tips", entity(first), InternalEconomyTipCreateResponse.class);
 
@@ -127,10 +133,12 @@ class InternalEconomyTipControllerIT {
                 "Ler mais",
                 true,
                 5,
-                Instant.parse("2026-08-05T12:00:00Z"),
+                Instant.now(),
                 "republish-edu-1",
                 "trcon",
-                "TRCON");
+                "TRCON",
+                null,
+                null);
 
         ResponseEntity<InternalEconomyTipCreateResponse> response = restTemplate.postForEntity(
                 "/api/internal/economy-tips", entity(updated), InternalEconomyTipCreateResponse.class);

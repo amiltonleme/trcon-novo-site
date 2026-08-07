@@ -7,6 +7,9 @@ import br.com.trcon.site.news.domain.NewsQueryInvalidaException;
 import br.com.trcon.site.news.repository.NewsRepository;
 import br.com.trcon.site.news.util.CoverImageUrls;
 import br.com.trcon.site.news.util.SlugUtils;
+import br.com.trcon.site.shared.config.ContentTtlProperties;
+import br.com.trcon.site.shared.expiry.ExpiryInstantCalculator;
+import java.time.Instant;
 import java.util.Set;
 import java.util.UUID;
 import org.springframework.stereotype.Service;
@@ -20,9 +23,16 @@ public class InternalNewsService {
             Set.of("IA", "Tecnologia", "Financas", "Mercado", "Educacao");
 
     private final NewsRepository newsRepository;
+    private final ExpiryInstantCalculator expiryInstantCalculator;
+    private final ContentTtlProperties contentTtlProperties;
 
-    public InternalNewsService(NewsRepository newsRepository) {
+    public InternalNewsService(
+            NewsRepository newsRepository,
+            ExpiryInstantCalculator expiryInstantCalculator,
+            ContentTtlProperties contentTtlProperties) {
         this.newsRepository = newsRepository;
+        this.expiryInstantCalculator = expiryInstantCalculator;
+        this.contentTtlProperties = contentTtlProperties;
     }
 
     @Transactional
@@ -43,6 +53,17 @@ public class InternalNewsService {
             throw new NewsQueryInvalidaException(ex.getMessage());
         }
 
+        Instant expiresAt;
+        try {
+            expiresAt = expiryInstantCalculator.resolve(
+                    request.publishedAt(),
+                    request.ttlDays(),
+                    request.expiresAt(),
+                    contentTtlProperties.ttlDays());
+        } catch (IllegalArgumentException ex) {
+            throw new NewsQueryInvalidaException(ex.getMessage());
+        }
+
         return newsRepository
                 .findByExternalId(request.externalId())
                 .map(existing -> {
@@ -59,7 +80,8 @@ public class InternalNewsService {
                             body,
                             metaTitle,
                             metaDescription,
-                            coverImageUrl);
+                            coverImageUrl,
+                            expiresAt);
                     NewsItem saved = newsRepository.save(existing);
                     return new InternalNewsCreateResponse(saved.getId(), true);
                 })
@@ -78,7 +100,8 @@ public class InternalNewsService {
                             body,
                             metaTitle,
                             metaDescription,
-                            coverImageUrl);
+                            coverImageUrl,
+                            expiresAt);
                     NewsItem saved = newsRepository.save(item);
                     return new InternalNewsCreateResponse(saved.getId(), false);
                 });

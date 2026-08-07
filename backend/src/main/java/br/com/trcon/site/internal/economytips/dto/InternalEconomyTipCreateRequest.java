@@ -1,5 +1,6 @@
 package br.com.trcon.site.internal.economytips.dto;
 
+import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
@@ -17,4 +18,6 @@ public record InternalEconomyTipCreateRequest(
         @NotNull Instant publishedAt,
         @NotBlank @Size(max = 120) String externalId,
         @Size(max = 80) String brandSlug,
-        @Size(max = 120) String source) {}
+        @Size(max = 120) String source,
+        @Min(0) Integer ttlDays,
+        Instant expiresAt) {}
