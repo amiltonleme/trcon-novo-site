@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T08:24:43.101904+00:00",
+  "generated_at": "2026-08-08T20:20:00.170552+00:00",
   "source_note": "Curadoria automatica de educacao financeira a partir de feeds RSS publicos, com complemento do catalogo estatico TRCon quando necessario.",
   "errors": [],
   "items": [
@@ -7,10 +7,10 @@
       "tag": "Mercado",
       "tag_class": "tag-blue",
       "title": "Selic cai para 14,75% ao ano e começa a redesenhar crédito, dívidas e investimentos no Brasil",
-      "body": "Selic cai para 14,75% ao ano e começa a redesenhar crédito, dívidas e investimentos no Brasil Jornal Grande Bahia",
+      "body": "Selic cai para 14,75% ao ano e começa a redesenhar crédito, dívidas e investimentos no Brasil jornalgrandebahia.com.br",
       "meta": [
         "Leitura rapida",
-        "Fonte: Jornal Grande Bahia"
+        "Fonte: jornalgrandebahia.com.br"
       ],
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYlQ2dS1xQTdKek1XSDVxZW14eXJkbzJ1bkx5Q1dYRGNjdGNSYVpaVWc1V2FseFpuQTdUZmMxaDV5YXR5OExuejBTeFVvRmNpcm9RNGdUY2VQczhFUFRpRWJGLUlMR2ZKRjdXYnF0b2lteG9IYkdrNGM0em9KRGJZVmpPX3NabFpGNmxlMGhlLVZNYVcwZmRTZ0VEdkhjZ2I3dGJsa3ZrV2FJOE9XTEVBb1NyRTFZRnBfS1hKamM4dmc2dDRGYjZOV253eHk?oc=5",
       "link_label": "Ler mais",
@@ -44,10 +44,10 @@
       "tag": "Cartao",
       "tag_class": "tag-orange",
       "title": "Opinião | Endividamento alto e educação financeira",
-      "body": "Opinião | Endividamento alto e educação financeira Estadão",
+      "body": "Opinião | Endividamento alto e educação financeira estadao.com.br",
       "meta": [
         "Leitura rapida",
-        "Fonte: Estadão"
+        "Fonte: estadao.com.br"
       ],
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU2UxQWs1alltU1EzekszTC1BUXVJYkV2cjRJSVZWb29aWlJTU2ZXaUdSaHBhcnBucmJ3MmpPSUk3bzRyZW1jSy02eWtoQ2c5WVk3LWJMQXhrenZwVEROamQya2ZuZkhZU2xsQTdPSkVGS3g4azVqNVQydU1qazFwNVdYS2FEWHNYdEt6ZTVwZWlTOUREV1E?oc=5",
       "link_label": "Ler mais"

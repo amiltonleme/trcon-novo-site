@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T08:24:44.157901+00:00",
+  "generated_at": "2026-08-08T20:20:01.256196+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -31,15 +31,6 @@
       "signal": "flat"
     },
     {
-      "title": "'Hack culposo'? Como modelos de IA estão invadindo empresas no improviso",
-      "summary": "'Hack culposo'? Como modelos de IA estão invadindo empresas no improviso",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNamRoMVp4S2JEV1M5N2J3d1dQSVhFUUM1Y2F4WmV4LVRPNnFMWFF2MnlubUNOOU05NEZVdDVWdGtxZm9KdUJLUThnSFVId215SUl5U20tLTRPV0NJbTAwN25NSGV0OWRYSGJJbG5ITEtITFpyV3ZNVmNpeUkzOV9NWXBlWGpCOFZLOElSQ2VoMGdjVUxSTWQxbkJkSndvcXpweC0tUU1XUFRtbmt0OUdGc1Vn?oc=5",
-      "source": "Exame",
-      "published_at": "Thu, 06 Aug 2026 13:02:59 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
       "title": "Empresas investem cada vez mais em IA. O resultado não anda no mesmo ritmo",
       "summary": "Empresas investem cada vez mais em IA. O resultado não anda no mesmo ritmo",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcThqSHNSX01zUmlXQV95Qy00OWFEaVlUdVp6SFFaa3lyU291UDZSb2JSSk8tNy1PUDF4SzdJNEg2dW1GQTJrV3hvSVVLZ0p1cHJhWkI3WG81TzEwQkZoUFlmSnpuRW94dWpSUHBsRXhMRmlIY2RqNk1fM1JCMGxIMG5iV1JGVjFNUlBmNGN3XzZ3OFRNVGZSMGp6ZE1iNWpRTlJIMHZpUUxNdkF0Y0k3Y2I3dkFPYUU?oc=5",
@@ -52,10 +43,19 @@
       "title": "Empresas aceleram adoção de IA, mas ainda enfrentam desafios para confiar na tecnologia",
       "summary": "Empresas aceleram adoção de IA, mas ainda enfrentam desafios para confiar na tecnologia",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZFdhZGRWYWt1UVdGNFZGX3Nrb2oxQnpWM0xkQjlSdXF6NWpNeG9fY0MwOXFoNVNHbTFiOWlBWWtycEVjOWxRcU9kRURyN3lHQzM3Z1FZaFVXNG8xVjRYZl9COExZSDBsaHZHaTdPekd0RzNZUzdMbWVQeEE1SFMweGRTRzZrX1ZZeW9veXVkVGVhdWR5OWdJQ1JfbWhIODVncm5mOElWelczWlVlQkc1WEktMEF4d1JyWTBKeHNFdw?oc=5",
-      "source": "tiinside.com.br",
+      "source": "TI INSIDE Online",
       "published_at": "Fri, 07 Aug 2026 22:35:20 GMT",
       "category": "IA",
       "signal": "up"
+    },
+    {
+      "title": "O Mais Novo Foguete da IA É uma Empresa de Dados da Velha Guarda com 28 Anos de História",
+      "summary": "O Mais Novo Foguete da IA É uma Empresa de Dados da Velha Guarda com 28 Anos de História",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUm9DcE1WMHpYT0N5cWgtdVZheVpjOTZXNDBfM0kwa0FoYWpkcWtrSnl6WGZoay0tWmpCLVZXMXZiekIweGpOSjkzMkhxU0pSc0RySEhXVThhaEFQdjFJenN5RTBGbnc4MkFNaHJtb1k3d0RqcmhtOV9wbFVhajFrT3BET00?oc=5",
+      "source": "Forbes Brasil",
+      "published_at": "Sat, 08 Aug 2026 08:00:00 GMT",
+      "category": "IA",
+      "signal": "flat"
     }
   ],
   "category": "IA"
