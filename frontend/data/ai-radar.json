@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-08-08T20:20:01.256196+00:00",
+  "generated_at": "2026-08-09T08:26:52.871806+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
+    {
+      "title": "O Mais Novo Foguete da IA É uma Empresa de Dados da Velha Guarda com 28 Anos de História",
+      "summary": "O Mais Novo Foguete da IA É uma Empresa de Dados da Velha Guarda com 28 Anos de História",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUm9DcE1WMHpYT0N5cWgtdVZheVpjOTZXNDBfM0kwa0FoYWpkcWtrSnl6WGZoay0tWmpCLVZXMXZiekIweGpOSjkzMkhxU0pSc0RySEhXVThhaEFQdjFJenN5RTBGbnc4MkFNaHJtb1k3d0RqcmhtOV9wbFVhajFrT3BET00?oc=5",
+      "source": "Forbes Brasil",
+      "published_at": "Sat, 08 Aug 2026 08:00:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
     {
       "title": "Entenda por que empresas adotam IA, mas ainda enfrentam desafios para confiar na tecnologia",
       "summary": "Entenda por que empresas adotam IA, mas ainda enfrentam desafios para confiar na tecnologia",
@@ -25,7 +34,7 @@
       "title": "Volume de processos judiciais contra empresas de IA cresce em ritmo forte",
       "summary": "Volume de processos judiciais contra empresas de IA cresce em ritmo forte",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbHcwZUY2WDRaNkpQZUdCMThMSEtsVnNHWkItMXhmRGdKb2pvbHo2MmFpOTM1ZmFfWGItZGRKNjlOTFRyRGdZaHdKMHF0bmhhMjB1ZlVuWWxDb25IU3hFM0J0SnZrYm9xVWpIZ09kRnB4VGhUZ0JZMVVfRmFMeUhweFBfenQ2NEc4dWdJQjRJSEtEWDh4SFl2ZjNvdVozbU5MbzE3QUo3YkhiODY4N2JCem9PdHREVTAweVdtUjNDbDg1bVlKUDM5b1dZUdIB2gFBVV95cUxOM2JXSDY4RGxnOW9RdERKLVd1MVU2a19rdzdDMldhS2s1Qkdlb3daZlRQamVSSGlZVm9BdWhDSVFQN3o3TUdDN3R4NXBXeGlBYTBiZ1J4clZKeW9RZ2g3VE1VWEdUSmhyb1BQaXMxak9vdjNJTGJvZWZQVmVRSjlMU2tBYWtydUZKTm5KVUxGWUVPREoxZUJPY0tERkIzc21aV0hzWnBIUk1ZZl91VGZMOVI0a3hscmd0Y050N2hBQktieFJjazl1VjQyT2thck9KeWVudHVXc1V6UQ?oc=5",
-      "source": "valor.globo.com",
+      "source": "Valor Econômico",
       "published_at": "Thu, 06 Aug 2026 08:00:31 GMT",
       "category": "IA",
       "signal": "flat"
@@ -40,22 +49,13 @@
       "signal": "up"
     },
     {
-      "title": "Empresas aceleram adoção de IA, mas ainda enfrentam desafios para confiar na tecnologia",
-      "summary": "Empresas aceleram adoção de IA, mas ainda enfrentam desafios para confiar na tecnologia",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZFdhZGRWYWt1UVdGNFZGX3Nrb2oxQnpWM0xkQjlSdXF6NWpNeG9fY0MwOXFoNVNHbTFiOWlBWWtycEVjOWxRcU9kRURyN3lHQzM3Z1FZaFVXNG8xVjRYZl9COExZSDBsaHZHaTdPekd0RzNZUzdMbWVQeEE1SFMweGRTRzZrX1ZZeW9veXVkVGVhdWR5OWdJQ1JfbWhIODVncm5mOElWelczWlVlQkc1WEktMEF4d1JyWTBKeHNFdw?oc=5",
-      "source": "TI INSIDE Online",
-      "published_at": "Fri, 07 Aug 2026 22:35:20 GMT",
+      "title": "Confiança vira maior obstáculo da IA nos processos seletivos de empresas, mostra pesquisa",
+      "summary": "Confiança vira maior obstáculo da IA nos processos seletivos de empresas, mostra pesquisa",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcWE4RmdKbFRIOWpBQlJYc0JCSkdURW10VTZ4OURVNVBZNWpkdFpDc1JNRlF2WFJkdWt3THVJbHI5dzZpOHdhbF9pVE56ZFJGOG9xVjZ1RS1XWV9ucmNseHpWZ2V4enBjOExDMXpPMkNLRk85ZEZLeFFYREJ6ZEV2WDBMS2F0ck1IX0NyeE1renhUalFPYnUw?oc=5",
+      "source": "CartaCapital",
+      "published_at": "Sat, 08 Aug 2026 15:00:00 GMT",
       "category": "IA",
-      "signal": "up"
-    },
-    {
-      "title": "O Mais Novo Foguete da IA É uma Empresa de Dados da Velha Guarda com 28 Anos de História",
-      "summary": "O Mais Novo Foguete da IA É uma Empresa de Dados da Velha Guarda com 28 Anos de História",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUm9DcE1WMHpYT0N5cWgtdVZheVpjOTZXNDBfM0kwa0FoYWpkcWtrSnl6WGZoay0tWmpCLVZXMXZiekIweGpOSjkzMkhxU0pSc0RySEhXVThhaEFQdjFJenN5RTBGbnc4MkFNaHJtb1k3d0RqcmhtOV9wbFVhajFrT3BET00?oc=5",
-      "source": "Forbes Brasil",
-      "published_at": "Sat, 08 Aug 2026 08:00:00 GMT",
-      "category": "IA",
-      "signal": "flat"
+      "signal": "down"
     }
   ],
   "category": "IA"
