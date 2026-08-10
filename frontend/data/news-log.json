@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T20:23:00.427851+00:00",
+  "generated_at": "2026-08-10T09:03:47.568626+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
@@ -20,22 +20,6 @@
       "publishedAt": "Fri, 07 Aug 2026 20:32:04 GMT"
     },
     {
-      "source": "Valor Econômico",
-      "category": "IA",
-      "title": "Com IA, países podem fazer em uma década o que demorariam um século",
-      "summary": "Com IA, países podem fazer em uma década o que demorariam um século",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOMnRYQVR0Q3A0QTNHQVliWTRTSlF4LWJseVA3aFlUbDJfVmpPd3ZicUF2ZkZsaFBsUGFTcE5GTUE4T2RBYk9uQjVkSVl5SFJLTUJXV0F3Ym11clVjY1YzZWR2WURMZlFFT0ZPbjMwZEh1NG1HUTFsZDhYLTh3TU1rdVZ4Y0FKWkc3N1VWQnFXSkdNRG15WGZpa3hzelZsNUF5Ujl2ZGpTcm1LSk5BZnlWVjBoVGdaZjY0VjNGVzZUclh2TWdEWWhacksxMzdDNnNqbUdGcVprRmM2SXRHS3BBWjRn0gHwAUFVX3lxTE9MMVBTaDBrYTd5Y3p5Q0NvQVBBREVSS282aWhLNzRNWjlJdzg1NllQbHFXc2xZRy1rNk9zcGl4Z0ZxemFRX1pKbnFob0s3ZnF0WllzYVlfbnpHa05EX1ctcFRNYUwwRlR5UnNMc2hTZW94Sy1JbHc2Z3pwRVAzLU16aE9GM1Zaenk3eG55Ulp2VmRTT0JQN1NhQzRXRzRySHpISW0xNVZGY04wUDFJdEh6dEN5bnM5X3JsclU5T2VtRUNHelFtUXo2al9yQVJYSDYyQm03VEF0TXFadnRjUFMzNnI3MFBaTG02RDRoRUpYdw?oc=5",
-      "publishedAt": "Thu, 06 Aug 2026 13:30:10 GMT"
-    },
-    {
-      "source": "oestegoiano.com.br",
-      "category": "IA",
-      "title": "Uma meta de uso de inteligência artificial nas empresas",
-      "summary": "Uma meta de uso de inteligência artificial nas empresas",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVGZYLTNWUmtEZl8wZDB4MTA2N281THBwX1QzalY5RmU0QlpPRDl2VEZWUXFwVFlrcmluMGlTRTZSbHlTYmNVVVliM3REY2RqYWVrczFUYjZlalhQcm8wcjBTSHZTNi1FbGRyQkMyNG51YXl3SkFrQ1ltVXJFOTAxV3JUc1Rmb19kbjV1Y2Z4SnFMbzgyZG0w?oc=5",
-      "publishedAt": "Sun, 09 Aug 2026 12:47:00 GMT"
-    },
-    {
       "source": "Paraíba Business",
       "category": "IA",
       "title": "Inteligência artificial deixa de automatizar tarefas e passa a apoiar decisões estratégicas nas empresas",
@@ -44,12 +28,28 @@
       "publishedAt": "Sun, 09 Aug 2026 20:15:00 GMT"
     },
     {
-      "source": "startse.com",
+      "source": "StartSe",
       "category": "IA",
       "title": "Um terço da sua empresa sabota a adoção em Inteligência Artificial",
       "summary": "Um terço da sua empresa sabota a adoção em Inteligência Artificial",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wb3EzWDl6bTM5Q1dmQ0ZxUEZtQ1pQdV9NSTZVMy1qUEZWV29Cb2xfTkxuNm9EaWZhM25RbzZNTHpxZDBheWxReDQ2RTdUOVM2TUdIQVZvbHp6T2t6SFNhM011MWpLTmhmcVVJMnJLY1RRdw?oc=5",
       "publishedAt": "Fri, 07 Aug 2026 18:47:18 GMT"
+    },
+    {
+      "source": "TI INSIDE Online",
+      "category": "IA",
+      "title": "Empresas aceleram adoção de IA, mas ainda enfrentam desafios para confiar na tecnologia",
+      "summary": "Empresas aceleram adoção de IA, mas ainda enfrentam desafios para confiar na tecnologia",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZFdhZGRWYWt1UVdGNFZGX3Nrb2oxQnpWM0xkQjlSdXF6NWpNeG9fY0MwOXFoNVNHbTFiOWlBWWtycEVjOWxRcU9kRURyN3lHQzM3Z1FZaFVXNG8xVjRYZl9COExZSDBsaHZHaTdPekd0RzNZUzdMbWVQeEE1SFMweGRTRzZrX1ZZeW9veXVkVGVhdWR5OWdJQ1JfbWhIODVncm5mOElWelczWlVlQkc1WEktMEF4d1JyWTBKeHNFdw?oc=5",
+      "publishedAt": "Fri, 07 Aug 2026 22:35:20 GMT"
+    },
+    {
+      "source": "CartaCapital",
+      "category": "IA",
+      "title": "Confiança vira maior obstáculo da IA nos processos seletivos de empresas, mostra pesquisa",
+      "summary": "Confiança vira maior obstáculo da IA nos processos seletivos de empresas, mostra pesquisa",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcWE4RmdKbFRIOWpBQlJYc0JCSkdURW10VTZ4OURVNVBZNWpkdFpDc1JNRlF2WFJkdWt3THVJbHI5dzZpOHdhbF9pVE56ZFJGOG9xVjZ1RS1XWV9ucmNseHpWZ2V4enBjOExDMXpPMkNLRk85ZEZLeFFYREJ6ZEV2WDBMS2F0ck1IX0NyeE1renhUalFPYnUw?oc=5",
+      "publishedAt": "Sat, 08 Aug 2026 15:00:00 GMT"
     },
     {
       "source": "TI INSIDE Online",
@@ -92,7 +92,7 @@
       "publishedAt": "Wed, 01 Jul 2026 07:00:00 GMT"
     },
     {
-      "source": "startse.com",
+      "source": "StartSe",
       "category": "Tecnologia",
       "title": "Agentes de IA no desenvolvimento de software: como a StackSpot AI muda o jogo",
       "summary": "Agentes de IA no desenvolvimento de software: como a StackSpot AI muda o jogo",
