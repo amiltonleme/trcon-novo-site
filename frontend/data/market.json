@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T20:33:38.196053+00:00",
+  "generated_at": "2026-08-11T08:41:14.443034+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -23,19 +23,19 @@
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 64.055",
-      "change": "-1,60%",
+      "value": "US$ 64.019",
+      "change": "-1,81%",
       "direction": "down"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 1.877",
-      "change": "-2,17%",
+      "value": "US$ 1.875",
+      "change": "-2,58%",
       "direction": "down"
     },
     {
       "symbol": "OURO",
-      "value": "US$ 4.446",
+      "value": "US$ 4.429",
       "change": "estavel",
       "direction": "flat"
     },
@@ -90,8 +90,8 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 64.055",
-      "change": "-1,60%",
+      "quote": "US$ 64.019",
+      "change": "-1,81%",
       "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -101,8 +101,8 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 1.877",
-      "change": "-2,17%",
+      "quote": "US$ 1.875",
+      "change": "-2,58%",
       "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -112,7 +112,7 @@
       "id": "gold",
       "name": "Ouro",
       "icon": "🥇",
-      "quote": "US$ 4.446",
+      "quote": "US$ 4.429",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -172,8 +172,8 @@
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdlpHUTFxQjhTS2NaYnV5OE9yQktmMjQ4djFHbGFiSEtzZms5aWZPWENDTUJyYzFQaTJiV0c1bFF6b3ZmYVdwTXFlcE1DdTZ6TEtKWDdva2ZOaGthSG8wZDUtQ2hQZ2pBMnV4UVZvTmI3cTBMc1BHbVlyZG1UT3puSVQydTJDbXdKRVN6OWwwNWVOMHdqNHl2YXZB?oc=5"
     },
     {
-      "title": "Dólar reverte perdas e sobe para R$ 5,11 com apostas de alta de juros nos EUA; Bolsa cai",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZGUtdVEzVTg2cDYyOGkxaGt0LXlydzltT3Npd25KTXpmbHg0Znd3OVBqVkR0THRUM01HdVctRE15M0tTcHFUMUVOcl9HUzBOSmczVHJ6YnRmWHFFcndzbkZIc1MyQng5bWowdU45cGQ2Q1ZYWV8zNGY3amNtYVNUeDlYM3kwcWtfQWxqbWxwN25mcmJTUXd3TVpNamdMN084eVhyY2s1TVNxSGw5b3N4LWI4WEQ5OElBLWFDbHVRamthYVVsdzRBclIxMC1uLTRs?oc=5"
+      "title": "Dólar dispara e fecha em R$ 5,17 após decisões de juros no Brasil e nos EUA; juros futuros têm forte alta",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeGRtQUFUamJWMGFFcml1VFFXLTVqUFBmLURGd05GXzRnQ3FVVzZfeGJ5aDBWUml4WUx5M09JQnRONHZoVl9Xay0xYXVBUFBFb1kzcS05dVJHMFNhM2dDNS1FcDBCeHE1U2xBYmtWQ0c0bVhwVU50bWZTXzNYbUpwS1NCdkMtaXVtckhnaE02MEI0djdCaDE3cDduYjZZYXRFNWNXYm9kUlUzN3Itb3A3LVNiaU1XTWZyRnRwT0lZT3lNWVl6anNCS2x0dGo?oc=5"
     }
   ],
   "market_mood": {
