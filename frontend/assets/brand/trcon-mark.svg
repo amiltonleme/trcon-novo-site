@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none" role="img" aria-label="TRCON">
+  <!--
+    TRCON Group ? brand mark (monograma TR)
+    Uso: nav, favicon, overlay de capa, lockups.
+    Hex = marca; nome completo fica no wordmark (TRCONGROUP).
+  -->
+  <defs>
+    <linearGradient id="trHexGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#C8960C"/>
+      <stop offset="100%" stop-color="#8B6914"/>
+    </linearGradient>
+    <filter id="trGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <circle cx="80" cy="80" r="74" stroke="#C8960C" stroke-width="1" stroke-opacity="0.55" stroke-dasharray="36 180"/>
+  <circle cx="80" cy="80" r="68" stroke="#00D4FF" stroke-width="1" stroke-opacity="0.35" stroke-dasharray="28 160"/>
+  <circle cx="80" cy="80" r="62" stroke="#C8960C" stroke-width="1" stroke-opacity="0.22"/>
+
+  <path d="M80 18 L124 43 L124 93 L80 118 L36 93 L36 43 Z"
+        stroke="url(#trHexGrad)" stroke-width="2.2"
+        fill="rgba(200,150,12,0.05)" filter="url(#trGlow)"/>
+  <path d="M80 30 L114 50 L114 86 L80 106 L46 86 L46 50 Z"
+        stroke="#00D4FF" stroke-width="1" stroke-opacity="0.35" fill="none"/>
+  <path d="M80 42 L104 56 L104 80 L80 94 L56 80 L56 56 Z"
+        stroke="#C8960C" stroke-width="1" stroke-opacity="0.6"
+        fill="rgba(2,4,8,0.55)"/>
+  <circle cx="80" cy="80" r="7" fill="none" stroke="#FFD700" stroke-width="0.6" opacity="0.4"/>
+
+  <!-- Monograma curto ? cabe e centraliza no miolo do hex -->
+  <text x="80" y="80"
+        text-anchor="middle"
+        dominant-baseline="central"
+        font-family="Orbitron, Arial Black, Arial, sans-serif"
+        font-weight="900"
+        font-size="36"
+        letter-spacing="2"
+        fill="#FFD700"
+        filter="url(#trGlow)">TR</text>
+</svg>
