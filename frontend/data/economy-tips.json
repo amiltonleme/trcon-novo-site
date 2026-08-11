@@ -1,65 +1,59 @@
 {
-  "generated_at": "2026-08-07T08:44:02.278138+00:00",
+  "generated_at": "2026-08-11T08:41:16.206629+00:00",
   "source_note": "Curadoria automatica de educacao financeira a partir de feeds RSS publicos, com complemento do catalogo estatico TRCon quando necessario.",
-  "errors": [
-    "Google News (Educacao Financeira): falha ao ler feed (HTTPError)",
-    "Google News (Educacao Financeira): falha ao ler feed (HTTPError)",
-    "Google News (Educacao Financeira): falha ao ler feed (HTTPError)",
-    "Google News (Educacao Financeira): falha ao ler feed (HTTPError)",
-    "Complementado com 4 dica(s) do catalogo estatico (RSS retornou 0 item(ns) relevante(s))."
-  ],
+  "errors": [],
   "items": [
     {
-      "tag": "Educacao",
+      "tag": "Mercado",
       "tag_class": "tag-blue",
-      "title": "Aprenda regra basica: juros compostos a seu favor",
-      "body": "Pequenos aportes recorrentes por muitos anos tendem a superar aportes grandes esporadicos. Consistencia costuma pesar mais que tentar acertar o timing do mercado.",
+      "title": "Selic cai para 14,75% ao ano e começa a redesenhar crédito, dívidas e investimentos no Brasil",
+      "body": "Selic cai para 14,75% ao ano e começa a redesenhar crédito, dívidas e investimentos no Brasil Jornal Grande Bahia",
       "meta": [
-        "5 min",
-        "Conceito"
+        "Leitura rapida",
+        "Fonte: Jornal Grande Bahia"
       ],
-      "url": "https://www.google.com/search?q=juros+compostos+investimentos+longo+prazo",
-      "link_label": "Simular efeito",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYlQ2dS1xQTdKek1XSDVxZW14eXJkbzJ1bkx5Q1dYRGNjdGNSYVpaVWc1V2FseFpuQTdUZmMxaDV5YXR5OExuejBTeFVvRmNpcm9RNGdUY2VQczhFUFRpRWJGLUlMR2ZKRjdXYnF0b2lteG9IYkdrNGM0em9KRGJZVmpPX3NabFpGNmxlMGhlLVZNYVcwZmRTZ0VEdkhjZ2I3dGJsa3ZrV2FJOE9XTEVBb1NyRTFZRnBfS1hKamM4dmc2dDRGYjZOV253eHk?oc=5",
+      "link_label": "Ler mais",
       "featured": true
     },
     {
-      "tag": "Contas",
-      "tag_class": "tag-orange",
-      "title": "Negocie tarifas bancarias antes de trocar de banco",
-      "body": "Pacotes de servicos, anuidade e tarifas podem ser reduzidos com uma ligacao ou chat. Compare o custo total anual, nao apenas uma taxa isolada.",
+      "tag": "Estrategia Mensal",
+      "tag_class": "tag-green",
+      "title": "Tesouro Reserva: como funciona e quanto rende a nova “poupança 24 horas” do governo",
+      "body": "Tesouro Reserva: como funciona e quanto rende a nova “poupança 24 horas” do governo InfoMoney",
       "meta": [
-        "3 min",
-        "Economia direta"
+        "Leitura rapida",
+        "Fonte: InfoMoney"
       ],
-      "url": "https://www.google.com/search?q=como+negociar+tarifas+bancarias",
-      "link_label": "Ver passos"
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdlBkM3hSODJ6dnBRdW5wdUZ5dE5jWUpISjBPVGZSdDVBVzAwYlFmTk1PQ3dYREUzVk9tWGJTWHQxeEVNaHlZUGY4azNSNVF6Nm1lNVdGT1Q3aXV1dEhYRXVnWWxTbjBXcFhacGp6eG5ReEVVeHoyZnVZTDl5d29iSFR2LVhRNUZ2MjlKa29RNUhod1UycVlzZUFOcl9xX2NDQWFGWTZMTlBKa3BOc243Nmh0OHA4OFd0UWFOYWJCNVV1QdIBxwFBVV95cUxQRzQ3R2lkOHZxRm9HbHgtMjdMUGdQZzNXanpiemdBMDBnMGdmUTBudnZwbjI4S3N4TjZHMkMzMTdhbmExYWZLMVNvZGJfWHc2bFNqeVBzdjd0dzJPbXRkc2g1amk0RzVhcm9COFFCYVBJdENWSWh1LWJfU3R2aVNiN2dCWW1iV2luNWZMTWFncTZYZkh5QVltbHJ0aHZ5aUpRS3VyY2xoWEllWVVNd1RYZXF2YjdWYm9KUTY2TTk3NnNFOE1CVHRN?oc=5",
+      "link_label": "Ler mais"
+    },
+    {
+      "tag": "Cartao",
+      "tag_class": "tag-orange",
+      "title": "Opinião | Endividamento alto e educação financeira",
+      "body": "Opinião | Endividamento alto e educação financeira Estadão",
+      "meta": [
+        "Leitura rapida",
+        "Fonte: Estadão"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU2UxQWs1alltU1EzekszTC1BUXVJYkV2cjRJSVZWb29aWlJTU2ZXaUdSaHBhcnBucmJ3MmpPSUk3bzRyZW1jSy02eWtoQ2c5WVk3LWJMQXhrenZwVEROamQya2ZuZkhZU2xsQTdPSkVGS3g4azVqNVQydU1qazFwNVdYS2FEWHNYdEt6ZTVwZWlTOUREV1E?oc=5",
+      "link_label": "Ler mais"
     },
     {
       "tag": "Mercado",
       "tag_class": "tag-blue",
-      "title": "Entenda a diferenca entre inflacao e taxa Selic",
-      "body": "Rentabilidade real so aparece quando o retorno supera a inflacao. Em periodos de juros altos, comparar com o IPCA ajuda a ver se seu dinheiro esta ganhando poder de compra.",
+      "title": "Insights da semana: poupança segue como investimento mais disseminado",
+      "body": "Insights da semana: poupança segue como investimento mais disseminado CNN Brasil",
       "meta": [
-        "4 min",
-        "Macro basico"
+        "Leitura rapida",
+        "Fonte: CNN Brasil"
       ],
-      "url": "https://www.google.com/search?q=rentabilidade+real+inflacao+selic",
-      "link_label": "Ler resumo"
-    },
-    {
-      "tag": "Cotidiano",
-      "tag_class": "tag-orange",
-      "title": "Faca lista de compras e evite ir ao mercado com fome",
-      "body": "Compras por impulso elevam a conta do mes. Planejar refeicoes da semana e levar lista reduz desperdicio e repeticao de itens caros ja em casa.",
-      "meta": [
-        "2 min",
-        "Habito simples"
-      ],
-      "url": "https://www.google.com/search?q=como+economizar+no+supermercado+lista+de+compras",
-      "link_label": "Ver checklist"
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbkJEVGEzc0dCOWY3Vkt3VlJZMkFhWVhYb0FiQWxNYVdnQW5URldwbUFYRV9uVUVXWTA2bzk1T0VWR3lWTnc2LXI5aldrMkdkSnEyYnZuN3hWVFR5aUt2V21DMVVXN3FoODVNbkFUZzNvQ09IUjNsYlhnX3lUSWltYTdtQ0pHM2ZQRFNtR1g3OEN5aE0wTUNTN0lPV20wdWxjU3BTa3IwTFFaUzE4U2JWTE96WlFmU2dRSU81UUJn?oc=5",
+      "link_label": "Ler mais"
     }
   ],
-  "source_mode": "catalogo",
-  "rss_items": 0,
+  "source_mode": "rss+catalogo",
+  "rss_items": 4,
   "disclaimer": "Conteudo educacional. Nao constitui recomendacao individual de investimento."
 }
