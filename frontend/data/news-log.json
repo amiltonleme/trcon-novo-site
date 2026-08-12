@@ -1,18 +1,10 @@
 {
-  "generated_at": "2026-08-12T08:57:22.507808+00:00",
+  "generated_at": "2026-08-12T20:35:36.123898+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
     {
-      "source": "jornaltribuna.com.br",
-      "category": "IA",
-      "title": "ROI da Inteligência Artificial: por que apenas 3 em cada 10 profissionais conseguem defender o investimento em projetos de IA hoje?",
-      "summary": "ROI da Inteligência Artificial: por que apenas 3 em cada 10 profissionais conseguem defender o investimento em projetos de IA hoje?",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOVlFKWndYZlA5ZElZMGI1YmxLM1NkYkhBQXlkbWhWVTZwdnpSb2RWaXV3VW5nVGszVnJTeXZ0QmlsVVRKeUt0bHFtZUk1dG1RSVVXVDRrX1FiYVhCUi1ORUwtUXdzd1FZcU1rSjV2ZnhEaEZaUmktVE5UT2FoaFJTSUZqbzJDazF4UXhaWFVEeTFNWDNhTmlwRlFfNUVTdkdXTmpkVnRTcm9XQkdDSjVJemxJNkRyVmR3VjI3bW9kTkx3WGpzU2pVLXJwRWJOMTgzMGxmUjhSUmMxTzRaaXJSX0pBUS14RDhoYUphbVVMWjRkYlZKZzNLa0NtaGF4ejg?oc=5",
-      "publishedAt": "Tue, 11 Aug 2026 23:48:46 GMT"
-    },
-    {
-      "source": "oglobo.globo.com",
+      "source": "O GLOBO",
       "category": "IA",
       "title": "Líderes usam IA diariamente, mas adoção nas empresas ainda ocorre de forma fragmentada e isolada, diz pesquisa",
       "summary": "Líderes usam IA diariamente, mas adoção nas empresas ainda ocorre de forma fragmentada e isolada, diz pesquisa",
@@ -20,36 +12,44 @@
       "publishedAt": "Tue, 11 Aug 2026 22:19:45 GMT"
     },
     {
-      "source": "Diário do Comércio",
+      "source": "Exame",
+      "category": "IA",
+      "title": "‘Empresas já usam IA, mas esquecem a pergunta mais importante antes de começar’ diz executiva",
+      "summary": "‘Empresas já usam IA, mas esquecem a pergunta mais importante antes de começar’ diz executiva",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSWtWYTZ6M3o0c2puek5IY1QwX201RGI2SkhRd3NoMmJfeDFDOW9uem9vc1dVejZONWN4a2ZUUVFlQ3dqdi1YU0RxT3RfeDhiX1ctMGE5SGlJUzVYY0F6cHlxdE56djEwZmJ6eVg5eHhrbmU3TUtKM21zaXk1Z18zMHNXQk1mWGNZdWx6MENrdGp5cGhHZldtd05UQkZhY3g5dXZobHpMdzhST2ZYYUgzdE1XbkVnSG1DazhRQ2ZjTnhJUWR6UlVXb3E2TUd1dw?oc=5",
+      "publishedAt": "Wed, 12 Aug 2026 16:46:09 GMT"
+    },
+    {
+      "source": "Contadores.cnt.br",
       "category": "IA",
       "title": "Inteligência artificial entra no topo das prioridades de investimento das empresas",
       "summary": "Inteligência artificial entra no topo das prioridades de investimento das empresas",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNEpWMzNsRVJqTklsb1NFWVpjTzVsYlp4WTJMNWY1M1Y3UXNGZWRKQ3g3YlV0LVVXWHBtUEY0X3FtRFFKdzBmVktYd2pQcHA2dndfMGxBdXFIc2w0UGdRRFFTRXM4N2JzYVh4cDBMcG44T09TNmkyS1c0bTZzV2t6MU9Cc1lVQko3NGROSXRPMHR6RFAzREE?oc=5",
-      "publishedAt": "Wed, 12 Aug 2026 08:10:00 GMT"
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdUFuVlA4Q3ByaEczYUhVMXNWOXhYelA5YVFOTEpERE9xaUlib0NDVXlLSTZ0dTNxcWVOeEZ2RHhjb1B4TVBCeS1rLXMwTzJNcjV0UGtQckJyckNqeHVuNk9NMDBsNFh1MG9mNzduMDdFVVkza2VCUDM1c3A3ZWJNcnhjUi1EanEyM3lfOUtpckVjdXBnaFN1QlN4NnJaZ0IzTmxINndsYm1RaHpRaVhfTzVxQ1JMVVB5a3BwU3hWQS1LZExhQmtQVXhGNDFkUXp2VXB4UG9FQ0dmbUpoY2JYNVJkMG4?oc=5",
+      "publishedAt": "Wed, 12 Aug 2026 12:09:00 GMT"
     },
     {
-      "source": "Folha de Londrina",
+      "source": "O Livre",
       "category": "IA",
-      "title": "Inteligência artificial ganha espaço nas empresas - Folha de Londrina",
-      "summary": "Inteligência artificial ganha espaço nas empresas - Folha de Londrina",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUG5iUWRWTTZ6eDdWRXJjOWlpaVdsWVpOUFV4dW1yMkZELUItWUFvS19nYjc5bVM1Zk03Y25BRm1neEFSSlNjN3NkSk80dWJiRjk5V1pmanVKNV9yU0RvRnh3UHVodDBvYzJtOXl0TkRVMmZtQmMzWUtOQzN4bVNqZElxcjRpSjFKNkhlcWVadFNDdURwVDlDQXpIZUV6M2lUUW5rcXdYZWR2dzTSAbMBQVVfeXFMTlZBS3hJbExfQTNYemR4eHM0dXo5S01nTV9heUNlTGlhUHBObTdZSk0xVzRTV1UyaDBjOVZNX3BDYm5YWEVGVTZ3Q2JReFdQcU8wYlp2Vk1XYlJodzNMN0xydkNTbGhXU2w4TUdtUHFmVm9QYmFISks2ek5jZnJ0LUhGQ0dRdGtuNlF2M0dCd3FId2w4WU9QT3VlUWpZczQ3dEdRV1dxRmVXaXk1MF90akw5Szg?oc=5",
-      "publishedAt": "Mon, 10 Aug 2026 18:30:51 GMT"
+      "title": "Sebrae leva palestra sobre Inteligência Artificial para pequenos negócios em Juína",
+      "summary": "Sebrae leva palestra sobre Inteligência Artificial para pequenos negócios em Juína",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMXJSMWFRWE9jYlZuajVmNkZhNWpuQUlhejBfTHVtNkllTFZJMV85cDdaOVB4T0x6TWtzd0gydzI5X1dCWURLQl9XRERqNk9EVWZWdVlEdnREb0NWWHBNMnFucXdnZzkwZy13dUhyeXJMNEluc2Q0dXZSY2RUVURaSTQ1NTQ1akMyc2w1Q1hIMUpwTHhlc2FMS2dMcTUzYUw2M0NFZHphMzQ?oc=5",
+      "publishedAt": "Wed, 12 Aug 2026 18:36:41 GMT"
     },
     {
-      "source": "CIC Caxias",
+      "source": "Economia SC",
+      "category": "IA",
+      "title": "Envolti amplia atuação em IA e anuncia Elder Gil Funk como Chief AI Officer",
+      "summary": "Envolti amplia atuação em IA e anuncia Elder Gil Funk como Chief AI Officer",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMTV6LTZBNFVtUmRMUjMwLWdETWZJUllZSXQ1QTROaUYxSWROY1NUSGIyLVdCcnA2MEllU2VuX2xETEJCOTBSVG1sYmk0VDAxYVIyVGs4UVlweU1WXzhYNkdPLTUwM0VydXF4eTY1SXFOaXQ0LUJkNXBodkFZdzZmM0g3c3JydzRoZkNuN3ZvMVd3Q0drZEk3VXRRempNd3ItLVhaTTVyQkNpcW1nWEJR?oc=5",
+      "publishedAt": "Wed, 12 Aug 2026 17:04:30 GMT"
+    },
+    {
+      "source": "ciccaxias.org.br",
       "category": "IA",
       "title": "Talk de Gestão 2026 debate aplicações práticas da inteligência artificial nas empresas",
       "summary": "Talk de Gestão 2026 debate aplicações práticas da inteligência artificial nas empresas",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdGg2SlJ0NmFuSU9sWXphVXQwdWhsWDZ2YThiTjNTVXNPWHowajhkNVljaXYzMkN6bVMyU2Fvc0ZRR0NGUUdJcmNreUdEMmZkM3JCaUpVWXBueWV1ZW5pNUU4eVh3UC1tNjBDR1E2QlNlY2N6Qmg2TlA0RDJ3X19yc3hFYV9JYkoxMXFsVDJUUGo4UUZPWGpkSlRObG9OUjJHRERHSEJ2TWoybE1BZG9Sck85ZXUxVkJyTTBxT3R0aDVJQjdoT2k1cDA3MFk?oc=5",
       "publishedAt": "Tue, 11 Aug 2026 13:54:08 GMT"
-    },
-    {
-      "source": "atribunaregional.com.br",
-      "category": "IA",
-      "title": "IA agêntica avança nas empresas e desenha mercado global de mais de US$ 22 bilhões",
-      "summary": "IA agêntica avança nas empresas e desenha mercado global de mais de US$ 22 bilhões",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT19vdmVwMjZxTGZfVC0tOGQwOHVOQS1BalRFVUdVcmxWRHN6MVp6ZWdONkp3dXNQcGJualI2NEdMN2hxNVRybjNSQk5aNmtGSlBhRE1LTHpWYWJGNHY2MHR3NmZvZ3Z4dVgxZ2p0UHo4djEyU0VaeS1meURycjdPUHRudVlBVHhnVDkxZ2ltc0lOYTd4S3lCTVUwNlJnNFU2ZTFXT3FTbWxjMEJjeF9tUkVCWEk?oc=5",
-      "publishedAt": "Tue, 11 Aug 2026 13:10:00 GMT"
     },
     {
       "source": "Prefeitura de São Paulo",
