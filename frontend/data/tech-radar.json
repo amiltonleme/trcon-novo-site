@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-08-11T08:41:18.296999+00:00",
+  "generated_at": "2026-08-12T08:57:22.456563+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de tecnologia.",
   "errors": [],
   "items": [
+    {
+      "title": "São Paulo concentra mais de 221 mil empregos formais em tecnologia e registra crescimento de 61% em ocupações no setor em uma década - Secretaria Municipal de Desenvolvimento Econômico e Trabalho",
+      "summary": "São Paulo concentra mais de 221 mil empregos formais em tecnologia e registra crescimento de 61% em ocupações no setor em uma década - Secretaria Municipal de Desenvolvimento...",
+      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQV2J3T3duUXJfeFBrYVZnaTlpYTRxYWVKZ0V2dGNYVlhNZEpiSThtZ1ZwakhZbV9SYU8zamdHcUFoRUsxRlNNRFhMZlVyZWxEUjg5REd0a0R5cEdRY3p5dXZpSWRwQjNJV3BCMHFELWNYSlZ4M28tVkZMalRNLTgyZ2tWdExRUC15UXAtVlRPZkVyZHZHc09McHhiMUlNejN1M242SlQ2enBBb0Q1NWowQ2JpTWlkcmRoOUFScXNXVlViRXdWX0QzcEVFT0hBdTRiYW5rZ2RaNVlLWlBqSmw2YTJnemVXVWUzZDhkenctM3otTndEbnRhLVBzVERtY2NWdzNTUF9OeHN6WDFDdGZqS0lUUVdta3J5cWNxdlJobHpobW5HLXNMa1J3?oc=5",
+      "source": "Prefeitura de São Paulo",
+      "published_at": "Fri, 17 Jul 2026 07:00:00 GMT",
+      "category": "Tecnologia",
+      "signal": "flat"
+    },
     {
       "title": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
       "summary": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
@@ -45,15 +54,6 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
       "source": "jornaltribuna.com.br",
       "published_at": "Wed, 01 Jul 2026 07:00:00 GMT",
-      "category": "Tecnologia",
-      "signal": "flat"
-    },
-    {
-      "title": "Agentes de IA no desenvolvimento de software: como a StackSpot AI muda o jogo",
-      "summary": "Agentes de IA no desenvolvimento de software: como a StackSpot AI muda o jogo",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUXUwZHI1Z2lZTWN2dE9JcDQxN3NidFVHN19sM2gxMWxJbU1haF9tV2I4S1c0cDBVd0lUTkp2OU8ta2tlRHFCblY1NUUtWnhuLWlZSUl6Q3YtWXlqaVZIOW5vWHhsVi1OQjVyNEdJMUpUNXJHUjNJcjNvanM0cThncmxEVGhFQnlBdjhfRWNfVWJsOEQwMlRnaDNVRU1FRS1lU05JMHRFc0x5c1dwbFE?oc=5",
-      "source": "StartSe",
-      "published_at": "Wed, 15 Oct 2025 07:00:00 GMT",
       "category": "Tecnologia",
       "signal": "flat"
     }
