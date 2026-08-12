@@ -52,12 +52,36 @@ function renderParagraph(paragraph) {
       if (embed) {
         return `</p><div class="article-video"><iframe src="${escapeHtml(embed)}" title="Vídeo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div><p>`;
       }
-      return escapeHtml(line.trim());
+      return renderInlineMarkup(line.trim());
     })
     .filter(Boolean)
     .join('<br />');
 
   return `<p>${lines}</p>`;
+}
+
+function renderList(block) {
+  const items = String(block || '')
+    .split('\n')
+    .map((line) => line.trim())
+    .filter((line) => /^[-*]\s+/.test(line))
+    .map((line) => line.replace(/^[-*]\s+/, '').trim())
+    .filter(Boolean);
+  if (!items.length) return '';
+  return `<ul>${items.map((item) => `<li>${renderInlineMarkup(item)}</li>`).join('')}</ul>`;
+}
+
+function isListBlock(block) {
+  const lines = String(block || '')
+    .split('\n')
+    .map((line) => line.trim())
+    .filter(Boolean);
+  return lines.length > 0 && lines.every((line) => /^[-*]\s+/.test(line));
+}
+
+function renderInlineMarkup(value) {
+  const escaped = escapeHtml(value);
+  return escaped.replace(/\*\*([^*\n][\s\S]*?[^*\n])\*\*/g, '<strong>$1</strong>');
 }
 
 export function renderArticleBody(body) {
@@ -67,7 +91,7 @@ export function renderArticleBody(body) {
   return String(body)
     .trim()
     .split(/\n\s*\n/)
-    .map(renderParagraph)
+    .map((block) => (isListBlock(block) ? renderList(block) : renderParagraph(block)))
     .join('');
 }
 

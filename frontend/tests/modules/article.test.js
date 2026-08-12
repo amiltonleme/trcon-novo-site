@@ -46,6 +46,23 @@ describe('renderArticleBody', () => {
     expect(html).toContain('&lt;b&gt;');
   });
 
+  it('renderiza markdown-lite seguro para negrito e listas', () => {
+    const html = renderArticleBody(
+      'O desafio\n\n**Estratégias práticas:**\n\n- Definir prioridades claras\n- Medir resultados',
+    );
+    expect(html).toContain('<p>O desafio</p>');
+    expect(html).toContain('<strong>Estratégias práticas:</strong>');
+    expect(html).toContain('<ul>');
+    expect(html).toContain('<li>Definir prioridades claras</li>');
+    expect(html).toContain('<li>Medir resultados</li>');
+  });
+
+  it('escapa html cru dentro de listas e negrito markdown', () => {
+    const html = renderArticleBody('**Texto <script>x</script>**\n\n- Item <img src=x>');
+    expect(html).toContain('<strong>Texto &lt;script&gt;x&lt;/script&gt;</strong>');
+    expect(html).toContain('<li>Item &lt;img src=x&gt;</li>');
+  });
+
   it('converte URL YouTube em iframe', () => {
     const html = renderArticleBody('Intro\n\nhttps://www.youtube.com/watch?v=dQw4w9WgXcQ\n\nFim');
     expect(html).toContain('youtube.com/embed/dQw4w9WgXcQ');
