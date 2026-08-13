@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T20:35:31.506910+00:00",
+  "generated_at": "2026-08-13T08:58:52.798926+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -23,19 +23,19 @@
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 63.454",
-      "change": "-0,29%",
+      "value": "US$ 63.704",
+      "change": "-0,04%",
       "direction": "down"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 1.883",
-      "change": "+0,21%",
-      "direction": "up"
+      "value": "US$ 1.888",
+      "change": "-0,08%",
+      "direction": "down"
     },
     {
       "symbol": "OURO",
-      "value": "US$ 4.468",
+      "value": "US$ 4.434",
       "change": "estavel",
       "direction": "flat"
     },
@@ -90,8 +90,8 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 63.454",
-      "change": "-0,29%",
+      "quote": "US$ 63.704",
+      "change": "-0,04%",
       "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -101,9 +101,9 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 1.883",
-      "change": "+0,21%",
-      "direction": "up",
+      "quote": "US$ 1.888",
+      "change": "-0,08%",
+      "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
       "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
@@ -112,7 +112,7 @@
       "id": "gold",
       "name": "Ouro",
       "icon": "🥇",
-      "quote": "US$ 4.468",
+      "quote": "US$ 4.434",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -144,8 +144,8 @@
   ],
   "news": [
     {
-      "title": "Ibovespa Hoje Ao Vivo: Bolsa oscila e tenta se manter nos 168 mil pontos; VALE3 sobe",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZVhEbFU4TEYzdnJ1b1p6NFhDLWpHaWxWT1RTa3RaampIOU80NVNmdlkyemdYS21sWEJrbkJSa05fSnI4dkpXbkZMYmtOVGhjOWw0R1dWVXhDQ284RnVoRmRVTDdKVEJDcFJGYUZRdlJfTjkyaUNJWHhpZXZEV3BGM040OGF3Nk42bDByaERFOA?oc=5"
+      "title": "Dólar sobe a R$ 5,18 e Bolsa cai com mercado atento a juros e cenário fiscal",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSUlzQVphcTV2TjdRZFVCeG16U0haaVQ4ZzdneEJjZnlvTGdOTklPaFlYaW1oSWF2SjU0eFprTGlHR25qUEd3VXpBZkdfV0RBMWpYQTdOR0ttbEhoWjhoOGcwM0gzMFpwd2l2bnRiX3lJVjdhZDg2TWVYdmlnNzBRZ1ZZbzJIcjRZNEQxeFRtZ21od2l1ZlROSnNoTW9adG4xNUdkbGhn?oc=5"
     },
     {
       "title": "Dólar fecha o dia em baixa e Bolsa recua em dia de decisão do Copom sobre taxa de juros",
@@ -164,12 +164,12 @@
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWnVEZmc1eTl4Q0lNU0w5MGdLVVhDMDJ0QWZSdzVQX1RYVkJpdkVCZ3N5dll0TG01emg2MzQwN2hKR1gydFMwYjFrejZsZEhUbzBKLVVsX1B0YXBXcFdxM0RPbXZ6a3I2NFJWT0ZCUEIzb090WUhfeEdqMlBXSlZ6M3RuRC12bVlWNUJMMzZpcTJUS24zNHF4cXlB?oc=5"
     },
     {
-      "title": "Bolsa cai 2% aos 168 mil pontos com alerta inflacionário",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUlJWZDZYenRGcktzZ19hckNzX201WWR1cXE4amo3dEdYQVQtY1JYTkdmRTdOS2VkcDFoOVFpUkJscUVVYjhyTnpYYW5UQW1OdG1rZlRXTzFnU2tPbDlrc1VGV3FDZ3U5enpvTGE4SkRiT2xjbmtzMnRreVcwSURSR2lIQlJMdzJyOC00cWY4WXNUMGwxUU9ZeWtOeHVuLUFOSU5vQ3hVRzM5Rm13M3JHQVdXdTBiU0lMMlhN?oc=5"
-    },
-    {
       "title": "Bolsa, dólar e juros: o que esperar após EUA classificarem PCC e CV como terroristas",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZER3WDlEYkpJQVZrZWFiSGFrb1NYRzdSTkM0Rzkwc2pmTURnUUUzLWRBTTZjRW1vV3hTZW5CS2ctcnYxWEQwMDd6VXVid0syNWtEeTNLRC1jVDhSdTZTVTBxSlh0dnB3a0NuV3lVc3d3Q2M4cV9XOUdGQmx2RHVtbm9qb0xJTzUxd21lako1OGtXMFpDU1h3U0FyZFBGMXJIOWREMFR3OEpick01aVZkTUFGU2lObW80NnhFRmM1empfZ0hsb1dsbkJHc19KT3VOSDBCcDhKaElzMVZpeGd1UklzYVlaXzQ0VXFMbDJMNUFJcl95ZkpOeU5FWUVNRGRqMVU4WFpNS1FHSlXSAZoCQVVfeXFMUHVtMFU3QXFIZ25Hc2t4VTgwakJVLVU2XzE4U3E3LWcwZ3hqOGFMaUxzOV9MdWxUQTQ5RWZ6bkhtYUZsai1hNms5MHU5amFfSWRubHIxREZjaDdWOF9iVjNtNHpGQnVDemJ0Y2xFTlB1OXJVWnpCV2NlWWJBS3pyQk9ZV2lPaElRaGZ1VEgxN2JfUXhNVUxvekVpeGZ6Z1A5SEttdHhrWjJwdGtaMnpKa1o1MXBBM3ZIaTJ6QUEwQkM2OWdJSkZRMUZHdlVVVy1vY09ncWdiazA4VVRGVmRRNVN4d3FWd0xUV0hRX3ptN3pOeHJNUDRIZURPcU5xRmRJejdsb09hVTh0N21PMzY0NnkxY0dheUkybHF3?oc=5"
+    },
+    {
+      "title": "Bolsa cai 2% aos 168 mil pontos com alerta inflacionário",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUlJWZDZYenRGcktzZ19hckNzX201WWR1cXE4amo3dEdYQVQtY1JYTkdmRTdOS2VkcDFoOVFpUkJscUVVYjhyTnpYYW5UQW1OdG1rZlRXTzFnU2tPbDlrc1VGV3FDZ3U5enpvTGE4SkRiT2xjbmtzMnRreVcwSURSR2lIQlJMdzJyOC00cWY4WXNUMGwxUU9ZeWtOeHVuLUFOSU5vQ3hVRzM5Rm13M3JHQVdXdTBiU0lMMlhN?oc=5"
     },
     {
       "title": "Dólar reverte perdas e sobe para R$ 5,11 com apostas de alta de juros nos EUA; Bolsa cai",

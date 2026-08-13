@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T20:35:34.947209+00:00",
+  "generated_at": "2026-08-13T08:58:55.673494+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -13,6 +13,24 @@
       "signal": "flat"
     },
     {
+      "title": "Inteligência artificial entra no topo das prioridades de investimento das empresas",
+      "summary": "Inteligência artificial entra no topo das prioridades de investimento das empresas",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdUFuVlA4Q3ByaEczYUhVMXNWOXhYelA5YVFOTEpERE9xaUlib0NDVXlLSTZ0dTNxcWVOeEZ2RHhjb1B4TVBCeS1rLXMwTzJNcjV0UGtQckJyckNqeHVuNk9NMDBsNFh1MG9mNzduMDdFVVkza2VCUDM1c3A3ZWJNcnhjUi1EanEyM3lfOUtpckVjdXBnaFN1QlN4NnJaZ0IzTmxINndsYm1RaHpRaVhfTzVxQ1JMVVB5a3BwU3hWQS1LZExhQmtQVXhGNDFkUXp2VXB4UG9FQ0dmbUpoY2JYNVJkMG4?oc=5",
+      "source": "contadores.cnt.br",
+      "published_at": "Wed, 12 Aug 2026 12:09:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Talk de Gestão 2026 debate aplicações práticas da inteligência artificial nas empresas",
+      "summary": "Talk de Gestão 2026 debate aplicações práticas da inteligência artificial nas empresas",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdGg2SlJ0NmFuSU9sWXphVXQwdWhsWDZ2YThiTjNTVXNPWHowajhkNVljaXYzMkN6bVMyU2Fvc0ZRR0NGUUdJcmNreUdEMmZkM3JCaUpVWXBueWV1ZW5pNUU4eVh3UC1tNjBDR1E2QlNlY2N6Qmg2TlA0RDJ3X19yc3hFYV9JYkoxMXFsVDJUUGo4UUZPWGpkSlRObG9OUjJHRERHSEJ2TWoybE1BZG9Sck85ZXUxVkJyTTBxT3R0aDVJQjdoT2k1cDA3MFk?oc=5",
+      "source": "CIC Caxias",
+      "published_at": "Tue, 11 Aug 2026 13:54:08 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
       "title": "‘Empresas já usam IA, mas esquecem a pergunta mais importante antes de começar’ diz executiva",
       "summary": "‘Empresas já usam IA, mas esquecem a pergunta mais importante antes de começar’ diz executiva",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSWtWYTZ6M3o0c2puek5IY1QwX201RGI2SkhRd3NoMmJfeDFDOW9uem9vc1dVejZONWN4a2ZUUVFlQ3dqdi1YU0RxT3RfeDhiX1ctMGE5SGlJUzVYY0F6cHlxdE56djEwZmJ6eVg5eHhrbmU3TUtKM21zaXk1Z18zMHNXQk1mWGNZdWx6MENrdGp5cGhHZldtd05UQkZhY3g5dXZobHpMdzhST2ZYYUgzdE1XbkVnSG1DazhRQ2ZjTnhJUWR6UlVXb3E2TUd1dw?oc=5",
@@ -22,38 +40,20 @@
       "signal": "flat"
     },
     {
-      "title": "Inteligência artificial entra no topo das prioridades de investimento das empresas",
-      "summary": "Inteligência artificial entra no topo das prioridades de investimento das empresas",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdUFuVlA4Q3ByaEczYUhVMXNWOXhYelA5YVFOTEpERE9xaUlib0NDVXlLSTZ0dTNxcWVOeEZ2RHhjb1B4TVBCeS1rLXMwTzJNcjV0UGtQckJyckNqeHVuNk9NMDBsNFh1MG9mNzduMDdFVVkza2VCUDM1c3A3ZWJNcnhjUi1EanEyM3lfOUtpckVjdXBnaFN1QlN4NnJaZ0IzTmxINndsYm1RaHpRaVhfTzVxQ1JMVVB5a3BwU3hWQS1LZExhQmtQVXhGNDFkUXp2VXB4UG9FQ0dmbUpoY2JYNVJkMG4?oc=5",
-      "source": "Contadores.cnt.br",
-      "published_at": "Wed, 12 Aug 2026 12:09:00 GMT",
+      "title": "ZiveAI: a nova corrida das empresas não é por IA. É por previsibilidade",
+      "summary": "ZiveAI: a nova corrida das empresas não é por IA. É por previsibilidade",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZVN5LS1oR2h1NUFtd2lOMFROZzV2VFJjWjNDRXZzTHdPbm93b0tYTmtJaHoyYTlqRGhtcEtPWXMwa1F3WmxiNXdZNm9pX0plSXZOTWZOMlN0ZHhLZHF0S2w0VjlZOE9UYUxPWEJ2LXVaOWJQcktjS0VVTVZuQ2VLUXpReWRHa3JhcnlZNy10by1aSkJVbnRobkhkelMySjBQX0ktZ05jcS1zUVRqVjZpaExENXRsS05oVlFjbm5lMTR0VndQVXBkaWVybVRranV1RmlfanlXdWFyd0tpcXREWHVLUjdNY1B2TEdN0gHrAUFVX3lxTE9lU3ktLWhHaHU1QW13aU4wVE5nNXZUUmNaM0NFdnNMd09ub3dvS1hOa0loejJhOWpEaG1wS09ZczBrUXdabGI1d1k2b2lfSmVJdk5NZk4yU3RkeEtkcXRLbDRWOVk4T1RhTE9YQnYtdVo5YlByS2NLRVVNVm5DZUtRelF5ZEdrcmFyeVk3LXRvLVpKQlVudGhuSGR6UzJKMFBfSS1nTmNxLXNRVGpWNmloTEQ1dGxLTmhWUWNubmUxNHRWd1BVcGRpZXJtVGtqdXVGaV9qeVd1YXJ3S2lxdERYdUtSN01jUHZMR00?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Mon, 10 Aug 2026 12:08:21 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Sebrae leva palestra sobre Inteligência Artificial para pequenos negócios em Juína",
-      "summary": "Sebrae leva palestra sobre Inteligência Artificial para pequenos negócios em Juína",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMXJSMWFRWE9jYlZuajVmNkZhNWpuQUlhejBfTHVtNkllTFZJMV85cDdaOVB4T0x6TWtzd0gydzI5X1dCWURLQl9XRERqNk9EVWZWdVlEdnREb0NWWHBNMnFucXdnZzkwZy13dUhyeXJMNEluc2Q0dXZSY2RUVURaSTQ1NTQ1akMyc2w1Q1hIMUpwTHhlc2FMS2dMcTUzYUw2M0NFZHphMzQ?oc=5",
-      "source": "O Livre",
-      "published_at": "Wed, 12 Aug 2026 18:36:41 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Envolti amplia atuação em IA e anuncia Elder Gil Funk como Chief AI Officer",
-      "summary": "Envolti amplia atuação em IA e anuncia Elder Gil Funk como Chief AI Officer",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMTV6LTZBNFVtUmRMUjMwLWdETWZJUllZSXQ1QTROaUYxSWROY1NUSGIyLVdCcnA2MEllU2VuX2xETEJCOTBSVG1sYmk0VDAxYVIyVGs4UVlweU1WXzhYNkdPLTUwM0VydXF4eTY1SXFOaXQ0LUJkNXBodkFZdzZmM0g3c3JydzRoZkNuN3ZvMVd3Q0drZEk3VXRRempNd3ItLVhaTTVyQkNpcW1nWEJR?oc=5",
-      "source": "Economia SC",
-      "published_at": "Wed, 12 Aug 2026 17:04:30 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Talk de Gestão 2026 debate aplicações práticas da inteligência artificial nas empresas",
-      "summary": "Talk de Gestão 2026 debate aplicações práticas da inteligência artificial nas empresas",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdGg2SlJ0NmFuSU9sWXphVXQwdWhsWDZ2YThiTjNTVXNPWHowajhkNVljaXYzMkN6bVMyU2Fvc0ZRR0NGUUdJcmNreUdEMmZkM3JCaUpVWXBueWV1ZW5pNUU4eVh3UC1tNjBDR1E2QlNlY2N6Qmg2TlA0RDJ3X19yc3hFYV9JYkoxMXFsVDJUUGo4UUZPWGpkSlRObG9OUjJHRERHSEJ2TWoybE1BZG9Sck85ZXUxVkJyTTBxT3R0aDVJQjdoT2k1cDA3MFk?oc=5",
-      "source": "ciccaxias.org.br",
-      "published_at": "Tue, 11 Aug 2026 13:54:08 GMT",
+      "title": "Parceira da Anthropic, empresa brasileira corta mais de 50% do esforço com agentes de IA",
+      "summary": "Parceira da Anthropic, empresa brasileira corta mais de 50% do esforço com agentes de IA",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTEVCN1hMRnNfWWZ3c0w2cnVGTkp3WVNvQ0prYXEzMTJHdVN3S2ZwdWxFal9BanZ4UlNTZDhGTURGbGdLVmdLZzhud2dIMGFtNFQyTHMzWmxOREU5MTRja0xNUWhpazladEtfUERXb2ltcWZwVEx6cUpEWjMxQ0ttN0JXMFpmRll0ZGxLTVBQNkVoUTV6dHRWQzNkTHZJNkhaamFYSXhfM2FQMExQNE42WUMtbTVGekJmYlBfa256Z0RYRDNUWl85Yg?oc=5",
+      "source": "Exame",
+      "published_at": "Wed, 12 Aug 2026 14:18:11 GMT",
       "category": "IA",
       "signal": "flat"
     }

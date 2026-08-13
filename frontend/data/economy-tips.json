@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T20:35:33.710925+00:00",
+  "generated_at": "2026-08-13T08:58:54.589258+00:00",
   "source_note": "Curadoria automatica de educacao financeira a partir de feeds RSS publicos, com complemento do catalogo estatico TRCon quando necessario.",
   "errors": [],
   "items": [
@@ -29,6 +29,18 @@
       "link_label": "Ler mais"
     },
     {
+      "tag": "Estrategia Mensal",
+      "tag_class": "tag-green",
+      "title": "Poupança ainda lidera investimentos no Brasil enquanto maioria segue sem reserva financeira",
+      "body": "Poupança ainda lidera investimentos no Brasil enquanto maioria segue sem reserva financeira arevista.com.br",
+      "meta": [
+        "Leitura rapida",
+        "Fonte: arevista.com.br"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUkxDU29hRWprVG9sNmp0MlpqdVp3Vk0tcjNac2gwS2dFMTA3Sm9XNVpOa1IwZ1BQaTRaTlIzblZaQmJyWl93dklncmg4Z0tUZUtjNk5fSXc5SnZRU1hScWlzZmtUbTNmVWhmbGk0OHJPWHZ1aEJoVWxSNnBNeE4xam1UdGRRLUdzOHVLalJzdndqM0dXNHZMejRENVFIcGpNaWRMLTZvUXVUazRHVFFmb0V6V01TZ1ZWcFRWV3hZRUdiVFVrSlpEd2RwWjRCV2xUZHc?oc=5",
+      "link_label": "Ler mais"
+    },
+    {
       "tag": "Cartao",
       "tag_class": "tag-orange",
       "title": "Opinião | Endividamento alto e educação financeira",
@@ -38,18 +50,6 @@
         "Fonte: Estadão"
       ],
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU2UxQWs1alltU1EzekszTC1BUXVJYkV2cjRJSVZWb29aWlJTU2ZXaUdSaHBhcnBucmJ3MmpPSUk3bzRyZW1jSy02eWtoQ2c5WVk3LWJMQXhrenZwVEROamQya2ZuZkhZU2xsQTdPSkVGS3g4azVqNVQydU1qazFwNVdYS2FEWHNYdEt6ZTVwZWlTOUREV1E?oc=5",
-      "link_label": "Ler mais"
-    },
-    {
-      "tag": "Mercado",
-      "tag_class": "tag-blue",
-      "title": "Insights da semana: poupança segue como investimento mais disseminado",
-      "body": "Insights da semana: poupança segue como investimento mais disseminado CNN Brasil",
-      "meta": [
-        "Leitura rapida",
-        "Fonte: CNN Brasil"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbkJEVGEzc0dCOWY3Vkt3VlJZMkFhWVhYb0FiQWxNYVdnQW5URldwbUFYRV9uVUVXWTA2bzk1T0VWR3lWTnc2LXI5aldrMkdkSnEyYnZuN3hWVFR5aUt2V21DMVVXN3FoODVNbkFUZzNvQ09IUjNsYlhnX3lUSWltYTdtQ0pHM2ZQRFNtR1g3OEN5aE0wTUNTN0lPV20wdWxjU3BTa3IwTFFaUzE4U2JWTE96WlFmU2dRSU81UUJn?oc=5",
       "link_label": "Ler mais"
     }
   ],
