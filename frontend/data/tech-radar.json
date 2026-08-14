@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T08:54:36.223258+00:00",
+  "generated_at": "2026-08-14T20:24:04.388772+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de tecnologia.",
   "errors": [],
   "items": [
@@ -40,13 +40,13 @@
       "signal": "flat"
     },
     {
-      "title": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
-      "summary": "AMcom lança modelo de entrega de soluções em desenvolvimento de software potencializado por IA",
+      "title": "AMcom lan�a modelo de entrega de solu��es em desenvolvimento de software potencializado por IA",
+      "summary": "AMcom lan�a modelo de entrega de solu��es em desenvolvimento de software potencializado por IA",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSVJHd1ZRSXIyZllmWmJjWE9URWFfYzB4bWU0UUNxd3ZJdlBvMkhza0dOSHJDYmZoZjRkTmJUT2dKTjhVMkhmU1JVd2hsbnZINEFORFNIM2dmNjYxR3h3dUw3ZkNXTERDN0hCMjBmUGtFMV9weXc1R2tjOTlwdnNzVVpheFQxSDdPYkJpQy11d1k2ZnZHeGhyLTZwWllsR0d5dnZsSlpENTByVzNQSmlrdFZYdVpmOUo0c25fUUtHd0hBcWQwdnlTOUtqY0NPbW5ycmJzcXdQVXRwdFFPMFVjcThCbmZMR1dHSDVXb0k3S21vT0tCTmhJcg?oc=5",
       "source": "noticenter.com.br",
       "published_at": "Fri, 26 Jun 2026 07:00:00 GMT",
       "category": "Tecnologia",
-      "signal": "up"
+      "signal": "flat"
     },
     {
       "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
