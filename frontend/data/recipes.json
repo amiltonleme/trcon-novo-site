@@ -1,20 +1,6 @@
 {
-  "generated_at": "2026-08-13T20:33:47.867112+00:00",
+  "generated_at": "2026-08-14T08:54:33.920955+00:00",
   "items": [
-    {
-      "emoji": "🍌",
-      "title": "Bolo de banana madura",
-      "body": "Aproveita bananas que iriam para o lixo e vira lanche da semana. Pode ser feito com aveia para render mais.",
-      "meta": [
-        "45min",
-        "8 fatias",
-        "Medio"
-      ],
-      "url": "https://www.google.com/search?q=receita+bolo+de+banana+madura+com+aveia",
-      "link_label": "Ver receita",
-      "gradient": "linear-gradient(135deg,#1a1020,#0d1219)",
-      "featured": true
-    },
     {
       "emoji": "🍲",
       "title": "Sopa de legumes com lentilha",
@@ -26,7 +12,8 @@
       ],
       "url": "https://www.google.com/search?q=receita+sopa+de+legumes+com+lentilha",
       "link_label": "Ver receita",
-      "gradient": "linear-gradient(135deg,#162015,#0d1219)"
+      "gradient": "linear-gradient(135deg,#162015,#0d1219)",
+      "featured": true
     },
     {
       "emoji": "🌮",
@@ -53,6 +40,19 @@
       "url": "https://www.google.com/search?q=receita+macarrao+alho+e+oleo+com+legumes",
       "link_label": "Ver receita",
       "gradient": "linear-gradient(135deg,#1a2535,#0d1219)"
+    },
+    {
+      "emoji": "🥘",
+      "title": "Arroz, feijao e ovo cremoso",
+      "body": "Prato completo, proteico e barato. Funciona bem para marmitas e reduz pedidos de delivery durante a semana.",
+      "meta": [
+        "25min",
+        "3 porcoes",
+        "Facil"
+      ],
+      "url": "https://www.google.com/search?q=receita+arroz+feijao+ovo+cremoso",
+      "link_label": "Ver receita",
+      "gradient": "linear-gradient(135deg,#1f1a10,#0d1219)"
     }
   ]
 }
