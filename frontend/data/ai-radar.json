@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-08-15T08:12:50.941558+00:00",
+  "generated_at": "2026-08-15T20:14:06.515880+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
+    {
+      "title": "Empresas de inteligência artificial contratam milhares de eletricistas e encanadores para data centers",
+      "summary": "Empresas de inteligência artificial contratam milhares de eletricistas e encanadores para data centers",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQU9ZVTJBVm1ybjFDNTA2YVlnd3l3c1gwWjlyQnppNUIyaHVrYVJoaVhzcVNIdmVVRUxvNjhIT1h5c3lVZWNpakhXb1NjbHEwbG9rUnV2blNmVmxXQlZ3aTFsQVk2aXhrSzY0NXBPZ0NNMC16Nnk0TGJGbmp4NEtENDVSQnVDdERUX0FLQ1ZuRjZNV2tsUmV3eVJld3NnRlAwLWfSAacBQVVfeXFMUDRBRDlOdDAtQ0F3OFAydkx5QjZ6X0l6bURBY01YdGtZTzhTeDJUTDF5M2NWYTdwb3Fxc2wyRTBqNGRqUldoNE9GZE92UUR1R0NJcDJIYXpILXJMeW9JdU5JU25JRnNQVkhzWjlkUWh6d2NJQ3BiX1ppd3pmOGx0Ulk1dHEzT2xObmE2OWpkYjNqa1VPZXh6S3BFbFVtODNqYkMwVzQtMDA?oc=5",
+      "source": "Banda B",
+      "published_at": "Sat, 15 Aug 2026 19:13:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
     {
       "title": "IA nas empresas: por que o método passou a ser mais importante que a ferramenta",
       "summary": "IA nas empresas: por que o método passou a ser mais importante que a ferramenta",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSkdtMzF5b1dNZmdnMTEtSFdfU05qZlFXV0VNbThwS0J5OEFIZDJXWDAxUUtBUzdaUnB6Q0dtY2c2SWpHY1lKTzN0RTUyZ05HalU4WXE5dDN2NHh0VHlTdUJWN0hLZTM3SlRqa28wMDVpczZNVHFVME9WRjRlMkduMGd6bGpXYllKSTNCMXh5ZEZNeVM3MmZaSGozOFB1aExYcUNPNi02SnZra0RydThZaWVn?oc=5",
       "source": "Canaltech",
       "published_at": "Fri, 14 Aug 2026 10:43:35 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Análise: gigantes europeias faturam mais com IA do que desenvolvedoras",
-      "summary": "Análise: gigantes europeias faturam mais com IA do que desenvolvedoras",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONVVkTlVrR0lhdjNkNG1sSDlZUjdrOWp0cGRxX1l0NWR5MTNGUTBDMDVhVTR4a2ZCeWY4TElSN2YyQU9UdkJ4WDJoRGNMbEhILWNLbVFPRXp2c2dnN1JHcEJHUnh5ZzhHdkt6TzlmVDYtblFXb0g1NjJOeDZzUVZPU1YzdEgtTnBCWWhSRU5nNllMZXZuYW5TRTJPeDNVSUF0ZHY3aFBCY0ZVSklESEV2WnR5cGZaYVEzSnI0NWxCSXZPRGo0XzdJX3A0VzRmVl9oUUNoVg?oc=5",
-      "source": "CNN Brasil",
-      "published_at": "Wed, 05 Aug 2026 07:00:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -31,31 +31,31 @@
       "signal": "flat"
     },
     {
-      "title": "Por que quase dobrou número de CEOs no Brasil planejando investir mais em IA para força de trabalho",
-      "summary": "Por que quase dobrou número de CEOs no Brasil planejando investir mais em IA para força de trabalho",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQbUhkeXVNNmQ0ek9PSXZscFdyeXotTHQtdDBTWTNwd2ROSTJVcXFlZ2l5WEpDb3ZHdF8wcURVclBYbW03ZS03eExQbnI4WDBMUFdwVDlYUkpPZ3M3U0g0dGJRR1VpZnBxck15V3N2N0VycVRaaU1CWGk1UExKSzk3N2JCX19Vckc4eDZYcWlRa1hRazFwUzlQaXFuM2ZUa3lwckZqdmcxNFlNc2RKdS1pdzN6Y3JGaEdGSzNXTDFrSzV6c3lqYTBmX2VQZ1VWaDNpSjNNV2FBaG53RkEyZXNWUtIB5gFBVV95cUxNNExaZjZYalplS3JsN0xQSGd4VURrdWxKbjliUWI5YVd2VmZNWTZ2c24tWko5cUtYMW9VR0IyV1NfRlJrMk1GVl9vRFV0YVA5OEo4RlVLZV9uMDZvS2Z6enVOb2FxU25idEdndFlQTl9aemtsZTFMUmxQM3Fycmk3ZW5CUXpCZnh6OTR6YjVlMERIUnFJaHJSOGk2QnI0MGg4Y25EcThKaXhPS1hFNi1lMVhBSTN0eG5IVVlUa05wLVR0cmZQcVNUeGRmSmp5Tm5xaEhqd25TX3E1TEpKM1JZRHRnWml4UQ?oc=5",
-      "source": "Estadão",
-      "published_at": "Fri, 14 Aug 2026 18:09:00 GMT",
+      "title": "A IA não vai substituir sua empresa. Vai criar as que nunca existiram",
+      "summary": "A IA não vai substituir sua empresa. Vai criar as que nunca existiram",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV016cHlDUFNnMUtVeEQ2Y1lHb0s5YmZyY1NQMm45d1VzTGI1blc3V2NpTmxQU3pQZWI0bThTdXZfd1QzUklfMDVEVzJ1SllEbkxUZ3U3aU8yRHRPdW1SV3BjbFd5NTI5RHdNb0FWbHdWNWxWTGp6bk5oWkNLUkhUTmRGams2T1pmMlpOUVNYUmd2dmhi?oc=5",
+      "source": "exame.com",
+      "published_at": "Sat, 15 Aug 2026 13:26:12 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "OpenAI, do ChatGPT, diz que IA pode adicionar R$ 1 trilhão ao PIB do Brasil em três anos",
-      "summary": "OpenAI, do ChatGPT, diz que IA pode adicionar R$ 1 trilhão ao PIB do Brasil em três anos",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWjVPNVdZUjd4d1RnQ0pJQmpfalF5VHk1SFlkQ2hVUG9xWkVKXy1kSi02WEp6Ujk3TTlXVXJkRFJtSVVVLTFTanJ1UTlVOVRySWlvVDVGb0RBU09DVVFKU0VuOG12VnZZM2FoMmlONnZDTExtRWVuRVJwLVJMZFhtNkRTUDhKVHFSdjY0NF94R1Q3NENhT2lEWE15NjI4b182MFc0Q1JvcndBenJrWjhSS3RzYXpnU1d4VGtaUVdMNjhoZnFZU0owRTR3dUtGR3UxV1ZkMFFIWTZXd9IB6AFBVV95cUxQYUJrSUp3WC12b2U0R1pmeTROVk1IQnpGOHdDVjEtdTJLSF9MdlRNbVFldmg3SDdzT3dFTzhkUFRfUzZOVlI2aTU3aGhIZm14aTBEZy1CVkxSS083a2lJLU1NQ2NFcEFJaEswYVJVUjhiVVJWNjF2WHhCS2RrY2RKY1BrOXoxT3duZktQX3RLZ281MW5aR0RveHoxSUJTekd6OVJqYlZ6bmVnMEVxT292aWlLUWppZDdPcVZ0T0JlT2U5N05PRFdDZVR3dndBcEZyVW9qdEJPaHBMQ1hfWHRnZ1l2eEZxTjJh?oc=5",
-      "source": "G1",
-      "published_at": "Thu, 13 Aug 2026 16:12:24 GMT",
+      "title": "Os livros que passaram décadas encalhados e agora têm um misterioso comprador — a inteligência artificial",
+      "summary": "Os livros que passaram décadas encalhados e agora têm um misterioso comprador — a inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNaUx5UWJLd29VWXR4MDY2YVhHVnhLQlpqejNVSE5aODBDcTNSeDlEWGJhWENZTUh5MUhZU3FnRFRXSjFhUFZqZ3FFTUE5RmZBZ0V4VENNZFhqalRKc1FQM2czX1JJS216OVRQLV9FdVl1emJYTHBaWEpqTEtnU1FLZUQxYk5TSjRhY0dXWVQwMm1WVzc3SFdzZ09nOERveDdXem9PdnMyd1luVnZmYWFRang5RUNkTlgtbGdSUUJqOWRsZWgyX2VmeUdTSDJSVmRVQ1BPZ0dRejhYOFdlNnFxUDBmR3hBeG9LS1ZHWm9rNndKZ9IBgAJBVV95cUxOT3JuNGdmVnVaamhuT0JrTTdvdkF0bUM3ZVRXejlWWHJZMWJIWlhaV2lNbkhVNlpBSXlva1JiYWh3LTN3cUpacTZfeUtTZk42cWRoTU5KNDdiS1hycGo0WmhvRE9ndHNrT3RPa2tydXVKMDQyWjRfNXNGQWloN2FOYUlRTEM0d2duTm5qOVJaUWN0bU1sZjdzOFJ4a0ZUSFc0dmZvbWhiNTNUcXNqV19UNU4yRlFCQW5FSm90UFJCX2wyblJfaTh6eXNKRXZiTVdjZUMxRV9zNU1zQ1c5OVBFLU45LUZCRXFiRGZFUGNwcmFTVXdycTJmQkNDTEowUTFa?oc=5",
+      "source": "g1.globo.com",
+      "published_at": "Sat, 15 Aug 2026 17:38:44 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Inteligência Artificial ajuda empresas a prever riscos em processos trabalhistas",
-      "summary": "Inteligência Artificial ajuda empresas a prever riscos em processos trabalhistas",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdmpBT3BHa2EtQnk2VjVVRXIza3E2eU9ub3dqbk5XNFBsU215VlI4Y1hyLTh1anZrYWZLWmdULXBVdERuVGhfTV9JSmhoLW9CalUzd0FyWnBUNW16VHQ3ZzFReTliT1k3dmMxdnVMMjhEYXZJLUZZQzVNMWVENC1zVllqalJoVktCdzFxRExMdHd6V2w1TlNPMXdJWG42R1UwVDlXaDlFUkIzdGF6UnpGOF82U1Fuemt2clVYQVVOdEdaUEU?oc=5",
-      "source": "bra1.com.br",
-      "published_at": "Fri, 14 Aug 2026 18:18:00 GMT",
+      "title": "“Funcionários de IA” ganham espaço nas empresas e redefinem a produtividade com automação inteligente - CNDL",
+      "summary": "“Funcionários de IA” ganham espaço nas empresas e redefinem a produtividade com automação inteligente - CNDL",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPN2dLMlVUMDhRYmRJcEtzLXZWSmxDNXlVdDFQWHNKWXp0VWhHWHVjQThYUzEtQ1R2a2FjLUp1TmVwS3VGeTVTM2gwNHF4cjczNW9OQkg0eHZ1M2FHcTRRQ1BVWG9YMktYaTVLWThDTzdFcEthUUpvZWhpcTJoUV9UOGQwRDRXaTFWY243RG9VcXF1NEZMalNpendRS2NRenhxeEtkdlIzTTV0RGh3RHFlcnRtYVg3Y0lBdGNSeTFaUVRTSDU1RThaWQ?oc=5",
+      "source": "CNDL - Confederação Nacional de Dirigentes Lojistas",
+      "published_at": "Sat, 15 Aug 2026 19:33:57 GMT",
       "category": "IA",
-      "signal": "down"
+      "signal": "flat"
     }
   ],
   "category": "IA"
