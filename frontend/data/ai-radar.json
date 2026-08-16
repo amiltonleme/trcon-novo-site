@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-08-16T08:14:04.907821+00:00",
+  "generated_at": "2026-08-16T20:13:42.741970+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
-    {
-      "title": "Segundo cientistas, a inteligência artificial já está à beira do seu potencial máximo, e Empresas como a OpenAI e a Anthropic devem agora se concentrar principalmente na chamada inteligência artificial escalável",
-      "summary": "Segundo cientistas, a inteligência artificial já está à beira do seu potencial máximo, e Empresas como a OpenAI e a Anthropic devem agora se concentrar principalmente na chamada...",
-      "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxORl9uRmpBN3lXSTJONlhIVkVyWDFOT05pRVpkT1FlY2RVOTBXT3NkMlVrZ0FDbnJCU29Wa3VDbmdmYUcxQV9LWE9LMVBQUzAyQlNVYy1Wemo5SkV0c0UyOU9TUGx0UGp3QnQ4aVVLRmstcXhMQy01UXExM1RyWDU3eVhHWGFZY1VtZ1h6cnFkVjEtS1lXV1RuYjBpZVU3VndhM2RlRU9sTzNjbjBELWVudG0yZUsybjhRcllsRFBoamJGTGZvaGl2cm5xOVRldU9XRGUzZmF2YTU1enlESzJqZ1lDdk56X2lvZ1ZXN3NwRnM4alM4WG1yYllsQjQxOHFDbmtUREJMNm5fZmdYY3ZyWmhFZy1mOWxJNm9KdlJaM0FRamNIUndYSWRvNkJvUTlvUFVtWlpfdWRDUVM4eUI2dEh2RkFvVlJ0XzcwbndoNXhnc20xY2M3TzhySldTUQ?oc=5",
-      "source": "Midiamax",
-      "published_at": "Sat, 15 Aug 2026 23:35:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
     {
       "title": "Empresas de inteligência artificial contratam milhares de eletricistas e encanadores para data centers",
       "summary": "Empresas de inteligência artificial contratam milhares de eletricistas e encanadores para data centers",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQU9ZVTJBVm1ybjFDNTA2YVlnd3l3c1gwWjlyQnppNUIyaHVrYVJoaVhzcVNIdmVVRUxvNjhIT1h5c3lVZWNpakhXb1NjbHEwbG9rUnV2blNmVmxXQlZ3aTFsQVk2aXhrSzY0NXBPZ0NNMC16Nnk0TGJGbmp4NEtENDVSQnVDdERUX0FLQ1ZuRjZNV2tsUmV3eVJld3NnRlAwLWfSAacBQVVfeXFMUDRBRDlOdDAtQ0F3OFAydkx5QjZ6X0l6bURBY01YdGtZTzhTeDJUTDF5M2NWYTdwb3Fxc2wyRTBqNGRqUldoNE9GZE92UUR1R0NJcDJIYXpILXJMeW9JdU5JU25JRnNQVkhzWjlkUWh6d2NJQ3BiX1ppd3pmOGx0Ulk1dHEzT2xObmE2OWpkYjNqa1VPZXh6S3BFbFVtODNqYkMwVzQtMDA?oc=5",
       "source": "Banda B",
       "published_at": "Sat, 15 Aug 2026 19:13:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "A IA não vai substituir sua empresa. Vai criar as que nunca existiram",
+      "summary": "A IA não vai substituir sua empresa. Vai criar as que nunca existiram",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV016cHlDUFNnMUtVeEQ2Y1lHb0s5YmZyY1NQMm45d1VzTGI1blc3V2NpTmxQU3pQZWI0bThTdXZfd1QzUklfMDVEVzJ1SllEbkxUZ3U3aU8yRHRPdW1SV3BjbFd5NTI5RHdNb0FWbHdWNWxWTGp6bk5oWkNLUkhUTmRGams2T1pmMlpOUVNYUmd2dmhi?oc=5",
+      "source": "Exame",
+      "published_at": "Sat, 15 Aug 2026 13:26:12 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -49,11 +49,11 @@
       "signal": "flat"
     },
     {
-      "title": "A IA não vai substituir sua empresa. Vai criar as que nunca existiram",
-      "summary": "A IA não vai substituir sua empresa. Vai criar as que nunca existiram",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV016cHlDUFNnMUtVeEQ2Y1lHb0s5YmZyY1NQMm45d1VzTGI1blc3V2NpTmxQU3pQZWI0bThTdXZfd1QzUklfMDVEVzJ1SllEbkxUZ3U3aU8yRHRPdW1SV3BjbFd5NTI5RHdNb0FWbHdWNWxWTGp6bk5oWkNLUkhUTmRGams2T1pmMlpOUVNYUmd2dmhi?oc=5",
-      "source": "Exame",
-      "published_at": "Sat, 15 Aug 2026 13:26:12 GMT",
+      "title": "OpenAI, do ChatGPT, diz que IA pode adicionar R$ 1 trilhão ao PIB do Brasil em três anos",
+      "summary": "OpenAI, do ChatGPT, diz que IA pode adicionar R$ 1 trilhão ao PIB do Brasil em três anos",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWjVPNVdZUjd4d1RnQ0pJQmpfalF5VHk1SFlkQ2hVUG9xWkVKXy1kSi02WEp6Ujk3TTlXVXJkRFJtSVVVLTFTanJ1UTlVOVRySWlvVDVGb0RBU09DVVFKU0VuOG12VnZZM2FoMmlONnZDTExtRWVuRVJwLVJMZFhtNkRTUDhKVHFSdjY0NF94R1Q3NENhT2lEWE15NjI4b182MFc0Q1JvcndBenJrWjhSS3RzYXpnU1d4VGtaUVdMNjhoZnFZU0owRTR3dUtGR3UxV1ZkMFFIWTZXd9IB6AFBVV95cUxQYUJrSUp3WC12b2U0R1pmeTROVk1IQnpGOHdDVjEtdTJLSF9MdlRNbVFldmg3SDdzT3dFTzhkUFRfUzZOVlI2aTU3aGhIZm14aTBEZy1CVkxSS083a2lJLU1NQ2NFcEFJaEswYVJVUjhiVVJWNjF2WHhCS2RrY2RKY1BrOXoxT3duZktQX3RLZ281MW5aR0RveHoxSUJTekd6OVJqYlZ6bmVnMEVxT292aWlLUWppZDdPcVZ0T0JlT2U5N05PRFdDZVR3dndBcEZyVW9qdEJPaHBMQ1hfWHRnZ1l2eEZxTjJh?oc=5",
+      "source": "G1",
+      "published_at": "Thu, 13 Aug 2026 16:12:24 GMT",
       "category": "IA",
       "signal": "flat"
     }
