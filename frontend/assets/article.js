@@ -1,6 +1,10 @@
 import { parseArticleSlug, fetchArticleBySlug, renderArticlePage } from './modules/article.js';
 
 async function bootArticlePage() {
+  if (document.body?.dataset?.articleSsr === 'true') {
+    return;
+  }
+
   const slug = parseArticleSlug(window.location.pathname);
   const root = document.getElementById('articleRoot');
   const loading = document.getElementById('articleLoading');
@@ -11,17 +15,26 @@ async function bootArticlePage() {
       error.hidden = false;
       error.textContent = 'Artigo não encontrado.';
     }
-    if (loading) loading.hidden = true;
+    if (loading) {
+      loading.hidden = true;
+      loading.removeAttribute('aria-busy');
+    }
     return;
   }
 
   try {
     const article = await fetchArticleBySlug(slug);
     renderArticlePage(article, root, { siteBase: window.TRCON_SITE_BASE_URL || 'https://trcongroup.com.br' });
-    if (loading) loading.hidden = true;
+    if (loading) {
+      loading.hidden = true;
+      loading.removeAttribute('aria-busy');
+    }
     root.hidden = false;
   } catch (err) {
-    if (loading) loading.hidden = true;
+    if (loading) {
+      loading.hidden = true;
+      loading.removeAttribute('aria-busy');
+    }
     if (error) {
       error.hidden = false;
       error.textContent = 'Não foi possível carregar este artigo.';

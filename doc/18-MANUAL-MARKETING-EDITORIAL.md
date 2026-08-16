@@ -2,7 +2,7 @@
 
 > Manual completo: [`../../sirius-marketing/projeto/docs/cursor/12_manual_usuario_marketing.md`](../../sirius-marketing/projeto/docs/cursor/12_manual_usuario_marketing.md)  
 > **Guia capa / demos / apresentação:** §4.1 do manual completo.  
-> Atualizado em **06/08/2026**
+> Atualizado em **16/08/2026**
 
 ## O que vai para onde
 
@@ -37,24 +37,23 @@ Slug expirado → **404**. Sitemap/RSS usam as mesmas listagens filtradas.
 3. Marketing: APP_SITE_CONTENT_TTL_DAYS=4 (default) no publish
 ```
 
-## Layout na home (jul/2026)
+## Layout na home (ago/2026)
 
-As seções **Radar** e **Novidades** usam o mesmo **grid de cards** (`cards-grid`):
-
-- Tag com categoria/fonte
-- Título + resumo
-- Link verde com seta →
+As seções **Radar**, **Novidades** e **Educação Financeira** usam grid de cards e **só aparecem se houver itens**. Sem conteúdo, o bloco inteiro fica oculto — não há “Carregando…” / “Sem novidades…” no HTML inicial (higiene de indexação).
 
 Novidades: link interno `/novidades/{slug}` (mesma aba). Radar: links externos (Google News, etc.).
 
-## Página do artigo (Sprint 8 + Desenho A)
+## Página do artigo (Sprint 8 + Desenho A + SEO SSR)
 
 - URL: `https://trcongroup.com.br/novidades/{slug}`
-- API: `GET /api/public/news/{slug}` (inclui `coverImageUrl` opcional)
+- **HTML SSR:** `GET /novidades/{slug}` no backend (meta, Open Graph, JSON-LD `NewsArticle`, corpo) — first paint rastreável
+- API JSON: `GET /api/public/news/{slug}` (inclui `coverImageUrl` opcional)
+- Proxy: frontend nginx/`npm run dev` encaminha `/novidades/` para a API (`SITE_API_UPSTREAM`; local default `:8081`)
+- Fallback CSR: `novidades.html` + `article.js` se a API estiver indisponível
 - Capa: hero + `og:image` quando o marketing envia URL HTTPS
 - Vídeo: link YouTube/Vimeo em linha do body → iframe
-- SEO: meta description + Open Graph na página
 - Feeds: `GET /sitemap.xml`, `GET /feed/news.xml`
+- `robots.txt` no site institucional
 
 ## Capa, imagens e vídeos (resumo editorial)
 
@@ -69,6 +68,7 @@ Não há upload nesta fase. R2 / IA visual = Desenho B ([`19-DESENHO-MIDIA.md`](
 ## Dev local
 
 Site frontend `assets/env.js` → APIs em `http://localhost:8081`.  
+`npm run dev` sobe em `:4173` e faz proxy de `/novidades/*` para `SITE_API_UPSTREAM` (default `http://127.0.0.1:8081`).  
 Publicação marketing → site local; home em `http://127.0.0.1:4173` (**não** abrir `trcongroup.com.br` para testar publish local).
 
 Marketing: `APP_SITE_DEFAULT_URL=http://127.0.0.1:4173` para os links gravados no publish. O frontend local reescreve URLs absolutas de `trcongroup.com.br` para path relativo.
@@ -77,6 +77,7 @@ Marketing: `APP_SITE_DEFAULT_URL=http://127.0.0.1:4173` para os links gravados n
 
 | Data | Correção |
 |------|----------|
+| 16/08/2026 | Site **0.8.0**: SSR `/novidades/{slug}` + JSON-LD; home sem placeholders operacionais; `robots.txt`; proxy `SITE_API_UPSTREAM` |
 | 06/08/2026 | L0 TTL: `expires_at` em news/economy-tips; env `SITE_CONTENT_TTL_DAYS`; soft-hide home |
 | 05/08/2026 | Newsletter/landing: leitura completa em `/novidades/{slug}`; excluídas do grid Novidades (categoria Educacao); upsert economy-tips |
 | 30/07/2026 | Desenho A: capa URL + `og:image` + embed YouTube/Vimeo; guia editorial §4.1 |

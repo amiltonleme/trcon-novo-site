@@ -6,6 +6,7 @@ import {
   renderArticleBody,
   formatArticleDate,
   buildArticleUrl,
+  buildNewsArticleJsonLd,
 } from '../../assets/modules/article.js';
 
 describe('parseArticleSlug', () => {
@@ -46,6 +47,23 @@ describe('renderArticleBody', () => {
     expect(html).toContain('&lt;b&gt;');
   });
 
+  it('renderiza markdown-lite seguro para negrito e listas', () => {
+    const html = renderArticleBody(
+      'O desafio\n\n**Estratégias práticas:**\n\n- Definir prioridades claras\n- Medir resultados',
+    );
+    expect(html).toContain('<p>O desafio</p>');
+    expect(html).toContain('<strong>Estratégias práticas:</strong>');
+    expect(html).toContain('<ul>');
+    expect(html).toContain('<li>Definir prioridades claras</li>');
+    expect(html).toContain('<li>Medir resultados</li>');
+  });
+
+  it('escapa html cru dentro de listas e negrito markdown', () => {
+    const html = renderArticleBody('**Texto <script>x</script>**\n\n- Item <img src=x>');
+    expect(html).toContain('<strong>Texto &lt;script&gt;x&lt;/script&gt;</strong>');
+    expect(html).toContain('<li>Item &lt;img src=x&gt;</li>');
+  });
+
   it('converte URL YouTube em iframe', () => {
     const html = renderArticleBody('Intro\n\nhttps://www.youtube.com/watch?v=dQw4w9WgXcQ\n\nFim');
     expect(html).toContain('youtube.com/embed/dQw4w9WgXcQ');
@@ -62,5 +80,22 @@ describe('formatArticleDate', () => {
 describe('buildArticleUrl', () => {
   it('monta URL canônica', () => {
     expect(buildArticleUrl('slug-teste')).toBe('https://trcongroup.com.br/novidades/slug-teste');
+  });
+});
+
+describe('buildNewsArticleJsonLd', () => {
+  it('gera NewsArticle com campos SEO', () => {
+    const json = buildNewsArticleJsonLd({
+      title: 'Título',
+      description: 'Desc',
+      canonical: 'https://trcongroup.com.br/novidades/titulo',
+      cover: 'https://images.unsplash.com/photo-x',
+      publishedAt: '2026-08-16T12:00:00Z',
+    });
+    expect(json['@type']).toBe('NewsArticle');
+    expect(json.headline).toBe('Título');
+    expect(json.description).toBe('Desc');
+    expect(json.image).toEqual(['https://images.unsplash.com/photo-x']);
+    expect(json.datePublished).toBe('2026-08-16T12:00:00Z');
   });
 });

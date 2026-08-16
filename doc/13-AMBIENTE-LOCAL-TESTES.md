@@ -112,6 +112,8 @@ O site local sobe em:
 http://127.0.0.1:4173
 ```
 
+`npm run dev` faz proxy de `/novidades/*` para `SITE_API_UPSTREAM` (default `http://127.0.0.1:8081`). Sem backend, cai no template CSR `novidades.html`.
+
 Por padrão, o frontend usa JSON estático quando a API não está configurada.
 Para integração local com o backend (e com Sirius Marketing), `frontend/assets/env.js`
 já aponta para `:8081`:

@@ -165,8 +165,8 @@ describe('buildHighlightsHtml', () => {
     expect(html).toContain('▲');
   });
 
-  it('estado vazio', () => {
-    expect(buildHighlightsHtml([])).toContain('Sem destaques');
+  it('estado vazio não renderiza card operacional', () => {
+    expect(buildHighlightsHtml([])).toBe('');
   });
 
   it('não injeta href para URL perigosa', () => {
@@ -189,7 +189,7 @@ describe('buildNewsHtml', () => {
     expect(html).not.toContain('target="_blank"');
   });
 
-  it('estado vazio', () => {
-    expect(buildNewsHtml([])).toContain('Sem novidades');
+  it('estado vazio não renderiza card operacional', () => {
+    expect(buildNewsHtml([])).toBe('');
   });
 });

@@ -1,0 +1,8 @@
+# Site institucional TRCon — indexável.
+# Apps internos (ex.: marketing.trcongroup.com.br) usam noindex próprio.
+
+User-agent: *
+Allow: /
+Allow: /novidades/
+
+Sitemap: https://trcongroup.com.br/sitemap.xml

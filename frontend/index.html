@@ -63,7 +63,7 @@
       <div class="tr-status-items">
         <div class="tr-status-item"><span class="tr-status-dot"></span>AI ENGINE ONLINE</div>
         <div class="tr-status-item"><span class="tr-status-dot" style="background:#00d4ff;box-shadow:0 0 8px #00d4ff;"></span>MARKET FEED ACTIVE</div>
-        <div class="tr-status-item"><span class="tr-status-dot" style="animation-delay:.7s"></span>SISTEMAS OPERACIONAIS</div>
+        <div class="tr-status-item"><span class="tr-status-dot" style="animation-delay:.7s"></span>ARTIFICIAL INTELLIGENCE</div>
       </div>
       <div class="tr-status-time" id="heroClock">00:00:00</div>
     </div>
@@ -137,11 +137,9 @@
       </div>
     </div>
 
-    <!-- TICKER -->
+    <!-- TICKER (conteúdo injetado via JS — sem texto operacional no HTML inicial) -->
     <div class="ticker-wrap" style="position:absolute;bottom:0;left:0;right:0;">
-      <div class="ticker" id="ticker">
-        <div class="ticker-item"><span class="sym">MERCADO</span><span class="val">Atualizando dados reais</span><span class="chg">...</span></div>
-      </div>
+      <div class="ticker" id="ticker" aria-hidden="true"></div>
     </div>
   </section>
 
@@ -184,7 +182,7 @@
   <div class="divider"></div>
 
   <!-- MARKET INSIGHTS -->
-  <section>
+  <section id="section-market">
     <div class="section-label">Mercado hoje</div>
     <div class="section-title">O que está <em style="color:var(--accent);font-style:normal">aquecido</em> agora</div>
     <p class="section-sub">Nossa análise simplificada do cenário atual, sem jargão. Só o que importa para seu bolso.</p>
@@ -200,62 +198,48 @@
           <th>Por quê?</th>
         </tr>
         </thead>
-        <tbody id="marketRows">
-        <tr><td colspan="5" class="loading-row">Carregando cotações e leitura de mercado...</td></tr>
-        </tbody>
+        <tbody id="marketRows" aria-busy="true"></tbody>
       </table>
     </div>
-    <div class="market-status" id="marketMood">
-      <strong>Humor de mercado:</strong> aguardando atualizacao dos dados.
-    </div>
+    <div class="market-status" id="marketMood" hidden></div>
     <div class="market-disclaimer" id="marketDisclaimer">
       Conteudo educacional. Nao constitui recomendacao individual de investimento.
     </div>
     <div class="data-updated" id="marketUpdated"></div>
   </section>
 
-  <div class="divider"></div>
+  <!-- DICAS FINANCEIRAS / RADAR / NOVIDADES: blocos só aparecem com conteúdo real -->
+  <div id="block-economy-tips" class="home-content-block" hidden>
+    <div class="divider"></div>
+    <section id="section-economy-tips">
+      <div class="section-label">Educação Financeira</div>
+      <div class="section-title">Como economizar <em style="color:var(--accent);font-style:normal">de verdade</em></div>
+      <p class="section-sub">Pequenas mudanças no cotidiano geram grandes resultados ao longo do tempo.</p>
+      <div class="insights-grid" id="tipsGrid" aria-busy="true"></div>
+      <div class="market-disclaimer" id="tipsDisclaimer"></div>
+    </section>
+  </div>
 
-  <!-- DICAS FINANCEIRAS -->
-  <section>
-    <div class="section-label">Educação Financeira</div>
-    <div class="section-title">Como economizar <em style="color:var(--accent);font-style:normal">de verdade</em></div>
-    <p class="section-sub">Pequenas mudanças no cotidiano geram grandes resultados ao longo do tempo.</p>
+  <div id="block-radar" class="home-content-block" hidden>
+    <div class="divider"></div>
+    <section id="section-radar">
+      <div class="section-label">Radar TRCon — Atualizado hoje</div>
+      <div class="section-title">Sinais de <em style="color:var(--accent);font-style:normal">IA e tecnologia</em></div>
+      <p class="section-sub">Curadoria automática dos principais movimentos de IA e tecnologia. Atualizado ao longo do dia.</p>
+      <div class="cards-grid" id="radarGrid" style="margin-top:40px;" aria-busy="true"></div>
+      <div class="data-updated" id="radarUpdated"></div>
+    </section>
+  </div>
 
-    <div class="insights-grid" id="tipsGrid">
-      <div class="insight-card">
-        <span class="insight-tag tag-blue">Atualizando</span>
-        <h3>Conteudo diario em preparacao</h3>
-        <p>As dicas de economia serao carregadas automaticamente a partir do arquivo data/economy-tips.json.</p>
-      </div>
-    </div>
-    <div class="market-disclaimer" id="tipsDisclaimer"></div>
-  </section>
-
-  <div class="divider"></div>
-
-  <!-- RADAR TRCON (highlights: API com fallback JSON) -->
-  <section>
-    <div class="section-label">Radar TRCon — Atualizado hoje</div>
-    <div class="section-title">Sinais de <em style="color:var(--accent);font-style:normal">IA e tecnologia</em></div>
-    <p class="section-sub">Curadoria automática dos principais movimentos de IA e tecnologia. Atualizado ao longo do dia.</p>
-    <div class="cards-grid" id="radarGrid" style="margin-top:40px;">
-      <div class="card"><p class="loading-row">Carregando o radar do dia...</p></div>
-    </div>
-    <div class="data-updated" id="radarUpdated"></div>
-  </section>
-
-  <div class="divider"></div>
-
-  <!-- NOVIDADES (news-log: API com fallback JSON) -->
-  <section>
-    <div class="section-label">Novidades da TRCon</div>
-    <div class="section-title">O que <em style="color:var(--accent);font-style:normal">mudou</em> por aí</div>
-    <p class="section-sub">Artigos e comunicados publicados pela equipe TRCon via Sírius Marketing AI.</p>
-    <div class="cards-grid" id="newsList" style="margin-top:40px;">
-      <div class="card"><p class="loading-row">Carregando novidades...</p></div>
-    </div>
-  </section>
+  <div id="block-news" class="home-content-block" hidden>
+    <div class="divider"></div>
+    <section id="section-news">
+      <div class="section-label">Novidades da TRCon</div>
+      <div class="section-title">O que <em style="color:var(--accent);font-style:normal">mudou</em> por aí</div>
+      <p class="section-sub">Artigos e comunicados publicados pela equipe TRCon via Sírius Marketing AI.</p>
+      <div class="cards-grid" id="newsList" style="margin-top:40px;" aria-busy="true"></div>
+    </section>
+  </div>
 
 </div><!-- /page-home -->
 
@@ -911,7 +895,7 @@
     <canvas class="tr-neural-canvas subpage-neural-canvas" aria-hidden="true"></canvas>
     <div class="subpage-tr-status">
       <span>TRCON AUDIENCE</span>
-      <span>SISTEMAS OPERACIONAIS</span>
+      <span>SYSTEMS</span>
     </div>
     <div class="subpage-tr-grid"></div>
     <div class="subpage-tr-corner tl"></div>
@@ -1014,8 +998,8 @@
   <div class="footer-bottom">
     <p>© 2025 TRCon Group. Todos os direitos reservados.</p>
     <div class="site-build-info" id="siteBuildInfo" aria-label="Versão do site">
-      <span>Versão <span id="siteAppVersion">0.7.1</span></span>
-      <code id="siteCommitHash">435c831</code>
+      <span>Versão <span id="siteAppVersion">0.8.0</span></span>
+      <code id="siteCommitHash">733c576</code>
     </div>
     <div class="footer-links">
       <a href="#">Privacidade</a>
