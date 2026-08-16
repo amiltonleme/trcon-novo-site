@@ -71,8 +71,9 @@ Regras:
 | Artefato | Papel atual |
 |---|---|
 | `backend/Dockerfile` | Imagem de produção do backend Spring Boot. Usar no Coolify. |
-| `frontend/` | Site estático servido pelo Coolify, preferencialmente por Nginx/Caddy ou static site do Coolify. |
+| `frontend/` | Site estático + nginx; proxy `/novidades/` → backend (`SITE_API_UPSTREAM`) |
 | `frontend/assets/env.js` | URLs públicas da API — produção: `https://api-site.trcongroup.com.br/api/...` |
+| `frontend/robots.txt` | Política de crawlers do site institucional |
 | `frontend/_headers` | Headers herdados do fluxo Cloudflare Pages. Pode servir como referência para configurar headers no proxy/Coolify/Cloudflare. |
 | `backend/src/main/resources/application.yml` | Profile `prod`, leitura de `PORT`, `DB_URL`, `DB_USERNAME`, `DB_PASSWORD` e CORS. |
 | `infra/docker-compose.yml` | Ambiente local, não produção. |
@@ -217,11 +218,17 @@ Resposta esperada no health:
 
 | Campo | Valor |
 |---|---|
-| Build Pack | **Dockerfile** ou **Static** |
+| Build Pack | **Dockerfile** |
 | Base Directory | `frontend` |
-| Dockerfile location | `Dockerfile` *(se Dockerfile — só nginx + COPY)* |
+| Dockerfile location | `Dockerfile` |
 | Port | `80` |
 | Domains | `https://trcongroup.com.br`, `https://www.trcongroup.com.br` |
+| Env | **`SITE_API_UPSTREAM`** = URL interna/HTTP do backend (ex. `http://trcon-site-backend:8080` ou host Coolify da API). Sem isso, `/novidades/` cai no fallback CSR. |
+
+O `Dockerfile` gera `nginx.conf` via `envsubst` (`nginx.conf.template` + `docker-entrypoint.sh`). Proxy:
+
+- `/novidades/*` → `$SITE_API_UPSTREAM` (HTML SSR com SEO)
+- falha 502/503/504 → fallback `novidades.html` (CSR)
 
 ### Versão e hash no rodapé
 
@@ -230,7 +237,7 @@ Gravados **direto no `index.html`** (HTML estático — sem JS, sem env do Cooli
 - **`npm run build`** (local): `node scripts/stamp-build-info.mjs` — lê `package.json` + git
 - **CI**: workflow `.github/workflows/stamp-site-version.yml` roda a cada push em `frontend/**`, commita o rodapé com `github.sha` e `[skip ci]`
 
-Coolify só publica os arquivos; não precisa build command nem variáveis extras.
+Coolify só publica os arquivos; não precisa build command. **Obrigatório em 0.8.0+:** variável `SITE_API_UPSTREAM` apontando ao backend do site.
 
 **Healthcheck** (opcional):
 

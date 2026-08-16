@@ -119,6 +119,7 @@ export function applyArticleMeta(article, deps = {}) {
   const description = article.metaDescription || article.summary || '';
   const canonical = buildArticleUrl(article.slug, deps.siteBase);
   const cover = safeHttpsImageUrl(article.coverImageUrl);
+  const siteBase = String(deps.siteBase || 'https://trcongroup.com.br').replace(/\/+$/, '');
 
   doc.title = `${title} — TRCon Group`;
 
@@ -138,6 +139,54 @@ export function applyArticleMeta(article, deps = {}) {
     doc.head.appendChild(canonicalLink);
   }
   canonicalLink.setAttribute('href', canonical);
+
+  applyJsonLd(doc, {
+    title,
+    description,
+    canonical,
+    cover,
+    siteBase,
+    publishedAt: article.publishedAt,
+  });
+}
+
+export function buildNewsArticleJsonLd({
+  title,
+  description,
+  canonical,
+  cover,
+  siteBase = 'https://trcongroup.com.br',
+  publishedAt,
+} = {}) {
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'NewsArticle',
+    headline: title || 'TRCon Novidades',
+    author: { '@type': 'Organization', name: 'TRCon Group' },
+    publisher: {
+      '@type': 'Organization',
+      name: 'TRCon Group',
+      url: String(siteBase).replace(/\/+$/, ''),
+    },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
+  };
+  if (description) data.description = description;
+  if (cover) data.image = [cover];
+  if (publishedAt) {
+    data.datePublished = publishedAt;
+    data.dateModified = publishedAt;
+  }
+  return data;
+}
+
+function applyJsonLd(doc, payload) {
+  const existing = doc.querySelector('script[data-news-jsonld="true"]');
+  if (existing) existing.remove();
+  const script = doc.createElement('script');
+  script.type = 'application/ld+json';
+  script.setAttribute('data-news-jsonld', 'true');
+  script.textContent = JSON.stringify(buildNewsArticleJsonLd(payload));
+  doc.head.appendChild(script);
 }
 
 function setMeta(doc, attr, key, content) {

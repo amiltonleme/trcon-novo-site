@@ -1,17 +1,17 @@
 # Status de implementação — Site TRCON
 
-> Atualizado em **30/07/2026** — cruzado com `site/backend` **0.4.0** (+ Flyway **V8** capa), `site/frontend`, `site/infra` (branch `main`).  
+> Atualizado em **16/08/2026** — `site/backend` **0.8.0** + `site/frontend` **0.8.0** (SEO hub editorial: higiene de indexação + HTML SSR `/novidades/{slug}`).  
 > Gaps e segurança: [`15-GAPS-PRODUCAO-SEGURANCA.md`](15-GAPS-PRODUCAO-SEGURANCA.md).  
 > Feito / fazendo / a fazer: [`16-PASSO-A-PASSO.md`](16-PASSO-A-PASSO.md).
 
 ## Visão geral
 
-| Camada | Stack | Prod (jul/2026) |
+| Camada | Stack | Prod (ago/2026) |
 |--------|-------|-----------------|
-| Frontend | HTML/CSS/JS (ES modules), Vitest | Coolify em andamento; hoje Cloudflare Pages / legado |
-| Backend | Spring Boot 3, Java 21, Flyway V1–**V8**, versão **0.4.0** | **OK** — `api-site.trcongroup.com.br` (Coolify + Neon `trcon_site`); **redeploy V8** pendente |
+| Frontend | HTML/CSS/JS (ES modules), Vitest — **0.8.0** | Coolify; nginx proxy `/novidades/` → API |
+| Backend | Spring Boot 3, Java 21, Flyway V1–**V8**, versão **0.8.0** | **OK** — `api-site.trcongroup.com.br` (Coolify + Neon `trcon_site`) |
 | Pipeline conteúdo | Python + GitHub Actions 2×/dia | **OK** — `update-content.yml` |
-| Integração marketing | API interna `X-API-Key` | **Código OK** — redeploy V7/V8 + smoke S8 se ainda pendente em prod |
+| Integração marketing | API interna `X-API-Key` | **Código OK** — smoke/redeploy conforme ambiente |
 | Notificação lead | Resend (`LeadEmailNotifier`) | **Código OK** — configurar `TRCON_SITE_MAIL_*` no Coolify |
 
 ---
@@ -22,7 +22,7 @@
 |--------|-------------|-------------|-----------|--------|
 | `lead` | `POST /api/v1/site/leads` | — | V1 | IT + unit; e-mail Resend (falha não quebra 201) |
 | `highlights` | `GET /api/public/highlights` | `POST /api/internal/highlights` | V2, V5 | IT + unit (filtra editorial) |
-| `news` | `GET /api/public/news`, **`GET /api/public/news/{slug}`** | `POST /api/internal/news` (+ **`coverImageUrl`**) | V3, V4, V7, **V8** | IT + unit |
+| `news` | `GET /api/public/news`, **`GET /api/public/news/{slug}`**, **`GET /novidades/{slug}` (HTML SSR)** | `POST /api/internal/news` (+ **`coverImageUrl`**) | V3, V4, V7, **V8** | IT + unit |
 | `economytips` | `GET /api/public/economy-tips` | `POST /api/internal/economy-tips` | V6 | IT |
 | `feeds` | **`GET /sitemap.xml`**, **`GET /feed/news.xml`** | — | — | IT |
 | `internal` (filtro) | — | `InternalApiKeyFilter` | — | IT |
@@ -39,6 +39,7 @@
 | V5 | `external_id` em highlights |
 | V6 | `economy_tips` |
 | **V7** | `slug`, `body`, `meta_title`, `meta_description` em `news_items` |
+| **V8** | `cover_image_url` em `news_items` |
 
 ---
 
@@ -54,10 +55,12 @@
 | Novidades: API + fallback JSON | ✅ | feed separado de highlights |
 | **Layout Radar + Novidades: cards-grid** | ✅ | `buildCardItemHtml` compartilhado |
 | Educação Financeira merge API + RSS | ✅ | `loadEconomyTips` |
-| Página artigo `/novidades/{slug}` | ✅ | `novidades.html`, `article.js` — **hero capa** + embed vídeo |
-| Meta SEO + Open Graph na página | ✅ parcial | **`og:image` via capa** ✅; JSON-LD pendente |
+| **Seções editoriais só com conteúdo** | ✅ | `#block-news` / `#block-radar` / `#block-economy-tips` ocultos se vazios; sem texto operacional no HTML inicial |
+| Página artigo `/novidades/{slug}` | ✅ | **SSR backend** (meta/OG/JSON-LD/corpo) + fallback CSR `novidades.html` |
+| Meta SEO + Open Graph + JSON-LD | ✅ | HTML inicial via `ArticlePageController`; CSR também injeta JSON-LD |
+| `robots.txt` | ✅ | `frontend/robots.txt` + sitemap institucional |
 | Sitemap / RSS | ✅ | backend `sitemap.xml`, `feed/news.xml` |
-| Dockerfile frontend + nginx rotas `/novidades/*` | ✅ | |
+| Dockerfile frontend + nginx | ✅ | proxy `/novidades/` → `SITE_API_UPSTREAM` (fallback CSR) |
 
 ---
 
@@ -79,10 +82,10 @@ Manual: [`18-MANUAL-MARKETING-EDITORIAL.md`](18-MANUAL-MARKETING-EDITORIAL.md).
 
 | Estado | Itens |
 |--------|-------|
-| **Feito** | Fases 0–7; S8.1–S8.6 (artigo, slug/body, RSS/sitemap); **Desenho A** (capa URL + `og:image` + vídeo embed); Radar ≠ Novidades; economy tips V6; páginas produto + `#page-contato`; e-mail lead Resend; JaCoCo ≥ 80% branch/line |
-| **Fazendo** | Redeploy prod (V6–**V8** + frontend); DNS `@`/`www` → Hetzner; smoke end-to-end; Coolify `TRCON_SITE_MAIL_*` |
+| **Feito** | Fases 0–7; S8.1–S8.6; **S8.5b** JSON-LD + HTML SSR; higiene SEO home (`robots.txt`, seções vazias); Desenho A; Radar ≠ Novidades; economy tips V6; produtos + contato; Resend; JaCoCo ≥ 80% |
+| **Fazendo** | Redeploy prod frontend/backend **0.8.0** + `SITE_API_UPSTREAM`; DNS `@`/`www` → Hetzner; smoke end-to-end; Coolify `TRCON_SITE_MAIL_*` |
 | **A fazer** | Rate limit CF leads/interno; LGPD export/exclusão; staging; S8.7 SEO no form marketing; F9 consolidação legado |
-| **Melhorias** | JSON-LD `NewsArticle`; painel desativar dica economy; CRM; **Desenho B (R2)**; E2E cross-stack |
+| **Melhorias** | Painel desativar dica economy; CRM; **Desenho B (R2)**; E2E cross-stack |
 
 ---
 
@@ -90,35 +93,31 @@ Manual: [`18-MANUAL-MARKETING-EDITORIAL.md`](18-MANUAL-MARKETING-EDITORIAL.md).
 
 | Item | Prioridade |
 |------|------------|
-| Redeploy backend prod Flyway **V6 + V7 + V8** (capa) | Alta |
-| Redeploy frontend prod (S8 + cards + páginas produto + env.js) | Alta |
+| Redeploy backend + frontend **0.8.0** (SSR `/novidades/` + proxy) | Alta |
+| Coolify frontend: env **`SITE_API_UPSTREAM`** (ex. `http://trcon-site-backend:8080` ou URL interna da API) | Alta |
 | `TRCON_SITE_MAIL_*` + `TRCON_SITE_LEAD_NOTIFY_TO` no Coolify | Alta |
 | DNS `@`/`www` → Hetzner | Alta |
-| Smoke: lead → e-mail; approve → Novidades + `/novidades/{slug}`; Radar sem duplicata | Alta |
+| Smoke: View Source em `/novidades/{slug}` com meta/JSON-LD; home sem “Carregando…” | Alta |
 | S8.7 SEO no form marketing | Baixa |
 
 ---
 
-## Correções recentes (29/07/2026)
+## Correções recentes (16/08/2026)
 
-1. **Versão 0.4.0** — backend site alinhado ao marketing.
-2. **UX produtos** — detalhe Hub / Agendamento / Marketing sem formulário embutido; formulário único em Contato com contexto.
-3. **E-mail de lead** — `LeadEmailNotifier` + Resend; falha de e-mail não impede `201`.
-4. **Cobertura** — JaCoCo gate ≥ 80% (line + branch); extratos `LeadNotificationMessageBuilder`, `NewsFeedXmlSupport`.
-5. **CI** — `mvnw` executável no workflow backend.
+1. **Versão 0.8.0** — backend + frontend alinhados.
+2. **SEO higiene (Fase A)** — remoção de mensagens operacionais do HTML inicial; seções editoriais ocultas sem itens; `robots.txt`.
+3. **SEO SSR (Fase B / S8.5b)** — `GET /novidades/{slug}` HTML com meta, OG, JSON-LD `NewsArticle` e corpo; nginx/`dev_server` proxy para a API.
+
+### 30/07/2026
+
+1. Desenho A — capa URL + `og:image` + vídeo embed.
+2. Docs sync com Flyway V8.
+
+### 29/07/2026
+
+1. UX produtos + e-mail lead Resend; JaCoCo ≥ 80%; CI `mvnw`.
 
 ### 27/07/2026
 
-1. **Sprint 8** — artigo por slug, body, RSS, sitemap, integração marketing.
-2. **Radar ≠ Novidades** — artigos marketing só em `news_items`; highlights filtrados.
-3. **Layout unificado** — ambas seções em grid de cards na home.
-4. **`env.js` dev** — APIs locais `:8081`.
-
----
-
-## Correções anteriores (jul/2026)
-
-1. Profiles Spring — `dev` default; prod via Coolify.
-2. API interna — news, highlights, economy-tips com idempotência `external_id`.
-3. Educação Financeira — V6 + merge frontend + pipeline RSS.
-4. Neon idle — Hikari `min-idle=0`.
+1. Sprint 8 — artigo por slug, body, RSS, sitemap.
+2. Radar ≠ Novidades; layout cards; `env.js` dev `:8081`.

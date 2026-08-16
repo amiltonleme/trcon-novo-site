@@ -15,13 +15,13 @@ trcongroup/
     .claude/    -> skills e agents do Claude Code para este projeto
 ```
 
-> **Estado 30/07/2026:** frontend em `trcongroup/site/frontend`; backend **0.4.0** (V1–**V8** capa, mail lead, S8 + Desenho A).
+> **Estado 16/08/2026:** frontend + backend site **0.8.0** (S8 + Desenho A + SEO SSR/JSON-LD + higiene de indexação).
 > A pasta `fluxo-caixa-app/site-trcon` permanece como histórico até decisão de corte ([`16-PASSO-A-PASSO.md`](./16-PASSO-A-PASSO.md) Fase 9).
-> Documentação operacional atual: [`14-STATUS-IMPLEMENTACAO.md`](./14-STATUS-IMPLEMENTACAO.md), [`15-GAPS-PRODUCAO-SEGURANCA.md`](./15-GAPS-PRODUCAO-SEGURANCA.md), [`16-PASSO-A-PASSO.md`](./16-PASSO-A-PASSO.md), [`19-DESENHO-MIDIA.md`](./19-DESENHO-MIDIA.md).
+> Documentação operacional atual: [`14-STATUS-IMPLEMENTACAO.md`](./14-STATUS-IMPLEMENTACAO.md), [`15-GAPS-PRODUCAO-SEGURANCA.md`](./15-GAPS-PRODUCAO-SEGURANCA.md), [`16-PASSO-A-PASSO.md`](./16-PASSO-A-PASSO.md), [`18-MANUAL-MARKETING-EDITORIAL.md`](./18-MANUAL-MARKETING-EDITORIAL.md), [`19-DESENHO-MIDIA.md`](./19-DESENHO-MIDIA.md).
 
 ## Ordem de leitura recomendada
 
-**Operacional (estado atual do código — 29/07/2026):**
+**Operacional (estado atual do código — 16/08/2026):**
 
 1. [`14-STATUS-IMPLEMENTACAO.md`](./14-STATUS-IMPLEMENTACAO.md) — matriz backend/frontend/infra
 2. [`16-PASSO-A-PASSO.md`](./16-PASSO-A-PASSO.md) — feito / em andamento / a fazer

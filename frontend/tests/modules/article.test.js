@@ -6,6 +6,7 @@ import {
   renderArticleBody,
   formatArticleDate,
   buildArticleUrl,
+  buildNewsArticleJsonLd,
 } from '../../assets/modules/article.js';
 
 describe('parseArticleSlug', () => {
@@ -79,5 +80,22 @@ describe('formatArticleDate', () => {
 describe('buildArticleUrl', () => {
   it('monta URL canônica', () => {
     expect(buildArticleUrl('slug-teste')).toBe('https://trcongroup.com.br/novidades/slug-teste');
+  });
+});
+
+describe('buildNewsArticleJsonLd', () => {
+  it('gera NewsArticle com campos SEO', () => {
+    const json = buildNewsArticleJsonLd({
+      title: 'Título',
+      description: 'Desc',
+      canonical: 'https://trcongroup.com.br/novidades/titulo',
+      cover: 'https://images.unsplash.com/photo-x',
+      publishedAt: '2026-08-16T12:00:00Z',
+    });
+    expect(json['@type']).toBe('NewsArticle');
+    expect(json.headline).toBe('Título');
+    expect(json.description).toBe('Desc');
+    expect(json.image).toEqual(['https://images.unsplash.com/photo-x']);
+    expect(json.datePublished).toBe('2026-08-16T12:00:00Z');
   });
 });

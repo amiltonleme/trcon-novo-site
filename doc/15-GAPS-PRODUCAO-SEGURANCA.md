@@ -1,6 +1,6 @@
 # Gaps produção e segurança — Site TRCON
 
-> Atualizado em **30/07/2026** — cruzado com código em `site/backend` **0.4.0** (+ V8) e `site/frontend` (`main`).
+> Atualizado em **16/08/2026** — cruzado com `site/backend` **0.8.0** e `site/frontend` **0.8.0**.
 
 Legenda: ✅ implementado · 🟡 parcial · ❌ pendente
 
@@ -10,8 +10,8 @@ Legenda: ✅ implementado · 🟡 parcial · ❌ pendente
 
 | Gap | Status | O que existe | O que falta |
 |-----|--------|--------------|-------------|
-| Página de artigo legível | ✅ | `slug`, `body`, `/novidades/{slug}`, capa, SEO parcial | JSON-LD `NewsArticle` |
-| SEO (meta, OG, sitemap, RSS) | 🟡 | Meta + OG + **`og:image`** (capa); sitemap; RSS | JSON-LD; S8.7 no marketing |
+| Página de artigo legível | ✅ | `slug`, `body`, `/novidades/{slug}` (SSR + CSR fallback), capa, meta/OG/JSON-LD | — |
+| SEO (meta, OG, sitemap, RSS, JSON-LD) | ✅ site | Meta + OG + `og:image` + **JSON-LD**; sitemap; RSS; HTML inicial SSR; `robots.txt`; home sem texto operacional | S8.7 no marketing (form SEO) |
 | Páginas de produto + contato | ✅ | `#page-hub`, `#page-agendamento`, `#page-marketing`, `#page-contato` | Copy/cases contínuos |
 | Painel admin desativar dica economy | ❌ | Campo `active` em `economy_tips` | Endpoint interno ou SQL manual |
 | Backoffice editorial no site | ❌ | Conteúdo via marketing + pipeline JSON | Fora do escopo MVP |
@@ -23,7 +23,7 @@ Legenda: ✅ implementado · 🟡 parcial · ❌ pendente
 
 | Gap | Status | O que existe | O que falta |
 |-----|--------|--------------|-------------|
-| Sirius Marketing → news | ✅ | `InternalNewsController`, idempotência `external_id` | Smoke prod se redeploy pendente |
+| Sirius Marketing → news | ✅ | `InternalNewsController`, idempotência `external_id` | Smoke prod pós-redeploy 0.8.0 |
 | Marketing → highlights (Radar) | ✅ API existe | **Artigos marketing não usam** (27/07) | Pipeline / manual |
 | Marketing → economy tips | ✅ | V6 + `InternalEconomyTipController` | Smoke pós-redeploy |
 | Pipeline RSS economy tips | ✅ | CI 2×/dia, merge na home | Ampliar feeds / curadoria |
@@ -39,6 +39,8 @@ Legenda: ✅ implementado · 🟡 parcial · ❌ pendente
 | API interna protegida | ✅ | `InternalApiKeyFilter` — header `X-API-Key` em `/api/internal/*` | Rotacionar chave; nunca commitar |
 | CORS | ✅ | `WebConfig` + `TRCON_CORS_ALLOWED_ORIGINS` | Prod: só domínios site |
 | Segredos no frontend | ✅ | Sem API key no JS; só URLs públicas em `env.js` | — |
+| Indexação apps internos | ✅ | Marketing: `noindex` + `X-Robots-Tag`; site: `robots.txt` institucional | Confirmar em prod após redeploy marketing |
+| Exposição de estados editoriais | ✅ | Home sem placeholders “Carregando…/Atualizando…”; seções vazias ocultas | — |
 | Rate limit leads | ❌ | Validação + duplicidade e-mail/origem | Cloudflare WAF em `POST .../leads` (recomendado 10 req/min/IP) |
 | Rate limit API interna | ❌ | Só API key | CF WAF em `/api/internal/*` |
 | Auth usuário final | ❌ | Decisão: não no MVP site | Área privada futura |
@@ -66,7 +68,7 @@ Referência ecossistema: [`sirius-marketing/projeto/docs/cursor/10_estrategia_in
 | Gap | Status | O que existe | O que falta |
 |-----|--------|--------------|-------------|
 | Deploy backend Coolify | ✅ | `backend/Dockerfile`, healthcheck 90s | Manter Flyway alinhado (V8) |
-| Deploy frontend Coolify | 🟡 | `frontend/Dockerfile` | DNS `@`/`www` → Hetzner |
+| Deploy frontend Coolify | 🟡 | `frontend/Dockerfile` + proxy `/novidades/` (`SITE_API_UPSTREAM`) | DNS `@`/`www` → Hetzner; env `SITE_API_UPSTREAM` no Coolify |
 | Ambiente staging | ❌ | dev local + prod | Neon branch + subdomínio |
 | Monitoramento / alertas | 🟡 | Actuator + logs Coolify | Uptime + 5xx + health Neon |
 | Runbooks | ✅ | [`12-DEPLOY.md`](12-DEPLOY.md), [`13-AMBIENTE-LOCAL-TESTES.md`](13-AMBIENTE-LOCAL-TESTES.md) | Atualizar pós-cada release |
@@ -88,24 +90,24 @@ Referência ecossistema: [`sirius-marketing/projeto/docs/cursor/10_estrategia_in
 
 ---
 
-## Priorização (29/07/2026)
+## Priorização (16/08/2026)
 
 | Prioridade | Item |
 |------------|------|
-| **Alta** | Redeploy prod (V6/V7 + frontend) + smoke marketing/artigos |
+| **Alta** | Redeploy prod **0.8.0** (backend SSR + frontend proxy) + smoke View Source `/novidades/{slug}` |
+| **Alta** | Coolify frontend: `SITE_API_UPSTREAM` + DNS `@`/`www` → Hetzner |
 | **Alta** | Coolify mail lead (`TRCON_SITE_MAIL_*`) + smoke formulário |
-| **Alta** | DNS site frontend → Hetzner |
 | **Média** | Rate limit CF leads + alertas |
-| **Média** | Melhorias SEO (JSON-LD); S8.7 marketing |
+| **Média** | S8.7 SEO no form marketing |
 | **Baixa** | LGPD export, staging, Desenho B (R2), CRM |
 
 ---
 
 ## Resumo
 
-O **backend e o frontend estão funcionalmente prontos** para leads (com notificação), Radar, Novidades (artigo completo), Educação Financeira e páginas de produto/contato. Gaps restantes:
+O **backend e o frontend (0.8.0)** cobrem leads (com notificação), Radar, Novidades (artigo SSR + SEO), Educação Financeira e páginas de produto/contato. Gaps restantes:
 
-1. **Operacional** — redeploy, DNS frontend, vars Resend, smoke.
-2. **SEO residual** — JSON-LD; campos SEO no marketing (S8.7).
+1. **Operacional** — redeploy 0.8.0, `SITE_API_UPSTREAM`, DNS frontend, vars Resend, smoke.
+2. **SEO residual** — campos SEO no marketing (S8.7).
 3. **Segurança escala** — rate limit borda, LGPD leads, alertas.
 4. **Adiados** — backoffice, CRM, object storage (Desenho B).

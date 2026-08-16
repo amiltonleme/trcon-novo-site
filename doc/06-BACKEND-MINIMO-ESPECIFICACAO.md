@@ -38,7 +38,8 @@ Protegida por `InternalApiKeyFilter` — header `X-API-Key` = env `TRCON_SITE_IN
 
 | Endpoint | Função |
 |----------|--------|
-| `GET /api/public/news/{slug}` | Artigo completo |
+| `GET /api/public/news/{slug}` | Artigo completo (JSON) |
+| **`GET /novidades/{slug}`** | Página HTML SSR (meta, OG, JSON-LD `NewsArticle`, corpo) — site **0.8.0** |
 | `GET /sitemap.xml`, `GET /feed/news.xml` | SEO feeds |
 
 Request news (resumo):

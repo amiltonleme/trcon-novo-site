@@ -558,7 +558,12 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
 
   function renderTicker(items) {
     const ticker = document.getElementById('ticker');
-    if (!ticker || !items || !items.length) return;
+    if (!ticker) return;
+    if (!items || !items.length) {
+      ticker.innerHTML = '';
+      ticker.setAttribute('aria-hidden', 'true');
+      return;
+    }
     const doubled = items.concat(items);
     ticker.innerHTML = doubled.map(item => `
       <div class="ticker-item">
@@ -567,14 +572,22 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
         <span class="${changeClass(item.direction)}">${escapeHtml(item.change)}</span>
       </div>
     `).join('');
+    ticker.removeAttribute('aria-hidden');
+  }
+
+  function setHomeContentBlockVisible(blockId, visible) {
+    const block = document.getElementById(blockId);
+    if (!block) return;
+    block.hidden = !visible;
   }
 
   function renderMarket(data) {
     const rows = document.getElementById('marketRows');
     if (!rows) return;
 
+    rows.removeAttribute('aria-busy');
     if (!data.assets || !data.assets.length) {
-      rows.innerHTML = '<tr><td colspan="5" class="loading-row">Execute scripts/update_market.py para gerar cotacoes reais.</td></tr>';
+      rows.innerHTML = '';
     } else {
       rows.innerHTML = data.assets.map(asset => {
         const arrow = asset.direction === 'up' ? '▲ ' : asset.direction === 'down' ? '▼ ' : '';
@@ -592,17 +605,39 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
     }
 
     const mood = data.market_mood || {};
-    document.getElementById('marketMood').innerHTML = `<strong>Humor de mercado: ${escapeHtml(mood.label || 'Atualizando')}.</strong> ${escapeHtml(mood.summary || '')}`;
-    document.getElementById('marketDisclaimer').textContent = data.disclaimer || 'Conteúdo educacional.';
-    document.getElementById('marketUpdated').textContent = data.generated_at
-      ? `Atualizado em ${new Date(data.generated_at).toLocaleString('pt-BR')}. ${data.source_note || ''}`
-      : data.source_note || '';
+    const moodEl = document.getElementById('marketMood');
+    if (moodEl) {
+      if (mood.label || mood.summary) {
+        moodEl.hidden = false;
+        moodEl.innerHTML = `<strong>Humor de mercado: ${escapeHtml(mood.label || '')}.</strong> ${escapeHtml(mood.summary || '')}`;
+      } else {
+        moodEl.hidden = true;
+        moodEl.innerHTML = '';
+      }
+    }
+    const disclaimerEl = document.getElementById('marketDisclaimer');
+    if (disclaimerEl) {
+      disclaimerEl.textContent = data.disclaimer || 'Conteúdo educacional.';
+    }
+    const updatedEl = document.getElementById('marketUpdated');
+    if (updatedEl) {
+      updatedEl.textContent = data.generated_at
+        ? `Atualizado em ${new Date(data.generated_at).toLocaleString('pt-BR')}. ${data.source_note || ''}`
+        : data.source_note || '';
+    }
     renderTicker(data.ticker);
   }
 
   function renderTips(data) {
     const grid = document.getElementById('tipsGrid');
-    if (!grid || !data.items || !data.items.length) return;
+    const hasItems = Boolean(data?.items?.length);
+    setHomeContentBlockVisible('block-economy-tips', hasItems);
+    if (!grid) return;
+    grid.removeAttribute('aria-busy');
+    if (!hasItems) {
+      grid.innerHTML = '';
+      return;
+    }
     grid.innerHTML = data.items.map(item => {
       const chart = item.chart ? `
         <div>
@@ -663,7 +698,13 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
     try {
       renderMarket(await loadJson('data/market.json'));
     } catch (error) {
-      document.getElementById('marketUpdated').textContent = 'Nao foi possivel carregar data/market.json.';
+      const updated = document.getElementById('marketUpdated');
+      if (updated) updated.textContent = '';
+      const rows = document.getElementById('marketRows');
+      if (rows) {
+        rows.innerHTML = '';
+        rows.removeAttribute('aria-busy');
+      }
     }
 
     const tipsDisclaimer = document.getElementById('tipsDisclaimer');
@@ -673,14 +714,13 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
         'data/economy-tips.json',
       );
       renderTips({ items, disclaimer });
-      if (tipsDisclaimer) {
+      if (tipsDisclaimer && items.length) {
         tipsDisclaimer.textContent =
           disclaimer || 'Conteudo educacional. Nao constitui recomendacao individual de investimento.';
       }
     } catch (error) {
-      if (tipsDisclaimer) {
-        tipsDisclaimer.textContent = 'Nao foi possivel carregar dicas de educacao financeira.';
-      }
+      renderTips({ items: [] });
+      if (tipsDisclaimer) tipsDisclaimer.textContent = '';
     }
 
     try {
@@ -696,17 +736,20 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
     const radarUpdated = document.getElementById('radarUpdated');
     const newsList = document.getElementById('newsList');
 
-    let newsItems = [];
     if (newsList) {
       try {
         const { items } = await fetchWithFallback(
           apiConfig.newsApiUrl,
           'data/news-log.json',
         );
-        newsItems = items;
-        newsList.innerHTML = buildNewsHtml(items.slice(0, 8));
+        const visible = items.slice(0, 8);
+        newsList.innerHTML = buildNewsHtml(visible);
+        newsList.removeAttribute('aria-busy');
+        setHomeContentBlockVisible('block-news', visible.length > 0);
       } catch (error) {
-        newsList.innerHTML = buildNewsHtml([]);
+        newsList.innerHTML = '';
+        newsList.removeAttribute('aria-busy');
+        setHomeContentBlockVisible('block-news', false);
       }
     }
 
@@ -717,14 +760,18 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
           'data/home-highlights.json',
         );
         radarGrid.innerHTML = buildHighlightsHtml(items);
+        radarGrid.removeAttribute('aria-busy');
+        setHomeContentBlockVisible('block-radar', items.length > 0);
         if (radarUpdated) {
-          radarUpdated.textContent = source === 'api'
-            ? 'Fonte: API TRCon'
-            : 'Fonte: conteúdo publicado';
+          radarUpdated.textContent = items.length
+            ? (source === 'api' ? 'Fonte: API TRCon' : 'Fonte: conteúdo publicado')
+            : '';
         }
-        observeDynamicCards();
+        if (items.length) observeDynamicCards();
       } catch (error) {
-        radarGrid.innerHTML = buildHighlightsHtml([]);
+        radarGrid.innerHTML = '';
+        radarGrid.removeAttribute('aria-busy');
+        setHomeContentBlockVisible('block-radar', false);
       }
     }
   }

@@ -1,6 +1,6 @@
 # Passo a passo — feito, em andamento e a fazer
 
-> Atualizado em **30/07/2026**.  
+> Atualizado em **16/08/2026** — versões site **0.8.0**.  
 > Status detalhado: [`14-STATUS-IMPLEMENTACAO.md`](14-STATUS-IMPLEMENTACAO.md).  
 > Gaps: [`15-GAPS-PRODUCAO-SEGURANCA.md`](15-GAPS-PRODUCAO-SEGURANCA.md).
 > Mídia: [`19-DESENHO-MIDIA.md`](19-DESENHO-MIDIA.md).
@@ -67,9 +67,20 @@ Marketing → POST /api/internal/economy-tips ──┘
 | S8.3 | `GET /api/public/news/{slug}` | ✅ |
 | S8.1 | Página `/novidades/{slug}` | ✅ |
 | S8.4 | Marketing envia slug + body | ✅ |
-| S8.5 | Meta SEO + Open Graph | ✅ parcial (`og:image` via capa A ✅ 30/07; JSON-LD pendente) |
+| S8.5 | Meta SEO + Open Graph | ✅ (`og:image` via capa A) |
+| **S8.5b** | JSON-LD `NewsArticle` + HTML SSR no first paint | ✅ **16/08/2026** (`GET /novidades/{slug}`) |
 | S8.6 | `sitemap.xml` + `feed/news.xml` | ✅ |
 | S8.7 | SEO no form marketing | ❌ pendente |
+
+### SEO higiene / hub editorial (16/08/2026)
+
+| # | Tarefa | Status |
+|---|--------|--------|
+| H1 | Remover textos operacionais do HTML inicial da home | ✅ |
+| H2 | Ocultar Radar / Novidades / Educação Financeira sem itens | ✅ |
+| H3 | `robots.txt` + sitemap no site institucional | ✅ |
+| H4 | Nginx/`dev_server` proxy `/novidades/` → backend (`SITE_API_UPSTREAM`) | ✅ |
+| H5 | Marketing: `noindex` + `X-Robots-Tag` (app autenticado) | ✅ (repo marketing) |
 
 ### Desenho A — mídia URL/embed (30/07)
 
@@ -110,11 +121,11 @@ Marketing → POST /api/internal/economy-tips ──┘
 
 | Item | Hoje | Próximo passo |
 |------|------|---------------|
-| Backend prod Flyway V6/V7/V8 | Código no repo `main` | Confirmar migrate no Coolify / redeploy |
-| Frontend prod (S8 + produtos) | Código OK | Redeploy + smoke home / artigos / contato |
+| Backend prod Flyway V6/V7/V8 + **0.8.0** SSR | Código no repo | Redeploy Coolify / smoke `/novidades/{slug}` |
+| Frontend prod (S8 + SEO 0.8.0) | Código OK | Redeploy + `SITE_API_UPSTREAM` + smoke View Source |
 | Mail lead prod | Código OK | `TRCON_SITE_MAIL_*` + smoke submit |
 | DNS `@`/`www` | Pages ou legado | **A** → Hetzner (Coolify `site-frontend`) |
-| Smoke marketing ↔ site | Código OK nos dois repos | Aprovar artigo → `/novidades/{slug}` |
+| Smoke marketing ↔ site | Código OK nos dois repos | Aprovar artigo → View Source `/novidades/{slug}` (meta + JSON-LD) |
 | Descontinuar `fluxo-caixa-app/site-trcon` | Novo repo estável | Decisão explícita pós DNS Hetzner |
 
 ---
@@ -126,8 +137,8 @@ Marketing → POST /api/internal/economy-tips ──┘
 | # | Tarefa | Onde |
 |---|--------|------|
 | O1 | Coolify → redeploy `site-trcon-backend` (**V6 + V7 + V8**) se necessário | Coolify |
-| O2 | Smoke `GET .../economy-tips`, `.../news/{slug}`, sitemap/feed | Browser/curl |
-| O3 | Redeploy `site-frontend` (produtos + contato + S8) | Coolify |
+| O2 | Smoke `GET .../news/{slug}`, **`GET /novidades/{slug}`** (HTML), sitemap/feed; View Source | Browser/curl |
+| O3 | Redeploy `site-frontend` **0.8.0** + env **`SITE_API_UPSTREAM`** | Coolify |
 | O4 | Cloudflare: `@` e `www` → IP Hetzner | Cloudflare DNS |
 | O5 | Smoke leads + e-mail Resend + home | Manual |
 | O6 | Configurar `TRCON_SITE_MAIL_*` / `TRCON_SITE_LEAD_NOTIFY_TO` | Coolify |
@@ -143,12 +154,12 @@ Marketing → POST /api/internal/economy-tips ──┘
 
 ### Melhorias (baixa / média)
 
-| # | Tarefa |
-|---|--------|
-| M1 | JSON-LD `NewsArticle` na página de artigo |
-| M2 | S8.7 — campos SEO no form marketing |
-| M3 | Endpoint desativar dica economy |
-| M4 | Ampliar feeds RSS / curadoria |
+| # | Tarefa | Status |
+|---|--------|--------|
+| M1 | JSON-LD `NewsArticle` na página de artigo | ✅ 16/08/2026 |
+| M2 | S8.7 — campos SEO no form marketing | ❌ |
+| M3 | Endpoint desativar dica economy | ❌ |
+| M4 | Ampliar feeds RSS / curadoria | ❌ |
 
 ### Fase 9 — Consolidação ([`09-PLANO-EXECUCAO-IA.md`](09-PLANO-EXECUCAO-IA.md))
 
@@ -187,9 +198,10 @@ Mail local (opcional): `TRCON_SITE_MAIL_ENABLED=true` + key Resend; default loca
 1. `http://localhost:8081/api/public/news`
 2. `http://localhost:8081/api/public/highlights`
 3. `http://localhost:8081/api/public/economy-tips`
-4. `http://127.0.0.1:4173` — Radar, Novidades, produtos, Contato
-5. Aprovar artigo no marketing → `/novidades/{slug}` abre texto completo
-6. Enviar lead em Contato → 201 + (se mail ON) e-mail ao destinatário
+4. `http://localhost:8081/novidades/{slug}` — HTML com meta/JSON-LD (View Source)
+5. `http://127.0.0.1:4173` — Radar/Novidades só se houver itens; proxy `/novidades/` → `:8081`
+6. Aprovar artigo no marketing → View Source em `/novidades/{slug}`
+7. Enviar lead em Contato → 201 + (se mail ON) e-mail ao destinatário
 
 ---
 
@@ -197,6 +209,7 @@ Mail local (opcional): `TRCON_SITE_MAIL_ENABLED=true` + key Resend; default loca
 
 | Data | Evento |
 |------|--------|
+| **16/08/2026** | **0.8.0** — SEO higiene (home/`robots.txt`) + SSR `/novidades/{slug}` + JSON-LD; proxy `SITE_API_UPSTREAM` |
 | **29/07/2026** | Docs sync 0.4.0; produtos + contato; mail lead; cobertura; CI mvnw |
 | **27/07/2026** | S8 + Radar≠Novidades + layout cards; docs 14–18 |
 | **26/07/2026** | Economy tips V6 + merge frontend + pipeline RSS |

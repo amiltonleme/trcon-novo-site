@@ -187,18 +187,18 @@ function buildCardItemHtml(item, { preferExternalLinks = false } = {}) {
       </div>`;
 }
 
-// HTML do radar — grid de cards.
+// HTML do radar — grid de cards. Lista vazia → string vazia (a seção some na home).
 export function buildHighlightsHtml(items) {
   if (!items || !items.length) {
-    return '<div class="card"><p class="loading-row">Sem destaques no momento.</p></div>';
+    return '';
   }
   return items.map((item) => buildCardItemHtml(item, { preferExternalLinks: true })).join('');
 }
 
-// HTML das novidades — mesmo grid de cards do radar.
+// HTML das novidades — mesmo grid de cards do radar. Lista vazia → string vazia.
 export function buildNewsHtml(items) {
   if (!items || !items.length) {
-    return '<div class="card"><p class="loading-row">Sem novidades no momento.</p></div>';
+    return '';
   }
   return items.map((item) => buildCardItemHtml(item)).join('');
 }
