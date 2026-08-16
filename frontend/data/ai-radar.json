@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-08-15T20:14:06.515880+00:00",
+  "generated_at": "2026-08-16T08:14:04.907821+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
+    {
+      "title": "Segundo cientistas, a inteligência artificial já está à beira do seu potencial máximo, e Empresas como a OpenAI e a Anthropic devem agora se concentrar principalmente na chamada inteligência artificial escalável",
+      "summary": "Segundo cientistas, a inteligência artificial já está à beira do seu potencial máximo, e Empresas como a OpenAI e a Anthropic devem agora se concentrar principalmente na chamada...",
+      "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxORl9uRmpBN3lXSTJONlhIVkVyWDFOT05pRVpkT1FlY2RVOTBXT3NkMlVrZ0FDbnJCU29Wa3VDbmdmYUcxQV9LWE9LMVBQUzAyQlNVYy1Wemo5SkV0c0UyOU9TUGx0UGp3QnQ4aVVLRmstcXhMQy01UXExM1RyWDU3eVhHWGFZY1VtZ1h6cnFkVjEtS1lXV1RuYjBpZVU3VndhM2RlRU9sTzNjbjBELWVudG0yZUsybjhRcllsRFBoamJGTGZvaGl2cm5xOVRldU9XRGUzZmF2YTU1enlESzJqZ1lDdk56X2lvZ1ZXN3NwRnM4alM4WG1yYllsQjQxOHFDbmtUREJMNm5fZmdYY3ZyWmhFZy1mOWxJNm9KdlJaM0FRamNIUndYSWRvNkJvUTlvUFVtWlpfdWRDUVM4eUI2dEh2RkFvVlJ0XzcwbndoNXhnc20xY2M3TzhySldTUQ?oc=5",
+      "source": "Midiamax",
+      "published_at": "Sat, 15 Aug 2026 23:35:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
     {
       "title": "Empresas de inteligência artificial contratam milhares de eletricistas e encanadores para data centers",
       "summary": "Empresas de inteligência artificial contratam milhares de eletricistas e encanadores para data centers",
@@ -16,7 +25,7 @@
       "title": "IA nas empresas: por que o método passou a ser mais importante que a ferramenta",
       "summary": "IA nas empresas: por que o método passou a ser mais importante que a ferramenta",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSkdtMzF5b1dNZmdnMTEtSFdfU05qZlFXV0VNbThwS0J5OEFIZDJXWDAxUUtBUzdaUnB6Q0dtY2c2SWpHY1lKTzN0RTUyZ05HalU4WXE5dDN2NHh0VHlTdUJWN0hLZTM3SlRqa28wMDVpczZNVHFVME9WRjRlMkduMGd6bGpXYllKSTNCMXh5ZEZNeVM3MmZaSGozOFB1aExYcUNPNi02SnZra0RydThZaWVn?oc=5",
-      "source": "Canaltech",
+      "source": "canaltech.com.br",
       "published_at": "Fri, 14 Aug 2026 10:43:35 GMT",
       "category": "IA",
       "signal": "flat"
@@ -31,29 +40,20 @@
       "signal": "flat"
     },
     {
+      "title": "Principais empresas de TI do Japão planejam transição para IA até 2030",
+      "summary": "Principais empresas de TI do Japão planejam transição para IA até 2030",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZmoxZVdyeVl3THdycmdET291S3M5VVpzdV9mU2FpNVdvVEEzbWRscmt0V1VxU0dRTjlEUncwSU5tZm5Da1hTZTRQNUJlZ3ZVRjBJUE95WGVvOXVRVk1nNklVREtHTnlQRkhxS3F2T1BGYkVzVTdtU3F2ZzVYcmZWekRvLWpJTG5lUllYVVpRSm9VR28yM0twNFdRcFpneDh1aFN4T1B0SFd3SXpZWFZQbzc4YTBJZ3JfNFJuMjJhSkN0UdIB0AFBVV95cUxOc2lua3phSzk4XzNJVF81eFZ2dW9sVWRkc3NWOVE0Uy1OZUJLWlNZY1psZUcxblBTdXJ5YzVfYk9ocnlwUDBrbWxUVjl2WmR0dW9DQ0ZpZnUxRXhQRnlEZUpucXlFUi1KRlNxamk2VXdxUF9rak5hVEdfY2RDaFh0YXpoYm1qZE1Pa0VuUlY1cWNuM09jYm9FcllhWkVXdGNBUWp4Q0ZETUppX2J4XzhCZWIxTlZlRXlad2xyVy0zMkJaM1RvN1VUcUQ4RlplbkFF?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Fri, 14 Aug 2026 11:35:26 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
       "title": "A IA não vai substituir sua empresa. Vai criar as que nunca existiram",
       "summary": "A IA não vai substituir sua empresa. Vai criar as que nunca existiram",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV016cHlDUFNnMUtVeEQ2Y1lHb0s5YmZyY1NQMm45d1VzTGI1blc3V2NpTmxQU3pQZWI0bThTdXZfd1QzUklfMDVEVzJ1SllEbkxUZ3U3aU8yRHRPdW1SV3BjbFd5NTI5RHdNb0FWbHdWNWxWTGp6bk5oWkNLUkhUTmRGams2T1pmMlpOUVNYUmd2dmhi?oc=5",
-      "source": "exame.com",
+      "source": "Exame",
       "published_at": "Sat, 15 Aug 2026 13:26:12 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Os livros que passaram décadas encalhados e agora têm um misterioso comprador — a inteligência artificial",
-      "summary": "Os livros que passaram décadas encalhados e agora têm um misterioso comprador — a inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNaUx5UWJLd29VWXR4MDY2YVhHVnhLQlpqejNVSE5aODBDcTNSeDlEWGJhWENZTUh5MUhZU3FnRFRXSjFhUFZqZ3FFTUE5RmZBZ0V4VENNZFhqalRKc1FQM2czX1JJS216OVRQLV9FdVl1emJYTHBaWEpqTEtnU1FLZUQxYk5TSjRhY0dXWVQwMm1WVzc3SFdzZ09nOERveDdXem9PdnMyd1luVnZmYWFRang5RUNkTlgtbGdSUUJqOWRsZWgyX2VmeUdTSDJSVmRVQ1BPZ0dRejhYOFdlNnFxUDBmR3hBeG9LS1ZHWm9rNndKZ9IBgAJBVV95cUxOT3JuNGdmVnVaamhuT0JrTTdvdkF0bUM3ZVRXejlWWHJZMWJIWlhaV2lNbkhVNlpBSXlva1JiYWh3LTN3cUpacTZfeUtTZk42cWRoTU5KNDdiS1hycGo0WmhvRE9ndHNrT3RPa2tydXVKMDQyWjRfNXNGQWloN2FOYUlRTEM0d2duTm5qOVJaUWN0bU1sZjdzOFJ4a0ZUSFc0dmZvbWhiNTNUcXNqV19UNU4yRlFCQW5FSm90UFJCX2wyblJfaTh6eXNKRXZiTVdjZUMxRV9zNU1zQ1c5OVBFLU45LUZCRXFiRGZFUGNwcmFTVXdycTJmQkNDTEowUTFa?oc=5",
-      "source": "g1.globo.com",
-      "published_at": "Sat, 15 Aug 2026 17:38:44 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "“Funcionários de IA” ganham espaço nas empresas e redefinem a produtividade com automação inteligente - CNDL",
-      "summary": "“Funcionários de IA” ganham espaço nas empresas e redefinem a produtividade com automação inteligente - CNDL",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPN2dLMlVUMDhRYmRJcEtzLXZWSmxDNXlVdDFQWHNKWXp0VWhHWHVjQThYUzEtQ1R2a2FjLUp1TmVwS3VGeTVTM2gwNHF4cjczNW9OQkg0eHZ1M2FHcTRRQ1BVWG9YMktYaTVLWThDTzdFcEthUUpvZWhpcTJoUV9UOGQwRDRXaTFWY243RG9VcXF1NEZMalNpendRS2NRenhxeEtkdlIzTTV0RGh3RHFlcnRtYVg3Y0lBdGNSeTFaUVRTSDU1RThaWQ?oc=5",
-      "source": "CNDL - Confederação Nacional de Dirigentes Lojistas",
-      "published_at": "Sat, 15 Aug 2026 19:33:57 GMT",
       "category": "IA",
       "signal": "flat"
     }
