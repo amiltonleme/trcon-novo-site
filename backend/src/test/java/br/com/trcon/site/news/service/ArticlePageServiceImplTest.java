@@ -43,4 +43,13 @@ class ArticlePageServiceImplTest {
         assertThat(html).contains("application/ld+json");
         assertThat(html).contains("<p>Corpo</p>");
     }
+
+    @Test
+    void notFoundHtmlUsaBaseConfigurada() {
+        ArticlePageServiceImpl service =
+                new ArticlePageServiceImpl(newsService, "https://trcongroup.com.br/");
+        assertThat(service.notFoundHtml())
+                .contains("noindex")
+                .contains("https://trcongroup.com.br/");
+    }
 }

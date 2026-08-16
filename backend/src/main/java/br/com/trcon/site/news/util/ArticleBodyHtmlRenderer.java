@@ -10,7 +10,8 @@ import java.util.regex.Pattern;
 public final class ArticleBodyHtmlRenderer {
 
     private static final Pattern BOLD = Pattern.compile("\\*\\*([^*\\n][\\s\\S]*?[^*\\n])\\*\\*");
-    private static final Pattern LIST_ITEM = Pattern.compile("^[-*]\\s+(.+)$");
+    /** Marcador de lista; o conteúdo após o marcador pode ser vazio (item ignorado). */
+    private static final Pattern LIST_ITEM = Pattern.compile("^[-*](?:\\s+(.*))?$");
 
     private ArticleBodyHtmlRenderer() {}
 
@@ -124,7 +125,8 @@ public final class ArticleBodyHtmlRenderer {
         for (String line : block.split("\\n")) {
             Matcher matcher = LIST_ITEM.matcher(line.trim());
             if (matcher.matches()) {
-                String item = matcher.group(1).trim();
+                String raw = matcher.group(1);
+                String item = raw == null ? "" : raw.trim();
                 if (!item.isEmpty()) {
                     items.add(item);
                 }

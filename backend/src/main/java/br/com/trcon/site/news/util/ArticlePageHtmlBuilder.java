@@ -1,7 +1,6 @@
 package br.com.trcon.site.news.util;
 
 import br.com.trcon.site.news.dto.response.NewsArticleResponse;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import java.time.Instant;
@@ -146,35 +145,31 @@ public final class ArticlePageHtmlBuilder {
             String canonical,
             String cover,
             String base) {
-        try {
-            ObjectNode root = JSON.createObjectNode();
-            root.put("@context", "https://schema.org");
-            root.put("@type", "NewsArticle");
-            root.put("headline", title);
-            if (!description.isBlank()) {
-                root.put("description", description);
-            }
-            if (cover != null) {
-                root.putArray("image").add(cover);
-            }
-            if (article.publishedAt() != null) {
-                root.put("datePublished", article.publishedAt().toString());
-                root.put("dateModified", article.publishedAt().toString());
-            }
-            ObjectNode author = root.putObject("author");
-            author.put("@type", "Organization");
-            author.put("name", "TRCon Group");
-            ObjectNode publisher = root.putObject("publisher");
-            publisher.put("@type", "Organization");
-            publisher.put("name", "TRCon Group");
-            publisher.put("url", base);
-            ObjectNode main = root.putObject("mainEntityOfPage");
-            main.put("@type", "WebPage");
-            main.put("@id", canonical);
-            return JSON.writeValueAsString(root);
-        } catch (JsonProcessingException ex) {
-            return "{}";
+        ObjectNode root = JSON.createObjectNode();
+        root.put("@context", "https://schema.org");
+        root.put("@type", "NewsArticle");
+        root.put("headline", title);
+        if (!description.isBlank()) {
+            root.put("description", description);
         }
+        if (cover != null) {
+            root.putArray("image").add(cover);
+        }
+        if (article.publishedAt() != null) {
+            root.put("datePublished", article.publishedAt().toString());
+            root.put("dateModified", article.publishedAt().toString());
+        }
+        ObjectNode author = root.putObject("author");
+        author.put("@type", "Organization");
+        author.put("name", "TRCon Group");
+        ObjectNode publisher = root.putObject("publisher");
+        publisher.put("@type", "Organization");
+        publisher.put("name", "TRCon Group");
+        publisher.put("url", base);
+        ObjectNode main = root.putObject("mainEntityOfPage");
+        main.put("@type", "WebPage");
+        main.put("@id", canonical);
+        return root.toString();
     }
 
     private static String safeCover(String coverImageUrl) {
