@@ -1,18 +1,10 @@
 {
-  "generated_at": "2026-08-17T08:27:56.762016+00:00",
+  "generated_at": "2026-08-17T20:17:58.497391+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
     {
-      "source": "Banda B",
-      "category": "IA",
-      "title": "Empresas de inteligência artificial contratam milhares de eletricistas e encanadores para data centers",
-      "summary": "Empresas de inteligência artificial contratam milhares de eletricistas e encanadores para data centers",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQU9ZVTJBVm1ybjFDNTA2YVlnd3l3c1gwWjlyQnppNUIyaHVrYVJoaVhzcVNIdmVVRUxvNjhIT1h5c3lVZWNpakhXb1NjbHEwbG9rUnV2blNmVmxXQlZ3aTFsQVk2aXhrSzY0NXBPZ0NNMC16Nnk0TGJGbmp4NEtENDVSQnVDdERUX0FLQ1ZuRjZNV2tsUmV3eVJld3NnRlAwLWfSAacBQVVfeXFMUDRBRDlOdDAtQ0F3OFAydkx5QjZ6X0l6bURBY01YdGtZTzhTeDJUTDF5M2NWYTdwb3Fxc2wyRTBqNGRqUldoNE9GZE92UUR1R0NJcDJIYXpILXJMeW9JdU5JU25JRnNQVkhzWjlkUWh6d2NJQ3BiX1ppd3pmOGx0Ulk1dHEzT2xObmE2OWpkYjNqa1VPZXh6S3BFbFVtODNqYkMwVzQtMDA?oc=5",
-      "publishedAt": "Sat, 15 Aug 2026 19:13:00 GMT"
-    },
-    {
-      "source": "Exame",
+      "source": "exame.com",
       "category": "IA",
       "title": "A IA não vai substituir sua empresa. Vai criar as que nunca existiram",
       "summary": "A IA não vai substituir sua empresa. Vai criar as que nunca existiram",
@@ -20,20 +12,36 @@
       "publishedAt": "Sat, 15 Aug 2026 13:26:12 GMT"
     },
     {
-      "source": "Canaltech",
+      "source": "folhavitoria.com.br",
       "category": "IA",
-      "title": "IA nas empresas: por que o método passou a ser mais importante que a ferramenta",
-      "summary": "IA nas empresas: por que o método passou a ser mais importante que a ferramenta",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSkdtMzF5b1dNZmdnMTEtSFdfU05qZlFXV0VNbThwS0J5OEFIZDJXWDAxUUtBUzdaUnB6Q0dtY2c2SWpHY1lKTzN0RTUyZ05HalU4WXE5dDN2NHh0VHlTdUJWN0hLZTM3SlRqa28wMDVpczZNVHFVME9WRjRlMkduMGd6bGpXYllKSTNCMXh5ZEZNeVM3MmZaSGozOFB1aExYcUNPNi02SnZra0RydThZaWVn?oc=5",
-      "publishedAt": "Fri, 14 Aug 2026 10:43:35 GMT"
+      "title": "Inteligência artificial e dados mudam a forma de empresas tomarem decisões",
+      "summary": "Inteligência artificial e dados mudam a forma de empresas tomarem decisões",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaXNlR0tZVzRpOEt0WG9waUxYVTdfOWxlakxLMDdZcHI1NjNwa0s3NEI2WTFEeWhkRURKcnpiak5qZ0tSY1V5a1hQQUNZN3NMaGNhd0s0eXFaTW1GalFRM0o0UmdYYVNocEp6Z0tCa3FWVUxhemdVWUJvLVpNVTNXbEdDcGFvNk5oMWtrRXpUdmFwZ2s0MkFYZFdlNHNxVVlVREd3R1dsdnI4elpDN2lxVVR4TXJnQnM?oc=5",
+      "publishedAt": "Mon, 17 Aug 2026 20:00:00 GMT"
     },
     {
-      "source": "Valor Econômico",
+      "source": "MundoLogística",
       "category": "IA",
-      "title": "Principais empresas de TI do Japão planejam transição para IA até 2030",
-      "summary": "Principais empresas de TI do Japão planejam transição para IA até 2030",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZmoxZVdyeVl3THdycmdET291S3M5VVpzdV9mU2FpNVdvVEEzbWRscmt0V1VxU0dRTjlEUncwSU5tZm5Da1hTZTRQNUJlZ3ZVRjBJUE95WGVvOXVRVk1nNklVREtHTnlQRkhxS3F2T1BGYkVzVTdtU3F2ZzVYcmZWekRvLWpJTG5lUllYVVpRSm9VR28yM0twNFdRcFpneDh1aFN4T1B0SFd3SXpZWFZQbzc4YTBJZ3JfNFJuMjJhSkN0UdIB0AFBVV95cUxOc2lua3phSzk4XzNJVF81eFZ2dW9sVWRkc3NWOVE0Uy1OZUJLWlNZY1psZUcxblBTdXJ5YzVfYk9ocnlwUDBrbWxUVjl2WmR0dW9DQ0ZpZnUxRXhQRnlEZUpucXlFUi1KRlNxamk2VXdxUF9rak5hVEdfY2RDaFh0YXpoYm1qZE1Pa0VuUlY1cWNuM09jYm9FcllhWkVXdGNBUWp4Q0ZETUppX2J4XzhCZWIxTlZlRXlad2xyVy0zMkJaM1RvN1VUcUQ4RlplbkFF?oc=5",
-      "publishedAt": "Fri, 14 Aug 2026 11:35:26 GMT"
+      "title": "Mais de 60% das empresas de transporte investem em IA para prevenir riscos",
+      "summary": "Mais de 60% das empresas de transporte investem em IA para prevenir riscos",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQzVxUXVHQ0pDb2x2ckxoTzNsQ1VORkxucENOWkVDeEc2RkdvaDRXTHg1bEg2SmdOMERqcFNrLXdJT01xZnRDLWFrcGFYb09XaWQxcjVMenNUZzNiWmxNTW1UVUFFUGhtTWdSV3N0NHhvb3g2VUpOTUZ1RGh2WUw5SndQZmVSQV9KMjlpc0gzd2ltamktOUc2OFJyelk4Zw?oc=5",
+      "publishedAt": "Mon, 17 Aug 2026 14:12:09 GMT"
+    },
+    {
+      "source": "ADVFN",
+      "category": "IA",
+      "title": "VivoPower (VIVO) cria empresa de infraestrutura de IA com portfólio de mais de 2,2 GW",
+      "summary": "VivoPower (VIVO) cria empresa de infraestrutura de IA com portfólio de mais de 2,2 GW",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcWlwanQ3WUNMU1JCYnRtOWt5Rk45WkltQ2NFd1BHT0twMDJ5ZTZXLXpyMnpkY2l2QU1MOHVFM1NObExmQnI3LVBpTFFKOG9aSWt5bDJOTTkwYm5Ibm54b3E1WnY1NVJFWnNaRndka3VVVy12XzE5ckt1Zy1iNnFjWWtpY0Q?oc=5",
+      "publishedAt": "Mon, 17 Aug 2026 18:34:17 GMT"
+    },
+    {
+      "source": "moneytimes.com.br",
+      "category": "IA",
+      "title": "Banco Central Europeu: Correção no mercado de inteligência artificial (IA) está por vir",
+      "summary": "Banco Central Europeu: Correção no mercado de inteligência artificial (IA) está por vir",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVV9SbEJaZjZDa1VUSFUxTXVUOUViZy1VN1loMmwwaUFrb0FDYnpDUUZmNTFNYnlZQUFlSnU5NnB4bUwxZzZ1UFpTQUxQODVCNUw5NXJVZzlIMXEzbFBmMDh0ems1VW9yZjJkeGJwSy1xbjd0YXJRb01RNUhUeXg5RWVSZ18tRkV1MkYyOWZEYmdLNDFOOTZj?oc=5",
+      "publishedAt": "Mon, 17 Aug 2026 11:28:00 GMT"
     },
     {
       "source": "O POVO+",
@@ -42,14 +50,6 @@
       "summary": "Estratégia e inteligência artificial",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOTM2VWJtTjRqcEtTM1dPUURpOXF4U2pUNkY3VTQwYkhRaGt6b2huUjM5NjJiVGxReDNrQ0gyVkZ0ZFVINkxRdTJidEFPdm5Xb1BTUGUwZWZIMFFtSVhvSlBDY2ZLRkVIOXd6Q0t5cC1PX0w1c0Z6MXNlWm5Ud01CZk5xR1Jvb210dG1WWlhJbFUxMGFPLUdiOHBGa1UyS0JsRnJmZmphUUlTZGc?oc=5",
       "publishedAt": "Mon, 17 Aug 2026 04:15:00 GMT"
-    },
-    {
-      "source": "G1",
-      "category": "IA",
-      "title": "OpenAI, do ChatGPT, diz que IA pode adicionar R$ 1 trilhão ao PIB do Brasil em três anos",
-      "summary": "OpenAI, do ChatGPT, diz que IA pode adicionar R$ 1 trilhão ao PIB do Brasil em três anos",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWjVPNVdZUjd4d1RnQ0pJQmpfalF5VHk1SFlkQ2hVUG9xWkVKXy1kSi02WEp6Ujk3TTlXVXJkRFJtSVVVLTFTanJ1UTlVOVRySWlvVDVGb0RBU09DVVFKU0VuOG12VnZZM2FoMmlONnZDTExtRWVuRVJwLVJMZFhtNkRTUDhKVHFSdjY0NF94R1Q3NENhT2lEWE15NjI4b182MFc0Q1JvcndBenJrWjhSS3RzYXpnU1d4VGtaUVdMNjhoZnFZU0owRTR3dUtGR3UxV1ZkMFFIWTZXdw?oc=5",
-      "publishedAt": "Thu, 13 Aug 2026 16:12:24 GMT"
     },
     {
       "source": "Prefeitura de São Paulo",
