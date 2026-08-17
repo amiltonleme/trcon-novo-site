@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T20:13:43.965033+00:00",
+  "generated_at": "2026-08-17T08:27:56.762016+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
@@ -20,20 +20,12 @@
       "publishedAt": "Sat, 15 Aug 2026 13:26:12 GMT"
     },
     {
-      "source": "canaltech.com.br",
+      "source": "Canaltech",
       "category": "IA",
       "title": "IA nas empresas: por que o método passou a ser mais importante que a ferramenta",
       "summary": "IA nas empresas: por que o método passou a ser mais importante que a ferramenta",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSkdtMzF5b1dNZmdnMTEtSFdfU05qZlFXV0VNbThwS0J5OEFIZDJXWDAxUUtBUzdaUnB6Q0dtY2c2SWpHY1lKTzN0RTUyZ05HalU4WXE5dDN2NHh0VHlTdUJWN0hLZTM3SlRqa28wMDVpczZNVHFVME9WRjRlMkduMGd6bGpXYllKSTNCMXh5ZEZNeVM3MmZaSGozOFB1aExYcUNPNi02SnZra0RydThZaWVn?oc=5",
       "publishedAt": "Fri, 14 Aug 2026 10:43:35 GMT"
-    },
-    {
-      "source": "TI INSIDE Online",
-      "category": "IA",
-      "title": "Empresas temem ataques com IA, mas quase metade ainda não criou regras para o uso da tecnologia",
-      "summary": "Empresas temem ataques com IA, mas quase metade ainda não criou regras para o uso da tecnologia",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcEw1VHFjVkxmWHZTd0tzeGJsTkdMU05iNXBCX2dQU05Fa29XVEI4OE1SbkFCTzJOMUtPYThCUGlwcUZRRUM4aTI3NWNpeHNpalBTV1ZOTXQyd0lpcU1ZNTNKSHRVNUt3TzVSQTgxSEFWbVRNMkRzMmVzeDdWbFpGd1Vfa1ZQeVd3MnJTSmN1YmlheU9YSURSbEIzb2NJQ0dVY2F5dmdmbXBCRzNGRVNaNXJGOWJiZ1F6Y3JJX0trU2FJS2lKUWZKeDZB?oc=5",
-      "publishedAt": "Thu, 13 Aug 2026 21:17:41 GMT"
     },
     {
       "source": "Valor Econômico",
@@ -44,11 +36,19 @@
       "publishedAt": "Fri, 14 Aug 2026 11:35:26 GMT"
     },
     {
+      "source": "O POVO+",
+      "category": "IA",
+      "title": "Estratégia e inteligência artificial",
+      "summary": "Estratégia e inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOTM2VWJtTjRqcEtTM1dPUURpOXF4U2pUNkY3VTQwYkhRaGt6b2huUjM5NjJiVGxReDNrQ0gyVkZ0ZFVINkxRdTJidEFPdm5Xb1BTUGUwZWZIMFFtSVhvSlBDY2ZLRkVIOXd6Q0t5cC1PX0w1c0Z6MXNlWm5Ud01CZk5xR1Jvb210dG1WWlhJbFUxMGFPLUdiOHBGa1UyS0JsRnJmZmphUUlTZGc?oc=5",
+      "publishedAt": "Mon, 17 Aug 2026 04:15:00 GMT"
+    },
+    {
       "source": "G1",
       "category": "IA",
       "title": "OpenAI, do ChatGPT, diz que IA pode adicionar R$ 1 trilhão ao PIB do Brasil em três anos",
       "summary": "OpenAI, do ChatGPT, diz que IA pode adicionar R$ 1 trilhão ao PIB do Brasil em três anos",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWjVPNVdZUjd4d1RnQ0pJQmpfalF5VHk1SFlkQ2hVUG9xWkVKXy1kSi02WEp6Ujk3TTlXVXJkRFJtSVVVLTFTanJ1UTlVOVRySWlvVDVGb0RBU09DVVFKU0VuOG12VnZZM2FoMmlONnZDTExtRWVuRVJwLVJMZFhtNkRTUDhKVHFSdjY0NF94R1Q3NENhT2lEWE15NjI4b182MFc0Q1JvcndBenJrWjhSS3RzYXpnU1d4VGtaUVdMNjhoZnFZU0owRTR3dUtGR3UxV1ZkMFFIWTZXd9IB6AFBVV95cUxQYUJrSUp3WC12b2U0R1pmeTROVk1IQnpGOHdDVjEtdTJLSF9MdlRNbVFldmg3SDdzT3dFTzhkUFRfUzZOVlI2aTU3aGhIZm14aTBEZy1CVkxSS083a2lJLU1NQ2NFcEFJaEswYVJVUjhiVVJWNjF2WHhCS2RrY2RKY1BrOXoxT3duZktQX3RLZ281MW5aR0RveHoxSUJTekd6OVJqYlZ6bmVnMEVxT292aWlLUWppZDdPcVZ0T0JlT2U5N05PRFdDZVR3dndBcEZyVW9qdEJPaHBMQ1hfWHRnZ1l2eEZxTjJh?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWjVPNVdZUjd4d1RnQ0pJQmpfalF5VHk1SFlkQ2hVUG9xWkVKXy1kSi02WEp6Ujk3TTlXVXJkRFJtSVVVLTFTanJ1UTlVOVRySWlvVDVGb0RBU09DVVFKU0VuOG12VnZZM2FoMmlONnZDTExtRWVuRVJwLVJMZFhtNkRTUDhKVHFSdjY0NF94R1Q3NENhT2lEWE15NjI4b182MFc0Q1JvcndBenJrWjhSS3RzYXpnU1d4VGtaUVdMNjhoZnFZU0owRTR3dUtGR3UxV1ZkMFFIWTZXdw?oc=5",
       "publishedAt": "Thu, 13 Aug 2026 16:12:24 GMT"
     },
     {
