@@ -1,10 +1,26 @@
 {
-  "generated_at": "2026-08-18T08:20:04.608178+00:00",
+  "generated_at": "2026-08-18T20:14:59.858725+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
     {
-      "source": "Estadão",
+      "source": "BBC",
+      "category": "IA",
+      "title": "Inteligência artificial: líderes do setor dizem que IA significa menos horas de trabalho — mas seus funcionários afirmam trabalhar até 90 horas semanais",
+      "summary": "Inteligência artificial: líderes do setor dizem que IA significa menos horas de trabalho — mas seus funcionários afirmam trabalhar até 90 horas semanais",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tWDZMNUFSZ1FOMXNsdjhxZ1Rjc2pQSHl4TGZ1Yk5sSjVXQXJDMTNDb3lnVldvcmVzcFpJdWpYVHotek8xOGV6TURnWXJtWlJUc0NERlFIUURiY05qZW11U2ln0gFnQVVfeXFMTmk5MGNqNlcwdENPV2JhVFVWZVpabmdkQXlTWGQwMFVuOVJjSTUtanJTY0FGOHF3bmlBT2hUd1YwdTQydEVpZFZOXzk4RW5aMUdpNXhqV1BRS21JRWdYR3hYY0VycmlMaw?oc=5",
+      "publishedAt": "Tue, 18 Aug 2026 10:32:55 GMT"
+    },
+    {
+      "source": "Valor Econômico",
+      "category": "IA",
+      "title": "Empresas devem evitar 'turismo de IA' e focar nos impactos no negócio, diz chairman da OpenAI",
+      "summary": "Empresas devem evitar 'turismo de IA' e focar nos impactos no negócio, diz chairman da OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZ0Qxa0pON2ZmRzRwenBtQm5PQWVlOXgyakI3dE5xZXVIb2ZUdDg3c2FMenlIUGNWMklMZDhVdzZYNkU2Ui1RMlVGcjNQemZvZVp6V1lLU1lrYmhZRjNBMkdKT0FVQnRCeTFJSVNBMHVqMzJFUllxd0Z6RGxfMXl4bUhmWmpPeGJoV2E4R3RpelBVSXcwN3NaX1lxbG1oWU9hMUE3WllKNnpOeDYxTlk2N0kwSmt4Z25zYWRqQUVWTzhRbUVpdk1FX3RwWjhkZ21yZkpJM3FJMUctR3dWVVNxUUNn0gHwAUFVX3lxTE9TNzlURWNOUVBlZmtjdkNnVUFvYlYyNklkN0VselJjdVRHQlhnWHFXa3BxdUtRRDdWRHdKeDA3cHVid3NudEhMZkFIWmRCT1pmcDJXbGh2R0xodndheU1NdDJfcWtQV2FMY2pzakRjQzJTTnJaNXQ4b1h6RGEwVEdpblJseEZlSTZwd2lneEVaRjM2dXdMYlZfV3FCUUo4UEppOS1BQ2QwaGFOdHRWdnV6UWFyTmh5UzJiQ296ZGdnQjlPd09CS0RXUVloSzJpcVZSRURBbWo0Q1JxQlZ4anBmdkNpZVhQQjloeEJiMjBJRw?oc=5",
+      "publishedAt": "Tue, 18 Aug 2026 17:54:13 GMT"
+    },
+    {
+      "source": "estadao.com.br",
       "category": "IA",
       "title": "Dona do ChatGPT faz parcerias com empresas para crescer no País; veja quais",
       "summary": "Dona do ChatGPT faz parcerias com empresas para crescer no País; veja quais",
@@ -12,44 +28,28 @@
       "publishedAt": "Tue, 18 Aug 2026 08:00:00 GMT"
     },
     {
-      "source": "Folha Vitória",
+      "source": "UOL Notícias",
       "category": "IA",
-      "title": "Inteligência artificial e dados mudam a forma de empresas tomarem decisões",
-      "summary": "Inteligência artificial e dados mudam a forma de empresas tomarem decisões",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaXNlR0tZVzRpOEt0WG9waUxYVTdfOWxlakxLMDdZcHI1NjNwa0s3NEI2WTFEeWhkRURKcnpiak5qZ0tSY1V5a1hQQUNZN3NMaGNhd0s0eXFaTW1GalFRM0o0UmdYYVNocEp6Z0tCa3FWVUxhemdVWUJvLVpNVTNXbEdDcGFvNk5oMWtrRXpUdmFwZ2s0MkFYZFdlNHNxVVlVREd3R1dsdnI4elpDN2lxVVR4TXJnQnM?oc=5",
-      "publishedAt": "Mon, 17 Aug 2026 20:00:00 GMT"
+      "title": "IA cria novos empregos em mais da metade das empresas britânicas, diz estudo",
+      "summary": "IA cria novos empregos em mais da metade das empresas britânicas, diz estudo",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWTBhVFFuUDBqbmppaTVadDJtczllVzg1N18wR0RmTWphRkF3LWpNQnVsOVhUNEdnRFlBd1VUWWNTRVBGQ0NBbkZ3VjBDVHl2Y093QWs3QWVxS3FTNDBuMzNoc0dkMmRkTm1GQUpyWlNMcUtFRVRESEYzR0tKWXVMdDRJQkF2cnd6Z2ZJeDI0cnh6YWw0NHA3YjNjWmMzX2gzUkhSbEU5VHNtMl9ZQVdtMkw5QWp1RlpoRnRHWnR4QjExODh1bEg5Z05zVlBla2s4bk44SlFR?oc=5",
+      "publishedAt": "Tue, 18 Aug 2026 13:44:21 GMT"
     },
     {
-      "source": "Exame",
+      "source": "CartaCapital",
       "category": "IA",
-      "title": "A IA não vai substituir sua empresa. Vai criar as que nunca existiram",
-      "summary": "A IA não vai substituir sua empresa. Vai criar as que nunca existiram",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV016cHlDUFNnMUtVeEQ2Y1lHb0s5YmZyY1NQMm45d1VzTGI1blc3V2NpTmxQU3pQZWI0bThTdXZfd1QzUklfMDVEVzJ1SllEbkxUZ3U3aU8yRHRPdW1SV3BjbFd5NTI5RHdNb0FWbHdWNWxWTGp6bk5oWkNLUkhUTmRGams2T1pmMlpOUVNYUmd2dmhi?oc=5",
-      "publishedAt": "Sat, 15 Aug 2026 13:26:12 GMT"
+      "title": "Infraestrutura substitui ferramenta como nova fase da inteligência artificial nas empresas",
+      "summary": "Infraestrutura substitui ferramenta como nova fase da inteligência artificial nas empresas",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONDJoZVRWZWQ0bEw4MUtrY0xyeGkwRXMxWjZwZVg4NnE0RU5hTDhOWnhNZ0ExNWxfZlMzVWVDRGlLTERnUU8zajNBRlc5VEljVDJvX2VGc1pQTS1yVU16YmxVNGhrRThGWGdDNXJzZ3QxYkpuLWJ1Rlk5d3lSRnQzZ2hkc2JaMkI0endKYUZ5QUpQMzNKYnR2cE9vQmZhRjg?oc=5",
+      "publishedAt": "Tue, 18 Aug 2026 10:00:00 GMT"
     },
     {
-      "source": "Finsiders Brasil",
+      "source": "NeoFeed",
       "category": "IA",
-      "title": "A segunda Odisseia da Inteligência Artificial",
-      "summary": "A segunda Odisseia da Inteligência Artificial",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMF8wYWw5SmhwM2tNcEI4SG95eHc3T2xEREhpVmt4NDFkT0VWQ21oVFZ0V2NyZlNJWXQxVU5fTDJ4WHJSeWg5NjZCbEthOHUwQ1hWbV92alpTbVZBVVA0V2JTM0kxQUdtTXR6NXVVQThXb1ZreFVXOGZJTTZwbkZ4Yjc0aHBZRng5SjhCTzhMQ3ZOV0pxTVljMW9Eel9RNFM2MFZlMnpKUE8?oc=5",
-      "publishedAt": "Mon, 17 Aug 2026 20:39:00 GMT"
-    },
-    {
-      "source": "mundologistica.com.br",
-      "category": "IA",
-      "title": "Mais de 60% das empresas de transporte investem em IA para prevenir riscos",
-      "summary": "Mais de 60% das empresas de transporte investem em IA para prevenir riscos",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQzVxUXVHQ0pDb2x2ckxoTzNsQ1VORkxucENOWkVDeEc2RkdvaDRXTHg1bEg2SmdOMERqcFNrLXdJT01xZnRDLWFrcGFYb09XaWQxcjVMenNUZzNiWmxNTW1UVUFFUGhtTWdSV3N0NHhvb3g2VUpOTUZ1RGh2WUw5SndQZmVSQV9KMjlpc0gzd2ltamktOUc2OFJyelk4Zw?oc=5",
-      "publishedAt": "Mon, 17 Aug 2026 14:12:09 GMT"
-    },
-    {
-      "source": "ADVFN",
-      "category": "IA",
-      "title": "VivoPower (VIVO) cria empresa de infraestrutura de IA com portfólio de mais de 2,2 GW",
-      "summary": "VivoPower (VIVO) cria empresa de infraestrutura de IA com portfólio de mais de 2,2 GW",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcWlwanQ3WUNMU1JCYnRtOWt5Rk45WkltQ2NFd1BHT0twMDJ5ZTZXLXpyMnpkY2l2QU1MOHVFM1NObExmQnI3LVBpTFFKOG9aSWt5bDJOTTkwYm5Ibm54b3E1WnY1NVJFWnNaRndka3VVVy12XzE5ckt1Zy1iNnFjWWtpY0Q?oc=5",
-      "publishedAt": "Mon, 17 Aug 2026 18:34:17 GMT"
+      "title": "O alerta do chairman da OpenAI sobre as empresas que caem na tentação do \"turismo de IA\"",
+      "summary": "O alerta do chairman da OpenAI sobre as empresas que caem na tentação do \"turismo de IA\"",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNkVIeWx4RXQ0N3VkSklPakhhMHRfdlFNaTFzOFlMOUtYMU5ubGxKWGRiSlpXeDBsa24xTXJqenF4Snc2YXRJWmltZ3pma3l4ZVg2UDRLYWttOElYRUlzbXFWbkgwckpwdWdtMjI3S3I1RVZKa29aREdEWG5oRzUzdE41bzh1XzFqeFhHNXF6MzBvVlBwZlRtTW5kU3l1VWt6NUtYcjkxOVRkUm5QSEVob1cxbWktXzJsNlBJ?oc=5",
+      "publishedAt": "Tue, 18 Aug 2026 18:48:00 GMT"
     },
     {
       "source": "Prefeitura de São Paulo",
