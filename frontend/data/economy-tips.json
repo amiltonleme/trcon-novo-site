@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-12T08:57:20.341092+00:00",
-  "source_note": "Curadoria automatica de educacao financeira a partir de feeds RSS publicos, com complemento do catalogo estatico TRCONGROUP quando necessario.",
+  "generated_at": "2026-08-18T20:14:57.311701+00:00",
+  "source_note": "Curadoria automatica de educacao financeira a partir de feeds RSS publicos, com complemento do catalogo estatico TRCon quando necessario.",
   "errors": [],
   "items": [
     {
       "tag": "Mercado",
       "tag_class": "tag-blue",
       "title": "Selic cai para 14,75% ao ano e começa a redesenhar crédito, dívidas e investimentos no Brasil",
-      "body": "Selic cai para 14,75% ao ano e começa a redesenhar crédito, dívidas e investimentos no Brasil jornalgrandebahia.com.br",
+      "body": "Selic cai para 14,75% ao ano e começa a redesenhar crédito, dívidas e investimentos no Brasil Jornal Grande Bahia",
       "meta": [
         "Leitura rapida",
-        "Fonte: jornalgrandebahia.com.br"
+        "Fonte: Jornal Grande Bahia"
       ],
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYlQ2dS1xQTdKek1XSDVxZW14eXJkbzJ1bkx5Q1dYRGNjdGNSYVpaVWc1V2FseFpuQTdUZmMxaDV5YXR5OExuejBTeFVvRmNpcm9RNGdUY2VQczhFUFRpRWJGLUlMR2ZKRjdXYnF0b2lteG9IYkdrNGM0em9KRGJZVmpPX3NabFpGNmxlMGhlLVZNYVcwZmRTZ0VEdkhjZ2I3dGJsa3ZrV2FJOE9XTEVBb1NyRTFZRnBfS1hKamM4dmc2dDRGYjZOV253eHk?oc=5",
       "link_label": "Ler mais",
@@ -29,27 +29,27 @@
       "link_label": "Ler mais"
     },
     {
-      "tag": "Cartao",
-      "tag_class": "tag-orange",
-      "title": "Opinião | Endividamento alto e educação financeira",
-      "body": "Opinião | Endividamento alto e educação financeira Estadão",
+      "tag": "Estrategia Mensal",
+      "tag_class": "tag-green",
+      "title": "Poupança ainda lidera investimentos no Brasil enquanto maioria segue sem reserva financeira",
+      "body": "Poupança ainda lidera investimentos no Brasil enquanto maioria segue sem reserva financeira A Revista",
       "meta": [
         "Leitura rapida",
-        "Fonte: Estadão"
+        "Fonte: A Revista"
       ],
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU2UxQWs1alltU1EzekszTC1BUXVJYkV2cjRJSVZWb29aWlJTU2ZXaUdSaHBhcnBucmJ3MmpPSUk3bzRyZW1jSy02eWtoQ2c5WVk3LWJMQXhrenZwVEROamQya2ZuZkhZU2xsQTdPSkVGS3g4azVqNVQydU1qazFwNVdYS2FEWHNYdEt6ZTVwZWlTOUREV1E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUkxDU29hRWprVG9sNmp0MlpqdVp3Vk0tcjNac2gwS2dFMTA3Sm9XNVpOa1IwZ1BQaTRaTlIzblZaQmJyWl93dklncmg4Z0tUZUtjNk5fSXc5SnZRU1hScWlzZmtUbTNmVWhmbGk0OHJPWHZ1aEJoVWxSNnBNeE4xam1UdGRRLUdzOHVLalJzdndqM0dXNHZMejRENVFIcGpNaWRMLTZvUXVUazRHVFFmb0V6V01TZ1ZWcFRWV3hZRUdiVFVrSlpEd2RwWjRCV2xUZHc?oc=5",
       "link_label": "Ler mais"
     },
     {
-      "tag": "Mercado",
-      "tag_class": "tag-blue",
-      "title": "Insights da semana: poupança segue como investimento mais disseminado",
-      "body": "Insights da semana: poupança segue como investimento mais disseminado CNN Brasil",
+      "tag": "Cartao",
+      "tag_class": "tag-orange",
+      "title": "Opinião | Endividamento alto e educação financeira",
+      "body": "Opinião | Endividamento alto e educação financeira estadao.com.br",
       "meta": [
         "Leitura rapida",
-        "Fonte: CNN Brasil"
+        "Fonte: estadao.com.br"
       ],
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbkJEVGEzc0dCOWY3Vkt3VlJZMkFhWVhYb0FiQWxNYVdnQW5URldwbUFYRV9uVUVXWTA2bzk1T0VWR3lWTnc2LXI5aldrMkdkSnEyYnZuN3hWVFR5aUt2V21DMVVXN3FoODVNbkFUZzNvQ09IUjNsYlhnX3lUSWltYTdtQ0pHM2ZQRFNtR1g3OEN5aE0wTUNTN0lPV20wdWxjU3BTa3IwTFFaUzE4U2JWTE96WlFmU2dRSU81UUJn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU2UxQWs1alltU1EzekszTC1BUXVJYkV2cjRJSVZWb29aWlJTU2ZXaUdSaHBhcnBucmJ3MmpPSUk3bzRyZW1jSy02eWtoQ2c5WVk3LWJMQXhrenZwVEROamQya2ZuZkhZU2xsQTdPSkVGS3g4azVqNVQydU1qazFwNVdYS2FEWHNYdEt6ZTVwZWlTOUREV1E?oc=5",
       "link_label": "Ler mais"
     }
   ],
