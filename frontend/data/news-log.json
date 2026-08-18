@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-17T20:17:58.497391+00:00",
+  "generated_at": "2026-08-18T08:20:04.608178+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
     {
-      "source": "exame.com",
+      "source": "Estadão",
       "category": "IA",
-      "title": "A IA não vai substituir sua empresa. Vai criar as que nunca existiram",
-      "summary": "A IA não vai substituir sua empresa. Vai criar as que nunca existiram",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV016cHlDUFNnMUtVeEQ2Y1lHb0s5YmZyY1NQMm45d1VzTGI1blc3V2NpTmxQU3pQZWI0bThTdXZfd1QzUklfMDVEVzJ1SllEbkxUZ3U3aU8yRHRPdW1SV3BjbFd5NTI5RHdNb0FWbHdWNWxWTGp6bk5oWkNLUkhUTmRGams2T1pmMlpOUVNYUmd2dmhi?oc=5",
-      "publishedAt": "Sat, 15 Aug 2026 13:26:12 GMT"
+      "title": "Dona do ChatGPT faz parcerias com empresas para crescer no País; veja quais",
+      "summary": "Dona do ChatGPT faz parcerias com empresas para crescer no País; veja quais",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNV0dSM3NlTF9mYnpiRlF1bUNfWFNtYjdaYUJQdjQ0NVpsU1c1d2J4WDdQSjJMaHhrblZ6MzFoOERENnRjekJMSURJaEgxYV9YUkcxUUpnaHlQdk9KTHpTUFZsa1ZTbDZseDJ6ejFFUC12RFBURDNuT1U2VTB6QVZwUzVhTE5ESU9LMTRXR3BtcmNxN1FTb0pVRjF0bjRDX1ZIZ0R3a2ZzQXh0UnEyZ0RpN05jQUxOTm9Db1N0WdIBwgFBVV95cUxOVmxvbU5qUlRva3VjOTdXYndvMlNHTnpqTkFNYU9JMlVkUkVhcTc2YU1kclg1NjNSLWc5Zkw4LXFIa3MwdXoyeGkydkppeUQ5WklhU2xJVm55T3pVNEhGcXB6R0dNUHJ3UVhUODJONDVvLUJJREVEajJ1ZUZ0UnBoRlJMbkhxbFg5blZ3dnZZRzJ3YkpBRlVMRXVoWFl6V0NlUHUxVnlwZEIxNTlWTHphYzRHcUZSQVRSQVdCRTZvaEVYQQ?oc=5",
+      "publishedAt": "Tue, 18 Aug 2026 08:00:00 GMT"
     },
     {
-      "source": "folhavitoria.com.br",
+      "source": "Folha Vitória",
       "category": "IA",
       "title": "Inteligência artificial e dados mudam a forma de empresas tomarem decisões",
       "summary": "Inteligência artificial e dados mudam a forma de empresas tomarem decisões",
@@ -20,7 +20,23 @@
       "publishedAt": "Mon, 17 Aug 2026 20:00:00 GMT"
     },
     {
-      "source": "MundoLogística",
+      "source": "Exame",
+      "category": "IA",
+      "title": "A IA não vai substituir sua empresa. Vai criar as que nunca existiram",
+      "summary": "A IA não vai substituir sua empresa. Vai criar as que nunca existiram",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV016cHlDUFNnMUtVeEQ2Y1lHb0s5YmZyY1NQMm45d1VzTGI1blc3V2NpTmxQU3pQZWI0bThTdXZfd1QzUklfMDVEVzJ1SllEbkxUZ3U3aU8yRHRPdW1SV3BjbFd5NTI5RHdNb0FWbHdWNWxWTGp6bk5oWkNLUkhUTmRGams2T1pmMlpOUVNYUmd2dmhi?oc=5",
+      "publishedAt": "Sat, 15 Aug 2026 13:26:12 GMT"
+    },
+    {
+      "source": "Finsiders Brasil",
+      "category": "IA",
+      "title": "A segunda Odisseia da Inteligência Artificial",
+      "summary": "A segunda Odisseia da Inteligência Artificial",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMF8wYWw5SmhwM2tNcEI4SG95eHc3T2xEREhpVmt4NDFkT0VWQ21oVFZ0V2NyZlNJWXQxVU5fTDJ4WHJSeWg5NjZCbEthOHUwQ1hWbV92alpTbVZBVVA0V2JTM0kxQUdtTXR6NXVVQThXb1ZreFVXOGZJTTZwbkZ4Yjc0aHBZRng5SjhCTzhMQ3ZOV0pxTVljMW9Eel9RNFM2MFZlMnpKUE8?oc=5",
+      "publishedAt": "Mon, 17 Aug 2026 20:39:00 GMT"
+    },
+    {
+      "source": "mundologistica.com.br",
       "category": "IA",
       "title": "Mais de 60% das empresas de transporte investem em IA para prevenir riscos",
       "summary": "Mais de 60% das empresas de transporte investem em IA para prevenir riscos",
@@ -36,22 +52,6 @@
       "publishedAt": "Mon, 17 Aug 2026 18:34:17 GMT"
     },
     {
-      "source": "moneytimes.com.br",
-      "category": "IA",
-      "title": "Banco Central Europeu: Correção no mercado de inteligência artificial (IA) está por vir",
-      "summary": "Banco Central Europeu: Correção no mercado de inteligência artificial (IA) está por vir",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVV9SbEJaZjZDa1VUSFUxTXVUOUViZy1VN1loMmwwaUFrb0FDYnpDUUZmNTFNYnlZQUFlSnU5NnB4bUwxZzZ1UFpTQUxQODVCNUw5NXJVZzlIMXEzbFBmMDh0ems1VW9yZjJkeGJwSy1xbjd0YXJRb01RNUhUeXg5RWVSZ18tRkV1MkYyOWZEYmdLNDFOOTZj?oc=5",
-      "publishedAt": "Mon, 17 Aug 2026 11:28:00 GMT"
-    },
-    {
-      "source": "O POVO+",
-      "category": "IA",
-      "title": "Estratégia e inteligência artificial",
-      "summary": "Estratégia e inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOTM2VWJtTjRqcEtTM1dPUURpOXF4U2pUNkY3VTQwYkhRaGt6b2huUjM5NjJiVGxReDNrQ0gyVkZ0ZFVINkxRdTJidEFPdm5Xb1BTUGUwZWZIMFFtSVhvSlBDY2ZLRkVIOXd6Q0t5cC1PX0w1c0Z6MXNlWm5Ud01CZk5xR1Jvb210dG1WWlhJbFUxMGFPLUdiOHBGa1UyS0JsRnJmZmphUUlTZGc?oc=5",
-      "publishedAt": "Mon, 17 Aug 2026 04:15:00 GMT"
-    },
-    {
       "source": "Prefeitura de São Paulo",
       "category": "Tecnologia",
       "title": "São Paulo concentra mais de 221 mil empregos formais em tecnologia e registra crescimento de 61% em ocupações no setor em uma década - Secretaria Municipal de Desenvolvimento Econômico e Trabalho",
@@ -60,20 +60,20 @@
       "publishedAt": "Fri, 17 Jul 2026 07:00:00 GMT"
     },
     {
-      "source": "TI INSIDE Online",
-      "category": "Tecnologia",
-      "title": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
-      "summary": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUVRkY3hvRDJhQ3B1Y0R6MndjNXBQNHFGVVBLb2IzS0hkV3FsS3FkbkNkZzhXaTB2Tzl2QWZZUjZ1dmxFZUdRVEFIQUFCemFzMmlDQmpZTnJYTXdPXzBKSUdXYmZrTlNOWGVNNlZ0YlQ1eGwzT3NHV2pkTXpCck93M21SV2hYVkVHbGhfY01oVXI3ZFh5Uzd3VURZeDlCUXl3X3J3SWx4QzFIQ253c1B6aktSMUZVcE4temUzaGxR?oc=5",
-      "publishedAt": "Wed, 03 Jun 2026 07:00:00 GMT"
-    },
-    {
       "source": "fcmsantacasasp.edu.br",
       "category": "Tecnologia",
       "title": "Análise e Desenvolvimento de Software na Saúde: por que a Faculdade Santa Casa é o futuro",
       "summary": "Análise e Desenvolvimento de Software na Saúde: por que a Faculdade Santa Casa é o futuro",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQW1QYWdzZmhtelJEOHlXb0VldzhwX2JvaU1KSHp4TkM1Y3JjdlY0bjc0S01oOEFpaW9sREpKR25PRmtKVVY0LXVmZFZRMnpCUTZoVjktOHRidHlwQ0ZyR2JrdThQWnV6LTRiX1hvQXBhNHh3cXY2dldjRTZCek9fWFFVQTVFRTc0T1E?oc=5",
       "publishedAt": "Fri, 15 May 2026 07:00:00 GMT"
+    },
+    {
+      "source": "TI INSIDE Online",
+      "category": "Tecnologia",
+      "title": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
+      "summary": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUVRkY3hvRDJhQ3B1Y0R6MndjNXBQNHFGVVBLb2IzS0hkV3FsS3FkbkNkZzhXaTB2Tzl2QWZZUjZ1dmxFZUdRVEFIQUFCemFzMmlDQmpZTnJYTXdPXzBKSUdXYmZrTlNOWGVNNlZ0YlQ1eGwzT3NHV2pkTXpCck93M21SV2hYVkVHbGhfY01oVXI3ZFh5Uzd3VURZeDlCUXl3X3J3SWx4QzFIQ253c1B6aktSMUZVcE4temUzaGxR?oc=5",
+      "publishedAt": "Wed, 03 Jun 2026 07:00:00 GMT"
     },
     {
       "source": "ND Mais",

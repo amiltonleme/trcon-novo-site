@@ -1,23 +1,41 @@
 {
-  "generated_at": "2026-08-17T20:17:57.038640+00:00",
+  "generated_at": "2026-08-18T08:20:03.491380+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
     {
-      "title": "A IA não vai substituir sua empresa. Vai criar as que nunca existiram",
-      "summary": "A IA não vai substituir sua empresa. Vai criar as que nunca existiram",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV016cHlDUFNnMUtVeEQ2Y1lHb0s5YmZyY1NQMm45d1VzTGI1blc3V2NpTmxQU3pQZWI0bThTdXZfd1QzUklfMDVEVzJ1SllEbkxUZ3U3aU8yRHRPdW1SV3BjbFd5NTI5RHdNb0FWbHdWNWxWTGp6bk5oWkNLUkhUTmRGams2T1pmMlpOUVNYUmd2dmhi?oc=5",
-      "source": "exame.com",
-      "published_at": "Sat, 15 Aug 2026 13:26:12 GMT",
+      "title": "Dona do ChatGPT faz parcerias com empresas para crescer no País; veja quais",
+      "summary": "Dona do ChatGPT faz parcerias com empresas para crescer no País; veja quais",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNV0dSM3NlTF9mYnpiRlF1bUNfWFNtYjdaYUJQdjQ0NVpsU1c1d2J4WDdQSjJMaHhrblZ6MzFoOERENnRjekJMSURJaEgxYV9YUkcxUUpnaHlQdk9KTHpTUFZsa1ZTbDZseDJ6ejFFUC12RFBURDNuT1U2VTB6QVZwUzVhTE5ESU9LMTRXR3BtcmNxN1FTb0pVRjF0bjRDX1ZIZ0R3a2ZzQXh0UnEyZ0RpN05jQUxOTm9Db1N0WdIBwgFBVV95cUxOVmxvbU5qUlRva3VjOTdXYndvMlNHTnpqTkFNYU9JMlVkUkVhcTc2YU1kclg1NjNSLWc5Zkw4LXFIa3MwdXoyeGkydkppeUQ5WklhU2xJVm55T3pVNEhGcXB6R0dNUHJ3UVhUODJONDVvLUJJREVEajJ1ZUZ0UnBoRlJMbkhxbFg5blZ3dnZZRzJ3YkpBRlVMRXVoWFl6V0NlUHUxVnlwZEIxNTlWTHphYzRHcUZSQVRSQVdCRTZvaEVYQQ?oc=5",
+      "source": "Estadão",
+      "published_at": "Tue, 18 Aug 2026 08:00:00 GMT",
       "category": "IA",
-      "signal": "flat"
+      "signal": "up"
     },
     {
       "title": "Inteligência artificial e dados mudam a forma de empresas tomarem decisões",
       "summary": "Inteligência artificial e dados mudam a forma de empresas tomarem decisões",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaXNlR0tZVzRpOEt0WG9waUxYVTdfOWxlakxLMDdZcHI1NjNwa0s3NEI2WTFEeWhkRURKcnpiak5qZ0tSY1V5a1hQQUNZN3NMaGNhd0s0eXFaTW1GalFRM0o0UmdYYVNocEp6Z0tCa3FWVUxhemdVWUJvLVpNVTNXbEdDcGFvNk5oMWtrRXpUdmFwZ2s0MkFYZFdlNHNxVVlVREd3R1dsdnI4elpDN2lxVVR4TXJnQnM?oc=5",
-      "source": "folhavitoria.com.br",
+      "source": "Folha Vitória",
       "published_at": "Mon, 17 Aug 2026 20:00:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "A IA não vai substituir sua empresa. Vai criar as que nunca existiram",
+      "summary": "A IA não vai substituir sua empresa. Vai criar as que nunca existiram",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV016cHlDUFNnMUtVeEQ2Y1lHb0s5YmZyY1NQMm45d1VzTGI1blc3V2NpTmxQU3pQZWI0bThTdXZfd1QzUklfMDVEVzJ1SllEbkxUZ3U3aU8yRHRPdW1SV3BjbFd5NTI5RHdNb0FWbHdWNWxWTGp6bk5oWkNLUkhUTmRGams2T1pmMlpOUVNYUmd2dmhi?oc=5",
+      "source": "Exame",
+      "published_at": "Sat, 15 Aug 2026 13:26:12 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "A segunda Odisseia da Inteligência Artificial",
+      "summary": "A segunda Odisseia da Inteligência Artificial",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMF8wYWw5SmhwM2tNcEI4SG95eHc3T2xEREhpVmt4NDFkT0VWQ21oVFZ0V2NyZlNJWXQxVU5fTDJ4WHJSeWg5NjZCbEthOHUwQ1hWbV92alpTbVZBVVA0V2JTM0kxQUdtTXR6NXVVQThXb1ZreFVXOGZJTTZwbkZ4Yjc0aHBZRng5SjhCTzhMQ3ZOV0pxTVljMW9Eel9RNFM2MFZlMnpKUE8?oc=5",
+      "source": "Finsiders Brasil",
+      "published_at": "Mon, 17 Aug 2026 20:39:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -25,7 +43,7 @@
       "title": "Mais de 60% das empresas de transporte investem em IA para prevenir riscos",
       "summary": "Mais de 60% das empresas de transporte investem em IA para prevenir riscos",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQzVxUXVHQ0pDb2x2ckxoTzNsQ1VORkxucENOWkVDeEc2RkdvaDRXTHg1bEg2SmdOMERqcFNrLXdJT01xZnRDLWFrcGFYb09XaWQxcjVMenNUZzNiWmxNTW1UVUFFUGhtTWdSV3N0NHhvb3g2VUpOTUZ1RGh2WUw5SndQZmVSQV9KMjlpc0gzd2ltamktOUc2OFJyelk4Zw?oc=5",
-      "source": "MundoLogística",
+      "source": "mundologistica.com.br",
       "published_at": "Mon, 17 Aug 2026 14:12:09 GMT",
       "category": "IA",
       "signal": "flat"
@@ -36,24 +54,6 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcWlwanQ3WUNMU1JCYnRtOWt5Rk45WkltQ2NFd1BHT0twMDJ5ZTZXLXpyMnpkY2l2QU1MOHVFM1NObExmQnI3LVBpTFFKOG9aSWt5bDJOTTkwYm5Ibm54b3E1WnY1NVJFWnNaRndka3VVVy12XzE5ckt1Zy1iNnFjWWtpY0Q?oc=5",
       "source": "ADVFN",
       "published_at": "Mon, 17 Aug 2026 18:34:17 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Banco Central Europeu: Correção no mercado de inteligência artificial (IA) está por vir",
-      "summary": "Banco Central Europeu: Correção no mercado de inteligência artificial (IA) está por vir",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVV9SbEJaZjZDa1VUSFUxTXVUOUViZy1VN1loMmwwaUFrb0FDYnpDUUZmNTFNYnlZQUFlSnU5NnB4bUwxZzZ1UFpTQUxQODVCNUw5NXJVZzlIMXEzbFBmMDh0ems1VW9yZjJkeGJwSy1xbjd0YXJRb01RNUhUeXg5RWVSZ18tRkV1MkYyOWZEYmdLNDFOOTZj?oc=5",
-      "source": "moneytimes.com.br",
-      "published_at": "Mon, 17 Aug 2026 11:28:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Estratégia e inteligência artificial",
-      "summary": "Estratégia e inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOTM2VWJtTjRqcEtTM1dPUURpOXF4U2pUNkY3VTQwYkhRaGt6b2huUjM5NjJiVGxReDNrQ0gyVkZ0ZFVINkxRdTJidEFPdm5Xb1BTUGUwZWZIMFFtSVhvSlBDY2ZLRkVIOXd6Q0t5cC1PX0w1c0Z6MXNlWm5Ud01CZk5xR1Jvb210dG1WWlhJbFUxMGFPLUdiOHBGa1UyS0JsRnJmZmphUUlTZGc?oc=5",
-      "source": "O POVO+",
-      "published_at": "Mon, 17 Aug 2026 04:15:00 GMT",
       "category": "IA",
       "signal": "flat"
     }
