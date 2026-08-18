@@ -39,8 +39,8 @@ frontend/
 
 | Seção | API | Fallback JSON | Layout |
 |-------|-----|---------------|--------|
-| **Radar TRCon** | `GET /api/public/highlights` | `data/home-highlights.json` | `cards-grid` (bloco oculto se vazio) |
-| **Novidades TRCon** | `GET /api/public/news` | `data/news-log.json` | `cards-grid` (bloco oculto se vazio) |
+| **Radar TRCONGROUP** | `GET /api/public/highlights` | `data/home-highlights.json` | `cards-grid` (bloco oculto se vazio) |
+| **Novidades TRCONGROUP** | `GET /api/public/news` | `data/news-log.json` | `cards-grid` (bloco oculto se vazio) |
 
 Implementação em `assets/modules/content.js`:
 

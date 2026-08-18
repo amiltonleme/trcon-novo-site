@@ -1,4 +1,4 @@
-# Site institucional TRCon — indexável.
+# Site institucional TRCONGROUP — indexável.
 # Apps internos (ex.: marketing.trcongroup.com.br) usam noindex próprio.
 
 User-agent: *

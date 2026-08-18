@@ -1,10 +1,10 @@
-# Posicionamento Institucional — TRCon
+# Posicionamento Institucional — TRCONGROUP
 
 > Atualizado em **29/07/2026** — páginas de detalhe de produto + formulário único de contato no frontend.
 
-## Quem é a TRCon
+## Quem é a TRCONGROUP
 
-**TRCon — Tecnologia, Inteligência e Resultados.**
+**TRCONGROUP — Tecnologia, Inteligência e Resultados.**
 
 Empresa de tecnologia que atua em quatro frentes conectadas:
 
@@ -13,7 +13,7 @@ Empresa de tecnologia que atua em quatro frentes conectadas:
 - **Finanças** — produtos e módulos voltados a controle financeiro, dados de mercado e resultado
 - **Resultados** — o critério comum a tudo: cada entrega deve gerar resultado mensurável para o cliente
 
-## O que a TRCon vende (linhas de negócio)
+## O que a TRCONGROUP vende (linhas de negócio)
 
 1. **Venda de software/produto próprio** — produtos prontos (ex.: módulo de fluxo de caixa, radar de mercado) licenciados ou por assinatura.
 2. **Desenvolvimento sob demanda** — squads ou projetos fechados para construir software para o cliente.
@@ -32,13 +32,13 @@ O site institucional precisa deixar essas 4 linhas claras e navegáveis — hoje
 ## Estrutura de páginas alvo do site institucional
 
 ### Home
-- hero institucional: "TRCon — Tecnologia, Inteligência e Resultados"
+- hero institucional: "TRCONGROUP — Tecnologia, Inteligência e Resultados"
 - as 4 linhas de negócio em blocos claros (produto, dev sob demanda, customização, alocação)
 - prova social / diferenciais
 - Radar IA / Tecnologia / Mercado (conteúdo recorrente já planejado)
 - CTA dupla: "Quero um produto" vs "Quero um time/serviço"
 
-### Sobre a TRCon
+### Sobre a TRCONGROUP
 - missão, forma de trabalhar, princípios técnicos (SOLID, qualidade, resultado)
 - não é obrigatório expor "IA usada no processo interno" publicamente, mas pode compor diferencial ("construímos com rigor de engenharia e velocidade de execução")
 

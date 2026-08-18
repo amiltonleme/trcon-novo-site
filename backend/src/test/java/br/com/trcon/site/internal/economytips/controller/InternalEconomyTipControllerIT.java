@@ -44,7 +44,7 @@ class InternalEconomyTipControllerIT {
         InternalEconomyTipCreateRequest request = new InternalEconomyTipCreateRequest(
                 "Educacao",
                 "tag-blue",
-                "Guia TRCon: reserva de emergencia em 5 passos",
+                "Guia TRCONGROUP: reserva de emergencia em 5 passos",
                 "Monte sua reserva com produtos liquidos antes de buscar rentabilidade alta.",
                 "https://trcongroup.com.br",
                 "Ler guia",
@@ -71,7 +71,7 @@ class InternalEconomyTipControllerIT {
         assertThat(publicResponse.getBody().items()).hasSize(1);
         assertThat(publicResponse.getBody().disclaimer()).contains("educacional");
         assertThat(publicResponse.getBody().items().get(0).title())
-                .isEqualTo("Guia TRCon: reserva de emergencia em 5 passos");
+                .isEqualTo("Guia TRCONGROUP: reserva de emergencia em 5 passos");
     }
 
     @Test

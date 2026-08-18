@@ -22,7 +22,7 @@ Ver matriz completa em [`14-STATUS-IMPLEMENTACAO.md`](./14-STATUS-IMPLEMENTACAO.
 ## Fora de escopo (ainda)
 
 Autenticação de usuários finais, painel administrativo completo, upload de arquivos,
-backoffice de edição, multi-tenant, mensageria, cache distribuído, **S8.7 SEO no form marketing**, capa/IA imagem (Sprint 9).
+backoffice de edição, multi-tenant, mensageria, cache distribuído, capa/IA imagem (Sprint 9).
 
 ## Módulo 4 — API interna (Sirius Marketing)
 

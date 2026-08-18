@@ -55,7 +55,7 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
       label: 'Serviços',
       title: 'Fale com um especialista',
       copy: 'Conte o que você precisa — projeto sob demanda, customização ou alocação de time — e retornamos com o melhor caminho.',
-      note: 'Atendimento comercial da TRCon Group. Sem compromisso de waitlist de produto.',
+      note: 'Atendimento comercial da TRCONGROUP. Sem compromisso de waitlist de produto.',
       leadType: 'ALOCACAO_MAO_DE_OBRA',
       origem: 'site-trcon-servicos',
       produtoLabel: '',
@@ -764,7 +764,7 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
         setHomeContentBlockVisible('block-radar', items.length > 0);
         if (radarUpdated) {
           radarUpdated.textContent = items.length
-            ? (source === 'api' ? 'Fonte: API TRCon' : 'Fonte: conteúdo publicado')
+            ? (source === 'api' ? 'Fonte: API TRCONGROUP' : 'Fonte: conteúdo publicado')
             : '';
         }
         if (items.length) observeDynamicCards();

@@ -10,7 +10,7 @@ public final class LeadNotificationMessageBuilder {
 
     public static String subject(Lead lead) {
         return EmailTextSanitizer.header(
-                "[TRCon Site] Novo lead — " + lead.getTipoInteresse() + " (" + lead.getOrigem() + ")");
+                "[TRCONGROUP Site] Novo lead — " + lead.getTipoInteresse() + " (" + lead.getOrigem() + ")");
     }
 
     public static String html(Lead lead) {
@@ -19,7 +19,7 @@ public final class LeadNotificationMessageBuilder {
                 : EmailTextSanitizer.html(lead.getMensagem()).replace("\n", "<br>");
 
         return """
-                <h2>Novo lead no site TRCon</h2>
+                <h2>Novo lead no site TRCONGROUP</h2>
                 <p><strong>ID:</strong> %s</p>
                 <p><strong>Nome:</strong> %s</p>
                 <p><strong>E-mail:</strong> %s</p>

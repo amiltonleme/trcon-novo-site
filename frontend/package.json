@@ -3,7 +3,7 @@
   "version": "0.8.0",
   "private": true,
   "type": "module",
-  "description": "Frontend público do site TRCon (HTML/CSS/JS vanilla). Ver ../doc/03-FRONTEND-STACK-CANONICA.md",
+  "description": "Frontend público do site TRCONGROUP (HTML/CSS/JS vanilla). Ver ../doc/03-FRONTEND-STACK-CANONICA.md",
   "scripts": {
     "dev": "node scripts/dev_server.js",
     "build": "node scripts/stamp-build-info.mjs",

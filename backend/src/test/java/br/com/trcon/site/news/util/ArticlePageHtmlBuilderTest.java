@@ -15,7 +15,7 @@ class ArticlePageHtmlBuilderTest {
                 "Como IA ajuda PMEs",
                 "Resumo prático",
                 "Parágrafo um.\n\nParágrafo dois.",
-                "Como IA ajuda PMEs | TRCon",
+                "Como IA ajuda PMEs | TRCONGROUP",
                 "Resumo prático para indexação.",
                 "https://images.unsplash.com/photo-example",
                 "Sirius Marketing",
@@ -24,7 +24,7 @@ class ArticlePageHtmlBuilderTest {
 
         String html = ArticlePageHtmlBuilder.build(article, "https://trcongroup.com.br/");
 
-        assertThat(html).contains("<title>Como IA ajuda PMEs | TRCon — TRCon Group</title>");
+        assertThat(html).contains("<title>Como IA ajuda PMEs | TRCONGROUP — TRCONGROUP</title>");
         assertThat(html).contains("name=\"description\"");
         assertThat(html).contains("Resumo prático para indexação.");
         assertThat(html).contains("rel=\"canonical\"");
@@ -49,7 +49,7 @@ class ArticlePageHtmlBuilderTest {
                 "T", null, "B", null, null, null, null, null, Instant.parse("2026-01-01T00:00:00Z"));
         String html = ArticlePageHtmlBuilder.build(article, null);
         assertThat(html).contains("https://trcongroup.com.br/novidades/como-ia-ajuda-pmes");
-        assertThat(html).contains("<title>T — TRCon Group</title>");
+        assertThat(html).contains("<title>T — TRCONGROUP</title>");
         assertThat(html).doesNotContain("name=\"description\"");
         assertThat(html).doesNotContain("og:image");
         assertThat(html).doesNotContain("article-summary");
@@ -73,8 +73,8 @@ class ArticlePageHtmlBuilderTest {
                 null);
 
         String html = ArticlePageHtmlBuilder.build(article, "https://trcongroup.com.br");
-        assertThat(html).contains("<title>Titulo H1 — TRCon Group</title>");
-        assertThat(html).contains("article-tag\">TRCon</span>");
+        assertThat(html).contains("<title>Titulo H1 — TRCONGROUP</title>");
+        assertThat(html).contains("article-tag\">TRCONGROUP</span>");
         assertThat(html).doesNotContain("name=\"description\"");
         assertThat(html).doesNotContain("datePublished");
     }
@@ -97,7 +97,7 @@ class ArticlePageHtmlBuilderTest {
                 Instant.parse("2026-08-01T15:00:00Z"));
 
         String html = ArticlePageHtmlBuilder.build(article, "https://trcongroup.com.br");
-        assertThat(html).contains("<title>TRCon Novidades — TRCon Group</title>");
+        assertThat(html).contains("<title>TRCONGROUP Novidades — TRCONGROUP</title>");
         assertThat(html).contains("<h1></h1>");
         assertThat(html).contains("Conteúdo indisponível");
         assertThat(html).contains("de 2026");

@@ -45,11 +45,11 @@ TRCon e o que ela vende", depois vê o conteúdo vivo.
 
 ## Estrutura sugerida da Home (atualizada)
 
-1. hero institucional (TRCon — Tecnologia, Inteligência e Resultados)
+1. hero institucional (TRCONGROUP — Tecnologia, Inteligência e Resultados)
 2. as 4 linhas de negócio em blocos (produto / dev sob demanda / customização / alocação)
 3. Radar IA / Radar Tecnologia / Radar Mercado
 4. bloco "Atualizado hoje"
-5. seção "Novidades da TRCon"
+5. seção "Novidades da TRCONGROUP"
 6. CTA final dupla (produto vs. serviço/staffing)
 
 ## Demais páginas
