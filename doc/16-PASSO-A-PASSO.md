@@ -70,7 +70,7 @@ Marketing → POST /api/internal/economy-tips ──┘
 | S8.5 | Meta SEO + Open Graph | ✅ (`og:image` via capa A) |
 | **S8.5b** | JSON-LD `NewsArticle` + HTML SSR no first paint | ✅ **16/08/2026** (`GET /novidades/{slug}`) |
 | S8.6 | `sitemap.xml` + `feed/news.xml` | ✅ |
-| S8.7 | SEO no form marketing | ❌ pendente |
+| S8.7 | SEO no form marketing | ✅ 17/08/2026 (marketing 0.24.0) |
 
 ### SEO higiene / hub editorial (16/08/2026)
 
@@ -157,7 +157,7 @@ Marketing → POST /api/internal/economy-tips ──┘
 | # | Tarefa | Status |
 |---|--------|--------|
 | M1 | JSON-LD `NewsArticle` na página de artigo | ✅ 16/08/2026 |
-| M2 | S8.7 — campos SEO no form marketing | ❌ |
+| M2 | S8.7 — campos SEO no form marketing | ✅ 17/08/2026 |
 | M3 | Endpoint desativar dica economy | ❌ |
 | M4 | Ampliar feeds RSS / curadoria | ❌ |
 

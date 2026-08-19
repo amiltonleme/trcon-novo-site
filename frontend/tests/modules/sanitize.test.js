@@ -12,7 +12,7 @@ import {
   localizeSiteHref,
 } from '../../assets/modules/sanitize.js';
 
-const BASE = 'https://trcon.com.br/';
+const BASE = 'https://trcongroup.com.br/';
 
 describe('changeClass', () => {
   it('mapeia direções conhecidas', () => {
@@ -62,7 +62,7 @@ describe('safeUrl', () => {
   });
 
   it('resolve caminho relativo contra a base', () => {
-    expect(safeUrl('/novidades', BASE)).toBe('https://trcon.com.br/novidades');
+    expect(safeUrl('/novidades', BASE)).toBe('https://trcongroup.com.br/novidades');
     // valor vazio/nulo resolve para a própria base (mesmo comportamento do site atual)
     expect(safeUrl(null, BASE)).toBe(BASE);
   });

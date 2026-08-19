@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 /**
- * Notifica a TRCon por e-mail quando um lead é criado.
+ * Notifica a TRCONGROUP por e-mail quando um lead é criado.
  * Falhas de envio são absorvidas — o lead já foi persistido.
  */
 @Service

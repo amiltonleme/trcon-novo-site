@@ -125,12 +125,12 @@ window.TRCON_NEWS_API_URL = 'http://localhost:8081/api/public/news';
 window.TRCON_ECONOMY_TIPS_API_URL = 'http://localhost:8081/api/public/economy-tips';
 ```
 
-### Radar TRCon vs Novidades vs Educação Financeira
+### Radar TRCONGROUP vs Novidades vs Educação Financeira
 
 | Seção na home | API | Conteúdo | Layout |
 |---|---|---|---|
-| **Radar TRCon** | `/api/public/highlights` | Sinais IA/tecnologia (pipeline JSON 2×/dia). API **exclui** artigos marketing (`/novidades/`, `-radar`). Fallback `home-highlights.json`. | `cards-grid` |
-| **Novidades TRCon** | `/api/public/news` | Artigos Sirius Marketing (`news_items`). Link → `/novidades/{slug}`. | `cards-grid` |
+| **Radar TRCONGROUP** | `/api/public/highlights` | Sinais IA/tecnologia (pipeline JSON 2×/dia). API **exclui** artigos marketing (`/novidades/`, `-radar`). Fallback `home-highlights.json`. | `cards-grid` |
+| **Novidades TRCONGROUP** | `/api/public/news` | Artigos Sirius Marketing (`news_items`). Link → `/novidades/{slug}`. | `cards-grid` |
 | **Educação Financeira** | `/api/public/economy-tips` + JSON | Merge: marketing prioridade; RSS preenche até 4 cards | `insights-grid` |
 
 **Não são o mesmo feed.** Artigos aprovados vão **somente** a Novidades (correção 27/07/2026).

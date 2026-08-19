@@ -19,11 +19,11 @@ public final class ArticlePageHtmlBuilder {
 
     public static String build(NewsArticleResponse article, String publicBaseUrl) {
         String base = publicBaseUrl == null ? "https://trcongroup.com.br" : publicBaseUrl.replaceAll("/+$", "");
-        String title = firstNonBlank(article.metaTitle(), article.title(), "TRCon Novidades");
+        String title = firstNonBlank(article.metaTitle(), article.title(), "TRCONGROUP Novidades");
         String description = firstNonBlank(article.metaDescription(), article.summary(), "");
         String canonical = base + "/novidades/" + article.slug();
         String cover = safeCover(article.coverImageUrl());
-        String category = firstNonBlank(article.category(), "TRCon");
+        String category = firstNonBlank(article.category(), "TRCONGROUP");
         String dateLabel = formatDate(article.publishedAt());
         String bodyHtml = ArticleBodyHtmlRenderer.render(article.body());
         String jsonLd = buildJsonLd(article, title, description, canonical, cover, base);
@@ -35,7 +35,7 @@ public final class ArticlePageHtmlBuilder {
         html.append("  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n");
         html.append("  <title>")
                 .append(ArticleBodyHtmlRenderer.escapeHtml(title))
-                .append(" — TRCon Group</title>\n");
+                .append(" — TRCONGROUP</title>\n");
         if (!description.isBlank()) {
             html.append("  <meta name=\"description\" content=\"")
                     .append(ArticleBodyHtmlRenderer.escapeHtml(description))
@@ -44,7 +44,7 @@ public final class ArticlePageHtmlBuilder {
         html.append("  <link rel=\"canonical\" href=\"")
                 .append(ArticleBodyHtmlRenderer.escapeHtml(canonical))
                 .append("\" />\n");
-        html.append("  <meta property=\"og:site_name\" content=\"TRCon Group\" />\n");
+        html.append("  <meta property=\"og:site_name\" content=\"TRCONGROUP\" />\n");
         html.append("  <meta property=\"og:type\" content=\"article\" />\n");
         html.append("  <meta property=\"og:title\" content=\"")
                 .append(ArticleBodyHtmlRenderer.escapeHtml(title))
@@ -130,7 +130,7 @@ public final class ArticlePageHtmlBuilder {
         return "<!DOCTYPE html>\n<html lang=\"pt-BR\"><head>"
                 + "<meta charset=\"UTF-8\" />"
                 + "<meta name=\"robots\" content=\"noindex\" />"
-                + "<title>Artigo não encontrado — TRCon Group</title>"
+                + "<title>Artigo não encontrado — TRCONGROUP</title>"
                 + "<link rel=\"stylesheet\" href=\"/style.css\">"
                 + "</head><body class=\"article-page\"><main class=\"article-shell\">"
                 + "<p class=\"article-error\">Não foi possível carregar este artigo.</p>"
@@ -161,10 +161,10 @@ public final class ArticlePageHtmlBuilder {
         }
         ObjectNode author = root.putObject("author");
         author.put("@type", "Organization");
-        author.put("name", "TRCon Group");
+        author.put("name", "TRCONGROUP");
         ObjectNode publisher = root.putObject("publisher");
         publisher.put("@type", "Organization");
-        publisher.put("name", "TRCon Group");
+        publisher.put("name", "TRCONGROUP");
         publisher.put("url", base);
         ObjectNode main = root.putObject("mainEntityOfPage");
         main.put("@type", "WebPage");

@@ -169,7 +169,7 @@ function buildCardItemHtml(item, { preferExternalLinks = false } = {}) {
           return resolved && isInternalArticleHref(resolved) ? resolved : safeUrl(resolved);
         })(),
   );
-  const tag = escapeHtml(item.source || item.category || 'TRCon');
+  const tag = escapeHtml(item.source || item.category || 'TRCONGROUP');
   const titulo = escapeHtml(item.title);
   const signal = SIGNAL_LABEL[item.signal] || '';
   const internal = Boolean(href && isInternalArticleHref(href));

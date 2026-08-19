@@ -82,9 +82,9 @@ Manual: [`18-MANUAL-MARKETING-EDITORIAL.md`](18-MANUAL-MARKETING-EDITORIAL.md).
 
 | Estado | Itens |
 |--------|-------|
-| **Feito** | Fases 0–7; S8.1–S8.6; **S8.5b** JSON-LD + HTML SSR; higiene SEO home (`robots.txt`, seções vazias); Desenho A; Radar ≠ Novidades; economy tips V6; produtos + contato; Resend; JaCoCo ≥ 80% |
+| **Feito** | Fases 0–7; S8.1–S8.7; **S8.5b** JSON-LD + HTML SSR; higiene SEO home (`robots.txt`, seções vazias); Desenho A; Radar ≠ Novidades; economy tips V6; produtos + contato; Resend; JaCoCo ≥ 80% |
 | **Fazendo** | Redeploy prod frontend/backend **0.8.0** + `SITE_API_UPSTREAM`; DNS `@`/`www` → Hetzner; smoke end-to-end; Coolify `TRCON_SITE_MAIL_*` |
-| **A fazer** | Rate limit CF leads/interno; LGPD export/exclusão; staging; S8.7 SEO no form marketing; F9 consolidação legado |
+| **A fazer** | Rate limit CF leads/interno; LGPD export/exclusão; staging; F9 consolidação legado |
 | **Melhorias** | Painel desativar dica economy; CRM; **Desenho B (R2)**; E2E cross-stack |
 
 ---
@@ -98,7 +98,6 @@ Manual: [`18-MANUAL-MARKETING-EDITORIAL.md`](18-MANUAL-MARKETING-EDITORIAL.md).
 | `TRCON_SITE_MAIL_*` + `TRCON_SITE_LEAD_NOTIFY_TO` no Coolify | Alta |
 | DNS `@`/`www` → Hetzner | Alta |
 | Smoke: View Source em `/novidades/{slug}` com meta/JSON-LD; home sem “Carregando…” | Alta |
-| S8.7 SEO no form marketing | Baixa |
 
 ---
 

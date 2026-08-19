@@ -184,7 +184,7 @@ describe('buildNewsHtml', () => {
   });
 
   it('usa link interno sem nova aba quando há slug', () => {
-    const html = buildNewsHtml([{ title: 'nova', summary: 's', slug: 'nova-slug', source: 'TRCon' }]);
+    const html = buildNewsHtml([{ title: 'nova', summary: 's', slug: 'nova-slug', source: 'TRCONGROUP' }]);
     expect(html).toContain('href="/novidades/nova-slug"');
     expect(html).not.toContain('target="_blank"');
   });

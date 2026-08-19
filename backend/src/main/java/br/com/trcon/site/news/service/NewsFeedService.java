@@ -25,9 +25,9 @@ public class NewsFeedService {
         xml.append("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
         xml.append("<rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\">\n");
         xml.append("<channel>\n");
-        xml.append("<title>TRCon Novidades</title>\n");
+        xml.append("<title>TRCONGROUP Novidades</title>\n");
         xml.append("<link>").append(NewsFeedXmlSupport.escapeXml(publicBaseUrl)).append("</link>\n");
-        xml.append("<description>Noticias e artigos publicados pela TRCon Group.</description>\n");
+        xml.append("<description>Noticias e artigos publicados pela TRCONGROUP.</description>\n");
         xml.append("<language>pt-BR</language>\n");
         xml.append("<atom:link href=\"")
                 .append(NewsFeedXmlSupport.escapeXml(publicBaseUrl + "/feed/news.xml"))

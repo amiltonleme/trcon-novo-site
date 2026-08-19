@@ -39,7 +39,7 @@ class LeadEmailNotifierTest {
     @Test
     void enviaComConteudoEscapadoEReplyToDoLead() {
         MailProperties props = new MailProperties(
-                true, "re_test", "Site TRCon <noreply@trcongroup.com.br>", "amilton.leme@trcongroup.com.br");
+                true, "re_test", "Site TRCONGROUP <noreply@trcongroup.com.br>", "amilton.leme@trcongroup.com.br");
         LeadEmailNotifier notifier = new LeadEmailNotifier(props, resendEmailClient);
         Lead lead = Lead.novo(
                 "Ana <script>",

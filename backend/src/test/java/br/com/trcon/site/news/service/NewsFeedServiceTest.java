@@ -36,7 +36,7 @@ class NewsFeedServiceTest {
 
         String rss = service.gerarRss();
 
-        assertThat(rss).contains("<title>TRCon Novidades</title>");
+        assertThat(rss).contains("<title>TRCONGROUP Novidades</title>");
         assertThat(rss).contains("<link>https://trcongroup.com.br</link>");
         assertThat(rss).contains("/novidades/meu-slug");
         assertThat(rss).contains("Titulo &lt;x&gt;");
