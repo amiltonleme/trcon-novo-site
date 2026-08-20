@@ -1,17 +1,8 @@
 {
-  "generated_at": "2026-08-20T08:21:55.840539+00:00",
+  "generated_at": "2026-08-20T20:20:17.853693+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
-    {
-      "title": "Hyundai aposta em inteligência artificial física para evoluir além dos automóveis",
-      "summary": "Hyundai aposta em inteligência artificial física para evoluir além dos automóveis",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcTEwS3lwYWkzLTB1V0tjTHF2NW5LSldGWEZjRXZwODlENTlZSENZaXlldG9nT0RTYllEX3J1Vmw2VnprRnNQeGJBVUtIZWJ2SnVRTTNSYi1VZGItVlIxRWJSeEdCOF9BMTFmSWtxSUM4VllNRHktVmlLd0tBb2xpSHkyU0wwc28waFBfUTdIZnVxZ19FeVRLazFMcVBoM25IejREdVVRVUV1UVdtR1lDdHA2d0t4V1k4aVloaVoyODd3clVqQXdDSkgyWmRQQ25F0gHfAUFVX3lxTE5rMi1zMzNZSU12UUJ1ZG5MRzZGbFNuNnFQRTRidmhRMVdHX0NiMG5kMUlXeWdfZnN2WHVnU3QzdTBrOTRfTW1scHJnNlNRQ25qN0JOS3ZiVEpFRFl1cFNQbDdObzZraXZqcEwzNGZGUFlRNmdFMkF3OE1DSjFrbUZYUjVmUUlrSTA5Y2RtaWtpclZ2ZXVxT0dXU194TUp4OTRVRGMzMmdTRWZkdXpjVmlERGdfVlM3aFBmTWlCRGcyOFRZLTFjbGtPNmJwNkhhUTMwaGZvUUtQdHVOV2l5eDQ?oc=5",
-      "source": "Valor Econômico",
-      "published_at": "Thu, 20 Aug 2026 04:24:03 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
     {
       "title": "Inteligência artificial: líderes do setor dizem que IA significa menos horas de trabalho — mas seus funcionários afirmam trabalhar até 90 horas semanais",
       "summary": "Inteligência artificial: líderes do setor dizem que IA significa menos horas de trabalho — mas seus funcionários afirmam trabalhar até 90 horas semanais",
@@ -22,22 +13,13 @@
       "signal": "flat"
     },
     {
-      "title": "O perigo oculto da inteligência artificial vai muito além do simples descontrole",
-      "summary": "O perigo oculto da inteligência artificial vai muito além do simples descontrole",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTVhYQlZlLXBVZW1IcWlIUUFqaGhNWWllVDlVQjZaQUlwX3Nxbml0b2tweWtfeFhjMktHUF9mS2trWW04V2JPcE9vRnZQVjVYNG1XN2VWa01rc3BzWWVNXzcwN1pGb2FFekVOSVNLZGl5aTBBNzZQWWFhRWN0RnZQdFBkNVRySUFIODdBMV9iX1otVk4zdmd3djNjRmZHdUhBaExsZWVnWWZGZFN5LUpVUjZjVVFQZEJvVnpDSDFEendvS0s1Nm43LUtEYTRFQTc1eVdQWkpBeVRUb0xs?oc=5",
-      "source": "Olhar Digital",
-      "published_at": "Wed, 19 Aug 2026 20:15:00 GMT",
+      "title": "Dona do ChatGPT desacelera modelos de IA",
+      "summary": "Dona do ChatGPT desacelera modelos de IA",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZVFXdWF0OGJ1ZVRJS2tzUVhaZ3gzQnR0R3d1eFBwMGNfaEoyQ2J4QzEyOGo3NlBBcU5SaUd1YVJta2pDTGs2VU9lMUpTSVhBNms0Zmx2bW9ic29wNE5hSmtIbDlXWEEwWHI0UUg1VExIMG1VUHNJeGRHM0RJdE1aa3VwUjhhZC1uMGJGZ2NmM0EyTVYyV0wtczlQd0Zpa2_SAa4BQVVfeXFMTW1wRXU0aTJGV244eHNYTjlLc0U5eGpaSnpoX0Z0YjNOTFJpWGJ6U3Y4X1ZkSnRqLUxTV3NzMzI0UmFDWC01THhyVTJEM1Z2MWtTMTlyRl9NRnlXMnZ0VXIwZFJuY01HRlhZMTZIc2ZVYnlOMU9aT2Nhd2RIU201Zkx2WHFkSWI0a2Jsd2ZZN1pKUDM4Q1JTZ1kyeE5mVTRxZHo0MUwteS1ScmY3X1ln?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Wed, 19 Aug 2026 08:01:57 GMT",
       "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Chamada RHAE IA visa inserir cientistas em empresas para desenvolver projetos de inteligência artificial; inscrições até 09/10",
-      "summary": "Chamada RHAE IA visa inserir cientistas em empresas para desenvolver projetos de inteligência artificial; inscrições até 09/10",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbk5FN1ZRa1VNbE8tVGJsdjNETjFhMU9jZ3o2bkVzS1FrcUE4aHc4ZnpfdFlPaktIdUM4dE1KYTFadzlBUGRzZ1pqdklIMlRzbl9iVkJVdGZKcF9jeE9SbktsR0JzNHpCem5DemhpQllTeldud3dxWWRpNG5yU3M1bUV0LVJjZjR0dXc1eGkwc09hSmRRX3gzVk4tRFIwUnlRNEliT0pTa3RfaGduZVE?oc=5",
-      "source": "www.gov.br",
-      "published_at": "Tue, 18 Aug 2026 17:27:00 GMT",
-      "category": "IA",
-      "signal": "flat"
+      "signal": "up"
     },
     {
       "title": "O alerta do chairman da OpenAI sobre as empresas que caem na tentação do \"turismo de IA\"",
@@ -49,11 +31,29 @@
       "signal": "flat"
     },
     {
-      "title": "IA cria novos empregos em mais da metade das empresas britânicas, diz estudo",
-      "summary": "IA cria novos empregos em mais da metade das empresas britânicas, diz estudo",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORU9Xa2V1ZU1LcG9UVUNmZWJuUzFEYU5LRURNZk5ZR3VOeFZ3YnFyQlhNLXpNQjRBSTM4bmgwcVFlN0JZTEJpRElEUzVKWlpXeExMQUFTOFQwVnVuWDBiS01EZW03VnVlZjFweXo2WDhGdHkzb1RVZV9aaVFCMFJkRXV3aE9RTlg2ZVU0LU12V3BReDFHVGtFT3hSNG5adTA4WG1mNHlVSkhuOG5KNkg1UW9Na2VCTk9YRTMya0JhMTktNlhYd29nZTZxZw?oc=5",
-      "source": "UOL",
-      "published_at": "Tue, 18 Aug 2026 14:23:50 GMT",
+      "title": "Universal Music apoia licenciamento de patentes por empresas de Inteligência Artificial",
+      "summary": "Universal Music apoia licenciamento de patentes por empresas de Inteligência Artificial",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQU3BrUHZES3l6WTBzTUJkVTNvd2c0VE1PMHdjN1VzTnBkYTZ0WVlPTXlqZE1FblBGYmtQRGRwb3d3bXFaNkVTa2w2WWxvdExqd1dyalotWFdCR2J2SHR0SWo2WUl6eVJCbHRhV0JFM1BjcjhMRkFIUTIzRkNWYnI3TWVaZ1hkam5HUWpZYnB2elVVeTVIV1Y1NHkzaUd4SFlsWW5MaVlyZ2U3YVJodVU3ckZITmY5UEp4S1NweEo4VUhBMGZVT0Z3VXpodUtPaV9QM2VVRHk4NExGc042OEtVclVRTTlBNFE2bWdmNEZMSGk1bG96WFowNWFLTlZ2YnZCaEV6bw?oc=5",
+      "source": "Terra",
+      "published_at": "Thu, 20 Aug 2026 17:46:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Dona do ChatGPT faz parcerias com empresas para crescer no País; veja quais",
+      "summary": "Dona do ChatGPT faz parcerias com empresas para crescer no País; veja quais",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNV0dSM3NlTF9mYnpiRlF1bUNfWFNtYjdaYUJQdjQ0NVpsU1c1d2J4WDdQSjJMaHhrblZ6MzFoOERENnRjekJMSURJaEgxYV9YUkcxUUpnaHlQdk9KTHpTUFZsa1ZTbDZseDJ6ejFFUC12RFBURDNuT1U2VTB6QVZwUzVhTE5ESU9LMTRXR3BtcmNxN1FTb0pVRjF0bjRDX1ZIZ0R3a2ZzQXh0UnEyZ0RpN05jQUxOTm9Db1N0WdIBwgFBVV95cUxOVmxvbU5qUlRva3VjOTdXYndvMlNHTnpqTkFNYU9JMlVkUkVhcTc2YU1kclg1NjNSLWc5Zkw4LXFIa3MwdXoyeGkydkppeUQ5WklhU2xJVm55T3pVNEhGcXB6R0dNUHJ3UVhUODJONDVvLUJJREVEajJ1ZUZ0UnBoRlJMbkhxbFg5blZ3dnZZRzJ3YkpBRlVMRXVoWFl6V0NlUHUxVnlwZEIxNTlWTHphYzRHcUZSQVRSQVdCRTZvaEVYQQ?oc=5",
+      "source": "Estadão",
+      "published_at": "Tue, 18 Aug 2026 08:00:00 GMT",
+      "category": "IA",
+      "signal": "up"
+    },
+    {
+      "title": "Dobra o uso de Inteligência Artificial nas empresas brasileiras, diz HRTech",
+      "summary": "Dobra o uso de Inteligência Artificial nas empresas brasileiras, diz HRTech",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUFlwQnZwMnFRZll3U1hSWUJpY3V4UlJBd1lVM1ZKZVRuUzcxWUY1eEtBRUlheVV6aHR2NlhiRkRXdXBra2U4cWxMOGJDRXFacEpVYW5nOU5sajJHZEVTYWpLMDFUQWh5VERRMDNDYzloYlBQWGRpVHpCMGstZUp0cEsyTDVnWVlMTGJ2b0dSakVnMXVMcVlpWDh5ejQ3TzRGME1fT1RMbXR0NnNFV3Jr?oc=5",
+      "source": "TI INSIDE Online",
+      "published_at": "Tue, 18 Aug 2026 22:31:12 GMT",
       "category": "IA",
       "signal": "flat"
     }
