@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-08-20T20:20:17.853693+00:00",
+  "generated_at": "2026-08-21T08:23:30.776540+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
+    {
+      "title": "Inteligência artificial: uso por até 75% dos profissionais preocupa empresas com segurança | SEGS Portal...",
+      "summary": "Inteligência artificial: uso por até 75% dos profissionais preocupa empresas com segurança | SEGS Portal...",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNT3VqQjhuQ1U0NmN4N0FKWEVzaXc5Zmg2ODNScFF4eUNDUXJOVlg0RmpveGFmT0M5N3NqTzY1enVhOEtaazdoSUo3R2ZNeEh2U1dNYzlJTnpvUzN3LWdENllhNjVVSFd5UnA0ZzdjNWtleGlxX2haeHNEQVVJWklSU1dXNHdqcUdnRWE5bGlBdkZURGRMdEMtQ0dlU3lhX0NtV0NfY21RcHdBU2htLWhYdHNYZXp6U2VJbnFSSEE1Y3kxZXo5b0N2OGN6Z9IBywFBVV95cUxNT3VqQjhuQ1U0NmN4N0FKWEVzaXc5Zmg2ODNScFF4eUNDUXJOVlg0RmpveGFmT0M5N3NqTzY1enVhOEtaazdoSUo3R2ZNeEh2U1dNYzlJTnpvUzN3LWdENllhNjVVSFd5UnA0ZzdjNWtleGlxX2haeHNEQVVJWklSU1dXNHdqcUdnRWE5bGlBdkZURGRMdEMtQ0dlU3lhX0NtV0NfY21RcHdBU2htLWhYdHNYZXp6U2VJbnFSSEE1Y3kxZXo5b0N2OGN6Zw?oc=5",
+      "source": "SEGS Portal Nacional",
+      "published_at": "Thu, 20 Aug 2026 21:07:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
     {
       "title": "Inteligência artificial: líderes do setor dizem que IA significa menos horas de trabalho — mas seus funcionários afirmam trabalhar até 90 horas semanais",
       "summary": "Inteligência artificial: líderes do setor dizem que IA significa menos horas de trabalho — mas seus funcionários afirmam trabalhar até 90 horas semanais",
@@ -31,11 +40,11 @@
       "signal": "flat"
     },
     {
-      "title": "Universal Music apoia licenciamento de patentes por empresas de Inteligência Artificial",
-      "summary": "Universal Music apoia licenciamento de patentes por empresas de Inteligência Artificial",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQU3BrUHZES3l6WTBzTUJkVTNvd2c0VE1PMHdjN1VzTnBkYTZ0WVlPTXlqZE1FblBGYmtQRGRwb3d3bXFaNkVTa2w2WWxvdExqd1dyalotWFdCR2J2SHR0SWo2WUl6eVJCbHRhV0JFM1BjcjhMRkFIUTIzRkNWYnI3TWVaZ1hkam5HUWpZYnB2elVVeTVIV1Y1NHkzaUd4SFlsWW5MaVlyZ2U3YVJodVU3ckZITmY5UEp4S1NweEo4VUhBMGZVT0Z3VXpodUtPaV9QM2VVRHk4NExGc042OEtVclVRTTlBNFE2bWdmNEZMSGk1bG96WFowNWFLTlZ2YnZCaEV6bw?oc=5",
-      "source": "Terra",
-      "published_at": "Thu, 20 Aug 2026 17:46:00 GMT",
+      "title": "Red Teaming IA; por que empresas de tecnologia pagam para atacar a própria inteligência artificial",
+      "summary": "Red Teaming IA; por que empresas de tecnologia pagam para atacar a própria inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMl9UUVZSMmdzUFpOaTNlSzlHR24zVDkzYk52T3FmM0ozVE5OaVpPQy1FWnF1SjB2LVhJRVIyajBMNTlpcGdKZzZ5bGUxVHJ4cHE5VVYxbDluVDFJVHlXNmZVRXZPMUozRDFxNjliSWZqUk5TbFFNbDhBajlucEM1RVp2cjlUdlBuTnhNQzNOVkNmZG1aWk91ZkQ0UDItb3k4SzUzd2Q3Q0p0b0NCWlZLRjFHeW52ZlZoRTBkYkp5LS1SdnRxTXRYdTFDeEhFUWZxd1lnQk43MA?oc=5",
+      "source": "Exame",
+      "published_at": "Wed, 19 Aug 2026 14:09:36 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -47,15 +56,6 @@
       "published_at": "Tue, 18 Aug 2026 08:00:00 GMT",
       "category": "IA",
       "signal": "up"
-    },
-    {
-      "title": "Dobra o uso de Inteligência Artificial nas empresas brasileiras, diz HRTech",
-      "summary": "Dobra o uso de Inteligência Artificial nas empresas brasileiras, diz HRTech",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUFlwQnZwMnFRZll3U1hSWUJpY3V4UlJBd1lVM1ZKZVRuUzcxWUY1eEtBRUlheVV6aHR2NlhiRkRXdXBra2U4cWxMOGJDRXFacEpVYW5nOU5sajJHZEVTYWpLMDFUQWh5VERRMDNDYzloYlBQWGRpVHpCMGstZUp0cEsyTDVnWVlMTGJ2b0dSakVnMXVMcVlpWDh5ejQ3TzRGME1fT1RMbXR0NnNFV3Jr?oc=5",
-      "source": "TI INSIDE Online",
-      "published_at": "Tue, 18 Aug 2026 22:31:12 GMT",
-      "category": "IA",
-      "signal": "flat"
     }
   ],
   "category": "IA"

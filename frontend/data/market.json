@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T20:20:14.641256+00:00",
+  "generated_at": "2026-08-21T08:23:27.441718+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -17,25 +17,25 @@
     },
     {
       "symbol": "IBOVESPA",
-      "value": "167.889 pts",
+      "value": "167.927 pts",
       "change": "estavel",
       "direction": "flat"
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 72.621",
-      "change": "+5,92%",
+      "value": "US$ 77.139",
+      "change": "+8,43%",
       "direction": "up"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 2.318",
-      "change": "+9,86%",
+      "value": "US$ 2.389",
+      "change": "+5,07%",
       "direction": "up"
     },
     {
       "symbol": "OURO",
-      "value": "US$ 4.580",
+      "value": "US$ 4.624",
       "change": "estavel",
       "direction": "flat"
     },
@@ -47,7 +47,7 @@
     },
     {
       "symbol": "CDI",
-      "value": "Atualizando",
+      "value": "13,9% a.a.",
       "change": "estavel",
       "direction": "flat"
     }
@@ -79,7 +79,7 @@
       "id": "ibov",
       "name": "Ibovespa",
       "icon": "📊",
-      "quote": "167.889 pts",
+      "quote": "167.927 pts",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -90,8 +90,8 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 72.621",
-      "change": "+5,92%",
+      "quote": "US$ 77.139",
+      "change": "+8,43%",
       "direction": "up",
       "recommendation": "Aguardar",
       "recommendation_class": "rec-watch",
@@ -101,8 +101,8 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 2.318",
-      "change": "+9,86%",
+      "quote": "US$ 2.389",
+      "change": "+5,07%",
       "direction": "up",
       "recommendation": "Aguardar",
       "recommendation_class": "rec-watch",
@@ -112,7 +112,7 @@
       "id": "gold",
       "name": "Ouro",
       "icon": "🥇",
-      "quote": "US$ 4.580",
+      "quote": "US$ 4.624",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -134,7 +134,7 @@
       "id": "cdi",
       "name": "CDI",
       "icon": "🏛️",
-      "quote": "Atualizando",
+      "quote": "13,9% a.a.",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -152,16 +152,12 @@
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOelBIYW9wVjZ0WjFiVkNSRk8zREVhOF95QUZuRVJENGNJLTh3elhOWFVWZnhrb1FJT2ZPVDVaalJ4aHFDTlRCaEg4Q0EyeEVfLWVMUGZCNTR0RElONVVyRFB6UFFxa0NUQXBBTkM3MjZBQ3FFR1NtSFlfUlNDQUR2RnJ4bW1XTm1fRGFZNF9VbnN4S05aT2c3MjhLTmJRT3pOOGJ6anA1eGNZaTVIRlh2Sko4YnBKUnRqTzlCUGljWXA?oc=5"
     },
     {
-      "title": "Dólar fecha o dia em baixa e Bolsa recua em dia de decisão do Copom sobre taxa de juros",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOOENNdWdpV3FSOGduS3pncUhNRzVaWWRfTElLUmFmR0xSOVNKR05Kb1otQmtOT0xVVEJIajNpbHBLMlVGcERLRXFVV2NYbG8zSEF6Nmk3dnRxRWU4WHFyY3FnZzlIdmZlbkFTZW9wNjNvejVBVmptcmM1SEdoS3FvV196MkZfdEVHNWRic21xbi1DQXlONUVVbHZPWDBMRFA1dGFHWlRwNjFwalI3X3V3VkplMG1IYXY1X2I4WUhBRWJfeG84aEV1RVZKZmlGbHNv0gHWAUFVX3lxTFBHWUxtVkl2Q2FRc0VzT3RqZGw0bDdUYmNwU1hXalZVd1d6RDJGMVhTanROQTVpUDZEeVBkV205VzVrak9zRUFVeFZfdkxsSEVQQVVaM1A4LXY4MzFaczBLZHBWVXYzTkJDS2NNaXRDOWswdWJ3OHNvRDc2TGNjY0FLOVIzYkIwWGpoT0ROUnhyMXVFOU5wQlNnajVlNlY2M3NiS2V2aXhJdGlnemRHSTVvQ1BkUzFmeHpiSzI1WjByNTB3V0RocWNZN3FYTGZpVXEwejVkZEE?oc=5"
+      "title": "Ibovespa termina dia estável, mesmo com perdas de Vale e Petrobras",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNV0xLT0djb1VtQXJSMHFaR3Vwc1BONGo0OGlOdl9pUGZ2ZmNXamgwYndFaHdkQ1haQi1QZmZnLVVsangxWWFZY25IVVBaeHVmYUZwcUVIeFJwV2F5SV9sdzhpcmhpSFZuOWRmel9ublBNeXpLLXRlOTJSdGU0YjJJZnJWTEtRZU5TbnBYNFdYQQ?oc=5"
     },
     {
-      "title": "Dólar sobe a R$ 5,20 e Bolsa cai, com juros incertos e petróleo em baixa",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdGx5MHp4aUdwYXdVcVBuNmc5ZVJRWDNBam55WE1UU3Y2THE0MjdZbnRHX1NZWG0tV3FQX29XRUVUMmtQR3ZFVGg3bnRZdFh1MkNtWlpFLTh2dGhzU1dtVHZJR3JJY0xsRzVLM0xRVUoyUWRwSVcwLTZ6eVY3c2g3aW4ySS0xeDcwZWZ1dnlrb1RHSU5jRVlRZG9pM20yUQ?oc=5"
-    },
-    {
-      "title": "Ibovespa recua junto com o exterior e dólar volta a subir, a R$ 5,08",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa3N0VWJ4dWZHc3FjcHZZT0owTXNWQURlSmFaRUxNX3pqSHNPLW9idng0anh1bnVvb19LTHQwMjJfM09wWTVVWjRhV00zTEY5NU45WGhzSGRabGYtRVo1bGl5SUZSS2Z2ekN5RFlJekxRNkpnRmRaTHBuQzRGNFFjSE5QRkpnYmRmOXUzVktYQQ?oc=5"
+      "title": "Dólar reverte perdas e sobe para R$ 5,11 com apostas de alta de juros nos EUA; Bolsa cai",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZGUtdVEzVTg2cDYyOGkxaGt0LXlydzltT3Npd25KTXpmbHg0Znd3OVBqVkR0THRUM01HdVctRE15M0tTcHFUMUVOcl9HUzBOSmczVHJ6YnRmWHFFcndzbkZIc1MyQng5bWowdU45cGQ2Q1ZYWV8zNGY3amNtYVNUeDlYM3kwcWtfQWxqbWxwN25mcmJTUXd3TVpNamdMN084eVhyY2s1TVNxSGw5b3N4LWI4WEQ5OElBLWFDbHVRamthYVVsdzRBclIxMC1uLTRs?oc=5"
     },
     {
       "title": "O que esperar da Bolsa e do dólar em julho após guerra e juros ditarem o ritmo dos mercados",
@@ -174,14 +170,16 @@
     {
       "title": "Bolsa, dólar e juros: o que esperar após EUA classificarem PCC e CV como terroristas",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZER3WDlEYkpJQVZrZWFiSGFrb1NYRzdSTkM0Rzkwc2pmTURnUUUzLWRBTTZjRW1vV3hTZW5CS2ctcnYxWEQwMDd6VXVid0syNWtEeTNLRC1jVDhSdTZTVTBxSlh0dnB3a0NuV3lVc3d3Q2M4cV9XOUdGQmx2RHVtbm9qb0xJTzUxd21lako1OGtXMFpDU1h3U0FyZFBGMXJIOWREMFR3OEpick01aVZkTUFGU2lObW80NnhFRmM1empfZ0hsb1dsbkJHc19KT3VOSDBCcDhKaElzMVZpeGd1UklzYVlaXzQ0VXFMbDJMNUFJcl95ZkpOeU5FWUVNRGRqMVU4WFpNS1FHSlXSAZoCQVVfeXFMUHVtMFU3QXFIZ25Hc2t4VTgwakJVLVU2XzE4U3E3LWcwZ3hqOGFMaUxzOV9MdWxUQTQ5RWZ6bkhtYUZsai1hNms5MHU5amFfSWRubHIxREZjaDdWOF9iVjNtNHpGQnVDemJ0Y2xFTlB1OXJVWnpCV2NlWWJBS3pyQk9ZV2lPaElRaGZ1VEgxN2JfUXhNVUxvekVpeGZ6Z1A5SEttdHhrWjJwdGtaMnpKa1o1MXBBM3ZIaTJ6QUEwQkM2OWdJSkZRMUZHdlVVVy1vY09ncWdiazA4VVRGVmRRNVN4d3FWd0xUV0hRX3ptN3pOeHJNUDRIZURPcU5xRmRJejdsb09hVTh0N21PMzY0NnkxY0dheUkybHF3?oc=5"
+    },
+    {
+      "title": "Dólar fecha o dia em baixa e Bolsa recua em dia de decisão do Copom sobre taxa de juros",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOOENNdWdpV3FSOGduS3pncUhNRzVaWWRfTElLUmFmR0xSOVNKR05Kb1otQmtOT0xVVEJIajNpbHBLMlVGcERLRXFVV2NYbG8zSEF6Nmk3dnRxRWU4WHFyY3FnZzlIdmZlbkFTZW9wNjNvejVBVmptcmM1SEdoS3FvV196MkZfdEVHNWRic21xbi1DQXlONUVVbHZPWDBMRFA1dGFHWlRwNjFwalI3X3V3VkplMG1IYXY1X2I4WUhBRWJfeG84aEV1RVZKZmlGbHNv0gHWAUFVX3lxTFBHWUxtVkl2Q2FRc0VzT3RqZGw0bDdUYmNwU1hXalZVd1d6RDJGMVhTanROQTVpUDZEeVBkV205VzVrak9zRUFVeFZfdkxsSEVQQVVaM1A4LXY4MzFaczBLZHBWVXYzTkJDS2NNaXRDOWswdWJ3OHNvRDc2TGNjY0FLOVIzYkIwWGpoT0ROUnhyMXVFOU5wQlNnajVlNlY2M3NiS2V2aXhJdGlnemRHSTVvQ1BkUzFmeHpiSzI1WjByNTB3V0RocWNZN3FYTGZpVXEwejVkZEE?oc=5"
     }
   ],
   "market_mood": {
     "label": "Neutro",
     "summary": "O mercado mostra sinais mistos; diversificacao e compras parceladas reduzem o risco de timing.",
-    "score": -1
+    "score": 0
   },
-  "errors": [
-    "cdi: HTTP Error 502: Bad Gateway"
-  ]
+  "errors": []
 }
