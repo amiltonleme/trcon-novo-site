@@ -1,59 +1,65 @@
 {
-  "generated_at": "2026-08-21T08:23:29.434482+00:00",
+  "generated_at": "2026-08-21T20:17:40.838214+00:00",
   "source_note": "Curadoria automatica de educacao financeira a partir de feeds RSS publicos, com complemento do catalogo estatico TRCon quando necessario.",
-  "errors": [],
+  "errors": [
+    "Google News (Educacao Financeira): falha ao ler feed (HTTPError)",
+    "Google News (Educacao Financeira): falha ao ler feed (HTTPError)",
+    "Google News (Educacao Financeira): falha ao ler feed (HTTPError)",
+    "Google News (Educacao Financeira): falha ao ler feed (HTTPError)",
+    "Complementado com 4 dica(s) do catalogo estatico (RSS retornou 0 item(ns) relevante(s))."
+  ],
   "items": [
     {
-      "tag": "Mercado",
-      "tag_class": "tag-blue",
-      "title": "Selic cai para 14,75% ao ano e começa a redesenhar crédito, dívidas e investimentos no Brasil",
-      "body": "Selic cai para 14,75% ao ano e começa a redesenhar crédito, dívidas e investimentos no Brasil Jornal Grande Bahia",
+      "tag": "PIX",
+      "tag_class": "tag-orange",
+      "title": "Confira nome e CPF antes de confirmar qualquer PIX",
+      "body": "Golpistas exploram urgencia e links falsos. Transfira apenas depois de validar o destinatario no app do banco e evite usar QR Code de origem desconhecida.",
       "meta": [
-        "Leitura rapida",
-        "Fonte: Jornal Grande Bahia"
+        "2 min",
+        "Seguranca digital"
       ],
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYlQ2dS1xQTdKek1XSDVxZW14eXJkbzJ1bkx5Q1dYRGNjdGNSYVpaVWc1V2FseFpuQTdUZmMxaDV5YXR5OExuejBTeFVvRmNpcm9RNGdUY2VQczhFUFRpRWJGLUlMR2ZKRjdXYnF0b2lteG9IYkdrNGM0em9KRGJZVmpPX3NabFpGNmxlMGhlLVZNYVcwZmRTZ0VEdkhjZ2I3dGJsa3ZrV2FJOE9XTEVBb1NyRTFZRnBfS1hKamM4dmc2dDRGYjZOV253eHk?oc=5",
-      "link_label": "Ler mais",
+      "url": "https://www.google.com/search?q=seguranca+PIX+golpes+como+evitar",
+      "link_label": "Ver cuidados",
       "featured": true
     },
     {
-      "tag": "Estrategia Mensal",
-      "tag_class": "tag-green",
-      "title": "Tesouro Reserva: como funciona e quanto rende a nova “poupança 24 horas” do governo",
-      "body": "Tesouro Reserva: como funciona e quanto rende a nova “poupança 24 horas” do governo InfoMoney",
+      "tag": "Mercado",
+      "tag_class": "tag-blue",
+      "title": "Diversifique antes de buscar o ativo da moda",
+      "body": "Concentrar tudo em um unico investimento ou setor aumenta o risco. Mesmo com pouco capital, distribuir entre reserva, renda fixa e variavel reduz surpresas.",
       "meta": [
-        "Leitura rapida",
-        "Fonte: InfoMoney"
+        "5 min",
+        "Risco"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdlBkM3hSODJ6dnBRdW5wdUZ5dE5jWUpISjBPVGZSdDVBVzAwYlFmTk1PQ3dYREUzVk9tWGJTWHQxeEVNaHlZUGY4azNSNVF6Nm1lNVdGT1Q3aXV1dEhYRXVnWWxTbjBXcFhacGp6eG5ReEVVeHoyZnVZTDl5d29iSFR2LVhRNUZ2MjlKa29RNUhod1UycVlzZUFOcl9xX2NDQWFGWTZMTlBKa3BOc243Nmh0OHA4OFd0UWFOYWJCNVV1QdIBxwFBVV95cUxQRzQ3R2lkOHZxRm9HbHgtMjdMUGdQZzNXanpiemdBMDBnMGdmUTBudnZwbjI4S3N4TjZHMkMzMTdhbmExYWZLMVNvZGJfWHc2bFNqeVBzdjd0dzJPbXRkc2g1amk0RzVhcm9COFFCYVBJdENWSWh1LWJfU3R2aVNiN2dCWW1iV2luNWZMTWFncTZYZkh5QVltbHJ0aHZ5aUpRS3VyY2xoWEllWVVNd1RYZXF2YjdWYm9KUTY2TTk3NnNFOE1CVHRN?oc=5",
-      "link_label": "Ler mais"
+      "url": "https://www.google.com/search?q=diversificacao+de+investimentos+iniciante",
+      "link_label": "Entender diversificacao"
     },
     {
-      "tag": "Estrategia Mensal",
+      "tag": "Familia",
       "tag_class": "tag-green",
-      "title": "Poupança ainda lidera investimentos no Brasil enquanto maioria segue sem reserva financeira",
-      "body": "Poupança ainda lidera investimentos no Brasil enquanto maioria segue sem reserva financeira A Revista",
+      "title": "Converse sobre dinheiro em casa com clareza e frequencia",
+      "body": "Alinhar prioridades entre quem divide contas evita gastos invisiveis. Uma conversa mensal de 20 minutos sobre metas e contas fixas ja melhora muito o controle.",
       "meta": [
-        "Leitura rapida",
-        "Fonte: A Revista"
+        "4 min",
+        "Comunicacao"
       ],
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUkxDU29hRWprVG9sNmp0MlpqdVp3Vk0tcjNac2gwS2dFMTA3Sm9XNVpOa1IwZ1BQaTRaTlIzblZaQmJyWl93dklncmg4Z0tUZUtjNk5fSXc5SnZRU1hScWlzZmtUbTNmVWhmbGk0OHJPWHZ1aEJoVWxSNnBNeE4xam1UdGRRLUdzOHVLalJzdndqM0dXNHZMejRENVFIcGpNaWRMLTZvUXVUazRHVFFmb0V6V01TZ1ZWcFRWV3hZRUdiVFVrSlpEd2RwWjRCV2xUZHc?oc=5",
-      "link_label": "Ler mais"
+      "url": "https://www.google.com/search?q=planejamento+financeiro+familiar+como+fazer",
+      "link_label": "Ver roteiro"
     },
     {
-      "tag": "Cartao",
-      "tag_class": "tag-orange",
-      "title": "Opinião | Endividamento alto e educação financeira",
-      "body": "Opinião | Endividamento alto e educação financeira Estadão",
+      "tag": "Trabalho",
+      "tag_class": "tag-gold",
+      "title": "Separe conta pessoal de receitas extras e freelas",
+      "body": "Quando o dinheiro extra cai na mesma conta do salario, some no consumo. Transferir parte imediatamente para reserva ou investimento protege o progresso.",
       "meta": [
-        "Leitura rapida",
-        "Fonte: Estadão"
+        "3 min",
+        "Organizacao"
       ],
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU2UxQWs1alltU1EzekszTC1BUXVJYkV2cjRJSVZWb29aWlJTU2ZXaUdSaHBhcnBucmJ3MmpPSUk3bzRyZW1jSy02eWtoQ2c5WVk3LWJMQXhrenZwVEROamQya2ZuZkhZU2xsQTdPSkVGS3g4azVqNVQydU1qazFwNVdYS2FEWHNYdEt6ZTVwZWlTOUREV1E?oc=5",
-      "link_label": "Ler mais"
+      "url": "https://www.google.com/search?q=como+organizar+renda+extra+freela",
+      "link_label": "Ver dica"
     }
   ],
-  "source_mode": "rss+catalogo",
-  "rss_items": 4,
+  "source_mode": "catalogo",
+  "rss_items": 0,
   "disclaimer": "Conteudo educacional. Nao constitui recomendacao individual de investimento."
 }

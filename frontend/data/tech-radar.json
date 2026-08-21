@@ -1,7 +1,9 @@
 {
   "generated_at": "2026-08-21T08:23:32.018884+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de tecnologia.",
-  "errors": [],
+  "errors": [
+    "Sem itens novos nesta execucao; mantido o ultimo artefato valido."
+  ],
   "items": [
     {
       "title": "Análise e Desenvolvimento de Software na Saúde: por que a Faculdade Santa Casa é o futuro",
