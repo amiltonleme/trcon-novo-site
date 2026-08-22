@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T08:14:22.939990+00:00",
+  "generated_at": "2026-08-22T20:14:21.363573+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -23,14 +23,14 @@
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 77.359",
-      "change": "+0,64%",
+      "value": "US$ 77.437",
+      "change": "+0,25%",
       "direction": "up"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 2.439",
-      "change": "+2,22%",
+      "value": "US$ 2.442",
+      "change": "+0,65%",
       "direction": "up"
     },
     {
@@ -90,8 +90,8 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 77.359",
-      "change": "+0,64%",
+      "quote": "US$ 77.437",
+      "change": "+0,25%",
       "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -101,8 +101,8 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 2.439",
-      "change": "+2,22%",
+      "quote": "US$ 2.442",
+      "change": "+0,65%",
       "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -148,8 +148,12 @@
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcF9XUHB2akcwMjV6bG45YWhtbmRycnE3dFpHUDdYSG9ETGhHWC00a01IR3RCcmV6Q3NxRkV5SGE5dThXNTF3ODlidGVFVVRadmdKUDhOQzlFbW5KaFo2c0tuRkRwdEdfOExBOG5Zay1UUElWWjNzdlNEZmpzbklmeE92Z2g4ay1GazNnSjZMNWpQRlp6aGpXN3BLTXpCUldkYXlFVWU0WHJ6WFZtdlpGaldsMWp3cjBu0gG-AUFVX3lxTE1RVzJ6SjltaEtQdlVnOEJnSGlLNXZ5UEJmazlicElTN0lUQ3JGckhWWEVKQnpvb0JtS1RVa3RWYTQ2d05hdTBCdjJSUThNTXlLZDE1dHZNb0lsSXB3OURPNDhTeExEaGJ0bHVjRFhpWlp0WGpYWW1rTTR4ZFBCWEtPYW9mTU5ha0oyYVlCN2RfQXRUMDl1WnlMX24xcWhQaFBqRTBBNU0xQVZ0NENNczl6VjNyaktpem9ZcWI4Rnc?oc=5"
     },
     {
-      "title": "Ibovespa termina dia estável, mesmo com perdas de Vale e Petrobras",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNV0xLT0djb1VtQXJSMHFaR3Vwc1BONGo0OGlOdl9pUGZ2ZmNXamgwYndFaHdkQ1haQi1QZmZnLVVsangxWWFZY25IVVBaeHVmYUZwcUVIeFJwV2F5SV9sdzhpcmhpSFZuOWRmel9ublBNeXpLLXRlOTJSdGU0YjJJZnJWTEtRZU5TbnBYNFdYQQ?oc=5"
+      "title": "Ibovespa fecha com leve baixa, com Petrobras e Itaú; Vale sobe",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMWU4Q1RTMEVnZzFWaV8tWHlmcU9lSkxDUTdSYVk1YVlESGlYV0ZBUmIzMFc0Q184V2ROT09YOGhKV3poSzJNUV8yUXNzYUZCTzNVV2czZkhKY0N4TktyMEYyNFRHdW5UTTk2bjBVQXlJUllMRW0tRC00T0NXU2RYRHpmU1o4RUpiMUo2RWdrdw?oc=5"
+    },
+    {
+      "title": "Dólar sobe a R$ 5,18 e Bolsa cai com mercado atento a juros e cenário fiscal",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSUlzQVphcTV2TjdRZFVCeG16U0haaVQ4ZzdneEJjZnlvTGdOTklPaFlYaW1oSWF2SjU0eFprTGlHR25qUEd3VXpBZkdfV0RBMWpYQTdOR0ttbEhoWjhoOGcwM0gzMFpwd2l2bnRiX3lJVjdhZDg2TWVYdmlnNzBRZ1ZZbzJIcjRZNEQxeFRtZ21od2l1ZlROSnNoTW9adG4xNUdkbGhn?oc=5"
     },
     {
       "title": "Dólar sobe a R$ 5,20 e Bolsa cai, com juros incertos e petróleo em baixa",
@@ -164,22 +168,18 @@
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUkdKLTYwWWpiMkFBek5QT1hUdnVNQzdkaDhOQmR1d3Z2T2djM3J1U0xpeWpvMjNCWUkzT09LRU1PdjNsaC02eFBjRFlZOEZRbTFlTldGZnJBQW5OOFZYSHdwc05TMXZkTGZDa2t5eHVjbEJzVm1nOUlCWWpXMkVvOHFwYkZTVV9nRGV0NGNiSnpWMF9ObFVicnBJYzVpOFFWRVE?oc=5"
     },
     {
+      "title": "Ibovespa termina dia estável, mesmo com perdas de Vale e Petrobras",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNV0xLT0djb1VtQXJSMHFaR3Vwc1BONGo0OGlOdl9pUGZ2ZmNXamgwYndFaHdkQ1haQi1QZmZnLVVsangxWWFZY25IVVBaeHVmYUZwcUVIeFJwV2F5SV9sdzhpcmhpSFZuOWRmel9ublBNeXpLLXRlOTJSdGU0YjJJZnJWTEtRZU5TbnBYNFdYQQ?oc=5"
+    },
+    {
       "title": "Bolsa, dólar e juros: o que esperar após EUA classificarem PCC e CV como terroristas",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZER3WDlEYkpJQVZrZWFiSGFrb1NYRzdSTkM0Rzkwc2pmTURnUUUzLWRBTTZjRW1vV3hTZW5CS2ctcnYxWEQwMDd6VXVid0syNWtEeTNLRC1jVDhSdTZTVTBxSlh0dnB3a0NuV3lVc3d3Q2M4cV9XOUdGQmx2RHVtbm9qb0xJTzUxd21lako1OGtXMFpDU1h3U0FyZFBGMXJIOWREMFR3OEpick01aVZkTUFGU2lObW80NnhFRmM1empfZ0hsb1dsbkJHc19KT3VOSDBCcDhKaElzMVZpeGd1UklzYVlaXzQ0VXFMbDJMNUFJcl95ZkpOeU5FWUVNRGRqMVU4WFpNS1FHSlXSAZoCQVVfeXFMUHVtMFU3QXFIZ25Hc2t4VTgwakJVLVU2XzE4U3E3LWcwZ3hqOGFMaUxzOV9MdWxUQTQ5RWZ6bkhtYUZsai1hNms5MHU5amFfSWRubHIxREZjaDdWOF9iVjNtNHpGQnVDemJ0Y2xFTlB1OXJVWnpCV2NlWWJBS3pyQk9ZV2lPaElRaGZ1VEgxN2JfUXhNVUxvekVpeGZ6Z1A5SEttdHhrWjJwdGtaMnpKa1o1MXBBM3ZIaTJ6QUEwQkM2OWdJSkZRMUZHdlVVVy1vY09ncWdiazA4VVRGVmRRNVN4d3FWd0xUV0hRX3ptN3pOeHJNUDRIZURPcU5xRmRJejdsb09hVTh0N21PMzY0NnkxY0dheUkybHF3?oc=5"
-    },
-    {
-      "title": "Ibovespa cai mais de 1%, na esteira de NY, em dia de Fed; Dólar recua a R$ 5,10",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcGZqREVUZno5OVNld2hqRzlMdW1Wa0N0T2FsSHpPMVU4TVE3S3dwWXBSbnZySC13QzVCNWx2T3lsVXZQcm5FMmVMcy1YMnZwdEFPWkt6NUFPNkc2ckY0Rmk3TlBWWVBiRTNxQnNDVE1ITHE4THl6UThBS0ViUHQ4bjhXdEV6bDZXOXNlQndmSQ?oc=5"
-    },
-    {
-      "title": "Dólar reverte perdas e sobe para R$ 5,11 com apostas de alta de juros nos EUA; Bolsa cai",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZGUtdVEzVTg2cDYyOGkxaGt0LXlydzltT3Npd25KTXpmbHg0Znd3OVBqVkR0THRUM01HdVctRE15M0tTcHFUMUVOcl9HUzBOSmczVHJ6YnRmWHFFcndzbkZIc1MyQng5bWowdU45cGQ2Q1ZYWV8zNGY3amNtYVNUeDlYM3kwcWtfQWxqbWxwN25mcmJTUXd3TVpNamdMN084eVhyY2s1TVNxSGw5b3N4LWI4WEQ5OElBLWFDbHVRamthYVVsdzRBclIxMC1uLTRs?oc=5"
     }
   ],
   "market_mood": {
     "label": "Neutro",
     "summary": "O mercado mostra sinais mistos; diversificacao e compras parceladas reduzem o risco de timing.",
-    "score": 0
+    "score": -1
   },
   "errors": []
 }

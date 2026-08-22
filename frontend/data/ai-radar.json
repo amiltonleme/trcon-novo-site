@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T08:14:26.402741+00:00",
+  "generated_at": "2026-08-22T20:14:24.448835+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -13,20 +13,29 @@
       "signal": "flat"
     },
     {
-      "title": "RN vai abrigar supercomputador brasileiro de Inteligência Artificial",
-      "summary": "RN vai abrigar supercomputador brasileiro de Inteligência Artificial",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZFRCSElWZWpneDJfd3JGcUZtZmRvQ2tVN0cwVmtyYk9kVDdoVEs1NDlMMTZvdzhmeEhpSTVDRjNrcDZTZjQ3Y0p2aENVa2cwVjRhWjVNV21XamVlSnBvUlZVTjFkSGd1ZE1iX1F3Z2tOSUlfR1R6OFJMRDlwQmdYV01zcnhHQmxIdUV0b3FVb3pzMm5W?oc=5",
-      "source": "Agora RS",
-      "published_at": "Fri, 21 Aug 2026 14:41:12 GMT",
+      "title": "Maior fundo soberano do mundo alerta para risco de bolha da inteligência artificial nas ações",
+      "summary": "Maior fundo soberano do mundo alerta para risco de bolha da inteligência artificial nas ações",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWllBN3B2M2NVdlBaam9iV3p2dndsTGxYT1h4bmQ4cW80c2N0Z2dyclFUcnVBbEZhd0xqMV9jcGFxUVdkSFh4UENCWWwxSmFsbmpxVXZJcElxV2JvTzU5aVgyTlFFY0N5aUV2ZTlxekN6Yy1DZ1ZrUHRjMWpzNlliQ2x0MXBxbnMwZ28zYmZ2Nm14MzVrZlVFVlNfVlk4dkM4bUMxOEpPVjdhdDlrRVVjX2dHeUIzTVFySUdRbjc1MzNBVjBWTGFuY3FMOWNtcVpE?oc=5",
+      "source": "Jornal Grande Bahia",
+      "published_at": "Sat, 22 Aug 2026 11:00:35 GMT",
+      "category": "IA",
+      "signal": "down"
+    },
+    {
+      "title": "A inteligência artificial não saiu do controle; é bem pior do que isso",
+      "summary": "A inteligência artificial não saiu do controle; é bem pior do que isso",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORk94cTBuQ041Q3lTWEpXeG9LQTFjSlZYNVR4eV9EVUp2SWhKSEFSTlRzcVdMY0daMWYwakZMSzgzME5mZlFIWl9vS1ZzRnlFS0pmVTVlZTRhWmhmOFowZUJ2Q215bG5pVXkzQ3RYNU1ONm9sOGpET1lMNE1Hd1VQWkVHZXkzeTNQUzJaOEJHXzY2X1VhWkRXc0tHSzlzU09hV3A5dFpTYzBrYVNVNm04YU9aU25RdGNUaWVCMTJlSVVoNk1HX1HSAdQBQVVfeXFMTUUxenJyUzdqamR6dnlRYllodDFJbEtWMEQteTJmZ2pkcFNNVXNJS0xRX0J4X29aRFhQeHhleFl2RlE0aFhseHNLTVF1Q1ZURC1PbjJBZy1QTXBwYm12TXlvT1BGQnFZTlRpeXdTS3hjQXdjMjFSX2ZISEdLV1hSWDF3bG0zS0pzTUx6YkxTV3VhaWlFQk4xejJadUtKc3lZY1BuWHRhdkkzMThJZFFTbWMtd28zdTFTTnZtcW9yZWlELUtXdjVIUi04RFU3U2t4MmtGdDA?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Wed, 19 Aug 2026 08:02:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Universal Music apoia licenciamento de patentes por empresas de Inteligência Artificial",
-      "summary": "Universal Music apoia licenciamento de patentes por empresas de Inteligência Artificial",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQU3BrUHZES3l6WTBzTUJkVTNvd2c0VE1PMHdjN1VzTnBkYTZ0WVlPTXlqZE1FblBGYmtQRGRwb3d3bXFaNkVTa2w2WWxvdExqd1dyalotWFdCR2J2SHR0SWo2WUl6eVJCbHRhV0JFM1BjcjhMRkFIUTIzRkNWYnI3TWVaZ1hkam5HUWpZYnB2elVVeTVIV1Y1NHkzaUd4SFlsWW5MaVlyZ2U3YVJodVU3ckZITmY5UEp4S1NweEo4VUhBMGZVT0Z3VXpodUtPaV9QM2VVRHk4NExGc042OEtVclVRTTlBNFE2bWdmNEZMSGk1bG96WFowNWFLTlZ2YnZCaEV6bw?oc=5",
-      "source": "Terra",
-      "published_at": "Thu, 20 Aug 2026 17:46:00 GMT",
+      "title": "Nem toda tarefa precisa da IA mais potente; entenda como empresas estão mudando essa lógica",
+      "summary": "Nem toda tarefa precisa da IA mais potente; entenda como empresas estão mudando essa lógica",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZnJWdngtcmhwNUhGLWxqd096cHJWOUk1YmpTTGhGOThJekJaQ1RFT0l3b205NW9nY1hnbWNIR2NabjlENm1VLXo4a2tPZUYzak5EZzNHeW8xamluX3RDUTZVWGsxV1dmRjRUaWR2ZERESmlad2xGOTlwMWhmNnEwOXJlY1BTZGpIVFRoc3NselVLZndBSTVuX281U3l1ZFdKRjNJRFpaWkROQzhLNjZnZ0tEYzBuVlVoYU5GRnc3azREdEF3c3c4dnJ2NzBHZw?oc=5",
+      "source": "Exame",
+      "published_at": "Fri, 21 Aug 2026 19:28:18 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -40,20 +49,11 @@
       "signal": "up"
     },
     {
-      "title": "Nem toda tarefa precisa da IA mais potente; entenda como empresas estão mudando essa lógica",
-      "summary": "Nem toda tarefa precisa da IA mais potente; entenda como empresas estão mudando essa lógica",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZnJWdngtcmhwNUhGLWxqd096cHJWOUk1YmpTTGhGOThJekJaQ1RFT0l3b205NW9nY1hnbWNIR2NabjlENm1VLXo4a2tPZUYzak5EZzNHeW8xamluX3RDUTZVWGsxV1dmRjRUaWR2ZERESmlad2xGOTlwMWhmNnEwOXJlY1BTZGpIVFRoc3NselVLZndBSTVuX281U3l1ZFdKRjNJRFpaWkROQzhLNjZnZ0tEYzBuVlVoYU5GRnc3azREdEF3c3c4dnJ2NzBHZw?oc=5",
-      "source": "Exame",
-      "published_at": "Fri, 21 Aug 2026 19:28:18 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Após a IA generativa, empresas entram na era da autonomia operacional. O Brasil está preparado?",
-      "summary": "Após a IA generativa, empresas entram na era da autonomia operacional. O Brasil está preparado?",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQU0JkTzlfME01azY4RXY0cGZranBjOE4zR094Z0VUSnV0TGEydjc2c2pmVTk5bndhTzdwSTI3ME8tdWUtMVgyYW45MkRORFJfZmlxcHR5a3N0NjRUaWh2emRRb1JtblltQUFIX29XdkFSYkF5TnZsd2VfWUNGbFRiN3Q2LUN4d0MtbEVCMzN4SXFvUFZWaXJWMmlEY2tqSUpsT3dBdUd3WklkS015emM3bDJLTzUwbWdDSnc?oc=5",
-      "source": "niddedigital.com",
-      "published_at": "Fri, 21 Aug 2026 18:50:54 GMT",
+      "title": "Universal Music apoia licenciamento de patentes por empresas de Inteligência Artificial",
+      "summary": "Universal Music apoia licenciamento de patentes por empresas de Inteligência Artificial",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQU3BrUHZES3l6WTBzTUJkVTNvd2c0VE1PMHdjN1VzTnBkYTZ0WVlPTXlqZE1FblBGYmtQRGRwb3d3bXFaNkVTa2w2WWxvdExqd1dyalotWFdCR2J2SHR0SWo2WUl6eVJCbHRhV0JFM1BjcjhMRkFIUTIzRkNWYnI3TWVaZ1hkam5HUWpZYnB2elVVeTVIV1Y1NHkzaUd4SFlsWW5MaVlyZ2U3YVJodVU3ckZITmY5UEp4S1NweEo4VUhBMGZVT0Z3VXpodUtPaV9QM2VVRHk4NExGc042OEtVclVRTTlBNFE2bWdmNEZMSGk1bG96WFowNWFLTlZ2YnZCaEV6bw?oc=5",
+      "source": "Terra",
+      "published_at": "Thu, 20 Aug 2026 17:46:00 GMT",
       "category": "IA",
       "signal": "flat"
     }

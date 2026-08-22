@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T08:14:25.144932+00:00",
+  "generated_at": "2026-08-22T20:14:23.280041+00:00",
   "source_note": "Curadoria automatica de educacao financeira a partir de feeds RSS publicos, com complemento do catalogo estatico TRCon quando necessario.",
   "errors": [],
   "items": [
@@ -29,6 +29,18 @@
       "link_label": "Ler mais"
     },
     {
+      "tag": "Mercado",
+      "tag_class": "tag-blue",
+      "title": "Pé-de-Meia: onde vale mais a pena investir o benefício, Tesouro Selic ou poupança?",
+      "body": "Pé-de-Meia: onde vale mais a pena investir o benefício, Tesouro Selic ou poupança? Times Brasil | CNBC",
+      "meta": [
+        "Leitura rapida",
+        "Fonte: Times Brasil | CNBC"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNWU1M1lta2JYcTlFdXg5em01SGtIeEVQdHREbldmQWs4WG1pWmJLTE95TjBOcDF0RFZPNWhLX1FmQ3A0aDFLdjBHZC1GaUtVUVRuaUV4NTlXNS1HbXYtdF9qdWY0RXFfSjdlNlhzVTBjTUp0dlkwelBVaDNVenh2VHZXYTExRURETUJhTlJCYk1xLVM4RTVBMWtKMFBwUVNYYko5SWU2UnVfZmpiOHlhSHc2QnJpVlE?oc=5",
+      "link_label": "Ler mais"
+    },
+    {
       "tag": "Cartao",
       "tag_class": "tag-orange",
       "title": "Opinião | Endividamento alto e educação financeira",
@@ -38,18 +50,6 @@
         "Fonte: Estadão"
       ],
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU2UxQWs1alltU1EzekszTC1BUXVJYkV2cjRJSVZWb29aWlJTU2ZXaUdSaHBhcnBucmJ3MmpPSUk3bzRyZW1jSy02eWtoQ2c5WVk3LWJMQXhrenZwVEROamQya2ZuZkhZU2xsQTdPSkVGS3g4azVqNVQydU1qazFwNVdYS2FEWHNYdEt6ZTVwZWlTOUREV1E?oc=5",
-      "link_label": "Ler mais"
-    },
-    {
-      "tag": "Cartao",
-      "tag_class": "tag-orange",
-      "title": "Educação financeira: prevenção de dívidas começa na escola",
-      "body": "Educação financeira: prevenção de dívidas começa na escola Senado Federal",
-      "meta": [
-        "Leitura rapida",
-        "Fonte: Senado Federal"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTElENHZHVVlaNkFZSER2V2xySEdOVWNQeU1XeTRUSGpyRktfNDduUFJXSnl2bXlqcndqeGpqN2lhNXY2Yk5LeXRTVjJ2NDRESDhMMDRNOTh6ZmFCNWN5SWgta0h2VExPekRfeE0wQXVObXZ3Y3dhcldiZFBPRFZxcW1icmpYcEFhQmczQjVkR1VfS0NfZUlZWVg4RUc4YlR6d3Y0T1ZCTmIyalZlSkJJOFlLaGdJdw?oc=5",
       "link_label": "Ler mais"
     }
   ],
