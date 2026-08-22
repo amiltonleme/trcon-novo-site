@@ -1,19 +1,8 @@
 {
-  "generated_at": "2026-08-21T20:18:09.934006+00:00",
+  "generated_at": "2026-08-22T08:14:27.601230+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
-  "errors": [
-    "Sem itens novos nesta execucao; mantido o ultimo artefato valido.",
-    "Sem itens novos nesta execucao; mantido o ultimo artefato valido."
-  ],
+  "errors": [],
   "items": [
-    {
-      "source": "SEGS Portal Nacional",
-      "category": "IA",
-      "title": "Inteligência artificial: uso por até 75% dos profissionais preocupa empresas com segurança | SEGS Portal...",
-      "summary": "Inteligência artificial: uso por até 75% dos profissionais preocupa empresas com segurança | SEGS Portal...",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNT3VqQjhuQ1U0NmN4N0FKWEVzaXc5Zmg2ODNScFF4eUNDUXJOVlg0RmpveGFmT0M5N3NqTzY1enVhOEtaazdoSUo3R2ZNeEh2U1dNYzlJTnpvUzN3LWdENllhNjVVSFd5UnA0ZzdjNWtleGlxX2haeHNEQVVJWklSU1dXNHdqcUdnRWE5bGlBdkZURGRMdEMtQ0dlU3lhX0NtV0NfY21RcHdBU2htLWhYdHNYZXp6U2VJbnFSSEE1Y3kxZXo5b0N2OGN6Z9IBywFBVV95cUxNT3VqQjhuQ1U0NmN4N0FKWEVzaXc5Zmg2ODNScFF4eUNDUXJOVlg0RmpveGFmT0M5N3NqTzY1enVhOEtaazdoSUo3R2ZNeEh2U1dNYzlJTnpvUzN3LWdENllhNjVVSFd5UnA0ZzdjNWtleGlxX2haeHNEQVVJWklSU1dXNHdqcUdnRWE5bGlBdkZURGRMdEMtQ0dlU3lhX0NtV0NfY21RcHdBU2htLWhYdHNYZXp6U2VJbnFSSEE1Y3kxZXo5b0N2OGN6Zw?oc=5",
-      "publishedAt": "Thu, 20 Aug 2026 21:07:00 GMT"
-    },
     {
       "source": "BBC",
       "category": "IA",
@@ -23,36 +12,44 @@
       "publishedAt": "Tue, 18 Aug 2026 10:32:55 GMT"
     },
     {
-      "source": "Valor Econômico",
+      "source": "Agora RS",
       "category": "IA",
-      "title": "Dona do ChatGPT desacelera modelos de IA",
-      "summary": "Dona do ChatGPT desacelera modelos de IA",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZVFXdWF0OGJ1ZVRJS2tzUVhaZ3gzQnR0R3d1eFBwMGNfaEoyQ2J4QzEyOGo3NlBBcU5SaUd1YVJta2pDTGs2VU9lMUpTSVhBNms0Zmx2bW9ic29wNE5hSmtIbDlXWEEwWHI0UUg1VExIMG1VUHNJeGRHM0RJdE1aa3VwUjhhZC1uMGJGZ2NmM0EyTVYyV0wtczlQd0Zpa2_SAa4BQVVfeXFMTW1wRXU0aTJGV244eHNYTjlLc0U5eGpaSnpoX0Z0YjNOTFJpWGJ6U3Y4X1ZkSnRqLUxTV3NzMzI0UmFDWC01THhyVTJEM1Z2MWtTMTlyRl9NRnlXMnZ0VXIwZFJuY01HRlhZMTZIc2ZVYnlOMU9aT2Nhd2RIU201Zkx2WHFkSWI0a2Jsd2ZZN1pKUDM4Q1JTZ1kyeE5mVTRxZHo0MUwteS1ScmY3X1ln?oc=5",
-      "publishedAt": "Wed, 19 Aug 2026 08:01:57 GMT"
+      "title": "RN vai abrigar supercomputador brasileiro de Inteligência Artificial",
+      "summary": "RN vai abrigar supercomputador brasileiro de Inteligência Artificial",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZFRCSElWZWpneDJfd3JGcUZtZmRvQ2tVN0cwVmtyYk9kVDdoVEs1NDlMMTZvdzhmeEhpSTVDRjNrcDZTZjQ3Y0p2aENVa2cwVjRhWjVNV21XamVlSnBvUlZVTjFkSGd1ZE1iX1F3Z2tOSUlfR1R6OFJMRDlwQmdYV01zcnhHQmxIdUV0b3FVb3pzMm5W?oc=5",
+      "publishedAt": "Fri, 21 Aug 2026 14:41:12 GMT"
     },
     {
-      "source": "NeoFeed",
+      "source": "Terra",
       "category": "IA",
-      "title": "O alerta do chairman da OpenAI sobre as empresas que caem na tentação do \"turismo de IA\"",
-      "summary": "O alerta do chairman da OpenAI sobre as empresas que caem na tentação do \"turismo de IA\"",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNkVIeWx4RXQ0N3VkSklPakhhMHRfdlFNaTFzOFlMOUtYMU5ubGxKWGRiSlpXeDBsa24xTXJqenF4Snc2YXRJWmltZ3pma3l4ZVg2UDRLYWttOElYRUlzbXFWbkgwckpwdWdtMjI3S3I1RVZKa29aREdEWG5oRzUzdE41bzh1XzFqeFhHNXF6MzBvVlBwZlRtTW5kU3l1VWt6NUtYcjkxOVRkUm5QSEVob1cxbWktXzJsNlBJ?oc=5",
-      "publishedAt": "Tue, 18 Aug 2026 18:48:00 GMT"
+      "title": "Universal Music apoia licenciamento de patentes por empresas de Inteligência Artificial",
+      "summary": "Universal Music apoia licenciamento de patentes por empresas de Inteligência Artificial",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQU3BrUHZES3l6WTBzTUJkVTNvd2c0VE1PMHdjN1VzTnBkYTZ0WVlPTXlqZE1FblBGYmtQRGRwb3d3bXFaNkVTa2w2WWxvdExqd1dyalotWFdCR2J2SHR0SWo2WUl6eVJCbHRhV0JFM1BjcjhMRkFIUTIzRkNWYnI3TWVaZ1hkam5HUWpZYnB2elVVeTVIV1Y1NHkzaUd4SFlsWW5MaVlyZ2U3YVJodVU3ckZITmY5UEp4S1NweEo4VUhBMGZVT0Z3VXpodUtPaV9QM2VVRHk4NExGc042OEtVclVRTTlBNFE2bWdmNEZMSGk1bG96WFowNWFLTlZ2YnZCaEV6bw?oc=5",
+      "publishedAt": "Thu, 20 Aug 2026 17:46:00 GMT"
+    },
+    {
+      "source": "NSC Total",
+      "category": "IA",
+      "title": "A reviravolta no mercado de trabalho: por que o avanço da IA faz empresas buscarem profissionais 50+",
+      "summary": "A reviravolta no mercado de trabalho: por que o avanço da IA faz empresas buscarem profissionais 50+",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTTB4aU9FckJEaTRHU282M3VPN0JBQ3pHX1RqYS00Y2Nud2oyOS0tbkNkSTRaYU5FNldtMElkbTFQekVyeC11RDRKN092a195czZ1enY4YjZ4Wkd4RWg3MnVPQVZ1c3ZhMmJOMmV0bEZGSW1XVHZJZzdnYzN0cXJxb2o2dUF0UFlRQlF4TUp2LXVQX0ltTnBlRnEwY0Fsd0piTkp4VVRvUGZYeG04ZVZQLUEtMWxWdjVTQVJJVFVZVlJpQm82ekRoS250WFVHbTZiaW8xQVhiRUlNVGlrbHB0MUxWeTNvYU0?oc=5",
+      "publishedAt": "Fri, 21 Aug 2026 13:06:20 GMT"
     },
     {
       "source": "Exame",
       "category": "IA",
-      "title": "Red Teaming IA; por que empresas de tecnologia pagam para atacar a própria inteligência artificial",
-      "summary": "Red Teaming IA; por que empresas de tecnologia pagam para atacar a própria inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMl9UUVZSMmdzUFpOaTNlSzlHR24zVDkzYk52T3FmM0ozVE5OaVpPQy1FWnF1SjB2LVhJRVIyajBMNTlpcGdKZzZ5bGUxVHJ4cHE5VVYxbDluVDFJVHlXNmZVRXZPMUozRDFxNjliSWZqUk5TbFFNbDhBajlucEM1RVp2cjlUdlBuTnhNQzNOVkNmZG1aWk91ZkQ0UDItb3k4SzUzd2Q3Q0p0b0NCWlZLRjFHeW52ZlZoRTBkYkp5LS1SdnRxTXRYdTFDeEhFUWZxd1lnQk43MA?oc=5",
-      "publishedAt": "Wed, 19 Aug 2026 14:09:36 GMT"
+      "title": "Nem toda tarefa precisa da IA mais potente; entenda como empresas estão mudando essa lógica",
+      "summary": "Nem toda tarefa precisa da IA mais potente; entenda como empresas estão mudando essa lógica",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZnJWdngtcmhwNUhGLWxqd096cHJWOUk1YmpTTGhGOThJekJaQ1RFT0l3b205NW9nY1hnbWNIR2NabjlENm1VLXo4a2tPZUYzak5EZzNHeW8xamluX3RDUTZVWGsxV1dmRjRUaWR2ZERESmlad2xGOTlwMWhmNnEwOXJlY1BTZGpIVFRoc3NselVLZndBSTVuX281U3l1ZFdKRjNJRFpaWkROQzhLNjZnZ0tEYzBuVlVoYU5GRnc3azREdEF3c3c4dnJ2NzBHZw?oc=5",
+      "publishedAt": "Fri, 21 Aug 2026 19:28:18 GMT"
     },
     {
-      "source": "Estadão",
+      "source": "niddedigital.com",
       "category": "IA",
-      "title": "Dona do ChatGPT faz parcerias com empresas para crescer no País; veja quais",
-      "summary": "Dona do ChatGPT faz parcerias com empresas para crescer no País; veja quais",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNV0dSM3NlTF9mYnpiRlF1bUNfWFNtYjdaYUJQdjQ0NVpsU1c1d2J4WDdQSjJMaHhrblZ6MzFoOERENnRjekJMSURJaEgxYV9YUkcxUUpnaHlQdk9KTHpTUFZsa1ZTbDZseDJ6ejFFUC12RFBURDNuT1U2VTB6QVZwUzVhTE5ESU9LMTRXR3BtcmNxN1FTb0pVRjF0bjRDX1ZIZ0R3a2ZzQXh0UnEyZ0RpN05jQUxOTm9Db1N0WdIBwgFBVV95cUxOVmxvbU5qUlRva3VjOTdXYndvMlNHTnpqTkFNYU9JMlVkUkVhcTc2YU1kclg1NjNSLWc5Zkw4LXFIa3MwdXoyeGkydkppeUQ5WklhU2xJVm55T3pVNEhGcXB6R0dNUHJ3UVhUODJONDVvLUJJREVEajJ1ZUZ0UnBoRlJMbkhxbFg5blZ3dnZZRzJ3YkpBRlVMRXVoWFl6V0NlUHUxVnlwZEIxNTlWTHphYzRHcUZSQVRSQVdCRTZvaEVYQQ?oc=5",
-      "publishedAt": "Tue, 18 Aug 2026 08:00:00 GMT"
+      "title": "Após a IA generativa, empresas entram na era da autonomia operacional. O Brasil está preparado?",
+      "summary": "Após a IA generativa, empresas entram na era da autonomia operacional. O Brasil está preparado?",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQU0JkTzlfME01azY4RXY0cGZranBjOE4zR094Z0VUSnV0TGEydjc2c2pmVTk5bndhTzdwSTI3ME8tdWUtMVgyYW45MkRORFJfZmlxcHR5a3N0NjRUaWh2emRRb1JtblltQUFIX29XdkFSYkF5TnZsd2VfWUNGbFRiN3Q2LUN4d0MtbEVCMzN4SXFvUFZWaXJWMmlEY2tqSUpsT3dBdUd3WklkS015emM3bDJLTzUwbWdDSnc?oc=5",
+      "publishedAt": "Fri, 21 Aug 2026 18:50:54 GMT"
     },
     {
       "source": "fcmsantacasasp.edu.br",
@@ -79,14 +76,6 @@
       "publishedAt": "Mon, 08 Jun 2026 07:00:00 GMT"
     },
     {
-      "source": "noticenter.com.br",
-      "category": "Tecnologia",
-      "title": "AMcom lan�a modelo de entrega de solu��es em desenvolvimento de software potencializado por IA",
-      "summary": "AMcom lan�a modelo de entrega de solu��es em desenvolvimento de software potencializado por IA",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSVJHd1ZRSXIyZllmWmJjWE9URWFfYzB4bWU0UUNxd3ZJdlBvMkhza0dOSHJDYmZoZjRkTmJUT2dKTjhVMkhmU1JVd2hsbnZINEFORFNIM2dmNjYxR3h3dUw3ZkNXTERDN0hCMjBmUGtFMV9weXc1R2tjOTlwdnNzVVpheFQxSDdPYkJpQy11d1k2ZnZHeGhyLTZwWllsR0d5dnZsSlpENTByVzNQSmlrdFZYdVpmOUo0c25fUUtHd0hBcWQwdnlTOUtqY0NPbW5ycmJzcXdQVXRwdFFPMFVjcThCbmZMR1dHSDVXb0k3S21vT0tCTmhJcg?oc=5",
-      "publishedAt": "Fri, 26 Jun 2026 07:00:00 GMT"
-    },
-    {
       "source": "jornaltribuna.com.br",
       "category": "Tecnologia",
       "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
@@ -101,6 +90,14 @@
       "summary": "Software by Maringá conecta empresas e impulsiona o desenvolvimento tecnológico",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcFMzRGI1RUd2UXRQNFVXeWZ0Y2NpZjBvdVlqMGJLVXJwZ0dZN1JsUERFd292UTdROVZSaV8wOUx4N3pYbEhCNFBKbU9qT09fRnlpaXRIdlhTVGRXaHN2YjR1bk9PUjUyU3hFNVcyU2VQdTd0ZnBobTFPMnBCTXp1ZGdnTDZzNUQ2Rm43UWY1LUhTU082d2ducTctVzMwVmJ2V2FYV2YtZFZYTWdibEthYnpnYXNlcWVySFB0czF5SkJwLTJzbkE?oc=5",
       "publishedAt": "Mon, 25 May 2026 07:00:00 GMT"
+    },
+    {
+      "source": "Correio Braziliense",
+      "category": "Tecnologia",
+      "title": "IFB abre inscrições para 2º ciclo de curso de desenvolvimento de software",
+      "summary": "IFB abre inscrições para 2º ciclo de curso de desenvolvimento de software",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNVXFka0prWjY3Y01KMnJ4R1dIb2pkUW9rYWVGVW9YelB0VVJmRDBEaG5vWUlYcDZIWGVuVlR1SDEzVHVZU1VpcTUyY21HZmlQazl2R0pyUmtmZUtVUzNRWkhWaDVwb2xNSWZjTlUtUGRldkFVVTgyWmxtWDd0cGU5TFktc1NaWW9WV3RzTURLN2RGYmN2aEdjbnprZlcxR1NJMlhvRXRvRVpwNGJjbnRHSUkxTlVxbWxRSmV6UVR6X1R0aGJqVHl3XzlwRzdOLW82eUJ0eGJ4YllEamVEZkhBREJyMDRnNHlQVEhvZU9kT2VCeXE0ajN6dA?oc=5",
+      "publishedAt": "Wed, 08 Apr 2026 07:00:00 GMT"
     }
   ]
 }

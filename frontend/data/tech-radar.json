@@ -1,9 +1,7 @@
 {
-  "generated_at": "2026-08-21T08:23:32.018884+00:00",
+  "generated_at": "2026-08-22T08:14:27.562774+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de tecnologia.",
-  "errors": [
-    "Sem itens novos nesta execucao; mantido o ultimo artefato valido."
-  ],
+  "errors": [],
   "items": [
     {
       "title": "Análise e Desenvolvimento de Software na Saúde: por que a Faculdade Santa Casa é o futuro",
@@ -33,15 +31,6 @@
       "signal": "flat"
     },
     {
-      "title": "AMcom lan�a modelo de entrega de solu��es em desenvolvimento de software potencializado por IA",
-      "summary": "AMcom lan�a modelo de entrega de solu��es em desenvolvimento de software potencializado por IA",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSVJHd1ZRSXIyZllmWmJjWE9URWFfYzB4bWU0UUNxd3ZJdlBvMkhza0dOSHJDYmZoZjRkTmJUT2dKTjhVMkhmU1JVd2hsbnZINEFORFNIM2dmNjYxR3h3dUw3ZkNXTERDN0hCMjBmUGtFMV9weXc1R2tjOTlwdnNzVVpheFQxSDdPYkJpQy11d1k2ZnZHeGhyLTZwWllsR0d5dnZsSlpENTByVzNQSmlrdFZYdVpmOUo0c25fUUtHd0hBcWQwdnlTOUtqY0NPbW5ycmJzcXdQVXRwdFFPMFVjcThCbmZMR1dHSDVXb0k3S21vT0tCTmhJcg?oc=5",
-      "source": "noticenter.com.br",
-      "published_at": "Fri, 26 Jun 2026 07:00:00 GMT",
-      "category": "Tecnologia",
-      "signal": "flat"
-    },
-    {
       "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
       "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
@@ -56,6 +45,15 @@
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcFMzRGI1RUd2UXRQNFVXeWZ0Y2NpZjBvdVlqMGJLVXJwZ0dZN1JsUERFd292UTdROVZSaV8wOUx4N3pYbEhCNFBKbU9qT09fRnlpaXRIdlhTVGRXaHN2YjR1bk9PUjUyU3hFNVcyU2VQdTd0ZnBobTFPMnBCTXp1ZGdnTDZzNUQ2Rm43UWY1LUhTU082d2ducTctVzMwVmJ2V2FYV2YtZFZYTWdibEthYnpnYXNlcWVySFB0czF5SkJwLTJzbkE?oc=5",
       "source": "Maringá Post",
       "published_at": "Mon, 25 May 2026 07:00:00 GMT",
+      "category": "Tecnologia",
+      "signal": "flat"
+    },
+    {
+      "title": "IFB abre inscrições para 2º ciclo de curso de desenvolvimento de software",
+      "summary": "IFB abre inscrições para 2º ciclo de curso de desenvolvimento de software",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNVXFka0prWjY3Y01KMnJ4R1dIb2pkUW9rYWVGVW9YelB0VVJmRDBEaG5vWUlYcDZIWGVuVlR1SDEzVHVZU1VpcTUyY21HZmlQazl2R0pyUmtmZUtVUzNRWkhWaDVwb2xNSWZjTlUtUGRldkFVVTgyWmxtWDd0cGU5TFktc1NaWW9WV3RzTURLN2RGYmN2aEdjbnprZlcxR1NJMlhvRXRvRVpwNGJjbnRHSUkxTlVxbWxRSmV6UVR6X1R0aGJqVHl3XzlwRzdOLW82eUJ0eGJ4YllEamVEZkhBREJyMDRnNHlQVEhvZU9kT2VCeXE0ajN6dA?oc=5",
+      "source": "Correio Braziliense",
+      "published_at": "Wed, 08 Apr 2026 07:00:00 GMT",
       "category": "Tecnologia",
       "signal": "flat"
     }
