@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T08:14:38.438992+00:00",
+  "generated_at": "2026-08-23T20:13:45.811570+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -17,20 +17,20 @@
     },
     {
       "symbol": "IBOVESPA",
-      "value": "171.032 pts",
+      "value": "170.449 pts",
       "change": "estavel",
       "direction": "flat"
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 76.213",
-      "change": "-1,51%",
+      "value": "US$ 77.259",
+      "change": "-0,22%",
       "direction": "down"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 2.408",
-      "change": "-1,28%",
+      "value": "US$ 2.440",
+      "change": "-0,07%",
       "direction": "down"
     },
     {
@@ -79,7 +79,7 @@
       "id": "ibov",
       "name": "Ibovespa",
       "icon": "📊",
-      "quote": "171.032 pts",
+      "quote": "170.449 pts",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -90,8 +90,8 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 76.213",
-      "change": "-1,51%",
+      "quote": "US$ 77.259",
+      "change": "-0,22%",
       "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -101,8 +101,8 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 2.408",
-      "change": "-1,28%",
+      "quote": "US$ 2.440",
+      "change": "-0,07%",
       "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -148,10 +148,6 @@
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOXzR6R0QxMVZCQkFqMnZNdWJ6bGx4QU00WmNJYVBnU1JZVVhsNG11VG50Zjd5R3NqbV9GYldtZ3ljWmRuakplS19icG16dWVCMTc1SnVSd1k3RTZ3OHhvcjFxY01BT2gzRVVxYkZMSDdrY0REOU92WGh0Z0t0V2RLNnVGU3lVZlFhekhiTEExV0xMQmY1eTRmMlhYRHF5aFZJWkxhbWRnUXZZT1ltSUFJMk96akJkZ0l1dHFuMlFCMkpSd3hDR2Y5c0t0ZEh2TW8zby1GUXNSenZoQVBNLWlxLdIB5gFBVV95cUxQcnpOdjd6b0tOb1dVZjdPOTZmeHBnMVZBaDQwQ3IyVjkwSzJRVklwLXlCMVN6ZTVzX0tuSVctRXRhWUQwTXJuak1RZ0NCODU3RWUwbTZmcXNicUozUVh1dGpDdHVEalRLMUgxSGZid2lDaTZuLWdkdnBXMDUtS0w4Nmw0bkM1VTR1VW5mRWxEOXA1Ui1uck1kMmxZU24wTW9TZGpsdWVQNlZMSXBSRzJDZm5jazZMbl9kRWRmNnZCLV92dkgxSUY1RDB5a3h2TDdia3B3cFJyTXFzZTYya0JieEk1NU9JQQ?oc=5"
     },
     {
-      "title": "Como pesquisas eleitorais mexem com bolsa, dólar e juros no Brasil",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcF9XUHB2akcwMjV6bG45YWhtbmRycnE3dFpHUDdYSG9ETGhHWC00a01IR3RCcmV6Q3NxRkV5SGE5dThXNTF3ODlidGVFVVRadmdKUDhOQzlFbW5KaFo2c0tuRkRwdEdfOExBOG5Zay1UUElWWjNzdlNEZmpzbklmeE92Z2g4ay1GazNnSjZMNWpQRlp6aGpXN3BLTXpCUldkYXlFVWU0WHJ6WFZtdlpGaldsMWp3cjBu0gG-AUFVX3lxTE1RVzJ6SjltaEtQdlVnOEJnSGlLNXZ5UEJmazlicElTN0lUQ3JGckhWWEVKQnpvb0JtS1RVa3RWYTQ2d05hdTBCdjJSUThNTXlLZDE1dHZNb0lsSXB3OURPNDhTeExEaGJ0bHVjRFhpWlp0WGpYWW1rTTR4ZFBCWEtPYW9mTU5ha0oyYVlCN2RfQXRUMDl1WnlMX24xcWhQaFBqRTBBNU0xQVZ0NENNczl6VjNyaktpem9ZcWI4Rnc?oc=5"
-    },
-    {
       "title": "Ibovespa fecha com leve baixa, com Petrobras e Itaú; Vale sobe",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMWU4Q1RTMEVnZzFWaV8tWHlmcU9lSkxDUTdSYVk1YVlESGlYV0ZBUmIzMFc0Q184V2ROT09YOGhKV3poSzJNUV8yUXNzYUZCTzNVV2czZkhKY0N4TktyMEYyNFRHdW5UTTk2bjBVQXlJUllMRW0tRC00T0NXU2RYRHpmU1o4RUpiMUo2RWdrdw?oc=5"
     },
@@ -164,12 +160,16 @@
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUkdKLTYwWWpiMkFBek5QT1hUdnVNQzdkaDhOQmR1d3Z2T2djM3J1U0xpeWpvMjNCWUkzT09LRU1PdjNsaC02eFBjRFlZOEZRbTFlTldGZnJBQW5OOFZYSHdwc05TMXZkTGZDa2t5eHVjbEJzVm1nOUlCWWpXMkVvOHFwYkZTVV9nRGV0NGNiSnpWMF9ObFVicnBJYzVpOFFWRVE?oc=5"
     },
     {
+      "title": "Bolsa, dólar e juros: o que esperar após EUA classificarem PCC e CV como terroristas",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZER3WDlEYkpJQVZrZWFiSGFrb1NYRzdSTkM0Rzkwc2pmTURnUUUzLWRBTTZjRW1vV3hTZW5CS2ctcnYxWEQwMDd6VXVid0syNWtEeTNLRC1jVDhSdTZTVTBxSlh0dnB3a0NuV3lVc3d3Q2M4cV9XOUdGQmx2RHVtbm9qb0xJTzUxd21lako1OGtXMFpDU1h3U0FyZFBGMXJIOWREMFR3OEpick01aVZkTUFGU2lObW80NnhFRmM1empfZ0hsb1dsbkJHc19KT3VOSDBCcDhKaElzMVZpeGd1UklzYVlaXzQ0VXFMbDJMNUFJcl95ZkpOeU5FWUVNRGRqMVU4WFpNS1FHSlXSAZoCQVVfeXFMUHVtMFU3QXFIZ25Hc2t4VTgwakJVLVU2XzE4U3E3LWcwZ3hqOGFMaUxzOV9MdWxUQTQ5RWZ6bkhtYUZsai1hNms5MHU5amFfSWRubHIxREZjaDdWOF9iVjNtNHpGQnVDemJ0Y2xFTlB1OXJVWnpCV2NlWWJBS3pyQk9ZV2lPaElRaGZ1VEgxN2JfUXhNVUxvekVpeGZ6Z1A5SEttdHhrWjJwdGtaMnpKa1o1MXBBM3ZIaTJ6QUEwQkM2OWdJSkZRMUZHdlVVVy1vY09ncWdiazA4VVRGVmRRNVN4d3FWd0xUV0hRX3ptN3pOeHJNUDRIZURPcU5xRmRJejdsb09hVTh0N21PMzY0NnkxY0dheUkybHF3?oc=5"
+    },
+    {
       "title": "Ibovespa termina dia estável, mesmo com perdas de Vale e Petrobras",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNV0xLT0djb1VtQXJSMHFaR3Vwc1BONGo0OGlOdl9pUGZ2ZmNXamgwYndFaHdkQ1haQi1QZmZnLVVsangxWWFZY25IVVBaeHVmYUZwcUVIeFJwV2F5SV9sdzhpcmhpSFZuOWRmel9ublBNeXpLLXRlOTJSdGU0YjJJZnJWTEtRZU5TbnBYNFdYQQ?oc=5"
     },
     {
-      "title": "Dólar dispara e fecha em R$ 5,17 após decisões de juros no Brasil e nos EUA; juros futuros têm forte alta",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeGRtQUFUamJWMGFFcml1VFFXLTVqUFBmLURGd05GXzRnQ3FVVzZfeGJ5aDBWUml4WUx5M09JQnRONHZoVl9Xay0xYXVBUFBFb1kzcS05dVJHMFNhM2dDNS1FcDBCeHE1U2xBYmtWQ0c0bVhwVU50bWZTXzNYbUpwS1NCdkMtaXVtckhnaE02MEI0djdCaDE3cDduYjZZYXRFNWNXYm9kUlUzN3Itb3A3LVNiaU1XTWZyRnRwT0lZT3lNWVl6anNCS2x0dGo?oc=5"
+      "title": "Dólar sobe a R$ 5,20 e Bolsa cai, com juros incertos e petróleo em baixa",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdGx5MHp4aUdwYXdVcVBuNmc5ZVJRWDNBam55WE1UU3Y2THE0MjdZbnRHX1NZWG0tV3FQX29XRUVUMmtQR3ZFVGg3bnRZdFh1MkNtWlpFLTh2dGhzU1dtVHZJR3JJY0xsRzVLM0xRVUoyUWRwSVcwLTZ6eVY3c2g3aW4ySS0xeDcwZWZ1dnlrb1RHSU5jRVlRZG9pM20yUQ?oc=5"
     },
     {
       "title": "O que esperar da Bolsa e do dólar em julho após guerra e juros ditarem o ritmo dos mercados",
