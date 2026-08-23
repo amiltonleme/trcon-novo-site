@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T20:14:24.448835+00:00",
+  "generated_at": "2026-08-23T08:14:41.171052+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -11,15 +11,6 @@
       "published_at": "Tue, 18 Aug 2026 10:32:55 GMT",
       "category": "IA",
       "signal": "flat"
-    },
-    {
-      "title": "Maior fundo soberano do mundo alerta para risco de bolha da inteligência artificial nas ações",
-      "summary": "Maior fundo soberano do mundo alerta para risco de bolha da inteligência artificial nas ações",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWllBN3B2M2NVdlBaam9iV3p2dndsTGxYT1h4bmQ4cW80c2N0Z2dyclFUcnVBbEZhd0xqMV9jcGFxUVdkSFh4UENCWWwxSmFsbmpxVXZJcElxV2JvTzU5aVgyTlFFY0N5aUV2ZTlxekN6Yy1DZ1ZrUHRjMWpzNlliQ2x0MXBxbnMwZ28zYmZ2Nm14MzVrZlVFVlNfVlk4dkM4bUMxOEpPVjdhdDlrRVVjX2dHeUIzTVFySUdRbjc1MzNBVjBWTGFuY3FMOWNtcVpE?oc=5",
-      "source": "Jornal Grande Bahia",
-      "published_at": "Sat, 22 Aug 2026 11:00:35 GMT",
-      "category": "IA",
-      "signal": "down"
     },
     {
       "title": "A inteligência artificial não saiu do controle; é bem pior do que isso",
@@ -54,6 +45,15 @@
       "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQU3BrUHZES3l6WTBzTUJkVTNvd2c0VE1PMHdjN1VzTnBkYTZ0WVlPTXlqZE1FblBGYmtQRGRwb3d3bXFaNkVTa2w2WWxvdExqd1dyalotWFdCR2J2SHR0SWo2WUl6eVJCbHRhV0JFM1BjcjhMRkFIUTIzRkNWYnI3TWVaZ1hkam5HUWpZYnB2elVVeTVIV1Y1NHkzaUd4SFlsWW5MaVlyZ2U3YVJodVU3ckZITmY5UEp4S1NweEo4VUhBMGZVT0Z3VXpodUtPaV9QM2VVRHk4NExGc042OEtVclVRTTlBNFE2bWdmNEZMSGk1bG96WFowNWFLTlZ2YnZCaEV6bw?oc=5",
       "source": "Terra",
       "published_at": "Thu, 20 Aug 2026 17:46:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Chamada RHAE IA visa inserir cientistas em empresas para desenvolver projetos de inteligência artificial; inscrições até 09/10",
+      "summary": "Chamada RHAE IA visa inserir cientistas em empresas para desenvolver projetos de inteligência artificial; inscrições até 09/10",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbk5FN1ZRa1VNbE8tVGJsdjNETjFhMU9jZ3o2bkVzS1FrcUE4aHc4ZnpfdFlPaktIdUM4dE1KYTFadzlBUGRzZ1pqdklIMlRzbl9iVkJVdGZKcF9jeE9SbktsR0JzNHpCem5DemhpQllTeldud3dxWWRpNG5yU3M1bUV0LVJjZjR0dXc1eGkwc09hSmRRX3gzVk4tRFIwUnlRNEliT0pTa3RfaGduZVE?oc=5",
+      "source": "www.gov.br",
+      "published_at": "Tue, 18 Aug 2026 17:27:00 GMT",
       "category": "IA",
       "signal": "flat"
     }

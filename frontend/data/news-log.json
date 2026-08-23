@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T20:14:25.639367+00:00",
+  "generated_at": "2026-08-23T08:14:42.199659+00:00",
   "source_note": "Historico de novidades TRCon consolidado dos radares.",
   "errors": [],
   "items": [
@@ -10,14 +10,6 @@
       "summary": "Inteligência artificial: líderes do setor dizem que IA significa menos horas de trabalho — mas seus funcionários afirmam trabalhar até 90 horas semanais",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tWDZMNUFSZ1FOMXNsdjhxZ1Rjc2pQSHl4TGZ1Yk5sSjVXQXJDMTNDb3lnVldvcmVzcFpJdWpYVHotek8xOGV6TURnWXJtWlJUc0NERlFIUURiY05qZW11U2ln0gFnQVVfeXFMTmk5MGNqNlcwdENPV2JhVFVWZVpabmdkQXlTWGQwMFVuOVJjSTUtanJTY0FGOHF3bmlBT2hUd1YwdTQydEVpZFZOXzk4RW5aMUdpNXhqV1BRS21JRWdYR3hYY0VycmlMaw?oc=5",
       "publishedAt": "Tue, 18 Aug 2026 10:32:55 GMT"
-    },
-    {
-      "source": "Jornal Grande Bahia",
-      "category": "IA",
-      "title": "Maior fundo soberano do mundo alerta para risco de bolha da inteligência artificial nas ações",
-      "summary": "Maior fundo soberano do mundo alerta para risco de bolha da inteligência artificial nas ações",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWllBN3B2M2NVdlBaam9iV3p2dndsTGxYT1h4bmQ4cW80c2N0Z2dyclFUcnVBbEZhd0xqMV9jcGFxUVdkSFh4UENCWWwxSmFsbmpxVXZJcElxV2JvTzU5aVgyTlFFY0N5aUV2ZTlxekN6Yy1DZ1ZrUHRjMWpzNlliQ2x0MXBxbnMwZ28zYmZ2Nm14MzVrZlVFVlNfVlk4dkM4bUMxOEpPVjdhdDlrRVVjX2dHeUIzTVFySUdRbjc1MzNBVjBWTGFuY3FMOWNtcVpE?oc=5",
-      "publishedAt": "Sat, 22 Aug 2026 11:00:35 GMT"
     },
     {
       "source": "Valor Econômico",
@@ -52,20 +44,28 @@
       "publishedAt": "Thu, 20 Aug 2026 17:46:00 GMT"
     },
     {
+      "source": "www.gov.br",
+      "category": "IA",
+      "title": "Chamada RHAE IA visa inserir cientistas em empresas para desenvolver projetos de inteligência artificial; inscrições até 09/10",
+      "summary": "Chamada RHAE IA visa inserir cientistas em empresas para desenvolver projetos de inteligência artificial; inscrições até 09/10",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbk5FN1ZRa1VNbE8tVGJsdjNETjFhMU9jZ3o2bkVzS1FrcUE4aHc4ZnpfdFlPaktIdUM4dE1KYTFadzlBUGRzZ1pqdklIMlRzbl9iVkJVdGZKcF9jeE9SbktsR0JzNHpCem5DemhpQllTeldud3dxWWRpNG5yU3M1bUV0LVJjZjR0dXc1eGkwc09hSmRRX3gzVk4tRFIwUnlRNEliT0pTa3RfaGduZVE?oc=5",
+      "publishedAt": "Tue, 18 Aug 2026 17:27:00 GMT"
+    },
+    {
+      "source": "TI INSIDE Online",
+      "category": "Tecnologia",
+      "title": "Equipe virtual de agentes de IA reduz em até 70% o tempo de desenvolvimento de software na Dígitro Tecnologia",
+      "summary": "Equipe virtual de agentes de IA reduz em até 70% o tempo de desenvolvimento de software na Dígitro Tecnologia",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObGluV1kyWmNZa2VuODZNQzJ1LWV6NllPTHg2eVdBanUycklHWG5zR2Y1bUZJYmFCUDVDaTRFeFZlaS1WZU9fXzVLSVNhNDJPZElXTHR3bjhzVmw4NVh1V1lsWXNuLW9ycGNNdmU5Z1NWRmN5Y2NVZndBQWxWcnRkUjdEZVE4RjhuaXpHWmVnYnUzOGlGWEFaVThiakF4S0k5aFJlcTVLV0IwTV9XODl6UU5tY1RaMFFXb1doX1Qtcjg0YzVlaVp4ZnRqSzNmdG9BdnJLQ0diaGc1cjVk?oc=5",
+      "publishedAt": "Thu, 26 Mar 2026 07:00:00 GMT"
+    },
+    {
       "source": "fcmsantacasasp.edu.br",
       "category": "Tecnologia",
       "title": "Análise e Desenvolvimento de Software na Saúde: por que a Faculdade Santa Casa é o futuro",
       "summary": "Análise e Desenvolvimento de Software na Saúde: por que a Faculdade Santa Casa é o futuro",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQW1QYWdzZmhtelJEOHlXb0VldzhwX2JvaU1KSHp4TkM1Y3JjdlY0bjc0S01oOEFpaW9sREpKR25PRmtKVVY0LXVmZFZRMnpCUTZoVjktOHRidHlwQ0ZyR2JrdThQWnV6LTRiX1hvQXBhNHh3cXY2dldjRTZCek9fWFFVQTVFRTc0T1E?oc=5",
       "publishedAt": "Fri, 15 May 2026 07:00:00 GMT"
-    },
-    {
-      "source": "TI INSIDE Online",
-      "category": "Tecnologia",
-      "title": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
-      "summary": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUVRkY3hvRDJhQ3B1Y0R6MndjNXBQNHFGVVBLb2IzS0hkV3FsS3FkbkNkZzhXaTB2Tzl2QWZZUjZ1dmxFZUdRVEFIQUFCemFzMmlDQmpZTnJYTXdPXzBKSUdXYmZrTlNOWGVNNlZ0YlQ1eGwzT3NHV2pkTXpCck93M21SV2hYVkVHbGhfY01oVXI3ZFh5Uzd3VURZeDlCUXl3X3J3SWx4QzFIQ253c1B6aktSMUZVcE4temUzaGxR?oc=5",
-      "publishedAt": "Wed, 03 Jun 2026 07:00:00 GMT"
     },
     {
       "source": "ND Mais",
@@ -92,7 +92,7 @@
       "publishedAt": "Wed, 01 Jul 2026 07:00:00 GMT"
     },
     {
-      "source": "Correio Braziliense",
+      "source": "correiobraziliense.com.br",
       "category": "Tecnologia",
       "title": "IFB abre inscrições para 2º ciclo de curso de desenvolvimento de software",
       "summary": "IFB abre inscrições para 2º ciclo de curso de desenvolvimento de software",
