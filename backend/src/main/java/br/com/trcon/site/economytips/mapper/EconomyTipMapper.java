@@ -22,7 +22,7 @@ public interface EconomyTipMapper {
     default List<String> buildMeta(EconomyTip tip) {
         String source = tip.getSource() != null && !tip.getSource().isBlank()
                 ? tip.getSource()
-                : "TRCon";
+                : "TRCONGROUP";
         return List.of("Leitura rapida", "Fonte: " + source);
     }
 }

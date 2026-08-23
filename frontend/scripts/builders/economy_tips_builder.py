@@ -20,7 +20,7 @@ class EconomyTipsConfig:
     min_rss_items: int = 2
     source_note: str = (
         "Curadoria automatica de educacao financeira a partir de feeds RSS publicos, "
-        "com complemento do catalogo estatico TRCon quando necessario."
+        "com complemento do catalogo estatico TRCONGROUP quando necessario."
     )
     tag_rules: list[tuple[set[str], str, str]] = field(default_factory=list)
 

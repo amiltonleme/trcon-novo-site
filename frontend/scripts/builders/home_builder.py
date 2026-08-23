@@ -45,7 +45,7 @@ def build_home_highlights(radars: list[dict], max_items: int = 6) -> dict:
     errors = [e for radar in radars for e in radar.get("errors", [])]
     return build_envelope(
         items=items,
-        source_note="Destaques consolidados dos radares TRCon (curadoria por regras).",
+        source_note="Destaques consolidados dos radares TRCONGROUP (curadoria por regras).",
         errors=errors,
     )
 
@@ -71,6 +71,6 @@ def build_news_log(radars: list[dict], max_items: int = 30) -> dict:
     errors = [e for radar in radars for e in radar.get("errors", [])]
     return build_envelope(
         items=unique,
-        source_note="Historico de novidades TRCon consolidado dos radares.",
+        source_note="Historico de novidades TRCONGROUP consolidado dos radares.",
         errors=errors,
     )

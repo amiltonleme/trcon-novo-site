@@ -39,7 +39,7 @@ class ArticlePageServiceImplTest {
 
         String html = service.renderHtml("titulo");
 
-        assertThat(html).contains("Titulo SEO — TRCon Group");
+        assertThat(html).contains("Titulo SEO — TRCONGROUP");
         assertThat(html).contains("application/ld+json");
         assertThat(html).contains("<p>Corpo</p>");
     }

@@ -115,13 +115,13 @@ export function applyArticleMeta(article, deps = {}) {
   const doc = deps.document || (typeof document !== 'undefined' ? document : null);
   if (!doc || !article) return;
 
-  const title = article.metaTitle || article.title || 'TRCon Novidades';
+  const title = article.metaTitle || article.title || 'TRCONGROUP Novidades';
   const description = article.metaDescription || article.summary || '';
   const canonical = buildArticleUrl(article.slug, deps.siteBase);
   const cover = safeHttpsImageUrl(article.coverImageUrl);
   const siteBase = String(deps.siteBase || 'https://trcongroup.com.br').replace(/\/+$/, '');
 
-  doc.title = `${title} — TRCon Group`;
+  doc.title = `${title} — TRCONGROUP`;
 
   setMeta(doc, 'name', 'description', description);
   setMeta(doc, 'property', 'og:title', title);
@@ -161,11 +161,11 @@ export function buildNewsArticleJsonLd({
   const data = {
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
-    headline: title || 'TRCon Novidades',
-    author: { '@type': 'Organization', name: 'TRCon Group' },
+    headline: title || 'TRCONGROUP Novidades',
+    author: { '@type': 'Organization', name: 'TRCONGROUP' },
     publisher: {
       '@type': 'Organization',
-      name: 'TRCon Group',
+      name: 'TRCONGROUP',
       url: String(siteBase).replace(/\/+$/, ''),
     },
     mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
@@ -220,7 +220,7 @@ export function renderArticlePage(article, root, deps = {}) {
   applyArticleMeta(article, deps);
 
   const dateLabel = formatArticleDate(article.publishedAt);
-  const category = escapeHtml(article.category || 'TRCon');
+  const category = escapeHtml(article.category || 'TRCONGROUP');
   const source = article.source ? `<span>${escapeHtml(article.source)}</span>` : '';
   const brand = article.brandSlug ? `<span>${escapeHtml(article.brandSlug)}</span>` : '';
   const cover = safeHttpsImageUrl(article.coverImageUrl);

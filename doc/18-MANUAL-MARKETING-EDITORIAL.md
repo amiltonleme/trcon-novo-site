@@ -8,11 +8,11 @@
 
 | Tipo marketing | Seção no site `trcongroup.com.br` |
 |----------------|-----------------------------------|
-| **Artigo** | **Novidades TRCon** apenas (grid de cards + `/novidades/{slug}`) |
+| **Artigo** | **Novidades TRCONGROUP** apenas (grid de cards + `/novidades/{slug}`) |
 | **Newsletter** / **Landing page** | Educação Financeira (card) + leitura `/novidades/{slug}` (fora do grid Novidades) |
 | **Post social** | LinkedIn (não site) |
 
-**Radar TRCon** (Sinais de IA e tecnologia) **não** recebe artigos do marketing — só pipeline automático de sinais externos.
+**Radar TRCONGROUP** (Sinais de IA e tecnologia) **não** recebe artigos do marketing — só pipeline automático de sinais externos.
 
 No marketing, o editor vê **pré-visualização** do artigo (layout ≈ `/novidades/…`) e do post LinkedIn **antes** de aprovar.
 

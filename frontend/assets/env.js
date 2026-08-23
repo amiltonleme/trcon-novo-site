@@ -1,8 +1,8 @@
 // Configuração de ambiente do frontend (injeção em runtime, sem build step).
 //
 // Escolhe URLs pelo hostname — evita deploy com localhost ativo.
-//   Radar TRCon      → GET /api/public/highlights
-//   Novidades TRCon  → GET /api/public/news
+//   Radar TRCONGROUP      → GET /api/public/highlights
+//   Novidades TRCONGROUP  → GET /api/public/news
 //   Educação Financeira → GET /api/public/economy-tips
 
 (function (scope) {
