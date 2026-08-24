@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T08:33:20.821121+00:00",
+  "generated_at": "2026-08-24T20:21:19.103971+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de tecnologia.",
   "errors": [],
   "items": [
@@ -22,15 +22,6 @@
       "signal": "flat"
     },
     {
-      "title": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
-      "summary": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUVRkY3hvRDJhQ3B1Y0R6MndjNXBQNHFGVVBLb2IzS0hkV3FsS3FkbkNkZzhXaTB2Tzl2QWZZUjZ1dmxFZUdRVEFIQUFCemFzMmlDQmpZTnJYTXdPXzBKSUdXYmZrTlNOWGVNNlZ0YlQ1eGwzT3NHV2pkTXpCck93M21SV2hYVkVHbGhfY01oVXI3ZFh5Uzd3VURZeDlCUXl3X3J3SWx4QzFIQ253c1B6aktSMUZVcE4temUzaGxR?oc=5",
-      "source": "TI INSIDE Online",
-      "published_at": "Wed, 03 Jun 2026 07:00:00 GMT",
-      "category": "Tecnologia",
-      "signal": "flat"
-    },
-    {
       "title": "O desenvolvimento de software entra em uma nova fase",
       "summary": "O desenvolvimento de software entra em uma nova fase",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSnpBeW1nUVZVRFp3cWlWRVB3RVV1blJjSEwwcFFpU2UyQ3h2Zk56M3Fjby1JU2JqdUhEMlR2X2dCQlBVTHlnd2R5b3ZhdTRhUjZ4c0pfVGpnUjIzMW5HU0pzMDVDTDFHRnZkNVlqMHh5UHNmNW5rdUhFQWVMeDh5QXY0WEhJcU1kS3FId2dIRQ?oc=5",
@@ -45,6 +36,15 @@
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSVJHd1ZRSXIyZllmWmJjWE9URWFfYzB4bWU0UUNxd3ZJdlBvMkhza0dOSHJDYmZoZjRkTmJUT2dKTjhVMkhmU1JVd2hsbnZINEFORFNIM2dmNjYxR3h3dUw3ZkNXTERDN0hCMjBmUGtFMV9weXc1R2tjOTlwdnNzVVpheFQxSDdPYkJpQy11d1k2ZnZHeGhyLTZwWllsR0d5dnZsSlpENTByVzNQSmlrdFZYdVpmOUo0c25fUUtHd0hBcWQwdnlTOUtqY0NPbW5ycmJzcXdQVXRwdFFPMFVjcThCbmZMR1dHSDVXb0k3S21vT0tCTmhJcg?oc=5",
       "source": "noticenter.com.br",
       "published_at": "Fri, 26 Jun 2026 07:00:00 GMT",
+      "category": "Tecnologia",
+      "signal": "flat"
+    },
+    {
+      "title": "Software by Maringá conecta empresas e impulsiona o desenvolvimento tecnológico",
+      "summary": "Software by Maringá conecta empresas e impulsiona o desenvolvimento tecnológico",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcFMzRGI1RUd2UXRQNFVXeWZ0Y2NpZjBvdVlqMGJLVXJwZ0dZN1JsUERFd292UTdROVZSaV8wOUx4N3pYbEhCNFBKbU9qT09fRnlpaXRIdlhTVGRXaHN2YjR1bk9PUjUyU3hFNVcyU2VQdTd0ZnBobTFPMnBCTXp1ZGdnTDZzNUQ2Rm43UWY1LUhTU082d2ducTctVzMwVmJ2V2FYV2YtZFZYTWdibEthYnpnYXNlcWVySFB0czF5SkJwLTJzbkE?oc=5",
+      "source": "Maringá Post",
+      "published_at": "Mon, 25 May 2026 07:00:00 GMT",
       "category": "Tecnologia",
       "signal": "flat"
     },
