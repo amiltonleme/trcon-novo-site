@@ -1,14 +1,23 @@
 {
-  "generated_at": "2026-08-24T20:21:18.102524+00:00",
+  "generated_at": "2026-08-25T08:26:17.412177+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
     {
-      "title": "IA generativa ainda não gera retorno para maioria das empresas, diz estudo",
-      "summary": "IA generativa ainda não gera retorno para maioria das empresas, diz estudo",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZ3czZ0dLbm15X2FNV1o2ckFJdVFHTm9NWmtudGFjX3hVMWFnVUpwV2VWNjVxSDRaRTlyV3FYZGU5STF4S094WlZfVVFja25Nb05CekdfdDRRcVVIMndwdHZrUVJ6QWpPeDhRN00zbnh1V3d1NFBDT2ZCS3kxTEhkcjFwVlBLRWluQ1BFTThZVGFrRWJoNFA0cndoZnBJR0NTRGR1XzBZakMxS2ctVmxwamNiZFhKLWlTVjdqbGNnV3A4V1lVR3pLRw?oc=5",
-      "source": "CNN Brasil",
-      "published_at": "Mon, 24 Aug 2026 07:25:07 GMT",
+      "title": "Governança de dados: por que empresas brasileiras ainda enfrentam desafios com a Inteligência Artificial...",
+      "summary": "Governança de dados: por que empresas brasileiras ainda enfrentam desafios com a Inteligência Artificial...",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNV94ME9ZRzRPRVk1RnRBS2VjN3hKVjdueEJfN2tuTEVFTGFQaWZZcGJFQWx5Q3ZDcVVEUWh3bUNKZldVTXNQYUhVM1htRFlPdmR4ejFWbjlTYWJaUll0LVBQaDBmSnlieWZJaDRERFBuekdvb21JeVpNQzBsSkMybXFQUGZnMVhOUXA1QWdMRHZpTjdUSUxDa3ZLYjBGdUNKRmx4U3J1UU5XV0l1TkpJVHhBWTV0WG9ZOWlrVzdPajBuZFRHSWhmdWctZzg2bmc4TklPSTR2dXBWQdIB3wFBVV95cUxNdnc4T2xBdDJvZi1ocjVCaEFxMzZxT0R4Tklnc1ZQMEFlYXlqbkxRbFFNTWNSYmZlcVNiT1plWmJyOXhTejdSQkF3SUk1b2xqbUhCdU15d0s3VDR5bUEzczVXNmY0Mk9LSEhZbVZidDdPYzk5Y1dwZWxEeTdvWk1MMWdjS0dsX1BqZWJHYm9ZeVRCSHBjMWItOGtmdHd1U2Z3dU9ydVJZZjBKeENSbmtPLTRwMXlabnhNeG1aakVpUEVxTFZBQlZ6Wm8zcXFxX3h5SlJUZUdzdThseEV5R25n?oc=5",
+      "source": "SEGS Portal Nacional",
+      "published_at": "Mon, 24 Aug 2026 20:35:43 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Governança corporativa e proteção de informações industriais na era da Inteligência Artificial | SEGS...",
+      "summary": "Governança corporativa e proteção de informações industriais na era da Inteligência Artificial | SEGS...",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSndFUG41UjFEVm84dXphTUFIN3JLcl9uZTZ6blhRVWZNNmxzSG1fTnZLUEpIMDlCOFVaNlVJYm9QLTk3eEE1cS1GNWNGNEhybXhPWW1xcnBLdXJSWWpUaFYzR2tyMlFuN1hIR2dzMFMweXQya0ZYN1BKaGp5cHZLQXFXV2FFclFlQnd2cmVnOE1kTE1Qc0hLMFc1c3BjOGpIVnNLNjdKWlpYRU4tMlNMSzJBeXFjeXEtY2lPRzB2ZS0tbWxIX0gwT29qSzRMUdIB0wFBVV95cUxPcUlFRGlxel9yTE5kdHRsWUFjdG4zLWxtLW92ZUU5SjNUT2ZjQWltZDF6empPdVhWSzVIeU1PM0ZSdERjNWNMX2JOc19ILWNrczJIVmJSMVZpSjg0bmtFMVotQTNGYTcydFhmVGRJZ2V1UlRYSk8yQUhXQllrb24yekJ1aGFVQjZFOE1BaW1wX3BVa0V0Ri1OVVVkMHNSU3lKdlREVlFlN0lkczdaX0pHUTNlLXBvclpkRHpWc0VBdXVHR1FUWVcxdGtmUW9lT2ZIRFpr?oc=5",
+      "source": "SEGS Portal Nacional",
+      "published_at": "Mon, 24 Aug 2026 20:35:45 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -17,7 +26,7 @@
       "summary": "7 cuidados ao integrar inteligência artificial à gestão das empresas",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZTdPcXdKdjVyaGxpUlF2cmQ4QUJxUnU0NTFIM0x1TDc2Y1dETTU2UDQwekRybWFvSUIyOV9RVG00U0c5QnBWRnhWOHYtSG5GQi1tMFhWRmNtMmxOMFNMMzZENjU1UHZWa3Y4dTZuT193blJSc3lqODViUDVUaVNZR3hWaTRQbEZidW1feGVzRm80bzRudjdaT0d5cnVqeGdCN0NXY1J4ejFORWFtZC1XeXB6b2lUYk9oRjJXLTdtREQ1RkZ6RUFobmhKS2pnakszZnNjSzUzNGkzc3VDdU1ZbS01ZjZNcW1Y?oc=5",
       "source": "GZH",
-      "published_at": "Mon, 24 Aug 2026 20:02:33 GMT",
+      "published_at": "Mon, 24 Aug 2026 20:04:05 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -38,15 +47,6 @@
       "published_at": "Mon, 24 Aug 2026 18:32:33 GMT",
       "category": "IA",
       "signal": "flat"
-    },
-    {
-      "title": "A reviravolta no mercado de trabalho: por que o avanço da IA faz empresas buscarem profissionais 50+",
-      "summary": "A reviravolta no mercado de trabalho: por que o avanço da IA faz empresas buscarem profissionais 50+",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTTB4aU9FckJEaTRHU282M3VPN0JBQ3pHX1RqYS00Y2Nud2oyOS0tbkNkSTRaYU5FNldtMElkbTFQekVyeC11RDRKN092a195czZ1enY4YjZ4Wkd4RWg3MnVPQVZ1c3ZhMmJOMmV0bEZGSW1XVHZJZzdnYzN0cXJxb2o2dUF0UFlRQlF4TUp2LXVQX0ltTnBlRnEwY0Fsd0piTkp4VVRvUGZYeG04ZVZQLUEtMWxWdjVTQVJJVFVZVlJpQm82ekRoS250WFVHbTZiaW8xQVhiRUlNVGlrbHB0MUxWeTNvYU0?oc=5",
-      "source": "NSC Total",
-      "published_at": "Fri, 21 Aug 2026 13:06:20 GMT",
-      "category": "IA",
-      "signal": "up"
     },
     {
       "title": "Inteligência artificial exige nova agenda de governança nas empresas",
