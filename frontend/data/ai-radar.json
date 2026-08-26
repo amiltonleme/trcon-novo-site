@@ -1,34 +1,14 @@
 {
-  "generated_at": "2026-08-25T20:20:04.445268+00:00",
+  "generated_at": "2026-08-26T22:37:45.483087+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
-  "errors": [
-    "Sem itens novos nesta execucao; mantido o ultimo artefato valido."
-  ],
+  "errors": [],
   "items": [
     {
-      "title": "IA generativa ainda não se traduz em retorno financeiro para maioria das empresas, aponta estudo",
-      "summary": "IA generativa ainda não se traduz em retorno financeiro para maioria das empresas, aponta estudo",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3ZEZ2aWRXX3d2WmJ5OTdXV09GeGgzQm9qcnJoS0RnTHgwcnBFOUdmQ0ZsZmxmTDRVODdvcHQxM2ozMkowQkJWXzFlaGZab0s2M1FSd2h5M2FuVFN4dm1RSUlvcmRRZzJmbHpPeG1NZFBSRndyRDJrWExpNXM4UVE?oc=5",
-      "source": "IT Forum",
-      "published_at": "Tue, 25 Aug 2026 16:28:08 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Estado americano investiga OpenAI por ataque hacker feito por inteligência artificial",
-      "summary": "Estado americano investiga OpenAI por ataque hacker feito por inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSXJvNjB3WGpIMGFOVDgxU1pDRENSb0tJSGxVcGRxTUhBLXIxRjE1VjBUMkRUbXRrUFp6VDNRSnB2V2FQSF9zMzZ3WWswODFWOVZUSFRiakN3dGYxQWM2cHlaVlVUaWRDTF84eUltV3RoSWxRT1ljeEtGRzhVV25PelAyMnlZaUhqWDY1T3JPeWE4MU9iTjRQNWwyZzMtVGNrLVh6Yy1WVEtMZGdfRnNZYmNLYm1vY0xUczc5SVFmUHlhXzRxem1QYkdtSjFTUG9DYVVrVlpPWDZLd9IB6AFBVV95cUxOdGlmdGlzdVZiVF9fMldPSG1BNzVKcW04UVRRd1dJbTZjQ3JLZk5Ha0VFUHk2V3hKOUFBSlRRSlJLa0NPa3ZZREVmWDlwaV9GZDJqZTJ4RW9Fb2hFdnhaRlctaXp1bUZtQk9HckdTSEhBbS1LVU5oRlliS0F6RDlNejJxdHROWWxfd1g0M0xuUkhrM21iVUNPVy0zN054R0d6MHh5OHh2dWdtSjhvZTBGX2pLYUE5cHpSUVBqTXgzNTIzRjNXYjY2V3hFUnc1SWQyR3dSUnVwdUVlQ0hzLWEtaUpwMS1pRzBM?oc=5",
-      "source": "G1",
-      "published_at": "Tue, 25 Aug 2026 00:34:05 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "7 cuidados ao integrar inteligência artificial à gestão das empresas",
-      "summary": "7 cuidados ao integrar inteligência artificial à gestão das empresas",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZTdPcXdKdjVyaGxpUlF2cmQ4QUJxUnU0NTFIM0x1TDc2Y1dETTU2UDQwekRybWFvSUIyOV9RVG00U0c5QnBWRnhWOHYtSG5GQi1tMFhWRmNtMmxOMFNMMzZENjU1UHZWa3Y4dTZuT193blJSc3lqODViUDVUaVNZR3hWaTRQbEZidW1feGVzRm80bzRudjdaT0d5cnVqeGdCN0NXY1J4ejFORWFtZC1XeXB6b2lUYk9oRjJXLTdtREQ1RkZ6RUFobmhKS2pnakszZnNjSzUzNGkzc3VDdU1ZbS01ZjZNcW1Y?oc=5",
+      "title": "Como empresas da Serra estão usando a inteligência artificial sem substituir trabalhadores; especialista fala sobre desafios",
+      "summary": "Como empresas da Serra estão usando a inteligência artificial sem substituir trabalhadores; especialista fala sobre desafios",
+      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOdjdBX296NWRXSE43SDFOeW40cUYwcHhrOHlPbmlLQ1dMc3FPVS1uMTRRc1FWX0VjbjBudVhDbGpqTFVoWU41OExPWnRFaUd3UnBRVmFHQVdaWlJwcUdvYzJveWFxZll4NG9OamQ5LW1IX0t4aVViTUhEVTB4MG90YWdOZDh3aTBxOXFZRU5RakNvQ1A0MzFORS1KbUNncl9KQlhFaDVFMEluSFo5SWpTT0gzbzg3ckZsTXBVaHppVDk1Z3hScHI4bDFTTzdxWkR5eEhxU0dXMlVzQlVPWnBtZU9Ob09ZaE92VURmSkdsVWZFZTIwSmkzc1F1YnQwYllmWm1Vay1MUklmdHlPNXcyRkg2ZVZheS1sUXZfYVhWV2ZNYS1xYnlFSzUyRG1hVEFNaWx5WnowUnVEZE1Uenc?oc=5",
       "source": "GZH",
-      "published_at": "Mon, 24 Aug 2026 20:04:05 GMT",
+      "published_at": "Wed, 26 Aug 2026 15:13:19 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -42,20 +22,38 @@
       "signal": "flat"
     },
     {
-      "title": "A fase de testes acabou: Enquanto grandes empresas utilizam IA para reduzir custos milionários, profissionais especializados buscam multiplicar seus salários",
-      "summary": "A fase de testes acabou: Enquanto grandes empresas utilizam IA para reduzir custos milionários, profissionais especializados buscam multiplicar seus salários",
-      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNX3hFeVhlUHBOQS1DNXFhQ2xoVmZ5TFJoV3VfVEQ0WHdCV0hpdFRhU0V6VTFFU3gwbm83c2k3V0dYODVKbzRjVnRmblhpa0U5ZVVCUmxGMC1YemsxOVZJdkNsN1B3WVFUR2NsLVFrYzg3VVVwV1BsazNobFRBTUxDWGRGWmxYY1ZnTl9fZkstb19zeUV6RzV6R1I2RG9VQUo2REp6RnhYd1ZsRlNVOVlQN1NSZ1FMZVFtSGVrQmJRTVhJWVdxOE5LTmdnQUh0SDV6UjRhQmRCRjVZNWNsTDNGX2kwLTlnaWhDeGdQWURIa3lENk5wVnZOZmhDbl93VjZ5WmVKdGlWaGsyalNRLUNvbjl5bnZHOHlHVkxyZHBQbklmTFBwZU8wTkJrUGU5ZDlEalNz?oc=5",
-      "source": "Seu Dinheiro",
-      "published_at": "Mon, 24 Aug 2026 18:32:33 GMT",
+      "title": "Sua empresa está preparada para a próxima onda da inteligência artificial? | SEGS Portal Nacional de...",
+      "summary": "Sua empresa está preparada para a próxima onda da inteligência artificial? | SEGS Portal Nacional de...",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeC1ZeERkYnR2YkFiRHQ2VG5xSjZVbkFDbmdTa3NjOHZOa0VMR1Y1bElLNzZuNUp2bmJ6eXlBcEhWa3BOMVBJbFZzbU9DVGc1Xy04YXppTmRFV0NjZC00MnY2c3E5YnRleXZTdWF2azhwYTBwaTBoYl9OVFNkS190Ul93UXBxdXBQV1MwMnJlWmEzTHBvUDI3MGRxcUVTclY3N2d1ZmFocTJSNFMwR1ktZ05B0gG3AUFVX3lxTE9pVEpDNFI4cWZ5Qk85TjlfYjV4aExJSFFPZGNHNXF4Q0U4dzlhVmNRRHNQaFJSNjZrdnVJeU55VkItLVNHejVHNkRxUzh5ZXJ2TUFFbkVBZDFnNmhwRkZNd1hzLUVDN09NdDMycjlESGpvb1V2cVI0alB2SjA0RC1DdzAwWHFCUG5IZmxHQlJJYk42M2lxdzlGQ003OEVTaDZNcHFsZ0ZfZ1dTZ3k1MGhtQ2ZuVkFSTQ?oc=5",
+      "source": "SEGS Portal Nacional",
+      "published_at": "Wed, 26 Aug 2026 17:43:34 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Primero capta R$ 62 milhões para implementar inteligência artificial em grandes empresas da América Latina",
-      "summary": "Primero capta R$ 62 milhões para implementar inteligência artificial em grandes empresas da América Latina",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80TXpLZTEwRTFjZEZjVDRnN2ZYcktraWVReUl0YVhVLU1neVRRdG10QmVwRWpVT2FzVEtIX0hIeW9raFF4OFZiZm85dTVWZ0phNlJiY0UyQUpDQzRnUF9faA?oc=5",
-      "source": "Startupi",
-      "published_at": "Tue, 25 Aug 2026 17:00:00 GMT",
+      "title": "Nova York Quer Que Empresas Meçam o Impacto da IA nos Empregos, Um Desafio Maior do Que Parece",
+      "summary": "Nova York Quer Que Empresas Meçam o Impacto da IA nos Empregos, Um Desafio Maior do Que Parece",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPS210dDYyUk5Na1p3UHVUNk9jT2lBeEp1OHUtNEREd0xjQW1xX29LdHJEVGtGTEFLaU5LUXJueUxHU19nMTNDLURNV1EtdndyXzhtTEV1a0xLZzBrOFQxdEtKVlBrZUxjTUdxR05ZeURTeFB6SmRGM3VqUm1BUUJMMHpMUDVoaTFYeUdqYV9jZlZtQnhpTUJtakVfcUxYSHgtQ2ZJbHdnOEZEVlpXeVA2RDdyRzQzQ2wxeEVvM2ZSLUxTZTlxdmxqYVkwdDZCQQ?oc=5",
+      "source": "Forbes Brasil",
+      "published_at": "Wed, 26 Aug 2026 08:00:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Relatório da OpenAI diz que sua rede foi invadida por agentes de IA rebeldes da própria empresa",
+      "summary": "Relatório da OpenAI diz que sua rede foi invadida por agentes de IA rebeldes da própria empresa",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOekZ2ODFxVGpHelYwMEtldFJqam9nYkxvOU9zcXp1NkItT3JPS0o5alhkck1ETUR0SWNPMEswUkRmcHNEejBiZmhJUHZPcFMtLVRuRExBRVdERXp4OG5Xd3hVLU5Jd3ZZc19WdlBzX2dnQnRpeWszTWRsZFFHcDJHQy11bVh5dmYtZldCQmRGY3R6TFNlV3dMcGFfelktTVhmY1AyYWtNNVNaZV9QQ3BsWmQ0MUVjZ0dvR2ZEQTRUdzlPNlNUMWVGTlNCR0FtWE40Y3NtcVkxZl9iWW56T1lkR3V0SkxBZ9IB9AFBVV95cUxPdi1BYUJaYXNTdFlIUU5SLW5UWHNTV0Q3MEpyc1FxMl9Fei1haC1sX0FlVFkxNmhfakRySjlRbWhBdDdJcDBzeGpjcVNGNU12QVg1TVpHUkp3TWtBeTk2NTNjSmJZV0lPUXRVeHF1MGlSOEc2by1MVE1tS2tzS0pwb28wcUxKZVZYbXhPUWNUVkNOS19mTlRyQW1mOXVyN29tSTFjUXJmNXB1YVIyeU02SklZTXdXd002T1ViZkJpVy0xRHRwMDdrZVNhVTVReV9aSGF2Sk9nYjhacENtTlkyZEEzaEZnLVJjWUZ2U3hTbUdacWFs?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Wed, 26 Aug 2026 19:27:47 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "O novo diferencial das empresas não será a inteligência artificial e sim a coletiva",
+      "summary": "O novo diferencial das empresas não será a inteligência artificial e sim a coletiva",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNi1LX2J2Vk4yNGw3VVQ5d0s1RHYyTWg5SVc1Wi1yRkpzVm9Ld0VKRE04NWw4NURQWUt5WFJqa1AtbFZRWjMzcm5LM1M2X042RzRnQ2hGWnpRTFNoUm9FdXpJZGMtUFVhVVdYSEFUQS1qNFZVVlBhZEdWZjBsTkx3TlpPV1lObkRGRkRaREljcU1sY2ZfVS1UVHpwSjBOdVJpSFdqX05PMndfSlU3M3pNSFljclN5OUNFT29CbXFjSm01QQ?oc=5",
+      "source": "jornaltribuna.com.br",
+      "published_at": "Wed, 26 Aug 2026 18:55:37 GMT",
       "category": "IA",
       "signal": "flat"
     }

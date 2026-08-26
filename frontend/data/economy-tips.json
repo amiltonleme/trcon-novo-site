@@ -1,65 +1,59 @@
 {
-  "generated_at": "2026-08-26T08:27:45.810593+00:00",
+  "generated_at": "2026-08-26T22:37:44.266745+00:00",
   "source_note": "Curadoria automatica de educacao financeira a partir de feeds RSS publicos, com complemento do catalogo estatico TRCONGROUP quando necessario.",
-  "errors": [
-    "Google News (Educacao Financeira): falha ao ler feed (HTTPError)",
-    "Google News (Educacao Financeira): falha ao ler feed (HTTPError)",
-    "Google News (Educacao Financeira): falha ao ler feed (HTTPError)",
-    "Google News (Educacao Financeira): falha ao ler feed (HTTPError)",
-    "Complementado com 4 dica(s) do catalogo estatico (RSS retornou 0 item(ns) relevante(s))."
-  ],
+  "errors": [],
   "items": [
-    {
-      "tag": "Contas",
-      "tag_class": "tag-orange",
-      "title": "Negocie tarifas bancarias antes de trocar de banco",
-      "body": "Pacotes de servicos, anuidade e tarifas podem ser reduzidos com uma ligacao ou chat. Compare o custo total anual, nao apenas uma taxa isolada.",
-      "meta": [
-        "3 min",
-        "Economia direta"
-      ],
-      "url": "https://www.google.com/search?q=como+negociar+tarifas+bancarias",
-      "link_label": "Ver passos",
-      "featured": true
-    },
     {
       "tag": "Mercado",
       "tag_class": "tag-blue",
-      "title": "Entenda a diferenca entre inflacao e taxa Selic",
-      "body": "Rentabilidade real so aparece quando o retorno supera a inflacao. Em periodos de juros altos, comparar com o IPCA ajuda a ver se seu dinheiro esta ganhando poder de compra.",
+      "title": "Selic cai para 14,75% ao ano e começa a redesenhar crédito, dívidas e investimentos no Brasil",
+      "body": "Selic cai para 14,75% ao ano e começa a redesenhar crédito, dívidas e investimentos no Brasil Jornal Grande Bahia",
       "meta": [
-        "4 min",
-        "Macro basico"
+        "Leitura rapida",
+        "Fonte: Jornal Grande Bahia"
       ],
-      "url": "https://www.google.com/search?q=rentabilidade+real+inflacao+selic",
-      "link_label": "Ler resumo"
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYlQ2dS1xQTdKek1XSDVxZW14eXJkbzJ1bkx5Q1dYRGNjdGNSYVpaVWc1V2FseFpuQTdUZmMxaDV5YXR5OExuejBTeFVvRmNpcm9RNGdUY2VQczhFUFRpRWJGLUlMR2ZKRjdXYnF0b2lteG9IYkdrNGM0em9KRGJZVmpPX3NabFpGNmxlMGhlLVZNYVcwZmRTZ0VEdkhjZ2I3dGJsa3ZrV2FJOE9XTEVBb1NyRTFZRnBfS1hKamM4dmc2dDRGYjZOV253eHk?oc=5",
+      "link_label": "Ler mais",
+      "featured": true
     },
     {
-      "tag": "Cotidiano",
+      "tag": "Estrategia Mensal",
+      "tag_class": "tag-green",
+      "title": "Tesouro Reserva: como funciona e quanto rende a nova “poupança 24 horas” do governo",
+      "body": "Tesouro Reserva: como funciona e quanto rende a nova “poupança 24 horas” do governo InfoMoney",
+      "meta": [
+        "Leitura rapida",
+        "Fonte: InfoMoney"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdlBkM3hSODJ6dnBRdW5wdUZ5dE5jWUpISjBPVGZSdDVBVzAwYlFmTk1PQ3dYREUzVk9tWGJTWHQxeEVNaHlZUGY4azNSNVF6Nm1lNVdGT1Q3aXV1dEhYRXVnWWxTbjBXcFhacGp6eG5ReEVVeHoyZnVZTDl5d29iSFR2LVhRNUZ2MjlKa29RNUhod1UycVlzZUFOcl9xX2NDQWFGWTZMTlBKa3BOc243Nmh0OHA4OFd0UWFOYWJCNVV1QdIBxwFBVV95cUxQRzQ3R2lkOHZxRm9HbHgtMjdMUGdQZzNXanpiemdBMDBnMGdmUTBudnZwbjI4S3N4TjZHMkMzMTdhbmExYWZLMVNvZGJfWHc2bFNqeVBzdjd0dzJPbXRkc2g1amk0RzVhcm9COFFCYVBJdENWSWh1LWJfU3R2aVNiN2dCWW1iV2luNWZMTWFncTZYZkh5QVltbHJ0aHZ5aUpRS3VyY2xoWEllWVVNd1RYZXF2YjdWYm9KUTY2TTk3NnNFOE1CVHRN?oc=5",
+      "link_label": "Ler mais"
+    },
+    {
+      "tag": "Estrategia Mensal",
+      "tag_class": "tag-green",
+      "title": "Poupança ainda lidera investimentos no Brasil enquanto maioria segue sem reserva financeira",
+      "body": "Poupança ainda lidera investimentos no Brasil enquanto maioria segue sem reserva financeira A Revista",
+      "meta": [
+        "Leitura rapida",
+        "Fonte: A Revista"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUkxDU29hRWprVG9sNmp0MlpqdVp3Vk0tcjNac2gwS2dFMTA3Sm9XNVpOa1IwZ1BQaTRaTlIzblZaQmJyWl93dklncmg4Z0tUZUtjNk5fSXc5SnZRU1hScWlzZmtUbTNmVWhmbGk0OHJPWHZ1aEJoVWxSNnBNeE4xam1UdGRRLUdzOHVLalJzdndqM0dXNHZMejRENVFIcGpNaWRMLTZvUXVUazRHVFFmb0V6V01TZ1ZWcFRWV3hZRUdiVFVrSlpEd2RwWjRCV2xUZHc?oc=5",
+      "link_label": "Ler mais"
+    },
+    {
+      "tag": "Cartao",
       "tag_class": "tag-orange",
-      "title": "Faca lista de compras e evite ir ao mercado com fome",
-      "body": "Compras por impulso elevam a conta do mes. Planejar refeicoes da semana e levar lista reduz desperdicio e repeticao de itens caros ja em casa.",
+      "title": "Educação financeira: prevenção de dívidas começa na escola",
+      "body": "Educação financeira: prevenção de dívidas começa na escola Senado Federal",
       "meta": [
-        "2 min",
-        "Habito simples"
+        "Leitura rapida",
+        "Fonte: Senado Federal"
       ],
-      "url": "https://www.google.com/search?q=como+economizar+no+supermercado+lista+de+compras",
-      "link_label": "Ver checklist"
-    },
-    {
-      "tag": "Aposentadoria",
-      "tag_class": "tag-blue",
-      "title": "Comece cedo, mesmo com valores pequenos",
-      "body": "Adiar a previdencia privada ou aportes longos encarece muito a meta. O importante e criar o habito cedo; o valor pode crescer conforme a renda aumenta.",
-      "meta": [
-        "5 min",
-        "Longo prazo"
-      ],
-      "url": "https://www.google.com/search?q=previdencia+privada+quando+comecar",
-      "link_label": "Ver introducao"
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTElENHZHVVlaNkFZSER2V2xySEdOVWNQeU1XeTRUSGpyRktfNDduUFJXSnl2bXlqcndqeGpqN2lhNXY2Yk5LeXRTVjJ2NDRESDhMMDRNOTh6ZmFCNWN5SWgta0h2VExPekRfeE0wQXVObXZ3Y3dhcldiZFBPRFZxcW1icmpYcEFhQmczQjVkR1VfS0NfZUlZWVg4RUc4YlR6d3Y0T1ZCTmIyalZlSkJJOFlLaGdJdw?oc=5",
+      "link_label": "Ler mais"
     }
   ],
-  "source_mode": "catalogo",
-  "rss_items": 0,
+  "source_mode": "rss+catalogo",
+  "rss_items": 4,
   "disclaimer": "Conteudo educacional. Nao constitui recomendacao individual de investimento."
 }
