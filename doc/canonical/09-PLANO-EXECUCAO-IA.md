@@ -42,7 +42,7 @@ trcongroup/
 | 5 | ✅ **Concluída.** Integração frontend → backend: módulo `lead-form.js` (`buildLeadPayload`/`submitLead`/`mensagemDeErro`), formulário com `tipoInteresse`, CTAs pré-selecionando o tipo via `data-lead-type`, config apontando para `/api/v1/site/leads`. Validado no navegador: 201 (persistido), 409 duplicado e fallback de backend offline. 32 testes Vitest | 1–2 sessões | Testar formulário ponta a ponta em ambiente de teste | Fases 1, 2, 4 |
 | 6 | ✅ **Concluída.** Pipeline SOLID (`core`/`providers`/`builders` + scripts finos) gerando `ai-radar.json`, `tech-radar.json`, `home-highlights.json`, `news-log.json` (shape = contratos do backend). 16 testes unittest, fallback ao último artefato validado, workflow `update-content.yml` 2x/dia | 2–3 sessões | Aprovar curadoria/fontes usadas | Fase 3 |
 | 7 | ✅ **Concluída.** Home Radar + Novidades + fallback API→JSON; layout **cards-grid** (27/07) | — | — | Fases 1, 5, 6 |
-| 8 | 🟡 **Parcial.** Backend prod Coolify (`api-site.*`); frontend DNS Hetzner pendente — [12-DEPLOY.md](./12-DEPLOY.md), [16-PASSO-A-PASSO.md](./16-PASSO-A-PASSO.md) | provisionamento + redeploy V6 | Validar smoke economy tips | Fases 1–7 |
+| 8 | 🟡 **Parcial.** Backend prod Coolify (`api-site.*`); frontend DNS Hetzner pendente — [12-DEPLOY.md](../12-DEPLOY.md), [16-PASSO-A-PASSO.md](../16-PASSO-A-PASSO.md) | provisionamento + redeploy V6 | Validar smoke economy tips | Fases 1–7 |
 | 8b | ✅ **Concluída (código).** Integração Sirius Marketing + economy tips V6 | — | Redeploy prod | Fase 8 |
 | 9 | Consolidação: observação, corte `fluxo-caixa-app/site-trcon` | contínuo | Decisão explícita | Fase 8 estável |
 | 10 | Sprint 8: página artigo + SEO/RSS | 3–5 dias dev | Aceite SEO | Fase 8 |

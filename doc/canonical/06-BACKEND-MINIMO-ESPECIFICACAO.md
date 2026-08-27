@@ -3,9 +3,9 @@
 ## Objetivo
 
 Primeira versão implementável de `site/backend`, coerente com:
-[02-ARQUITETURA-CANONICA.md](./02-ARQUITETURA-CANONICA.md),
-[04-BACKEND-STACK-CANONICA.md](./04-BACKEND-STACK-CANONICA.md),
-[05-BACKEND-ARQUITETURA-MVC.md](./05-BACKEND-ARQUITETURA-MVC.md).
+[02-ARQUITETURA-CANONICA.md](02-ARQUITETURA-CANONICA.md),
+[04-BACKEND-STACK-CANONICA.md](04-BACKEND-STACK-CANONICA.md),
+[05-BACKEND-ARQUITETURA-MVC.md](05-BACKEND-ARQUITETURA-MVC.md).
 
 ## Escopo da primeira versão (implementado — jul/2026)
 
@@ -15,9 +15,9 @@ Primeira versão implementável de `site/backend`, coerente com:
 - **Educação Financeira:** `economy_tips` (API + pipeline RSS)
 - healthcheck, profiles dev/prod, Docker/Coolify
 
-Ver matriz completa em [`14-STATUS-IMPLEMENTACAO.md`](./14-STATUS-IMPLEMENTACAO.md).
+Ver matriz completa em [`14-STATUS-IMPLEMENTACAO.md`](../14-STATUS-IMPLEMENTACAO.md).
 
-- **Sprint 8:** artigo por slug, body, sitemap, RSS (V7 — ver [`14-STATUS-IMPLEMENTACAO.md`](./14-STATUS-IMPLEMENTACAO.md))
+- **Sprint 8:** artigo por slug, body, sitemap, RSS (V7 — ver [`14-STATUS-IMPLEMENTACAO.md`](../14-STATUS-IMPLEMENTACAO.md))
 
 ## Fora de escopo (ainda)
 
@@ -60,7 +60,7 @@ Request news (resumo):
 }
 ```
 
-`coverImageUrl` é opcional (HTTPS, ≤500). Desenho A — ver [`19-DESENHO-MIDIA.md`](./19-DESENHO-MIDIA.md).
+`coverImageUrl` é opcional (HTTPS, ≤500). Desenho A — ver [`19-DESENHO-MIDIA.md`](../19-DESENHO-MIDIA.md).
 ## Módulo 5 — Economy tips (Educação Financeira)
 
 ### Entidade `EconomyTip` (V6)
@@ -221,7 +221,7 @@ sempre por variável de ambiente.
 
 ## Testes mínimos obrigatórios
 
-Ver critérios completos em [10-TESTES-QUALIDADE.md](./10-TESTES-QUALIDADE.md).
+Ver critérios completos em [10-TESTES-QUALIDADE.md](10-TESTES-QUALIDADE.md).
 
 - Unitários: `LeadService`, `LeadMapper`, validações customizadas
 - Integração (Testcontainers + Postgres): `POST /api/v1/site/leads`, `GET /api/public/highlights`, `GET /api/public/news`

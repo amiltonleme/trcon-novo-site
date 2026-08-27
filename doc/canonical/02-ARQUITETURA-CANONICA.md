@@ -8,7 +8,7 @@ Definir a arquitetura oficial do site institucional/plataforma TRCon garantindo:
 - baixo custo operacional e tecnológico
 - preservação da identidade visual
 - arquitetura MVC no backend, aderente a SOLID
-- cobertura de testes ≥ 80% (ver [10-TESTES-QUALIDADE.md](./10-TESTES-QUALIDADE.md))
+- cobertura de testes ≥ 80% (ver [10-TESTES-QUALIDADE.md](10-TESTES-QUALIDADE.md))
 
 ## Localização física (monorepo)
 
@@ -29,7 +29,7 @@ escopo — nenhum documento ou artefato aqui deve referenciá-lo ou alterá-lo.
 O site evolui para uma arquitetura **híbrida**, com:
 
 - frontend estático (`site/frontend`) para experiência pública e conteúdo editorial
-- backend próprio (`site/backend`) para dados persistidos e capacidades transacionais, em **MVC** (ver [05-BACKEND-ARQUITETURA-MVC.md](./05-BACKEND-ARQUITETURA-MVC.md))
+- backend próprio (`site/backend`) para dados persistidos e capacidades transacionais, em **MVC** (ver [05-BACKEND-ARQUITETURA-MVC.md](05-BACKEND-ARQUITETURA-MVC.md))
 - conteúdo dinâmico gerado offline (scripts) sempre que isso reduzir custo e complexidade
 
 ## Regra canônica de fronteira
@@ -42,7 +42,7 @@ O site evolui para uma arquitetura **híbrida**, com:
 
 ### Camada 1 — Apresentação (`site/frontend`)
 
-- renderização da interface institucional (posicionamento em [01-POSICIONAMENTO-INSTITUCIONAL.md](./01-POSICIONAMENTO-INSTITUCIONAL.md))
+- renderização da interface institucional (posicionamento em [01-POSICIONAMENTO-INSTITUCIONAL.md](01-POSICIONAMENTO-INSTITUCIONAL.md))
 - leitura de JSON publicado em `data/`
 - consumo de API pública do backend quando aplicável (`news`, `highlights`, **`economy-tips`**)
 - **Educação Financeira:** merge `GET /api/public/economy-tips` (marketing) + `data/economy-tips.json` (RSS); disclaimer editorial na home
@@ -59,7 +59,7 @@ Responsável por:
 - **Educação Financeira curada:** tabela `economy_tips` (Flyway V6); ingestão via `POST /api/internal/economy-tips` (Sirius Marketing); leitura pública `GET /api/public/economy-tips`
 - APIs internas do ecossistema TRCon Site
 
-Arquitetura obrigatória: MVC modular monolith — controller / service / repository / mapper / VO / DTO / domain / shared. Detalhes completos em [05-BACKEND-ARQUITETURA-MVC.md](./05-BACKEND-ARQUITETURA-MVC.md).
+Arquitetura obrigatória: MVC modular monolith — controller / service / repository / mapper / VO / DTO / domain / shared. Detalhes completos em [05-BACKEND-ARQUITETURA-MVC.md](05-BACKEND-ARQUITETURA-MVC.md).
 
 ### Camada 3 — Conteúdo gerado (`site/frontend/data`)
 
@@ -97,7 +97,7 @@ Não introduzir backend para: texto editorial estático, cards públicos pré-ge
 - **I**: contratos pequenos — frontend não conhece detalhe interno do backend; providers não conhecem renderização
 - **D**: serviços dependem de abstrações internas (`ContentProvider`, `LeadRepository` como interface), não de detalhes concretos espalhados
 
-Detalhamento por camada de código em [05-BACKEND-ARQUITETURA-MVC.md](./05-BACKEND-ARQUITETURA-MVC.md).
+Detalhamento por camada de código em [05-BACKEND-ARQUITETURA-MVC.md](05-BACKEND-ARQUITETURA-MVC.md).
 
 ## Regra de atualização automática
 
@@ -111,7 +111,7 @@ Detalhamento por camada de código em [05-BACKEND-ARQUITETURA-MVC.md](./05-BACKE
 
 ## Política de falha
 
-- o site nunca quebra por ausência de fonte externa ou por indisponibilidade do backend (fallback para JSON estático — ver [07-MIGRACAO-PARALELA.md](./07-MIGRACAO-PARALELA.md))
+- o site nunca quebra por ausência de fonte externa ou por indisponibilidade do backend (fallback para JSON estático — ver [07-MIGRACAO-PARALELA.md](../07-MIGRACAO-PARALELA.md))
 
 ## Segurança e governança
 
@@ -119,14 +119,14 @@ Detalhamento por camada de código em [05-BACKEND-ARQUITETURA-MVC.md](./05-BACKE
 - segredos de IA em lote e credenciais de banco apenas em CI/ambiente do backend
 - nenhum dado sensível de usuário no pipeline de conteúdo editorial
 - **`TRCON_SITE_INTERNAL_API_KEY`** protege `/api/internal/*` (marketing)
-- rate limit recomendado na borda (Cloudflare) para leads — ver [`15-GAPS-PRODUCAO-SEGURANCA.md`](./15-GAPS-PRODUCAO-SEGURANCA.md)
+- rate limit recomendado na borda (Cloudflare) para leads — ver [`15-GAPS-PRODUCAO-SEGURANCA.md`](../15-GAPS-PRODUCAO-SEGURANCA.md)
 
 ## Decisão oficial
 
 - frontend público leve (`site/frontend`)
 - backend próprio MVC para persistência e regras transacionais (`site/backend`)
 - conteúdo editorial gerado offline
-- produção em Cloudflare + Hetzner + Coolify + Neon, conforme [12-DEPLOY.md](./12-DEPLOY.md)
+- produção em Cloudflare + Hetzner + Coolify + Neon, conforme [12-DEPLOY.md](../12-DEPLOY.md)
 - infraestrutura local e pipelines centralizados em `site/infra`
 - cobertura de testes ≥ 80% como critério de aceite de qualquer entrega de backend
-- evolução incremental, guiada por SOLID e pelo [09-PLANO-EXECUCAO-IA.md](./09-PLANO-EXECUCAO-IA.md)
+- evolução incremental, guiada por SOLID e pelo [09-PLANO-EXECUCAO-IA.md](09-PLANO-EXECUCAO-IA.md)

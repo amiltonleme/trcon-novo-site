@@ -162,3 +162,112 @@ export function safeGradient(value) {
     ? text
     : 'linear-gradient(135deg,#1a2535,#0d1219)';
 }
+
+// Tags que abrem um bloco no início do texto — sinal de que o corpo já vem
+// como HTML pronto (ex.: pipeline do Sirius Marketing), e não como o
+// markdown-lite que renderArticleBody normalmente espera.
+const HTML_BODY_START_RE =
+  /^<(h[1-6]|p|ul|ol|blockquote|div|figure|table|section|article)\b/i;
+
+/** true quando `value` parece um corpo de artigo já em HTML (não markdown-lite). */
+export function isHtmlArticleBody(value) {
+  return HTML_BODY_START_RE.test(String(value || '').trim());
+}
+
+// Tags/atributos que nunca devem sobreviver à sanitização, mesmo com seu
+// conteúdo — removidos por completo (tag + conteúdo).
+const STRIP_WITH_CONTENT_TAGS = [
+  'script',
+  'style',
+  'iframe',
+  'object',
+  'embed',
+  'noscript',
+  'form',
+  'textarea',
+  'select',
+  'svg',
+  'math',
+];
+
+// Tags "vazias" (sem conteúdo de risco) removidas isoladamente, sem afetar o
+// texto ao redor.
+const STRIP_STANDALONE_RE = /<\/?(?:input|button|link|meta|base)\b[^>]*>/gi;
+
+// Allowlist do corpo do artigo: só estes elementos sobrevivem à sanitização.
+const ALLOWED_TAGS = new Set([
+  'p',
+  'h2',
+  'h3',
+  'h4',
+  'h5',
+  'h6',
+  'ul',
+  'ol',
+  'li',
+  'strong',
+  'em',
+  'b',
+  'i',
+  'u',
+  'br',
+  'hr',
+  'blockquote',
+  'a',
+  'img',
+  'span',
+  'figure',
+  'figcaption',
+  'pre',
+  'code',
+]);
+const VOID_TAGS = new Set(['br', 'hr', 'img']);
+const TAG_RE = /<(\/?)([a-zA-Z][a-zA-Z0-9]*)((?:\s+[^<>]*)?)\/?>/g;
+
+function extractAttr(attrString, name) {
+  const re = new RegExp(`${name}\\s*=\\s*("([^"]*)"|'([^']*)'|([^\\s>]+))`, 'i');
+  const match = String(attrString || '').match(re);
+  if (!match) return '';
+  return match[2] ?? match[3] ?? match[4] ?? '';
+}
+
+/**
+ * Sanitiza HTML de corpo de artigo com uma allowlist de tags/atributos —
+ * usado quando isHtmlArticleBody() indica que o conteúdo já vem formatado
+ * (ver renderArticleBody em article.js). Sem dependência de DOM/DOMParser
+ * para permanecer testável em Node puro (doc/03-FRONTEND-STACK-CANONICA.md).
+ */
+export function sanitizeArticleHtml(html) {
+  let out = String(html || '');
+
+  for (const tag of STRIP_WITH_CONTENT_TAGS) {
+    const withContent = new RegExp(`<${tag}\\b[^>]*>[\\s\\S]*?<\\/${tag}\\s*>`, 'gi');
+    out = out.replace(withContent, '');
+  }
+  const strayDangerous = new RegExp(`<\\/?(?:${STRIP_WITH_CONTENT_TAGS.join('|')})\\b[^>]*>`, 'gi');
+  out = out.replace(strayDangerous, '');
+  out = out.replace(STRIP_STANDALONE_RE, '');
+
+  return out.replace(TAG_RE, (match, closing, tagNameRaw, attrs) => {
+    const tagName = tagNameRaw.toLowerCase();
+    if (!ALLOWED_TAGS.has(tagName)) return '';
+
+    if (closing) {
+      return VOID_TAGS.has(tagName) ? '' : `</${tagName}>`;
+    }
+
+    let attrHtml = '';
+    if (tagName === 'a') {
+      const href = safeUrl(extractAttr(attrs, 'href'));
+      if (!href) return '';
+      attrHtml = ` href="${escapeHtml(href)}" rel="noopener noreferrer"`;
+    } else if (tagName === 'img') {
+      const src = safeHttpsImageUrl(extractAttr(attrs, 'src'));
+      if (!src) return '';
+      const alt = escapeHtml(extractAttr(attrs, 'alt'));
+      attrHtml = ` src="${escapeHtml(src)}" alt="${alt}" loading="lazy"`;
+    }
+
+    return `<${tagName}${attrHtml}${VOID_TAGS.has(tagName) ? ' /' : ''}>`;
+  });
+}

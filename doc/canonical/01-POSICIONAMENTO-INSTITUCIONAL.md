@@ -49,7 +49,7 @@ O site institucional precisa deixar essas 4 linhas claras e navegáveis — hoje
 - IA aplicada a negócio
 
 ### Produtos
-- página existente de produtos, mantida e reforçada narrativamente (ver [08-REDESIGN-DIRETRIZES.md](./08-REDESIGN-DIRETRIZES.md))
+- página existente de produtos, mantida e reforçada narrativamente (ver [08-REDESIGN-DIRETRIZES.md](08-REDESIGN-DIRETRIZES.md))
 
 ### Produtos (detalhe)
 - páginas de detalhe por produto Sírius (Hub, Agendamento, Marketing), sem formulário embutido
@@ -66,12 +66,12 @@ O site institucional precisa deixar essas 4 linhas claras e navegáveis — hoje
 
 ## Impacto na arquitetura
 
-- o domínio de **lead/waitlist** deixa de ser só "waitlist de produto beta" e passa a ser um domínio de **Lead comercial** com tipo (`PRODUCT`, `CUSTOM_DEV`, `STAFFING`, `CUSTOMIZATION`) — isso é refletido em [06-BACKEND-MINIMO-ESPECIFICACAO.md](./06-BACKEND-MINIMO-ESPECIFICACAO.md)
-- conteúdo institucional (serviços, páginas) continua estático/editorial (Camada 1/3 de [02-ARQUITETURA-CANONICA.md](./02-ARQUITETURA-CANONICA.md)) — não precisa de banco
+- o domínio de **lead/waitlist** deixa de ser só "waitlist de produto beta" e passa a ser um domínio de **Lead comercial** com tipo (`PRODUCT`, `CUSTOM_DEV`, `STAFFING`, `CUSTOMIZATION`) — isso é refletido em [06-BACKEND-MINIMO-ESPECIFICACAO.md](06-BACKEND-MINIMO-ESPECIFICACAO.md)
+- conteúdo institucional (serviços, páginas) continua estático/editorial (Camada 1/3 de [02-ARQUITETURA-CANONICA.md](02-ARQUITETURA-CANONICA.md)) — não precisa de banco
 
 ## Critério de pronto do reposicionamento
 
 - site comunica claramente as 4 linhas de negócio
 - existe página/seção de Serviços com alocação de mão de obra
 - formulário de contato captura o tipo de interesse
-- identidade visual (logo, fundo, paleta) preservada conforme [08-REDESIGN-DIRETRIZES.md](./08-REDESIGN-DIRETRIZES.md)
+- identidade visual (logo, fundo, paleta) preservada conforme [08-REDESIGN-DIRETRIZES.md](08-REDESIGN-DIRETRIZES.md)
