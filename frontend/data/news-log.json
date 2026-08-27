@@ -1,71 +1,63 @@
 {
-  "generated_at": "2026-08-18T20:14:59.858725+00:00",
-  "source_note": "Historico de novidades TRCon consolidado dos radares.",
+  "generated_at": "2026-08-27T18:26:41.188252+00:00",
+  "source_note": "Historico de novidades TRCONGROUP consolidado dos radares.",
   "errors": [],
   "items": [
     {
-      "source": "BBC",
-      "category": "IA",
-      "title": "Inteligência artificial: líderes do setor dizem que IA significa menos horas de trabalho — mas seus funcionários afirmam trabalhar até 90 horas semanais",
-      "summary": "Inteligência artificial: líderes do setor dizem que IA significa menos horas de trabalho — mas seus funcionários afirmam trabalhar até 90 horas semanais",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tWDZMNUFSZ1FOMXNsdjhxZ1Rjc2pQSHl4TGZ1Yk5sSjVXQXJDMTNDb3lnVldvcmVzcFpJdWpYVHotek8xOGV6TURnWXJtWlJUc0NERlFIUURiY05qZW11U2ln0gFnQVVfeXFMTmk5MGNqNlcwdENPV2JhVFVWZVpabmdkQXlTWGQwMFVuOVJjSTUtanJTY0FGOHF3bmlBT2hUd1YwdTQydEVpZFZOXzk4RW5aMUdpNXhqV1BRS21JRWdYR3hYY0VycmlMaw?oc=5",
-      "publishedAt": "Tue, 18 Aug 2026 10:32:55 GMT"
-    },
-    {
-      "source": "Valor Econômico",
-      "category": "IA",
-      "title": "Empresas devem evitar 'turismo de IA' e focar nos impactos no negócio, diz chairman da OpenAI",
-      "summary": "Empresas devem evitar 'turismo de IA' e focar nos impactos no negócio, diz chairman da OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZ0Qxa0pON2ZmRzRwenBtQm5PQWVlOXgyakI3dE5xZXVIb2ZUdDg3c2FMenlIUGNWMklMZDhVdzZYNkU2Ui1RMlVGcjNQemZvZVp6V1lLU1lrYmhZRjNBMkdKT0FVQnRCeTFJSVNBMHVqMzJFUllxd0Z6RGxfMXl4bUhmWmpPeGJoV2E4R3RpelBVSXcwN3NaX1lxbG1oWU9hMUE3WllKNnpOeDYxTlk2N0kwSmt4Z25zYWRqQUVWTzhRbUVpdk1FX3RwWjhkZ21yZkpJM3FJMUctR3dWVVNxUUNn0gHwAUFVX3lxTE9TNzlURWNOUVBlZmtjdkNnVUFvYlYyNklkN0VselJjdVRHQlhnWHFXa3BxdUtRRDdWRHdKeDA3cHVid3NudEhMZkFIWmRCT1pmcDJXbGh2R0xodndheU1NdDJfcWtQV2FMY2pzakRjQzJTTnJaNXQ4b1h6RGEwVEdpblJseEZlSTZwd2lneEVaRjM2dXdMYlZfV3FCUUo4UEppOS1BQ2QwaGFOdHRWdnV6UWFyTmh5UzJiQ296ZGdnQjlPd09CS0RXUVloSzJpcVZSRURBbWo0Q1JxQlZ4anBmdkNpZVhQQjloeEJiMjBJRw?oc=5",
-      "publishedAt": "Tue, 18 Aug 2026 17:54:13 GMT"
-    },
-    {
-      "source": "estadao.com.br",
-      "category": "IA",
-      "title": "Dona do ChatGPT faz parcerias com empresas para crescer no País; veja quais",
-      "summary": "Dona do ChatGPT faz parcerias com empresas para crescer no País; veja quais",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNV0dSM3NlTF9mYnpiRlF1bUNfWFNtYjdaYUJQdjQ0NVpsU1c1d2J4WDdQSjJMaHhrblZ6MzFoOERENnRjekJMSURJaEgxYV9YUkcxUUpnaHlQdk9KTHpTUFZsa1ZTbDZseDJ6ejFFUC12RFBURDNuT1U2VTB6QVZwUzVhTE5ESU9LMTRXR3BtcmNxN1FTb0pVRjF0bjRDX1ZIZ0R3a2ZzQXh0UnEyZ0RpN05jQUxOTm9Db1N0WdIBwgFBVV95cUxOVmxvbU5qUlRva3VjOTdXYndvMlNHTnpqTkFNYU9JMlVkUkVhcTc2YU1kclg1NjNSLWc5Zkw4LXFIa3MwdXoyeGkydkppeUQ5WklhU2xJVm55T3pVNEhGcXB6R0dNUHJ3UVhUODJONDVvLUJJREVEajJ1ZUZ0UnBoRlJMbkhxbFg5blZ3dnZZRzJ3YkpBRlVMRXVoWFl6V0NlUHUxVnlwZEIxNTlWTHphYzRHcUZSQVRSQVdCRTZvaEVYQQ?oc=5",
-      "publishedAt": "Tue, 18 Aug 2026 08:00:00 GMT"
-    },
-    {
-      "source": "UOL Notícias",
-      "category": "IA",
-      "title": "IA cria novos empregos em mais da metade das empresas britânicas, diz estudo",
-      "summary": "IA cria novos empregos em mais da metade das empresas britânicas, diz estudo",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWTBhVFFuUDBqbmppaTVadDJtczllVzg1N18wR0RmTWphRkF3LWpNQnVsOVhUNEdnRFlBd1VUWWNTRVBGQ0NBbkZ3VjBDVHl2Y093QWs3QWVxS3FTNDBuMzNoc0dkMmRkTm1GQUpyWlNMcUtFRVRESEYzR0tKWXVMdDRJQkF2cnd6Z2ZJeDI0cnh6YWw0NHA3YjNjWmMzX2gzUkhSbEU5VHNtMl9ZQVdtMkw5QWp1RlpoRnRHWnR4QjExODh1bEg5Z05zVlBla2s4bk44SlFR?oc=5",
-      "publishedAt": "Tue, 18 Aug 2026 13:44:21 GMT"
-    },
-    {
-      "source": "CartaCapital",
-      "category": "IA",
-      "title": "Infraestrutura substitui ferramenta como nova fase da inteligência artificial nas empresas",
-      "summary": "Infraestrutura substitui ferramenta como nova fase da inteligência artificial nas empresas",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONDJoZVRWZWQ0bEw4MUtrY0xyeGkwRXMxWjZwZVg4NnE0RU5hTDhOWnhNZ0ExNWxfZlMzVWVDRGlLTERnUU8zajNBRlc5VEljVDJvX2VGc1pQTS1yVU16YmxVNGhrRThGWGdDNXJzZ3QxYkpuLWJ1Rlk5d3lSRnQzZ2hkc2JaMkI0endKYUZ5QUpQMzNKYnR2cE9vQmZhRjg?oc=5",
-      "publishedAt": "Tue, 18 Aug 2026 10:00:00 GMT"
-    },
-    {
       "source": "NeoFeed",
       "category": "IA",
-      "title": "O alerta do chairman da OpenAI sobre as empresas que caem na tentação do \"turismo de IA\"",
-      "summary": "O alerta do chairman da OpenAI sobre as empresas que caem na tentação do \"turismo de IA\"",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNkVIeWx4RXQ0N3VkSklPakhhMHRfdlFNaTFzOFlMOUtYMU5ubGxKWGRiSlpXeDBsa24xTXJqenF4Snc2YXRJWmltZ3pma3l4ZVg2UDRLYWttOElYRUlzbXFWbkgwckpwdWdtMjI3S3I1RVZKa29aREdEWG5oRzUzdE41bzh1XzFqeFhHNXF6MzBvVlBwZlRtTW5kU3l1VWt6NUtYcjkxOVRkUm5QSEVob1cxbWktXzJsNlBJ?oc=5",
-      "publishedAt": "Tue, 18 Aug 2026 18:48:00 GMT"
+      "title": "NeoSummit “IA na Real” leva ao palco a inteligência artificial que gera resultados",
+      "summary": "NeoSummit “IA na Real” leva ao palco a inteligência artificial que gera resultados",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNY3BOei1aQ3FRZVc4dGZweTFac3FCZXRLbDlaaHZrSUpsa3gwbjhtcTVCUE5oaEFzWXgyY0NfVmZDY0t1d1NwSk53bWZHb25zZFJEMkFobk5hLXQxWGRIVkpHQUtTaXBOZ3c5LUtKUFFuaDVnT085aHg0ZE9PZjFaQUVTdl9pTWEzZlBTX3BwbTdPa3VMZzlRTW9VbEUzeWlsd3h3dTFYMUxac3pFTk5UUE1OYUQtNGZ5TXpvdkhZV0I?oc=5",
+      "publishedAt": "Tue, 25 Aug 2026 10:55:00 GMT"
     },
     {
-      "source": "Prefeitura de São Paulo",
-      "category": "Tecnologia",
-      "title": "São Paulo concentra mais de 221 mil empregos formais em tecnologia e registra crescimento de 61% em ocupações no setor em uma década - Secretaria Municipal de Desenvolvimento Econômico e Trabalho",
-      "summary": "São Paulo concentra mais de 221 mil empregos formais em tecnologia e registra crescimento de 61% em ocupações no setor em uma década - Secretaria Municipal de Desenvolvimento...",
-      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQV2J3T3duUXJfeFBrYVZnaTlpYTRxYWVKZ0V2dGNYVlhNZEpiSThtZ1ZwakhZbV9SYU8zamdHcUFoRUsxRlNNRFhMZlVyZWxEUjg5REd0a0R5cEdRY3p5dXZpSWRwQjNJV3BCMHFELWNYSlZ4M28tVkZMalRNLTgyZ2tWdExRUC15UXAtVlRPZkVyZHZHc09McHhiMUlNejN1M242SlQ2enBBb0Q1NWowQ2JpTWlkcmRoOUFScXNXVlViRXdWX0QzcEVFT0hBdTRiYW5rZ2RaNVlLWlBqSmw2YTJnemVXVWUzZDhkenctM3otTndEbnRhLVBzVERtY2NWdzNTUF9OeHN6WDFDdGZqS0lUUVdta3J5cWNxdlJobHpobW5HLXNMa1J3?oc=5",
-      "publishedAt": "Fri, 17 Jul 2026 07:00:00 GMT"
+      "source": "Folha de S.Paulo",
+      "category": "IA",
+      "title": "Big techs e mais de 100 empresas pedem intensificação de medidas de defesa contra ataques da IA",
+      "summary": "Big techs e mais de 100 empresas pedem intensificação de medidas de defesa contra ataques da IA",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdEI4eVg1WTdnMnBRQ25keERWTXZlNXVWby1RVm9sRkhjWThqSktQdGptd3UtWFZjYUJWYnIzMEYwcGxTQ2JzX1ZCdzZORmh1SUJ5VjdXazJQcDNZUkZmbF9heWREQXBYLTZ3NlRpMi10dGhvS1lCc3JJNXhBY09yYWpqaUU5TGZMczY0SU0zU1VqVkQyVmxhNDJwNUxJY0RlcmVfWkFhaEhPQWpNSHN6YlhBNkxIekdDTmZCZ2g3Y1BtaVd4OHVZcFR2amVXLU42a2ZMd0k5WWlPSVU?oc=5",
+      "publishedAt": "Thu, 27 Aug 2026 18:13:00 GMT"
     },
     {
-      "source": "fcmsantacasasp.edu.br",
+      "source": "Folha de S.Paulo",
+      "category": "IA",
+      "title": "OpenAI diz que demorou 11 dias para detectar ataque de IA a outras empresas",
+      "summary": "OpenAI diz que demorou 11 dias para detectar ataque de IA a outras empresas",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZjNGWkZ2NmJNU0NGZXlPYWktSTh2YUtvWGdGN2hMUmI0Z2MwTjZzeEwzWDJQbUNoOGdoQ2E3eTc3R0VCZTE5eF9lcnAtUG5kVHRtYXhxX2ZTc25DejFQUjRobkItOGdEX2pUNXRlb09ucEJCd0x6VFpUaWRHOWZFTDI5Ung5ME9IWEgtUWVDWWdnd0NMRmVLTklNaWNabnhqdG1WUWdPZ015U1J5WU1CQTh4NHAzTTlsbUcySkhDczU?oc=5",
+      "publishedAt": "Thu, 27 Aug 2026 16:44:00 GMT"
+    },
+    {
+      "source": "GZH",
+      "category": "IA",
+      "title": "Como empresas da Serra estão usando a inteligência artificial sem substituir trabalhadores; especialista fala sobre desafios",
+      "summary": "Como empresas da Serra estão usando a inteligência artificial sem substituir trabalhadores; especialista fala sobre desafios",
+      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOdjdBX296NWRXSE43SDFOeW40cUYwcHhrOHlPbmlLQ1dMc3FPVS1uMTRRc1FWX0VjbjBudVhDbGpqTFVoWU41OExPWnRFaUd3UnBRVmFHQVdaWlJwcUdvYzJveWFxZll4NG9OamQ5LW1IX0t4aVViTUhEVTB4MG90YWdOZDh3aTBxOXFZRU5RakNvQ1A0MzFORS1KbUNncl9KQlhFaDVFMEluSFo5SWpTT0gzbzg3ckZsTXBVaHppVDk1Z3hScHI4bDFTTzdxWkR5eEhxU0dXMlVzQlVPWnBtZU9Ob09ZaE92VURmSkdsVWZFZTIwSmkzc1F1YnQwYllmWm1Vay1MUklmdHlPNXcyRkg2ZVZheS1sUXZfYVhWV2ZNYS1xYnlFSzUyRG1hVEFNaWx5WnowUnVEZE1Uenc?oc=5",
+      "publishedAt": "Wed, 26 Aug 2026 15:13:19 GMT"
+    },
+    {
+      "source": "Money Times",
+      "category": "IA",
+      "title": "Nvidia (NVDA) dá força à tese de IA, mas GT Capital ressalta que há um risco para os investidores; saiba qual",
+      "summary": "Nvidia (NVDA) dá força à tese de IA, mas GT Capital ressalta que há um risco para os investidores; saiba qual",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNjE5MlYtU3ZqaGNUZlBhNmFkRVdtMkZLclNRbmJ4X3RLU3JJZk4tOWl6WTRENW9zdnR3Y0Z0eE5pcjFPQ19aUU9IZnVjdzQ5aEZTbUd1SnB4TkxUMU80UFBVX0lZN1FZTDNDc0xJdTk3WUxmTUdkaHpyZl9LQWpUUmpqR2tvUC1JQ09FZElNM3EzTUxIMmY2RS1QaEVERzFWZ1BfTENvU0E3RTJacDluaGx6QWpxNTh5cy1zQkJTRURJNmc4QUV2WXl2Yw?oc=5",
+      "publishedAt": "Thu, 27 Aug 2026 16:42:00 GMT"
+    },
+    {
+      "source": "Eletrolar News",
+      "category": "IA",
+      "title": "Estudo aponta 5 padrões de líderes em inteligência artificial",
+      "summary": "Estudo aponta 5 padrões de líderes em inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQazhaWlk5cW5HYUFZd25yZFkxQkROaDlQTWlPYTFESUc3akk5NExfNi1mRVBtbGkwMTdqcjBqOXN3VGpxZGFuNG1LWXlmMjhHQkl3TnFnTFNSRXYwNzZhbUZyX1pIb1NZQkpxSklKblVqODBPdHJhX3hNMkx6SGtIVzBfUUxzMnhlS2NIXzUwdU5mcnlPSHc?oc=5",
+      "publishedAt": "Thu, 27 Aug 2026 15:28:54 GMT"
+    },
+    {
+      "source": "TI INSIDE Online",
       "category": "Tecnologia",
-      "title": "Análise e Desenvolvimento de Software na Saúde: por que a Faculdade Santa Casa é o futuro",
-      "summary": "Análise e Desenvolvimento de Software na Saúde: por que a Faculdade Santa Casa é o futuro",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQW1QYWdzZmhtelJEOHlXb0VldzhwX2JvaU1KSHp4TkM1Y3JjdlY0bjc0S01oOEFpaW9sREpKR25PRmtKVVY0LXVmZFZRMnpCUTZoVjktOHRidHlwQ0ZyR2JrdThQWnV6LTRiX1hvQXBhNHh3cXY2dldjRTZCek9fWFFVQTVFRTc0T1E?oc=5",
-      "publishedAt": "Fri, 15 May 2026 07:00:00 GMT"
+      "title": "Equipe virtual de agentes de IA reduz em até 70% o tempo de desenvolvimento de software na Dígitro Tecnologia",
+      "summary": "Equipe virtual de agentes de IA reduz em até 70% o tempo de desenvolvimento de software na Dígitro Tecnologia",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObGluV1kyWmNZa2VuODZNQzJ1LWV6NllPTHg2eVdBanUycklHWG5zR2Y1bUZJYmFCUDVDaTRFeFZlaS1WZU9fXzVLSVNhNDJPZElXTHR3bjhzVmw4NVh1V1lsWXNuLW9ycGNNdmU5Z1NWRmN5Y2NVZndBQWxWcnRkUjdEZVE4RjhuaXpHWmVnYnUzOGlGWEFaVThiakF4S0k5aFJlcTVLV0IwTV9XODl6UU5tY1RaMFFXb1doX1Qtcjg0YzVlaVp4ZnRqSzNmdG9BdnJLQ0diaGc1cjVk?oc=5",
+      "publishedAt": "Thu, 26 Mar 2026 07:00:00 GMT"
     },
     {
       "source": "TI INSIDE Online",
@@ -98,6 +90,14 @@
       "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
       "publishedAt": "Wed, 01 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "source": "Maringá Post",
+      "category": "Tecnologia",
+      "title": "Software by Maringá conecta empresas e impulsiona o desenvolvimento tecnológico",
+      "summary": "Software by Maringá conecta empresas e impulsiona o desenvolvimento tecnológico",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcFMzRGI1RUd2UXRQNFVXeWZ0Y2NpZjBvdVlqMGJLVXJwZ0dZN1JsUERFd292UTdROVZSaV8wOUx4N3pYbEhCNFBKbU9qT09fRnlpaXRIdlhTVGRXaHN2YjR1bk9PUjUyU3hFNVcyU2VQdTd0ZnBobTFPMnBCTXp1ZGdnTDZzNUQ2Rm43UWY1LUhTU082d2ducTctVzMwVmJ2V2FYV2YtZFZYTWdibEthYnpnYXNlcWVySFB0czF5SkJwLTJzbkE?oc=5",
+      "publishedAt": "Mon, 25 May 2026 07:00:00 GMT"
     }
   ]
 }

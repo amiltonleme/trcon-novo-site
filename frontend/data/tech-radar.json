@@ -1,23 +1,14 @@
 {
-  "generated_at": "2026-08-18T20:14:59.808872+00:00",
+  "generated_at": "2026-08-27T18:26:41.136128+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de tecnologia.",
   "errors": [],
   "items": [
     {
-      "title": "São Paulo concentra mais de 221 mil empregos formais em tecnologia e registra crescimento de 61% em ocupações no setor em uma década - Secretaria Municipal de Desenvolvimento Econômico e Trabalho",
-      "summary": "São Paulo concentra mais de 221 mil empregos formais em tecnologia e registra crescimento de 61% em ocupações no setor em uma década - Secretaria Municipal de Desenvolvimento...",
-      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQV2J3T3duUXJfeFBrYVZnaTlpYTRxYWVKZ0V2dGNYVlhNZEpiSThtZ1ZwakhZbV9SYU8zamdHcUFoRUsxRlNNRFhMZlVyZWxEUjg5REd0a0R5cEdRY3p5dXZpSWRwQjNJV3BCMHFELWNYSlZ4M28tVkZMalRNLTgyZ2tWdExRUC15UXAtVlRPZkVyZHZHc09McHhiMUlNejN1M242SlQ2enBBb0Q1NWowQ2JpTWlkcmRoOUFScXNXVlViRXdWX0QzcEVFT0hBdTRiYW5rZ2RaNVlLWlBqSmw2YTJnemVXVWUzZDhkenctM3otTndEbnRhLVBzVERtY2NWdzNTUF9OeHN6WDFDdGZqS0lUUVdta3J5cWNxdlJobHpobW5HLXNMa1J3?oc=5",
-      "source": "Prefeitura de São Paulo",
-      "published_at": "Fri, 17 Jul 2026 07:00:00 GMT",
-      "category": "Tecnologia",
-      "signal": "flat"
-    },
-    {
-      "title": "Análise e Desenvolvimento de Software na Saúde: por que a Faculdade Santa Casa é o futuro",
-      "summary": "Análise e Desenvolvimento de Software na Saúde: por que a Faculdade Santa Casa é o futuro",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQW1QYWdzZmhtelJEOHlXb0VldzhwX2JvaU1KSHp4TkM1Y3JjdlY0bjc0S01oOEFpaW9sREpKR25PRmtKVVY0LXVmZFZRMnpCUTZoVjktOHRidHlwQ0ZyR2JrdThQWnV6LTRiX1hvQXBhNHh3cXY2dldjRTZCek9fWFFVQTVFRTc0T1E?oc=5",
-      "source": "fcmsantacasasp.edu.br",
-      "published_at": "Fri, 15 May 2026 07:00:00 GMT",
+      "title": "Equipe virtual de agentes de IA reduz em até 70% o tempo de desenvolvimento de software na Dígitro Tecnologia",
+      "summary": "Equipe virtual de agentes de IA reduz em até 70% o tempo de desenvolvimento de software na Dígitro Tecnologia",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObGluV1kyWmNZa2VuODZNQzJ1LWV6NllPTHg2eVdBanUycklHWG5zR2Y1bUZJYmFCUDVDaTRFeFZlaS1WZU9fXzVLSVNhNDJPZElXTHR3bjhzVmw4NVh1V1lsWXNuLW9ycGNNdmU5Z1NWRmN5Y2NVZndBQWxWcnRkUjdEZVE4RjhuaXpHWmVnYnUzOGlGWEFaVThiakF4S0k5aFJlcTVLV0IwTV9XODl6UU5tY1RaMFFXb1doX1Qtcjg0YzVlaVp4ZnRqSzNmdG9BdnJLQ0diaGc1cjVk?oc=5",
+      "source": "TI INSIDE Online",
+      "published_at": "Thu, 26 Mar 2026 07:00:00 GMT",
       "category": "Tecnologia",
       "signal": "flat"
     },
@@ -54,6 +45,15 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
       "source": "jornaltribuna.com.br",
       "published_at": "Wed, 01 Jul 2026 07:00:00 GMT",
+      "category": "Tecnologia",
+      "signal": "flat"
+    },
+    {
+      "title": "Software by Maringá conecta empresas e impulsiona o desenvolvimento tecnológico",
+      "summary": "Software by Maringá conecta empresas e impulsiona o desenvolvimento tecnológico",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcFMzRGI1RUd2UXRQNFVXeWZ0Y2NpZjBvdVlqMGJLVXJwZ0dZN1JsUERFd292UTdROVZSaV8wOUx4N3pYbEhCNFBKbU9qT09fRnlpaXRIdlhTVGRXaHN2YjR1bk9PUjUyU3hFNVcyU2VQdTd0ZnBobTFPMnBCTXp1ZGdnTDZzNUQ2Rm43UWY1LUhTU082d2ducTctVzMwVmJ2V2FYV2YtZFZYTWdibEthYnpnYXNlcWVySFB0czF5SkJwLTJzbkE?oc=5",
+      "source": "Maringá Post",
+      "published_at": "Mon, 25 May 2026 07:00:00 GMT",
       "category": "Tecnologia",
       "signal": "flat"
     }
