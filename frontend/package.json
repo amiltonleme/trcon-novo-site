@@ -1,6 +1,6 @@
 {
   "name": "trcon-site-frontend",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "private": true,
   "type": "module",
   "description": "Frontend público do site TRCONGROUP (HTML/CSS/JS vanilla). Ver ../doc/03-FRONTEND-STACK-CANONICA.md",

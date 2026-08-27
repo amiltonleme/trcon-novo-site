@@ -16,9 +16,9 @@ class EmailTest {
 
     @Test
     void deveAceitarEmailValido() {
-        Email email = Email.of("contato@trcon.com.br");
+        Email email = Email.of("contato@trcongroup.com.br");
 
-        assertThat(email.value()).isEqualTo("contato@trcon.com.br");
+        assertThat(email.value()).isEqualTo("contato@trcongroup.com.br");
     }
 
     @Test
