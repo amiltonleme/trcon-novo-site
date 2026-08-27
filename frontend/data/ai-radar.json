@@ -1,17 +1,8 @@
 {
-  "generated_at": "2026-08-26T22:37:45.483087+00:00",
+  "generated_at": "2026-08-27T18:26:39.979459+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
-    {
-      "title": "Como empresas da Serra estão usando a inteligência artificial sem substituir trabalhadores; especialista fala sobre desafios",
-      "summary": "Como empresas da Serra estão usando a inteligência artificial sem substituir trabalhadores; especialista fala sobre desafios",
-      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOdjdBX296NWRXSE43SDFOeW40cUYwcHhrOHlPbmlLQ1dMc3FPVS1uMTRRc1FWX0VjbjBudVhDbGpqTFVoWU41OExPWnRFaUd3UnBRVmFHQVdaWlJwcUdvYzJveWFxZll4NG9OamQ5LW1IX0t4aVViTUhEVTB4MG90YWdOZDh3aTBxOXFZRU5RakNvQ1A0MzFORS1KbUNncl9KQlhFaDVFMEluSFo5SWpTT0gzbzg3ckZsTXBVaHppVDk1Z3hScHI4bDFTTzdxWkR5eEhxU0dXMlVzQlVPWnBtZU9Ob09ZaE92VURmSkdsVWZFZTIwSmkzc1F1YnQwYllmWm1Vay1MUklmdHlPNXcyRkg2ZVZheS1sUXZfYVhWV2ZNYS1xYnlFSzUyRG1hVEFNaWx5WnowUnVEZE1Uenc?oc=5",
-      "source": "GZH",
-      "published_at": "Wed, 26 Aug 2026 15:13:19 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
     {
       "title": "NeoSummit “IA na Real” leva ao palco a inteligência artificial que gera resultados",
       "summary": "NeoSummit “IA na Real” leva ao palco a inteligência artificial que gera resultados",
@@ -22,38 +13,47 @@
       "signal": "flat"
     },
     {
-      "title": "Sua empresa está preparada para a próxima onda da inteligência artificial? | SEGS Portal Nacional de...",
-      "summary": "Sua empresa está preparada para a próxima onda da inteligência artificial? | SEGS Portal Nacional de...",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeC1ZeERkYnR2YkFiRHQ2VG5xSjZVbkFDbmdTa3NjOHZOa0VMR1Y1bElLNzZuNUp2bmJ6eXlBcEhWa3BOMVBJbFZzbU9DVGc1Xy04YXppTmRFV0NjZC00MnY2c3E5YnRleXZTdWF2azhwYTBwaTBoYl9OVFNkS190Ul93UXBxdXBQV1MwMnJlWmEzTHBvUDI3MGRxcUVTclY3N2d1ZmFocTJSNFMwR1ktZ05B0gG3AUFVX3lxTE9pVEpDNFI4cWZ5Qk85TjlfYjV4aExJSFFPZGNHNXF4Q0U4dzlhVmNRRHNQaFJSNjZrdnVJeU55VkItLVNHejVHNkRxUzh5ZXJ2TUFFbkVBZDFnNmhwRkZNd1hzLUVDN09NdDMycjlESGpvb1V2cVI0alB2SjA0RC1DdzAwWHFCUG5IZmxHQlJJYk42M2lxdzlGQ003OEVTaDZNcHFsZ0ZfZ1dTZ3k1MGhtQ2ZuVkFSTQ?oc=5",
-      "source": "SEGS Portal Nacional",
-      "published_at": "Wed, 26 Aug 2026 17:43:34 GMT",
+      "title": "Big techs e mais de 100 empresas pedem intensificação de medidas de defesa contra ataques da IA",
+      "summary": "Big techs e mais de 100 empresas pedem intensificação de medidas de defesa contra ataques da IA",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdEI4eVg1WTdnMnBRQ25keERWTXZlNXVWby1RVm9sRkhjWThqSktQdGptd3UtWFZjYUJWYnIzMEYwcGxTQ2JzX1ZCdzZORmh1SUJ5VjdXazJQcDNZUkZmbF9heWREQXBYLTZ3NlRpMi10dGhvS1lCc3JJNXhBY09yYWpqaUU5TGZMczY0SU0zU1VqVkQyVmxhNDJwNUxJY0RlcmVfWkFhaEhPQWpNSHN6YlhBNkxIekdDTmZCZ2g3Y1BtaVd4OHVZcFR2amVXLU42a2ZMd0k5WWlPSVU?oc=5",
+      "source": "Folha de S.Paulo",
+      "published_at": "Thu, 27 Aug 2026 18:13:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Nova York Quer Que Empresas Meçam o Impacto da IA nos Empregos, Um Desafio Maior do Que Parece",
-      "summary": "Nova York Quer Que Empresas Meçam o Impacto da IA nos Empregos, Um Desafio Maior do Que Parece",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPS210dDYyUk5Na1p3UHVUNk9jT2lBeEp1OHUtNEREd0xjQW1xX29LdHJEVGtGTEFLaU5LUXJueUxHU19nMTNDLURNV1EtdndyXzhtTEV1a0xLZzBrOFQxdEtKVlBrZUxjTUdxR05ZeURTeFB6SmRGM3VqUm1BUUJMMHpMUDVoaTFYeUdqYV9jZlZtQnhpTUJtakVfcUxYSHgtQ2ZJbHdnOEZEVlpXeVA2RDdyRzQzQ2wxeEVvM2ZSLUxTZTlxdmxqYVkwdDZCQQ?oc=5",
-      "source": "Forbes Brasil",
-      "published_at": "Wed, 26 Aug 2026 08:00:00 GMT",
+      "title": "OpenAI diz que demorou 11 dias para detectar ataque de IA a outras empresas",
+      "summary": "OpenAI diz que demorou 11 dias para detectar ataque de IA a outras empresas",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZjNGWkZ2NmJNU0NGZXlPYWktSTh2YUtvWGdGN2hMUmI0Z2MwTjZzeEwzWDJQbUNoOGdoQ2E3eTc3R0VCZTE5eF9lcnAtUG5kVHRtYXhxX2ZTc25DejFQUjRobkItOGdEX2pUNXRlb09ucEJCd0x6VFpUaWRHOWZFTDI5Ung5ME9IWEgtUWVDWWdnd0NMRmVLTklNaWNabnhqdG1WUWdPZ015U1J5WU1CQTh4NHAzTTlsbUcySkhDczU?oc=5",
+      "source": "Folha de S.Paulo",
+      "published_at": "Thu, 27 Aug 2026 16:44:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Relatório da OpenAI diz que sua rede foi invadida por agentes de IA rebeldes da própria empresa",
-      "summary": "Relatório da OpenAI diz que sua rede foi invadida por agentes de IA rebeldes da própria empresa",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOekZ2ODFxVGpHelYwMEtldFJqam9nYkxvOU9zcXp1NkItT3JPS0o5alhkck1ETUR0SWNPMEswUkRmcHNEejBiZmhJUHZPcFMtLVRuRExBRVdERXp4OG5Xd3hVLU5Jd3ZZc19WdlBzX2dnQnRpeWszTWRsZFFHcDJHQy11bVh5dmYtZldCQmRGY3R6TFNlV3dMcGFfelktTVhmY1AyYWtNNVNaZV9QQ3BsWmQ0MUVjZ0dvR2ZEQTRUdzlPNlNUMWVGTlNCR0FtWE40Y3NtcVkxZl9iWW56T1lkR3V0SkxBZ9IB9AFBVV95cUxPdi1BYUJaYXNTdFlIUU5SLW5UWHNTV0Q3MEpyc1FxMl9Fei1haC1sX0FlVFkxNmhfakRySjlRbWhBdDdJcDBzeGpjcVNGNU12QVg1TVpHUkp3TWtBeTk2NTNjSmJZV0lPUXRVeHF1MGlSOEc2by1MVE1tS2tzS0pwb28wcUxKZVZYbXhPUWNUVkNOS19mTlRyQW1mOXVyN29tSTFjUXJmNXB1YVIyeU02SklZTXdXd002T1ViZkJpVy0xRHRwMDdrZVNhVTVReV9aSGF2Sk9nYjhacENtTlkyZEEzaEZnLVJjWUZ2U3hTbUdacWFs?oc=5",
-      "source": "Valor Econômico",
-      "published_at": "Wed, 26 Aug 2026 19:27:47 GMT",
+      "title": "Como empresas da Serra estão usando a inteligência artificial sem substituir trabalhadores; especialista fala sobre desafios",
+      "summary": "Como empresas da Serra estão usando a inteligência artificial sem substituir trabalhadores; especialista fala sobre desafios",
+      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOdjdBX296NWRXSE43SDFOeW40cUYwcHhrOHlPbmlLQ1dMc3FPVS1uMTRRc1FWX0VjbjBudVhDbGpqTFVoWU41OExPWnRFaUd3UnBRVmFHQVdaWlJwcUdvYzJveWFxZll4NG9OamQ5LW1IX0t4aVViTUhEVTB4MG90YWdOZDh3aTBxOXFZRU5RakNvQ1A0MzFORS1KbUNncl9KQlhFaDVFMEluSFo5SWpTT0gzbzg3ckZsTXBVaHppVDk1Z3hScHI4bDFTTzdxWkR5eEhxU0dXMlVzQlVPWnBtZU9Ob09ZaE92VURmSkdsVWZFZTIwSmkzc1F1YnQwYllmWm1Vay1MUklmdHlPNXcyRkg2ZVZheS1sUXZfYVhWV2ZNYS1xYnlFSzUyRG1hVEFNaWx5WnowUnVEZE1Uenc?oc=5",
+      "source": "GZH",
+      "published_at": "Wed, 26 Aug 2026 15:13:19 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "O novo diferencial das empresas não será a inteligência artificial e sim a coletiva",
-      "summary": "O novo diferencial das empresas não será a inteligência artificial e sim a coletiva",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNi1LX2J2Vk4yNGw3VVQ5d0s1RHYyTWg5SVc1Wi1yRkpzVm9Ld0VKRE04NWw4NURQWUt5WFJqa1AtbFZRWjMzcm5LM1M2X042RzRnQ2hGWnpRTFNoUm9FdXpJZGMtUFVhVVdYSEFUQS1qNFZVVlBhZEdWZjBsTkx3TlpPV1lObkRGRkRaREljcU1sY2ZfVS1UVHpwSjBOdVJpSFdqX05PMndfSlU3M3pNSFljclN5OUNFT29CbXFjSm01QQ?oc=5",
-      "source": "jornaltribuna.com.br",
-      "published_at": "Wed, 26 Aug 2026 18:55:37 GMT",
+      "title": "Nvidia (NVDA) dá força à tese de IA, mas GT Capital ressalta que há um risco para os investidores; saiba qual",
+      "summary": "Nvidia (NVDA) dá força à tese de IA, mas GT Capital ressalta que há um risco para os investidores; saiba qual",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNjE5MlYtU3ZqaGNUZlBhNmFkRVdtMkZLclNRbmJ4X3RLU3JJZk4tOWl6WTRENW9zdnR3Y0Z0eE5pcjFPQ19aUU9IZnVjdzQ5aEZTbUd1SnB4TkxUMU80UFBVX0lZN1FZTDNDc0xJdTk3WUxmTUdkaHpyZl9LQWpUUmpqR2tvUC1JQ09FZElNM3EzTUxIMmY2RS1QaEVERzFWZ1BfTENvU0E3RTJacDluaGx6QWpxNTh5cy1zQkJTRURJNmc4QUV2WXl2Yw?oc=5",
+      "source": "Money Times",
+      "published_at": "Thu, 27 Aug 2026 16:42:00 GMT",
+      "category": "IA",
+      "signal": "down"
+    },
+    {
+      "title": "Estudo aponta 5 padrões de líderes em inteligência artificial",
+      "summary": "Estudo aponta 5 padrões de líderes em inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQazhaWlk5cW5HYUFZd25yZFkxQkROaDlQTWlPYTFESUc3akk5NExfNi1mRVBtbGkwMTdqcjBqOXN3VGpxZGFuNG1LWXlmMjhHQkl3TnFnTFNSRXYwNzZhbUZyX1pIb1NZQkpxSklKblVqODBPdHJhX3hNMkx6SGtIVzBfUUxzMnhlS2NIXzUwdU5mcnlPSHc?oc=5",
+      "source": "Eletrolar News",
+      "published_at": "Thu, 27 Aug 2026 15:28:54 GMT",
       "category": "IA",
       "signal": "flat"
     }
