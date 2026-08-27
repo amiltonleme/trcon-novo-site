@@ -9,7 +9,7 @@
 
 ## ✅ Feito
 
-### Fases 0–7 (plano original — [`09-PLANO-EXECUCAO-IA.md`](09-PLANO-EXECUCAO-IA.md))
+### Fases 0–7 (plano original — [`09-PLANO-EXECUCAO-IA.md`](canonical/09-PLANO-EXECUCAO-IA.md))
 
 | Fase | Entrega |
 |------|---------|
@@ -161,7 +161,7 @@ Marketing → POST /api/internal/economy-tips ──┘
 | M3 | Endpoint desativar dica economy | ❌ |
 | M4 | Ampliar feeds RSS / curadoria | ❌ |
 
-### Fase 9 — Consolidação ([`09-PLANO-EXECUCAO-IA.md`](09-PLANO-EXECUCAO-IA.md))
+### Fase 9 — Consolidação ([`09-PLANO-EXECUCAO-IA.md`](canonical/09-PLANO-EXECUCAO-IA.md))
 
 | # | Tarefa |
 |---|--------|

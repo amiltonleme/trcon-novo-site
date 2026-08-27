@@ -97,6 +97,7 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
   // MOBILE NAV
   function openMobile() { document.getElementById('mobileNav').classList.add('open'); }
   function closeMobile() { document.getElementById('mobileNav').classList.remove('open'); }
+  function toggleMobile() { document.getElementById('mobileNav').classList.toggle('open'); }
 
   function applyContatoContext(productKey, leadType) {
     const key = LEAD_CONTEXTS[productKey] ? productKey : 'default';
@@ -149,8 +150,15 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
       });
     });
 
-    document.querySelector('[data-mobile-open]')?.addEventListener('click', openMobile);
+    document.querySelector('[data-mobile-open]')?.addEventListener('click', toggleMobile);
     document.querySelector('[data-mobile-close]')?.addEventListener('click', closeMobile);
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') closeMobile();
+    });
+    // Clique no backdrop (fora do painel) também fecha o menu.
+    document.getElementById('mobileNav')?.addEventListener('click', event => {
+      if (event.target.id === 'mobileNav') closeMobile();
+    });
   }
 
   function setupContatoLeadForm() {

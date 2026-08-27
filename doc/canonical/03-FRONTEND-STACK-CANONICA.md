@@ -4,7 +4,7 @@
 
 Definir a stack oficial de `trcongroup/site/frontend`: leve, de baixo custo,
 compatível com a arquitetura híbrida definida em
-[02-ARQUITETURA-CANONICA.md](./02-ARQUITETURA-CANONICA.md), e minimamente
+[02-ARQUITETURA-CANONICA.md](02-ARQUITETURA-CANONICA.md), e minimamente
 testável — sem introduzir um framework pesado que o porte atual do site não
 justifica.
 
@@ -19,7 +19,7 @@ Manter **HTML/CSS/JavaScript estático (vanilla)**, sem framework de UI
   uma aplicação com estado complexo de UI
 - vanilla estático é o que já está publicado, funciona, e tem custo de hospedagem
   próximo de zero (herda o princípio de baixo custo de
-  [02-ARQUITETURA-CANONICA.md](./02-ARQUITETURA-CANONICA.md))
+  [02-ARQUITETURA-CANONICA.md](02-ARQUITETURA-CANONICA.md))
 - introduzir um framework de SPA agora aumentaria complexidade de build, custo
   cognitivo e superfície de falha sem ganho funcional real
 - se o site evoluir para área logada/dashboard interativo pesado, essa decisão
@@ -37,7 +37,7 @@ Manter **HTML/CSS/JavaScript estático (vanilla)**, sem framework de UI
 | Testes de lógica JS | Vitest, apenas para funções não triviais (parsing/composição de dados de `data/*.json`) |
 | Acessibilidade | checagem manual + `axe-core` via extensão de navegador no checkpoint de revisão |
 | Hospedagem | Coolify no Hetzner, atrás do Cloudflare; alternativas estáticas ficam apenas como contingência |
-| Integração com backend | `fetch` para endpoints públicos do backend (`/api/public/...`), com fallback para JSON local conforme [07-MIGRACAO-PARALELA.md](./07-MIGRACAO-PARALELA.md) |
+| Integração com backend | `fetch` para endpoints públicos do backend (`/api/public/...`), com fallback para JSON local conforme [07-MIGRACAO-PARALELA.md](../07-MIGRACAO-PARALELA.md) |
 
 ## O que não usar no início
 
@@ -77,7 +77,7 @@ frontend/
 
 Um módulo de comportamento (`assets/modules/*.js`) é criado por responsabilidade
 (SRP) — o mesmo princípio já aplicado ao backend e aos scripts de pipeline em
-[02-ARQUITETURA-CANONICA.md](./02-ARQUITETURA-CANONICA.md).
+[02-ARQUITETURA-CANONICA.md](02-ARQUITETURA-CANONICA.md).
 
 ## Regras de implementação
 
@@ -85,7 +85,7 @@ Um módulo de comportamento (`assets/modules/*.js`) é criado por responsabilida
    estático publicado.
 2. Toda URL de API vem de `assets/modules/config.js`, nunca hardcoded espalhada
    pelo código (permite o rollout por configuração de
-   [07-MIGRACAO-PARALELA.md](./07-MIGRACAO-PARALELA.md)).
+   [07-MIGRACAO-PARALELA.md](../07-MIGRACAO-PARALELA.md)).
 3. Todo consumo de API pública tem fallback explícito para o JSON estático
    correspondente — nenhuma seção do site pode quebrar por indisponibilidade do
    backend.
@@ -93,11 +93,11 @@ Um módulo de comportamento (`assets/modules/*.js`) é criado por responsabilida
    pura testável — não misturada com manipulação direta de DOM, para permitir
    teste unitário sem precisar de navegador.
 5. Sem chave/segredo de API no frontend (herdado de
-   [02-ARQUITETURA-CANONICA.md](./02-ARQUITETURA-CANONICA.md)).
+   [02-ARQUITETURA-CANONICA.md](02-ARQUITETURA-CANONICA.md)).
 
 ## Testes de frontend
 
-Ver critério completo em [10-TESTES-QUALIDADE.md](./10-TESTES-QUALIDADE.md).
+Ver critério completo em [10-TESTES-QUALIDADE.md](10-TESTES-QUALIDADE.md).
 Resumo: HTML/CSS estático não exige teste automatizado; funções de
 parsing/composição de dados em `assets/modules/*.js` devem ter teste unitário
 (Vitest) para os casos de borda relevantes (payload vazio, campo ausente,

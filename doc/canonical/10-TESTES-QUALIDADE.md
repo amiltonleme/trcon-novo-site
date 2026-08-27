@@ -59,7 +59,7 @@ Se cobertura cair abaixo de 80% em um módulo:
 
 - a sessão de execução de IA deve adicionar os testes faltantes antes de propor
   o merge — não é aceitável reduzir o limite do gate para "passar"
-- o agent `trcon-qa-reviewer` (ver [11-SKILLS-AGENTS-CLAUDE.md](./11-SKILLS-AGENTS-CLAUDE.md))
+- o agent `trcon-qa-reviewer` (ver [11-SKILLS-AGENTS-CLAUDE.md](11-SKILLS-AGENTS-CLAUDE.md))
   é responsável por apontar exatamente quais classes/métodos ficaram descobertos
 
 ## Testes de frontend

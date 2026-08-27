@@ -10,6 +10,8 @@ import {
   safeUrl,
   videoEmbedSrc,
   localizeSiteHref,
+  isHtmlArticleBody,
+  sanitizeArticleHtml,
 } from '../../assets/modules/sanitize.js';
 
 const BASE = 'https://trcongroup.com.br/';
@@ -141,6 +143,54 @@ describe('localizeSiteHref', () => {
         hostname: 'trcongroup.com.br',
       }),
     ).toBe('https://trcongroup.com.br/novidades/x');
+  });
+});
+
+describe('isHtmlArticleBody', () => {
+  it('detecta corpo iniciado por tag de bloco', () => {
+    expect(isHtmlArticleBody('<h2>Título</h2><p>Texto</p>')).toBe(true);
+    expect(isHtmlArticleBody('  <p>Texto</p>')).toBe(true);
+  });
+
+  it('não detecta markdown-lite comum', () => {
+    expect(isHtmlArticleBody('Linha 1\n\nLinha <b>2</b>')).toBe(false);
+    expect(isHtmlArticleBody('**negrito** e texto')).toBe(false);
+    expect(isHtmlArticleBody('')).toBe(false);
+  });
+});
+
+describe('sanitizeArticleHtml', () => {
+  it('mantém tags da allowlist e atributos seguros', () => {
+    const html = sanitizeArticleHtml(
+      '<h2>Título</h2><p>Texto <strong>forte</strong> e <a href="https://x.com/a">link</a>.</p>',
+    );
+    expect(html).toContain('<h2>Título</h2>');
+    expect(html).toContain('<strong>forte</strong>');
+    expect(html).toContain('<a href="https://x.com/a" rel="noopener noreferrer">link</a>');
+  });
+
+  it('remove script/style e o respectivo conteúdo', () => {
+    const html = sanitizeArticleHtml('<p>a</p><script>alert(1)</script><style>*{}</style><p>b</p>');
+    expect(html).toBe('<p>a</p><p>b</p>');
+  });
+
+  it('remove tags fora da allowlist preservando o texto', () => {
+    const html = sanitizeArticleHtml('<div class="x">Bloco</div>');
+    expect(html).toBe('Bloco');
+  });
+
+  it('descarta atributos perigosos e mantém apenas href/src sanitizados', () => {
+    const html = sanitizeArticleHtml('<p onclick="alert(1)">Texto</p><a href="javascript:alert(1)">x</a>');
+    expect(html).not.toContain('onclick');
+    expect(html).not.toContain('javascript:');
+    expect(html).toContain('<p>Texto</p>');
+  });
+
+  it('remove img sem https e mantém img https com alt escapado', () => {
+    expect(sanitizeArticleHtml('<img src="http://x.com/a.jpg" alt="a">')).toBe('');
+    const html = sanitizeArticleHtml('<img src="https://images.unsplash.com/a.jpg" alt="Foo & Bar">');
+    expect(html).toContain('src="https://images.unsplash.com/a.jpg"');
+    expect(html).toContain('alt="Foo &amp; Bar"');
   });
 });
 

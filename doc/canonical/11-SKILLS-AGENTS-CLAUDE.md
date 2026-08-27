@@ -30,7 +30,7 @@ idênticas às dos módulos existentes.
 
 ### `trcon-coverage-gate`
 Roda `mvn clean verify`, lê o relatório JaCoCo e verifica o gate de 80% de
-cobertura por módulo, conforme [10-TESTES-QUALIDADE.md](./10-TESTES-QUALIDADE.md).
+cobertura por módulo, conforme [10-TESTES-QUALIDADE.md](10-TESTES-QUALIDADE.md).
 Deve ser invocada antes de qualquer entrega de backend ser considerada
 concluída.
 
@@ -44,7 +44,7 @@ de aceitar qualquer módulo novo ou alteração estrutural como pronta.
 
 ### `trcon-qa-reviewer`
 Especialista em qualidade e cobertura de teste, aplicando o gate de
-[10-TESTES-QUALIDADE.md](./10-TESTES-QUALIDADE.md) e avaliando se os testes
+[10-TESTES-QUALIDADE.md](10-TESTES-QUALIDADE.md) e avaliando se os testes
 existentes validam comportamento real (não só métrica). Acionar antes de
 qualquer merge em `site/backend`.
 

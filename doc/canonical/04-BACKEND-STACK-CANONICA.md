@@ -27,10 +27,10 @@ de manutenção, menor custo cognitivo, maior consistência.
 | Observabilidade | Spring Boot Actuator |
 | Testes unitários | JUnit 5, Mockito |
 | Testes de integração | Spring Boot Test, Testcontainers (PostgreSQL) |
-| Cobertura | JaCoCo (gate ≥ 80%, ver [10-TESTES-QUALIDADE.md](./10-TESTES-QUALIDADE.md)) |
+| Cobertura | JaCoCo (gate ≥ 80%, ver [10-TESTES-QUALIDADE.md](10-TESTES-QUALIDADE.md)) |
 | Build | Maven |
 | Ambiente local | Docker Compose (`site/infra`) |
-| Mapeamento objeto↔objeto | MapStruct (mappers explícitos, ver [05-BACKEND-ARQUITETURA-MVC.md](./05-BACKEND-ARQUITETURA-MVC.md)) |
+| Mapeamento objeto↔objeto | MapStruct (mappers explícitos, ver [05-BACKEND-ARQUITETURA-MVC.md](05-BACKEND-ARQUITETURA-MVC.md)) |
 
 ## O que não usar no início
 
@@ -43,7 +43,7 @@ deles quando houver demanda concreta.
 
 **Modular monolith MVC** — uma aplicação, módulos por domínio, fronteiras claras entre
 `controller / service / repository / mapper / domain / dto / vo` e um `shared/` transversal.
-Ver especificação completa em [05-BACKEND-ARQUITETURA-MVC.md](./05-BACKEND-ARQUITETURA-MVC.md).
+Ver especificação completa em [05-BACKEND-ARQUITETURA-MVC.md](05-BACKEND-ARQUITETURA-MVC.md).
 
 ## Módulos iniciais (domínios)
 
@@ -82,7 +82,7 @@ sinais de mercado públicos, resumos automatizados de baixo risco.
 ## Estilo de arquitetura no código
 
 `controller → service → repository`, com `mapper` fazendo a tradução
-`domain ↔ dto/vo` em cada fronteira. Ver [05-BACKEND-ARQUITETURA-MVC.md](./05-BACKEND-ARQUITETURA-MVC.md)
+`domain ↔ dto/vo` em cada fronteira. Ver [05-BACKEND-ARQUITETURA-MVC.md](05-BACKEND-ARQUITETURA-MVC.md)
 para regras completas e exemplos.
 
 ## Segurança mínima
@@ -103,7 +103,7 @@ para regras completas e exemplos.
 ## Ambiente local
 
 Docker Compose subindo `backend` + `postgres` (definido em `site/infra/docker-compose.yml`,
-a ser criado na fase de implementação — ver [09-PLANO-EXECUCAO-IA.md](./09-PLANO-EXECUCAO-IA.md)).
+a ser criado na fase de implementação — ver [09-PLANO-EXECUCAO-IA.md](09-PLANO-EXECUCAO-IA.md)).
 
 ## Quando revisar esta decisão
 

@@ -158,4 +158,119 @@ class ArticleBodyHtmlRendererTest {
         assertThat(html).contains("youtube.com/embed/dQw4w9WgXcQ");
         assertThat(html).contains("iframe");
     }
+
+    @Test
+    void deveRenderizarCorpoQueJaVemEmHtmlSemEscapar() {
+        String html = ArticleBodyHtmlRenderer.render(
+                "<h2>Introdução</h2><p>Texto <strong>em negrito</strong>.</p><ul><li>Item 1</li><li>Item 2</li></ul>");
+        assertThat(html).contains("<h2>Introdução</h2>");
+        assertThat(html).contains("<p>Texto <strong>em negrito</strong>.</p>");
+        assertThat(html).contains("<ul><li>Item 1</li><li>Item 2</li></ul>");
+        assertThat(html).doesNotContain("&lt;h2&gt;");
+    }
+
+    @Test
+    void deveSanitizarCorpoHtmlRemovendoScriptsETagsForaDaAllowlist() {
+        String html = ArticleBodyHtmlRenderer.render(
+                "<h2>Título</h2><script>alert(1)</script><p onclick=\"alert(1)\">Texto</p><div>Bloco</div>");
+        assertThat(html).doesNotContain("<script");
+        assertThat(html).doesNotContain("alert(1)");
+        assertThat(html).doesNotContain("onclick");
+        assertThat(html).contains("<p>Texto</p>");
+        assertThat(html).contains("Bloco");
+        assertThat(html).doesNotContain("<div>");
+    }
+
+    @Test
+    void isHtmlArticleBodyDetectaCorpoIniciadoPorTagDeBloco() {
+        assertThat(ArticleBodyHtmlRenderer.isHtmlArticleBody("<h2>Título</h2><p>Texto</p>")).isTrue();
+        assertThat(ArticleBodyHtmlRenderer.isHtmlArticleBody("  <p>Texto</p>")).isTrue();
+        assertThat(ArticleBodyHtmlRenderer.isHtmlArticleBody("Linha 1\n\nLinha <b>2</b>")).isFalse();
+        assertThat(ArticleBodyHtmlRenderer.isHtmlArticleBody("**negrito** e texto")).isFalse();
+        assertThat(ArticleBodyHtmlRenderer.isHtmlArticleBody(null)).isFalse();
+    }
+
+    @Test
+    void sanitizeArticleHtmlMantemTagsDaAllowlistEAtributosSeguros() {
+        String html = ArticleBodyHtmlRenderer.sanitizeArticleHtml(
+                "<h2>Título</h2><p>Texto <strong>forte</strong> e <a href=\"https://x.com/a\">link</a>.</p>");
+        assertThat(html).contains("<h2>Título</h2>");
+        assertThat(html).contains("<strong>forte</strong>");
+        assertThat(html).contains("<a href=\"https://x.com/a\" rel=\"noopener noreferrer\">link</a>");
+    }
+
+    @Test
+    void sanitizeArticleHtmlRemoveScriptEStyleComConteudo() {
+        String html = ArticleBodyHtmlRenderer.sanitizeArticleHtml(
+                "<p>a</p><script>alert(1)</script><style>*{}</style><p>b</p>");
+        assertThat(html).isEqualTo("<p>a</p><p>b</p>");
+    }
+
+    @Test
+    void sanitizeArticleHtmlRemoveTagsForaDaAllowlistPreservandoTexto() {
+        assertThat(ArticleBodyHtmlRenderer.sanitizeArticleHtml("<div class=\"x\">Bloco</div>")).isEqualTo("Bloco");
+    }
+
+    @Test
+    void sanitizeArticleHtmlDescartaHrefJavascriptEAtributosPerigosos() {
+        String html = ArticleBodyHtmlRenderer.sanitizeArticleHtml(
+                "<p onclick=\"alert(1)\">Texto</p><a href=\"javascript:alert(1)\">x</a>");
+        assertThat(html).doesNotContain("onclick");
+        assertThat(html).doesNotContain("javascript:");
+        assertThat(html).contains("<p>Texto</p>");
+    }
+
+    @Test
+    void sanitizeArticleHtmlRemoveImgSemHttpsEMantemImgHttpsComAltEscapado() {
+        assertThat(ArticleBodyHtmlRenderer.sanitizeArticleHtml("<img src=\"http://x.com/a.jpg\" alt=\"a\">"))
+                .isEmpty();
+        String html = ArticleBodyHtmlRenderer.sanitizeArticleHtml(
+                "<img src=\"https://images.unsplash.com/a.jpg\" alt=\"Foo & Bar\">");
+        assertThat(html).contains("src=\"https://images.unsplash.com/a.jpg\"");
+        assertThat(html).contains("alt=\"Foo &amp; Bar\"");
+    }
+
+    @Test
+    void sanitizeArticleHtmlNuloRetornaVazio() {
+        assertThat(ArticleBodyHtmlRenderer.sanitizeArticleHtml(null)).isEmpty();
+    }
+
+    @Test
+    void sanitizeArticleHtmlAceitaAspaSimplesEValorSemAspas() {
+        String html = ArticleBodyHtmlRenderer.sanitizeArticleHtml(
+                "<a href='https://x.com/a'>link1</a><img src=https://images.unsplash.com/a.jpg>");
+        assertThat(html).contains("<a href=\"https://x.com/a\" rel=\"noopener noreferrer\">link1</a>");
+        assertThat(html).contains("src=\"https://images.unsplash.com/a.jpg\"");
+        assertThat(html).contains("alt=\"\"");
+    }
+
+    @Test
+    void sanitizeArticleHtmlRemoveAncoraSemHref() {
+        // a tag de abertura sem href válido é descartada; a de fechamento órfã
+        // é inofensiva (navegador ignora), mas permanece no texto.
+        assertThat(ArticleBodyHtmlRenderer.sanitizeArticleHtml("<a>sem href</a>")).isEqualTo("sem href</a>");
+    }
+
+    @Test
+    void sanitizeArticleHtmlAceitaLinkInternoRelativoEMailto() {
+        String html = ArticleBodyHtmlRenderer.sanitizeArticleHtml(
+                "<a href=\"/novidades/outro\">interno</a><a href=\"mailto:a@b.com\">mail</a>");
+        assertThat(html).contains("<a href=\"/novidades/outro\" rel=\"noopener noreferrer\">interno</a>");
+        assertThat(html).contains("<a href=\"mailto:a@b.com\" rel=\"noopener noreferrer\">mail</a>");
+    }
+
+    @Test
+    void sanitizeArticleHtmlRejeitaUrlProtocolRelativaSemEsquemaEUriInvalida() {
+        String html = ArticleBodyHtmlRenderer.sanitizeArticleHtml(
+                "<a href=\"//evil.com/x\">a</a><a href=\"not-a-url\">b</a><a href=\"https://[invalid\">c</a>");
+        assertThat(html).doesNotContain("evil.com");
+        assertThat(html).isEqualTo("a</a>b</a>c</a>");
+    }
+
+    @Test
+    void sanitizeArticleHtmlRejeitaImgSemSrcEComUriInvalida() {
+        assertThat(ArticleBodyHtmlRenderer.sanitizeArticleHtml("<img alt=\"x\">")).isEmpty();
+        assertThat(ArticleBodyHtmlRenderer.sanitizeArticleHtml("<img src=\"https://[invalid\">"))
+                .isEmpty();
+    }
 }

@@ -69,6 +69,28 @@ describe('renderArticleBody', () => {
     expect(html).toContain('youtube.com/embed/dQw4w9WgXcQ');
     expect(html).toContain('iframe');
   });
+
+  it('renderiza corpo que já vem em HTML (ex.: Sirius Marketing) em vez de escapar as tags', () => {
+    const html = renderArticleBody(
+      '<h2>Introdução</h2><p>Texto <strong>em negrito</strong>.</p><ul><li>Item 1</li><li>Item 2</li></ul>',
+    );
+    expect(html).toContain('<h2>Introdução</h2>');
+    expect(html).toContain('<p>Texto <strong>em negrito</strong>.</p>');
+    expect(html).toContain('<ul><li>Item 1</li><li>Item 2</li></ul>');
+    expect(html).not.toContain('&lt;h2&gt;');
+  });
+
+  it('sanitiza corpo HTML removendo scripts e tags fora da allowlist', () => {
+    const html = renderArticleBody(
+      '<h2>Título</h2><script>alert(1)</script><p onclick="alert(1)">Texto</p><div>Bloco</div>',
+    );
+    expect(html).not.toContain('<script');
+    expect(html).not.toContain('alert(1)');
+    expect(html).not.toContain('onclick');
+    expect(html).toContain('<p>Texto</p>');
+    expect(html).toContain('Bloco');
+    expect(html).not.toContain('<div>');
+  });
 });
 
 describe('formatArticleDate', () => {

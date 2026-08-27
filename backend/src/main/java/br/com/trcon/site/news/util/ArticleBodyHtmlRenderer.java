@@ -3,15 +3,40 @@ package br.com.trcon.site.news.util;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/** Converte o corpo editorial (markdown-lite) em HTML escapado para a página pública. */
+/** Converte o corpo editorial (markdown-lite ou HTML já pronto) em HTML seguro para a página pública. */
 public final class ArticleBodyHtmlRenderer {
 
     private static final Pattern BOLD = Pattern.compile("\\*\\*([^*\\n][\\s\\S]*?[^*\\n])\\*\\*");
     /** Marcador de lista; o conteúdo após o marcador pode ser vazio (item ignorado). */
     private static final Pattern LIST_ITEM = Pattern.compile("^[-*](?:\\s+(.*))?$");
+
+    // Tags que abrem um bloco no início do texto — sinal de que o corpo já
+    // vem como HTML pronto (ex.: pipeline do Sirius Marketing), e não como o
+    // markdown-lite que o restante desta classe espera.
+    private static final Pattern HTML_BODY_START =
+            Pattern.compile("^<(h[1-6]|p|ul|ol|blockquote|div|figure|table|section|article)\\b", Pattern.CASE_INSENSITIVE);
+
+    // Tags/atributos que nunca devem sobreviver à sanitização, mesmo com seu
+    // conteúdo — removidos por completo (tag + conteúdo).
+    private static final List<String> STRIP_WITH_CONTENT_TAGS = List.of(
+            "script", "style", "iframe", "object", "embed", "noscript", "form", "textarea", "select", "svg", "math");
+    private static final Pattern STRAY_DANGEROUS_TAGS = Pattern.compile(
+            "(?i)</?(?:" + String.join("|", STRIP_WITH_CONTENT_TAGS) + ")\\b[^>]*>");
+    // Tags "vazias" (sem conteúdo de risco) removidas isoladamente, sem afetar o texto ao redor.
+    private static final Pattern STRIP_STANDALONE_TAGS =
+            Pattern.compile("(?i)</?(?:input|button|link|meta|base)\\b[^>]*>");
+
+    // Allowlist do corpo do artigo: só estes elementos sobrevivem à sanitização.
+    private static final Set<String> ALLOWED_TAGS = Set.of(
+            "p", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "li", "strong", "em", "b", "i", "u",
+            "br", "hr", "blockquote", "a", "img", "span", "figure", "figcaption", "pre", "code");
+    private static final Set<String> VOID_TAGS = Set.of("br", "hr", "img");
+    private static final Pattern TAG_RE = Pattern.compile("<(/?)([a-zA-Z][a-zA-Z0-9]*)((?:\\s+[^<>]*)?)/?>");
 
     private ArticleBodyHtmlRenderer() {}
 
@@ -19,8 +44,17 @@ public final class ArticleBodyHtmlRenderer {
         if (body == null || body.isBlank()) {
             return "<p class=\"article-empty\">Conteúdo indisponível.</p>";
         }
+        String trimmed = body.trim();
+
+        // Alguns artigos (ex.: pipeline do Sirius Marketing) chegam com o
+        // corpo já em HTML pronto em vez do markdown-lite abaixo. Nesse caso,
+        // sanitiza e renderiza as tags em vez de escapá-las como texto.
+        if (isHtmlArticleBody(trimmed)) {
+            return sanitizeArticleHtml(trimmed);
+        }
+
         StringBuilder html = new StringBuilder();
-        for (String block : body.trim().split("\\n\\s*\\n")) {
+        for (String block : trimmed.split("\\n\\s*\\n")) {
             if (isListBlock(block)) {
                 html.append(renderList(block));
             } else {
@@ -28,6 +62,126 @@ public final class ArticleBodyHtmlRenderer {
             }
         }
         return html.toString();
+    }
+
+    /** true quando {@code value} parece um corpo de artigo já em HTML (não markdown-lite). */
+    public static boolean isHtmlArticleBody(String value) {
+        return value != null && HTML_BODY_START.matcher(value.trim()).find();
+    }
+
+    /**
+     * Sanitiza HTML de corpo de artigo com uma allowlist de tags/atributos —
+     * usado quando isHtmlArticleBody() indica que o conteúdo já vem
+     * formatado. Espelha sanitizeArticleHtml() do frontend
+     * (assets/modules/sanitize.js) para manter o mesmo comportamento entre a
+     * página renderizada no servidor (SSR) e a hidratação no cliente.
+     */
+    public static String sanitizeArticleHtml(String html) {
+        String out = html == null ? "" : html;
+
+        for (String tag : STRIP_WITH_CONTENT_TAGS) {
+            Pattern withContent = Pattern.compile("(?is)<" + tag + "\\b[^>]*>.*?</" + tag + "\\s*>");
+            out = withContent.matcher(out).replaceAll("");
+        }
+        out = STRAY_DANGEROUS_TAGS.matcher(out).replaceAll("");
+        out = STRIP_STANDALONE_TAGS.matcher(out).replaceAll("");
+
+        Matcher matcher = TAG_RE.matcher(out);
+        StringBuilder sb = new StringBuilder();
+        while (matcher.find()) {
+            String replacement = sanitizedTagReplacement(matcher.group(1), matcher.group(2), matcher.group(3));
+            matcher.appendReplacement(sb, Matcher.quoteReplacement(replacement));
+        }
+        matcher.appendTail(sb);
+        return sb.toString();
+    }
+
+    private static String sanitizedTagReplacement(String closing, String tagNameRaw, String attrs) {
+        String tagName = tagNameRaw.toLowerCase(Locale.ROOT);
+        if (!ALLOWED_TAGS.contains(tagName)) {
+            return "";
+        }
+        if (!closing.isEmpty()) {
+            return VOID_TAGS.contains(tagName) ? "" : "</" + tagName + ">";
+        }
+
+        String attrHtml = "";
+        if ("a".equals(tagName)) {
+            String href = safeHref(extractAttr(attrs, "href"));
+            if (href == null) {
+                return "";
+            }
+            attrHtml = " href=\"" + escapeHtml(href) + "\" rel=\"noopener noreferrer\"";
+        } else if ("img".equals(tagName)) {
+            String src = safeImgSrc(extractAttr(attrs, "src"));
+            if (src == null) {
+                return "";
+            }
+            String alt = escapeHtml(extractAttr(attrs, "alt"));
+            attrHtml = " src=\"" + escapeHtml(src) + "\" alt=\"" + alt + "\" loading=\"lazy\"";
+        }
+        return "<" + tagName + attrHtml + (VOID_TAGS.contains(tagName) ? " /" : "") + ">";
+    }
+
+    private static String extractAttr(String attrString, String name) {
+        if (attrString == null) {
+            return "";
+        }
+        Pattern pattern = Pattern.compile(
+                name + "\\s*=\\s*(\"([^\"]*)\"|'([^']*)'|([^\\s>]+))", Pattern.CASE_INSENSITIVE);
+        Matcher matcher = pattern.matcher(attrString);
+        if (!matcher.find()) {
+            return "";
+        }
+        if (matcher.group(2) != null) {
+            return matcher.group(2);
+        }
+        if (matcher.group(3) != null) {
+            return matcher.group(3);
+        }
+        return matcher.group(4) != null ? matcher.group(4) : "";
+    }
+
+    /** Aceita http(s)/mailto absolutos ou caminhos internos começando com "/". */
+    private static String safeHref(String value) {
+        if (value == null || value.isBlank()) {
+            return null;
+        }
+        String trimmed = value.trim();
+        if (trimmed.startsWith("/") && !trimmed.startsWith("//")) {
+            return trimmed;
+        }
+        try {
+            URI uri = URI.create(trimmed);
+            String scheme = uri.getScheme();
+            if (scheme == null) {
+                return null;
+            }
+            String schemeLower = scheme.toLowerCase(Locale.ROOT);
+            if (!"http".equals(schemeLower) && !"https".equals(schemeLower) && !"mailto".equals(schemeLower)) {
+                return null;
+            }
+            return trimmed;
+        } catch (IllegalArgumentException ex) {
+            return null;
+        }
+    }
+
+    /** Só aceita imagens absolutas em HTTPS. */
+    private static String safeImgSrc(String value) {
+        if (value == null || value.isBlank()) {
+            return null;
+        }
+        String trimmed = value.trim();
+        if (!trimmed.startsWith("https://")) {
+            return null;
+        }
+        try {
+            URI.create(trimmed);
+        } catch (IllegalArgumentException ex) {
+            return null;
+        }
+        return trimmed;
     }
 
     public static String escapeHtml(String value) {

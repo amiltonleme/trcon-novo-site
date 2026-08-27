@@ -1,6 +1,12 @@
 // Página de artigo /novidades/{slug} — fetch, meta SEO e render do corpo.
 
-import { escapeHtml, safeHttpsImageUrl, videoEmbedSrc } from './sanitize.js';
+import {
+  escapeHtml,
+  safeHttpsImageUrl,
+  videoEmbedSrc,
+  isHtmlArticleBody,
+  sanitizeArticleHtml,
+} from './sanitize.js';
 import { resolveApiConfig } from './config.js';
 
 export function parseArticleSlug(pathname = '') {
@@ -85,11 +91,19 @@ function renderInlineMarkup(value) {
 }
 
 export function renderArticleBody(body) {
-  if (!body || !String(body).trim()) {
+  const trimmed = String(body || '').trim();
+  if (!trimmed) {
     return '<p class="article-empty">Conteúdo indisponível.</p>';
   }
-  return String(body)
-    .trim()
+
+  // Alguns artigos (ex.: pipeline do Sirius Marketing) chegam com o corpo já
+  // em HTML pronto em vez do markdown-lite abaixo. Nesse caso, sanitiza e
+  // renderiza as tags em vez de escapá-las como texto.
+  if (isHtmlArticleBody(trimmed)) {
+    return sanitizeArticleHtml(trimmed);
+  }
+
+  return trimmed
     .split(/\n\s*\n/)
     .map((block) => (isListBlock(block) ? renderList(block) : renderParagraph(block)))
     .join('');

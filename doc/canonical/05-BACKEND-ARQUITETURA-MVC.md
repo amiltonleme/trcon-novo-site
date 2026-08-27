@@ -4,7 +4,7 @@
 
 Detalhar, sem ambiguidade, as camadas obrigatórias do backend em `site/backend`,
 suas responsabilidades, o que cada uma **não pode** fazer, e como isso mapeia para
-SOLID e para o critério de cobertura de testes ≥ 80% ([10-TESTES-QUALIDADE.md](./10-TESTES-QUALIDADE.md)).
+SOLID e para o critério de cobertura de testes ≥ 80% ([10-TESTES-QUALIDADE.md](10-TESTES-QUALIDADE.md)).
 
 ## Estrutura de pastas por módulo
 
@@ -47,7 +47,7 @@ backend/
 Cada módulo de domínio replica sempre o mesmo conjunto de pastas
 (`controller/service/repository/mapper/domain/dto`). Um módulo novo (ex.: `content`)
 segue o mesmo molde — isso é o que permite scaffolding automatizado
-(ver skill `trcon-backend-scaffold` em [11-SKILLS-AGENTS-CLAUDE.md](./11-SKILLS-AGENTS-CLAUDE.md)).
+(ver skill `trcon-backend-scaffold` em [11-SKILLS-AGENTS-CLAUDE.md](11-SKILLS-AGENTS-CLAUDE.md)).
 
 ## Responsabilidade de cada camada
 
@@ -111,7 +111,7 @@ HTTP POST /api/v1/site/leads
 
 Erros de validação/negócio lançam exceções de domínio (`LeadDuplicadoException`),
 capturadas pelo `GlobalExceptionHandler` em `shared/exception`, que traduz para o
-formato de erro padrão (ver [06-BACKEND-MINIMO-ESPECIFICACAO.md](./06-BACKEND-MINIMO-ESPECIFICACAO.md)).
+formato de erro padrão (ver [06-BACKEND-MINIMO-ESPECIFICACAO.md](06-BACKEND-MINIMO-ESPECIFICACAO.md)).
 
 ## SOLID aplicado por camada
 
@@ -143,7 +143,7 @@ formato de erro padrão (ver [06-BACKEND-MINIMO-ESPECIFICACAO.md](./06-BACKEND-M
 5. Mapper não contém regra de negócio — só transformação.
 6. Toda entrada externa (DTO de request) é validada com Bean Validation antes de chegar ao service.
 7. Toda classe pública de `service` e `mapper` tem teste unitário; todo endpoint tem teste de integração (Testcontainers).
-8. Nenhum PR de backend é aceito com cobertura de linha/branch abaixo de 80% (ver [10-TESTES-QUALIDADE.md](./10-TESTES-QUALIDADE.md)).
+8. Nenhum PR de backend é aceito com cobertura de linha/branch abaixo de 80% (ver [10-TESTES-QUALIDADE.md](10-TESTES-QUALIDADE.md)).
 
 ## Convenção de nomes
 
@@ -166,4 +166,4 @@ formato de erro padrão (ver [06-BACKEND-MINIMO-ESPECIFICACAO.md](./06-BACKEND-M
 - nenhuma camada assume responsabilidade de outra
 - 100% dos módulos com `service` e `mapper` cobertos por teste unitário
 - 100% dos endpoints públicos cobertos por teste de integração
-- revisão de arquitetura feita pelo agent `trcon-backend-architect` antes do merge (ver [11-SKILLS-AGENTS-CLAUDE.md](./11-SKILLS-AGENTS-CLAUDE.md))
+- revisão de arquitetura feita pelo agent `trcon-backend-architect` antes do merge (ver [11-SKILLS-AGENTS-CLAUDE.md](11-SKILLS-AGENTS-CLAUDE.md))
