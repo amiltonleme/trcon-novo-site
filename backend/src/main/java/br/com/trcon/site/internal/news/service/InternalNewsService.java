@@ -83,7 +83,7 @@ public class InternalNewsService {
                             coverImageUrl,
                             expiresAt);
                     NewsItem saved = newsRepository.save(existing);
-                    return new InternalNewsCreateResponse(saved.getId(), true);
+                    return new InternalNewsCreateResponse(saved.getId(), true, saved.getSlug());
                 })
                 .orElseGet(() -> {
                     String slug = resolveUniqueSlug(request.slug(), request.title(), request.externalId(), null);
@@ -103,7 +103,7 @@ public class InternalNewsService {
                             coverImageUrl,
                             expiresAt);
                     NewsItem saved = newsRepository.save(item);
-                    return new InternalNewsCreateResponse(saved.getId(), false);
+                    return new InternalNewsCreateResponse(saved.getId(), false, saved.getSlug());
                 });
     }
 

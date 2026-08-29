@@ -65,6 +65,7 @@ class InternalNewsServiceTest {
                 baseRequest("Financas", "ext-new", "  ", null, "  ", "  ", "  ", null, null));
 
         assertThat(response.duplicate()).isFalse();
+        assertThat(response.slug()).isEqualTo("titulo-padrao");
         ArgumentCaptor<NewsItem> captor = ArgumentCaptor.forClass(NewsItem.class);
         verify(newsRepository).save(captor.capture());
         NewsItem saved = captor.getValue();
@@ -184,6 +185,7 @@ class InternalNewsServiceTest {
                 service.criar(baseRequest("IA", "ext-slug", null, null, null, null, null, null, null));
 
         assertThat(response.duplicate()).isFalse();
+        assertThat(response.slug()).isEqualTo("titulo-padrao-2");
         ArgumentCaptor<NewsItem> captor = ArgumentCaptor.forClass(NewsItem.class);
         verify(newsRepository).save(captor.capture());
         assertThat(captor.getValue().getSlug()).isEqualTo("titulo-padrao-2");
