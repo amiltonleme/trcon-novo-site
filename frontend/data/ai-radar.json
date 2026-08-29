@@ -1,17 +1,8 @@
 {
-  "generated_at": "2026-08-29T13:25:37.903802+00:00",
+  "generated_at": "2026-08-29T22:09:36.571835+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
-    {
-      "title": "Empresas apostam em IA, mas ainda tropeçam no básico: regras e treinamento",
-      "summary": "Empresas apostam em IA, mas ainda tropeçam no básico: regras e treinamento",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOFg4eTJBekJEZ29Gd3pZdmZpeWt6RkRaMWNreloyd1hnY2wxT3VTWFZnY0pzVUllT000N2k1ZWJqNldVSHpHMGtCTlVYRDdIZ1J4UklVZHVZQnAtWThkSWJSMG12T2JKblBsZE44M2c0aXJxbURqUmtCVVJMV0V2aTJWaVZwSnpDSVlQOW9kNjdtS0MtSXNYRjRvLUFhczhhZWwzbUxHd0hWZENIN3o3LdIBtgFBVV95cUxNNWw2ak5XM2JOTzJ3V3NJLTViOHVYRWc1MGJIY0NXWmJzdjNDZF8ydXJEVWM1Z3BRS3Bvd1VBNFNiaFZRelFxaWZTczd4S0I3ZWhPd3BEX1ZRTS16RVpuMWNDRm84elN0bEhxSU90WlNHbkwtWklKVW5ieEFZZ3BTQnNSVGl1dmVsUTlCQVFNbFRJUkUybGpqelNOam9Gc1JWWk9ZLWtGa2RQVnZUaDA4RnhxeFp6QQ?oc=5",
-      "source": "InfoMoney",
-      "published_at": "Sat, 29 Aug 2026 12:47:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
     {
       "title": "IA ficou mais acessível, mas empresas ainda precisam preparar pessoas para gerar resultados",
       "summary": "IA ficou mais acessível, mas empresas ainda precisam preparar pessoas para gerar resultados",
@@ -22,11 +13,11 @@
       "signal": "flat"
     },
     {
-      "title": "Big techs e mais de 100 empresas pedem intensificação de medidas de defesa contra ataques da IA",
-      "summary": "Big techs e mais de 100 empresas pedem intensificação de medidas de defesa contra ataques da IA",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdEI4eVg1WTdnMnBRQ25keERWTXZlNXVWby1RVm9sRkhjWThqSktQdGptd3UtWFZjYUJWYnIzMEYwcGxTQ2JzX1ZCdzZORmh1SUJ5VjdXazJQcDNZUkZmbF9heWREQXBYLTZ3NlRpMi10dGhvS1lCc3JJNXhBY09yYWpqaUU5TGZMczY0SU0zU1VqVkQyVmxhNDJwNUxJY0RlcmVfWkFhaEhPQWpNSHN6YlhBNkxIekdDTmZCZ2g3Y1BtaVd4OHVZcFR2amVXLU42a2ZMd0k5WWlPSVU?oc=5",
-      "source": "Folha de S.Paulo",
-      "published_at": "Thu, 27 Aug 2026 18:13:00 GMT",
+      "title": "Empresas apostam em IA, mas ainda tropeçam no básico: regras e treinamento",
+      "summary": "Empresas apostam em IA, mas ainda tropeçam no básico: regras e treinamento",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOFg4eTJBekJEZ29Gd3pZdmZpeWt6RkRaMWNreloyd1hnY2wxT3VTWFZnY0pzVUllT000N2k1ZWJqNldVSHpHMGtCTlVYRDdIZ1J4UklVZHVZQnAtWThkSWJSMG12T2JKblBsZE44M2c0aXJxbURqUmtCVVJMV0V2aTJWaVZwSnpDSVlQOW9kNjdtS0MtSXNYRjRvLUFhczhhZWwzbUxHd0hWZENIN3o3LdIBtgFBVV95cUxNNWw2ak5XM2JOTzJ3V3NJLTViOHVYRWc1MGJIY0NXWmJzdjNDZF8ydXJEVWM1Z3BRS3Bvd1VBNFNiaFZRelFxaWZTczd4S0I3ZWhPd3BEX1ZRTS16RVpuMWNDRm84elN0bEhxSU90WlNHbkwtWklKVW5ieEFZZ3BTQnNSVGl1dmVsUTlCQVFNbFRJUkUybGpqelNOam9Gc1JWWk9ZLWtGa2RQVnZUaDA4RnhxeFp6QQ?oc=5",
+      "source": "InfoMoney",
+      "published_at": "Sat, 29 Aug 2026 12:47:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -40,20 +31,29 @@
       "signal": "flat"
     },
     {
-      "title": "Empresas do Norte Fluminense participam de Workshop de Inteligência Artificial da Firjan",
-      "summary": "Empresas do Norte Fluminense participam de Workshop de Inteligência Artificial da Firjan",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPRkQtc1c2ZkM0SnUyOHhFWlUwZ1lmdEFVLTFLR2hNX0lUWEw4bDNDcjZBb3VIVXkwZGs2YWU5UWdwMDByd3dzc2NyR2JvNV9Ba184MEJjSlJzUk5pX25aRHdiVlN0OURSSkFkZ05ScFFSSndLY2luWjlXeDhpUXAwLXQzeXFRVWVaQmRYbktXYzJNRG50azB1VWRsQlRrY3dqbmNSZlNsamhuSXhva0lEXzhsc3BZRXAtOVF2ZEg0amtsWjY0V2llRWtNMHpxa2hRNGJRbWNqck41azVsYzVjd3VuaDl2UlNLUUE2YVRZallsWWM3N0E?oc=5",
-      "source": "Sistema Firjan",
-      "published_at": "Fri, 28 Aug 2026 20:12:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
       "title": "'Parece lixo de IA': por que plataformas agora estão 'dedurando' conteúdos feitos com inteligência artificial",
       "summary": "'Parece lixo de IA': por que plataformas agora estão 'dedurando' conteúdos feitos com inteligência artificial",
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOYmp4NWJxQUQ4ellEODRLWV9mVEVQQVhJaHgyTkNwbjZteDhjWmNTODZmMkZtZ0phczFCYnlPamJRY21Sd2h6LTgwN2x2LUw5b3N2bG44UUh1QmpPa1NhZUF6VGlCN0NsdHFOUGRWUDA2b2pYb1N6YzVwLURpVnNqc0pXY0lvRHZOUkFBRXhFMHYwZ1lLdWdmMW5oVXVYTGY4a0xFYlFvOGk0RXk0Z1p1NDNKRGxwakcxSmlrNjVScjBYMkFFeFd6UXNGTEdrVlEzeVhiWS1tVFJMSEF4dGdCbkRyX0xKajFqRDhEV1NfR3lreDTSAYICQVVfeXFMTnBldEVFSEhBdk84S2szY01MMU12dHBGQndxMUpBZGNhNEdkbUM5akM5N1ZaRG5hMktEUmVIaUt1c1A5RUgxY3FzT3BUdU82c1RIV0JUUWI3NXdaOW5xbkRFdjloSHQ0UnZrbDVRdUdDcFZnX3hoNFhTMlVzcXMzTS1mdUU0SGhNaV9Kc3JCQThpc19SdWQwYWhMbmhWbUJCUnNsTGwweEZOanBqWXNkVGI1Rmo3QVJXcklTQnhlWVNrY1ZxQWcyRGhNQUFQSldDZ2Jlam0wSzBreWtMcUx3R3FzNmpLQVkyRGgzZ3VPZzRmN0JqUkh1b3ZnQjgxOHMzemZB?oc=5",
       "source": "G1",
       "published_at": "Fri, 28 Aug 2026 07:01:33 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Maioria dos americanos está mais preocupada que entusiasmada com avanços da IA",
+      "summary": "Maioria dos americanos está mais preocupada que entusiasmada com avanços da IA",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQeUNDTy1VTFN3dE5MMkJNU3gtSkFwYjI4blU5UFdnMk9PMWdnR1FqRWg4N1Y3ZjRCTWN0SkZkbmtHbXBxTk05WXFXTFp1U3JHMEo3b1ltOEY3SExJX1RHcktMSHVKcVNOeVcwRTJRRmxPVGwta18tcjdVTE9XSkR6TTN3NmEyd1NSSmtGelpDT3diQWlDNVRhYUdva0p6c3doY2hUb2p0TnAxeXlzQm5qcEJoLXRUOFlPUlJoYkRHZW40bTBtdXJQdFVFOHpTZWJoYlVpNXBBNXNmVzVwWDJmUzZRNlA?oc=5",
+      "source": "Times Brasil | CNBC",
+      "published_at": "Sat, 29 Aug 2026 20:30:00 GMT",
+      "category": "IA",
+      "signal": "up"
+    },
+    {
+      "title": "Empresas do Norte Fluminense participam de Workshop de Inteligência Artificial da Firjan",
+      "summary": "Empresas do Norte Fluminense participam de Workshop de Inteligência Artificial da Firjan",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPRkQtc1c2ZkM0SnUyOHhFWlUwZ1lmdEFVLTFLR2hNX0lUWEw4bDNDcjZBb3VIVXkwZGs2YWU5UWdwMDByd3dzc2NyR2JvNV9Ba184MEJjSlJzUk5pX25aRHdiVlN0OURSSkFkZ05ScFFSSndLY2luWjlXeDhpUXAwLXQzeXFRVWVaQmRYbktXYzJNRG50azB1VWRsQlRrY3dqbmNSZlNsamhuSXhva0lEXzhsc3BZRXAtOVF2ZEg0amtsWjY0V2llRWtNMHpxa2hRNGJRbWNqck41azVsYzVjd3VuaDl2UlNLUUE2YVRZallsWWM3N0E?oc=5",
+      "source": "Sistema Firjan",
+      "published_at": "Fri, 28 Aug 2026 20:12:00 GMT",
       "category": "IA",
       "signal": "flat"
     }
