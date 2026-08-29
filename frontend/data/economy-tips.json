@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T02:38:01.892577+00:00",
+  "generated_at": "2026-08-29T13:25:36.774893+00:00",
   "source_note": "Curadoria automatica de educacao financeira a partir de feeds RSS publicos, com complemento do catalogo estatico TRCONGROUP quando necessario.",
   "errors": [],
   "items": [
@@ -29,18 +29,6 @@
       "link_label": "Ler mais"
     },
     {
-      "tag": "Mercado",
-      "tag_class": "tag-blue",
-      "title": "Insights da semana: poupança segue como investimento mais disseminado",
-      "body": "Insights da semana: poupança segue como investimento mais disseminado CNN Brasil",
-      "meta": [
-        "Leitura rapida",
-        "Fonte: CNN Brasil"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbkJEVGEzc0dCOWY3Vkt3VlJZMkFhWVhYb0FiQWxNYVdnQW5URldwbUFYRV9uVUVXWTA2bzk1T0VWR3lWTnc2LXI5aldrMkdkSnEyYnZuN3hWVFR5aUt2V21DMVVXN3FoODVNbkFUZzNvQ09IUjNsYlhnX3lUSWltYTdtQ0pHM2ZQRFNtR1g3OEN5aE0wTUNTN0lPV20wdWxjU3BTa3IwTFFaUzE4U2JWTE96WlFmU2dRSU81UUJn?oc=5",
-      "link_label": "Ler mais"
-    },
-    {
       "tag": "Educacao",
       "tag_class": "tag-blue",
       "title": "Semana Nacional de Educação Financeira debate longevidade e aposentadoria",
@@ -50,6 +38,18 @@
         "Fonte: viva.com.br"
       ],
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaS1LZ2kyc3JsQUNtNjJ6cTBPMGxWSTZ4OG5jOXplYWpTenFTS3ZJeC0wV3diT3c1ZVlDN3lyR1RvN0h3clV0NEdOa3FsRnJDUWV5cENYc0JkUEVuRzN5bmtiTy1oaVdJVWpucXdaaVlHR1g2UVhxNmp1RjVaRmlBcE5WNjMwMk1tTkpyZjhrVnR2c3IxY0ZncmR3TlN1RE1VYXBvYkwwems2enM?oc=5",
+      "link_label": "Ler mais"
+    },
+    {
+      "tag": "Mercado",
+      "tag_class": "tag-blue",
+      "title": "Insights da semana: poupança segue como investimento mais disseminado",
+      "body": "Insights da semana: poupança segue como investimento mais disseminado CNN Brasil",
+      "meta": [
+        "Leitura rapida",
+        "Fonte: CNN Brasil"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbkJEVGEzc0dCOWY3Vkt3VlJZMkFhWVhYb0FiQWxNYVdnQW5URldwbUFYRV9uVUVXWTA2bzk1T0VWR3lWTnc2LXI5aldrMkdkSnEyYnZuN3hWVFR5aUt2V21DMVVXN3FoODVNbkFUZzNvQ09IUjNsYlhnX3lUSWltYTdtQ0pHM2ZQRFNtR1g3OEN5aE0wTUNTN0lPV20wdWxjU3BTa3IwTFFaUzE4U2JWTE96WlFmU2dRSU81UUJn?oc=5",
       "link_label": "Ler mais"
     }
   ],
