@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T13:21:50.488373+00:00",
+  "generated_at": "2026-08-30T22:16:58.058215+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -23,14 +23,14 @@
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 78.646",
-      "change": "+1,27%",
+      "value": "US$ 78.546",
+      "change": "+0,50%",
       "direction": "up"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 2.463",
-      "change": "+1,22%",
+      "value": "US$ 2.473",
+      "change": "+0,88%",
       "direction": "up"
     },
     {
@@ -90,8 +90,8 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 78.646",
-      "change": "+1,27%",
+      "quote": "US$ 78.546",
+      "change": "+0,50%",
       "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -101,8 +101,8 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 2.463",
-      "change": "+1,22%",
+      "quote": "US$ 2.473",
+      "change": "+0,88%",
       "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -144,10 +144,6 @@
   ],
   "news": [
     {
-      "title": "Ibovespa fecha com leve baixa, com Petrobras e Itaú; Vale sobe",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMWU4Q1RTMEVnZzFWaV8tWHlmcU9lSkxDUTdSYVk1YVlESGlYV0ZBUmIzMFc0Q184V2ROT09YOGhKV3poSzJNUV8yUXNzYUZCTzNVV2czZkhKY0N4TktyMEYyNFRHdW5UTTk2bjBVQXlJUllMRW0tRC00T0NXU2RYRHpmU1o4RUpiMUo2RWdrdw?oc=5"
-    },
-    {
       "title": "O que esperar da Bolsa e do dólar em julho após guerra e juros ditarem o ritmo dos mercados",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQekF3WTBBeGplQndvVExVTUd4OXdOazhxRVE2clBCQlQzejFQRkQwWHN3Q1F0cU42WnR1RVpKaWVvR0VmQkoyOG9Ja3cwbHktdkxBaXU1WFRKb3ZFZ0EtVkNDY1JWZkMzV3dGSEw0RzQ3QTBHQ3prNXB2SFQwLTRySDdwT1dTV3FPN2I3eDdiZXpRb0ZvTDNjbzZZMkNfR09Zc1BWdHRxRTdSdmxsbUFUdThDeFdjSE5Lc0tJSU96enoxN1c5S2R6YUxnQldyeV9tU2sxMmc2SDA4a3VVYS0yOEhJdnXSAeoBQVVfeXFMTkJ3RjI1NURKSnlmMzVHMzA2Q25XVkYxUHYwOVNsUm1WeUVucE1KQ09HWlIyY1Z5NElQMlRFSWNzdHFMRno0Zm9yejBLLTJZdE9Ma21XNk9YOFViS1NMaHVsU1J1LW5UNWlWZ3dZU0RfS1NGTmFraERkTVdmUEJSUUpoaFNlV1FwMHRLY3ZOMGtjcG10eFN1cEp4QklGZUV6TG5FRGEzZ0IyY1B2V1hYQlBrQWFsRTh4bXZ1aHh0cGVMQ3A1UzFESFhRUzFza0JKRk1Qa1pLMGZYSXlzMkJqTkpqaGEzcUlCUzR3?oc=5"
     },
@@ -156,8 +152,16 @@
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdGx5MHp4aUdwYXdVcVBuNmc5ZVJRWDNBam55WE1UU3Y2THE0MjdZbnRHX1NZWG0tV3FQX29XRUVUMmtQR3ZFVGg3bnRZdFh1MkNtWlpFLTh2dGhzU1dtVHZJR3JJY0xsRzVLM0xRVUoyUWRwSVcwLTZ6eVY3c2g3aW4ySS0xeDcwZWZ1dnlrb1RHSU5jRVlRZG9pM20yUQ?oc=5"
     },
     {
+      "title": "Dólar sobe a R$ 5,18 e Bolsa cai com mercado atento a juros e cenário fiscal",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSUlzQVphcTV2TjdRZFVCeG16U0haaVQ4ZzdneEJjZnlvTGdOTklPaFlYaW1oSWF2SjU0eFprTGlHR25qUEd3VXpBZkdfV0RBMWpYQTdOR0ttbEhoWjhoOGcwM0gzMFpwd2l2bnRiX3lJVjdhZDg2TWVYdmlnNzBRZ1ZZbzJIcjRZNEQxeFRtZ21od2l1ZlROSnNoTW9adG4xNUdkbGhn?oc=5"
+    },
+    {
       "title": "Ibovespa inverte sinal e fecha em queda após Fed; dólar sobe a R$ 5,11",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUkdKLTYwWWpiMkFBek5QT1hUdnVNQzdkaDhOQmR1d3Z2T2djM3J1U0xpeWpvMjNCWUkzT09LRU1PdjNsaC02eFBjRFlZOEZRbTFlTldGZnJBQW5OOFZYSHdwc05TMXZkTGZDa2t5eHVjbEJzVm1nOUlCWWpXMkVvOHFwYkZTVV9nRGV0NGNiSnpWMF9ObFVicnBJYzVpOFFWRVE?oc=5"
+    },
+    {
+      "title": "Ibovespa recua junto com o exterior e dólar volta a subir, a R$ 5,08",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa3N0VWJ4dWZHc3FjcHZZT0owTXNWQURlSmFaRUxNX3pqSHNPLW9idng0anh1bnVvb19LTHQwMjJfM09wWTVVWjRhV00zTEY5NU45WGhzSGRabGYtRVo1bGl5SUZSS2Z2ekN5RFlJekxRNkpnRmRaTHBuQzRGNFFjSE5QRkpnYmRmOXUzVktYQQ?oc=5"
     },
     {
       "title": "Bolsa, dólar e juros: o que esperar após EUA classificarem PCC e CV como terroristas",
@@ -170,10 +174,6 @@
     {
       "title": "Ibovespa hoje fecha em alta e dólar sobe a R$ 5,07; pregão foi mais curto por falha na B3",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOXzR6R0QxMVZCQkFqMnZNdWJ6bGx4QU00WmNJYVBnU1JZVVhsNG11VG50Zjd5R3NqbV9GYldtZ3ljWmRuakplS19icG16dWVCMTc1SnVSd1k3RTZ3OHhvcjFxY01BT2gzRVVxYkZMSDdrY0REOU92WGh0Z0t0V2RLNnVGU3lVZlFhekhiTEExV0xMQmY1eTRmMlhYRHF5aFZJWkxhbWRnUXZZT1ltSUFJMk96akJkZ0l1dHFuMlFCMkpSd3hDR2Y5c0t0ZEh2TW8zby1GUXNSenZoQVBNLWlxLdIB5gFBVV95cUxQcnpOdjd6b0tOb1dVZjdPOTZmeHBnMVZBaDQwQ3IyVjkwSzJRVklwLXlCMVN6ZTVzX0tuSVctRXRhWUQwTXJuak1RZ0NCODU3RWUwbTZmcXNicUozUVh1dGpDdHVEalRLMUgxSGZid2lDaTZuLWdkdnBXMDUtS0w4Nmw0bkM1VTR1VW5mRWxEOXA1Ui1uck1kMmxZU24wTW9TZGpsdWVQNlZMSXBSRzJDZm5jazZMbl9kRWRmNnZCLV92dkgxSUY1RDB5a3h2TDdia3B3cFJyTXFzZTYya0JieEk1NU9JQQ?oc=5"
-    },
-    {
-      "title": "Ibovespa recua junto com o exterior e dólar volta a subir, a R$ 5,08",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa3N0VWJ4dWZHc3FjcHZZT0owTXNWQURlSmFaRUxNX3pqSHNPLW9idng0anh1bnVvb19LTHQwMjJfM09wWTVVWjRhV00zTEY5NU45WGhzSGRabGYtRVo1bGl5SUZSS2Z2ekN5RFlJekxRNkpnRmRaTHBuQzRGNFFjSE5QRkpnYmRmOXUzVktYQQ?oc=5"
     }
   ],
   "market_mood": {
