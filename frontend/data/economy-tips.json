@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T22:09:35.377962+00:00",
+  "generated_at": "2026-08-30T13:21:52.395754+00:00",
   "source_note": "Curadoria automatica de educacao financeira a partir de feeds RSS publicos, com complemento do catalogo estatico TRCONGROUP quando necessario.",
   "errors": [],
   "items": [
@@ -29,15 +29,15 @@
       "link_label": "Ler mais"
     },
     {
-      "tag": "Cartao",
-      "tag_class": "tag-orange",
-      "title": "Educação financeira: prevenção de dívidas começa na escola",
-      "body": "Educação financeira: prevenção de dívidas começa na escola Senado Federal",
+      "tag": "Mercado",
+      "tag_class": "tag-blue",
+      "title": "Insights da semana: poupança segue como investimento mais disseminado",
+      "body": "Insights da semana: poupança segue como investimento mais disseminado CNN Brasil",
       "meta": [
         "Leitura rapida",
-        "Fonte: Senado Federal"
+        "Fonte: CNN Brasil"
       ],
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTElENHZHVVlaNkFZSER2V2xySEdOVWNQeU1XeTRUSGpyRktfNDduUFJXSnl2bXlqcndqeGpqN2lhNXY2Yk5LeXRTVjJ2NDRESDhMMDRNOTh6ZmFCNWN5SWgta0h2VExPekRfeE0wQXVObXZ3Y3dhcldiZFBPRFZxcW1icmpYcEFhQmczQjVkR1VfS0NfZUlZWVg4RUc4YlR6d3Y0T1ZCTmIyalZlSkJJOFlLaGdJdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbkJEVGEzc0dCOWY3Vkt3VlJZMkFhWVhYb0FiQWxNYVdnQW5URldwbUFYRV9uVUVXWTA2bzk1T0VWR3lWTnc2LXI5aldrMkdkSnEyYnZuN3hWVFR5aUt2V21DMVVXN3FoODVNbkFUZzNvQ09IUjNsYlhnX3lUSWltYTdtQ0pHM2ZQRFNtR1g3OEN5aE0wTUNTN0lPV20wdWxjU3BTa3IwTFFaUzE4U2JWTE96WlFmU2dRSU81UUJn?oc=5",
       "link_label": "Ler mais"
     },
     {

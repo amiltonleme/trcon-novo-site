@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T22:09:36.571835+00:00",
+  "generated_at": "2026-08-30T13:21:53.542574+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -22,6 +22,15 @@
       "signal": "flat"
     },
     {
+      "title": "Empresas precisam se reprogramar para capturar valor da inteligência artificial",
+      "summary": "Empresas precisam se reprogramar para capturar valor da inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNkEzY2dRNEtZVEVWMFY2bWVTTURpVzFTZ29EUG92UWY2SDBOeThmRWllc1Y1WXNrbE1EYUttZTE1a0hTWjlzNEdUVmg0Ul82TE9Sc3l5blhob25zLVp0bTVaNUhvSkdjYVV3X3dHUlY0aXFpNXJiM1RtVy11WUVKNVc4QkN0RmNDN2Zsbk5URDh5ZmF5RnViMkV3eldSMTFRYXljMWxNbGJEbjJTNHdHUXhGVzZUTnlLbHpCZ01JTmpFYTjSAcgBQVVfeXFMTkVBSVBiNVlYbUR6MTlMbTRiOVo4a0J2SzJWcHJ2WlhlYkpkRzZDRklRYy1UY2dxNk9mTk5PS0NCLW1CTEhGUWdVR1ZSUEJlbFVmWjZpMmpXaHFqR0dhemtPckwzUURqZEpfRnBycnc0R1NESDNTSFZXSzJZdDFQZXExMkpadW5ibExfNkdqX3U5U214TzFCZWxoU25tM3BYR2JHMVM1azZHRjYtQmFBb0JSRkRJdkVvN0FOS1ZvNVUzdjFpSHMtN1E?oc=5",
+      "source": "Estadão",
+      "published_at": "Sun, 30 Aug 2026 11:01:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
       "title": "Sua empresa aparece nas recomendações de inteligência artificial?",
       "summary": "Sua empresa aparece nas recomendações de inteligência artificial?",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYzNxV0J4VVBPQ1hFVXBHUUs2NnZZUTREeUFYRklIUC13UjFyS29ZYldIT2FIazNLeDMzNWxxYlVFd096Q1hJNFVWR2hDZm5Vd2c3VHZEeG84Y1ZRa1d4U2loSFlVcmJfbmNNWUFEYjlMaUhfMDREbWFrVUFoaDBpWHl5ejNPNFE1SDBIbWRKd2JwNEVTRElJLVNxeU1IeHRlNFVyZUJjVHdNcmpuOEI5RHRGM1NPLXJ2UWhnOVY3ZkhGa3Nya0pqTzFQRjR3UEhwVkJkc2d5UQ?oc=5",
@@ -31,29 +40,20 @@
       "signal": "flat"
     },
     {
-      "title": "'Parece lixo de IA': por que plataformas agora estão 'dedurando' conteúdos feitos com inteligência artificial",
-      "summary": "'Parece lixo de IA': por que plataformas agora estão 'dedurando' conteúdos feitos com inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOYmp4NWJxQUQ4ellEODRLWV9mVEVQQVhJaHgyTkNwbjZteDhjWmNTODZmMkZtZ0phczFCYnlPamJRY21Sd2h6LTgwN2x2LUw5b3N2bG44UUh1QmpPa1NhZUF6VGlCN0NsdHFOUGRWUDA2b2pYb1N6YzVwLURpVnNqc0pXY0lvRHZOUkFBRXhFMHYwZ1lLdWdmMW5oVXVYTGY4a0xFYlFvOGk0RXk0Z1p1NDNKRGxwakcxSmlrNjVScjBYMkFFeFd6UXNGTEdrVlEzeVhiWS1tVFJMSEF4dGdCbkRyX0xKajFqRDhEV1NfR3lreDTSAYICQVVfeXFMTnBldEVFSEhBdk84S2szY01MMU12dHBGQndxMUpBZGNhNEdkbUM5akM5N1ZaRG5hMktEUmVIaUt1c1A5RUgxY3FzT3BUdU82c1RIV0JUUWI3NXdaOW5xbkRFdjloSHQ0UnZrbDVRdUdDcFZnX3hoNFhTMlVzcXMzTS1mdUU0SGhNaV9Kc3JCQThpc19SdWQwYWhMbmhWbUJCUnNsTGwweEZOanBqWXNkVGI1Rmo3QVJXcklTQnhlWVNrY1ZxQWcyRGhNQUFQSldDZ2Jlam0wSzBreWtMcUx3R3FzNmpLQVkyRGgzZ3VPZzRmN0JqUkh1b3ZnQjgxOHMzemZB?oc=5",
-      "source": "G1",
-      "published_at": "Fri, 28 Aug 2026 07:01:33 GMT",
+      "title": "Empresas assinam carta por mais segurança contra ciberataques de IAs",
+      "summary": "Empresas assinam carta por mais segurança contra ciberataques de IAs",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbnU1cjVHU2J3UWRDRzZCT3dISHJtNUZJelhudi1lZEhHWHRqeHFMQmJGUnJGc0F1b2JFS2pTLVlRYTIzV1RzamNUb1J3VkFicmtaWGI3TTV1R21SMk5YaUxVeHBabmdickxpUmJRblR3c1plMndmbHIwZnZKLXVoZzFhV2xrMWlkSFlIMEh1aTYtZVJFbTQ3MTlZaHZNTDgxOXVjNkN6UXRpemljazgxM3JZNmlERkRZdURGQQ?oc=5",
+      "source": "TecMundo",
+      "published_at": "Fri, 28 Aug 2026 21:00:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Maioria dos americanos está mais preocupada que entusiasmada com avanços da IA",
-      "summary": "Maioria dos americanos está mais preocupada que entusiasmada com avanços da IA",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQeUNDTy1VTFN3dE5MMkJNU3gtSkFwYjI4blU5UFdnMk9PMWdnR1FqRWg4N1Y3ZjRCTWN0SkZkbmtHbXBxTk05WXFXTFp1U3JHMEo3b1ltOEY3SExJX1RHcktMSHVKcVNOeVcwRTJRRmxPVGwta18tcjdVTE9XSkR6TTN3NmEyd1NSSmtGelpDT3diQWlDNVRhYUdva0p6c3doY2hUb2p0TnAxeXlzQm5qcEJoLXRUOFlPUlJoYkRHZW40bTBtdXJQdFVFOHpTZWJoYlVpNXBBNXNmVzVwWDJmUzZRNlA?oc=5",
-      "source": "Times Brasil | CNBC",
-      "published_at": "Sat, 29 Aug 2026 20:30:00 GMT",
-      "category": "IA",
-      "signal": "up"
-    },
-    {
-      "title": "Empresas do Norte Fluminense participam de Workshop de Inteligência Artificial da Firjan",
-      "summary": "Empresas do Norte Fluminense participam de Workshop de Inteligência Artificial da Firjan",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPRkQtc1c2ZkM0SnUyOHhFWlUwZ1lmdEFVLTFLR2hNX0lUWEw4bDNDcjZBb3VIVXkwZGs2YWU5UWdwMDByd3dzc2NyR2JvNV9Ba184MEJjSlJzUk5pX25aRHdiVlN0OURSSkFkZ05ScFFSSndLY2luWjlXeDhpUXAwLXQzeXFRVWVaQmRYbktXYzJNRG50azB1VWRsQlRrY3dqbmNSZlNsamhuSXhva0lEXzhsc3BZRXAtOVF2ZEg0amtsWjY0V2llRWtNMHpxa2hRNGJRbWNqck41azVsYzVjd3VuaDl2UlNLUUE2YVRZallsWWM3N0E?oc=5",
-      "source": "Sistema Firjan",
-      "published_at": "Fri, 28 Aug 2026 20:12:00 GMT",
+      "title": "OpenAI, Google e outras empresas pedem ação urgente contra ataques de IA",
+      "summary": "OpenAI, Google e outras empresas pedem ação urgente contra ataques de IA",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVk9ybURFT01LTHlWRFlmLTAwempFMm5jSW9sMzR0RlAtQlpFb1JTOFppS2pOLWlHR1BCR3BzbzMxV1JiWVFTZkVYYmNIUjh3dXlsbnJhWk5BdXY2aEVqZzA2ZmtnY0xfbUJqRjFxeWxTb0kxYkxraERrRXU0YnFnTG41TlFTN245ZFNYTHNoY3N5ZEhiVVh0bDhWb2l3MDFkNkUxbzJYZ0RKVHdIZHFudHYzWnZGRlNhVFpPY3h3VEVjZWpnSzh1QzE5UHl3Y3V6?oc=5",
+      "source": "Olhar Digital",
+      "published_at": "Fri, 28 Aug 2026 01:27:00 GMT",
       "category": "IA",
       "signal": "flat"
     }
