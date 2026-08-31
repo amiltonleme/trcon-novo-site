@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T22:17:01.009022+00:00",
+  "generated_at": "2026-08-31T15:33:35.379342+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -13,6 +13,33 @@
       "signal": "flat"
     },
     {
+      "title": "Empresas precisam tornar resultados mais verificáveis na era da IA, diz LAQI",
+      "summary": "Empresas precisam tornar resultados mais verificáveis na era da IA, diz LAQI",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOOF9nUy10NjhkWklzUzZBbkdReGRCS1FLNEdvTjZEelk4VUVvQk5qYzFXS0x4OXNoNXYxZnJpWnFrQ3lyd3Nhcmxxa25Wa18tbVM1YThBa0Q5eS01NmlvSmVTeWdhRjNXVldWTGFWNG9DT2E3ZmN2cEEyRFFkYnJNRldlakZ4RktXT041VjF1OW5KTy1tSEMtLVRvVFdFLUxNVjdlNDI3M0ROTjkwbHRNMHVEOXNCZ0VrcVFJMmNvZHo1ZHI5N0VaT0YwUFljYjFTa2Vqb0d1b2lyalJHUk1EV1JleHpEd9IB9AFBVV95cUxNT0pYVE5LLV9rYnZMeTN0cVg4RF9ZT05NWVFrbHUyVWtzZDV6bnl0YmM5N0xXaDhWNW9KZlAyVzFuc083RkJpekdPYi1SQXBHNl9lOHVkb09hbTBpbkZFT1ZUbFY3VHNwcU1VWTFWUDBMUGVpeW92azRqNlpjdW1UdjN2a0I3U3ItM0dHc2NWQTEwRUNVMHQ3Rjg4MS1PaXRqbmV4Z3VVb0I5QjNObmZuZUQxSV9ENW02M3p0SE1uWE9vTjJRM3hfTW9LYlhSN3dSRkpaWE5YLTZPV0VuVDNuVnFWbGFzRWRZRjdWRmtkSHZlUFlP?oc=5",
+      "source": "O GLOBO",
+      "published_at": "Mon, 31 Aug 2026 13:26:40 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Empresas precisam se reprogramar para capturar valor da inteligência artificial",
+      "summary": "Empresas precisam se reprogramar para capturar valor da inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNkEzY2dRNEtZVEVWMFY2bWVTTURpVzFTZ29EUG92UWY2SDBOeThmRWllc1Y1WXNrbE1EYUttZTE1a0hTWjlzNEdUVmg0Ul82TE9Sc3l5blhob25zLVp0bTVaNUhvSkdjYVV3X3dHUlY0aXFpNXJiM1RtVy11WUVKNVc4QkN0RmNDN2Zsbk5URDh5ZmF5RnViMkV3eldSMTFRYXljMWxNbGJEbjJTNHdHUXhGVzZUTnlLbHpCZ01JTmpFYTjSAcgBQVVfeXFMTkVBSVBiNVlYbUR6MTlMbTRiOVo4a0J2SzJWcHJ2WlhlYkpkRzZDRklRYy1UY2dxNk9mTk5PS0NCLW1CTEhGUWdVR1ZSUEJlbFVmWjZpMmpXaHFqR0dhemtPckwzUURqZEpfRnBycnc0R1NESDNTSFZXSzJZdDFQZXExMkpadW5ibExfNkdqX3U5U214TzFCZWxoU25tM3BYR2JHMVM1azZHRjYtQmFBb0JSRkRJdkVvN0FOS1ZvNVUzdjFpSHMtN1E?oc=5",
+      "source": "Estadão",
+      "published_at": "Sun, 30 Aug 2026 11:01:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "26,5% dos profissionais que usam IA recebem treinamento das empresas",
+      "summary": "26,5% dos profissionais que usam IA recebem treinamento das empresas",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbEVGZUx1NThTS21LVndvcW5YYmlpM2JPRG9uSGs1eE42b2gyTE5PRVAtU205ZWlJRTV2NTczNmwyZHBlRWpKTUtoNW1MVF9ocjFyN2hSUXFfN1lhMVZwR0RYd2QyTkFXaHVuQ0xkWnk4VkNIaUF5QVBBRTVmT242dER3RXhiYW02X1ZGUHQ3dk5HT0RqeGMxSjA5ZDNHMFVBY2FveVV5aHIyM1JfR0xB?oc=5",
+      "source": "Poder360",
+      "published_at": "Mon, 31 Aug 2026 09:02:43 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
       "title": "IA ficou mais acessível, mas empresas ainda precisam preparar pessoas para gerar resultados",
       "summary": "IA ficou mais acessível, mas empresas ainda precisam preparar pessoas para gerar resultados",
       "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxONnU3RTBfUE9ZTk1wYnlTdkpXS3Vxb3ZZQUREYUdyeTdQemdVMDc5NjlZa1dHZlI4QU9KbWlHUUdweXZISURnLXM3cldocVpxNXlBbS11bFg3UVdYbmRlZTgxTWxYaXRVY1NwTlZUajF3NER1MGhxczc5OXlVTTVoVXY5LWJxcFc2YVB3bHI1VUZrTE5hbXFMQ1RBTmRQa3dXMmUxOEhrSGpWXzh3bHk3YmNxaWZpemhUaHdaSjRlM2pyZldrdXlxSkcyUEhqNXVDRlpTdkF1Z2Z4ZVE2MF9VeDJDbGM1bVlNejFIUG9yQThyUUgzSTNLNDQyeUthRWhvbFJuZ2xB?oc=5",
@@ -22,38 +49,11 @@
       "signal": "flat"
     },
     {
-      "title": "Empresas apostam em IA, mas ainda tropeçam no básico: regras e treinamento",
-      "summary": "Empresas apostam em IA, mas ainda tropeçam no básico: regras e treinamento",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOFg4eTJBekJEZ29Gd3pZdmZpeWt6RkRaMWNreloyd1hnY2wxT3VTWFZnY0pzVUllT000N2k1ZWJqNldVSHpHMGtCTlVYRDdIZ1J4UklVZHVZQnAtWThkSWJSMG12T2JKblBsZE44M2c0aXJxbURqUmtCVVJMV0V2aTJWaVZwSnpDSVlQOW9kNjdtS0MtSXNYRjRvLUFhczhhZWwzbUxHd0hWZENIN3o3LdIBtgFBVV95cUxNNWw2ak5XM2JOTzJ3V3NJLTViOHVYRWc1MGJIY0NXWmJzdjNDZF8ydXJEVWM1Z3BRS3Bvd1VBNFNiaFZRelFxaWZTczd4S0I3ZWhPd3BEX1ZRTS16RVpuMWNDRm84elN0bEhxSU90WlNHbkwtWklKVW5ieEFZZ3BTQnNSVGl1dmVsUTlCQVFNbFRJUkUybGpqelNOam9Gc1JWWk9ZLWtGa2RQVnZUaDA4RnhxeFp6QQ?oc=5",
-      "source": "InfoMoney",
-      "published_at": "Sat, 29 Aug 2026 12:47:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Empresas assinam carta por mais segurança contra ciberataques de IAs",
-      "summary": "Empresas assinam carta por mais segurança contra ciberataques de IAs",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbnU1cjVHU2J3UWRDRzZCT3dISHJtNUZJelhudi1lZEhHWHRqeHFMQmJGUnJGc0F1b2JFS2pTLVlRYTIzV1RzamNUb1J3VkFicmtaWGI3TTV1R21SMk5YaUxVeHBabmdickxpUmJRblR3c1plMndmbHIwZnZKLXVoZzFhV2xrMWlkSFlIMEh1aTYtZVJFbTQ3MTlZaHZNTDgxOXVjNkN6UXRpemljazgxM3JZNmlERkRZdURGQQ?oc=5",
-      "source": "TecMundo",
-      "published_at": "Fri, 28 Aug 2026 21:00:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "OpenAI, Google e outras empresas pedem ação urgente contra ataques de IA",
-      "summary": "OpenAI, Google e outras empresas pedem ação urgente contra ataques de IA",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVk9ybURFT01LTHlWRFlmLTAwempFMm5jSW9sMzR0RlAtQlpFb1JTOFppS2pOLWlHR1BCR3BzbzMxV1JiWVFTZkVYYmNIUjh3dXlsbnJhWk5BdXY2aEVqZzA2ZmtnY0xfbUJqRjFxeWxTb0kxYkxraERrRXU0YnFnTG41TlFTN245ZFNYTHNoY3N5ZEhiVVh0bDhWb2l3MDFkNkUxbzJYZ0RKVHdIZHFudHYzWnZGRlNhVFpPY3h3VEVjZWpnSzh1QzE5UHl3Y3V6?oc=5",
-      "source": "Olhar Digital",
-      "published_at": "Fri, 28 Aug 2026 01:27:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Ameaça cibernética: OpenAI e Anthropic pedem que empresas e governos aumentem proteção contra ataques com IA",
-      "summary": "Ameaça cibernética: OpenAI e Anthropic pedem que empresas e governos aumentem proteção contra ataques com IA",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPYUd5RWZITkVUNHFpcmRqREpUMGd6NmVtQlBocWZuZmlyQzJ3eGdHSjlmbDFwVW1qck1XeHJhVFJ4LVd3bGtKX0QyU0NhT1JPNjltamdRV0JIRjB4RUpaWjRVUUl5bVVLeGVTeFhFc0hSUlUzVi1ON2FJQlotaXV4SGZKNlhWbXRNeEJXRzcwTUxvaDRuMWFhbVp6V3dicVpxeS1Fdk0zSlJqNVFDSVUxTFVKTUVlbnFmcThZTnlQNF9ldHAwWnE4S3RmMW9JN1pOZDNndDYyTGtBWXhXd3ZsTkpxQ1UtSjFLWEtYNjh4MUtoVzhVeUp1TnBR0gGIAkFVX3lxTE1iTlNMYmN6YUJQWThkVGFEV1QzOEJFaUpNdWRHOUxhQ0tHSzdPeXB2SE9VZ3YxYUQ3Zy16NjZkTFBTWmh2OTY3UFJWZmg1c0x0VVdxR1lidVpaZ0VXTTdNWWdnVU9jMFRjZERiSjZfR0ljNW05S3l5VnF0S0tjZ2tncFlJUDZOLTVNWWRmT0k2LTFkWkhmOVR4Z2dvVFRQWWowalhnNXZQYks2WUQ5MTlvZGJTMzhrdWVwaklkVi1yZHVMbjEzYUw5eTlyNThrTThzbDloUDhQaGJlWFRoYjhHU1Jra013T1FCVi1ZUmRWV0FCc052Q09CSExqZUJ1d3NZVTh2MHZoaQ?oc=5",
-      "source": "O GLOBO",
-      "published_at": "Thu, 27 Aug 2026 19:45:52 GMT",
+      "title": "Na China, IA substitui atores por versões digitais de si mesmos",
+      "summary": "Na China, IA substitui atores por versões digitais de si mesmos",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWVlqS25HQ01ILXhncHVhYnFhQk10RHNxYXpNa2RtTnFnOUdxSllPb2w4WHpIRlQtT1ZHLV9Ha1JBek4zRk5WNWtheUoxYldGdG5MNG9GOTZWeTl1Q0JSbUFfaXJZUGtua1F4bXloVEJpYjNvQXpkY1pjYUJqdkdtalZjUHVGOHFkdDVDNXMxU1psNFBhbVR4UTY2ZHpGckVtMTFsb0Y4WTJkYjJIVjlXRWYxUnFCZ1ZYWktnMNIBywFBVV95cUxNeUZmTkhpVjNUa0c2YjZ0MHFUcGt3a0JxQnRHM045TlcxaVZRQ3QyazdiQjdNaV9oT2xEcVkwT3lVWE1UTll6MkJRd05ZeEgxTTQ4Z2pUVDdfS0YwUjFTY29NdmtWazdPLW5LZnZmaGt3MnVvMWtadkxmZ05wRXpibjRGaDJSTmhyMlNpMGhMNVNNekFFQy1fYU1GdjZRaVFqel9UX3RLSzg4SktiUXozV3lrT0EydVZ3VFYtVmNNRHNINC00MFRTdjRxYw?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Mon, 31 Aug 2026 08:01:53 GMT",
       "category": "IA",
       "signal": "flat"
     }
