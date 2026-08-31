@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-08-31T15:33:31.631268+00:00",
+  "generated_at": "2026-08-31T23:31:57.141459+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
     {
       "symbol": "USD/BRL",
-      "value": "R$ 5,20",
+      "value": "R$ 5,18",
       "change": "0,00%",
       "direction": "flat"
     },
     {
       "symbol": "EUR/BRL",
-      "value": "R$ 6,03",
+      "value": "R$ 6,01",
       "change": "0,00%",
       "direction": "flat"
     },
     {
       "symbol": "IBOVESPA",
-      "value": "177.239 pts",
+      "value": "177.419 pts",
       "change": "estavel",
       "direction": "flat"
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 78.450",
-      "change": "-0,45%",
-      "direction": "down"
+      "value": "US$ 78.553",
+      "change": "+0,99%",
+      "direction": "up"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 2.468",
-      "change": "-0,44%",
-      "direction": "down"
+      "value": "US$ 2.466",
+      "change": "+1,44%",
+      "direction": "up"
     },
     {
       "symbol": "OURO",
-      "value": "US$ 4.483",
+      "value": "US$ 4.490",
       "change": "estavel",
       "direction": "flat"
     },
@@ -57,7 +57,7 @@
       "id": "usdbrl",
       "name": "Dolar (USD)",
       "icon": "💵",
-      "quote": "R$ 5,20",
+      "quote": "R$ 5,18",
       "change": "0,00%",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -68,7 +68,7 @@
       "id": "eurbrl",
       "name": "Euro (EUR)",
       "icon": "💶",
-      "quote": "R$ 6,03",
+      "quote": "R$ 6,01",
       "change": "0,00%",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -79,7 +79,7 @@
       "id": "ibov",
       "name": "Ibovespa",
       "icon": "📊",
-      "quote": "177.239 pts",
+      "quote": "177.419 pts",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -90,9 +90,9 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 78.450",
-      "change": "-0,45%",
-      "direction": "down",
+      "quote": "US$ 78.553",
+      "change": "+0,99%",
+      "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
       "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
@@ -101,9 +101,9 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 2.468",
-      "change": "-0,44%",
-      "direction": "down",
+      "quote": "US$ 2.466",
+      "change": "+1,44%",
+      "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
       "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
@@ -112,7 +112,7 @@
       "id": "gold",
       "name": "Ouro",
       "icon": "🥇",
-      "quote": "US$ 4.483",
+      "quote": "US$ 4.490",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -160,12 +160,12 @@
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUkdKLTYwWWpiMkFBek5QT1hUdnVNQzdkaDhOQmR1d3Z2T2djM3J1U0xpeWpvMjNCWUkzT09LRU1PdjNsaC02eFBjRFlZOEZRbTFlTldGZnJBQW5OOFZYSHdwc05TMXZkTGZDa2t5eHVjbEJzVm1nOUlCWWpXMkVvOHFwYkZTVV9nRGV0NGNiSnpWMF9ObFVicnBJYzVpOFFWRVE?oc=5"
     },
     {
-      "title": "Ibovespa recua junto com o exterior e dólar volta a subir, a R$ 5,08",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa3N0VWJ4dWZHc3FjcHZZT0owTXNWQURlSmFaRUxNX3pqSHNPLW9idng0anh1bnVvb19LTHQwMjJfM09wWTVVWjRhV00zTEY5NU45WGhzSGRabGYtRVo1bGl5SUZSS2Z2ekN5RFlJekxRNkpnRmRaTHBuQzRGNFFjSE5QRkpnYmRmOXUzVktYQQ?oc=5"
-    },
-    {
       "title": "Bolsa, dólar e juros: o que esperar após EUA classificarem PCC e CV como terroristas",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZER3WDlEYkpJQVZrZWFiSGFrb1NYRzdSTkM0Rzkwc2pmTURnUUUzLWRBTTZjRW1vV3hTZW5CS2ctcnYxWEQwMDd6VXVid0syNWtEeTNLRC1jVDhSdTZTVTBxSlh0dnB3a0NuV3lVc3d3Q2M4cV9XOUdGQmx2RHVtbm9qb0xJTzUxd21lako1OGtXMFpDU1h3U0FyZFBGMXJIOWREMFR3OEpick01aVZkTUFGU2lObW80NnhFRmM1empfZ0hsb1dsbkJHc19KT3VOSDBCcDhKaElzMVZpeGd1UklzYVlaXzQ0VXFMbDJMNUFJcl95ZkpOeU5FWUVNRGRqMVU4WFpNS1FHSlXSAZoCQVVfeXFMUHVtMFU3QXFIZ25Hc2t4VTgwakJVLVU2XzE4U3E3LWcwZ3hqOGFMaUxzOV9MdWxUQTQ5RWZ6bkhtYUZsai1hNms5MHU5amFfSWRubHIxREZjaDdWOF9iVjNtNHpGQnVDemJ0Y2xFTlB1OXJVWnpCV2NlWWJBS3pyQk9ZV2lPaElRaGZ1VEgxN2JfUXhNVUxvekVpeGZ6Z1A5SEttdHhrWjJwdGtaMnpKa1o1MXBBM3ZIaTJ6QUEwQkM2OWdJSkZRMUZHdlVVVy1vY09ncWdiazA4VVRGVmRRNVN4d3FWd0xUV0hRX3ptN3pOeHJNUDRIZURPcU5xRmRJejdsb09hVTh0N21PMzY0NnkxY0dheUkybHF3?oc=5"
+    },
+    {
+      "title": "Ibovespa recua junto com o exterior e dólar volta a subir, a R$ 5,08",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa3N0VWJ4dWZHc3FjcHZZT0owTXNWQURlSmFaRUxNX3pqSHNPLW9idng0anh1bnVvb19LTHQwMjJfM09wWTVVWjRhV00zTEY5NU45WGhzSGRabGYtRVo1bGl5SUZSS2Z2ekN5RFlJekxRNkpnRmRaTHBuQzRGNFFjSE5QRkpnYmRmOXUzVktYQQ?oc=5"
     },
     {
       "title": "Dólar dispara e fecha em R$ 5,17 após decisões de juros no Brasil e nos EUA; juros futuros têm forte alta",
