@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T23:32:01.495035+00:00",
+  "generated_at": "2026-09-01T12:49:31.745895+00:00",
   "source_note": "Historico de novidades TRCONGROUP consolidado dos radares.",
   "errors": [],
   "items": [
@@ -20,6 +20,22 @@
       "publishedAt": "Mon, 31 Aug 2026 09:02:43 GMT"
     },
     {
+      "source": "TecMundo",
+      "category": "IA",
+      "title": "Criminosos usam IA do Cursor em ataques contra empresas globais",
+      "summary": "Criminosos usam IA do Cursor em ataques contra empresas globais",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZmdsaUEtTGNtWHE3VHJMVzdaWmV4dEU3eDRpRGwyLU13bkRDTDZ1TWIyR2FWUW9RVnNfMG4tVXhyd090S1NtZWFZbkRTOXJUbWFNbGpOZjdadVFid3l6RjZVVzR1Mk50Q3hnZkFZQ1lVMlpSZlRPYVdMaHVDTzVNTlcyNzhhd0ZyTzlhd1BHNWJvZHViZUE4TWpMa3JqZWVjb2xqT1YwNlhyeGYzdHl5U05n?oc=5",
+      "publishedAt": "Tue, 01 Sep 2026 10:00:00 GMT"
+    },
+    {
+      "source": "TI INSIDE Online",
+      "category": "IA",
+      "title": "IA avança nas empresas, mas retorno financeiro ainda não acompanha ritmo de adoção, aponta McKinsey",
+      "summary": "IA avança nas empresas, mas retorno financeiro ainda não acompanha ritmo de adoção, aponta McKinsey",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTHdBY3l2OXlSUmh5UTMxbE1JTXdqblc0MDlRV3JlR2ZnOXJxVTFmMUJmY0tGZ0VNRzNpcGlubVlrVVl3dEhCSTRObS1YZlcyM0wxZGpZMjRoUFdMVGgxaFE4dnBIUXpsRHlUVlRhMHNfbkdqZzZKeTFESUR6NG1UZjRrWmZ3Zm1oOWc5ZzRBUUhtdUMzamxuekhJWDJZY05LM0JHNGwybGo0bVBHSmN4S0h2RTJ0NE1OanA3TXROWHpsMzl1SmFIWkhxRjZGZw?oc=5",
+      "publishedAt": "Mon, 31 Aug 2026 16:34:56 GMT"
+    },
+    {
       "source": "Exame",
       "category": "IA",
       "title": "Governança de IA ganha espaço nas empresas e cria novas funções para profissionais",
@@ -28,28 +44,12 @@
       "publishedAt": "Mon, 31 Aug 2026 20:51:26 GMT"
     },
     {
-      "source": "TI INSIDE Online",
+      "source": "clickpetroleoegas.com.br",
       "category": "IA",
-      "title": "IA avança nas empresas, mas retorno financeiro ainda não acompanha ritmo de adoção, aponta McKinsey",
-      "summary": "IA avança nas empresas, mas retorno financeiro ainda não acompanha ritmo de adoção, aponta McKinsey",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTHdBY3l2OXlSUmh5UTMxbE1JTXdqblc0MDlRV3JlR2ZnOXJxVTFmMUJmY0tGZ0VNRzNpcGlubVlrVVl3dEhCSTRObS1YZlcyM0wxZGpZMjRoUFdMVGgxaFE4dnBIUXpsRHlUVlRhMHNfbkdqZzZKeTFESUR6NG1UZjRrWmZ3Zm1oOWc5ZzRBUUhtdUMzamxuekhJWDJZY05LM0JHNGwybGo0bVBHSmN4S0h2RTJ0NE1OanA3TXROWHpsMzl1SmFIWkhxRjZGZw?oc=5",
-      "publishedAt": "Mon, 31 Aug 2026 22:06:49 GMT"
-    },
-    {
-      "source": "ND Mais",
-      "category": "IA",
-      "title": "Empresas começam a definir alçadas para agentes de inteligência artificial",
-      "summary": "Empresas começam a definir alçadas para agentes de inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ0RIdTc5d045Vnp0R1VxWWl0ckt0U0ZjaXdodzdBQU8wR1pyZXU1dFdiYnBRY1Nxd19vQmoyM0k2dndYRHlEc0tNeWx0VWFMNENNa0ZpUWhnVjA3aldLOXcwdHBjWUw2X0V3SWhCUlJQYlZlSmR4WGpzZFo4eU1iMWN2Zjdfbzh0bVozaHVjNVFnRTJIY1RFaDczcUpPZWVPS1pqRHkycVdQcVFp?oc=5",
-      "publishedAt": "Mon, 31 Aug 2026 22:26:48 GMT"
-    },
-    {
-      "source": "Sistema Firjan",
-      "category": "IA",
-      "title": "Empresas do Norte Fluminense participam de Workshop de Inteligência Artificial da Firjan",
-      "summary": "Empresas do Norte Fluminense participam de Workshop de Inteligência Artificial da Firjan",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPRkQtc1c2ZkM0SnUyOHhFWlUwZ1lmdEFVLTFLR2hNX0lUWEw4bDNDcjZBb3VIVXkwZGs2YWU5UWdwMDByd3dzc2NyR2JvNV9Ba184MEJjSlJzUk5pX25aRHdiVlN0OURSSkFkZ05ScFFSSndLY2luWjlXeDhpUXAwLXQzeXFRVWVaQmRYbktXYzJNRG50azB1VWRsQlRrY3dqbmNSZlNsamhuSXhva0lEXzhsc3BZRXAtOVF2ZEg0amtsWjY0V2llRWtNMHpxa2hRNGJRbWNqck41azVsYzVjd3VuaDl2UlNLUUE2YVRZallsWWM3N0E?oc=5",
-      "publishedAt": "Fri, 28 Aug 2026 20:12:00 GMT"
+      "title": "Aos 9 anos ele começava a explorar tecnologia, aos 12 já construía robôs e, aos 16, sem sequer ter terminado a escola, já comanda uma empresa de IA, levou conhecimento gratuito a mais de 140 mil pessoas e chega a um evento da ONU para discutir o fut",
+      "summary": "Aos 9 anos ele começava a explorar tecnologia, aos 12 já construía robôs e, aos 16, sem sequer ter terminado a escola, já comanda uma empresa de IA, levou conhecimento gratuito a...",
+      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOcVF3dGkxa1hvNzN1V2Q3bkNDMUF3TXlWS0JvdThoeWhYX0xxbVJ1bkxHUHBQNzdyR3hqSEJRMDNqTzdyRWszdjZucFBMeTBpUmdvSW9JcmRveGNTNnNhTGRPMy02T3l2QjJvbVpGRlBWSG43a2hOLWpRTGFVQ2NvYlNXUS1JTGM3RVIxRmpVR2I4Uk5mS19MaHhlT05nMGZPR1VNaDFiVkVxU09xZm1lNnBNdXktYVRRR3JybkY1bkI2dHBValdvMlN0dG15ay1yR1NTa1ZSelRIeGMwUU90ekJwRXR5RnFPYTRnUV9sZF9PSFppOFJRU0FhUkZCS2lqTWsyNTlsdXZXUXFoTVNVR3J3VzdLWjdaMEN5c1dEYXJHMUVmNk9VWkVvZjFma3U2ZmFHT2hwV0x4TGp2YWExbmhuQ2VLSWs?oc=5",
+      "publishedAt": "Tue, 01 Sep 2026 00:52:00 GMT"
     },
     {
       "source": "Prefeitura de São Paulo",
