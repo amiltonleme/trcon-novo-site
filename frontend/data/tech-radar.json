@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-27T18:26:41.136128+00:00",
+  "generated_at": "2026-09-01T12:49:31.695732+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de tecnologia.",
   "errors": [],
   "items": [
     {
-      "title": "Equipe virtual de agentes de IA reduz em até 70% o tempo de desenvolvimento de software na Dígitro Tecnologia",
-      "summary": "Equipe virtual de agentes de IA reduz em até 70% o tempo de desenvolvimento de software na Dígitro Tecnologia",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObGluV1kyWmNZa2VuODZNQzJ1LWV6NllPTHg2eVdBanUycklHWG5zR2Y1bUZJYmFCUDVDaTRFeFZlaS1WZU9fXzVLSVNhNDJPZElXTHR3bjhzVmw4NVh1V1lsWXNuLW9ycGNNdmU5Z1NWRmN5Y2NVZndBQWxWcnRkUjdEZVE4RjhuaXpHWmVnYnUzOGlGWEFaVThiakF4S0k5aFJlcTVLV0IwTV9XODl6UU5tY1RaMFFXb1doX1Qtcjg0YzVlaVp4ZnRqSzNmdG9BdnJLQ0diaGc1cjVk?oc=5",
-      "source": "TI INSIDE Online",
-      "published_at": "Thu, 26 Mar 2026 07:00:00 GMT",
+      "title": "São Paulo concentra mais de 221 mil empregos formais em tecnologia e registra crescimento de 61% em ocupações no setor em uma década - Secretaria Municipal de Desenvolvimento Econômico e Trabalho",
+      "summary": "São Paulo concentra mais de 221 mil empregos formais em tecnologia e registra crescimento de 61% em ocupações no setor em uma década - Secretaria Municipal de Desenvolvimento...",
+      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQV2J3T3duUXJfeFBrYVZnaTlpYTRxYWVKZ0V2dGNYVlhNZEpiSThtZ1ZwakhZbV9SYU8zamdHcUFoRUsxRlNNRFhMZlVyZWxEUjg5REd0a0R5cEdRY3p5dXZpSWRwQjNJV3BCMHFELWNYSlZ4M28tVkZMalRNLTgyZ2tWdExRUC15UXAtVlRPZkVyZHZHc09McHhiMUlNejN1M242SlQ2enBBb0Q1NWowQ2JpTWlkcmRoOUFScXNXVlViRXdWX0QzcEVFT0hBdTRiYW5rZ2RaNVlLWlBqSmw2YTJnemVXVWUzZDhkenctM3otTndEbnRhLVBzVERtY2NWdzNTUF9OeHN6WDFDdGZqS0lUUVdta3J5cWNxdlJobHpobW5HLXNMa1J3?oc=5",
+      "source": "Prefeitura de São Paulo",
+      "published_at": "Fri, 17 Jul 2026 21:09:28 GMT",
       "category": "Tecnologia",
       "signal": "flat"
     },
@@ -31,20 +31,20 @@
       "signal": "flat"
     },
     {
-      "title": "AMcom lan�a modelo de entrega de solu��es em desenvolvimento de software potencializado por IA",
-      "summary": "AMcom lan�a modelo de entrega de solu��es em desenvolvimento de software potencializado por IA",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSVJHd1ZRSXIyZllmWmJjWE9URWFfYzB4bWU0UUNxd3ZJdlBvMkhza0dOSHJDYmZoZjRkTmJUT2dKTjhVMkhmU1JVd2hsbnZINEFORFNIM2dmNjYxR3h3dUw3ZkNXTERDN0hCMjBmUGtFMV9weXc1R2tjOTlwdnNzVVpheFQxSDdPYkJpQy11d1k2ZnZHeGhyLTZwWllsR0d5dnZsSlpENTByVzNQSmlrdFZYdVpmOUo0c25fUUtHd0hBcWQwdnlTOUtqY0NPbW5ycmJzcXdQVXRwdFFPMFVjcThCbmZMR1dHSDVXb0k3S21vT0tCTmhJcg?oc=5",
-      "source": "noticenter.com.br",
-      "published_at": "Fri, 26 Jun 2026 07:00:00 GMT",
-      "category": "Tecnologia",
-      "signal": "flat"
-    },
-    {
       "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
       "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
       "source": "jornaltribuna.com.br",
       "published_at": "Wed, 01 Jul 2026 07:00:00 GMT",
+      "category": "Tecnologia",
+      "signal": "flat"
+    },
+    {
+      "title": "AMcom lan�a modelo de entrega de solu��es em desenvolvimento de software potencializado por IA",
+      "summary": "AMcom lan�a modelo de entrega de solu��es em desenvolvimento de software potencializado por IA",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSVJHd1ZRSXIyZllmWmJjWE9URWFfYzB4bWU0UUNxd3ZJdlBvMkhza0dOSHJDYmZoZjRkTmJUT2dKTjhVMkhmU1JVd2hsbnZINEFORFNIM2dmNjYxR3h3dUw3ZkNXTERDN0hCMjBmUGtFMV9weXc1R2tjOTlwdnNzVVpheFQxSDdPYkJpQy11d1k2ZnZHeGhyLTZwWllsR0d5dnZsSlpENTByVzNQSmlrdFZYdVpmOUo0c25fUUtHd0hBcWQwdnlTOUtqY0NPbW5ycmJzcXdQVXRwdFFPMFVjcThCbmZMR1dHSDVXb0k3S21vT0tCTmhJcg?oc=5",
+      "source": "noticenter.com.br",
+      "published_at": "Fri, 26 Jun 2026 07:00:00 GMT",
       "category": "Tecnologia",
       "signal": "flat"
     },
