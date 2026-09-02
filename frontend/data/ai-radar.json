@@ -1,14 +1,32 @@
 {
-  "generated_at": "2026-09-01T22:15:42.142471+00:00",
+  "generated_at": "2026-09-02T12:19:23.481858+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
     {
-      "title": "IA nas empresas: por que a inteligência artificial virou responsabilidade fiduciária | SEGS Portal...",
-      "summary": "IA nas empresas: por que a inteligência artificial virou responsabilidade fiduciária | SEGS Portal...",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPY3ZmNjllNm4wdWducUZPcWtxNFF1QXJ5TXQxb1oxZ2l3OFUwVFo4Sm94QkJjZDY1SGtRRUNFdldTbkJ5Um1Zb1FJTVhUeXZMX0JDa1kyMWlxU0FKNlVFOGd5OFdoTTlpem84djREV21abTd3QVBYcE5MeHdRcUgtTUp6WUxvN3B3QjMzY1VHdHNRVU9ZNFFCVzJGUXFvd2k1enV1RDJOVVJfNEp4N3kxMGZMT196anR6TWUwRXhKSdIBxAFBVV95cUxONXhDN0hVeVZGeWpjTTJlSFdfalIzNmd5WVozUmVWQ2lWaXIzNmVxLW9MYThTSnpVUUVTc2dkendTajdqaklFeFBoSDIxT1VDQjR6Nm93WlRmSUoweC1oaGR2OWNfYk5ieC1wdElqd2EtaWI1TVA0eW4yekdjWXZ1a2g2cUZldXREblRvOHI5cFB4cjlUaThxb2pKSnFEcmRIZm1WbnJLR0RUZTdtbGJjYUZzY3JYZUJ1QzYwR1paNFVMSG9Q?oc=5",
-      "source": "SEGS Portal Nacional",
-      "published_at": "Tue, 01 Sep 2026 17:27:38 GMT",
+      "title": "Empresas precisam tornar resultados mais verificáveis na era da IA, diz LAQI",
+      "summary": "Empresas precisam tornar resultados mais verificáveis na era da IA, diz LAQI",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOOF9nUy10NjhkWklzUzZBbkdReGRCS1FLNEdvTjZEelk4VUVvQk5qYzFXS0x4OXNoNXYxZnJpWnFrQ3lyd3Nhcmxxa25Wa18tbVM1YThBa0Q5eS01NmlvSmVTeWdhRjNXVldWTGFWNG9DT2E3ZmN2cEEyRFFkYnJNRldlakZ4RktXT041VjF1OW5KTy1tSEMtLVRvVFdFLUxNVjdlNDI3M0ROTjkwbHRNMHVEOXNCZ0VrcVFJMmNvZHo1ZHI5N0VaT0YwUFljYjFTa2Vqb0d1b2lyalJHUk1EV1JleHpEd9IB9AFBVV95cUxNT0pYVE5LLV9rYnZMeTN0cVg4RF9ZT05NWVFrbHUyVWtzZDV6bnl0YmM5N0xXaDhWNW9KZlAyVzFuc083RkJpekdPYi1SQXBHNl9lOHVkb09hbTBpbkZFT1ZUbFY3VHNwcU1VWTFWUDBMUGVpeW92azRqNlpjdW1UdjN2a0I3U3ItM0dHc2NWQTEwRUNVMHQ3Rjg4MS1PaXRqbmV4Z3VVb0I5QjNObmZuZUQxSV9ENW02M3p0SE1uWE9vTjJRM3hfTW9LYlhSN3dSRkpaWE5YLTZPV0VuVDNuVnFWbGFzRWRZRjdWRmtkSHZlUFlP?oc=5",
+      "source": "O GLOBO",
+      "published_at": "Mon, 31 Aug 2026 13:26:40 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "26,5% dos profissionais que usam IA recebem treinamento das empresas",
+      "summary": "26,5% dos profissionais que usam IA recebem treinamento das empresas",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbEVGZUx1NThTS21LVndvcW5YYmlpM2JPRG9uSGs1eE42b2gyTE5PRVAtU205ZWlJRTV2NTczNmwyZHBlRWpKTUtoNW1MVF9ocjFyN2hSUXFfN1lhMVZwR0RYd2QyTkFXaHVuQ0xkWnk4VkNIaUF5QVBBRTVmT242dER3RXhiYW02X1ZGUHQ3dk5HT0RqeGMxSjA5ZDNHMFVBY2FveVV5aHIyM1JfR0xB?oc=5",
+      "source": "Poder360",
+      "published_at": "Mon, 31 Aug 2026 09:02:43 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "IA avança nas empresas, mas retorno financeiro ainda não acompanha ritmo de adoção, aponta McKinsey",
+      "summary": "IA avança nas empresas, mas retorno financeiro ainda não acompanha ritmo de adoção, aponta McKinsey",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTHdBY3l2OXlSUmh5UTMxbE1JTXdqblc0MDlRV3JlR2ZnOXJxVTFmMUJmY0tGZ0VNRzNpcGlubVlrVVl3dEhCSTRObS1YZlcyM0wxZGpZMjRoUFdMVGgxaFE4dnBIUXpsRHlUVlRhMHNfbkdqZzZKeTFESUR6NG1UZjRrWmZ3Zm1oOWc5ZzRBUUhtdUMzamxuekhJWDJZY05LM0JHNGwybGo0bVBHSmN4S0h2RTJ0NE1OanA3TXROWHpsMzl1SmFIWkhxRjZGZw?oc=5",
+      "source": "TI INSIDE Online",
+      "published_at": "Mon, 31 Aug 2026 16:34:56 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -22,38 +40,20 @@
       "signal": "flat"
     },
     {
-      "title": "Empresas do Norte Fluminense participam de Workshop de Inteligência Artificial da Firjan",
-      "summary": "Empresas do Norte Fluminense participam de Workshop de Inteligência Artificial da Firjan",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPRkQtc1c2ZkM0SnUyOHhFWlUwZ1lmdEFVLTFLR2hNX0lUWEw4bDNDcjZBb3VIVXkwZGs2YWU5UWdwMDByd3dzc2NyR2JvNV9Ba184MEJjSlJzUk5pX25aRHdiVlN0OURSSkFkZ05ScFFSSndLY2luWjlXeDhpUXAwLXQzeXFRVWVaQmRYbktXYzJNRG50azB1VWRsQlRrY3dqbmNSZlNsamhuSXhva0lEXzhsc3BZRXAtOVF2ZEg0amtsWjY0V2llRWtNMHpxa2hRNGJRbWNqck41azVsYzVjd3VuaDl2UlNLUUE2YVRZallsWWM3N0E?oc=5",
-      "source": "firjan.com.br",
-      "published_at": "Fri, 28 Aug 2026 20:12:00 GMT",
+      "title": "Aos 9 anos ele começava a explorar tecnologia, aos 12 já construía robôs e, aos 16, sem sequer ter terminado a escola, já comanda uma empresa de IA, levou conhecimento gratuito a mais de 140 mil pessoas e chega a um evento da ONU para discutir o fut",
+      "summary": "Aos 9 anos ele começava a explorar tecnologia, aos 12 já construía robôs e, aos 16, sem sequer ter terminado a escola, já comanda uma empresa de IA, levou conhecimento gratuito a...",
+      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOcVF3dGkxa1hvNzN1V2Q3bkNDMUF3TXlWS0JvdThoeWhYX0xxbVJ1bkxHUHBQNzdyR3hqSEJRMDNqTzdyRWszdjZucFBMeTBpUmdvSW9JcmRveGNTNnNhTGRPMy02T3l2QjJvbVpGRlBWSG43a2hOLWpRTGFVQ2NvYlNXUS1JTGM3RVIxRmpVR2I4Uk5mS19MaHhlT05nMGZPR1VNaDFiVkVxU09xZm1lNnBNdXktYVRRR3JybkY1bkI2dHBValdvMlN0dG15ay1yR1NTa1ZSelRIeGMwUU90ekJwRXR5RnFPYTRnUV9sZF9PSFppOFJRU0FhUkZCS2lqTWsyNTlsdXZXUXFoTVNVR3J3VzdLWjdaMEN5c1dEYXJHMUVmNk9VWkVvZjFma3U2ZmFHT2hwV0x4TGp2YWExbmhuQ2VLSWs?oc=5",
+      "source": "CPG Click Petróleo e Gás",
+      "published_at": "Tue, 01 Sep 2026 00:52:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Na China, IA substitui atores por versões digitais de si mesmos",
-      "summary": "Na China, IA substitui atores por versões digitais de si mesmos",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWVlqS25HQ01ILXhncHVhYnFhQk10RHNxYXpNa2RtTnFnOUdxSllPb2w4WHpIRlQtT1ZHLV9Ha1JBek4zRk5WNWtheUoxYldGdG5MNG9GOTZWeTl1Q0JSbUFfaXJZUGtua1F4bXloVEJpYjNvQXpkY1pjYUJqdkdtalZjUHVGOHFkdDVDNXMxU1psNFBhbVR4UTY2ZHpGckVtMTFsb0Y4WTJkYjJIVjlXRWYxUnFCZ1ZYWktnMNIBywFBVV95cUxNeUZmTkhpVjNUa0c2YjZ0MHFUcGt3a0JxQnRHM045TlcxaVZRQ3QyazdiQjdNaV9oT2xEcVkwT3lVWE1UTll6MkJRd05ZeEgxTTQ4Z2pUVDdfS0YwUjFTY29NdmtWazdPLW5LZnZmaGt3MnVvMWtadkxmZ05wRXpibjRGaDJSTmhyMlNpMGhMNVNNekFFQy1fYU1GdjZRaVFqel9UX3RLSzg4SktiUXozV3lrT0EydVZ3VFYtVmNNRHNINC00MFRTdjRxYw?oc=5",
-      "source": "Valor Econômico",
-      "published_at": "Mon, 31 Aug 2026 08:01:53 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Como empresas e órgãos públicos monitoram sua imagem na internet e nas ferramentas de inteligência artificial",
-      "summary": "Como empresas e órgãos públicos monitoram sua imagem na internet e nas ferramentas de inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPZXhiMU5PMkp6WS1qdFMtemxMSk1fNzRJQ0NCQ1BCSHFZWm5zVHJSWmpRbXVaT0lmaUZuMDlUWk9ON0JNa3NNYkI3ZmZQRGxlamJweFctQ1dwOGpyYUx2YjdMVWlJXy1jY3hOMlhTOG16WGIxVjFXNDdSeXd4R2N0S1FNZEtfSS1seGJpUE82bDJYQ3A0ZF8tTGp6dElPbXYxcDFLU01DYktjZGNSLTdHTEs0a3ljejI4TnVxc1lqRm9hcVNmdHkyNlJtVFk0eUhaTDhnYUVoUjlzX0JDeVFGUkVQd2RyM084bFVONXBjejlKZVBYcmZmNjJyZXc1Y0VZcDJBMXJOcTdYU3Bvdmhr?oc=5",
-      "source": "Estadão Blue Studio",
-      "published_at": "Tue, 01 Sep 2026 18:11:42 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "IA avança nas empresas, mas retorno financeiro ainda não acompanha ritmo de adoção, aponta McKinsey",
-      "summary": "IA avança nas empresas, mas retorno financeiro ainda não acompanha ritmo de adoção, aponta McKinsey",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTHdBY3l2OXlSUmh5UTMxbE1JTXdqblc0MDlRV3JlR2ZnOXJxVTFmMUJmY0tGZ0VNRzNpcGlubVlrVVl3dEhCSTRObS1YZlcyM0wxZGpZMjRoUFdMVGgxaFE4dnBIUXpsRHlUVlRhMHNfbkdqZzZKeTFESUR6NG1UZjRrWmZ3Zm1oOWc5ZzRBUUhtdUMzamxuekhJWDJZY05LM0JHNGwybGo0bVBHSmN4S0h2RTJ0NE1OanA3TXROWHpsMzl1SmFIWkhxRjZGZw?oc=5",
-      "source": "TI INSIDE Online",
-      "published_at": "Mon, 31 Aug 2026 16:34:56 GMT",
+      "title": "IA nas empresas: por que a inteligência artificial virou responsabilidade fiduciária | SEGS Portal...",
+      "summary": "IA nas empresas: por que a inteligência artificial virou responsabilidade fiduciária | SEGS Portal...",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPY3ZmNjllNm4wdWducUZPcWtxNFF1QXJ5TXQxb1oxZ2l3OFUwVFo4Sm94QkJjZDY1SGtRRUNFdldTbkJ5Um1Zb1FJTVhUeXZMX0JDa1kyMWlxU0FKNlVFOGd5OFdoTTlpem84djREV21abTd3QVBYcE5MeHdRcUgtTUp6WUxvN3B3QjMzY1VHdHNRVU9ZNFFCVzJGUXFvd2k1enV1RDJOVVJfNEp4N3kxMGZMT196anR6TWUwRXhKSdIBxAFBVV95cUxONXhDN0hVeVZGeWpjTTJlSFdfalIzNmd5WVozUmVWQ2lWaXIzNmVxLW9MYThTSnpVUUVTc2dkendTajdqaklFeFBoSDIxT1VDQjR6Nm93WlRmSUoweC1oaGR2OWNfYk5ieC1wdElqd2EtaWI1TVA0eW4yekdjWXZ1a2g2cUZldXREblRvOHI5cFB4cjlUaThxb2pKSnFEcmRIZm1WbnJLR0RUZTdtbGJjYUZzY3JYZUJ1QzYwR1paNFVMSG9Q?oc=5",
+      "source": "segs.com.br",
+      "published_at": "Tue, 01 Sep 2026 17:27:38 GMT",
       "category": "IA",
       "signal": "flat"
     }
