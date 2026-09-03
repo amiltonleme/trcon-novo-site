@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T22:13:32.066791+00:00",
+  "generated_at": "2026-09-03T12:17:20.105817+00:00",
   "source_note": "Curadoria automatica de educacao financeira a partir de feeds RSS publicos, com complemento do catalogo estatico TRCONGROUP quando necessario.",
   "errors": [],
   "items": [
@@ -29,15 +29,15 @@
       "link_label": "Ler mais"
     },
     {
-      "tag": "Estrategia Mensal",
-      "tag_class": "tag-green",
-      "title": "Sem Poupança: Por que 52% dos Brasileiros Não Têm Reservas",
-      "body": "Sem Poupança: Por que 52% dos Brasileiros Não Têm Reservas Gazeta do Povo",
+      "tag": "Mercado",
+      "tag_class": "tag-blue",
+      "title": "Projeto de Educação Financeira ensina estudantes noções de investimentos e consumo consciente",
+      "body": "Projeto de Educação Financeira ensina estudantes noções de investimentos e consumo consciente Secretaria Municipal de Educação",
       "meta": [
         "Leitura rapida",
-        "Fonte: Gazeta do Povo"
+        "Fonte: Secretaria Municipal de Educação"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMW0tWThBSTY5aXVVc21INUliU254NDl5RHpNWUtjUVNtSGtkZkVYYlhPOHE1Qml5dHlBZ3JNSVE0LWx4MG1ZckJ5WUpiMGZiUkJnR2paYVZXSU50UWJLcUJVQkRTTVlMTngyNUtlODB5RU1ITTdfUUNraVltaWZTTUN1ek1RVExWNlVjZWpwcG9lQ0R4NFpVVlJrWXlybzJwNmxKem80S2c?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNmVNY1Z5Q2k2TzdrSnI2dTFjRXpBdnpvNFBrVDVyMG5OeUV0NnRDdU5MNnhTY0VBUzgxbkk1bjM3bi16eEpoYXp5X0JyYWpoOE9PRjBrVlBPUVVrYU9uSks5VEJWdng5QXhKdndtSkkxYy15aGRuVlZTLVFfSVdQTmRuWENncmd0bWNOUER6VGI2MlFTWmZPbGZrVDBfcWxYSldHN2ZCenhnb2J6VU1pY1NKNzRMYW1kRzNSaHQtbHlET0pieGpaSGxfRjRoUVhhMmVscF9OUXRpU0UxR2c?oc=5",
       "link_label": "Ler mais"
     },
     {
