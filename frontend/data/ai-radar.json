@@ -1,61 +1,59 @@
 {
-  "generated_at": "2026-09-02T22:13:33.377299+00:00",
+  "generated_at": "2026-09-03T22:05:22.595174+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
-  "errors": [
-    "Sem itens novos nesta execucao; mantido o ultimo artefato valido."
-  ],
+  "errors": [],
   "items": [
+    {
+      "title": "OpenAI lança novo modelo de inteligência artificial, mas faz alerta sobre segurança",
+      "summary": "OpenAI lança novo modelo de inteligência artificial, mas faz alerta sobre segurança",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWFlSLWU5TncyZ3dnMHNmajlxaDRYdW5aQkstMHFhVDV6M1ZzOUtlenFqUm0xSlljNkpYTzhUMHBtN2l6bnRINUJiVmllV3lBTXpjWkZMR28xMTBpN2ZIaTZidkk3MHNiODJCTXNCbDVXbEQybUVfNHRHOVBENWljU2ZtVlhKRlNPSW43enJ3b2xvQldHWFEtR21nX1E5TW53bno1VFJGZEVjTGNYZWh2cjJqT2RNRXVKM0dhRXhlVzZuSnltNVl3eHBWanFLVkVJanMyZnNKeC1qeHlielB0VGZpNHFUUdIB5gFBVV95cUxQWFlSLWU5TncyZ3dnMHNmajlxaDRYdW5aQkstMHFhVDV6M1ZzOUtlenFqUm0xSlljNkpYTzhUMHBtN2l6bnRINUJiVmllV3lBTXpjWkZMR28xMTBpN2ZIaTZidkk3MHNiODJCTXNCbDVXbEQybUVfNHRHOVBENWljU2ZtVlhKRlNPSW43enJ3b2xvQldHWFEtR21nX1E5TW53bno1VFJGZEVjTGNYZWh2cjJqT2RNRXVKM0dhRXhlVzZuSnltNVl3eHBWanFLVkVJanMyZnNKeC1qeHlielB0VGZpNHFUUQ?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Thu, 03 Sep 2026 20:22:34 GMT",
+      "category": "IA",
+      "signal": "up"
+    },
+    {
+      "title": "O que é inteligência artificial generativa e como ela está mudando as empresas",
+      "summary": "O que é inteligência artificial generativa e como ela está mudando as empresas",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWFNHMFdWMjZSeDdKVnkwcHlDNTl5MFN6Z2F5aFUzSVpncGp4ZnU4bHNtV0pZaTd3QXhIMDZnRkZYdVlNT3ozTjY5ZExVbjdSVWJBaDlaYjh6SGZDSmZwNkdlLS00bVRNT2p5MTZhU014cGttX1hLdlp0a0ZMV1lEcWNheHdRTThOSERhbW54RXU0R1pWT2FxV1p0Q05maldyNjI0Q1RGSkRScG9HLVhfeWt5RQ?oc=5",
+      "source": "Economia SC",
+      "published_at": "Thu, 03 Sep 2026 08:04:09 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Quanto mais estratégica a IA, mais importante será a decisão humana, diz Silvio Meira",
+      "summary": "Quanto mais estratégica a IA, mais importante será a decisão humana, diz Silvio Meira",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPTXBSUjJ1WXJYbzEzUUpVdVBuVXhCdFQ0N1dOUjUxU2lFVXRYM3djOXlobXNwRTBSajA1QlJnLVItNGgzSTVMWWxIWFp1SVdBajZ5Z0JnbE56X00zMExwZl9BX2VBQ2hXVUFHV0tmaF82aThUNEFvc0s1ZmRuRnZ3elQxZ3Y1eE0tcmRtNjFER1Z1OWlhRzJTZ0syX3A2S0trVWhwZGx2NXBMNlhRZl9NVWNqS2d0cWdjM194NXhUT1JlSlFBQldpVWRIM2JCZkI1RzZlR2xUalFnN3gxMVg4OUVFUlU4TUFVWU5fdElwQXJvVkc3NXE5VtIBhwJBVV95cUxNdURxT0V6R2lpcjgxSlNqZDFoOEEzOXVTTmQwajkyWnZMMjNzQTdoZWlxR3pWVTBwQXpCeFNWWEVYdjJ4TnJKQ2dtMmJFSXc4Y3ZnSjVYZzNUYUVTUS1ZM3ZMRW9TNkx5M01KYjg3eDRYZmpyaFMwUVJoeFU1cjdtT2xteHZkZkZfdFVXeEpYYU96Sk4yM1RtcU1oVkhwbk9fSXYza3IxUVlyTXl1TzJHTWhzUFFxemllSG9aSmx2Nlo3ZkM3WV9KLXhtbnBPVzV0VjZ1NC15NnItaWdHSm9Yd01zRDZ6aVlOTEJIUUN4d0MzT0ZGMUg2cEhJQ2hPQkhFdnpGVllHOA?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Thu, 03 Sep 2026 21:43:39 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
     {
       "title": "Operação 100: StartSe vai implementar IA em 100 empresas",
       "summary": "Operação 100: StartSe vai implementar IA em 100 empresas",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUGN1anRqRmZpRWJoby1wMTlrY0hYWlQ1ekVaUFpSanlnLUVXaEhGbDVwZUloWDc1a0FPOUdVS0VVWkl3b29Gb2dFc182LXNfRVFnZ2VyNzJSRlBRcEhhUkpWSlNLR05Ndldnd2J2Y2QtQkVBTnFnNFRJdWpJcHV4YjN1aHJ6bzRMSjhZTHlGTG1VV3VD?oc=5",
-      "source": "StartSe",
+      "source": "startse.com",
       "published_at": "Wed, 02 Sep 2026 19:50:27 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Empresas brasileiras adotam IA, mas ainda têm dificuldade para medir retorno",
+      "summary": "Empresas brasileiras adotam IA, mas ainda têm dificuldade para medir retorno",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOblc0eUZvYlpCemxTSy1aMXREb09DRW1uX29pRjJER3JXZ0xaTGlsNmduWVpHS1QxX2JGZmxoaGd0OHdjNXplRExCU3RuSC1MLUN4d2g2NnRMLXZvYlRmUk42WWtXMkh0Z3FaVVI3RG9FbVB5T0g3dExZOXhuZXl3WVlsaGVQMnhjeC1nLV9FRWhvNG9naEdaLWxIZzlDblh4N1BWbmlvYnBMM2ljeUE?oc=5",
+      "source": "Canaltech",
+      "published_at": "Thu, 03 Sep 2026 17:40:54 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
       "title": "Cinco erros que travam projetos de inteligência artificial em pequenas e médias empresas",
       "summary": "Cinco erros que travam projetos de inteligência artificial em pequenas e médias empresas",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNbzhTOHVZcjAyTldMNmF3QVJZY0FUWElJUzF6RVM4TUE4eWUyOHdMM1FtQWlRYlRlRmFyQWxpSFVqT0Y5S3lJeXlzMlMxR2dRMWszWEtMb1U3YWVYQjBWRV9qZFZiZm55em1XWTBLdXItVnNNcFZ5Rm9NUy1wblhjRF9mclhuYzN1bF9teVFSV3pXQzZPTjZNZEYyRVhYNXBPNTFsS3pLQy04dEczcEhiLUVIbW9sVGRIWWdTVE9aelo1bVV1UTdtTHJXTVZpMUNzMTAzMTBTcHhQWHh6Wl8xTmp6ODdHeVM3UFg2LTg5ZkoySTVBVFZDLWV30gH_AUFVX3lxTE1mbDAwMzM4a0VjQnAta0tFX2NQWTdYU2pVVUpFb2dWdE9GZTEyRXBsMXc1TFY5cEVZZEktMEtZZVBhcnU0X29SRjNRdnd2Sl9CdElwRlYtTHdiTktiVmlZcVlfWGRaWHhVNWJta2hibVA2SFN3eEpuWEtwWTBMYy1tcFJIVUk2aWhGNTlFUFF6VTFrTUJENXFPVllhUWFQeEJ2bWdrb1lrWHlOQlZsMWJMT3E4emw1MURsUTRNdFdOX3hoSTh1TkJrbGdFSWxucXFkT2s3bFB2OUJqWlB2NmJhbTBHaUpRa2d4TVRibV9Wd245M0hSRWxWZXdlclc4TQ?oc=5",
-      "source": "Correio Braziliense",
-      "published_at": "Wed, 02 Sep 2026 17:06:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Gastos com inteligência artificial vão chegar a que patamar?",
-      "summary": "Gastos com inteligência artificial vão chegar a que patamar?",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORmZtcG4wUU5jTmFiQjl3R3VuR19pNVJzV0h3NE9CVHhGQWlGRUhSMkUxMmptYTRWNDVlM0NUQWlFNFZQaHYzcVVpZHFFTTdiRkFVMUtEWGlUbzBlZ0FZZ2FKNnNwV1ZmN2J6OFIwMV9yUFFVRlJKZFExZF9WQXNYT0N4Z1BHdmVJc1R5M3VnVkxMWUpRc29NbUJLQ1FLeDdRSWJsMG1WNkQ1SkFEaFBVSzJFY1RmYUJI0gHHAUFVX3lxTE5GNEF5TnZ2VWdMekdvNlZ6elpwRjF3THVKalVuTW93cmpCVFV1NkhfQm82c3U3M1RrdTU1d1p4a21fZFdZV3Y5d2VKT3RFQVgwYV95bHN5NGE3V2FHZUgzRWZCR1cyOFNkWXNXLUNnWXFxdlcwbExkc2xJa0RWMDl1S3RSYjBCbWpxLWdXWmVCaGVWMWdtckVPWGFxMTVXa005MG1KZGEta3ozVkdubWIwQ2lGd1ZiQ2J1R0dsOTZQbjZCQ3U1U2s?oc=5",
-      "source": "Valor Econômico",
-      "published_at": "Wed, 02 Sep 2026 16:46:47 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Governança de IA ganha espaço nas empresas e cria novas funções para profissionais",
-      "summary": "Governança de IA ganha espaço nas empresas e cria novas funções para profissionais",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRGh2clp1X08zQ3JwaUw0TkhNWkFVOHBUeTVLZm5QMUw2amVQQXJvV3d4Q2tHUUtLamVnSlhVLWJSOXhQNDBGTkxzQnNtN0t2ejdZTUx2WlFBMEhZVUZ5alpDTzBhWENNaFhCWEhtNUNyUnZjTFl3VkJCMFAzdF8yYnFBcEU5MGNMb2F0N1RaWHBNR1gtck9BVTAxR3FuOVBNT1RkTDYwN2NsUWM0MnNGZzBuS2l5ZmRrbjVEdjZIUTlSU2M?oc=5",
-      "source": "Exame",
-      "published_at": "Mon, 31 Aug 2026 20:51:26 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "IA avança nas empresas, mas retorno financeiro ainda não acompanha ritmo de adoção, aponta McKinsey",
-      "summary": "IA avança nas empresas, mas retorno financeiro ainda não acompanha ritmo de adoção, aponta McKinsey",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTHdBY3l2OXlSUmh5UTMxbE1JTXdqblc0MDlRV3JlR2ZnOXJxVTFmMUJmY0tGZ0VNRzNpcGlubVlrVVl3dEhCSTRObS1YZlcyM0wxZGpZMjRoUFdMVGgxaFE4dnBIUXpsRHlUVlRhMHNfbkdqZzZKeTFESUR6NG1UZjRrWmZ3Zm1oOWc5ZzRBUUhtdUMzamxuekhJWDJZY05LM0JHNGwybGo0bVBHSmN4S0h2RTJ0NE1OanA3TXROWHpsMzl1SmFIWkhxRjZGZw?oc=5",
-      "source": "TI INSIDE Online",
-      "published_at": "Mon, 31 Aug 2026 16:34:56 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Empresas começam a definir alçadas para agentes de inteligência artificial",
-      "summary": "Empresas começam a definir alçadas para agentes de inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ0RIdTc5d045Vnp0R1VxWWl0ckt0U0ZjaXdodzdBQU8wR1pyZXU1dFdiYnBRY1Nxd19vQmoyM0k2dndYRHlEc0tNeWx0VWFMNENNa0ZpUWhnVjA3aldLOXcwdHBjWUw2X0V3SWhCUlJQYlZlSmR4WGpzZFo4eU1iMWN2Zjdfbzh0bVozaHVjNVFnRTJIY1RFaDczcUpPZWVPS1pqRHkycVdQcVFp?oc=5",
-      "source": "ND Mais",
-      "published_at": "Mon, 31 Aug 2026 22:26:48 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSVpSOW9pbkdYYWpWMml3T0dsb1dkbHRiVTNOZUZJd1J4ZE44OWI5dkdwbTd1TEtJWmxnX3ZYeGEySXFFcVVqalFFV1JacFFIX0swQkZBekxEekVuazZzb3ZVZjVKYktrd0NJaEcwWEEzcmtOZ1VQZFpyQ3VBNmZ4enZjOWp3UWpYbGFTMzRzelBERjB5S1doMnd3U21ZR3FHYkhuQ2JCcHctRHRXcXdDdjlweFBpZzI1Q2NwMnhudjMzOEtTTDRzTw?oc=5",
+      "source": "A Gazeta",
+      "published_at": "Wed, 02 Sep 2026 17:14:00 GMT",
       "category": "IA",
       "signal": "flat"
     }
