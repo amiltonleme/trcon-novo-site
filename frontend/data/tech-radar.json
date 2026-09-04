@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T22:05:23.684920+00:00",
+  "generated_at": "2026-09-04T12:17:56.237341+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de tecnologia.",
   "errors": [],
   "items": [
@@ -22,20 +22,20 @@
       "signal": "up"
     },
     {
+      "title": "IA avança no desenvolvimento de software e passa a criar, testar e publicar integrações em linguagem natural",
+      "summary": "IA avança no desenvolvimento de software e passa a criar, testar e publicar integrações em linguagem natural",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZ28zZ0xYcF9mVG1JSFFtMVdVMTd5RzUzOXozWk1KWXJ0eXZxTFNReWNvLU9NTkhtMTZod1VtVEZQbkhIR3hhYkxEcWo4ci1LdEpYd1ZuUnVheXBlcXJtMklIRVJER3VpRk10YS1Gb2lFVHVHNkZyVzBQUklmYXBiVHVUU2V0XzV0Vm5DWExXZ3M3d3pHRm9wRFpTaEcxTHVIRUtVRldLZENObGVnX09SMVdxcFBDUnVyVmZTWGlpbE1Bb2phZFF6LV80QlZIbDczZExMX1puS1YzQQ?oc=5",
+      "source": "Economia SC",
+      "published_at": "Thu, 03 Sep 2026 19:40:50 GMT",
+      "category": "Tecnologia",
+      "signal": "flat"
+    },
+    {
       "title": "B3 adota IA no desenvolvimento de software e reduz prazo de entrega em 35%",
       "summary": "B3 adota IA no desenvolvimento de software e reduz prazo de entrega em 35%",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZE93R0FMaVlpNEl0R1RBZTRXeVlIODN2b3U1R0U0cGRNR2ozNG1fc1NpR0JDY2QxTXZwSUNuNTl4Y2ZiZ1ZzVWhOWkNwTEJVZFpfTl9ISzR3akN4UW9ISmlyU1NHX0FST1RQZThPVi14ZzkyUTVtSUxadld6YkYzbDJFUWlpSzQ2V2FHYWZxMkdLbHhfbGppMzJ5NklrUnN4SThOa2xUTkdsRDVfdG5xV0lQTmVlUnZj?oc=5",
       "source": "BPMoney",
       "published_at": "Thu, 03 Sep 2026 19:39:29 GMT",
-      "category": "Tecnologia",
-      "signal": "up"
-    },
-    {
-      "title": "Nava anuncia IA para acelerar desenvolvimento de software e controlar custos corporativos",
-      "summary": "Nava anuncia IA para acelerar desenvolvimento de software e controlar custos corporativos",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPamdmVENtYkZ2RFA3VEVpcGNmTERaUTkxVEJ4YW5xQU1UcFRkdDF6SDdILW9TS2Y0dGVKSnJ6VGNuSHVidVd0Rll0Ql90SFBLbXg1WnZwNlhtdE5WaE1DWVp1QVhNNkR4eXJrMlhwVWNmM1JSbFVnWmFvaUxxVjFWT0duWDhfNW5fQkkwYTJIZ3YzUVJQYlVNWUtsNDFJZnYwd1dZUXhKcWxPZHNOQ3Y1bWlXc0JjYjZpLThkU0NQamtDajE0bDhfbg?oc=5",
-      "source": "inforchannel.com.br",
-      "published_at": "Tue, 01 Sep 2026 16:29:25 GMT",
       "category": "Tecnologia",
       "signal": "up"
     },
