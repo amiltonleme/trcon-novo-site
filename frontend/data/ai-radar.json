@@ -1,17 +1,8 @@
 {
-  "generated_at": "2026-09-04T12:17:55.232985+00:00",
+  "generated_at": "2026-09-04T21:59:22.366797+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
-    {
-      "title": "O que é inteligência artificial generativa e como ela está mudando as empresas",
-      "summary": "O que é inteligência artificial generativa e como ela está mudando as empresas",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWFNHMFdWMjZSeDdKVnkwcHlDNTl5MFN6Z2F5aFUzSVpncGp4ZnU4bHNtV0pZaTd3QXhIMDZnRkZYdVlNT3ozTjY5ZExVbjdSVWJBaDlaYjh6SGZDSmZwNkdlLS00bVRNT2p5MTZhU014cGttX1hLdlp0a0ZMV1lEcWNheHdRTThOSERhbW54RXU0R1pWT2FxV1p0Q05maldyNjI0Q1RGSkRScG9HLVhfeWt5RQ?oc=5",
-      "source": "Economia SC",
-      "published_at": "Thu, 03 Sep 2026 08:04:09 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
     {
       "title": "Broadcom prevê forte aceleração da receita com inteligência artificial",
       "summary": "Broadcom prevê forte aceleração da receita com inteligência artificial",
@@ -20,6 +11,15 @@
       "published_at": "Thu, 03 Sep 2026 16:32:45 GMT",
       "category": "IA",
       "signal": "up"
+    },
+    {
+      "title": "Empresas ampliam uso de IA, mas ainda têm dificuldade para gerar lucro",
+      "summary": "Empresas ampliam uso de IA, mas ainda têm dificuldade para gerar lucro",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNGNWSzIxNk1wNEM1OXZUWnE0X1BTMTNPWWlUVkY4NHdEV1Z0X1ZEY1BjQWh4ZXNqWmlfcms5YldrdGdKMWNiMFV4TVgteFBDSm9yeHRtSS1mTnhCdXlhR0hsX2NRNTRPbUZxWnNQd3FfRjdKMTRtQ0VDVUJBV1h1M2YzRC0wblMtYWljS0hfdENsMWFEU25FOG1aaGhzZXI0cDVVZUdzZi1uZld4SVJMaS1CVHB0c0U?oc=5",
+      "source": "TecMundo",
+      "published_at": "Fri, 04 Sep 2026 19:30:00 GMT",
+      "category": "IA",
+      "signal": "flat"
     },
     {
       "title": "IA ficou mais acessível, mas empresas ainda precisam preparar pessoas para gerar resultados",
@@ -31,29 +31,29 @@
       "signal": "flat"
     },
     {
-      "title": "Operação 100: StartSe vai implementar IA em 100 empresas",
-      "summary": "Operação 100: StartSe vai implementar IA em 100 empresas",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUGN1anRqRmZpRWJoby1wMTlrY0hYWlQ1ekVaUFpSanlnLUVXaEhGbDVwZUloWDc1a0FPOUdVS0VVWkl3b29Gb2dFc182LXNfRVFnZ2VyNzJSRlBRcEhhUkpWSlNLR05Ndldnd2J2Y2QtQkVBTnFnNFRJdWpJcHV4YjN1aHJ6bzRMSjhZTHlGTG1VV3VD?oc=5",
-      "source": "StartSe",
-      "published_at": "Wed, 02 Sep 2026 19:50:27 GMT",
+      "title": "Imersão em Guarulhos mostra como empresas podem usar Inteligência Artificial na prática",
+      "summary": "Imersão em Guarulhos mostra como empresas podem usar Inteligência Artificial na prática",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdzBlemtsWlhVWkt6eVQ3V1ZlSkZ2VG1wVW4zakxRRTNET3Nyckx3S1dpV3p4WEV5dDFSbzcwb1N6bzJiRTZ2NElZTWdUTFhpb3Z1RlhuVkRsRkVxYUFad25TWkNYODIzQkFvWm44MHB2U0hEaWxpamRBbG1SemJYcGtERWtSMWhvRVE4eHNMTXIwa2FoODRyeFZURmVBb0s3SVhwM1VRVUxTZU5GQV9lYWU5MFc2TlU?oc=5",
+      "source": "GuarulhosWeb",
+      "published_at": "Fri, 04 Sep 2026 21:01:15 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Empresas brasileiras adotam IA, mas ainda têm dificuldade para medir retorno",
-      "summary": "Empresas brasileiras adotam IA, mas ainda têm dificuldade para medir retorno",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOblc0eUZvYlpCemxTSy1aMXREb09DRW1uX29pRjJER3JXZ0xaTGlsNmduWVpHS1QxX2JGZmxoaGd0OHdjNXplRExCU3RuSC1MLUN4d2g2NnRMLXZvYlRmUk42WWtXMkh0Z3FaVVI3RG9FbVB5T0g3dExZOXhuZXl3WVlsaGVQMnhjeC1nLV9FRWhvNG9naEdaLWxIZzlDblh4N1BWbmlvYnBMM2ljeUE?oc=5",
-      "source": "Canaltech",
-      "published_at": "Thu, 03 Sep 2026 17:40:54 GMT",
+      "title": "China lança plano para apoiar 10 mil novas empresas de inteligência artificial",
+      "summary": "China lança plano para apoiar 10 mil novas empresas de inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONWtJX3gzLWZySjR2dzRFcDlZa0h5NWVRSU9fRkgybXV6bFhhWEZuVk9WVzBWdmQxNXgyNmg4YVJmTGxYNUxPZEZza3BrY3gtaDh1cjhpcFFra3JrbmpNQk8wc0VqbXdXMVM1MXRVdlhoM3ZVQ3NBZmpaN05VdE9yRjBwVWk4TC1sQWNQdnlSb0lraEJXVFZRVmNmdU9CM0pxbHo3aklHcmFsQVBi?oc=5",
+      "source": "Exame",
+      "published_at": "Fri, 04 Sep 2026 21:29:15 GMT",
       "category": "IA",
-      "signal": "flat"
+      "signal": "up"
     },
     {
-      "title": "Startups brasileiras lideram adoção de inteligência artificial",
-      "summary": "Startups brasileiras lideram adoção de inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZWQ2TjRCSTdMZFBSbU9qWWZsc09IOEtDQTF2SFZKcW5SRWd4QXN4M1dRQUloQ2JpM3E4ZjFrY0diX0hmRjdHU3NWTnQtRzByOVBUMUpoWWlUNl9OUFp5VUt2SlVoLWFuQkRmOGxWMjd1YnVaZGVraEpZX2RiWDd1T3k0TU45ZUZVUXFpZlh6Qm9XbmpVR3I5NmdEUHFxU1BPbzMtTw?oc=5",
-      "source": "TrendsCE",
-      "published_at": "Fri, 04 Sep 2026 11:00:51 GMT",
+      "title": "Chamada RHAE IA visa inserir cientistas em empresas para desenvolver projetos de inteligência artificial; inscrições até 09/10",
+      "summary": "Chamada RHAE IA visa inserir cientistas em empresas para desenvolver projetos de inteligência artificial; inscrições até 09/10",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOUGt5UVcwWkUtWTF5VEZLRG1jNGloYzMyNDFNbE93aUpEeFhxV1M3ZWZXZlpoWEFFZ01SdXNhQkVDeU9hT1lPLWRaM2MtQlpzM1hOMmM2Z0JRVC1qbjJUX1lWeTlPeWFQamFvNTNnczFVV0tseWFfQ0xqMzJTakp0TEpMRmk1RTlvOENwb3hieldwTTRBc09vUUpmZXNoV0xYZF9RRk9LVFhkWlBrMFc1aElIdFN0aWM0M05ScGdMYTBPU3d4c2trYXJtUEM4LUNLMnNKM3p3ckNZclBZbEZ1bnpZQ0J1UEkxYS1JcVlCeEhOOTA?oc=5",
+      "source": "Proifes",
+      "published_at": "Fri, 04 Sep 2026 17:48:49 GMT",
       "category": "IA",
       "signal": "flat"
     }
