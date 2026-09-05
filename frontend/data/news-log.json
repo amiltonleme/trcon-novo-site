@@ -1,17 +1,23 @@
 {
-  "generated_at": "2026-09-04T21:59:22.674087+00:00",
+  "generated_at": "2026-09-05T11:25:41.304972+00:00",
   "source_note": "Historico de novidades TRCONGROUP consolidado dos radares.",
-  "errors": [
-    "Sem itens novos nesta execucao; mantido o ultimo artefato valido."
-  ],
+  "errors": [],
   "items": [
     {
-      "source": "Valor Econômico",
+      "source": "Economia SC",
       "category": "IA",
-      "title": "Broadcom prevê forte aceleração da receita com inteligência artificial",
-      "summary": "Broadcom prevê forte aceleração da receita com inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdlBsZXBQQ3pRNDNXVVY0YnlLX1NuNjg0NFg0RVVoNHVaMzNEWXpMbGRMNFluWEplNm0yX1hZNnN3TGdyYmlqek02NlRKWWxoNTNpYjE1SmNZZ01vdkZKcEpWaTFIRVRrYzBWTHdCZFpDV0FwQ0xyYm4tY0ItRUpwYzVmZ0tzX2RQeEd1Ti1tWEdQemJGbkhPWXFkeDU4YWpWREhFT3FiUDZ5MFVRcDA3YXdyUEdqekVmTS1seHBRS3FYQdIB0AFBVV95cUxNU2h2WUFPR2o4TmI3NzVHR05FTmRIc2twYXBKdHRHdXRGQmY4SmZlSnBWUG9HaksxYmVranJkLVo1TmJVVnl2VG5tY2prR3dkRmRMY2dQTTRNdlM3UUFKRjJYUk1UMEVhNnJXdEdrckpkQ1h1bElrNTRRRmdsZGlWSFctdldRV1RBa0xsVE1RZXVndVZ5SnItN292OS0tazBaTnp4SU81ZkZWRzJNaDhLNDN6dm9qNW9jNUdWZUtELWNsd3pibW1odjUtczlMWjF3?oc=5",
-      "publishedAt": "Thu, 03 Sep 2026 16:32:45 GMT"
+      "title": "O que é inteligência artificial generativa e como ela está mudando as empresas",
+      "summary": "O que é inteligência artificial generativa e como ela está mudando as empresas",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWFNHMFdWMjZSeDdKVnkwcHlDNTl5MFN6Z2F5aFUzSVpncGp4ZnU4bHNtV0pZaTd3QXhIMDZnRkZYdVlNT3ozTjY5ZExVbjdSVWJBaDlaYjh6SGZDSmZwNkdlLS00bVRNT2p5MTZhU014cGttX1hLdlp0a0ZMV1lEcWNheHdRTThOSERhbW54RXU0R1pWT2FxV1p0Q05maldyNjI0Q1RGSkRScG9HLVhfeWt5RQ?oc=5",
+      "publishedAt": "Thu, 03 Sep 2026 08:04:09 GMT"
+    },
+    {
+      "source": "Gazeta da Semana",
+      "category": "IA",
+      "title": "Inteligência artificial amplia lacuna de competências e redefine o perfil dos profissionais mais procurados…",
+      "summary": "Inteligência artificial amplia lacuna de competências e redefine o perfil dos profissionais mais procurados…",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOVnRGam5vTjVPakF1TThHcnhRZGFKZmxSdzR0dzRrOHFZVTlmRW52aVdxMTRzczlRRVYzRnNwdWNRdE5KR1k5VTh2Sy1MRS1YRHBLbTg3VlFJbE9Hd1M0OEFpYzEtUzBzRGZRNVFzNno0SlFkOFF6NXhfY2ZhcE1GOGZNOWl2dDRSWW5ERFZBM3RBT0ZkdjBVYTBMcVFOVXBnMDZNM3l6T0Jpa2hrNVdtWUpCYWR4c2lFeTZ1c1FINVpVcTB5ZGR4R0dRcllZME5YMlBNcGFQby1ydzFWRzlTRng3SUZVdmlzT0JBMmpuWDVoUmFncEN0c0V3dw?oc=5",
+      "publishedAt": "Sat, 05 Sep 2026 08:50:10 GMT"
     },
     {
       "source": "TecMundo",
@@ -30,14 +36,6 @@
       "publishedAt": "Thu, 03 Sep 2026 22:02:15 GMT"
     },
     {
-      "source": "GuarulhosWeb",
-      "category": "IA",
-      "title": "Imersão em Guarulhos mostra como empresas podem usar Inteligência Artificial na prática",
-      "summary": "Imersão em Guarulhos mostra como empresas podem usar Inteligência Artificial na prática",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdzBlemtsWlhVWkt6eVQ3V1ZlSkZ2VG1wVW4zakxRRTNET3Nyckx3S1dpV3p4WEV5dDFSbzcwb1N6bzJiRTZ2NElZTWdUTFhpb3Z1RlhuVkRsRkVxYUFad25TWkNYODIzQkFvWm44MHB2U0hEaWxpamRBbG1SemJYcGtERWtSMWhvRVE4eHNMTXIwa2FoODRyeFZURmVBb0s3SVhwM1VRVUxTZU5GQV9lYWU5MFc2TlU?oc=5",
-      "publishedAt": "Fri, 04 Sep 2026 21:01:15 GMT"
-    },
-    {
       "source": "Exame",
       "category": "IA",
       "title": "China lança plano para apoiar 10 mil novas empresas de inteligência artificial",
@@ -46,12 +44,12 @@
       "publishedAt": "Fri, 04 Sep 2026 21:29:15 GMT"
     },
     {
-      "source": "Proifes",
+      "source": "GuarulhosWeb",
       "category": "IA",
-      "title": "Chamada RHAE IA visa inserir cientistas em empresas para desenvolver projetos de inteligência artificial; inscrições até 09/10",
-      "summary": "Chamada RHAE IA visa inserir cientistas em empresas para desenvolver projetos de inteligência artificial; inscrições até 09/10",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOUGt5UVcwWkUtWTF5VEZLRG1jNGloYzMyNDFNbE93aUpEeFhxV1M3ZWZXZlpoWEFFZ01SdXNhQkVDeU9hT1lPLWRaM2MtQlpzM1hOMmM2Z0JRVC1qbjJUX1lWeTlPeWFQamFvNTNnczFVV0tseWFfQ0xqMzJTakp0TEpMRmk1RTlvOENwb3hieldwTTRBc09vUUpmZXNoV0xYZF9RRk9LVFhkWlBrMFc1aElIdFN0aWM0M05ScGdMYTBPU3d4c2trYXJtUEM4LUNLMnNKM3p3ckNZclBZbEZ1bnpZQ0J1UEkxYS1JcVlCeEhOOTA?oc=5",
-      "publishedAt": "Fri, 04 Sep 2026 17:48:49 GMT"
+      "title": "Imersão em Guarulhos mostra como empresas podem usar Inteligência Artificial na prática",
+      "summary": "Imersão em Guarulhos mostra como empresas podem usar Inteligência Artificial na prática",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdzBlemtsWlhVWkt6eVQ3V1ZlSkZ2VG1wVW4zakxRRTNET3Nyckx3S1dpV3p4WEV5dDFSbzcwb1N6bzJiRTZ2NElZTWdUTFhpb3Z1RlhuVkRsRkVxYUFad25TWkNYODIzQkFvWm44MHB2U0hEaWxpamRBbG1SemJYcGtERWtSMWhvRVE4eHNMTXIwa2FoODRyeFZURmVBb0s3SVhwM1VRVUxTZU5GQV9lYWU5MFc2TlU?oc=5",
+      "publishedAt": "Fri, 04 Sep 2026 21:01:15 GMT"
     },
     {
       "source": "TI INSIDE Online",
@@ -86,7 +84,7 @@
       "publishedAt": "Thu, 03 Sep 2026 19:39:29 GMT"
     },
     {
-      "source": "prefeitura.sp.gov.br",
+      "source": "Prefeitura de São Paulo",
       "category": "Tecnologia",
       "title": "São Paulo concentra mais de 221 mil empregos formais em tecnologia e registra crescimento de 61% em ocupações no setor em uma década - Secretaria Municipal de Desenvolvimento Econômico e Trabalho",
       "summary": "São Paulo concentra mais de 221 mil empregos formais em tecnologia e registra crescimento de 61% em ocupações no setor em uma década - Secretaria Municipal de Desenvolvimento...",
