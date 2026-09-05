@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T11:25:37.470441+00:00",
+  "generated_at": "2026-09-05T21:49:47.468802+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -23,15 +23,15 @@
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 79.624",
-      "change": "-2,02%",
-      "direction": "down"
+      "value": "US$ 79.876",
+      "change": "+0,12%",
+      "direction": "up"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 2.453",
-      "change": "-2,83%",
-      "direction": "down"
+      "value": "US$ 2.489",
+      "change": "+1,35%",
+      "direction": "up"
     },
     {
       "symbol": "OURO",
@@ -82,17 +82,17 @@
       "quote": "185.147 pts",
       "change": "estavel",
       "direction": "flat",
-      "recommendation": "Cautela",
-      "recommendation_class": "rec-avoid",
-      "reason": "Noticias recentes mostram mais risco; reduzir pressa ajuda a evitar decisoes emocionais."
+      "recommendation": "Neutro",
+      "recommendation_class": "rec-watch",
+      "reason": "Cenario misto pede acompanhamento e aportes graduais."
     },
     {
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 79.624",
-      "change": "-2,02%",
-      "direction": "down",
+      "quote": "US$ 79.876",
+      "change": "+0,12%",
+      "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
       "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
@@ -101,9 +101,9 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 2.453",
-      "change": "-2,83%",
-      "direction": "down",
+      "quote": "US$ 2.489",
+      "change": "+1,35%",
+      "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
       "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
@@ -115,9 +115,9 @@
       "quote": "US$ 4.477",
       "change": "estavel",
       "direction": "flat",
-      "recommendation": "Cautela",
-      "recommendation_class": "rec-avoid",
-      "reason": "Noticias recentes mostram mais risco; reduzir pressa ajuda a evitar decisoes emocionais."
+      "recommendation": "Neutro",
+      "recommendation_class": "rec-watch",
+      "reason": "Cenario misto pede acompanhamento e aportes graduais."
     },
     {
       "id": "selic",
@@ -137,9 +137,9 @@
       "quote": "13,9% a.a.",
       "change": "estavel",
       "direction": "flat",
-      "recommendation": "Cautela",
-      "recommendation_class": "rec-avoid",
-      "reason": "Noticias recentes mostram mais risco; reduzir pressa ajuda a evitar decisoes emocionais."
+      "recommendation": "Neutro",
+      "recommendation_class": "rec-watch",
+      "reason": "Cenario misto pede acompanhamento e aportes graduais."
     }
   ],
   "news": [
@@ -156,10 +156,6 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZVhEbFU4TEYzdnJ1b1p6NFhDLWpHaWxWT1RTa3RaampIOU80NVNmdlkyemdYS21sWEJrbkJSa05fSnI4dkpXbkZMYmtOVGhjOWw0R1dWVXhDQ284RnVoRmRVTDdKVEJDcFJGYUZRdlJfTjkyaUNJWHhpZXZEV3BGM040OGF3Nk42bDByaERFOA?oc=5"
     },
     {
-      "title": "Ibovespa cai 2,5%, maior queda em cinco meses, com cenário eleitoral e juros; dólar sobe a R$ 5,16",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9wNUlwV3lpNnBrRExoTFJHY2lHWVNXSjdZaWVoMFhJN1cxd3BPX3RwRnlObzh1YkVkdGhMZ1duSE56dnRIYnYwWXVqeXpHN2pxNWhYbVVZMVV3N1plRVNOYTc4R3QxaEprV3BoRGd6RmQ4YXROXzR5TtIBhwFBVV95cUxNbGtHTERiX2d0OHktci1CSWE4X0VLNHlDa3ZvaEZuTUhUeFBpM3lxNEhpRlpUeG1UODZxMFh5MjgwWWVzYVVOWEtGSnB2bVlUeDB1RkhzNV9PWXlldkY4SEdPRV8wbWpoN1QtUHNUQWlNMWhCSVUyUVlKcjZScllrNlgwaFI1Ym8?oc=5"
-    },
-    {
       "title": "Dólar supera R$ 5,20, e bolsa cai com expectativa por juros nos EUA",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPLTZuT3RQeHFRVGJvWUdtRFNWNWZlZXozbUlQeEZ3Nmk2aC1YSnZNc3lUWFZUMFhmVEFnaHRmN2J6c1ZyMjlCLUNndXZINktkWjdZZklGYzVuNHRXMlpyZ2hxSmRMeXY0YkpsanFwckljT1JoMTRwWDRucmRzZE1XNjNfR2lLR0JuWUdheFJNZEpSaHhmLTZVbW5pa195NUdfcFVtdE5NaG9yWE9fT2NQb1pMR2VrNzVCb2ItOVREYw?oc=5"
     },
@@ -172,14 +168,18 @@
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdGx5MHp4aUdwYXdVcVBuNmc5ZVJRWDNBam55WE1UU3Y2THE0MjdZbnRHX1NZWG0tV3FQX29XRUVUMmtQR3ZFVGg3bnRZdFh1MkNtWlpFLTh2dGhzU1dtVHZJR3JJY0xsRzVLM0xRVUoyUWRwSVcwLTZ6eVY3c2g3aW4ySS0xeDcwZWZ1dnlrb1RHSU5jRVlRZG9pM20yUQ?oc=5"
     },
     {
+      "title": "Ibovespa cai a 171 mil pontos e dólar sobe a R$ 5,21",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNajRuWFZ0WlRzaG9oNG0yVGljRnlMWm9rN2JoZU8wQUpoSDZibEcwLVh6SFFaNDhOemQ1UWZQbFVLRFVSOUQ1aUY3cGtXMUNBVGcxTXlQQnRFQk1pQkhZMEdwZHFURGswV1ZDek5IT1lVTkZobFpHVmVCSHRwUTdpV0t3SnF0Z0dHNjRtOXdOZUthakk0YzNOTVVLUlNGYWhY?oc=5"
+    },
+    {
       "title": "Ibovespa recua, dólar dispara: Entenda a crise no mercado",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92MHo3LTVjNFVabVI4MG5mX3FjclduWGNzUEUtekpoSll0M3ltRElIR2V5SlNCTGZmUFVCZldBN1BQMnpaYzFpalhfOC1mM2xsWWp2WDlaVHhJc2ZNc21zYWhKWV9JMmJhcUlRUllISmlqN2lHcDl5RFRCSkRTbUk?oc=5"
     }
   ],
   "market_mood": {
-    "label": "Cauteloso",
-    "summary": "O noticiario aponta mais incerteza; preservar liquidez e evitar concentracao ganha prioridade.",
-    "score": -2
+    "label": "Neutro",
+    "summary": "O mercado mostra sinais mistos; diversificacao e compras parceladas reduzem o risco de timing.",
+    "score": -1
   },
   "errors": []
 }
