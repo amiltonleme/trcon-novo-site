@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T21:49:47.468802+00:00",
+  "generated_at": "2026-09-06T11:46:51.323395+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -23,14 +23,14 @@
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 79.876",
-      "change": "+0,12%",
+      "value": "US$ 79.950",
+      "change": "+0,42%",
       "direction": "up"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 2.489",
-      "change": "+1,35%",
+      "value": "US$ 2.502",
+      "change": "+1,97%",
       "direction": "up"
     },
     {
@@ -90,8 +90,8 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 79.876",
-      "change": "+0,12%",
+      "quote": "US$ 79.950",
+      "change": "+0,42%",
       "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -101,8 +101,8 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 2.489",
-      "change": "+1,35%",
+      "quote": "US$ 2.502",
+      "change": "+1,97%",
       "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -144,20 +144,20 @@
   ],
   "news": [
     {
-      "title": "Dólar a R$ 6,00? Morgan Stanley alerta para choque cambial e juros no teto sem ajuste fiscal em Novembro",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5EODlBQ1NGREExUDhUZzlzaEhMeHhZV1JmYko5QUZMbkkyYUNmX1NGUGNmdklWRTBYb0VNMlhLNk0zN2RTVXR2dG0xbTROaDZ4emtXQU53dk9RcXA2ZzV0V1ZDdEZLMmRkeGpOOGRBS3lsdw?oc=5"
-    },
-    {
       "title": "Morgan Stanley vê dólar a R$ 6 e juros a 18% sem ajuste fiscal | Faria Lima News",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZnB4NVVoV0h5YktsaHNkM2lMdHVGbENKN0dUcng3YUR2dEZLdjlGSXNjUnJ4ejh0dG91Y1dBTi1YbjR1NGNhMFl4UFRDcU5pQUQ4cHZRVUZBZ3BQWjZ1QS02SkFWOUpwbjlHV0FlU1lXd2Y1TDhNRmhLMkJTRUhNNm1qd0ZCMjdCT01BSE42eTZHbEN2VlhMRG8xUElVQnVDOWpuSW1RQnZOcHJoRkww?oc=5"
     },
     {
-      "title": "Ibovespa cai pela sétima sessão seguida, em mês todo no vermelho até aqui",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZVhEbFU4TEYzdnJ1b1p6NFhDLWpHaWxWT1RTa3RaampIOU80NVNmdlkyemdYS21sWEJrbkJSa05fSnI4dkpXbkZMYmtOVGhjOWw0R1dWVXhDQ284RnVoRmRVTDdKVEJDcFJGYUZRdlJfTjkyaUNJWHhpZXZEV3BGM040OGF3Nk42bDByaERFOA?oc=5"
+      "title": "Dólar a R$ 6,00? Morgan Stanley alerta para choque cambial e juros no teto sem ajuste fiscal em Novembro",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5EODlBQ1NGREExUDhUZzlzaEhMeHhZV1JmYko5QUZMbkkyYUNmX1NGUGNmdklWRTBYb0VNMlhLNk0zN2RTVXR2dG0xbTROaDZ4emtXQU53dk9RcXA2ZzV0V1ZDdEZLMmRkeGpOOGRBS3lsdw?oc=5"
     },
     {
       "title": "Dólar supera R$ 5,20, e bolsa cai com expectativa por juros nos EUA",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPLTZuT3RQeHFRVGJvWUdtRFNWNWZlZXozbUlQeEZ3Nmk2aC1YSnZNc3lUWFZUMFhmVEFnaHRmN2J6c1ZyMjlCLUNndXZINktkWjdZZklGYzVuNHRXMlpyZ2hxSmRMeXY0YkpsanFwckljT1JoMTRwWDRucmRzZE1XNjNfR2lLR0JuWUdheFJNZEpSaHhmLTZVbW5pa195NUdfcFVtdE5NaG9yWE9fT2NQb1pMR2VrNzVCb2ItOVREYw?oc=5"
+    },
+    {
+      "title": "Ibovespa cai pela sétima sessão seguida, em mês todo no vermelho até aqui",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZVhEbFU4TEYzdnJ1b1p6NFhDLWpHaWxWT1RTa3RaampIOU80NVNmdlkyemdYS21sWEJrbkJSa05fSnI4dkpXbkZMYmtOVGhjOWw0R1dWVXhDQ284RnVoRmRVTDdKVEJDcFJGYUZRdlJfTjkyaUNJWHhpZXZEV3BGM040OGF3Nk42bDByaERFOA?oc=5"
     },
     {
       "title": "O que esperar da Bolsa e do dólar em julho após guerra e juros ditarem o ritmo dos mercados",

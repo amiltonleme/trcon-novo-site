@@ -1,17 +1,8 @@
 {
-  "generated_at": "2026-09-05T21:49:50.250572+00:00",
+  "generated_at": "2026-09-06T11:46:54.872540+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
-    {
-      "title": "Broadcom prevê forte aceleração da receita com inteligência artificial",
-      "summary": "Broadcom prevê forte aceleração da receita com inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdlBsZXBQQ3pRNDNXVVY0YnlLX1NuNjg0NFg0RVVoNHVaMzNEWXpMbGRMNFluWEplNm0yX1hZNnN3TGdyYmlqek02NlRKWWxoNTNpYjE1SmNZZ01vdkZKcEpWaTFIRVRrYzBWTHdCZFpDV0FwQ0xyYm4tY0ItRUpwYzVmZ0tzX2RQeEd1Ti1tWEdQemJGbkhPWXFkeDU4YWpWREhFT3FiUDZ5MFVRcDA3YXdyUEdqekVmTS1seHBRS3FYQdIB0AFBVV95cUxNU2h2WUFPR2o4TmI3NzVHR05FTmRIc2twYXBKdHRHdXRGQmY4SmZlSnBWUG9HaksxYmVranJkLVo1TmJVVnl2VG5tY2prR3dkRmRMY2dQTTRNdlM3UUFKRjJYUk1UMEVhNnJXdEdrckpkQ1h1bElrNTRRRmdsZGlWSFctdldRV1RBa0xsVE1RZXVndVZ5SnItN292OS0tazBaTnp4SU81ZkZWRzJNaDhLNDN6dm9qNW9jNUdWZUtELWNsd3pibW1odjUtczlMWjF3?oc=5",
-      "source": "Valor Econômico",
-      "published_at": "Thu, 03 Sep 2026 16:32:45 GMT",
-      "category": "IA",
-      "signal": "up"
-    },
     {
       "title": "Empresas ampliam uso de IA, mas ainda têm dificuldade para gerar lucro",
       "summary": "Empresas ampliam uso de IA, mas ainda têm dificuldade para gerar lucro",
@@ -22,13 +13,13 @@
       "signal": "flat"
     },
     {
-      "title": "IA ficou mais acessível, mas empresas ainda precisam preparar pessoas para gerar resultados",
-      "summary": "IA ficou mais acessível, mas empresas ainda precisam preparar pessoas para gerar resultados",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdXNVbzhGUGR1ZlBpTWJxZy1TSEtXT1dDeGZnSmV0MzlyU1RJZGtKcmhzbFFOVE0tcVRUT0VxUkZ3ZDEyTnlvSFJCYVp5SzI0RHBobDRBR3dteUdVbUhtaDZqa0pMVEJpV0FuQVR1OXI5VFE5TFRSSEFsVWRqNDhGT1RWVkZnVUFfXzRwZlh2UkVsSGJEa29Ka24zcVJTTXpwOHRZZTBFbVhvSjNXVHdPVWZ2NjZzQVJGaUxmejVHM0EtM0E0VWYwZ2hMakxIZFZrd0F6OdIB2gFBVV95cUxObHNkcUpydmlQWGdNVXV5b0llOVo4bmZVTVV1bFAxSmxNUXZaREVqQnlZcEI5MmZwQnBneU40eWJUcnZKM19Kc3hWVEVGV29qcU1hSF82aDU3QlZadm9Dd0tvalBTZXhybHBEMVpYeVp0b1ZDZjlxajM3RTZHSzlDbS1WY1VXOXBkYVhXQ1BhUDRIVGJzejVUR3BFZGtTSGEzdDZtdE1JNWItZTFjOVhoRUhNc2VuQ2FfRXFkek0wa1V4ang1aS1WcjBxS01DZnRJbWZTTXpQZC14Zw?oc=5",
-      "source": "ACidade ON",
-      "published_at": "Thu, 03 Sep 2026 22:02:15 GMT",
+      "title": "Broadcom prevê forte aceleração da receita com inteligência artificial",
+      "summary": "Broadcom prevê forte aceleração da receita com inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdlBsZXBQQ3pRNDNXVVY0YnlLX1NuNjg0NFg0RVVoNHVaMzNEWXpMbGRMNFluWEplNm0yX1hZNnN3TGdyYmlqek02NlRKWWxoNTNpYjE1SmNZZ01vdkZKcEpWaTFIRVRrYzBWTHdCZFpDV0FwQ0xyYm4tY0ItRUpwYzVmZ0tzX2RQeEd1Ti1tWEdQemJGbkhPWXFkeDU4YWpWREhFT3FiUDZ5MFVRcDA3YXdyUEdqekVmTS1seHBRS3FYQdIB0AFBVV95cUxNU2h2WUFPR2o4TmI3NzVHR05FTmRIc2twYXBKdHRHdXRGQmY4SmZlSnBWUG9HaksxYmVranJkLVo1TmJVVnl2VG5tY2prR3dkRmRMY2dQTTRNdlM3UUFKRjJYUk1UMEVhNnJXdEdrckpkQ1h1bElrNTRRRmdsZGlWSFctdldRV1RBa0xsVE1RZXVndVZ5SnItN292OS0tazBaTnp4SU81ZkZWRzJNaDhLNDN6dm9qNW9jNUdWZUtELWNsd3pibW1odjUtczlMWjF3?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Thu, 03 Sep 2026 16:32:45 GMT",
       "category": "IA",
-      "signal": "flat"
+      "signal": "up"
     },
     {
       "title": "Imersão em Guarulhos mostra como empresas podem usar Inteligência Artificial na prática",
@@ -36,6 +27,15 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdzBlemtsWlhVWkt6eVQ3V1ZlSkZ2VG1wVW4zakxRRTNET3Nyckx3S1dpV3p4WEV5dDFSbzcwb1N6bzJiRTZ2NElZTWdUTFhpb3Z1RlhuVkRsRkVxYUFad25TWkNYODIzQkFvWm44MHB2U0hEaWxpamRBbG1SemJYcGtERWtSMWhvRVE4eHNMTXIwa2FoODRyeFZURmVBb0s3SVhwM1VRVUxTZU5GQV9lYWU5MFc2TlU?oc=5",
       "source": "GuarulhosWeb",
       "published_at": "Fri, 04 Sep 2026 21:01:15 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Chamada RHAE IA visa inserir cientistas em empresas para desenvolver projetos de inteligência artificial; inscrições até 09/10",
+      "summary": "Chamada RHAE IA visa inserir cientistas em empresas para desenvolver projetos de inteligência artificial; inscrições até 09/10",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOUGt5UVcwWkUtWTF5VEZLRG1jNGloYzMyNDFNbE93aUpEeFhxV1M3ZWZXZlpoWEFFZ01SdXNhQkVDeU9hT1lPLWRaM2MtQlpzM1hOMmM2Z0JRVC1qbjJUX1lWeTlPeWFQamFvNTNnczFVV0tseWFfQ0xqMzJTakp0TEpMRmk1RTlvOENwb3hieldwTTRBc09vUUpmZXNoV0xYZF9RRk9LVFhkWlBrMFc1aElIdFN0aWM0M05ScGdMYTBPU3d4c2trYXJtUEM4LUNLMnNKM3p3ckNZclBZbEZ1bnpZQ0J1UEkxYS1JcVlCeEhOOTA?oc=5",
+      "source": "Proifes",
+      "published_at": "Fri, 04 Sep 2026 17:48:49 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -49,11 +49,11 @@
       "signal": "flat"
     },
     {
-      "title": "Chamada RHAE IA visa inserir cientistas em empresas para desenvolver projetos de inteligência artificial; inscrições até 09/10",
-      "summary": "Chamada RHAE IA visa inserir cientistas em empresas para desenvolver projetos de inteligência artificial; inscrições até 09/10",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOUGt5UVcwWkUtWTF5VEZLRG1jNGloYzMyNDFNbE93aUpEeFhxV1M3ZWZXZlpoWEFFZ01SdXNhQkVDeU9hT1lPLWRaM2MtQlpzM1hOMmM2Z0JRVC1qbjJUX1lWeTlPeWFQamFvNTNnczFVV0tseWFfQ0xqMzJTakp0TEpMRmk1RTlvOENwb3hieldwTTRBc09vUUpmZXNoV0xYZF9RRk9LVFhkWlBrMFc1aElIdFN0aWM0M05ScGdMYTBPU3d4c2trYXJtUEM4LUNLMnNKM3p3ckNZclBZbEZ1bnpZQ0J1UEkxYS1JcVlCeEhOOTA?oc=5",
-      "source": "Proifes",
-      "published_at": "Fri, 04 Sep 2026 17:48:49 GMT",
+      "title": "Gastos com inteligência artificial vão chegar a que patamar?",
+      "summary": "Gastos com inteligência artificial vão chegar a que patamar?",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORmZtcG4wUU5jTmFiQjl3R3VuR19pNVJzV0h3NE9CVHhGQWlGRUhSMkUxMmptYTRWNDVlM0NUQWlFNFZQaHYzcVVpZHFFTTdiRkFVMUtEWGlUbzBlZ0FZZ2FKNnNwV1ZmN2J6OFIwMV9yUFFVRlJKZFExZF9WQXNYT0N4Z1BHdmVJc1R5M3VnVkxMWUpRc29NbUJLQ1FLeDdRSWJsMG1WNkQ1SkFEaFBVSzJFY1RmYUJI0gHHAUFVX3lxTE5GNEF5TnZ2VWdMekdvNlZ6elpwRjF3THVKalVuTW93cmpCVFV1NkhfQm82c3U3M1RrdTU1d1p4a21fZFdZV3Y5d2VKT3RFQVgwYV95bHN5NGE3V2FHZUgzRWZCR1cyOFNkWXNXLUNnWXFxdlcwbExkc2xJa0RWMDl1S3RSYjBCbWpxLWdXWmVCaGVWMWdtckVPWGFxMTVXa005MG1KZGEta3ozVkdubWIwQ2lGd1ZiQ2J1R0dsOTZQbjZCQ3U1U2s?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Wed, 02 Sep 2026 16:46:47 GMT",
       "category": "IA",
       "signal": "flat"
     }
