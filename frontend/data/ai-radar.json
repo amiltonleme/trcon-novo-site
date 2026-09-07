@@ -1,32 +1,41 @@
 {
-  "generated_at": "2026-09-06T21:53:08.763061+00:00",
+  "generated_at": "2026-09-07T13:43:30.142255+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
     {
-      "title": "Empresas ampliam uso de IA, mas ainda têm dificuldade para gerar lucro",
-      "summary": "Empresas ampliam uso de IA, mas ainda têm dificuldade para gerar lucro",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNGNWSzIxNk1wNEM1OXZUWnE0X1BTMTNPWWlUVkY4NHdEV1Z0X1ZEY1BjQWh4ZXNqWmlfcms5YldrdGdKMWNiMFV4TVgteFBDSm9yeHRtSS1mTnhCdXlhR0hsX2NRNTRPbUZxWnNQd3FfRjdKMTRtQ0VDVUJBV1h1M2YzRC0wblMtYWljS0hfdENsMWFEU25FOG1aaGhzZXI0cDVVZUdzZi1uZld4SVJMaS1CVHB0c0U?oc=5",
-      "source": "TecMundo",
-      "published_at": "Fri, 04 Sep 2026 19:30:00 GMT",
+      "title": "Metade das empresas usam IA agêntica mas uso é restrito a tarefas operacionais",
+      "summary": "Metade das empresas usam IA agêntica mas uso é restrito a tarefas operacionais",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT1NHWjA2OU9EM25MUWVyc0ZrNGF6X2NIdGV3bXZNQUJZUHl5OG96Rm9zNTFWUU1SY1RVUmlpay1DT1JyZ2M4N3RlelI1QUdidG1Qa1N1VnBiMkNMWWxaYlhFdFRMVGZWUEhmbFc3N1YtY1ZfNXJRM0IxZDBfeWVDZzdxa3Zqd2E3SjNiQU1pMFRCRnZwRllz?oc=5",
+      "source": "CartaCapital",
+      "published_at": "Mon, 07 Sep 2026 10:00:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Broadcom prevê forte aceleração da receita com inteligência artificial",
-      "summary": "Broadcom prevê forte aceleração da receita com inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdlBsZXBQQ3pRNDNXVVY0YnlLX1NuNjg0NFg0RVVoNHVaMzNEWXpMbGRMNFluWEplNm0yX1hZNnN3TGdyYmlqek02NlRKWWxoNTNpYjE1SmNZZ01vdkZKcEpWaTFIRVRrYzBWTHdCZFpDV0FwQ0xyYm4tY0ItRUpwYzVmZ0tzX2RQeEd1Ti1tWEdQemJGbkhPWXFkeDU4YWpWREhFT3FiUDZ5MFVRcDA3YXdyUEdqekVmTS1seHBRS3FYQdIB0AFBVV95cUxNU2h2WUFPR2o4TmI3NzVHR05FTmRIc2twYXBKdHRHdXRGQmY4SmZlSnBWUG9HaksxYmVranJkLVo1TmJVVnl2VG5tY2prR3dkRmRMY2dQTTRNdlM3UUFKRjJYUk1UMEVhNnJXdEdrckpkQ1h1bElrNTRRRmdsZGlWSFctdldRV1RBa0xsVE1RZXVndVZ5SnItN292OS0tazBaTnp4SU81ZkZWRzJNaDhLNDN6dm9qNW9jNUdWZUtELWNsd3pibW1odjUtczlMWjF3?oc=5",
+      "title": "OpenAI envia relatório à Comissão Europeia sobre ataque de agentes autônomos de IA a site alemão",
+      "summary": "OpenAI envia relatório à Comissão Europeia sobre ataque de agentes autônomos de IA a site alemão",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQ19tU214S21IZVFOYVVIeklsZlhnYmVPTzRLRUNyYWVkRV9lWWtTbjZzcXkxNVNGanRlQUZhVmFuYTkzTmFnS3lZcTF6a01YRTNzZ0ctX2RlUHNSMWJsWEp4VGRoQmxSRmdJUVpkQ0JDMjVUVkRUWGlKeXV4NE9NTlI3d0ZrMTYwTUswTmYyQllwR2huX1ZIbk5waHpmT08xY1ZJd1J4b0dhVW8wV2xTNVg0Y09CSWJORVlSQVdZNFpHc0ttcTBCdDNBNFl5LTNKS2RrbzRzNzVBWFVkNjBuQkh3?oc=5",
       "source": "Valor Econômico",
-      "published_at": "Thu, 03 Sep 2026 16:32:45 GMT",
+      "published_at": "Mon, 07 Sep 2026 12:10:21 GMT",
       "category": "IA",
-      "signal": "up"
+      "signal": "flat"
     },
     {
       "title": "Pesquisa aponta que 57% dos brasileiros não confiam em tomada de decisões por inteligência artificial sem validação humana",
       "summary": "Pesquisa aponta que 57% dos brasileiros não confiam em tomada de decisões por inteligência artificial sem validação humana",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQzB0STdmZ0YxQWFNc3ZKd0drdU1ETG5jeWFoYl9BWHl6NktiYUxoMDdYbjBaaUdzUlFBMXhjRVhGZ0RWS3E4ZHZjbzBRVmpMMFVobGtXSm83SUR1WFB2X1VtbGQ1d3I2cnkwdWVSWjVJMk1DdDc3SXJGRVRIbE9rdlRCRjBjNjFpSXlXZWRhTExpeDFEY0p0ZmR1am1hMHpkemxESHNaTm1rZk50dldFVWRpUmJ2RHMwM2ZVRWxmNGR1cGY1NzZFaHZEY19QekhjNDBSNExYeUxxUQ?oc=5",
-      "source": "AJN1",
+      "source": "ajn1.com.br",
       "published_at": "Sun, 06 Sep 2026 21:04:05 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Pequenas empresas adotam agentes de IA mais rápido que as grandes: entenda por quê",
+      "summary": "Pequenas empresas adotam agentes de IA mais rápido que as grandes: entenda por quê",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdkZJaDBUZjZzZ0tyZ2xIM1ZndEF5QWxQZnRZSWNUUVc1eHFJRnFRQ042WENhMHRROVVTY3hMcWxiblp1UHk0NnM0UC1iNDJLbk92UFd5ejBGbEZUd01UOUgwVFBDTWF1c0ZFU0lTaXNpcklNTHFVNGtFWUQyWjZ5eFA3ODFiSUhpV3Z5N0tKX3lwdFlLUFltTjJKVU40VkZ1TjkyWTcwZU1jdGpUTW5aUDg0M2lkaXNRbS15VXRzVHU4UQ?oc=5",
+      "source": "Exame",
+      "published_at": "Sat, 05 Sep 2026 09:09:26 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -36,15 +45,6 @@
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOUGt5UVcwWkUtWTF5VEZLRG1jNGloYzMyNDFNbE93aUpEeFhxV1M3ZWZXZlpoWEFFZ01SdXNhQkVDeU9hT1lPLWRaM2MtQlpzM1hOMmM2Z0JRVC1qbjJUX1lWeTlPeWFQamFvNTNnczFVV0tseWFfQ0xqMzJTakp0TEpMRmk1RTlvOENwb3hieldwTTRBc09vUUpmZXNoV0xYZF9RRk9LVFhkWlBrMFc1aElIdFN0aWM0M05ScGdMYTBPU3d4c2trYXJtUEM4LUNLMnNKM3p3ckNZclBZbEZ1bnpZQ0J1UEkxYS1JcVlCeEhOOTA?oc=5",
       "source": "Proifes",
       "published_at": "Fri, 04 Sep 2026 17:48:49 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Inteligência artificial precisa se somar ao conhecimento humano",
-      "summary": "Inteligência artificial precisa se somar ao conhecimento humano",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeXltODR4b09UOHJDV0Y1WFZTeUdlSXdSZ3NsY1ozVGdveHhYU3l3c0dnbWpjSjR2QmdSQ2M2dm85RVAxTFVwZWJjeGtvZnhkYlQyY3BHMFBaN040VXpxUGZzbmFUMHRZMXJPWFRzOEN6WFQyNnBHQTBiLTdsTkdqd1JlWFlhSGRhTHNkaEU3Zi1TYXRzQ001ZHYxNnBrS1Iyb2NhenpBdXVrWUJ1N2N5MFYzU2pESEl4QV8zZFgyUnRfbHZCTklDbGlLTEVxR2xCczRpWdIB4wFBVV95cUxOcnBNTThvSHczcFJGNTd6aU5zTXpQaUJDdGsyblF0Ynk2YVVYYjRrWEphT244VFRONy1sUHA1MkhWZkV5QVIwSFpiazlVYlZSYUhWMkNHYnRIOGQzRTRvMkFRcDhlcWs2SGEwbjNSbjYzY2N6aEx6SkstYUxWT2xsNFJ4Nzcta1o0eFRUcmtsWV9aZE5wemUzbzRmckJ4M2NQZWZCckUzVnJ5RGJqM2ZCSUxEMjQzQmpHTWNsY3o0M2dPaTBBWmxueUhNaWpsOVZ6bFI0NnJLOG1oSk5KbExBbmdKUQ?oc=5",
-      "source": "Globo Rural",
-      "published_at": "Fri, 04 Sep 2026 12:19:03 GMT",
       "category": "IA",
       "signal": "flat"
     },
