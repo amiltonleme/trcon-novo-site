@@ -1,32 +1,8 @@
 {
-  "generated_at": "2026-09-08T12:19:28.920495+00:00",
+  "generated_at": "2026-09-08T22:14:11.852054+00:00",
   "source_note": "Historico de novidades TRCONGROUP consolidado dos radares.",
   "errors": [],
   "items": [
-    {
-      "source": "ihu.unisinos.br",
-      "category": "IA",
-      "title": "OpenAI lança o GPT-6 Astra, o modelo assustador. A empresa afirma: \"A era da Inteligência Artificial Geral começou\"",
-      "summary": "OpenAI lança o GPT-6 Astra, o modelo assustador. A empresa afirma: \"A era da Inteligência Artificial Geral começou\"",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNdF9wOEVucFFidWJYTFkwanRKQl84Y0R4M3hqSzBYWVNZWmh0X1N5T0RfQjlYOHR2UGcwZnBmckJGQXpwOGF5SHZiN094dVBDZlNYT21GcXRmWDBGcU15T292LVpveEtDTDJuc1FZVG1Yd2RsLUlfMWFadDliMFNFUWkzV0ZkVlV1dTRTaWQ1TGdabHBwVW5HRmdITld2QjNvN3U5Nlo4VW1qdW5qXzlTSDFUcjYybUt5U3BodFFFQ0d1RWQzSmFvaHROUWFRbXJiaW50WVdWOFhjZXVHQ0stYw?oc=5",
-      "publishedAt": "Tue, 08 Sep 2026 11:06:11 GMT"
-    },
-    {
-      "source": "BBC",
-      "category": "IA",
-      "title": "'Ninguém está preparado para as consequências da inteligência artificial', adverte cientista-chefe da OpenAI",
-      "summary": "'Ninguém está preparado para as consequências da inteligência artificial', adverte cientista-chefe da OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQZm1yRmxEek9BMTYxNFpIUGdzUlVkd2g3U3JsdjFVcEhtTThuVU9MNEZWbTFJYU9TUHRmV2JfaVIxMVNldGJaZGdVa1o5TDVXYzN2U3BHamE1U3l4RnRhUzBB0gFnQVVfeXFMTWJaUm1yX0FSdUd1YWFJRXQ2ZGh0eU9oTXYyNU12ZU9neS1GaFFpeV93dmYydnlRekxFc0JiaVZMUUJsUDRaNERRMFRTeFo3aFBHMTJmVXA3NU12b3J4MG9GMm1ydjR2aw?oc=5",
-      "publishedAt": "Mon, 07 Sep 2026 19:22:38 GMT"
-    },
-    {
-      "source": "Exame",
-      "category": "IA",
-      "title": "Saiba quais são os maiores modelos de IA do mundo e o que eles são capazes de fazer",
-      "summary": "Saiba quais são os maiores modelos de IA do mundo e o que eles são capazes de fazer",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZHQ1YmJzZGEwTG53djVGZFBwUXcxV2lvcnJZdXZXZ3MySFdTdWs0Q1Z1NmFEZjNkekhzSU80aUY4Q29uR0FaN2ItUmpVY3lxZm1SWTJad2FUTTZidFdiZ1VCTEM3ZjhhcF9sQ0R2WjNWRzR5R0kzRWZNbExGWDFQUWFwT0JGc3BDc0FIcmpVQkk3Mno4MFFIbXJGeDhCeEphS1A5TklFdGlwMXJEZUJma19MZzRRczliVGRDRlJ6ZHBoOE5q?oc=5",
-      "publishedAt": "Mon, 07 Sep 2026 09:03:02 GMT"
-    },
     {
       "source": "Exame",
       "category": "IA",
@@ -36,12 +12,12 @@
       "publishedAt": "Tue, 08 Sep 2026 10:03:26 GMT"
     },
     {
-      "source": "Money Times",
+      "source": "G1",
       "category": "IA",
-      "title": "Inteligência artificial pode representar risco “existencial” para humanidade, alerta chefe de direitos humanos da ONU",
-      "summary": "Inteligência artificial pode representar risco “existencial” para humanidade, alerta chefe de direitos humanos da ONU",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNl9RQl9FMDZkbll2QnJ6WUxIWDVJWndEUmlLZUdzUGxHM2V0UHNoY09Hb0kxYUxwZ2paUTFxbVcxWm9UQm13bXJjeE1kNlZpSm1JdC1kYzJDR1MzbnVTRmxJLXFyRFhpbEh0cWhEeVFQSktySEZuOEg2SXdIVmR6bmhGSWhRUDhGb0VuWlVkcjkyTlNpaXRLNWtOYmxISUdlZGlNQnhQUWhyaVd3M1JYZHFKcDRVS2l4V3piS2Z4V2Zhck5QZ0NwX015a3lhWjEwX1hYVS1ZUlhsM193TFgtVkxrVU4?oc=5",
-      "publishedAt": "Tue, 08 Sep 2026 07:33:00 GMT"
+      "title": "EUA acusam empresas chinesas de IA de copiar modelos avançados para reduzir custos",
+      "summary": "EUA acusam empresas chinesas de IA de copiar modelos avançados para reduzir custos",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPY000c0lLMGQzanl5VnRodGFFXy00cXJVLUljdjVPbXBUcjhUSmlmTlZLREVqMmJWejdLNDNleGFZZTBDemI2UG9QRDZlWXl1b0Q0YU1HMldYWmhrZGkxd2VhWWtUV3dkMGkzQXBxc1RaYTRkMzgycEptcmdUZFRVRXJQZC1DM0pPWkpRRFVibm1PNF83SUlMWUlqUWEzdVZBbnFjTTVuSlkxRm5jYlIzMDRGanBmSnJ6Uk9KNEd3VlpFN3M1Y0xPTXAxQnhsNXA3TGt6R2hR0gHkAUFVX3lxTE4zS01MNVdQQnJldjlkRTdXd1o0RWlzcnN4c1FXVW5BTGQtazVWd09oeFZoVFo3X0MtcXZRX0E1TVBmdTlRaDNzY3hySS1qQVNSMWVKSmdSdUNjdmpaLV94Z0NkbkEydV9lcmFYbHU0S25TOFROUEpWQkV5LXVDNXExd1hSaER3M2toRWdrTXhBb3BmdlEzT0lEb01SNmp2eDFsaWFwOEc3blRaZ0c5Xzl6VUpIaHFLMjhKNmlQZmxVdkRIQnI3R3oyS09STGhmMG9nSnF6RURkaVZJT0haQmxkWENaag?oc=5",
+      "publishedAt": "Tue, 08 Sep 2026 17:57:12 GMT"
     },
     {
       "source": "Terra",
@@ -52,7 +28,31 @@
       "publishedAt": "Tue, 08 Sep 2026 07:58:00 GMT"
     },
     {
-      "source": "tiinside.com.br",
+      "source": "atl.clicrbs.com.br",
+      "category": "IA",
+      "title": "Por que as grandes empresas disputam profissionais especializados em IA e como essa habilidade virou diferencial no mercado de trabalho",
+      "summary": "Por que as grandes empresas disputam profissionais especializados em IA e como essa habilidade virou diferencial no mercado de trabalho",
+      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOblkyajRPeWhQdmdDMlJJQ0gwaFV1VmpJNmdIM1pHNXcwM2NyUkxNWDJjbWxMUGljYnNpbllpSC1TcGdxN3Nnd0ZpNUZMX0FGckwtSWlOc0FBSnVNMGdsQXJmZEdfdjhZaVZKbU4yTEw0M05OSjI2MzRZMEE2RVJHdndqQ3NTVVZtcjJfLUZrQ2JBdk4ycmJKSmVCRUxLZm8xeFdZTmxSaGY2TXZTY3lwQVRkOE8xenVGci11aFpXRFZBaDdrc2ZtSHdWQ05YRDdZN3Y2N2JYWDNvZDJiN1QxYkNLRFBFcnRBbERzT3ZnUVhfcTg4bnJfV3VaWl9YVG9Eb2tOX3NtYlFURV9UdGtxbUlCbEtWV05CWGZZT0xGU09fSXVVMFJublBuWFlZLWU0VjVTSVBSejBIVGNlWFdGamQ4bnkxVzk0MTg4RGhRb0c0Y21LRUxr?oc=5",
+      "publishedAt": "Tue, 08 Sep 2026 18:29:56 GMT"
+    },
+    {
+      "source": "SEGS Portal Nacional",
+      "category": "IA",
+      "title": "IA nos negócios: apenas 34% das empresas avançam na transformação com inteligência artificial | SEGS...",
+      "summary": "IA nos negócios: apenas 34% das empresas avançam na transformação com inteligência artificial | SEGS...",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYkhLQTY3djBUVFZnZm1kQzUyZ0JYX256UkRWeklseFNhbXdYWFZyYlJQRE5Zb282NGt6QjdMUHR5N0t5ZmFmU2hSNUdOZHAyOXpnN3psc3hmWkxmWGxENmljRTBkVWdESXJETTU2b3BXbGhpNW1zY2haQzZ6bG9hcE5adDZOdWQ4Q0drby1NTXdHSVBIdEdJYXZyZG11bWFuM1VPeGI3bndyOUpwNnVNZ1RzMzhWZk0tUXkyMDI0STdjRXhKZWhpN2xR0gHPAUFVX3lxTE1yZDJNV0l6QTQyVXdMWUtsWkczRjFKOTNKT1JkeWpzVzN6OHRMc19QcDVCX2k0SnNGNlZoUG9GdHJ2ZmU4cXNCaEJUX2hILUdMYUk0eFpWd0trSlJrcmZySkZKS3J6S0VRR1ZaaEw1SkExV0N6LXRmN0NCR25za3EwUTdQYWtaMlZickdVVFRxSkxPeDFpLWtzdGRJM3lvc3dJc2Z6MjgySS1iSjdxNDNOWFhJZTV2T3pScEh3eEtITmpGOXE2Yl92MklvcWRjWQ?oc=5",
+      "publishedAt": "Tue, 08 Sep 2026 21:17:51 GMT"
+    },
+    {
+      "source": "TI INSIDE Online",
+      "category": "IA",
+      "title": "53% das empresas adotam IA agêntica, mas uso é limitado a tarefas simples e de baixo valor estratégico",
+      "summary": "53% das empresas adotam IA agêntica, mas uso é limitado a tarefas simples e de baixo valor estratégico",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTzhOTlZqUktCLVgydzUtNzhZWDBocThwNWhPdUNRUGhjRVZlLWZaWTVMbi1FMGRGNUc1VE9UeGZiQmZGSXBMY0dNRWZLd3J2WU91aFZOanEyc056T095SVVUeTNlc05wcm12UmNfMGI2Y2JQS1ZQR0hEelZ5RGNFSTVSa0lTa3ZxZEsyT0hiZEZyTkJVWm1HTkJDMktXdXYxaGxBOEFSYjhDYjJ0MjJHeEwtWFBiZEw2YlNleFlqb0djYUNWWGtMcHhlNkxlV2x3c3c?oc=5",
+      "publishedAt": "Tue, 08 Sep 2026 21:53:31 GMT"
+    },
+    {
+      "source": "TI INSIDE Online",
       "category": "Tecnologia",
       "title": "Equipe virtual de agentes de IA reduz em até 70% o tempo de desenvolvimento de software na Dígitro Tecnologia",
       "summary": "Equipe virtual de agentes de IA reduz em até 70% o tempo de desenvolvimento de software na Dígitro Tecnologia",
@@ -68,20 +68,20 @@
       "publishedAt": "Thu, 03 Sep 2026 19:10:29 GMT"
     },
     {
-      "source": "Economia SC",
-      "category": "Tecnologia",
-      "title": "IA avança no desenvolvimento de software e passa a criar, testar e publicar integrações em linguagem natural",
-      "summary": "IA avança no desenvolvimento de software e passa a criar, testar e publicar integrações em linguagem natural",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZ28zZ0xYcF9mVG1JSFFtMVdVMTd5RzUzOXozWk1KWXJ0eXZxTFNReWNvLU9NTkhtMTZod1VtVEZQbkhIR3hhYkxEcWo4ci1LdEpYd1ZuUnVheXBlcXJtMklIRVJER3VpRk10YS1Gb2lFVHVHNkZyVzBQUklmYXBiVHVUU2V0XzV0Vm5DWExXZ3M3d3pHRm9wRFpTaEcxTHVIRUtVRldLZENObGVnX09SMVdxcFBDUnVyVmZTWGlpbE1Bb2phZFF6LV80QlZIbDczZExMX1puS1YzQQ?oc=5",
-      "publishedAt": "Thu, 03 Sep 2026 19:40:50 GMT"
-    },
-    {
       "source": "BPMoney",
       "category": "Tecnologia",
       "title": "B3 adota IA no desenvolvimento de software e reduz prazo de entrega em 35%",
       "summary": "B3 adota IA no desenvolvimento de software e reduz prazo de entrega em 35%",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZE93R0FMaVlpNEl0R1RBZTRXeVlIODN2b3U1R0U0cGRNR2ozNG1fc1NpR0JDY2QxTXZwSUNuNTl4Y2ZiZ1ZzVWhOWkNwTEJVZFpfTl9ISzR3akN4UW9ISmlyU1NHX0FST1RQZThPVi14ZzkyUTVtSUxadld6YkYzbDJFUWlpSzQ2V2FHYWZxMkdLbHhfbGppMzJ5NklrUnN4SThOa2xUTkdsRDVfdG5xV0lQTmVlUnZj?oc=5",
       "publishedAt": "Thu, 03 Sep 2026 19:39:29 GMT"
+    },
+    {
+      "source": "economiasc.com",
+      "category": "Tecnologia",
+      "title": "IA avança no desenvolvimento de software e passa a criar, testar e publicar integrações em linguagem natural",
+      "summary": "IA avança no desenvolvimento de software e passa a criar, testar e publicar integrações em linguagem natural",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZ28zZ0xYcF9mVG1JSFFtMVdVMTd5RzUzOXozWk1KWXJ0eXZxTFNReWNvLU9NTkhtMTZod1VtVEZQbkhIR3hhYkxEcWo4ci1LdEpYd1ZuUnVheXBlcXJtMklIRVJER3VpRk10YS1Gb2lFVHVHNkZyVzBQUklmYXBiVHVUU2V0XzV0Vm5DWExXZ3M3d3pHRm9wRFpTaEcxTHVIRUtVRldLZENObGVnX09SMVdxcFBDUnVyVmZTWGlpbE1Bb2phZFF6LV80QlZIbDczZExMX1puS1YzQQ?oc=5",
+      "publishedAt": "Thu, 03 Sep 2026 19:40:50 GMT"
     },
     {
       "source": "Prefeitura de São Paulo",
@@ -92,7 +92,7 @@
       "publishedAt": "Fri, 17 Jul 2026 21:09:28 GMT"
     },
     {
-      "source": "tiinside.com.br",
+      "source": "TI INSIDE Online",
       "category": "Tecnologia",
       "title": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
       "summary": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
