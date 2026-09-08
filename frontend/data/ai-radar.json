@@ -1,8 +1,26 @@
 {
-  "generated_at": "2026-09-07T22:25:54.774030+00:00",
+  "generated_at": "2026-09-08T12:19:27.831298+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
+    {
+      "title": "OpenAI lança o GPT-6 Astra, o modelo assustador. A empresa afirma: \"A era da Inteligência Artificial Geral começou\"",
+      "summary": "OpenAI lança o GPT-6 Astra, o modelo assustador. A empresa afirma: \"A era da Inteligência Artificial Geral começou\"",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNdF9wOEVucFFidWJYTFkwanRKQl84Y0R4M3hqSzBYWVNZWmh0X1N5T0RfQjlYOHR2UGcwZnBmckJGQXpwOGF5SHZiN094dVBDZlNYT21GcXRmWDBGcU15T292LVpveEtDTDJuc1FZVG1Yd2RsLUlfMWFadDliMFNFUWkzV0ZkVlV1dTRTaWQ1TGdabHBwVW5HRmdITld2QjNvN3U5Nlo4VW1qdW5qXzlTSDFUcjYybUt5U3BodFFFQ0d1RWQzSmFvaHROUWFRbXJiaW50WVdWOFhjZXVHQ0stYw?oc=5",
+      "source": "ihu.unisinos.br",
+      "published_at": "Tue, 08 Sep 2026 11:06:11 GMT",
+      "category": "IA",
+      "signal": "up"
+    },
+    {
+      "title": "'Ninguém está preparado para as consequências da inteligência artificial', adverte cientista-chefe da OpenAI",
+      "summary": "'Ninguém está preparado para as consequências da inteligência artificial', adverte cientista-chefe da OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQZm1yRmxEek9BMTYxNFpIUGdzUlVkd2g3U3JsdjFVcEhtTThuVU9MNEZWbTFJYU9TUHRmV2JfaVIxMVNldGJaZGdVa1o5TDVXYzN2U3BHamE1U3l4RnRhUzBB0gFnQVVfeXFMTWJaUm1yX0FSdUd1YWFJRXQ2ZGh0eU9oTXYyNU12ZU9neS1GaFFpeV93dmYydnlRekxFc0JiaVZMUUJsUDRaNERRMFRTeFo3aFBHMTJmVXA3NU12b3J4MG9GMm1ydjR2aw?oc=5",
+      "source": "BBC",
+      "published_at": "Mon, 07 Sep 2026 19:22:38 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
     {
       "title": "Saiba quais são os maiores modelos de IA do mundo e o que eles são capazes de fazer",
       "summary": "Saiba quais são os maiores modelos de IA do mundo e o que eles são capazes de fazer",
@@ -13,49 +31,31 @@
       "signal": "flat"
     },
     {
-      "title": "'Ninguém está preparado para as consequências da inteligência artificial', adverte cientista-chefe da OpenAI",
-      "summary": "'Ninguém está preparado para as consequências da inteligência artificial', adverte cientista-chefe da OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQeHhzN0tsOGlSZkhTWDVKeDJVM3FLcXd5NTI2cUlXTzI1VklmeGF0QTVSNU1sbVNnVkswSTdBb3JuNGRrWGRib3d0X0J2QVcxM2pMMmU5T0hzaFBaS1Bkd1hxTU9KLTI2UmNncE1mSjBKeV9PeTRXZ3BTYWstOHcxeGM2a0o2VFF5OTFxLWRydmY2dkxILTh5QzVOR0RkeGFmME9UWlJlN3FfenVSS1RQemNxbmJiOWhjb0xYTEJtVk1oWlhwWmZHQmhadTNsQ2tidTkwU2pjcXIzdlpDdy0tWmFWczROYnAzNmpEMU1SaXpadzBUeWMwM085YWlMV1HSAYQCQVVfeXFMT2tNTmNOYng2X1o2dTN2QllvaXNQT0dSZlJBemc3U09ZeFY1bDNSaWxlaDRISmtDM0ZLYTZrSl9keWRaeVJJelNHZVROelFGN2R4NTh3R0FXbVlCTEpSbUk2Sko2SnJ2a2MzdUUxb3A0V2VTTHNTWDhrbFJKUlNzNzZsU2VuLTBnRG0zYXdBMWpCbFlydGstbFlSeWlTR2Qya2JzOGJWOHR2LVBkQzFUY1lDbnhhZFU4Y0RDdy01bERsaUdtOVdTdURRa2FzN0JwaXgtZmRZc25GVkFEeExuenB0dXVnV2VadXJCWjFFRFl1U0g5emEzOThUTkRPeUNOdW0weWw?oc=5",
-      "source": "Correio Braziliense",
-      "published_at": "Mon, 07 Sep 2026 19:31:00 GMT",
+      "title": "Empresas estão gastando demais com IA por um erro básico, diz executiva da SAS",
+      "summary": "Empresas estão gastando demais com IA por um erro básico, diz executiva da SAS",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQME9RbWRMUGNQNmVHUHE1T1A2dTZBNk9BZ2dGYkVaZDEwV1FQTmRGbVBXTVU0Qi1DWHJSRm5CbU1neGlnSjNTdW5WVW5VclNjVGtkTEFCTWgxc0tKY0VtRGRVUldLaVRROXNNYkJnQTZJTUFrRVNlVkoxUjlpVENiMkRDYlI5UWcwUHk0QjhMalExVno4RmhzLTAtTWgwN2YyR1ZCTS00S2FucXlpM1dqQVJodkpNOVExUDd2QQ?oc=5",
+      "source": "Exame",
+      "published_at": "Tue, 08 Sep 2026 10:03:26 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "IA redefine o perfil dos profissionais mais procurados pelas empresas",
-      "summary": "IA redefine o perfil dos profissionais mais procurados pelas empresas",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcTV5djluaU0xX3FGWnV6bFV4V2sxX3A4NEZfdUl2cmhKUXloak1JUnZoMzV3QmNoN01mc0dCT19xbV9NQmdDMEZtYnl3NXB5Zlp3MkVTOVBtWEh1YU9GNUVOUms5VjRzYzEzaWJuMFBXaFAxVzBnWEFzcXVDRy1leUVvOER3RTNDaGJscjF5UC1GRC02TjNOazN3a29zVnl2ZzRadDllVEtFaVFWVERUZGEzLVlrQQ?oc=5",
-      "source": "Você RH",
-      "published_at": "Mon, 07 Sep 2026 13:00:00 GMT",
+      "title": "Inteligência artificial pode representar risco “existencial” para humanidade, alerta chefe de direitos humanos da ONU",
+      "summary": "Inteligência artificial pode representar risco “existencial” para humanidade, alerta chefe de direitos humanos da ONU",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNl9RQl9FMDZkbll2QnJ6WUxIWDVJWndEUmlLZUdzUGxHM2V0UHNoY09Hb0kxYUxwZ2paUTFxbVcxWm9UQm13bXJjeE1kNlZpSm1JdC1kYzJDR1MzbnVTRmxJLXFyRFhpbEh0cWhEeVFQSktySEZuOEg2SXdIVmR6bmhGSWhRUDhGb0VuWlVkcjkyTlNpaXRLNWtOYmxISUdlZGlNQnhQUWhyaVd3M1JYZHFKcDRVS2l4V3piS2Z4V2Zhck5QZ0NwX015a3lhWjEwX1hYVS1ZUlhsM193TFgtVkxrVU4?oc=5",
+      "source": "Money Times",
+      "published_at": "Tue, 08 Sep 2026 07:33:00 GMT",
       "category": "IA",
-      "signal": "flat"
+      "signal": "down"
     },
     {
-      "title": "Imersão em Guarulhos ensina como aplicar Inteligência Artificial na operação de empresas",
-      "summary": "Imersão em Guarulhos ensina como aplicar Inteligência Artificial na operação de empresas",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTWU3NDREU1hkQUQ2RkZCX21ETlVhNldwVFBpYmcxa0ZqbkNaTVVmUFhpYWI0djduQk5rWTZaTkNqV0FKbGNOTnM0TldNY1I2RzV2MldJYXN0OExJRnd1Q29GOEljUW1YUU83R3BvU01remZ5SFc4TWhLalc4X3BJbWs0VGhzei1ZMFd2VHBjTnpabW1YNnNQWUJhSGdEeHJYV0VNdFV0Rm5tYUxCY1RzUzgxajZOT3JvUnh1XzMyNjl6QzdpQklz?oc=5",
-      "source": "Guarulhos Todo Dia",
-      "published_at": "Mon, 07 Sep 2026 15:11:38 GMT",
+      "title": "Shadow AI: o que é e como o uso da IA sem controle pode colocar empresas em risco",
+      "summary": "Shadow AI: o que é e como o uso da IA sem controle pode colocar empresas em risco",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOT1E4Z2JPcUhhbmxDaTJMZHpEZXNlbVp2VkJOTjcxdjZ1MEcxczRJek9EWmlXeG1MSzNIcVFwVTd4RjFmdkMyaU1LdVJBTnNIUWF4ekJyVk1tYk95UWg4QmZvRUpJQm9mRU9xaEZfaWRVcXBvLUV1VVhYdFFXdG9ReXF1ZG1TY2JTX2NmaWt3UHkyR3o5am0wV1A0UDBHcWh6SXZtaWRjNy15VFBfdHRjckpvdjBCcmVubFBCM2M1WkpvU1Y0R3I2QnVVbjZ1d2ktcFFPVEk0UEhsWW5sWFljal92a3hPekxGTlVVQg?oc=5",
+      "source": "Terra",
+      "published_at": "Tue, 08 Sep 2026 07:58:00 GMT",
       "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Metade das empresas usam IA agêntica mas uso é restrito a tarefas operacionais",
-      "summary": "Metade das empresas usam IA agêntica mas uso é restrito a tarefas operacionais",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT1NHWjA2OU9EM25MUWVyc0ZrNGF6X2NIdGV3bXZNQUJZUHl5OG96Rm9zNTFWUU1SY1RVUmlpay1DT1JyZ2M4N3RlelI1QUdidG1Qa1N1VnBiMkNMWWxaYlhFdFRMVGZWUEhmbFc3N1YtY1ZfNXJRM0IxZDBfeWVDZzdxa3Zqd2E3SjNiQU1pMFRCRnZwRllz?oc=5",
-      "source": "CartaCapital",
-      "published_at": "Mon, 07 Sep 2026 10:00:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Inteligência Artificial avança nas empresas, mas falta de capacitação prejudica a real produtividade",
-      "summary": "Inteligência Artificial avança nas empresas, mas falta de capacitação prejudica a real produtividade",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcFB0ek5qcHEwQVdxdTMtY1VSY094RjBocFJ4a0tlSUZLQ2xkUkUxWG03UUx6YWgtM0dubEFScTNDLTk4bzNia3dhUUc5WW5sU2xZUGxiRGZzamZTdTlLV1NBcU9uQS13NFNKT1ZCdWQ5NGR2TnJvTGo2TUlhUU0xNUxjbEZ0Z0RhcHRjME5FQzhJWE1rOEdFTHcwSTJhdHV2VGpkTGhaVVFSa3dnT2ExRnN0S3pzSlhYVC1GeHZ2OA?oc=5",
-      "source": "mahoje.com.br",
-      "published_at": "Mon, 07 Sep 2026 20:49:45 GMT",
-      "category": "IA",
-      "signal": "flat"
+      "signal": "down"
     }
   ],
   "category": "IA"

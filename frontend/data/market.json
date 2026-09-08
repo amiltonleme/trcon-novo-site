@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T22:25:51.805133+00:00",
+  "generated_at": "2026-09-08T12:19:24.937131+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -23,19 +23,19 @@
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 79.114",
-      "change": "-0,77%",
+      "value": "US$ 78.226",
+      "change": "-1,49%",
       "direction": "down"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 2.487",
-      "change": "-0,35%",
+      "value": "US$ 2.471",
+      "change": "-0,76%",
       "direction": "down"
     },
     {
       "symbol": "OURO",
-      "value": "US$ 4.458",
+      "value": "US$ 4.447",
       "change": "estavel",
       "direction": "flat"
     },
@@ -90,8 +90,8 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 79.114",
-      "change": "-0,77%",
+      "quote": "US$ 78.226",
+      "change": "-1,49%",
       "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -101,8 +101,8 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 2.487",
-      "change": "-0,35%",
+      "quote": "US$ 2.471",
+      "change": "-0,76%",
       "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -112,7 +112,7 @@
       "id": "gold",
       "name": "Ouro",
       "icon": "🥇",
-      "quote": "US$ 4.458",
+      "quote": "US$ 4.447",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -148,6 +148,10 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQa2hmTTE3ak5sUzhjYXhnbTZkWkdVZjhuUHJlSV9tdFp0WUpsWmhZSTRZV1VuTV84TGpGcHQwSEdYcHhFUi01LTVvQXV4emk1TVROUEZXYUJ4QnBUVDJKNzZfbHZMbm1BTEtrZF9rempFRlFOaWJsbGJuZ09JMWQxQ3N0dndsSDVKRjJhdkg5Yw?oc=5"
     },
     {
+      "title": "Dólar supera R$ 5,20, e bolsa cai com expectativa por juros nos EUA",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPLTZuT3RQeHFRVGJvWUdtRFNWNWZlZXozbUlQeEZ3Nmk2aC1YSnZNc3lUWFZUMFhmVEFnaHRmN2J6c1ZyMjlCLUNndXZINktkWjdZZklGYzVuNHRXMlpyZ2hxSmRMeXY0YkpsanFwckljT1JoMTRwWDRucmRzZE1XNjNfR2lLR0JuWUdheFJNZEpSaHhmLTZVbW5pa195NUdfcFVtdE5NaG9yWE9fT2NQb1pMR2VrNzVCb2ItOVREYw?oc=5"
+    },
+    {
       "title": "Morgan Stanley vê dólar a R$ 6 e juros a 18% sem ajuste fiscal | Faria Lima News",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZnB4NVVoV0h5YktsaHNkM2lMdHVGbENKN0dUcng3YUR2dEZLdjlGSXNjUnJ4ejh0dG91Y1dBTi1YbjR1NGNhMFl4UFRDcU5pQUQ4cHZRVUZBZ3BQWjZ1QS02SkFWOUpwbjlHV0FlU1lXd2Y1TDhNRmhLMkJTRUhNNm1qd0ZCMjdCT01BSE42eTZHbEN2VlhMRG8xUElVQnVDOWpuSW1RQnZOcHJoRkww?oc=5"
     },
@@ -156,24 +160,20 @@
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5EODlBQ1NGREExUDhUZzlzaEhMeHhZV1JmYko5QUZMbkkyYUNmX1NGUGNmdklWRTBYb0VNMlhLNk0zN2RTVXR2dG0xbTROaDZ4emtXQU53dk9RcXA2ZzV0V1ZDdEZLMmRkeGpOOGRBS3lsdw?oc=5"
     },
     {
-      "title": "Dólar supera R$ 5,20, e bolsa cai com expectativa por juros nos EUA",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPLTZuT3RQeHFRVGJvWUdtRFNWNWZlZXozbUlQeEZ3Nmk2aC1YSnZNc3lUWFZUMFhmVEFnaHRmN2J6c1ZyMjlCLUNndXZINktkWjdZZklGYzVuNHRXMlpyZ2hxSmRMeXY0YkpsanFwckljT1JoMTRwWDRucmRzZE1XNjNfR2lLR0JuWUdheFJNZEpSaHhmLTZVbW5pa195NUdfcFVtdE5NaG9yWE9fT2NQb1pMR2VrNzVCb2ItOVREYw?oc=5"
+      "title": "Dólar reverte perdas e sobe para R$ 5,11 com apostas de alta de juros nos EUA; Bolsa cai",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZGUtdVEzVTg2cDYyOGkxaGt0LXlydzltT3Npd25KTXpmbHg0Znd3OVBqVkR0THRUM01HdVctRE15M0tTcHFUMUVOcl9HUzBOSmczVHJ6YnRmWHFFcndzbkZIc1MyQng5bWowdU45cGQ2Q1ZYWV8zNGY3amNtYVNUeDlYM3kwcWtfQWxqbWxwN25mcmJTUXd3TVpNamdMN084eVhyY2s1TVNxSGw5b3N4LWI4WEQ5OElBLWFDbHVRamthYVVsdzRBclIxMC1uLTRs?oc=5"
     },
     {
       "title": "O que esperar da Bolsa e do dólar em julho após guerra e juros ditarem o ritmo dos mercados",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQekF3WTBBeGplQndvVExVTUd4OXdOazhxRVE2clBCQlQzejFQRkQwWHN3Q1F0cU42WnR1RVpKaWVvR0VmQkoyOG9Ja3cwbHktdkxBaXU1WFRKb3ZFZ0EtVkNDY1JWZkMzV3dGSEw0RzQ3QTBHQ3prNXB2SFQwLTRySDdwT1dTV3FPN2I3eDdiZXpRb0ZvTDNjbzZZMkNfR09Zc1BWdHRxRTdSdmxsbUFUdThDeFdjSE5Lc0tJSU96enoxN1c5S2R6YUxnQldyeV9tU2sxMmc2SDA4a3VVYS0yOEhJdnXSAeoBQVVfeXFMTkJ3RjI1NURKSnlmMzVHMzA2Q25XVkYxUHYwOVNsUm1WeUVucE1KQ09HWlIyY1Z5NElQMlRFSWNzdHFMRno0Zm9yejBLLTJZdE9Ma21XNk9YOFViS1NMaHVsU1J1LW5UNWlWZ3dZU0RfS1NGTmFraERkTVdmUEJSUUpoaFNlV1FwMHRLY3ZOMGtjcG10eFN1cEp4QklGZUV6TG5FRGEzZ0IyY1B2V1hYQlBrQWFsRTh4bXZ1aHh0cGVMQ3A1UzFESFhRUzFza0JKRk1Qa1pLMGZYSXlzMkJqTkpqaGEzcUlCUzR3?oc=5"
     },
     {
-      "title": "Dólar reverte perdas e sobe para R$ 5,11 com apostas de alta de juros nos EUA; Bolsa cai",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZGUtdVEzVTg2cDYyOGkxaGt0LXlydzltT3Npd25KTXpmbHg0Znd3OVBqVkR0THRUM01HdVctRE15M0tTcHFUMUVOcl9HUzBOSmczVHJ6YnRmWHFFcndzbkZIc1MyQng5bWowdU45cGQ2Q1ZYWV8zNGY3amNtYVNUeDlYM3kwcWtfQWxqbWxwN25mcmJTUXd3TVpNamdMN084eVhyY2s1TVNxSGw5b3N4LWI4WEQ5OElBLWFDbHVRamthYVVsdzRBclIxMC1uLTRs?oc=5"
+      "title": "Ibovespa cai 2,5%, maior queda em cinco meses, com cenário eleitoral e juros; dólar sobe a R$ 5,16",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9wNUlwV3lpNnBrRExoTFJHY2lHWVNXSjdZaWVoMFhJN1cxd3BPX3RwRnlObzh1YkVkdGhMZ1duSE56dnRIYnYwWXVqeXpHN2pxNWhYbVVZMVV3N1plRVNOYTc4R3QxaEprV3BoRGd6RmQ4YXROXzR5TtIBhwFBVV95cUxNbGtHTERiX2d0OHktci1CSWE4X0VLNHlDa3ZvaEZuTUhUeFBpM3lxNEhpRlpUeG1UODZxMFh5MjgwWWVzYVVOWEtGSnB2bVlUeDB1RkhzNV9PWXlldkY4SEdPRV8wbWpoN1QtUHNUQWlNMWhCSVUyUVlKcjZScllrNlgwaFI1Ym8?oc=5"
     },
     {
-      "title": "Ibovespa cai a 171 mil pontos e dólar sobe a R$ 5,21",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNajRuWFZ0WlRzaG9oNG0yVGljRnlMWm9rN2JoZU8wQUpoSDZibEcwLVh6SFFaNDhOemQ1UWZQbFVLRFVSOUQ1aUY3cGtXMUNBVGcxTXlQQnRFQk1pQkhZMEdwZHFURGswV1ZDek5IT1lVTkZobFpHVmVCSHRwUTdpV0t3SnF0Z0dHNjRtOXdOZUthakk0YzNOTVVLUlNGYWhY?oc=5"
-    },
-    {
-      "title": "Ibovespa recua, dólar dispara: Entenda a crise no mercado",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92MHo3LTVjNFVabVI4MG5mX3FjclduWGNzUEUtekpoSll0M3ltRElIR2V5SlNCTGZmUFVCZldBN1BQMnpaYzFpalhfOC1mM2xsWWp2WDlaVHhJc2ZNc21zYWhKWV9JMmJhcUlRUllISmlqN2lHcDl5RFRCSkRTbUk?oc=5"
+      "title": "Ibovespa inverte sinal e fecha em queda após Fed; dólar sobe a R$ 5,11",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUkdKLTYwWWpiMkFBek5QT1hUdnVNQzdkaDhOQmR1d3Z2T2djM3J1U0xpeWpvMjNCWUkzT09LRU1PdjNsaC02eFBjRFlZOEZRbTFlTldGZnJBQW5OOFZYSHdwc05TMXZkTGZDa2t5eHVjbEJzVm1nOUlCWWpXMkVvOHFwYkZTVV9nRGV0NGNiSnpWMF9ObFVicnBJYzVpOFFWRVE?oc=5"
     }
   ],
   "market_mood": {
