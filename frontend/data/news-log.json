@@ -1,23 +1,15 @@
 {
-  "generated_at": "2026-09-08T22:14:11.852054+00:00",
+  "generated_at": "2026-09-09T12:31:12.323963+00:00",
   "source_note": "Historico de novidades TRCONGROUP consolidado dos radares.",
   "errors": [],
   "items": [
     {
-      "source": "Exame",
+      "source": "UOL Notícias",
       "category": "IA",
-      "title": "Empresas estão gastando demais com IA por um erro básico, diz executiva da SAS",
-      "summary": "Empresas estão gastando demais com IA por um erro básico, diz executiva da SAS",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQME9RbWRMUGNQNmVHUHE1T1A2dTZBNk9BZ2dGYkVaZDEwV1FQTmRGbVBXTVU0Qi1DWHJSRm5CbU1neGlnSjNTdW5WVW5VclNjVGtkTEFCTWgxc0tKY0VtRGRVUldLaVRROXNNYkJnQTZJTUFrRVNlVkoxUjlpVENiMkRDYlI5UWcwUHk0QjhMalExVno4RmhzLTAtTWgwN2YyR1ZCTS00S2FucXlpM1dqQVJodkpNOVExUDd2QQ?oc=5",
-      "publishedAt": "Tue, 08 Sep 2026 10:03:26 GMT"
-    },
-    {
-      "source": "G1",
-      "category": "IA",
-      "title": "EUA acusam empresas chinesas de IA de copiar modelos avançados para reduzir custos",
-      "summary": "EUA acusam empresas chinesas de IA de copiar modelos avançados para reduzir custos",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPY000c0lLMGQzanl5VnRodGFFXy00cXJVLUljdjVPbXBUcjhUSmlmTlZLREVqMmJWejdLNDNleGFZZTBDemI2UG9QRDZlWXl1b0Q0YU1HMldYWmhrZGkxd2VhWWtUV3dkMGkzQXBxc1RaYTRkMzgycEptcmdUZFRVRXJQZC1DM0pPWkpRRFVibm1PNF83SUlMWUlqUWEzdVZBbnFjTTVuSlkxRm5jYlIzMDRGanBmSnJ6Uk9KNEd3VlpFN3M1Y0xPTXAxQnhsNXA3TGt6R2hR0gHkAUFVX3lxTE4zS01MNVdQQnJldjlkRTdXd1o0RWlzcnN4c1FXVW5BTGQtazVWd09oeFZoVFo3X0MtcXZRX0E1TVBmdTlRaDNzY3hySS1qQVNSMWVKSmdSdUNjdmpaLV94Z0NkbkEydV9lcmFYbHU0S25TOFROUEpWQkV5LXVDNXExd1hSaER3M2toRWdrTXhBb3BmdlEzT0lEb01SNmp2eDFsaWFwOEc3blRaZ0c5Xzl6VUpIaHFLMjhKNmlQZmxVdkRIQnI3R3oyS09STGhmMG9nSnF6RURkaVZJT0haQmxkWENaag?oc=5",
-      "publishedAt": "Tue, 08 Sep 2026 17:57:12 GMT"
+      "title": "Washington acusa gigantes chinesas de IA de roubar capacidades dos modelos de empresas americanas",
+      "summary": "Washington acusa gigantes chinesas de IA de roubar capacidades dos modelos de empresas americanas",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQamJSNjhPampzeENzbXdjQXF4TVJjQzVZbTl1b3RmTmNjOGphVmlLRjBEa202a0E1Qmk0ZnlXYWsySFVqVFlLQWhuSEwycTZUZmxxbnUxUk51MWEyN2xqLU55MkVlY0tuZ0xaWHNIanpGWE1UdThoZjAyTTBIbVJHUTNTR3pOLUlkNTRyS3hWMXl0d1I0N2FPVlo5OTJkNE9wSzhxUXdGMkVnMmRyOUJsYzZHaWg4Mi1UbXVDczRtdjNEOVpDeklrdkY0d0VRZmJfYjcyTEhyQzlSd3ZxenRlam1nSmtsYVZscUI5NlJMSTdkXzQ?oc=5",
+      "publishedAt": "Wed, 09 Sep 2026 07:22:49 GMT"
     },
     {
       "source": "Terra",
@@ -28,15 +20,23 @@
       "publishedAt": "Tue, 08 Sep 2026 07:58:00 GMT"
     },
     {
-      "source": "atl.clicrbs.com.br",
+      "source": "tiinside.com.br",
       "category": "IA",
-      "title": "Por que as grandes empresas disputam profissionais especializados em IA e como essa habilidade virou diferencial no mercado de trabalho",
-      "summary": "Por que as grandes empresas disputam profissionais especializados em IA e como essa habilidade virou diferencial no mercado de trabalho",
-      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOblkyajRPeWhQdmdDMlJJQ0gwaFV1VmpJNmdIM1pHNXcwM2NyUkxNWDJjbWxMUGljYnNpbllpSC1TcGdxN3Nnd0ZpNUZMX0FGckwtSWlOc0FBSnVNMGdsQXJmZEdfdjhZaVZKbU4yTEw0M05OSjI2MzRZMEE2RVJHdndqQ3NTVVZtcjJfLUZrQ2JBdk4ycmJKSmVCRUxLZm8xeFdZTmxSaGY2TXZTY3lwQVRkOE8xenVGci11aFpXRFZBaDdrc2ZtSHdWQ05YRDdZN3Y2N2JYWDNvZDJiN1QxYkNLRFBFcnRBbERzT3ZnUVhfcTg4bnJfV3VaWl9YVG9Eb2tOX3NtYlFURV9UdGtxbUlCbEtWV05CWGZZT0xGU09fSXVVMFJublBuWFlZLWU0VjVTSVBSejBIVGNlWFdGamQ4bnkxVzk0MTg4RGhRb0c0Y21LRUxr?oc=5",
-      "publishedAt": "Tue, 08 Sep 2026 18:29:56 GMT"
+      "title": "53% das empresas adotam IA agêntica, mas uso é limitado a tarefas simples e de baixo valor estratégico",
+      "summary": "53% das empresas adotam IA agêntica, mas uso é limitado a tarefas simples e de baixo valor estratégico",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTzhOTlZqUktCLVgydzUtNzhZWDBocThwNWhPdUNRUGhjRVZlLWZaWTVMbi1FMGRGNUc1VE9UeGZiQmZGSXBMY0dNRWZLd3J2WU91aFZOanEyc056T095SVVUeTNlc05wcm12UmNfMGI2Y2JQS1ZQR0hEelZ5RGNFSTVSa0lTa3ZxZEsyT0hiZEZyTkJVWm1HTkJDMktXdXYxaGxBOEFSYjhDYjJ0MjJHeEwtWFBiZEw2YlNleFlqb0djYUNWWGtMcHhlNkxlV2x3c3c?oc=5",
+      "publishedAt": "Tue, 08 Sep 2026 19:51:30 GMT"
     },
     {
-      "source": "SEGS Portal Nacional",
+      "source": "Exame",
+      "category": "IA",
+      "title": "Empresas estão gastando demais com IA por um erro básico, diz executiva da SAS",
+      "summary": "Empresas estão gastando demais com IA por um erro básico, diz executiva da SAS",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQME9RbWRMUGNQNmVHUHE1T1A2dTZBNk9BZ2dGYkVaZDEwV1FQTmRGbVBXTVU0Qi1DWHJSRm5CbU1neGlnSjNTdW5WVW5VclNjVGtkTEFCTWgxc0tKY0VtRGRVUldLaVRROXNNYkJnQTZJTUFrRVNlVkoxUjlpVENiMkRDYlI5UWcwUHk0QjhMalExVno4RmhzLTAtTWgwN2YyR1ZCTS00S2FucXlpM1dqQVJodkpNOVExUDd2QQ?oc=5",
+      "publishedAt": "Tue, 08 Sep 2026 10:03:26 GMT"
+    },
+    {
+      "source": "segs.com.br",
       "category": "IA",
       "title": "IA nos negócios: apenas 34% das empresas avançam na transformação com inteligência artificial | SEGS...",
       "summary": "IA nos negócios: apenas 34% das empresas avançam na transformação com inteligência artificial | SEGS...",
@@ -44,15 +44,15 @@
       "publishedAt": "Tue, 08 Sep 2026 21:17:51 GMT"
     },
     {
-      "source": "TI INSIDE Online",
+      "source": "Exame",
       "category": "IA",
-      "title": "53% das empresas adotam IA agêntica, mas uso é limitado a tarefas simples e de baixo valor estratégico",
-      "summary": "53% das empresas adotam IA agêntica, mas uso é limitado a tarefas simples e de baixo valor estratégico",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTzhOTlZqUktCLVgydzUtNzhZWDBocThwNWhPdUNRUGhjRVZlLWZaWTVMbi1FMGRGNUc1VE9UeGZiQmZGSXBMY0dNRWZLd3J2WU91aFZOanEyc056T095SVVUeTNlc05wcm12UmNfMGI2Y2JQS1ZQR0hEelZ5RGNFSTVSa0lTa3ZxZEsyT0hiZEZyTkJVWm1HTkJDMktXdXYxaGxBOEFSYjhDYjJ0MjJHeEwtWFBiZEw2YlNleFlqb0djYUNWWGtMcHhlNkxlV2x3c3c?oc=5",
-      "publishedAt": "Tue, 08 Sep 2026 21:53:31 GMT"
+      "title": "Empresa no vermelho? Veja como a inteligência artificial pode cortar custos sem reduzir equipes",
+      "summary": "Empresa no vermelho? Veja como a inteligência artificial pode cortar custos sem reduzir equipes",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONlFMLXN0eTNTZnl4MmVlVVBmQ2E0WGZERzZnREZjUU5JSWZpQ19qa2pIODhkS1hKM3NWUF9ycV8zeWRfQkp1V25VbkQydHd2MVFFdG1ZbUpvdmd1V1Z3X2x1MDlNU0xhbXU5TUh1VWtuenFsWUtGbC14N3Y5eFlpTFR3VFh1bHFHaGt4UDg3RG9zbFlwYS1ZU1B2eDlYQi1NZXVyZDk2T2pKZUpkSEJtdWVIcXgybHBaZFJ1NEw1b3Vvd2dGcGstTnB0OEpsMzdfWmw0?oc=5",
+      "publishedAt": "Tue, 08 Sep 2026 17:14:10 GMT"
     },
     {
-      "source": "TI INSIDE Online",
+      "source": "tiinside.com.br",
       "category": "Tecnologia",
       "title": "Equipe virtual de agentes de IA reduz em até 70% o tempo de desenvolvimento de software na Dígitro Tecnologia",
       "summary": "Equipe virtual de agentes de IA reduz em até 70% o tempo de desenvolvimento de software na Dígitro Tecnologia",
@@ -68,15 +68,7 @@
       "publishedAt": "Thu, 03 Sep 2026 19:10:29 GMT"
     },
     {
-      "source": "BPMoney",
-      "category": "Tecnologia",
-      "title": "B3 adota IA no desenvolvimento de software e reduz prazo de entrega em 35%",
-      "summary": "B3 adota IA no desenvolvimento de software e reduz prazo de entrega em 35%",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZE93R0FMaVlpNEl0R1RBZTRXeVlIODN2b3U1R0U0cGRNR2ozNG1fc1NpR0JDY2QxTXZwSUNuNTl4Y2ZiZ1ZzVWhOWkNwTEJVZFpfTl9ISzR3akN4UW9ISmlyU1NHX0FST1RQZThPVi14ZzkyUTVtSUxadld6YkYzbDJFUWlpSzQ2V2FHYWZxMkdLbHhfbGppMzJ5NklrUnN4SThOa2xUTkdsRDVfdG5xV0lQTmVlUnZj?oc=5",
-      "publishedAt": "Thu, 03 Sep 2026 19:39:29 GMT"
-    },
-    {
-      "source": "economiasc.com",
+      "source": "Economia SC",
       "category": "Tecnologia",
       "title": "IA avança no desenvolvimento de software e passa a criar, testar e publicar integrações em linguagem natural",
       "summary": "IA avança no desenvolvimento de software e passa a criar, testar e publicar integrações em linguagem natural",
@@ -92,12 +84,20 @@
       "publishedAt": "Fri, 17 Jul 2026 21:09:28 GMT"
     },
     {
-      "source": "TI INSIDE Online",
+      "source": "tiinside.com.br",
       "category": "Tecnologia",
       "title": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
       "summary": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUVRkY3hvRDJhQ3B1Y0R6MndjNXBQNHFGVVBLb2IzS0hkV3FsS3FkbkNkZzhXaTB2Tzl2QWZZUjZ1dmxFZUdRVEFIQUFCemFzMmlDQmpZTnJYTXdPXzBKSUdXYmZrTlNOWGVNNlZ0YlQ1eGwzT3NHV2pkTXpCck93M21SV2hYVkVHbGhfY01oVXI3ZFh5Uzd3VURZeDlCUXl3X3J3SWx4QzFIQ253c1B6aktSMUZVcE4temUzaGxR?oc=5",
       "publishedAt": "Wed, 03 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "source": "ND Mais",
+      "category": "Tecnologia",
+      "title": "O desenvolvimento de software entra em uma nova fase",
+      "summary": "O desenvolvimento de software entra em uma nova fase",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSnpBeW1nUVZVRFp3cWlWRVB3RVV1blJjSEwwcFFpU2UyQ3h2Zk56M3Fjby1JU2JqdUhEMlR2X2dCQlBVTHlnd2R5b3ZhdTRhUjZ4c0pfVGpnUjIzMW5HU0pzMDVDTDFHRnZkNVlqMHh5UHNmNW5rdUhFQWVMeDh5QXY0WEhJcU1kS3FId2dIRQ?oc=5",
+      "publishedAt": "Mon, 08 Jun 2026 07:00:00 GMT"
     }
   ]
 }

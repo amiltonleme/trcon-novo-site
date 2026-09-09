@@ -1,23 +1,14 @@
 {
-  "generated_at": "2026-09-08T22:14:10.742592+00:00",
+  "generated_at": "2026-09-09T12:31:11.171483+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
     {
-      "title": "Empresas estão gastando demais com IA por um erro básico, diz executiva da SAS",
-      "summary": "Empresas estão gastando demais com IA por um erro básico, diz executiva da SAS",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQME9RbWRMUGNQNmVHUHE1T1A2dTZBNk9BZ2dGYkVaZDEwV1FQTmRGbVBXTVU0Qi1DWHJSRm5CbU1neGlnSjNTdW5WVW5VclNjVGtkTEFCTWgxc0tKY0VtRGRVUldLaVRROXNNYkJnQTZJTUFrRVNlVkoxUjlpVENiMkRDYlI5UWcwUHk0QjhMalExVno4RmhzLTAtTWgwN2YyR1ZCTS00S2FucXlpM1dqQVJodkpNOVExUDd2QQ?oc=5",
-      "source": "Exame",
-      "published_at": "Tue, 08 Sep 2026 10:03:26 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "EUA acusam empresas chinesas de IA de copiar modelos avançados para reduzir custos",
-      "summary": "EUA acusam empresas chinesas de IA de copiar modelos avançados para reduzir custos",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPY000c0lLMGQzanl5VnRodGFFXy00cXJVLUljdjVPbXBUcjhUSmlmTlZLREVqMmJWejdLNDNleGFZZTBDemI2UG9QRDZlWXl1b0Q0YU1HMldYWmhrZGkxd2VhWWtUV3dkMGkzQXBxc1RaYTRkMzgycEptcmdUZFRVRXJQZC1DM0pPWkpRRFVibm1PNF83SUlMWUlqUWEzdVZBbnFjTTVuSlkxRm5jYlIzMDRGanBmSnJ6Uk9KNEd3VlpFN3M1Y0xPTXAxQnhsNXA3TGt6R2hR0gHkAUFVX3lxTE4zS01MNVdQQnJldjlkRTdXd1o0RWlzcnN4c1FXVW5BTGQtazVWd09oeFZoVFo3X0MtcXZRX0E1TVBmdTlRaDNzY3hySS1qQVNSMWVKSmdSdUNjdmpaLV94Z0NkbkEydV9lcmFYbHU0S25TOFROUEpWQkV5LXVDNXExd1hSaER3M2toRWdrTXhBb3BmdlEzT0lEb01SNmp2eDFsaWFwOEc3blRaZ0c5Xzl6VUpIaHFLMjhKNmlQZmxVdkRIQnI3R3oyS09STGhmMG9nSnF6RURkaVZJT0haQmxkWENaag?oc=5",
-      "source": "G1",
-      "published_at": "Tue, 08 Sep 2026 17:57:12 GMT",
+      "title": "Washington acusa gigantes chinesas de IA de roubar capacidades dos modelos de empresas americanas",
+      "summary": "Washington acusa gigantes chinesas de IA de roubar capacidades dos modelos de empresas americanas",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQamJSNjhPampzeENzbXdjQXF4TVJjQzVZbTl1b3RmTmNjOGphVmlLRjBEa202a0E1Qmk0ZnlXYWsySFVqVFlLQWhuSEwycTZUZmxxbnUxUk51MWEyN2xqLU55MkVlY0tuZ0xaWHNIanpGWE1UdThoZjAyTTBIbVJHUTNTR3pOLUlkNTRyS3hWMXl0d1I0N2FPVlo5OTJkNE9wSzhxUXdGMkVnMmRyOUJsYzZHaWg4Mi1UbXVDczRtdjNEOVpDeklrdkY0d0VRZmJfYjcyTEhyQzlSd3ZxenRlam1nSmtsYVZscUI5NlJMSTdkXzQ?oc=5",
+      "source": "UOL Notícias",
+      "published_at": "Wed, 09 Sep 2026 07:22:49 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -31,11 +22,20 @@
       "signal": "down"
     },
     {
-      "title": "Por que as grandes empresas disputam profissionais especializados em IA e como essa habilidade virou diferencial no mercado de trabalho",
-      "summary": "Por que as grandes empresas disputam profissionais especializados em IA e como essa habilidade virou diferencial no mercado de trabalho",
-      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOblkyajRPeWhQdmdDMlJJQ0gwaFV1VmpJNmdIM1pHNXcwM2NyUkxNWDJjbWxMUGljYnNpbllpSC1TcGdxN3Nnd0ZpNUZMX0FGckwtSWlOc0FBSnVNMGdsQXJmZEdfdjhZaVZKbU4yTEw0M05OSjI2MzRZMEE2RVJHdndqQ3NTVVZtcjJfLUZrQ2JBdk4ycmJKSmVCRUxLZm8xeFdZTmxSaGY2TXZTY3lwQVRkOE8xenVGci11aFpXRFZBaDdrc2ZtSHdWQ05YRDdZN3Y2N2JYWDNvZDJiN1QxYkNLRFBFcnRBbERzT3ZnUVhfcTg4bnJfV3VaWl9YVG9Eb2tOX3NtYlFURV9UdGtxbUlCbEtWV05CWGZZT0xGU09fSXVVMFJublBuWFlZLWU0VjVTSVBSejBIVGNlWFdGamQ4bnkxVzk0MTg4RGhRb0c0Y21LRUxr?oc=5",
-      "source": "atl.clicrbs.com.br",
-      "published_at": "Tue, 08 Sep 2026 18:29:56 GMT",
+      "title": "53% das empresas adotam IA agêntica, mas uso é limitado a tarefas simples e de baixo valor estratégico",
+      "summary": "53% das empresas adotam IA agêntica, mas uso é limitado a tarefas simples e de baixo valor estratégico",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTzhOTlZqUktCLVgydzUtNzhZWDBocThwNWhPdUNRUGhjRVZlLWZaWTVMbi1FMGRGNUc1VE9UeGZiQmZGSXBMY0dNRWZLd3J2WU91aFZOanEyc056T095SVVUeTNlc05wcm12UmNfMGI2Y2JQS1ZQR0hEelZ5RGNFSTVSa0lTa3ZxZEsyT0hiZEZyTkJVWm1HTkJDMktXdXYxaGxBOEFSYjhDYjJ0MjJHeEwtWFBiZEw2YlNleFlqb0djYUNWWGtMcHhlNkxlV2x3c3c?oc=5",
+      "source": "tiinside.com.br",
+      "published_at": "Tue, 08 Sep 2026 19:51:30 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Empresas estão gastando demais com IA por um erro básico, diz executiva da SAS",
+      "summary": "Empresas estão gastando demais com IA por um erro básico, diz executiva da SAS",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQME9RbWRMUGNQNmVHUHE1T1A2dTZBNk9BZ2dGYkVaZDEwV1FQTmRGbVBXTVU0Qi1DWHJSRm5CbU1neGlnSjNTdW5WVW5VclNjVGtkTEFCTWgxc0tKY0VtRGRVUldLaVRROXNNYkJnQTZJTUFrRVNlVkoxUjlpVENiMkRDYlI5UWcwUHk0QjhMalExVno4RmhzLTAtTWgwN2YyR1ZCTS00S2FucXlpM1dqQVJodkpNOVExUDd2QQ?oc=5",
+      "source": "Exame",
+      "published_at": "Tue, 08 Sep 2026 10:03:26 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -43,17 +43,17 @@
       "title": "IA nos negócios: apenas 34% das empresas avançam na transformação com inteligência artificial | SEGS...",
       "summary": "IA nos negócios: apenas 34% das empresas avançam na transformação com inteligência artificial | SEGS...",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYkhLQTY3djBUVFZnZm1kQzUyZ0JYX256UkRWeklseFNhbXdYWFZyYlJQRE5Zb282NGt6QjdMUHR5N0t5ZmFmU2hSNUdOZHAyOXpnN3psc3hmWkxmWGxENmljRTBkVWdESXJETTU2b3BXbGhpNW1zY2haQzZ6bG9hcE5adDZOdWQ4Q0drby1NTXdHSVBIdEdJYXZyZG11bWFuM1VPeGI3bndyOUpwNnVNZ1RzMzhWZk0tUXkyMDI0STdjRXhKZWhpN2xR0gHPAUFVX3lxTE1yZDJNV0l6QTQyVXdMWUtsWkczRjFKOTNKT1JkeWpzVzN6OHRMc19QcDVCX2k0SnNGNlZoUG9GdHJ2ZmU4cXNCaEJUX2hILUdMYUk0eFpWd0trSlJrcmZySkZKS3J6S0VRR1ZaaEw1SkExV0N6LXRmN0NCR25za3EwUTdQYWtaMlZickdVVFRxSkxPeDFpLWtzdGRJM3lvc3dJc2Z6MjgySS1iSjdxNDNOWFhJZTV2T3pScEh3eEtITmpGOXE2Yl92MklvcWRjWQ?oc=5",
-      "source": "SEGS Portal Nacional",
+      "source": "segs.com.br",
       "published_at": "Tue, 08 Sep 2026 21:17:51 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "53% das empresas adotam IA agêntica, mas uso é limitado a tarefas simples e de baixo valor estratégico",
-      "summary": "53% das empresas adotam IA agêntica, mas uso é limitado a tarefas simples e de baixo valor estratégico",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTzhOTlZqUktCLVgydzUtNzhZWDBocThwNWhPdUNRUGhjRVZlLWZaWTVMbi1FMGRGNUc1VE9UeGZiQmZGSXBMY0dNRWZLd3J2WU91aFZOanEyc056T095SVVUeTNlc05wcm12UmNfMGI2Y2JQS1ZQR0hEelZ5RGNFSTVSa0lTa3ZxZEsyT0hiZEZyTkJVWm1HTkJDMktXdXYxaGxBOEFSYjhDYjJ0MjJHeEwtWFBiZEw2YlNleFlqb0djYUNWWGtMcHhlNkxlV2x3c3c?oc=5",
-      "source": "TI INSIDE Online",
-      "published_at": "Tue, 08 Sep 2026 21:53:31 GMT",
+      "title": "Empresa no vermelho? Veja como a inteligência artificial pode cortar custos sem reduzir equipes",
+      "summary": "Empresa no vermelho? Veja como a inteligência artificial pode cortar custos sem reduzir equipes",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONlFMLXN0eTNTZnl4MmVlVVBmQ2E0WGZERzZnREZjUU5JSWZpQ19qa2pIODhkS1hKM3NWUF9ycV8zeWRfQkp1V25VbkQydHd2MVFFdG1ZbUpvdmd1V1Z3X2x1MDlNU0xhbXU5TUh1VWtuenFsWUtGbC14N3Y5eFlpTFR3VFh1bHFHaGt4UDg3RG9zbFlwYS1ZU1B2eDlYQi1NZXVyZDk2T2pKZUpkSEJtdWVIcXgybHBaZFJ1NEw1b3Vvd2dGcGstTnB0OEpsMzdfWmw0?oc=5",
+      "source": "Exame",
+      "published_at": "Tue, 08 Sep 2026 17:14:10 GMT",
       "category": "IA",
       "signal": "flat"
     }
