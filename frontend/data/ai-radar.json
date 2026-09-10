@@ -1,14 +1,23 @@
 {
-  "generated_at": "2026-09-10T12:24:49.620861+00:00",
+  "generated_at": "2026-09-10T22:09:20.144143+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
     {
-      "title": "Novo modelo com IA busca simplificar operações de M&A para pequenas e médias empresas no país",
-      "summary": "Novo modelo com IA busca simplificar operações de M&A para pequenas e médias empresas no país",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSjF2WkF5VjNNWC0yQkdjNWxFcFhPYnhHRkpsSElCRmR1Z2ZDelZHc0xHMFVheDdGX05RbUIwMEloMlpNOGRPVWVKUmZHUUEyZmlXM1VocXFwZE1ucWdZSDF6S3FZcjdvQ1Rzc05UQzJ1T09mMWFWcjNTbmxfS0hzRFpR?oc=5",
-      "source": "Times Brasil | CNBC",
-      "published_at": "Thu, 10 Sep 2026 11:37:00 GMT",
+      "title": "Workshop do UNIPAM vai ensinar como usar inteligência artificial na prática nas empresas",
+      "summary": "Workshop do UNIPAM vai ensinar como usar inteligência artificial na prática nas empresas",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPb1EzU3o2TGprTTk1Z1NKV28yN01ZaEdhM1hFZGRtU1M0WFRsMHptVm9kMVF6NHBlWU5mMTA5SjR6dk1IZVJqUGk4XzMwVjdOYjBvby01S1BrTVhEamY1Q19rT0xROHpRZk91QXo2QTNUb1M0QjhNWk9fUjlyYVVHLUFaSnVJZjR6c1FLUDBZZThhN2xjRnAtR0l5SUs4ZHBaN0QtUldsT2d0NnBTNC0xVWF4OTYtUE41RERCQXhmNDZpZ0trRzRuQThpS1g3UQ?oc=5",
+      "source": "Patos Hoje",
+      "published_at": "Thu, 10 Sep 2026 15:18:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Inteligência artificial avança nas empresas brasileiras, mas ROI ainda desafia escala",
+      "summary": "Inteligência artificial avança nas empresas brasileiras, mas ROI ainda desafia escala",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB0Zk1fUWNYNjAxTUQ0NGFmZVlaY3lzVjVoZE9DQnFXMG9vOTNGWTBhUENhQ1h3S0xPeU1vWlB6eDljUERHY01CaDR4R05LdEQ5ak1mNDFxREhwdDM4QnJadTQwONIBaEFVX3lxTE9nTnBxckVBeGVRWjJfUDM1TnZrZm83b2FYME1wM2cwVVRqLUNTOW5aLVhQT1BxTFRoYndaaGZtTGQ0aHg3VzM1eVAzdTVxZ1AycWRVMWxOVjRvX0pJemdVVUEwSEx2cnZG?oc=5",
+      "source": "IT Forum",
+      "published_at": "Thu, 10 Sep 2026 19:08:49 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -25,37 +34,28 @@
       "title": "Shadow AI: o que é e como o uso da IA sem controle pode colocar empresas em risco",
       "summary": "Shadow AI: o que é e como o uso da IA sem controle pode colocar empresas em risco",
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOT1E4Z2JPcUhhbmxDaTJMZHpEZXNlbVp2VkJOTjcxdjZ1MEcxczRJek9EWmlXeG1MSzNIcVFwVTd4RjFmdkMyaU1LdVJBTnNIUWF4ekJyVk1tYk95UWg4QmZvRUpJQm9mRU9xaEZfaWRVcXBvLUV1VVhYdFFXdG9ReXF1ZG1TY2JTX2NmaWt3UHkyR3o5am0wV1A0UDBHcWh6SXZtaWRjNy15VFBfdHRjckpvdjBCcmVubFBCM2M1WkpvU1Y0R3I2QnVVbjZ1d2ktcFFPVEk0UEhsWW5sWFljal92a3hPekxGTlVVQg?oc=5",
-      "source": "terra.com.br",
+      "source": "Terra",
       "published_at": "Tue, 08 Sep 2026 07:58:00 GMT",
       "category": "IA",
       "signal": "down"
     },
     {
-      "title": "Agentes de IA da OpenAI usaram mais de 10 sites sem autorização",
-      "summary": "Agentes de IA da OpenAI usaram mais de 10 sites sem autorização",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPV3hoSXdGc1k5N1EzNy1kMVhPU3o0cGJJcnhvdjFmcnhBRGgzU2lrZm5oQXdlSEZXQ001OEVYMUp6eUNRWWdVb2ZMT0dNYklJUlRpbldSSWs1ZjNtWmhkLXBQbEM5SnVvR3habk5ScVNrU0RGc2NWa3lEX2RVMy1hbXQyeml4SDdCMVVFaTlzUHRwUEkyNnNoV3JOYjdWZkcwdkZJeE5yWDlVV0t3emZULUhjaVhFajVUNTdEUEl30gHMAUFVX3lxTE5EcFdENUJMX1JfVjJaR1NTQ1dtcFg3bllyeDl4UkMwMlZrWHUxN04xZkg3Z0hPWVFlS09OQnJkV3VLS0RlS3VDMm11cUVPWW5td3cxN1U5dS03ZUpHM2NTR2F6TEZkdjhWVmZNb0dTcmh4ZFlQOGNOeGlrSHpXNTN2cGY3YmJuVlAwanQ5d194TkFfdGhPWlhheGprMV9ld2lueGpuaGp1N0RFaTJjU3phcmJTNWZyajdsdWJQSVhXUE9nWjNaRHRHSUVnUQ?oc=5",
-      "source": "Valor Econômico",
-      "published_at": "Thu, 10 Sep 2026 08:00:00 GMT",
+      "title": "SAP: empresas brasileiras vão investir R$ 110 milhões em IA ainda em 2026",
+      "summary": "SAP: empresas brasileiras vão investir R$ 110 milhões em IA ainda em 2026",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSDNZNlFBbXIwbFhzdkhaSW5KV2VnWEVBR0tKZ25JMVVHMzlzWTBrRFlVODFtZnRDN2gwVVVtaUJFbkJybWJpa0F6T0lSYndCNURlaTc4UEYwNzc4OTFOZUgxcWRfWkJTNllwRzRkTmFVZk5XaC1RLVFOYXVfNVVGVHlLejdHbEVpMjV0OFR0Sm1TSDBpejlaY1JfeDRJLUpfdGdoYzRjTHppM3NuUEdzZkRZMGpYZnh6VEVJaA?oc=5",
+      "source": "ConvergenciaDigital",
+      "published_at": "Wed, 09 Sep 2026 16:05:16 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Por que investir em Inteligência Artificial com o Safra?",
-      "summary": "Por que investir em Inteligência Artificial com o Safra?",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdW9wS3c5TjRDVkZvSUNmX3R4anRKeWFINlktV0xOZl9FNWc5MTlYOEhJeW9paWZKbW1oZjBJNm1yU1kxN3N1aVN4UXM4a3RYZmFQcnFyZzdhb3FQcmJ5WURTWEFNMFVkbmx5MnB3Wmt1QlZRN2FtUDloYkxXTzREckUzaFYwTFo4bmZLVFBKV1pnVHNfYUE?oc=5",
-      "source": "Safra",
-      "published_at": "Wed, 09 Sep 2026 19:48:47 GMT",
+      "title": "Marco legal da inteligência artificial: por que as empresas devem se preparar agora",
+      "summary": "Marco legal da inteligência artificial: por que as empresas devem se preparar agora",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVXZWblktV1h3V3RELVdkc3dReF9YNTc5TjhXSTZRczd3d1hCT1FFM2NjOElpZUVIVXFhQ09QdW4yVHUzQi1sSWp0b3d5alFYdzJLd1Z2b0FzMW5ERGVmckw4X21Mb1BHVkN1bERKNXl3NjBITGRkRmViTWtTVjd5T29scUlCM3ppWWtFaUxR?oc=5",
+      "source": "Monitor Mercantil",
+      "published_at": "Thu, 10 Sep 2026 18:39:54 GMT",
       "category": "IA",
       "signal": "flat"
-    },
-    {
-      "title": "Empresas criam clientes fictícios para treinar IA e reduzir riscos com dados reais",
-      "summary": "Empresas criam clientes fictícios para treinar IA e reduzir riscos com dados reais",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTFZLSkc4ekNlNzl5VTlpZm5pSVdRc1VvX1JpXzdYWVpZT1BubFpmc1NpdnZCSVRnbWlRbGd3MTNtb2lrSERqNEd1UVFZRVhtT2xtcVNqQVhaaVM3eGN0ZVphVW12bk5SVmxQRlBydEZWLXNmaWxlNFV5SWxzem9abzI4WG5GWGpZSE1oVGNxYkhLLTA4dUVZVUVsekxsMzlrOGRRcU9ua0RUczFvMWZVQ1c3cjRiYzJfLU5ySGNVOFdTZW8?oc=5",
-      "source": "Exame",
-      "published_at": "Wed, 09 Sep 2026 20:52:40 GMT",
-      "category": "IA",
-      "signal": "down"
     }
   ],
   "category": "IA"
