@@ -1,32 +1,14 @@
 {
-  "generated_at": "2026-09-09T22:08:34.830019+00:00",
+  "generated_at": "2026-09-10T12:24:49.620861+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
     {
-      "title": "Principais empresas da tese do Fundo Safra Inteligência Artificial",
-      "summary": "Principais empresas da tese do Fundo Safra Inteligência Artificial",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQanVfNGZzUl81a2Y4ZUlCZjJlV2E5U19yMVhkLWN2dS15ODZsYmZTaXVxVkJ0czZGUy1xdVI3SC1Kc0hNVnhmME5LRnFWQWY1WmxEdXZnVmMyOWg2SFFrQVduQnVLb0ROMEMtc3ZBZ0hsTVBOV3NRSEt2a1NsblFsbTFaMllUTXFnRi1lTWpn?oc=5",
-      "source": "Safra",
-      "published_at": "Wed, 09 Sep 2026 17:58:25 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "O maior erro das empresas na era da IA é tratar inteligência como automação",
-      "summary": "O maior erro das empresas na era da IA é tratar inteligência como automação",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPU1VNTy1oNHNWZkY3YjhVd190MmVhcG5NYklod2lHTmdQV2ZBOGxnb0g5UjZ3OUFYRk5NUzlmak1ZQzR2QVc4dG0tdm9fSmFOeW9GMmhXWU1CcV9oNjczWWNMbFJfNndNeWhpZXJXWG9pS0FvZnZkNW5wc0tsMWlkWnI0Si1EV19QdURuUnpjN09Xcnh1aXN2ejBKXzN2alhzRVZNU3dGaWN5c0tf?oc=5",
-      "source": "ClienteSA",
-      "published_at": "Wed, 09 Sep 2026 15:27:17 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Anthropic: pesquisador deixa empresa por medo de IA \"sair do controle\"",
-      "summary": "Anthropic: pesquisador deixa empresa por medo de IA \"sair do controle\"",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYXFEUi1icDJxUWJua0wwZTJRSXBJN0doVU9LWEF2WWRUMXJURjZCeUROcjBBQUxOUUpMVGZiRmlXd2p5d1NYX2hwRUt5Rlh2VlM1Q3ZVMkpfSnNBbktqSUdyeUxqYUhSejVhd0ZLS2hzNWUwSjEwRGc0UXlvNE9mWmE0NE9vam55Rm5BTjlCckc4V3VKWFhTbU1ndmp3aXNxdEVJdmIySkExZ1J1VWhxbkc2WXN2dXExSVZ6VHphQU9wNXZOTHVEekJ2Zw?oc=5",
-      "source": "Olhar Digital",
-      "published_at": "Wed, 09 Sep 2026 01:19:00 GMT",
+      "title": "Novo modelo com IA busca simplificar operações de M&A para pequenas e médias empresas no país",
+      "summary": "Novo modelo com IA busca simplificar operações de M&A para pequenas e médias empresas no país",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSjF2WkF5VjNNWC0yQkdjNWxFcFhPYnhHRkpsSElCRmR1Z2ZDelZHc0xHMFVheDdGX05RbUIwMEloMlpNOGRPVWVKUmZHUUEyZmlXM1VocXFwZE1ucWdZSDF6S3FZcjdvQ1Rzc05UQzJ1T09mMWFWcjNTbmxfS0hzRFpR?oc=5",
+      "source": "Times Brasil | CNBC",
+      "published_at": "Thu, 10 Sep 2026 11:37:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -40,22 +22,40 @@
       "signal": "flat"
     },
     {
-      "title": "Empresas criam clientes fictícios para treinar IA e reduzir riscos com dados reais",
-      "summary": "Empresas criam clientes fictícios para treinar IA e reduzir riscos com dados reais",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTFZLSkc4ekNlNzl5VTlpZm5pSVdRc1VvX1JpXzdYWVpZT1BubFpmc1NpdnZCSVRnbWlRbGd3MTNtb2lrSERqNEd1UVFZRVhtT2xtcVNqQVhaaVM3eGN0ZVphVW12bk5SVmxQRlBydEZWLXNmaWxlNFV5SWxzem9abzI4WG5GWGpZSE1oVGNxYkhLLTA4dUVZVUVsekxsMzlrOGRRcU9ua0RUczFvMWZVQ1c3cjRiYzJfLU5ySGNVOFdTZW8?oc=5",
-      "source": "Exame",
-      "published_at": "Wed, 09 Sep 2026 20:51:43 GMT",
+      "title": "Shadow AI: o que é e como o uso da IA sem controle pode colocar empresas em risco",
+      "summary": "Shadow AI: o que é e como o uso da IA sem controle pode colocar empresas em risco",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOT1E4Z2JPcUhhbmxDaTJMZHpEZXNlbVp2VkJOTjcxdjZ1MEcxczRJek9EWmlXeG1MSzNIcVFwVTd4RjFmdkMyaU1LdVJBTnNIUWF4ekJyVk1tYk95UWg4QmZvRUpJQm9mRU9xaEZfaWRVcXBvLUV1VVhYdFFXdG9ReXF1ZG1TY2JTX2NmaWt3UHkyR3o5am0wV1A0UDBHcWh6SXZtaWRjNy15VFBfdHRjckpvdjBCcmVubFBCM2M1WkpvU1Y0R3I2QnVVbjZ1d2ktcFFPVEk0UEhsWW5sWFljal92a3hPekxGTlVVQg?oc=5",
+      "source": "terra.com.br",
+      "published_at": "Tue, 08 Sep 2026 07:58:00 GMT",
       "category": "IA",
       "signal": "down"
     },
     {
-      "title": "SAP: Empresas brasileiras estão ávidas para usar mais IA",
-      "summary": "SAP: Empresas brasileiras estão ávidas para usar mais IA",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeUpkMUxIUFZ2Q21lbzNfeGl3aG42UjdLN3llUjhDOXY0WVZXb0RYbV96NEFwUThmQUJpdktSZEd2OUVsb2FXSkRkMGdpcThaOEFMUWNpQkJHYS1aWEZqVUJHRl9ycy1SWjhUa29temhhWEJrcHg4RVdjWVJsUzEya1k2Qlc4d0hxZ21LUE1fMmdaLUtLLTRIeURBRTNFTnVk?oc=5",
-      "source": "ConvergenciaDigital",
-      "published_at": "Wed, 09 Sep 2026 19:08:01 GMT",
+      "title": "Agentes de IA da OpenAI usaram mais de 10 sites sem autorização",
+      "summary": "Agentes de IA da OpenAI usaram mais de 10 sites sem autorização",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPV3hoSXdGc1k5N1EzNy1kMVhPU3o0cGJJcnhvdjFmcnhBRGgzU2lrZm5oQXdlSEZXQ001OEVYMUp6eUNRWWdVb2ZMT0dNYklJUlRpbldSSWs1ZjNtWmhkLXBQbEM5SnVvR3habk5ScVNrU0RGc2NWa3lEX2RVMy1hbXQyeml4SDdCMVVFaTlzUHRwUEkyNnNoV3JOYjdWZkcwdkZJeE5yWDlVV0t3emZULUhjaVhFajVUNTdEUEl30gHMAUFVX3lxTE5EcFdENUJMX1JfVjJaR1NTQ1dtcFg3bllyeDl4UkMwMlZrWHUxN04xZkg3Z0hPWVFlS09OQnJkV3VLS0RlS3VDMm11cUVPWW5td3cxN1U5dS03ZUpHM2NTR2F6TEZkdjhWVmZNb0dTcmh4ZFlQOGNOeGlrSHpXNTN2cGY3YmJuVlAwanQ5d194TkFfdGhPWlhheGprMV9ld2lueGpuaGp1N0RFaTJjU3phcmJTNWZyajdsdWJQSVhXUE9nWjNaRHRHSUVnUQ?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Thu, 10 Sep 2026 08:00:00 GMT",
       "category": "IA",
       "signal": "flat"
+    },
+    {
+      "title": "Por que investir em Inteligência Artificial com o Safra?",
+      "summary": "Por que investir em Inteligência Artificial com o Safra?",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdW9wS3c5TjRDVkZvSUNmX3R4anRKeWFINlktV0xOZl9FNWc5MTlYOEhJeW9paWZKbW1oZjBJNm1yU1kxN3N1aVN4UXM4a3RYZmFQcnFyZzdhb3FQcmJ5WURTWEFNMFVkbmx5MnB3Wmt1QlZRN2FtUDloYkxXTzREckUzaFYwTFo4bmZLVFBKV1pnVHNfYUE?oc=5",
+      "source": "Safra",
+      "published_at": "Wed, 09 Sep 2026 19:48:47 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Empresas criam clientes fictícios para treinar IA e reduzir riscos com dados reais",
+      "summary": "Empresas criam clientes fictícios para treinar IA e reduzir riscos com dados reais",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTFZLSkc4ekNlNzl5VTlpZm5pSVdRc1VvX1JpXzdYWVpZT1BubFpmc1NpdnZCSVRnbWlRbGd3MTNtb2lrSERqNEd1UVFZRVhtT2xtcVNqQVhaaVM3eGN0ZVphVW12bk5SVmxQRlBydEZWLXNmaWxlNFV5SWxzem9abzI4WG5GWGpZSE1oVGNxYkhLLTA4dUVZVUVsekxsMzlrOGRRcU9ua0RUczFvMWZVQ1c3cjRiYzJfLU5ySGNVOFdTZW8?oc=5",
+      "source": "Exame",
+      "published_at": "Wed, 09 Sep 2026 20:52:40 GMT",
+      "category": "IA",
+      "signal": "down"
     }
   ],
   "category": "IA"
