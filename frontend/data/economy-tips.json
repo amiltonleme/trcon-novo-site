@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T12:49:29.450653+00:00",
+  "generated_at": "2026-09-11T12:23:15.933967+00:00",
   "source_note": "Curadoria automatica de educacao financeira a partir de feeds RSS publicos, com complemento do catalogo estatico TRCONGROUP quando necessario.",
   "errors": [],
   "items": [
@@ -29,27 +29,27 @@
       "link_label": "Ler mais"
     },
     {
-      "tag": "Mercado",
-      "tag_class": "tag-blue",
-      "title": "Insights da semana: poupança segue como investimento mais disseminado",
-      "body": "Insights da semana: poupança segue como investimento mais disseminado CNN Brasil",
+      "tag": "Estrategia Mensal",
+      "tag_class": "tag-green",
+      "title": "Poupança ainda lidera investimentos no Brasil enquanto maioria segue sem reserva financeira",
+      "body": "Poupança ainda lidera investimentos no Brasil enquanto maioria segue sem reserva financeira A Revista",
       "meta": [
         "Leitura rapida",
-        "Fonte: CNN Brasil"
+        "Fonte: A Revista"
       ],
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbkJEVGEzc0dCOWY3Vkt3VlJZMkFhWVhYb0FiQWxNYVdnQW5URldwbUFYRV9uVUVXWTA2bzk1T0VWR3lWTnc2LXI5aldrMkdkSnEyYnZuN3hWVFR5aUt2V21DMVVXN3FoODVNbkFUZzNvQ09IUjNsYlhnX3lUSWltYTdtQ0pHM2ZQRFNtR1g3OEN5aE0wTUNTN0lPV20wdWxjU3BTa3IwTFFaUzE4U2JWTE96WlFmU2dRSU81UUJn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUkxDU29hRWprVG9sNmp0MlpqdVp3Vk0tcjNac2gwS2dFMTA3Sm9XNVpOa1IwZ1BQaTRaTlIzblZaQmJyWl93dklncmg4Z0tUZUtjNk5fSXc5SnZRU1hScWlzZmtUbTNmVWhmbGk0OHJPWHZ1aEJoVWxSNnBNeE4xam1UdGRRLUdzOHVLalJzdndqM0dXNHZMejRENVFIcGpNaWRMLTZvUXVUazRHVFFmb0V6V01TZ1ZWcFRWV3hZRUdiVFVrSlpEd2RwWjRCV2xUZHc?oc=5",
       "link_label": "Ler mais"
     },
     {
-      "tag": "Educacao",
+      "tag": "Mercado",
       "tag_class": "tag-blue",
-      "title": "Semana Nacional de Educação Financeira debate longevidade e aposentadoria",
-      "body": "Semana Nacional de Educação Financeira debate longevidade e aposentadoria viva.com.br",
+      "title": "Pé-de-Meia: onde vale mais a pena investir o benefício, Tesouro Selic ou poupança?",
+      "body": "Pé-de-Meia: onde vale mais a pena investir o benefício, Tesouro Selic ou poupança? Times Brasil | CNBC",
       "meta": [
         "Leitura rapida",
-        "Fonte: viva.com.br"
+        "Fonte: Times Brasil | CNBC"
       ],
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaS1LZ2kyc3JsQUNtNjJ6cTBPMGxWSTZ4OG5jOXplYWpTenFTS3ZJeC0wV3diT3c1ZVlDN3lyR1RvN0h3clV0NEdOa3FsRnJDUWV5cENYc0JkUEVuRzN5bmtiTy1oaVdJVWpucXdaaVlHR1g2UVhxNmp1RjVaRmlBcE5WNjMwMk1tTkpyZjhrVnR2c3IxY0ZncmR3TlN1RE1VYXBvYkwwems2enM?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNWU1M1lta2JYcTlFdXg5em01SGtIeEVQdHREbldmQWs4WG1pWmJLTE95TjBOcDF0RFZPNWhLX1FmQ3A0aDFLdjBHZC1GaUtVUVRuaUV4NTlXNS1HbXYtdF9qdWY0RXFfSjdlNlhzVTBjTUp0dlkwelBVaDNVenh2VHZXYTExRURETUJhTlJCYk1xLVM4RTVBMWtKMFBwUVNYYko5SWU2UnVfZmpiOHlhSHc2QnJpVlE?oc=5",
       "link_label": "Ler mais"
     }
   ],
