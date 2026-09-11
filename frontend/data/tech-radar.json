@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T22:09:21.234225+00:00",
+  "generated_at": "2026-09-11T12:23:18.715572+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de tecnologia.",
   "errors": [],
   "items": [
@@ -17,34 +17,25 @@
       "summary": "B3 adota IA no desenvolvimento de software e reduz em 35% prazo de entrega",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdmxtMW96UFp5V3N1U2tPS1JRNGh4S21XWElScTZORU1RMlhEZF9veDl5aVRSSXhOVEZhRGVfOVoyU2JSUU1GTnRIQ05naHVfS1pVQ0ZxRXNWVEI4RlNNZlMtYTN2VV9xMzRSMFpaTDhyX1l3SVdtNkcxVlNxQ0JUa1VlbFA4ODNoVzMzcDBUY1hSU3MwZjBLRzNvcUJHZ2NqY1VRSGRvRWpyVXpvSG9aakV30gG3AUFVX3lxTE1CbnBDbE9XOW5Qc2hiUVJ3OFdTa3A0aWVfQlJ2azRQYmdzd1R2Q2lnSGM1eVQ1dENCS2NBcElNTGZobFlDWHFuTDlHVW02OTJuWFJyYVh6NjQzeHRpeEx2emEyWEp5aVNNLUVESkdoeVNLSGZBQ3VpeE81SjBUQXZvUFdzQUcwMkotU0R5NWNEZ004Tm1kLUpjb2N0bEN2SmRmSFE2X2ljYkk2R19EOVBsSlVTQWNncw?oc=5",
       "source": "InfoMoney",
-      "published_at": "Thu, 03 Sep 2026 19:10:29 GMT",
+      "published_at": "Thu, 03 Sep 2026 07:00:00 GMT",
       "category": "Tecnologia",
       "signal": "up"
-    },
-    {
-      "title": "B3 adota IA no desenvolvimento de software e reduz prazo de entrega em 35%",
-      "summary": "B3 adota IA no desenvolvimento de software e reduz prazo de entrega em 35%",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZE93R0FMaVlpNEl0R1RBZTRXeVlIODN2b3U1R0U0cGRNR2ozNG1fc1NpR0JDY2QxTXZwSUNuNTl4Y2ZiZ1ZzVWhOWkNwTEJVZFpfTl9ISzR3akN4UW9ISmlyU1NHX0FST1RQZThPVi14ZzkyUTVtSUxadld6YkYzbDJFUWlpSzQ2V2FHYWZxMkdLbHhfbGppMzJ5NklrUnN4SThOa2xUTkdsRDVfdG5xV0lQTmVlUnZj?oc=5",
-      "source": "BPMoney",
-      "published_at": "Thu, 03 Sep 2026 19:39:29 GMT",
-      "category": "Tecnologia",
-      "signal": "up"
-    },
-    {
-      "title": "IA avança no desenvolvimento de software e passa a criar, testar e publicar integrações em linguagem natural",
-      "summary": "IA avança no desenvolvimento de software e passa a criar, testar e publicar integrações em linguagem natural",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZ28zZ0xYcF9mVG1JSFFtMVdVMTd5RzUzOXozWk1KWXJ0eXZxTFNReWNvLU9NTkhtMTZod1VtVEZQbkhIR3hhYkxEcWo4ci1LdEpYd1ZuUnVheXBlcXJtMklIRVJER3VpRk10YS1Gb2lFVHVHNkZyVzBQUklmYXBiVHVUU2V0XzV0Vm5DWExXZ3M3d3pHRm9wRFpTaEcxTHVIRUtVRldLZENObGVnX09SMVdxcFBDUnVyVmZTWGlpbE1Bb2phZFF6LV80QlZIbDczZExMX1puS1YzQQ?oc=5",
-      "source": "Economia SC",
-      "published_at": "Thu, 03 Sep 2026 19:40:50 GMT",
-      "category": "Tecnologia",
-      "signal": "flat"
     },
     {
       "title": "São Paulo concentra mais de 221 mil empregos formais em tecnologia e registra crescimento de 61% em ocupações no setor em uma década - Secretaria Municipal de Desenvolvimento Econômico e Trabalho",
       "summary": "São Paulo concentra mais de 221 mil empregos formais em tecnologia e registra crescimento de 61% em ocupações no setor em uma década - Secretaria Municipal de Desenvolvimento...",
       "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQV2J3T3duUXJfeFBrYVZnaTlpYTRxYWVKZ0V2dGNYVlhNZEpiSThtZ1ZwakhZbV9SYU8zamdHcUFoRUsxRlNNRFhMZlVyZWxEUjg5REd0a0R5cEdRY3p5dXZpSWRwQjNJV3BCMHFELWNYSlZ4M28tVkZMalRNLTgyZ2tWdExRUC15UXAtVlRPZkVyZHZHc09McHhiMUlNejN1M242SlQ2enBBb0Q1NWowQ2JpTWlkcmRoOUFScXNXVlViRXdWX0QzcEVFT0hBdTRiYW5rZ2RaNVlLWlBqSmw2YTJnemVXVWUzZDhkenctM3otTndEbnRhLVBzVERtY2NWdzNTUF9OeHN6WDFDdGZqS0lUUVdta3J5cWNxdlJobHpobW5HLXNMa1J3?oc=5",
-      "source": "prefeitura.sp.gov.br",
+      "source": "Prefeitura",
       "published_at": "Fri, 17 Jul 2026 21:09:28 GMT",
+      "category": "Tecnologia",
+      "signal": "flat"
+    },
+    {
+      "title": "IA avança no desenvolvimento de software e passa a criar, testar e publicar integrações em linguagem natural",
+      "summary": "IA avança no desenvolvimento de software e passa a criar, testar e publicar integrações em linguagem natural",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZ28zZ0xYcF9mVG1JSFFtMVdVMTd5RzUzOXozWk1KWXJ0eXZxTFNReWNvLU9NTkhtMTZod1VtVEZQbkhIR3hhYkxEcWo4ci1LdEpYd1ZuUnVheXBlcXJtMklIRVJER3VpRk10YS1Gb2lFVHVHNkZyVzBQUklmYXBiVHVUU2V0XzV0Vm5DWExXZ3M3d3pHRm9wRFpTaEcxTHVIRUtVRldLZENObGVnX09SMVdxcFBDUnVyVmZTWGlpbE1Bb2phZFF6LV80QlZIbDczZExMX1puS1YzQQ?oc=5",
+      "source": "economiasc.com",
+      "published_at": "Thu, 03 Sep 2026 19:40:50 GMT",
       "category": "Tecnologia",
       "signal": "flat"
     },
@@ -54,6 +45,15 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUVRkY3hvRDJhQ3B1Y0R6MndjNXBQNHFGVVBLb2IzS0hkV3FsS3FkbkNkZzhXaTB2Tzl2QWZZUjZ1dmxFZUdRVEFIQUFCemFzMmlDQmpZTnJYTXdPXzBKSUdXYmZrTlNOWGVNNlZ0YlQ1eGwzT3NHV2pkTXpCck93M21SV2hYVkVHbGhfY01oVXI3ZFh5Uzd3VURZeDlCUXl3X3J3SWx4QzFIQ253c1B6aktSMUZVcE4temUzaGxR?oc=5",
       "source": "TI INSIDE Online",
       "published_at": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "category": "Tecnologia",
+      "signal": "flat"
+    },
+    {
+      "title": "O desenvolvimento de software entra em uma nova fase",
+      "summary": "O desenvolvimento de software entra em uma nova fase",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSnpBeW1nUVZVRFp3cWlWRVB3RVV1blJjSEwwcFFpU2UyQ3h2Zk56M3Fjby1JU2JqdUhEMlR2X2dCQlBVTHlnd2R5b3ZhdTRhUjZ4c0pfVGpnUjIzMW5HU0pzMDVDTDFHRnZkNVlqMHh5UHNmNW5rdUhFQWVMeDh5QXY0WEhJcU1kS3FId2dIRQ?oc=5",
+      "source": "ND Mais",
+      "published_at": "Mon, 08 Jun 2026 07:00:00 GMT",
       "category": "Tecnologia",
       "signal": "flat"
     }
