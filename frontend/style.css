@@ -807,6 +807,77 @@
     }
 
     /* ══════════════════════════════
+       HUB SCREENSHOTS (produto em beta)
+       Mesma borda/raio/hover de .card, adaptado para imagem em vez de texto.
+    ══════════════════════════════ */
+    .hub-shots-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+      gap: 24px;
+    }
+    .hub-shot {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      transition: border-color .25s, transform .25s;
+    }
+    .hub-shot:hover {
+      border-color: rgba(0,212,170,0.3);
+      transform: translateY(-3px);
+    }
+    .hub-shot img {
+      display: block;
+      width: 100%;
+      height: auto;
+      cursor: zoom-in;
+    }
+
+    /* Lightbox — mesmo idioma visual do backdrop do menu mobile (.mobile-nav):
+       fundo escurecido com blur, fade-in, botão de fechar no canto. */
+    .hub-lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 1002;
+      align-items: center;
+      justify-content: center;
+      padding: 48px 24px;
+      background: rgba(2,4,8,0.85);
+      backdrop-filter: blur(4px);
+      cursor: zoom-out;
+    }
+    .hub-lightbox.open {
+      display: flex;
+      animation: trMobileBackdropIn .2s ease both;
+    }
+    .hub-lightbox img {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      box-shadow: 0 24px 64px rgba(0,0,0,0.5);
+      cursor: default;
+    }
+    .hub-lightbox-close {
+      position: absolute;
+      top: 22px; right: 22px;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: var(--text2);
+      background: none;
+      border: none;
+      z-index: 1;
+    }
+    .hub-lightbox-close:hover { color: var(--text); }
+    .hub-shot-caption {
+      padding: 14px 16px;
+      font-size: 0.85rem;
+      color: var(--text2);
+      font-weight: 500;
+    }
+
+    /* ══════════════════════════════
        MARKET INSIGHTS (HOME)
     ══════════════════════════════ */
     .insights-grid {

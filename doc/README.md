@@ -32,6 +32,7 @@ trcongroup/
 7. [`17-CUSTOS-S8-MIDIA-IA.md`](./17-CUSTOS-S8-MIDIA-IA.md) — custos S8, mídia, IA imagem
 8. [`19-DESENHO-MIDIA.md`](./19-DESENHO-MIDIA.md) — desenho A (URL/embed) + B (R2 + IA); canônico no marketing
 9. [`20-LOTE-EDITORIAL-SEMANAL.md`](./20-LOTE-EDITORIAL-SEMANAL.md) — impacto no site do lote semanal (proposta; canônico no marketing)
+10. [`21-CHAT-IA-DEEPSEEK.md`](./21-CHAT-IA-DEEPSEEK.md) — proposta do widget "Fale comigo com IA" (DeepSeek); ainda não implementada, aguardando checkpoint
 
 **Especificação e arquitetura (fonte de decisão):**
 
@@ -70,6 +71,7 @@ trcongroup/
 | **16-PASSO-A-PASSO** | **Feito / em andamento / a fazer (visão consolidada)** |
 | **17-CUSTOS-S8-MIDIA-IA** | **Custos Sprint 8, imagens, vídeo, IA visual (Sprint 9)** |
 | **19-DESENHO-MIDIA** | **Desenho A (URL/embed) + B (R2 + IA); canônico no marketing `13_desenho_…`** |
+| **21-CHAT-IA-DEEPSEEK** | **Proposta do widget "Fale comigo com IA" (DeepSeek) — spec, ainda sem implementação** |
 
 ## Regra de governança
 
