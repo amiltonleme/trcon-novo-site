@@ -16,15 +16,15 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
 
   const LEAD_CONTEXTS = {
     hub: {
-      label: 'Acesso antecipado',
-      title: 'Sírius Hub — fila beta',
-      copy: 'Garanta seu acesso antecipado ao Ecossistema Financeiro Digital e ajude a validar o produto em testes reais.',
-      note: 'Versão beta em testes. Algumas informações podem estar incompletas ou imprecisas — use com bom senso. Vagas limitadas.',
+      label: 'Convite para o Beta',
+      title: 'Confirme sua vaga no Sírius Hub',
+      copy: '90 dias de acesso completo, sem cartão de crédito. Preencha seus dados para confirmarmos sua vaga por e-mail.',
+      note: 'Beta fechado, vagas limitadas. Nenhuma cobrança é feita agora nem ao final dos 90 dias sem o seu aceite explícito.',
       leadType: 'PRODUTO',
       origem: 'site-trcon-hub',
       produtoLabel: 'Sírius Hub de Inteligência Financeira',
-      submitLabel: 'Entrar na fila de espera',
-      successCopy: 'Seus dados foram enviados para a fila de espera. Logo entraremos em contato.',
+      submitLabel: 'Confirmar minha vaga',
+      successCopy: 'Vaga solicitada! Você vai receber um e-mail confirmando o acesso e a data exata do seu beta de 90 dias.',
       showUso: true,
     },
     agendamento: {
@@ -206,6 +206,36 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
           submitButton.textContent = originalLabel || ctx.submitLabel;
         }
       }
+    });
+  }
+
+  // Lightbox das screenshots do Hub (#page-hub) — mesmo idioma de fechar do
+  // menu mobile (clique fora, tecla Escape), sem depender dele.
+  function setupHubLightbox() {
+    const lightbox = document.getElementById('hubLightbox');
+    const lightboxImg = document.getElementById('hubLightboxImg');
+    if (!lightbox || !lightboxImg) return;
+
+    const openLightbox = (src, alt) => {
+      lightboxImg.src = src;
+      lightboxImg.alt = alt || '';
+      lightbox.classList.add('open');
+    };
+    const closeLightbox = () => {
+      lightbox.classList.remove('open');
+      lightboxImg.src = '';
+    };
+
+    document.querySelectorAll('.hub-shot img').forEach(img => {
+      img.addEventListener('click', () => openLightbox(img.src, img.alt));
+    });
+
+    lightbox.addEventListener('click', event => {
+      if (event.target === lightbox) closeLightbox();
+    });
+    document.getElementById('hubLightboxClose')?.addEventListener('click', closeLightbox);
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') closeLightbox();
     });
   }
 
@@ -798,6 +828,18 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
   initSubpageHeroScenes();
   setupNavigation();
   setupContatoLeadForm();
+  setupHubLightbox();
   applyContatoContext('default');
   loadSiteData();
   loadHomeContent();
+
+  // Deep link: abre direto a página indicada na URL (ex.: trcongroup.com.br/#hub),
+  // para convites pessoais e campanhas que devem cair direto numa página específica
+  // sem exigir navegação manual pelo menu. Não altera a navegação por clique
+  // existente — só lê o hash uma vez, no carregamento da página.
+  (function applyInitialHashRoute() {
+    const id = (window.location.hash || '').replace('#', '');
+    if (id && document.getElementById('page-' + id)) {
+      showPage(id);
+    }
+  })();
