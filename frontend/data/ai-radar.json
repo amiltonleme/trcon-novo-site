@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T12:52:56.929736+00:00",
+  "generated_at": "2026-09-13T21:59:46.373715+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -13,13 +13,13 @@
       "signal": "flat"
     },
     {
-      "title": "IA é fundamental para modelo de operação das empresas, diz CIO da MRV",
-      "summary": "IA é fundamental para modelo de operação das empresas, diz CIO da MRV",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTFh6VFg5V0UyRlhVNEtrcm5LaC1MYzhtM2hWTmZuY0pvR2tHVHMtRGFldGNOY0hCaDRyOE1xS3djelNCRVM2NExsd1c4M1JnUVB4dnhKbkIwSWZmSkltWElCOFR5ekVTQnUyOEE2c3VHU0pmUWp0bWpLcHEtSGk5VnNfSF9nZ3dJN195NV9tbjk1dVZvQUZqdkxtS0hPbGRDNEpROFNjTFNOVFk1NmdLXzZiMEIwYVc5WnI5aW5TS05ralMxb00yMk5teEJ6eUMtUDBJ?oc=5",
-      "source": "CNN Brasil",
-      "published_at": "Sun, 13 Sep 2026 09:15:20 GMT",
+      "title": "CEO da Anthropic pede que empresas desacelerem avanço da inteligência artificial",
+      "summary": "CEO da Anthropic pede que empresas desacelerem avanço da inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOengycWRqb1FZTTV2R3E4eTlYSU9UbUt2dzFBUjBuUDRpeHFreE5HejV5S1ZiSmZtU284em1YTlkzSFNESUUtVTFweVBGOG04ZlpiNFE1LXVvcGt4QjN6RVBCU1czM3NpTHJWMzlkY1huWUZzRndaUmtfR0Q2dXZoT2lhdHYxbFhXNkFSTzROaUFLWkgyVlAyNkhaaFVZLUhEclRkLW5COTBkMk5HUEF0MkwtN1FtalQ3REE?oc=5",
+      "source": "VEJA",
+      "published_at": "Sun, 13 Sep 2026 15:01:33 GMT",
       "category": "IA",
-      "signal": "flat"
+      "signal": "up"
     },
     {
       "title": "IA eleva produtividade em 40%, mas ainda não garante vantagem competitiva. mostra estudo",
@@ -31,29 +31,29 @@
       "signal": "flat"
     },
     {
-      "title": "Uso sem estratégia da inteligência artificial começa a reduzir produtividade nas empresas",
-      "summary": "Uso sem estratégia da inteligência artificial começa a reduzir produtividade nas empresas",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQUNHQ09VXzZoM1BMYjBVMXE5LXdYaUplNkt2eE9VNW4yN1pqMEVoVE9meW1MWTRETVJocmZ5VmtieUYzVGVGX1FHMTRHcDJaNVdtZkI4dXJCTmNBTGlseWg2NThodUIzYlZuZHZScmpydEl3NnRlWWtXc1duSlZkSmVNeENPNzF1TjVmaDNjYlcwUzFsQ1FrSTdQRHdSblg4M2VPdDByZXpSSjByTFZpMWVZMUcxcGlNdEpnQXZ3?oc=5",
-      "source": "Paraíba Business",
-      "published_at": "Sat, 12 Sep 2026 22:00:00 GMT",
+      "title": "Profissionais de IA estão 'genuinamente assustados' com futuro da humanidade, diz pesquisador que se demitiu da Anthropic",
+      "summary": "Profissionais de IA estão 'genuinamente assustados' com futuro da humanidade, diz pesquisador que se demitiu da Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBMdWlub240RW9UTWNTaHpfR21zQU1DT2wtcVRKV0JPOEFHdkhJeWZOY2h4Q3V5S1dVYjR6dlpyMFZnZTg3WlMwTGdSR1Z2ZmRQMUhBc0ZIbnBsUTFrYWlVV1Jn0gFnQVVfeXFMTVMwMm55SW1BSmhha0JwUk5HTUFyRWF0Y1JJRm9Uc0FLaWZ5NWlXMGNrOUo1dkdWbHNxXzljdEV1NjFWc2RzV3l1RDBzMWNSMW9CVElKNVR0SjczQll3YWE1aXhqbkg1UQ?oc=5",
+      "source": "BBC",
+      "published_at": "Sun, 13 Sep 2026 12:54:02 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "IA agêntica ganha espaço nas empresas, mas ainda longe de tarefas críticas - IT Forum",
-      "summary": "IA agêntica ganha espaço nas empresas, mas ainda longe de tarefas críticas - IT Forum",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3clV6cXAzNWNwVDlMUUxaTmhqWEpCTEFHN3pKVlRER1BQQnktZGE3Ylp2VTY3c2V3eVhwTGozVEx2bTA2TS1tVGRsS1ZJeFRvaV96MlhZRmhRWXVHZXg2TnAwdnNYZG9LM0dYYk5ZONIBb0FVX3lxTFA3clV6cXAzNWNwVDlMUUxaTmhqWEpCTEFHN3pKVlRER1BQQnktZGE3Ylp2VTY3c2V3eVhwTGozVEx2bTA2TS1tVGRsS1ZJeFRvaV96MlhZRmhRWXVHZXg2TnAwdnNYZG9LM0dYYk5ZOA?oc=5",
-      "source": "IT Forum",
-      "published_at": "Thu, 10 Sep 2026 21:13:12 GMT",
+      "title": "IA é fundamental para modelo de operação das empresas, diz CIO da MRV",
+      "summary": "IA é fundamental para modelo de operação das empresas, diz CIO da MRV",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTFh6VFg5V0UyRlhVNEtrcm5LaC1MYzhtM2hWTmZuY0pvR2tHVHMtRGFldGNOY0hCaDRyOE1xS3djelNCRVM2NExsd1c4M1JnUVB4dnhKbkIwSWZmSkltWElCOFR5ekVTQnUyOEE2c3VHU0pmUWp0bWpLcHEtSGk5VnNfSF9nZ3dJN195NV9tbjk1dVZvQUZqdkxtS0hPbGRDNEpROFNjTFNOVFk1NmdLXzZiMEIwYVc5WnI5aW5TS05ralMxb00yMk5teEJ6eUMtUDBJ?oc=5",
+      "source": "cnnbrasil.com.br",
+      "published_at": "Sun, 13 Sep 2026 09:15:20 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Rivais, Altman e Musk dizem concordar com apelo de CEO da Anthropic para que setor desacelere ritmo de desenvolvimento da IA",
-      "summary": "Rivais, Altman e Musk dizem concordar com apelo de CEO da Anthropic para que setor desacelere ritmo de desenvolvimento da IA",
-      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOS3UtdkNHVWRsUXlDNVJvbnpCYmtvcGdmNGVWalFJX25GUFNaRGVjc1JYNW1RdDRPWUUxXzFJWXM5Z3AxazhHbEhSYlF6cXVWbW9XSlUtbG9QeEszdW5iN0dLb1RRbUpxdXZlVkcyUHRVLXJTMmNFSngyQS1ndjV4TDNwcEMxMVRja3ZITVhVRnJGX2NCU3NuYlRDQTduRjRnWDlvRHZocmQwdi1oa3pnMFNJTURYemJjcHhoNlBUVXZ5WkxOUDNxekhPUkE1YnhfWHBOYVNKNmlZZzFzQU9OUFYtVXV3QzFHb2VDN3VhZXEtYXhtVzVhNFVRZDhUY0taV3BMNVdYbDJkVUt5ckFreGJvWHhRVVFrVmhNMmhR0gGsAkFVX3lxTFBoci1ZVTZwXzIzYlpXS2k2T3NDWmwzVExocTItME5DUW44d3p6RGhxVlNVNm1nMFYzdllEeEJSWU5reEdHbDBKSE9HeFhSVWVtTHNYOEtiaG5FN2tQeDdydUM3ZWFtYm9HLXc3LWtqWHp3S2l0NHY5TUtOWjRWSmZyYndLNEIxM0NUcmR0V0wzUWh2UmthTTJOR0l0TkRLX1VvZW5UZXRjUHBvMGtlcElVYnNvS1dXZktZR0p3NlJSQVhiQVprd3ZabFhlUDdzUHF1ckRSbVlzbVdMMExYNms0LWs5MzVxRVZldVNQem5sbGFfcWYxdzJUVVAtWE43VFA5NE9EeUV4UGI3UVVsZmRnc0dCNWRZMFIwZXpIMGtteTZfX3JPa056cVZqTQ?oc=5",
-      "source": "O GLOBO",
-      "published_at": "Sat, 12 Sep 2026 17:38:50 GMT",
+      "title": "Marco legal da inteligência artificial: por que as empresas devem se preparar agora",
+      "summary": "Marco legal da inteligência artificial: por que as empresas devem se preparar agora",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVXZWblktV1h3V3RELVdkc3dReF9YNTc5TjhXSTZRczd3d1hCT1FFM2NjOElpZUVIVXFhQ09QdW4yVHUzQi1sSWp0b3d5alFYdzJLd1Z2b0FzMW5ERGVmckw4X21Mb1BHVkN1bERKNXl3NjBITGRkRmViTWtTVjd5T29scUlCM3ppWWtFaUxR?oc=5",
+      "source": "Monitor Mercantil",
+      "published_at": "Thu, 10 Sep 2026 18:39:54 GMT",
       "category": "IA",
       "signal": "flat"
     }
