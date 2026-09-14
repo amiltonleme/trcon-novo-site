@@ -1,14 +1,41 @@
 {
-  "generated_at": "2026-09-13T21:59:46.373715+00:00",
+  "generated_at": "2026-09-14T14:28:18.112154+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
+    {
+      "title": "Agência de Comunicação - Compras e supply chain: 5 formas de empresas aplicarem IA inspiradas no modelo chinês",
+      "summary": "Agência de Comunicação - Compras e supply chain: 5 formas de empresas aplicarem IA inspiradas no modelo chinês",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQbVVHZzRldXFpVGtTb2VyZDRha1BYX1plRmVTWllmY21wMDdmUkRSLXIwdWZjb0hmWmw2dWFMYVpocjhnTVlnVGhnZWl3YnFIWmhTVG9obHhOS0puaDEyNzVTMzZlMWtKVUdZb1Z4U1F4WEpXdURucW0xaGM4V3ZrcWpPYWpIcmE2ZERsZ0hDVzA5UUdKaTJDampjRmJGdG90TG1ZMHpqV0dNWUZTQWJzVnI1T0NNbFdnU0k3RUJ3WnZNTHg1SXVTbUc1ZTBTaC1Jcnpzd2pIMnJtXzFpYTBvZUJxMnRjTUpDd1dZdUx5R3A5cjZJRldzU2pfLW5mQQ?oc=5",
+      "source": "Estadão Blue Studio",
+      "published_at": "Mon, 14 Sep 2026 12:33:13 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Inteligência artificial está cada vez mais difícil de se controlar. Até quando os humanos vão se manter no comando?",
+      "summary": "Inteligência artificial está cada vez mais difícil de se controlar. Até quando os humanos vão se manter no comando?",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9GaTZnTThjY1M1YlRCRUlpcXJ3Vzh1cXVVVzRHV3BFWWxjM1p1THN3TmF6M3dubGt5bVhFZ05mbWdSa0ttTWVtMFBIM2NFYVZKdVBaN3BzSWduaUE2QXlRRHF30gFnQVVfeXFMUEZYLW5taUFTeWRsZWUwQWNYOUItX2NncEM5RUtGWnZFREx1UXZrNWstaFhuMXB6V2hsZU45azBFVmNGdkEyTl91Y2VsVUhhdHZEc3Fwc1o3MTNwZ0VQNHFwU1ZyV2ZEaw?oc=5",
+      "source": "BBC",
+      "published_at": "Sun, 13 Sep 2026 18:50:06 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
     {
       "title": "Inteligência artificial avança nas empresas brasileiras, mas ROI ainda desafia escala",
       "summary": "Inteligência artificial avança nas empresas brasileiras, mas ROI ainda desafia escala",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB0Zk1fUWNYNjAxTUQ0NGFmZVlaY3lzVjVoZE9DQnFXMG9vOTNGWTBhUENhQ1h3S0xPeU1vWlB6eDljUERHY01CaDR4R05LdEQ5ak1mNDFxREhwdDM4QnJadTQwONIBaEFVX3lxTE9nTnBxckVBeGVRWjJfUDM1TnZrZm83b2FYME1wM2cwVVRqLUNTOW5aLVhQT1BxTFRoYndaaGZtTGQ0aHg3VzM1eVAzdTVxZ1AycWRVMWxOVjRvX0pJemdVVUEwSEx2cnZG?oc=5",
       "source": "IT Forum",
       "published_at": "Thu, 10 Sep 2026 19:08:49 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Empresas brasileiras entram na fase pragmática da IA, mas ainda sofrem para dominá-la",
+      "summary": "Empresas brasileiras entram na fase pragmática da IA, mas ainda sofrem para dominá-la",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSHNuRkNudjdFT1RuMTlaQ2RTUlRnUGJ2cFphaUdmMEVlaXFEVVlJeEdlYWJTQlZGcE1lUE5lMGpsRjZWeHVySXZPQTNTOHg3dnozMVMxWHVfLVZIbGhVNmtEQ1NfUWhHaXV2ek44dk1IdVRra1RZRUFNNFZIdDlVV2FNeXN4TDA5c1BMdjI2NEt2R1dMcTJFMDdKTExQUl8wV1NYdWMxUHlQaVpzaDVpQjh5dEF3ZkhwRlc4VWttbTREN05JNUlvNjBLVTBaRndZ0gHWAUFVX3lxTE9FLWNQOEdIZnlXNE5NVURJVndPSk1Nd2wzNDBQSXVkU3ViVUowYVpodEFIV3Q5WVZJMFBuMDJvd204YVVVWDhmbFA1Z3hVaFptNy1JWVNEMk4xZXRjUXp5OWtzdThhRlZ6dEw1eVdMZ0tXdHRqODdqcG5wekY3TzJOLXkyOHNoRTdFWThSY0NCS21XUGVQalRNRVQtcmJOTy1YNmF3NW1veHFoOEZ5cFFMekVNVFhtcndxWkdWZTFOc3lySkNYTzV0dzlPQlJGYnNkUldNWGc?oc=5",
+      "source": "Estadão",
+      "published_at": "Mon, 14 Sep 2026 11:00:40 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -22,38 +49,11 @@
       "signal": "up"
     },
     {
-      "title": "IA eleva produtividade em 40%, mas ainda não garante vantagem competitiva. mostra estudo",
-      "summary": "IA eleva produtividade em 40%, mas ainda não garante vantagem competitiva. mostra estudo",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVHhDNms0RTl5N1BOVkNJem9lVnFnZFNBX2lQZGlNVHBJZ2h4TGVialc5QzJRT2FsTU9waGxnTEdfb1ViLTJFdHpYdWZiX2ZpeGd1b2J0UnpIZm1xTVFuQzRaczFtcGgxeE5tYk8xU2VkRmhjZTRQUTh1YlJpWXdZMjhtWXdKWWdTT1FzSkNoaTJPcGRxZkNsRDMxcDlIdw?oc=5",
-      "source": "CartaCapital",
-      "published_at": "Fri, 11 Sep 2026 16:00:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Profissionais de IA estão 'genuinamente assustados' com futuro da humanidade, diz pesquisador que se demitiu da Anthropic",
-      "summary": "Profissionais de IA estão 'genuinamente assustados' com futuro da humanidade, diz pesquisador que se demitiu da Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBMdWlub240RW9UTWNTaHpfR21zQU1DT2wtcVRKV0JPOEFHdkhJeWZOY2h4Q3V5S1dVYjR6dlpyMFZnZTg3WlMwTGdSR1Z2ZmRQMUhBc0ZIbnBsUTFrYWlVV1Jn0gFnQVVfeXFMTVMwMm55SW1BSmhha0JwUk5HTUFyRWF0Y1JJRm9Uc0FLaWZ5NWlXMGNrOUo1dkdWbHNxXzljdEV1NjFWc2RzV3l1RDBzMWNSMW9CVElKNVR0SjczQll3YWE1aXhqbkg1UQ?oc=5",
-      "source": "BBC",
-      "published_at": "Sun, 13 Sep 2026 12:54:02 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "IA é fundamental para modelo de operação das empresas, diz CIO da MRV",
-      "summary": "IA é fundamental para modelo de operação das empresas, diz CIO da MRV",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTFh6VFg5V0UyRlhVNEtrcm5LaC1MYzhtM2hWTmZuY0pvR2tHVHMtRGFldGNOY0hCaDRyOE1xS3djelNCRVM2NExsd1c4M1JnUVB4dnhKbkIwSWZmSkltWElCOFR5ekVTQnUyOEE2c3VHU0pmUWp0bWpLcHEtSGk5VnNfSF9nZ3dJN195NV9tbjk1dVZvQUZqdkxtS0hPbGRDNEpROFNjTFNOVFk1NmdLXzZiMEIwYVc5WnI5aW5TS05ralMxb00yMk5teEJ6eUMtUDBJ?oc=5",
-      "source": "cnnbrasil.com.br",
-      "published_at": "Sun, 13 Sep 2026 09:15:20 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Marco legal da inteligência artificial: por que as empresas devem se preparar agora",
-      "summary": "Marco legal da inteligência artificial: por que as empresas devem se preparar agora",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVXZWblktV1h3V3RELVdkc3dReF9YNTc5TjhXSTZRczd3d1hCT1FFM2NjOElpZUVIVXFhQ09QdW4yVHUzQi1sSWp0b3d5alFYdzJLd1Z2b0FzMW5ERGVmckw4X21Mb1BHVkN1bERKNXl3NjBITGRkRmViTWtTVjd5T29scUlCM3ppWWtFaUxR?oc=5",
-      "source": "Monitor Mercantil",
-      "published_at": "Thu, 10 Sep 2026 18:39:54 GMT",
+      "title": "Até que ponto os alertas sobre inteligência artificial podem impactar os mercados?",
+      "summary": "Até que ponto os alertas sobre inteligência artificial podem impactar os mercados?",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRktkTXYxRUc3SUxEWHg4cVlDZmt6eXhQY1NhaFBrTklFRUt1VmJCdk5xWkVaSnkxSWZVMTAxTWlMVE5oaTlGcGxMN0FhWmZfanlBdjlTWWdnRFQ2YXc2SmRSQTlpakVkaF9vbGJJalZtOXFoZkRxWHJQRm1ibjB6a0d0bXdNRGI3TnFwT19rV05mVHVNbzg2TGtmWndGS20wUkotWFBvSDZUNDlHbGlDSmNuc3hKZVI4dF9QQdIBwgFBVV95cUxPcDVYbjRRUTJZRFM5S1V0b3lva3JzbEt5WmZVWEh0RHBzdlB2bkZvMnM1ME95UVJVMktzS09nVWtGTm82SDhSLU83OTFfc2NidkpzWUlDdWV1YW41eE9obW1qTWlpa1ZXUVYxXzZNVEFkT2tFNGZKYUswV1A4eE5NRUsydHRTWGpHQndBTUJfeDhiX0w2NG1EelhEeWdEZVppTUpXQjMzWnNpeDRDdThuckp5Q2YzUTVsQjdURzJIMFEzQQ?oc=5",
+      "source": "InfoMoney",
+      "published_at": "Mon, 14 Sep 2026 12:13:07 GMT",
       "category": "IA",
       "signal": "flat"
     }
