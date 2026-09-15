@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-09-15T12:55:47.290777+00:00",
+  "generated_at": "2026-09-15T22:36:02.962915+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
+    {
+      "title": "Mistral, empresa francesa de IA, acusa rivais de tentar usar regulação para ganhar vantagem no mercado",
+      "summary": "Mistral, empresa francesa de IA, acusa rivais de tentar usar regulação para ganhar vantagem no mercado",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNbmIycmRkYVFvaGtBaTNnaFNqXzFuNzRIbXVIdWtmZTQ1aDk0ZlU1VlpJZTYwTmQ0OExZZXhsOGZCM1JsSTJTemNHNjhwaWVyMXFwRks1ZmhqT0ZIN1F5WWhTNHVJUXc2elNIUmRRYmNhd1dIYndKbGlkdjdPazVLMlFBZVIwRTdBQ3gyWGJySDNscmlmUFVhYVJ3cE1aYlJ3RE9yZnc3eDR1S1NXT0xXOUNGMVpSeE9NT0thVlpLUnFPZVJtRE5OQmZmMFduZ2FyNmZPaS03cGR1ZHpmbkQzVnRlU2pTMkRGVGY0UmR4c3RSd053eXNFc1lvb25lcmfSAY4CQVVfeXFMTmlfNUJzTXFxOVV4dmNLVEJZYlVuVDFLLVBWYkpVNUd1MlZZWVMwQmtvRzdyUS1sRzN0eU9JdGMxa0RNMWt5bklXOENsSmcyV0NxUnprUHJKUXBzU212RTNZcjZXWGV5WHpHNEhYZXhfRExMQ0x0VWhIM1k4NXBKTEpKUmJwZklIRll1ZEI4dWtGOGoyWURyaFpSaEV4NzdRZl9Jb3BBMWdWSkRJb0dzQVZNTElJMXVlajZiZDM2SnBud3llNzNGWlJoZXVpcDdIYllvS0RIeGpxeW9ORTVVbnJZQjJxTnJsc0dSZ1ZvY1l4UEpjYlJjcWR0R2VMZ2lSMHZiTmhyNlozLXZvY2ZR?oc=5",
+      "source": "O GLOBO",
+      "published_at": "Tue, 15 Sep 2026 22:06:22 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
     {
       "title": "CEO da Anthropic pede que empresas desacelerem avanço da inteligência artificial",
       "summary": "CEO da Anthropic pede que empresas desacelerem avanço da inteligência artificial",
@@ -13,22 +22,22 @@
       "signal": "up"
     },
     {
-      "title": "Ameaça à humanidade ou expectativas frustradas? Entenda o alerta do fundador da Anthropic e o 'efeito cascata' nas ações de inteligência artificial",
-      "summary": "Ameaça à humanidade ou expectativas frustradas? Entenda o alerta do fundador da Anthropic e o 'efeito cascata' nas ações de inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPQnEtVWVDdC1lMjNYY1VlV0NfaDN2TUhQeFdJUHlzWmZ1UkxjT1NseEp2bVptT0dVTnBCZGU5YjF6a3lpV1Nfd3JCOGgtVWNCSVFQSWhCZXhYN0Zmc3pycmJBTHZSOEJhZnhpdGN5SWZNbUpJZW1qMGY2TWxIanRTS1d2WFBKa2RiNG40RXV0LTZ5WExhMlNoSC1JaFJlRnVCVnpWUlRKZlJpMTNpNVFrMFJmN2s5cEVMaGZuSzFELWExM2MtOFJwdHczdGl0MUlLLXdDeE4wRVBELThHM05FY3E4Tk1Kc2RSSzdXRm5CUGlkRU9Z?oc=5",
-      "source": "Money Times",
-      "published_at": "Mon, 14 Sep 2026 17:25:00 GMT",
+      "title": "Meta One amplia recursos de IA e cria novo modelo de assinatura para usuários, criadores e empresas",
+      "summary": "Meta One amplia recursos de IA e cria novo modelo de assinatura para usuários, criadores e empresas",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPY0ltQkV2dGdTaWtoQWRXd04wVnZrNkdOZWNPQ0hoWTdKeVE5SkFuQXpCY2RxSHRObVRnbUJDcUlmSGxUZHc0WUc4aXprVk9YaWNmeWtUWDk1cllFUi1DVUNTcDk3MW4yR2E4VkJIdlpCRVpKcmhZZXp6RnBhak9sRFpDZ21ZLUh6MGV3eUhodkQyYWlNSHZDcW1DaGdfYzhQaWZ1TlhwU1JNMml6dDJKS0c5WlZ0Q29DUUVRX0M1UmpfbWZyYzFBdmJvRVUxVGc?oc=5",
+      "source": "TI INSIDE Online",
+      "published_at": "Tue, 15 Sep 2026 16:50:20 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Empresa global de inteligência artificial prevê triplicar faturamento no Brasil",
-      "summary": "Empresa global de inteligência artificial prevê triplicar faturamento no Brasil",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNmVUSnlHTXZyek01LV96VFJ4MFF6bzlBWHpPaGoza1h0aDl4bVozREhYTFNTdjRiaDd0SkhPcjl1NjlhczJNbXZWSHRXV3FleFp1cUZUV0FkT3k2dmtyTW0zMU5VdF9oLU13R3JKLWlBNktLX1BkTzlzYlBSZlh4dkh4SXB4QmQzNXIzZmJqbzFfVjd5LWdOVXpfZEd5YU84R3FMZ1dycFc2S3dMRmMxcVEtOE9mUQ?oc=5",
-      "source": "TI INSIDE Online",
-      "published_at": "Mon, 14 Sep 2026 20:46:23 GMT",
+      "title": "Donos das maiores empresas de IA pedem avanço cauteloso para evitar perda de controle da tecnologia",
+      "summary": "Donos das maiores empresas de IA pedem avanço cauteloso para evitar perda de controle da tecnologia",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONmhUaXRhSllubjBqbkQtVHVpMXBYX1J1bFBjb2Y3aXFVaHNVMmxhbUFHLUpnMnJjWDlzWVpEY2RjR2dXSTFZUEZZS19UQVJVMU9UOWszNGluSXJ5RmpoNUVkR3FHY1Z2aWNpWERGVC1RNXFya2pjblo1ZUNXSmdLYmhoV2xVZUpFUVpCYmlsVU90R3FOVmJZQXg0ekFqQllYbmphYWpORE00WGRyQll5c1NrZXlLN2puWU1mTzlvU0I1NUtyeHlxT1RLejZHZ25JaDg0TWdESWNCWDdkWHJYd0ZZa9IB4wFBVV95cUxONmhUaXRhSllubjBqbkQtVHVpMXBYX1J1bFBjb2Y3aXFVaHNVMmxhbUFHLUpnMnJjWDlzWVpEY2RjR2dXSTFZUEZZS19UQVJVMU9UOWszNGluSXJ5RmpoNUVkR3FHY1Z2aWNpWERGVC1RNXFya2pjblo1ZUNXSmdLYmhoV2xVZUpFUVpCYmlsVU90R3FOVmJZQXg0ekFqQllYbmphYWpORE00WGRyQll5c1NrZXlLN2puWU1mTzlvU0I1NUtyeHlxT1RLejZHZ25JaDg0TWdESWNCWDdkWHJYd0ZZaw?oc=5",
+      "source": "Estadão",
+      "published_at": "Tue, 15 Sep 2026 17:00:00 GMT",
       "category": "IA",
-      "signal": "flat"
+      "signal": "up"
     },
     {
       "title": "Abandono de projetos de IA: 42% desistiram e o motivo não era o modelo",
@@ -40,22 +49,13 @@
       "signal": "flat"
     },
     {
-      "title": "Inteligência Artificial: Segurança e Controle nas Empresas",
-      "summary": "Inteligência Artificial: Segurança e Controle nas Empresas",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRXpySHZNS1ZFYTB0QTJTbUNNU1VYVkxPV1J3dmFtWDlfNFlvQy16QzFnS0lCckZGczRDcms0R0xhS2J1aFBhN19nXzhTdHlaOGRvTDF6elF4RjM5SGs3RURTOUxEbC1JbjdkeVl3TmlDWlJiSHJtQ3RMN1M1MTRjLXNuSWxhRWVyOWhDenNiSU9qWFA2dGNqNDRzRUU2Z21vX3hz?oc=5",
-      "source": "contabeis.com.br",
-      "published_at": "Mon, 14 Sep 2026 22:00:01 GMT",
+      "title": "Por que empresas que aceleraram a corrida da IA agora defendem pisar no freio; entenda o que está por trás disso",
+      "summary": "Por que empresas que aceleraram a corrida da IA agora defendem pisar no freio; entenda o que está por trás disso",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNTDhLVXJvVnpmX2xKTmYyNk9ScFlxM1doT1lKTzR2dFZUQVQtc2tyUkFFNTdLc1NweGswSmJ6czJ6Q050cVdHNVJadVlLc05hM3ZyTjh6T3pjWENJWHpYQThGaDJIVzR5Mk5SNC1PMUFKVTkxWXprdFJxbUNHR2FzUG4xbE8wUlJ1SDVWbExZX0xna1JWVUszdWFuZ0haQTJkWTNUS3I3VzFoVEs0R194TVBDbENrREZBbllnWnFQR2hhWGlzSkhQbGtITXB6ZlBLTmdTMnZUbDRvNThFRm9oLVJ5S0pfd2E3ajBfY0J4X0tsX0HSAYICQVVfeXFMUFFDVmE1NlBXWjBSQjVKM1dfYXViUEVnUms1OEtQZWk1UDlBVEZjdmJvWnFwajhLeHF5ODRLLXYwYksyQ0VLSUtjOVBUUy1oV2p0dklFN1VkMy0yWTZzY203TmRPNXljcGFWQTVNYjdoX3lFdFRaeXBkTVlKTVFIU090WmZVRkVrS24ybkRqaGhxVVA4SWc5MmVQTWdFdEZNYndYbVJmeUNKWDdBSjRmMHdUOVZzNkkzc2xXcmhsUkNNMkhPakRwZnJMdllfU3ZJVjdYV3hOLUMwSlVmSWJHa0NrYTRncVJ4enhUeHFSWTVWVUgyQVZ3SFZFaURkczRzbWV3?oc=5",
+      "source": "G1",
+      "published_at": "Mon, 14 Sep 2026 13:34:54 GMT",
       "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "5 sinais de que sua empresa está usando IA, mas ainda não sabe tirar proveito dela",
-      "summary": "5 sinais de que sua empresa está usando IA, mas ainda não sabe tirar proveito dela",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYmFZR2xmTEVMdl9ITF9tVmZNbk1tYkF0SW4wbFdGRzN6UjE4dlY0LVhrLUJPNGNDZm5DVy05MVNNYjB3SzJsVzJQYlJpVm1uNklmOER1Z203b2tkazBOMktNNkV0M2k2MUtfaWYwRmszRGxPWDlTSVZDc1hxSUd0VGZibjJiT2NKQnNGTnFTWGNmbFhrWl9vb09oQm1SZDFWRHZIVE9WQlJYelk1LWR1LWo1MUJ0TGUwenBJa1pQeUNqUQ?oc=5",
-      "source": "Exame",
-      "published_at": "Mon, 14 Sep 2026 20:04:03 GMT",
-      "category": "IA",
-      "signal": "flat"
+      "signal": "up"
     }
   ],
   "category": "IA"
