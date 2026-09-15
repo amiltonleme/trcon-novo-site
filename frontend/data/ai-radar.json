@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T22:53:37.800557+00:00",
+  "generated_at": "2026-09-15T12:55:47.290777+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -13,20 +13,38 @@
       "signal": "up"
     },
     {
-      "title": "Inteligência Artificial: Segurança e Controle nas Empresas",
-      "summary": "Inteligência Artificial: Segurança e Controle nas Empresas",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRXpySHZNS1ZFYTB0QTJTbUNNU1VYVkxPV1J3dmFtWDlfNFlvQy16QzFnS0lCckZGczRDcms0R0xhS2J1aFBhN19nXzhTdHlaOGRvTDF6elF4RjM5SGs3RURTOUxEbC1JbjdkeVl3TmlDWlJiSHJtQ3RMN1M1MTRjLXNuSWxhRWVyOWhDenNiSU9qWFA2dGNqNDRzRUU2Z21vX3hz?oc=5",
-      "source": "Portal Contabeis",
-      "published_at": "Mon, 14 Sep 2026 22:00:01 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
       "title": "Ameaça à humanidade ou expectativas frustradas? Entenda o alerta do fundador da Anthropic e o 'efeito cascata' nas ações de inteligência artificial",
       "summary": "Ameaça à humanidade ou expectativas frustradas? Entenda o alerta do fundador da Anthropic e o 'efeito cascata' nas ações de inteligência artificial",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPQnEtVWVDdC1lMjNYY1VlV0NfaDN2TUhQeFdJUHlzWmZ1UkxjT1NseEp2bVptT0dVTnBCZGU5YjF6a3lpV1Nfd3JCOGgtVWNCSVFQSWhCZXhYN0Zmc3pycmJBTHZSOEJhZnhpdGN5SWZNbUpJZW1qMGY2TWxIanRTS1d2WFBKa2RiNG40RXV0LTZ5WExhMlNoSC1JaFJlRnVCVnpWUlRKZlJpMTNpNVFrMFJmN2s5cEVMaGZuSzFELWExM2MtOFJwdHczdGl0MUlLLXdDeE4wRVBELThHM05FY3E4Tk1Kc2RSSzdXRm5CUGlkRU9Z?oc=5",
       "source": "Money Times",
       "published_at": "Mon, 14 Sep 2026 17:25:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Empresa global de inteligência artificial prevê triplicar faturamento no Brasil",
+      "summary": "Empresa global de inteligência artificial prevê triplicar faturamento no Brasil",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNmVUSnlHTXZyek01LV96VFJ4MFF6bzlBWHpPaGoza1h0aDl4bVozREhYTFNTdjRiaDd0SkhPcjl1NjlhczJNbXZWSHRXV3FleFp1cUZUV0FkT3k2dmtyTW0zMU5VdF9oLU13R3JKLWlBNktLX1BkTzlzYlBSZlh4dkh4SXB4QmQzNXIzZmJqbzFfVjd5LWdOVXpfZEd5YU84R3FMZ1dycFc2S3dMRmMxcVEtOE9mUQ?oc=5",
+      "source": "TI INSIDE Online",
+      "published_at": "Mon, 14 Sep 2026 20:46:23 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Abandono de projetos de IA: 42% desistiram e o motivo não era o modelo",
+      "summary": "Abandono de projetos de IA: 42% desistiram e o motivo não era o modelo",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9SeWh0eWd0UGpYMnZqVm95UzY1bm5TaWxYTV9UU3dEVC1xUE9Ydm03ZVliTFU4VlFWVk5rcnNWanNXenFFZUpTVXdnVUtKTHlISklUZWpPTzI4WFRza0tReU55NG9tY2RhUHE5eDAwdUphMkZDdnR0bmk1TTQ?oc=5",
+      "source": "StartSe",
+      "published_at": "Tue, 15 Sep 2026 12:00:25 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Inteligência Artificial: Segurança e Controle nas Empresas",
+      "summary": "Inteligência Artificial: Segurança e Controle nas Empresas",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRXpySHZNS1ZFYTB0QTJTbUNNU1VYVkxPV1J3dmFtWDlfNFlvQy16QzFnS0lCckZGczRDcms0R0xhS2J1aFBhN19nXzhTdHlaOGRvTDF6elF4RjM5SGs3RURTOUxEbC1JbjdkeVl3TmlDWlJiSHJtQ3RMN1M1MTRjLXNuSWxhRWVyOWhDenNiSU9qWFA2dGNqNDRzRUU2Z21vX3hz?oc=5",
+      "source": "contabeis.com.br",
+      "published_at": "Mon, 14 Sep 2026 22:00:01 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -38,24 +56,6 @@
       "published_at": "Mon, 14 Sep 2026 20:04:03 GMT",
       "category": "IA",
       "signal": "flat"
-    },
-    {
-      "title": "A Anthropic afirma ter bloqueado possíveis tentativas de usar Inteligência Artificial (IA) para desenvolver armas biológicas, que poderiam matar pessoas",
-      "summary": "A Anthropic afirma ter bloqueado possíveis tentativas de usar Inteligência Artificial (IA) para desenvolver armas biológicas, que poderiam matar pessoas",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNQU5lWWdhbnBXdV9ZczRWaXUwTU1KN2d1eWdITzhQNzNKM0Q1TUJtWGNrVTE0V08wQWpMa0t5UmVjVXFYRVFWNW1RNHQzU0tkUHhfc2pSWDdXa2ljQWRoaUtvNHh3LVVMT1JNTTNKMjBDaktacEpmS2NPZ0FHaEoyWmladGdGVDVBa3U3ejI0SE5pT29zc0Eyd0ZNNWlnbHF3d0V0OXJxWnhFdlFWdjhRWHg5NDZXUVpwNGRlOXp3NmNjSms2dHBfTGNlWlRkRXB4TGZOdW1HSjk3LUpCdUpCbWVKMV85a2ZfTnBkbnNVTTB5SGtPRTdSY2R0M2dvVWhwZjFxV2t1RG5aOEEtSG8xQUstV3Ezdw?oc=5",
-      "source": "cnnbrasil.com.br",
-      "published_at": "Mon, 14 Sep 2026 20:10:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "'Precisamos levar os riscos a sério': os 5 pontos do presidente da OpenAI sobre a corrida da IA",
-      "summary": "'Precisamos levar os riscos a sério': os 5 pontos do presidente da OpenAI sobre a corrida da IA",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUW9CNHdhbFl1TFVPazE1blRWZ0lMT2VaS3lLZEVZS1IySDhOUkNSVXdpUnpsT3lXQ3JJWVZkMENsVFpFdE9YY1ZsZG1TaTJUQlRXVDcxQXZXcEI0MEM1M0ZRSEZ3dHZ6TzU1TVZBWjVqYTFxM2xfblJOX0RjVXhmVWlwZjlYejZ1WndMYzhtZW5KSUdPWW5aVmh4d0tlUVFyRVVGU1Q3U2N4d2FGTmFNb1BLSW9iLVg4c19Cd1VmalR1SkJEdnNodTVoeWJRZFZT?oc=5",
-      "source": "Exame",
-      "published_at": "Mon, 14 Sep 2026 17:26:11 GMT",
-      "category": "IA",
-      "signal": "down"
     }
   ],
   "category": "IA"
