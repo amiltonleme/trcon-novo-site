@@ -1,18 +1,34 @@
 {
-  "generated_at": "2026-09-16T12:52:30.147652+00:00",
+  "generated_at": "2026-09-16T22:31:27.235439+00:00",
   "source_note": "Historico de novidades TRCONGROUP consolidado dos radares.",
   "errors": [],
   "items": [
     {
-      "source": "SCC10",
+      "source": "BBC",
       "category": "IA",
-      "title": "Founders AI Summit em SC mostra como empresas usam inteligência artificial na prática",
-      "summary": "Founders AI Summit em SC mostra como empresas usam inteligência artificial na prática",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQnRKbUQ5M0diRnJpV0RhTDlCZVcwbUNPa0thMG8xTEJGNTYtQUdVS0dOcl9DNG5NczNGbXY2N3h6Ujk0X2k2dFJUaE5FMDhnd0ZpamJIeklZR2dPV0VMNW1EaG5LMTVmMDdoUjNqZkZIZ0hHb25YanJPeWs1M3BzV2lwbUsxX1BxaTY3RHBIMEJwNFQtb1h3dlFtdDNCRjR1SWE4UUFkSlNsYWRDbjMzRkE5cjlWVHk1?oc=5",
-      "publishedAt": "Wed, 16 Sep 2026 12:14:21 GMT"
+      "title": "O mundo está certo em temer IA, mas precisa confiar nas empresas, diz chefe da OpenAI",
+      "summary": "O mundo está certo em temer IA, mas precisa confiar nas empresas, diz chefe da OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9rRTdiTThUNzZVd2hHS01jXzBqcFNkcnNqM0pna241M3F2UUQ5R3BpQVNTaWlpQjZzU3dmaG5hcmxHcjdqRTBvM2ZlSDM5YXFJWEhrcWpOc09ibEc4YnhORUxTc9IBaEFVX3lxTFBqbXg5NndyX0t2OTZKdDFpMW5zdWNPczJwSzVtWVFaZUc1RnhOVFNKWGpjTEJkejBmd2luLWZCWkZKX0lXazExQy1KbkVJeUU0RGpaUmhWVFRpRlE2TlBCMGJZaDMyVmJ4?oc=5",
+      "publishedAt": "Wed, 16 Sep 2026 12:50:27 GMT"
     },
     {
-      "source": "cartacapital.com.br",
+      "source": "Pequenas Empresas & Grandes Negócios",
+      "category": "IA",
+      "title": "Brasil tem mais de 41 mil empresas de software e serviços, e escolha de fornecedor ganha nova complexidade com IA",
+      "summary": "Brasil tem mais de 41 mil empresas de software e serviços, e escolha de fornecedor ganha nova complexidade com IA",
+      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPSnVscHVHSW9DQ3ZoYzV6d2JDcGtqaUhSQzRQUVBaeEpndFZWaE5tTWFwcUdMeVJrVFkwWXl2aEo5RWxXTU5MM1FmblpKd3ZieGd3QjBtSEpzU3JUMEgtTVNUZ1I4M3l1MEFnYXF4RlZDT3MteFU0SW9GMUtxblgteVZXVEg5QmtSQUxjZld2dVVfUDVTeE1BNW5rMFkwOHZJZGZneGNHTllzSE5xNlBHQk1iUW96Z2tIVm5ZT0ZydzhzVHNacHBTVnVSeXROV2FNc0ZVMlFyc1FldmJkM1FlR3NRVU9peExJLS1iT2hxcnRmRG1NUjRNZVM4UHNiZlVuUmloQldxWUdlVGxVWGdKZVljNXhWVXNodTlXd2hMdlbSAa8CQVVfeXFMT1U2NTBUcVFScG50REdiRmdEdW9xSEdpNmdQQ2QwRG8tc1dDdGF5bFVjcmhRTFNxMG5uSFZLUnNLa29naWtmaUlBaFBIMjRMeU9Kc0NISGRXS21VNXFGeDhJYlFvWFo3U3ZYZGxEd0Y1ZkRaUmRRZzNPajAtUUFaUm9mM0R2MFVXamVwQ3BLM1RvU0IwYnVkQV9mR2p5R2tXTnNRR0ZqZENuSmdsZ0JKbzdvcl9TNFVEQnNCWGZXUWR3Z2x0Nl9nb09mbWdKeXlNWWRjdlZGaWkxN0VfVjVOMkFWcFRGVGhXX1ZEamxWak1oQk9RUnlpZUFQaUJYZ0xhb1UwbDdkdmstbWZXRDd4R1NNUkVxNHVaVlN0M1VhYmJNcHB1LURVdGppQU50WHEw?oc=5",
+      "publishedAt": "Wed, 16 Sep 2026 12:16:58 GMT"
+    },
+    {
+      "source": "Estadão Blue Studio",
+      "category": "IA",
+      "title": "IA aumenta produtividade no desenvolvimento de software, mas empresas ainda enfrentam gargalos de custo e revisão",
+      "summary": "IA aumenta produtividade no desenvolvimento de software, mas empresas ainda enfrentam gargalos de custo e revisão",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOZVRDNWdLblFENEdZb09CbUROTGljU3N5SFZVQTRwT3Zaa1phUUxNQUtyUENxV09FdHdLQmtWTDR0RXBCTTM5TnFCNHVLQ0lobHdpMUZESVBLblpudmcxZjJsbF8yTWNraWtkeXdJcHhvT3dhVmw0WnhHUElXdnRtMVlEY0l2bjNrd3BMZlR2NEltblNSZDJHRGpnZ1lXdlBqUkxjeUg4R29SdTJXZWVYUVo5Z25jek9sZktyMmdGT25aRzctRVdiZEpjUE9KcXA1RmJXNFFoZzIzaTZXaXFUSDdZRTlBTC0tZGdlNHB1RUJaWXNMUnF0OU5Nby1oNTZlTGo5bktib1ZDSnI5c1E?oc=5",
+      "publishedAt": "Wed, 16 Sep 2026 13:33:40 GMT"
+    },
+    {
+      "source": "CartaCapital",
       "category": "IA",
       "title": "Maiores empresas de IA defendem necessidade de desacelerar desenvolvimento da tecnologia",
       "summary": "Maiores empresas de IA defendem necessidade de desacelerar desenvolvimento da tecnologia",
@@ -20,36 +36,20 @@
       "publishedAt": "Tue, 15 Sep 2026 13:01:00 GMT"
     },
     {
-      "source": "TI INSIDE Online",
+      "source": "Olhar Digital",
       "category": "IA",
-      "title": "Meta One amplia recursos de IA e cria novo modelo de assinatura para usuários, criadores e empresas",
-      "summary": "Meta One amplia recursos de IA e cria novo modelo de assinatura para usuários, criadores e empresas",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPY0ltQkV2dGdTaWtoQWRXd04wVnZrNkdOZWNPQ0hoWTdKeVE5SkFuQXpCY2RxSHRObVRnbUJDcUlmSGxUZHc0WUc4aXprVk9YaWNmeWtUWDk1cllFUi1DVUNTcDk3MW4yR2E4VkJIdlpCRVpKcmhZZXp6RnBhak9sRFpDZ21ZLUh6MGV3eUhodkQyYWlNSHZDcW1DaGdfYzhQaWZ1TlhwU1JNMml6dDJKS0c5WlZ0Q29DUUVRX0M1UmpfbWZyYzFBdmJvRVUxVGc?oc=5",
-      "publishedAt": "Tue, 15 Sep 2026 16:50:20 GMT"
-    },
-    {
-      "source": "epocanegocios.globo.com",
-      "category": "IA",
-      "title": "Corrida para acompanhar a evolução da IA cria um novo problema para as empresas: funcionários mais cansados",
-      "summary": "Corrida para acompanhar a evolução da IA cria um novo problema para as empresas: funcionários mais cansados",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQOXB5eUlNcFpVUWxfTVRGYnl0WXVueUxIdzk4cW1qYmcxMFF6cTY2OC0tN1dsT25LbHRvc244em9GSGNIQVEzSTdYbjhvdG13VEk2ZWRRZGNhUTBCMzBXVlM1SFBLd1BscVNVOUZKUkRVd0xIMjh6dS1mTXA2LTNKeWkzVFk0M1owZXZLQ1lWYzYtS25EUDBYYnNnMnVjUENBNUZrUE1fWEVodFBGMmEzQ21JN1RxVDM4dEZ2YUc1LUZPeDBXYks0cVRIT1hrdmlOeldheTNGcGQ2Nno4NzBERHFjWDYwVjloOS1RQXlCNTdqbWdZOGhwX2wxXzBRblVndHg4OTFKcGtOaWZobUJzTVVXUmZzOU3SAaYCQVVfeXFMTWZiRWVoNnE5X2pNcGdMSFAxNTFzejVJVHR1VGk0Sk5NNW5LaFVJem40WUg4TklGdWI2ZDZZcjBYVVR6R25JUXRxTm9WNWx3U04xMm90Y2J1MkNUMkNZaGRkdFlMdVl3NkpTSkxBcTJGbmdWcGZodTRSb3pidm5MR19iSGRIc0pOTWVBRjdwcUwya1ZsZHVRT0NXV1REd0hzWnlldGZCVlF6N2RfTHRCRGNKSkVVd2lqSGZfb0I3c1NqemNLRWpfRXYtVk1WVkFqNXFLR2VQZ3d0VzFTNVBKdjJHd0RTeHc0el9ldUJySjJ1YUNBMUxia25sYVduczhFWWJvRGx2VUR6UUpBRTlUOGthSXB4U3ZibHZLazhGcE1vaTlEeTBR?oc=5",
-      "publishedAt": "Wed, 16 Sep 2026 09:00:00 GMT"
+      "title": "O que as empresas esperam dos profissionais de tecnologia hoje",
+      "summary": "O que as empresas esperam dos profissionais de tecnologia hoje",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSUYybHgzalBmc08tSjJZbG92dVl3Rk50UW5nWWRUWURDNWJlV0lOMzI0OE1pWDlJY2hPSFo0WFR1MDAwdDgzb3VTOWdneDNLamxfMUR5ZXhTWFM5UHBMZGx0ZE01Z2c4dGlDMnNjaG5ERWpKNXdGU09JOWdEUEl4eS0taFJiTWhPR3hySGJDejBuZ2MyRmZ5M1BISVlxSk9kUzNFZ2U4ajdLZw?oc=5",
+      "publishedAt": "Wed, 16 Sep 2026 14:38:00 GMT"
     },
     {
       "source": "Estadão",
       "category": "IA",
-      "title": "Donos das maiores empresas de IA pedem avanço cauteloso para evitar perda de controle da tecnologia",
-      "summary": "Donos das maiores empresas de IA pedem avanço cauteloso para evitar perda de controle da tecnologia",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONmhUaXRhSllubjBqbkQtVHVpMXBYX1J1bFBjb2Y3aXFVaHNVMmxhbUFHLUpnMnJjWDlzWVpEY2RjR2dXSTFZUEZZS19UQVJVMU9UOWszNGluSXJ5RmpoNUVkR3FHY1Z2aWNpWERGVC1RNXFya2pjblo1ZUNXSmdLYmhoV2xVZUpFUVpCYmlsVU90R3FOVmJZQXg0ekFqQllYbmphYWpORE00WGRyQll5c1NrZXlLN2puWU1mTzlvU0I1NUtyeHlxT1RLejZHZ25JaDg0TWdESWNCWDdkWHJYd0ZZa9IB4wFBVV95cUxONmhUaXRhSllubjBqbkQtVHVpMXBYX1J1bFBjb2Y3aXFVaHNVMmxhbUFHLUpnMnJjWDlzWVpEY2RjR2dXSTFZUEZZS19UQVJVMU9UOWszNGluSXJ5RmpoNUVkR3FHY1Z2aWNpWERGVC1RNXFya2pjblo1ZUNXSmdLYmhoV2xVZUpFUVpCYmlsVU90R3FOVmJZQXg0ekFqQllYbmphYWpORE00WGRyQll5c1NrZXlLN2puWU1mTzlvU0I1NUtyeHlxT1RLejZHZ25JaDg0TWdESWNCWDdkWHJYd0ZZaw?oc=5",
-      "publishedAt": "Tue, 15 Sep 2026 17:00:00 GMT"
-    },
-    {
-      "source": "Valor Econômico",
-      "category": "IA",
-      "title": "IA aumenta produtividade no desenvolvimento de software, mas empresas ainda enfrentam gargalos de custo e revisão",
-      "summary": "IA aumenta produtividade no desenvolvimento de software, mas empresas ainda enfrentam gargalos de custo e revisão",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOeGlwOUlldGNnZmlOWW82d2Nacll3Z0ItRnI3ZlZlZkg3OHU5WXhJNmVyMU16U2dzVmx3MzNacG5KZFNzM3hFWEdzQ1hQMkFuSTlDajlzaXlQYXlKUUxhY1dZRUI2ZkNRZFFpZFRfYXk0c3piZkhRMDJ5TUhrMUlqZXh0MDVjVlBrc0xqcWxUM3Z0SERLYjN6cXRPSFVJdEpCTGtGQXcteEN5ZDE2d19pam1ub0ZKTTI1dkxjX3ZHNFNKZjY4elJHQkVoYVpibzctN2UzT20ya1JCc3NkeHhPb2dWU1ZkMERwNnZtZlRnT2ZCVEdGXzBYYTNWUXM3TE90U01MMmJGcU9wVnVleVl2TEt0VUvSAaMCQVVfeXFMUE1aYTFnRXlBTExDaEwxM3llamtSaEkzNlBkb09hSFZpc3ktYkl3VktEdHo1eU9wQXhYU0xDQWtTNnlEelFzeXlBSFRldUUyTEJuak9Zczc3MVhGMmJIdXVyVlZEbUstelVlTUNLSDdBWUlIbkFPakUzZkpud2t2aFliY3dvWU5YYW0tUnpma3Y4NGJ1WGZiemtEcnBzR2d6QVNwMThIdnBXd1hBbkNCNnZkWmVtcnRzS2tEZWZyUU1iak9Xbl9XS2hGaXBSWVFsX21TMXVyNm9kdW9LTExlTVk5MDhkbEE2TFBOUTNXVlhlUlhNNm1PcXN6eHB2Sk51ODFvMWJxbEVTTGI1V21PQXhuLTNSeWRNRWthc3pIbUd5S2Rr?oc=5",
-      "publishedAt": "Wed, 16 Sep 2026 12:15:28 GMT"
+      "title": "IA não vai tirar seu emprego, mas alguém usando IA vai, diz David Vélez, do Nubank",
+      "summary": "IA não vai tirar seu emprego, mas alguém usando IA vai, diz David Vélez, do Nubank",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTmxVNUY4YjVFVG1ubmRlYU1BTWxGYkdqRzBSd1JPZXhVTmQxdXJXWlhzVTlwQzl0X1V6cnlYbmxNdEJsbzRSdkQ0Z2tFWm9iMU9fa3JBVHlhZk9DeEo3SHlVeHp6YV9Zc09vd2lFOXg3aE41bU1lZDVncGhDbzJnUGJCMzdNSWN1azA3SnFBX2hhXzhreDFxX2FiNm9FWHBiZ2xjejNuY0rSAa4BQVVfeXFMUDJqTW5mMTdzTUxncDd5dF9zcTZhbTBzY1VuNTZJMWp5WnM5Nl9zOXNwTEttQXZaeDJxUk92ODhFMHFtZkp6c2JuV1JaZTdnaXdMcEhJVmlIZ1VYSV9yOUtndXU0WjRoMUZXejZCa2FxWHZQVlZ2S2VQc0paSG13N3JBY09JM1BGM0hoc3ZkMThHUmhtNlYyMFA2VmNUX2pkdEZ4dTlXWDI0VlVuRFVn?oc=5",
+      "publishedAt": "Wed, 16 Sep 2026 16:17:00 GMT"
     },
     {
       "source": "noticenter.com.br",
@@ -90,14 +90,6 @@
       "summary": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUVRkY3hvRDJhQ3B1Y0R6MndjNXBQNHFGVVBLb2IzS0hkV3FsS3FkbkNkZzhXaTB2Tzl2QWZZUjZ1dmxFZUdRVEFIQUFCemFzMmlDQmpZTnJYTXdPXzBKSUdXYmZrTlNOWGVNNlZ0YlQ1eGwzT3NHV2pkTXpCck93M21SV2hYVkVHbGhfY01oVXI3ZFh5Uzd3VURZeDlCUXl3X3J3SWx4QzFIQ253c1B6aktSMUZVcE4temUzaGxR?oc=5",
       "publishedAt": "Wed, 03 Jun 2026 07:00:00 GMT"
-    },
-    {
-      "source": "ND Mais",
-      "category": "Tecnologia",
-      "title": "O desenvolvimento de software entra em uma nova fase",
-      "summary": "O desenvolvimento de software entra em uma nova fase",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSnpBeW1nUVZVRFp3cWlWRVB3RVV1blJjSEwwcFFpU2UyQ3h2Zk56M3Fjby1JU2JqdUhEMlR2X2dCQlBVTHlnd2R5b3ZhdTRhUjZ4c0pfVGpnUjIzMW5HU0pzMDVDTDFHRnZkNVlqMHh5UHNmNW5rdUhFQWVMeDh5QXY0WEhJcU1kS3FId2dIRQ?oc=5",
-      "publishedAt": "Mon, 08 Jun 2026 07:00:00 GMT"
     }
   ]
 }
