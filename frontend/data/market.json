@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T22:35:59.608036+00:00",
+  "generated_at": "2026-09-16T12:52:25.845085+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -23,19 +23,19 @@
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 75.517",
-      "change": "-3,82%",
+      "value": "US$ 75.967",
+      "change": "-1,36%",
       "direction": "down"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 2.396",
-      "change": "-5,63%",
+      "value": "US$ 2.407",
+      "change": "-2,99%",
       "direction": "down"
     },
     {
       "symbol": "OURO",
-      "value": "US$ 4.337",
+      "value": "US$ 4.385",
       "change": "estavel",
       "direction": "flat"
     },
@@ -90,8 +90,8 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 75.517",
-      "change": "-3,82%",
+      "quote": "US$ 75.967",
+      "change": "-1,36%",
       "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -101,18 +101,18 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 2.396",
-      "change": "-5,63%",
+      "quote": "US$ 2.407",
+      "change": "-2,99%",
       "direction": "down",
-      "recommendation": "Risco alto",
-      "recommendation_class": "rec-avoid",
-      "reason": "Queda forte indica volatilidade elevada; preserve caixa e evite concentrar recursos."
+      "recommendation": "Moderado",
+      "recommendation_class": "rec-watch",
+      "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
     },
     {
       "id": "gold",
       "name": "Ouro",
       "icon": "🥇",
-      "quote": "US$ 4.337",
+      "quote": "US$ 4.385",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -148,7 +148,7 @@
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE54RS1nLUdLOUYxN3JGaFBuY28yc2dIUTJabWYxQlFRWURJdmE0Y21OZGdUdGdUYXZwYVd6MVI2MkY4UVNvRGlMSmRTdWhQcXdZN0NLbXNjeVMtOFFuUkNybWdmMkZLX2prbWFtVHk3X2FmaXhONXYxVtIBhwFBVV95cUxOS1ZDV0JDQUZhRmM2QUdsMExRN0c3M28xTVA1UHNyck1zUGswYUU0N3k1ZS16MEFVa004WWU2Q2V6N0p4ZkJHRTZFNFhQemhDdHIwVV9tdWlFbm9YZFRudm9pem9TZ2oxdjhoRG9OYUc0ZS00dld3N1AxSG1LMlFvYllLdkJaalk?oc=5"
     },
     {
-      "title": "Dólar e Bolsa oscilam com petróleo, juros e crise no STF -",
+      "title": "Dólar e Bolsa oscilam com petróleo, juros e crise no STF - - Folha de Campo Grande -",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNVN1Umx6Z2dMS0dkV2VDZk1fUFVuSThhSFFMZURmeE5DTGl3WDAtNkY5NnRtTC1MYUt4NkozQUtFZlZkNktPSkY5TElObEhnbHByRWFiLXU4dnZzWDFQQWVvR1FSOEZFUXZkNDZNQlBoSUxnelBWVnNsc3A3Q1RqSkZTSlBwbnYwclhwNDlTVjVQaHZRTzRDN2otZjI?oc=5"
     },
     {

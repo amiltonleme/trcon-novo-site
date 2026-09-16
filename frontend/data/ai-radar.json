@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-15T22:36:02.962915+00:00",
+  "generated_at": "2026-09-16T12:52:29.002480+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
     {
-      "title": "Mistral, empresa francesa de IA, acusa rivais de tentar usar regulação para ganhar vantagem no mercado",
-      "summary": "Mistral, empresa francesa de IA, acusa rivais de tentar usar regulação para ganhar vantagem no mercado",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNbmIycmRkYVFvaGtBaTNnaFNqXzFuNzRIbXVIdWtmZTQ1aDk0ZlU1VlpJZTYwTmQ0OExZZXhsOGZCM1JsSTJTemNHNjhwaWVyMXFwRks1ZmhqT0ZIN1F5WWhTNHVJUXc2elNIUmRRYmNhd1dIYndKbGlkdjdPazVLMlFBZVIwRTdBQ3gyWGJySDNscmlmUFVhYVJ3cE1aYlJ3RE9yZnc3eDR1S1NXT0xXOUNGMVpSeE9NT0thVlpLUnFPZVJtRE5OQmZmMFduZ2FyNmZPaS03cGR1ZHpmbkQzVnRlU2pTMkRGVGY0UmR4c3RSd053eXNFc1lvb25lcmfSAY4CQVVfeXFMTmlfNUJzTXFxOVV4dmNLVEJZYlVuVDFLLVBWYkpVNUd1MlZZWVMwQmtvRzdyUS1sRzN0eU9JdGMxa0RNMWt5bklXOENsSmcyV0NxUnprUHJKUXBzU212RTNZcjZXWGV5WHpHNEhYZXhfRExMQ0x0VWhIM1k4NXBKTEpKUmJwZklIRll1ZEI4dWtGOGoyWURyaFpSaEV4NzdRZl9Jb3BBMWdWSkRJb0dzQVZNTElJMXVlajZiZDM2SnBud3llNzNGWlJoZXVpcDdIYllvS0RIeGpxeW9ORTVVbnJZQjJxTnJsc0dSZ1ZvY1l4UEpjYlJjcWR0R2VMZ2lSMHZiTmhyNlozLXZvY2ZR?oc=5",
-      "source": "O GLOBO",
-      "published_at": "Tue, 15 Sep 2026 22:06:22 GMT",
+      "title": "Founders AI Summit em SC mostra como empresas usam inteligência artificial na prática",
+      "summary": "Founders AI Summit em SC mostra como empresas usam inteligência artificial na prática",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQnRKbUQ5M0diRnJpV0RhTDlCZVcwbUNPa0thMG8xTEJGNTYtQUdVS0dOcl9DNG5NczNGbXY2N3h6Ujk0X2k2dFJUaE5FMDhnd0ZpamJIeklZR2dPV0VMNW1EaG5LMTVmMDdoUjNqZkZIZ0hHb25YanJPeWs1M3BzV2lwbUsxX1BxaTY3RHBIMEJwNFQtb1h3dlFtdDNCRjR1SWE4UUFkSlNsYWRDbjMzRkE5cjlWVHk1?oc=5",
+      "source": "SCC10",
+      "published_at": "Wed, 16 Sep 2026 12:14:21 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "CEO da Anthropic pede que empresas desacelerem avanço da inteligência artificial",
-      "summary": "CEO da Anthropic pede que empresas desacelerem avanço da inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOengycWRqb1FZTTV2R3E4eTlYSU9UbUt2dzFBUjBuUDRpeHFreE5HejV5S1ZiSmZtU284em1YTlkzSFNESUUtVTFweVBGOG04ZlpiNFE1LXVvcGt4QjN6RVBCU1czM3NpTHJWMzlkY1huWUZzRndaUmtfR0Q2dXZoT2lhdHYxbFhXNkFSTzROaUFLWkgyVlAyNkhaaFVZLUhEclRkLW5COTBkMk5HUEF0MkwtN1FtalQ3REE?oc=5",
-      "source": "VEJA",
-      "published_at": "Sun, 13 Sep 2026 15:01:33 GMT",
+      "title": "Maiores empresas de IA defendem necessidade de desacelerar desenvolvimento da tecnologia",
+      "summary": "Maiores empresas de IA defendem necessidade de desacelerar desenvolvimento da tecnologia",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMF9hUEgyZUxiSFA1T0VaMHZUYVlxSFlTOXAwN2c0UGJiUzhaWHNMR2l3MDZjZlZGQklaZnVnRlN3QTJ5VHk2Y3hnWWxsQjJ6S3c2bnM5YkhuTGJhQVZhWG80bFJhR3FlWUJiRnNhMXVVZGpDWUdQanNiazZzX1JpOUxXc1gzd19UWGJSa2ZVQmxMVmN1RlBiRlFCOEctZFJVUkNWMk1aNi1RX2NjV3pFUzFWd21tSVJMWkNiV0lTM2V1UGJSdnVhMWd3?oc=5",
+      "source": "cartacapital.com.br",
+      "published_at": "Tue, 15 Sep 2026 13:01:00 GMT",
       "category": "IA",
       "signal": "up"
     },
@@ -31,6 +31,15 @@
       "signal": "flat"
     },
     {
+      "title": "Corrida para acompanhar a evolução da IA cria um novo problema para as empresas: funcionários mais cansados",
+      "summary": "Corrida para acompanhar a evolução da IA cria um novo problema para as empresas: funcionários mais cansados",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQOXB5eUlNcFpVUWxfTVRGYnl0WXVueUxIdzk4cW1qYmcxMFF6cTY2OC0tN1dsT25LbHRvc244em9GSGNIQVEzSTdYbjhvdG13VEk2ZWRRZGNhUTBCMzBXVlM1SFBLd1BscVNVOUZKUkRVd0xIMjh6dS1mTXA2LTNKeWkzVFk0M1owZXZLQ1lWYzYtS25EUDBYYnNnMnVjUENBNUZrUE1fWEVodFBGMmEzQ21JN1RxVDM4dEZ2YUc1LUZPeDBXYks0cVRIT1hrdmlOeldheTNGcGQ2Nno4NzBERHFjWDYwVjloOS1RQXlCNTdqbWdZOGhwX2wxXzBRblVndHg4OTFKcGtOaWZobUJzTVVXUmZzOU3SAaYCQVVfeXFMTWZiRWVoNnE5X2pNcGdMSFAxNTFzejVJVHR1VGk0Sk5NNW5LaFVJem40WUg4TklGdWI2ZDZZcjBYVVR6R25JUXRxTm9WNWx3U04xMm90Y2J1MkNUMkNZaGRkdFlMdVl3NkpTSkxBcTJGbmdWcGZodTRSb3pidm5MR19iSGRIc0pOTWVBRjdwcUwya1ZsZHVRT0NXV1REd0hzWnlldGZCVlF6N2RfTHRCRGNKSkVVd2lqSGZfb0I3c1NqemNLRWpfRXYtVk1WVkFqNXFLR2VQZ3d0VzFTNVBKdjJHd0RTeHc0el9ldUJySjJ1YUNBMUxia25sYVduczhFWWJvRGx2VUR6UUpBRTlUOGthSXB4U3ZibHZLazhGcE1vaTlEeTBR?oc=5",
+      "source": "epocanegocios.globo.com",
+      "published_at": "Wed, 16 Sep 2026 09:00:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
       "title": "Donos das maiores empresas de IA pedem avanço cauteloso para evitar perda de controle da tecnologia",
       "summary": "Donos das maiores empresas de IA pedem avanço cauteloso para evitar perda de controle da tecnologia",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONmhUaXRhSllubjBqbkQtVHVpMXBYX1J1bFBjb2Y3aXFVaHNVMmxhbUFHLUpnMnJjWDlzWVpEY2RjR2dXSTFZUEZZS19UQVJVMU9UOWszNGluSXJ5RmpoNUVkR3FHY1Z2aWNpWERGVC1RNXFya2pjblo1ZUNXSmdLYmhoV2xVZUpFUVpCYmlsVU90R3FOVmJZQXg0ekFqQllYbmphYWpORE00WGRyQll5c1NrZXlLN2puWU1mTzlvU0I1NUtyeHlxT1RLejZHZ25JaDg0TWdESWNCWDdkWHJYd0ZZa9IB4wFBVV95cUxONmhUaXRhSllubjBqbkQtVHVpMXBYX1J1bFBjb2Y3aXFVaHNVMmxhbUFHLUpnMnJjWDlzWVpEY2RjR2dXSTFZUEZZS19UQVJVMU9UOWszNGluSXJ5RmpoNUVkR3FHY1Z2aWNpWERGVC1RNXFya2pjblo1ZUNXSmdLYmhoV2xVZUpFUVpCYmlsVU90R3FOVmJZQXg0ekFqQllYbmphYWpORE00WGRyQll5c1NrZXlLN2puWU1mTzlvU0I1NUtyeHlxT1RLejZHZ25JaDg0TWdESWNCWDdkWHJYd0ZZaw?oc=5",
@@ -40,22 +49,13 @@
       "signal": "up"
     },
     {
-      "title": "Abandono de projetos de IA: 42% desistiram e o motivo não era o modelo",
-      "summary": "Abandono de projetos de IA: 42% desistiram e o motivo não era o modelo",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9SeWh0eWd0UGpYMnZqVm95UzY1bm5TaWxYTV9UU3dEVC1xUE9Ydm03ZVliTFU4VlFWVk5rcnNWanNXenFFZUpTVXdnVUtKTHlISklUZWpPTzI4WFRza0tReU55NG9tY2RhUHE5eDAwdUphMkZDdnR0bmk1TTQ?oc=5",
-      "source": "StartSe",
-      "published_at": "Tue, 15 Sep 2026 12:00:25 GMT",
+      "title": "IA aumenta produtividade no desenvolvimento de software, mas empresas ainda enfrentam gargalos de custo e revisão",
+      "summary": "IA aumenta produtividade no desenvolvimento de software, mas empresas ainda enfrentam gargalos de custo e revisão",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOeGlwOUlldGNnZmlOWW82d2Nacll3Z0ItRnI3ZlZlZkg3OHU5WXhJNmVyMU16U2dzVmx3MzNacG5KZFNzM3hFWEdzQ1hQMkFuSTlDajlzaXlQYXlKUUxhY1dZRUI2ZkNRZFFpZFRfYXk0c3piZkhRMDJ5TUhrMUlqZXh0MDVjVlBrc0xqcWxUM3Z0SERLYjN6cXRPSFVJdEpCTGtGQXcteEN5ZDE2d19pam1ub0ZKTTI1dkxjX3ZHNFNKZjY4elJHQkVoYVpibzctN2UzT20ya1JCc3NkeHhPb2dWU1ZkMERwNnZtZlRnT2ZCVEdGXzBYYTNWUXM3TE90U01MMmJGcU9wVnVleVl2TEt0VUvSAaMCQVVfeXFMUE1aYTFnRXlBTExDaEwxM3llamtSaEkzNlBkb09hSFZpc3ktYkl3VktEdHo1eU9wQXhYU0xDQWtTNnlEelFzeXlBSFRldUUyTEJuak9Zczc3MVhGMmJIdXVyVlZEbUstelVlTUNLSDdBWUlIbkFPakUzZkpud2t2aFliY3dvWU5YYW0tUnpma3Y4NGJ1WGZiemtEcnBzR2d6QVNwMThIdnBXd1hBbkNCNnZkWmVtcnRzS2tEZWZyUU1iak9Xbl9XS2hGaXBSWVFsX21TMXVyNm9kdW9LTExlTVk5MDhkbEE2TFBOUTNXVlhlUlhNNm1PcXN6eHB2Sk51ODFvMWJxbEVTTGI1V21PQXhuLTNSeWRNRWthc3pIbUd5S2Rr?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Wed, 16 Sep 2026 12:15:28 GMT",
       "category": "IA",
       "signal": "flat"
-    },
-    {
-      "title": "Por que empresas que aceleraram a corrida da IA agora defendem pisar no freio; entenda o que está por trás disso",
-      "summary": "Por que empresas que aceleraram a corrida da IA agora defendem pisar no freio; entenda o que está por trás disso",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNTDhLVXJvVnpmX2xKTmYyNk9ScFlxM1doT1lKTzR2dFZUQVQtc2tyUkFFNTdLc1NweGswSmJ6czJ6Q050cVdHNVJadVlLc05hM3ZyTjh6T3pjWENJWHpYQThGaDJIVzR5Mk5SNC1PMUFKVTkxWXprdFJxbUNHR2FzUG4xbE8wUlJ1SDVWbExZX0xna1JWVUszdWFuZ0haQTJkWTNUS3I3VzFoVEs0R194TVBDbENrREZBbllnWnFQR2hhWGlzSkhQbGtITXB6ZlBLTmdTMnZUbDRvNThFRm9oLVJ5S0pfd2E3ajBfY0J4X0tsX0HSAYICQVVfeXFMUFFDVmE1NlBXWjBSQjVKM1dfYXViUEVnUms1OEtQZWk1UDlBVEZjdmJvWnFwajhLeHF5ODRLLXYwYksyQ0VLSUtjOVBUUy1oV2p0dklFN1VkMy0yWTZzY203TmRPNXljcGFWQTVNYjdoX3lFdFRaeXBkTVlKTVFIU090WmZVRkVrS24ybkRqaGhxVVA4SWc5MmVQTWdFdEZNYndYbVJmeUNKWDdBSjRmMHdUOVZzNkkzc2xXcmhsUkNNMkhPakRwZnJMdllfU3ZJVjdYV3hOLUMwSlVmSWJHa0NrYTRncVJ4enhUeHFSWTVWVUgyQVZ3SFZFaURkczRzbWV3?oc=5",
-      "source": "G1",
-      "published_at": "Mon, 14 Sep 2026 13:34:54 GMT",
-      "category": "IA",
-      "signal": "up"
     }
   ],
   "category": "IA"
