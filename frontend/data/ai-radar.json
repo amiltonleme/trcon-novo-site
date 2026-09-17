@@ -1,32 +1,14 @@
 {
-  "generated_at": "2026-09-16T22:31:25.982119+00:00",
+  "generated_at": "2026-09-17T12:49:03.969640+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
     {
-      "title": "O mundo está certo em temer IA, mas precisa confiar nas empresas, diz chefe da OpenAI",
-      "summary": "O mundo está certo em temer IA, mas precisa confiar nas empresas, diz chefe da OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9rRTdiTThUNzZVd2hHS01jXzBqcFNkcnNqM0pna241M3F2UUQ5R3BpQVNTaWlpQjZzU3dmaG5hcmxHcjdqRTBvM2ZlSDM5YXFJWEhrcWpOc09ibEc4YnhORUxTc9IBaEFVX3lxTFBqbXg5NndyX0t2OTZKdDFpMW5zdWNPczJwSzVtWVFaZUc1RnhOVFNKWGpjTEJkejBmd2luLWZCWkZKX0lXazExQy1KbkVJeUU0RGpaUmhWVFRpRlE2TlBCMGJZaDMyVmJ4?oc=5",
-      "source": "BBC",
-      "published_at": "Wed, 16 Sep 2026 12:50:27 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Brasil tem mais de 41 mil empresas de software e serviços, e escolha de fornecedor ganha nova complexidade com IA",
-      "summary": "Brasil tem mais de 41 mil empresas de software e serviços, e escolha de fornecedor ganha nova complexidade com IA",
-      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPSnVscHVHSW9DQ3ZoYzV6d2JDcGtqaUhSQzRQUVBaeEpndFZWaE5tTWFwcUdMeVJrVFkwWXl2aEo5RWxXTU5MM1FmblpKd3ZieGd3QjBtSEpzU3JUMEgtTVNUZ1I4M3l1MEFnYXF4RlZDT3MteFU0SW9GMUtxblgteVZXVEg5QmtSQUxjZld2dVVfUDVTeE1BNW5rMFkwOHZJZGZneGNHTllzSE5xNlBHQk1iUW96Z2tIVm5ZT0ZydzhzVHNacHBTVnVSeXROV2FNc0ZVMlFyc1FldmJkM1FlR3NRVU9peExJLS1iT2hxcnRmRG1NUjRNZVM4UHNiZlVuUmloQldxWUdlVGxVWGdKZVljNXhWVXNodTlXd2hMdlbSAa8CQVVfeXFMT1U2NTBUcVFScG50REdiRmdEdW9xSEdpNmdQQ2QwRG8tc1dDdGF5bFVjcmhRTFNxMG5uSFZLUnNLa29naWtmaUlBaFBIMjRMeU9Kc0NISGRXS21VNXFGeDhJYlFvWFo3U3ZYZGxEd0Y1ZkRaUmRRZzNPajAtUUFaUm9mM0R2MFVXamVwQ3BLM1RvU0IwYnVkQV9mR2p5R2tXTnNRR0ZqZENuSmdsZ0JKbzdvcl9TNFVEQnNCWGZXUWR3Z2x0Nl9nb09mbWdKeXlNWWRjdlZGaWkxN0VfVjVOMkFWcFRGVGhXX1ZEamxWak1oQk9RUnlpZUFQaUJYZ0xhb1UwbDdkdmstbWZXRDd4R1NNUkVxNHVaVlN0M1VhYmJNcHB1LURVdGppQU50WHEw?oc=5",
-      "source": "Pequenas Empresas & Grandes Negócios",
-      "published_at": "Wed, 16 Sep 2026 12:16:58 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "IA aumenta produtividade no desenvolvimento de software, mas empresas ainda enfrentam gargalos de custo e revisão",
-      "summary": "IA aumenta produtividade no desenvolvimento de software, mas empresas ainda enfrentam gargalos de custo e revisão",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOZVRDNWdLblFENEdZb09CbUROTGljU3N5SFZVQTRwT3Zaa1phUUxNQUtyUENxV09FdHdLQmtWTDR0RXBCTTM5TnFCNHVLQ0lobHdpMUZESVBLblpudmcxZjJsbF8yTWNraWtkeXdJcHhvT3dhVmw0WnhHUElXdnRtMVlEY0l2bjNrd3BMZlR2NEltblNSZDJHRGpnZ1lXdlBqUkxjeUg4R29SdTJXZWVYUVo5Z25jek9sZktyMmdGT25aRzctRVdiZEpjUE9KcXA1RmJXNFFoZzIzaTZXaXFUSDdZRTlBTC0tZGdlNHB1RUJaWXNMUnF0OU5Nby1oNTZlTGo5bktib1ZDSnI5c1E?oc=5",
-      "source": "Estadão Blue Studio",
-      "published_at": "Wed, 16 Sep 2026 13:33:40 GMT",
+      "title": "Rei Charles reúne líderes das principais empresas de IA do mundo para discutir segurança dos modelos",
+      "summary": "Rei Charles reúne líderes das principais empresas de IA do mundo para discutir segurança dos modelos",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbU4zbUJHcnBuNTJnQzRBZnJsRzNHaDh4MGpuUi1QSUVuTFJrNkIzU0tHbm85aGRyRjkxWnVBZEtkOXVXZ3o3T3E2dktKZkJ4N3NGRW1ySGtzelFkSEtSdndDeFI2OFpiMFFMamdGVGZFcVpubWhQSl9nRWJidThOeWExRU1jampoWWtYbnlzTDZmRk9qM1pZQXdNZjNHd3B0QVVVNGkwRmcxOEVETFg5bmc0bDVEOVHSAbwBQVVfeXFMT0kzX3ZVWUN1NHA3cGlTajFyeGIxSWQzUldUQWhPX0pRV0cxTHFsZEh5VENhZ3k4aGx5QnctX2k0aWg1QkdfS0ZrWlpPUU8tTjlEaWtDekNEYTc4R3VPTGVrV1FrTEFnNzdGNExpT1R1NHpUZU1yWE1mZkxtdzdncTRsX25OWnUydWJCSkppanc3TXkxZnZkYzR2emxmc1BSSHlMa19NX2lJTkhlM1BpTHZsc21xUFpSeDk5SXQ?oc=5",
+      "source": "estadao.com.br",
+      "published_at": "Thu, 17 Sep 2026 05:33:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -40,6 +22,15 @@
       "signal": "up"
     },
     {
+      "title": "Como adotar a inteligência artificial nas empresas",
+      "summary": "Como adotar a inteligência artificial nas empresas",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdlNWODNsZ084VVJPeUZYanA5RXB3ZWk0SXk3bmxrQXpkV051cFYtUHVKaDZmaHZ3dldJNVpVSFNmS3VzeTFhMVRsMDRQdjZFVktXVldxcU8tZDJNenFndGRoRFpDZVBJdk5ZTEtCYWgySzhYeENsNGo0UmdDZVZTbklid1RzQVdXNGRtVVJiUlJOeDlfdXFOYUVORVByNnFKRS1xMi1jRTBaQlFK0gG7AUFVX3lxTE9NNTBXWU1pUlVLRkExWW9uSlQ4NXhSZWpNM2xtd3BRZzZPelpYMEUxZmhMY0d4eG1LUHotYWRYNHBjMXdjak52cTI2YlFjWHdxaWNwZy1BRjJ4ZHJwcmswUmlBbF8wWTVnM2hNdFdmY210Z0tpUXd3YmtfRVJFM0VWM0w1aVIzOEc2V210STN3QnB6WUx5SnVicDQwd0NaUHN1LTZoZnpCU2xlZkh1UG84VUNaeEFxLUhXWjQ?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Thu, 17 Sep 2026 08:15:39 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
       "title": "O que as empresas esperam dos profissionais de tecnologia hoje",
       "summary": "O que as empresas esperam dos profissionais de tecnologia hoje",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSUYybHgzalBmc08tSjJZbG92dVl3Rk50UW5nWWRUWURDNWJlV0lOMzI0OE1pWDlJY2hPSFo0WFR1MDAwdDgzb3VTOWdneDNLamxfMUR5ZXhTWFM5UHBMZGx0ZE01Z2c4dGlDMnNjaG5ERWpKNXdGU09JOWdEUEl4eS0taFJiTWhPR3hySGJDejBuZ2MyRmZ5M1BISVlxSk9kUzNFZ2U4ajdLZw?oc=5",
@@ -49,11 +40,20 @@
       "signal": "flat"
     },
     {
-      "title": "IA não vai tirar seu emprego, mas alguém usando IA vai, diz David Vélez, do Nubank",
-      "summary": "IA não vai tirar seu emprego, mas alguém usando IA vai, diz David Vélez, do Nubank",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTmxVNUY4YjVFVG1ubmRlYU1BTWxGYkdqRzBSd1JPZXhVTmQxdXJXWlhzVTlwQzl0X1V6cnlYbmxNdEJsbzRSdkQ0Z2tFWm9iMU9fa3JBVHlhZk9DeEo3SHlVeHp6YV9Zc09vd2lFOXg3aE41bU1lZDVncGhDbzJnUGJCMzdNSWN1azA3SnFBX2hhXzhreDFxX2FiNm9FWHBiZ2xjejNuY0rSAa4BQVVfeXFMUDJqTW5mMTdzTUxncDd5dF9zcTZhbTBzY1VuNTZJMWp5WnM5Nl9zOXNwTEttQXZaeDJxUk92ODhFMHFtZkp6c2JuV1JaZTdnaXdMcEhJVmlIZ1VYSV9yOUtndXU0WjRoMUZXejZCa2FxWHZQVlZ2S2VQc0paSG13N3JBY09JM1BGM0hoc3ZkMThHUmhtNlYyMFA2VmNUX2pkdEZ4dTlXWDI0VlVuRFVn?oc=5",
-      "source": "Estadão",
-      "published_at": "Wed, 16 Sep 2026 16:17:00 GMT",
+      "title": "Por que a IA ficou mais barata em 2026 e o que isso muda para as empresas",
+      "summary": "Por que a IA ficou mais barata em 2026 e o que isso muda para as empresas",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcTkxOG1icWVQRFFocUtvQXhGSFBSUzRtMnZUc0htMk9qUUFEX0I2UlJQUDRTZ0tjc1NvN21LMkZfVVNvaC0tUEwyajBjZUNQYnBoM2RXeHhmc2p6ZXZGcEpNUkhPWklaYWV5UVdRbThpd1JVMjdpQjVDekdoOENjaGJzb1kyMmFrZ19YWUVicWZjLXNVVUlXWlY2Tk51cUhfSjBGNVk4aHBRUlk4SEpiZ0VjMEtpUlE?oc=5",
+      "source": "Exame",
+      "published_at": "Thu, 17 Sep 2026 08:05:16 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "HostGator reposiciona portfólio com inteligência artificial",
+      "summary": "HostGator reposiciona portfólio com inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSEkyT0ZfM3lES191Z1hZMFBjWjI1WnRvNlRwV3l1WGJxUGhyTGJXODhVOW5hQ0ZkbkFaNk84RjVVVUVpRGhGNjJwYzJSUWRMeE43TFRBaEFtbldFVm0zdUtvYmtyejRSeVVzOWxVSG85QTZHS0dQcUpvQ1lmaWZxS05nemJYRVVQU2NYT0NpMGtPMzhPRURpRVZDa3VkZFo2SFdMcUhMNk9INFFyR252Sy1VTGY?oc=5",
+      "source": "Meio e Mensagem",
+      "published_at": "Wed, 16 Sep 2026 20:20:43 GMT",
       "category": "IA",
       "signal": "flat"
     }
