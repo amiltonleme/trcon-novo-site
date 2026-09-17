@@ -1,32 +1,23 @@
 {
-  "generated_at": "2026-09-17T12:49:03.969640+00:00",
+  "generated_at": "2026-09-17T22:34:00.444298+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
     {
-      "title": "Rei Charles reúne líderes das principais empresas de IA do mundo para discutir segurança dos modelos",
-      "summary": "Rei Charles reúne líderes das principais empresas de IA do mundo para discutir segurança dos modelos",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbU4zbUJHcnBuNTJnQzRBZnJsRzNHaDh4MGpuUi1QSUVuTFJrNkIzU0tHbm85aGRyRjkxWnVBZEtkOXVXZ3o3T3E2dktKZkJ4N3NGRW1ySGtzelFkSEtSdndDeFI2OFpiMFFMamdGVGZFcVpubWhQSl9nRWJidThOeWExRU1jampoWWtYbnlzTDZmRk9qM1pZQXdNZjNHd3B0QVVVNGkwRmcxOEVETFg5bmc0bDVEOVHSAbwBQVVfeXFMT0kzX3ZVWUN1NHA3cGlTajFyeGIxSWQzUldUQWhPX0pRV0cxTHFsZEh5VENhZ3k4aGx5QnctX2k0aWg1QkdfS0ZrWlpPUU8tTjlEaWtDekNEYTc4R3VPTGVrV1FrTEFnNzdGNExpT1R1NHpUZU1yWE1mZkxtdzdncTRsX25OWnUydWJCSkppanc3TXkxZnZkYzR2emxmc1BSSHlMa19NX2lJTkhlM1BpTHZsc21xUFpSeDk5SXQ?oc=5",
-      "source": "estadao.com.br",
-      "published_at": "Thu, 17 Sep 2026 05:33:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Maiores empresas de IA defendem necessidade de desacelerar desenvolvimento da tecnologia",
-      "summary": "Maiores empresas de IA defendem necessidade de desacelerar desenvolvimento da tecnologia",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMF9hUEgyZUxiSFA1T0VaMHZUYVlxSFlTOXAwN2c0UGJiUzhaWHNMR2l3MDZjZlZGQklaZnVnRlN3QTJ5VHk2Y3hnWWxsQjJ6S3c2bnM5YkhuTGJhQVZhWG80bFJhR3FlWUJiRnNhMXVVZGpDWUdQanNiazZzX1JpOUxXc1gzd19UWGJSa2ZVQmxMVmN1RlBiRlFCOEctZFJVUkNWMk1aNi1RX2NjV3pFUzFWd21tSVJMWkNiV0lTM2V1UGJSdnVhMWd3?oc=5",
-      "source": "CartaCapital",
-      "published_at": "Tue, 15 Sep 2026 13:01:00 GMT",
-      "category": "IA",
-      "signal": "up"
-    },
-    {
-      "title": "Como adotar a inteligência artificial nas empresas",
-      "summary": "Como adotar a inteligência artificial nas empresas",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdlNWODNsZ084VVJPeUZYanA5RXB3ZWk0SXk3bmxrQXpkV051cFYtUHVKaDZmaHZ3dldJNVpVSFNmS3VzeTFhMVRsMDRQdjZFVktXVldxcU8tZDJNenFndGRoRFpDZVBJdk5ZTEtCYWgySzhYeENsNGo0UmdDZVZTbklid1RzQVdXNGRtVVJiUlJOeDlfdXFOYUVORVByNnFKRS1xMi1jRTBaQlFK0gG7AUFVX3lxTE9NNTBXWU1pUlVLRkExWW9uSlQ4NXhSZWpNM2xtd3BRZzZPelpYMEUxZmhMY0d4eG1LUHotYWRYNHBjMXdjak52cTI2YlFjWHdxaWNwZy1BRjJ4ZHJwcmswUmlBbF8wWTVnM2hNdFdmY210Z0tpUXd3YmtfRVJFM0VWM0w1aVIzOEc2V210STN3QnB6WUx5SnVicDQwd0NaUHN1LTZoZnpCU2xlZkh1UG84VUNaeEFxLUhXWjQ?oc=5",
+      "title": "IA chinesa ainda não é poderosa o suficiente contra riscos em modelos mais avançados, diz Huawei",
+      "summary": "IA chinesa ainda não é poderosa o suficiente contra riscos em modelos mais avançados, diz Huawei",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNZXhtNXF4UTUzNDZKN1JOaWRlX3FiTXZ6bmx5QWZsejlVT2lGSUNYZDNueWZwV29Ra2xUeWYxZWRPVUtHS2poalotTFJGMFI1eHAyUEJjMXQ1SWFWc19uNEM2cUxfaUVrTmlRSGZ3alA3Z3hIa0RQdUZ4TzEzTVhIaDZTdmxwU3pHcEl4N2tfNG9QaGdRMWx1ZTBaMHZRNDhMSVZoSlFUR2FHRTNWRjZFRTdsQTdiRkEwRDFVQnlBMVB0YXI4VmtGeUthbEdkSTVhQ05Cd1p4eEU2bTZ1cnVsSFdPSXNTZHdw0gH3AUFVX3lxTFBtdkZfN0V2ZXJPYnhfMmNhampOZDI2UG9ILThXSlZTbGR0TS1fbl9ONTZtaW5Xa0RfRHcwZk4tRVMyZ1R6T2hvY1dZWFg5Q3hoa2hrVm1LM1c2VVdkZUJKMV84OHFpZFRYdlZWUkJmRHM2aHlYeDN1X19LdmZNdUpUMnhBdkdQMU9Jb1F5NDdHdGdad0doTHFINXF5ZDhscTQ5QWpCVk1udi0wLV9iLUdwZk1sS1M4RDdDQlZDT0hQT0s0M3NQX29SNTRxVkRva08waDFQbXNpaVFZbnB6S0t0em9RbDVscjBGS3pvVjJ0RWtwTl9GVUE?oc=5",
       "source": "Valor Econômico",
-      "published_at": "Thu, 17 Sep 2026 08:15:39 GMT",
+      "published_at": "Thu, 17 Sep 2026 12:05:26 GMT",
+      "category": "IA",
+      "signal": "down"
+    },
+    {
+      "title": "O mundo está certo em temer IA, mas precisa confiar nas empresas, diz chefe da OpenAI",
+      "summary": "O mundo está certo em temer IA, mas precisa confiar nas empresas, diz chefe da OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9rRTdiTThUNzZVd2hHS01jXzBqcFNkcnNqM0pna241M3F2UUQ5R3BpQVNTaWlpQjZzU3dmaG5hcmxHcjdqRTBvM2ZlSDM5YXFJWEhrcWpOc09ibEc4YnhORUxTc9IBaEFVX3lxTFBqbXg5NndyX0t2OTZKdDFpMW5zdWNPczJwSzVtWVFaZUc1RnhOVFNKWGpjTEJkejBmd2luLWZCWkZKX0lXazExQy1KbkVJeUU0RGpaUmhWVFRpRlE2TlBCMGJZaDMyVmJ4?oc=5",
+      "source": "BBC",
+      "published_at": "Wed, 16 Sep 2026 12:50:27 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -49,13 +40,22 @@
       "signal": "flat"
     },
     {
-      "title": "HostGator reposiciona portfólio com inteligência artificial",
-      "summary": "HostGator reposiciona portfólio com inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSEkyT0ZfM3lES191Z1hZMFBjWjI1WnRvNlRwV3l1WGJxUGhyTGJXODhVOW5hQ0ZkbkFaNk84RjVVVUVpRGhGNjJwYzJSUWRMeE43TFRBaEFtbldFVm0zdUtvYmtyejRSeVVzOWxVSG85QTZHS0dQcUpvQ1lmaWZxS05nemJYRVVQU2NYT0NpMGtPMzhPRURpRVZDa3VkZFo2SFdMcUhMNk9INFFyR252Sy1VTGY?oc=5",
-      "source": "Meio e Mensagem",
-      "published_at": "Wed, 16 Sep 2026 20:20:43 GMT",
+      "title": "Empresas com Governança de Dados planejam mais investimentos em IA",
+      "summary": "Empresas com Governança de Dados planejam mais investimentos em IA",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE51OUlseTFVdHJZZFpEUTlOSTN5MTRjMm9XZS1PLUtqcWNycDI4V3hpT1NzOHFEZU93eURUQTRYR3VtOFNObjc5SWtvWVJxQVF1MzY3Q21QQnkxcGJfYURxTXJpNnpWamw5d3lvT3pXMlpZYU51V0UxZHlQVUzSAYIBQVVfeXFMTThGVnVJSm5qY0xWVUI4aVRHVERBMlJVdktvdVVFdG1SbVBlV1pPek5ac1RESHZscWd6QWJ3UE8xZmJYd040c1pzR0xURW4wR3U1c1FqTTFDZnhJZjYwUXhwcWtqRUZEWDE3Sk1aejVkZUFhZUhJRTd1MU9ScGZVeDhadw?oc=5",
+      "source": "IT Forum",
+      "published_at": "Thu, 17 Sep 2026 12:40:33 GMT",
       "category": "IA",
       "signal": "flat"
+    },
+    {
+      "title": "IA na sombra: governança, risco e impacto jurídico do uso não autorizado de inteligência artificial nas empresas",
+      "summary": "IA na sombra: governança, risco e impacto jurídico do uso não autorizado de inteligência artificial nas empresas",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNd2s2enVmN0o3ZHE2TVNqeHVaZWZTSnlFcjJFTEJBVllCTjcyRDBrd3ZVbFBVVmp3Zkl3UU1BdnhZM0Z1ZUtvejdKdUp3UW1tR19Kc0NNOWRLa1M5RmgydXdUc2JHdk9BYWlRMEo4enpLeVBQalpqX1dxXzlKQ20tT0hvNHJxNDJvOTcxa0FzQkp4bE82aVBzbHRUYmlpQjloUzhpQWtsaVRBaEpqcU0xT3lwX29jNTY1bFE4RTJSMkFMWHhPTEJCWlBjUXFuT0dVV0NCVjhnQldVc3RiLXhr?oc=5",
+      "source": "TI INSIDE Online",
+      "published_at": "Thu, 17 Sep 2026 16:26:10 GMT",
+      "category": "IA",
+      "signal": "down"
     }
   ],
   "category": "IA"
