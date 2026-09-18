@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T22:33:56.585679+00:00",
+  "generated_at": "2026-09-18T12:24:11.487481+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -23,19 +23,19 @@
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 76.229",
-      "change": "+0,73%",
+      "value": "US$ 77.982",
+      "change": "+1,47%",
       "direction": "up"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 2.438",
-      "change": "+1,93%",
+      "value": "US$ 2.499",
+      "change": "+1,61%",
       "direction": "up"
     },
     {
       "symbol": "OURO",
-      "value": "US$ 4.382",
+      "value": "US$ 4.412",
       "change": "estavel",
       "direction": "flat"
     },
@@ -47,7 +47,7 @@
     },
     {
       "symbol": "CDI",
-      "value": "13,9% a.a.",
+      "value": "13,65% a.a.",
       "change": "estavel",
       "direction": "flat"
     }
@@ -90,8 +90,8 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 76.229",
-      "change": "+0,73%",
+      "quote": "US$ 77.982",
+      "change": "+1,47%",
       "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -101,8 +101,8 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 2.438",
-      "change": "+1,93%",
+      "quote": "US$ 2.499",
+      "change": "+1,61%",
       "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -112,7 +112,7 @@
       "id": "gold",
       "name": "Ouro",
       "icon": "🥇",
-      "quote": "US$ 4.382",
+      "quote": "US$ 4.412",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -134,7 +134,7 @@
       "id": "cdi",
       "name": "CDI",
       "icon": "🏛️",
-      "quote": "13,9% a.a.",
+      "quote": "13,65% a.a.",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -144,12 +144,12 @@
   ],
   "news": [
     {
-      "title": "Lula turbina Bolsa Família em 15% e faz o Ibovespa perder 3 mil pontos. Por que o mercado torceu o nariz?",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxObmFjMmZBM3RGOURRSlUyVjlXRUJZLWsxWXBRS3lSYVNJVE5lWWVRR3YyZWtCN1RLSlUtR1R2SmNYd2NfcnFsc1psWGg0NFdlOHlobjNwdUdZWXUtVV9FZEFraTBMMnUwRkRSTHFJTUJYWWZaS1dqcjdSdklLOWxCanprMHF0b1V1VHNJTVBzR3RFZW9vU0czdkw4R0Y1V1p4R1RnNnFYVm1qLUhqcmtRaXRzampvLW9jb3RxX1Q3QVZZeUlzQ1R0ajM0LWJQQjB5N0lrTjVDS0ktZlZfMVlvc3M3WGk?oc=5"
+      "title": "Dólar cai e fecha a R$ 5,13 após reajuste do Bolsa Família e decisões de juros; Ibovespa sobe",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95RjhkZTVfZDZzaEpSdFQya05vSW1VZEYyR1BicHlhLUxDbThXa0hSaGVEbjJ1T3pIYzhVZGVzSm9neVJrSzFRN0VERUxkby1fTG0wbXFaSWM4blo5bTVCMnlRQWlBTi01M011dmJzdDdQenBuSUdWWdIBhwFBVV95cUxQb2lCcWRRQjAybWFRcWZkVlhPLXZtc2w5YkdqRXhXYmxFODlRUHJGSVk0UU5aN0pZRTJPVEJQY1hVVTdpREpZT09rN3F5VXdDN3Z4TzdJUlJLSmk0OGJQZU5zamo3Z2hzVEdPOG9Xbl9oQW12UUlOclNkQ3E0YlhlZGlKeXRDNW8?oc=5"
     },
     {
-      "title": "Dólar sobe e fecha a R$ 5,14 com cautela global e cenário político no Brasil; Ibovespa cai",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE54RS1nLUdLOUYxN3JGaFBuY28yc2dIUTJabWYxQlFRWURJdmE0Y21OZGdUdGdUYXZwYVd6MVI2MkY4UVNvRGlMSmRTdWhQcXdZN0NLbXNjeVMtOFFuUkNybWdmMkZLX2prbWFtVHk3X2FmaXhONXYxVtIBhwFBVV95cUxOS1ZDV0JDQUZhRmM2QUdsMExRN0c3M28xTVA1UHNyck1zUGswYUU0N3k1ZS16MEFVa004WWU2Q2V6N0p4ZkJHRTZFNFhQemhDdHIwVV9tdWlFbm9YZFRudm9pem9TZ2oxdjhoRG9OYUc0ZS00dld3N1AxSG1LMlFvYllLdkJaalk?oc=5"
+      "title": "Lula turbina Bolsa Família em 15% e faz o Ibovespa perder 3 mil pontos. Por que o mercado torceu o nariz?",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxObmFjMmZBM3RGOURRSlUyVjlXRUJZLWsxWXBRS3lSYVNJVE5lWWVRR3YyZWtCN1RLSlUtR1R2SmNYd2NfcnFsc1psWGg0NFdlOHlobjNwdUdZWXUtVV9FZEFraTBMMnUwRkRSTHFJTUJYWWZaS1dqcjdSdklLOWxCanprMHF0b1V1VHNJTVBzR3RFZW9vU0czdkw4R0Y1V1p4R1RnNnFYVm1qLUhqcmtRaXRzampvLW9jb3RxX1Q3QVZZeUlzQ1R0ajM0LWJQQjB5N0lrTjVDS0ktZlZfMVlvc3M3WGk?oc=5"
     },
     {
       "title": "Dólar sobe a R$ 5,15 e Bolsa cai, com petróleo e decisões de juros no radar",
@@ -158,6 +158,10 @@
     {
       "title": "Eleições 2026: como a disputa eleitoral afeta bolsa, juros e câmbio?",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zWExVd3Ffc1EtTjExc2tBWUd6d3BYcGQzZDJZbHdkV29sbHlIRkE1cGNkekdQNXRZQ0c2ZmwzZGcyeXJZVmZXNUN2SlVDOG5IclgxSmFJNENHeFlTckx1dk1QeHoxanhGNng3bjRENkQySlFrUTVVNWFBQjbSAYIBQVVfeXFMTW82Wng5bXAyRFpWY3YtZl9zRE5hQWRZOFQtcmhDdW9SOTdvaW9FTlBCTmlKaUlHcTZaQUxCX0hFbUI0NEhBQ1hRUmU0UTMtcnk2bGVMYUlwZTRqb25qSUhVSVg0Q1o2V2Q5LWdoZUpsMmE5S1lPNEc5NDlzT2ZXSF9QZw?oc=5"
+    },
+    {
+      "title": "Dólar sobe e fecha a R$ 5,14 com cautela global e cenário político no Brasil; Ibovespa cai",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE54RS1nLUdLOUYxN3JGaFBuY28yc2dIUTJabWYxQlFRWURJdmE0Y21OZGdUdGdUYXZwYVd6MVI2MkY4UVNvRGlMSmRTdWhQcXdZN0NLbXNjeVMtOFFuUkNybWdmMkZLX2prbWFtVHk3X2FmaXhONXYxVtIBhwFBVV95cUxOS1ZDV0JDQUZhRmM2QUdsMExRN0c3M28xTVA1UHNyck1zUGswYUU0N3k1ZS16MEFVa004WWU2Q2V6N0p4ZkJHRTZFNFhQemhDdHIwVV9tdWlFbm9YZFRudm9pem9TZ2oxdjhoRG9OYUc0ZS00dld3N1AxSG1LMlFvYllLdkJaalk?oc=5"
     },
     {
       "title": "Ibovespa consegue 11ª vitória e vai ao maior patamar desde maio; dólar recua",
@@ -170,16 +174,12 @@
     {
       "title": "Dólar a R$ 6,00? Morgan Stanley alerta para choque cambial e juros no teto sem ajuste fiscal em Novembro",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5EODlBQ1NGREExUDhUZzlzaEhMeHhZV1JmYko5QUZMbkkyYUNmX1NGUGNmdklWRTBYb0VNMlhLNk0zN2RTVXR2dG0xbTROaDZ4emtXQU53dk9RcXA2ZzV0V1ZDdEZLMmRkeGpOOGRBS3lsdw?oc=5"
-    },
-    {
-      "title": "Ibovespa hoje fecha em alta e dólar sobe a R$ 5,07; pregão foi mais curto por falha na B3",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOXzR6R0QxMVZCQkFqMnZNdWJ6bGx4QU00WmNJYVBnU1JZVVhsNG11VG50Zjd5R3NqbV9GYldtZ3ljWmRuakplS19icG16dWVCMTc1SnVSd1k3RTZ3OHhvcjFxY01BT2gzRVVxYkZMSDdrY0REOU92WGh0Z0t0V2RLNnVGU3lVZlFhekhiTEExV0xMQmY1eTRmMlhYRHF5aFZJWkxhbWRnUXZZT1ltSUFJMk96akJkZ0l1dHFuMlFCMkpSd3hDR2Y5c0t0ZEh2TW8zby1GUXNSenZoQVBNLWlxLdIB5gFBVV95cUxQcnpOdjd6b0tOb1dVZjdPOTZmeHBnMVZBaDQwQ3IyVjkwSzJRVklwLXlCMVN6ZTVzX0tuSVctRXRhWUQwTXJuak1RZ0NCODU3RWUwbTZmcXNicUozUVh1dGpDdHVEalRLMUgxSGZid2lDaTZuLWdkdnBXMDUtS0w4Nmw0bkM1VTR1VW5mRWxEOXA1Ui1uck1kMmxZU24wTW9TZGpsdWVQNlZMSXBSRzJDZm5jazZMbl9kRWRmNnZCLV92dkgxSUY1RDB5a3h2TDdia3B3cFJyTXFzZTYya0JieEk1NU9JQQ?oc=5"
     }
   ],
   "market_mood": {
     "label": "Neutro",
     "summary": "O mercado mostra sinais mistos; diversificacao e compras parceladas reduzem o risco de timing.",
-    "score": 1
+    "score": 0
   },
   "errors": []
 }
