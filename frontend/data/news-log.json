@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T12:24:16.303435+00:00",
+  "generated_at": "2026-09-18T22:08:21.107633+00:00",
   "source_note": "Historico de novidades TRCONGROUP consolidado dos radares.",
   "errors": [],
   "items": [
@@ -12,7 +12,15 @@
       "publishedAt": "Fri, 18 Sep 2026 12:15:00 GMT"
     },
     {
-      "source": "bbc.com",
+      "source": "Agora RN",
+      "category": "IA",
+      "title": "FIERN promove oficina sobre uso prático de inteligência artificial nas empresas na terça-feira 22",
+      "summary": "FIERN promove oficina sobre uso prático de inteligência artificial nas empresas na terça-feira 22",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVDlUUzFOLTJFWnRMSEJLTG9ZLVJxZzZJMG5yVFZFRF9BZ3RNZlRxTjBVR1lRVjcyMkxpeHBPTE5UOGh6aTNUdk8wTHpGNy1uRGJzbk5aVXdJNlVjdFg3OFBDTnRKaDFDYnlyY05VUkhEMnBNbklsS3JxMXNjVkRiOEZQM3pKT2R2Y3UyZnd3?oc=5",
+      "publishedAt": "Fri, 18 Sep 2026 20:59:57 GMT"
+    },
+    {
+      "source": "BBC",
       "category": "IA",
       "title": "O mundo está certo em temer IA, mas precisa confiar nas empresas, diz chefe da OpenAI",
       "summary": "O mundo está certo em temer IA, mas precisa confiar nas empresas, diz chefe da OpenAI",
@@ -28,7 +36,7 @@
       "publishedAt": "Wed, 16 Sep 2026 14:38:00 GMT"
     },
     {
-      "source": "G1",
+      "source": "g1.globo.com",
       "category": "IA",
       "title": "Uma das principais empresas de IA do mundo revela situações em que a tecnologia agiu por conta própria; veja episódios",
       "summary": "Uma das principais empresas de IA do mundo revela situações em que a tecnologia agiu por conta própria; veja episódios",
@@ -36,20 +44,12 @@
       "publishedAt": "Fri, 18 Sep 2026 01:10:37 GMT"
     },
     {
-      "source": "TI INSIDE Online",
+      "source": "Opera Mundi",
       "category": "IA",
-      "title": "IA na sombra: governança, risco e impacto jurídico do uso não autorizado de inteligência artificial nas empresas",
-      "summary": "IA na sombra: governança, risco e impacto jurídico do uso não autorizado de inteligência artificial nas empresas",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNd2s2enVmN0o3ZHE2TVNqeHVaZWZTSnlFcjJFTEJBVllCTjcyRDBrd3ZVbFBVVmp3Zkl3UU1BdnhZM0Z1ZUtvejdKdUp3UW1tR19Kc0NNOWRLa1M5RmgydXdUc2JHdk9BYWlRMEo4enpLeVBQalpqX1dxXzlKQ20tT0hvNHJxNDJvOTcxa0FzQkp4bE82aVBzbHRUYmlpQjloUzhpQWtsaVRBaEpqcU0xT3lwX29jNTY1bFE4RTJSMkFMWHhPTEJCWlBjUXFuT0dVV0NCVjhnQldVc3RiLXhr?oc=5",
-      "publishedAt": "Thu, 17 Sep 2026 16:26:10 GMT"
-    },
-    {
-      "source": "forbes.com.br",
-      "category": "IA",
-      "title": "Uso Não Autorizado de IA Atinge 82% das Empresas Brasileiras; Entenda os Riscos",
-      "summary": "Uso Não Autorizado de IA Atinge 82% das Empresas Brasileiras; Entenda os Riscos",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLThqVU9oNE9ueTRmZm1KUjFXb1VtcV96WGV6TUxkaFM4Y19fYmRSVEJHa1BudThpSi1uRTNVd2tuRHdfemk2cWtpSUhLOWlRWFVFRU0xWjVqa2Vocm1qcm81ZVo5ZXkxanF5MkJ0dlQzSVEwMEpHUTdTdXZhbUJXZUhkakxVUlVPTkJiazl6ZHhfTlNyeVllbkhQYVZMUXA3Q3J5QUJVMnVBRU5TZEhHcFVXcGZlLXdMWndrSUZ3?oc=5",
-      "publishedAt": "Wed, 16 Sep 2026 08:00:00 GMT"
+      "title": "OpenAI diz que ferramentas de IA geraram comando sem autorização humana",
+      "summary": "OpenAI diz que ferramentas de IA geraram comando sem autorização humana",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQi1CWW1mQXFzeWV5UGhzTkQtWDl4MDM3SXNuQlg4NXUwMUNWME85TlVGUWlKSnpUQ05Gb28zOV95N0JXdVM2NnRISE5wSGlUaTd6U3Zad1pjVUxXa1JSUl9KLTNNUFB5XzlOcFYtLVBEaS0yZWR4Q29ERmVYNGJ3a21pUWxQWDBsQ3JMT2s1dEVCUDBBc0ZVU0p4UF9jZ25mLWxVMUp4VGZaakpKb21hREI1bVBGMjVseWtZVVBnVDA?oc=5",
+      "publishedAt": "Fri, 18 Sep 2026 16:51:00 GMT"
     },
     {
       "source": "SEGS Portal Nacional",
@@ -64,7 +64,7 @@
       "category": "Tecnologia",
       "title": "IA aumenta produtividade no desenvolvimento de software, mas empresas ainda enfrentam gargalos de custo e revisão",
       "summary": "IA aumenta produtividade no desenvolvimento de software, mas empresas ainda enfrentam gargalos de custo e revisão",
-      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQTVphMWdFeUFMTENoTDEzeWVqa1JoSTM2UGRvT2FIVmlzeS1iSXdWS0R0ejV5T3BBeFhTTENBa1M2eUR6UXN5eUFIVGV1RTJMQm5qT1lzNzcxWEYyYkh1dXJWVkRtSy16VWVNQ0tIN0FZSUhuQU9qRTNmSm53a3ZoWWJjd29ZTlhhbS1SemZrdjg0YnVYZmJ6a0RycHNHZ3pBU3AxOEh2cFd3WEFuQ0I2dmRaZW1ydHNLa0RlZnJRTWJqT1duX1dLaEZpcFJZUWxfbVMxdXI2b2R1b0tMTGVNWTkwOGRsQTZMUE5RM1dWWGVSWE02bU9xc3p4cHZKTnU4MW8xYnFsRVNMYjVXbU9BeG4tM1J5ZE1Fa2FzekhtR3lLZGvSAaMCQVVfeXFMUE1aYTFnRXlBTExDaEwxM3llamtSaEkzNlBkb09hSFZpc3ktYkl3VktEdHo1eU9wQXhYU0xDQWtTNnlEelFzeXlBSFRldUUyTEJuak9Zczc3MVhGMmJIdXVyVlZEbUstelVlTUNLSDdBWUlIbkFPakUzZkpud2t2aFliY3dvWU5YYW0tUnpma3Y4NGJ1WGZiemtEcnBzR2d6QVNwMThIdnBXd1hBbkNCNnZkWmVtcnRzS2tEZWZyUU1iak9Xbl9XS2hGaXBSWVFsX21TMXVyNm9kdW9LTExlTVk5MDhkbEE2TFBOUTNXVlhlUlhNNm1PcXN6eHB2Sk51ODFvMWJxbEVTTGI1V21PQXhuLTNSeWRNRWthc3pIbUd5S2Rr?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOeGlwOUlldGNnZmlOWW82d2Nacll3Z0ItRnI3ZlZlZkg3OHU5WXhJNmVyMU16U2dzVmx3MzNacG5KZFNzM3hFWEdzQ1hQMkFuSTlDajlzaXlQYXlKUUxhY1dZRUI2ZkNRZFFpZFRfYXk0c3piZkhRMDJ5TUhrMUlqZXh0MDVjVlBrc0xqcWxUM3Z0SERLYjN6cXRPSFVJdEpCTGtGQXcteEN5ZDE2d19pam1ub0ZKTTI1dkxjX3ZHNFNKZjY4elJHQkVoYVpibzctN2UzT20ya1JCc3NkeHhPb2dWU1ZkMERwNnZtZlRnT2ZCVEdGXzBYYTNWUXM3TE90U01MMmJGcU9wVnVleVl2TEt0VUvSAaMCQVVfeXFMUE1aYTFnRXlBTExDaEwxM3llamtSaEkzNlBkb09hSFZpc3ktYkl3VktEdHo1eU9wQXhYU0xDQWtTNnlEelFzeXlBSFRldUUyTEJuak9Zczc3MVhGMmJIdXVyVlZEbUstelVlTUNLSDdBWUlIbkFPakUzZkpud2t2aFliY3dvWU5YYW0tUnpma3Y4NGJ1WGZiemtEcnBzR2d6QVNwMThIdnBXd1hBbkNCNnZkWmVtcnRzS2tEZWZyUU1iak9Xbl9XS2hGaXBSWVFsX21TMXVyNm9kdW9LTExlTVk5MDhkbEE2TFBOUTNXVlhlUlhNNm1PcXN6eHB2Sk51ODFvMWJxbEVTTGI1V21PQXhuLTNSeWRNRWthc3pIbUd5S2Rr?oc=5",
       "publishedAt": "Wed, 16 Sep 2026 12:15:28 GMT"
     },
     {
@@ -92,12 +92,12 @@
       "publishedAt": "Thu, 03 Sep 2026 07:00:00 GMT"
     },
     {
-      "source": "BPMoney",
+      "source": "TI INSIDE Online",
       "category": "Tecnologia",
-      "title": "B3 adota IA no desenvolvimento de software e reduz prazo de entrega em 35%",
-      "summary": "B3 adota IA no desenvolvimento de software e reduz prazo de entrega em 35%",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZE93R0FMaVlpNEl0R1RBZTRXeVlIODN2b3U1R0U0cGRNR2ozNG1fc1NpR0JDY2QxTXZwSUNuNTl4Y2ZiZ1ZzVWhOWkNwTEJVZFpfTl9ISzR3akN4UW9ISmlyU1NHX0FST1RQZThPVi14ZzkyUTVtSUxadld6YkYzbDJFUWlpSzQ2V2FHYWZxMkdLbHhfbGppMzJ5NklrUnN4SThOa2xUTkdsRDVfdG5xV0lQTmVlUnZj?oc=5",
-      "publishedAt": "Thu, 03 Sep 2026 07:00:00 GMT"
+      "title": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
+      "summary": "Como agentes de IA estão redefinindo o desenvolvimento de produtos e software no Itaú",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUVRkY3hvRDJhQ3B1Y0R6MndjNXBQNHFGVVBLb2IzS0hkV3FsS3FkbkNkZzhXaTB2Tzl2QWZZUjZ1dmxFZUdRVEFIQUFCemFzMmlDQmpZTnJYTXdPXzBKSUdXYmZrTlNOWGVNNlZ0YlQ1eGwzT3NHV2pkTXpCck93M21SV2hYVkVHbGhfY01oVXI3ZFh5Uzd3VURZeDlCUXl3X3J3SWx4QzFIQ253c1B6aktSMUZVcE4temUzaGxR?oc=5",
+      "publishedAt": "Wed, 03 Jun 2026 07:00:00 GMT"
     }
   ]
 }

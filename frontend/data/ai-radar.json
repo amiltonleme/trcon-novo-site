@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T12:24:14.945245+00:00",
+  "generated_at": "2026-09-18T22:08:18.597068+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -13,10 +13,19 @@
       "signal": "flat"
     },
     {
+      "title": "FIERN promove oficina sobre uso prático de inteligência artificial nas empresas na terça-feira 22",
+      "summary": "FIERN promove oficina sobre uso prático de inteligência artificial nas empresas na terça-feira 22",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVDlUUzFOLTJFWnRMSEJLTG9ZLVJxZzZJMG5yVFZFRF9BZ3RNZlRxTjBVR1lRVjcyMkxpeHBPTE5UOGh6aTNUdk8wTHpGNy1uRGJzbk5aVXdJNlVjdFg3OFBDTnRKaDFDYnlyY05VUkhEMnBNbklsS3JxMXNjVkRiOEZQM3pKT2R2Y3UyZnd3?oc=5",
+      "source": "Agora RN",
+      "published_at": "Fri, 18 Sep 2026 20:59:57 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
       "title": "O mundo está certo em temer IA, mas precisa confiar nas empresas, diz chefe da OpenAI",
       "summary": "O mundo está certo em temer IA, mas precisa confiar nas empresas, diz chefe da OpenAI",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9rRTdiTThUNzZVd2hHS01jXzBqcFNkcnNqM0pna241M3F2UUQ5R3BpQVNTaWlpQjZzU3dmaG5hcmxHcjdqRTBvM2ZlSDM5YXFJWEhrcWpOc09ibEc4YnhORUxTc9IBaEFVX3lxTFBqbXg5NndyX0t2OTZKdDFpMW5zdWNPczJwSzVtWVFaZUc1RnhOVFNKWGpjTEJkejBmd2luLWZCWkZKX0lXazExQy1KbkVJeUU0RGpaUmhWVFRpRlE2TlBCMGJZaDMyVmJ4?oc=5",
-      "source": "bbc.com",
+      "source": "BBC",
       "published_at": "Wed, 16 Sep 2026 12:50:27 GMT",
       "category": "IA",
       "signal": "flat"
@@ -34,28 +43,19 @@
       "title": "Uma das principais empresas de IA do mundo revela situações em que a tecnologia agiu por conta própria; veja episódios",
       "summary": "Uma das principais empresas de IA do mundo revela situações em que a tecnologia agiu por conta própria; veja episódios",
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOMEFFR2dlaW5JX2NEYll4ajFSQUdOWnRkQXpmQ00tLVlzWmd1cXU0dk9Da3BxbXZQMlVpMHpmakMxZlVQc3pIN1pCX1FqbTlpYWIzRVVCY3JOcmx6aVFaOFRnLS00S1A2YkNIbzNKSEk3eGtUZEthdkNjZV9OUU9SWWJjTDZyOVVOaW5pY0lQbU5odmpuQmJaM002NGs1Z25NYkdKNmUyWjdzRV93ZGt0dFhOOXNqZmdROGN0X0xvanVHNG84bGF0emtaSFZHb1pTSzNieVRWMnB5QkYtd0QxTzlRV1lqRGNsVE9xeGFTZEVvOW14am13R1MydlBVclFkZURoUms0a1NOa1XSAZoCQVVfeXFMTzV5SXA1enFPVmJtX3ViT0VxLXhHT1dMWUMxWExYSUZyUG1tYVZUYk9oTU9RdVdvcmluamc5U2NoUktsQTFVVHpib1cyb1BZTjRNNzhsVUhJR0hEclhFNUpCcEc1dTBmZWtUbGZvZGI1b0JoVkR5eXJVcnRQMldSZG41R3JTQmNjZmhFREw2RnY4MWpEMDJNS2V3WWFuZWoyZ0xPSUhONXN0bktiLTFGR3pGeG1KcDFNR05EY1BZd0gzTkc1Q3pMTEJWbFRpTHNpODV5dmJjS2NPZG5fUTk1U1g0UGFJOVdGM205SnBTV0pqVzJTZzBudWFSMGUzWk1SUWRfUy1WNGxsZFJGNXpteWROV0VOd255U1V3?oc=5",
-      "source": "G1",
+      "source": "g1.globo.com",
       "published_at": "Fri, 18 Sep 2026 01:10:37 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "IA na sombra: governança, risco e impacto jurídico do uso não autorizado de inteligência artificial nas empresas",
-      "summary": "IA na sombra: governança, risco e impacto jurídico do uso não autorizado de inteligência artificial nas empresas",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNd2s2enVmN0o3ZHE2TVNqeHVaZWZTSnlFcjJFTEJBVllCTjcyRDBrd3ZVbFBVVmp3Zkl3UU1BdnhZM0Z1ZUtvejdKdUp3UW1tR19Kc0NNOWRLa1M5RmgydXdUc2JHdk9BYWlRMEo4enpLeVBQalpqX1dxXzlKQ20tT0hvNHJxNDJvOTcxa0FzQkp4bE82aVBzbHRUYmlpQjloUzhpQWtsaVRBaEpqcU0xT3lwX29jNTY1bFE4RTJSMkFMWHhPTEJCWlBjUXFuT0dVV0NCVjhnQldVc3RiLXhr?oc=5",
-      "source": "TI INSIDE Online",
-      "published_at": "Thu, 17 Sep 2026 16:26:10 GMT",
+      "title": "OpenAI diz que ferramentas de IA geraram comando sem autorização humana",
+      "summary": "OpenAI diz que ferramentas de IA geraram comando sem autorização humana",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQi1CWW1mQXFzeWV5UGhzTkQtWDl4MDM3SXNuQlg4NXUwMUNWME85TlVGUWlKSnpUQ05Gb28zOV95N0JXdVM2NnRISE5wSGlUaTd6U3Zad1pjVUxXa1JSUl9KLTNNUFB5XzlOcFYtLVBEaS0yZWR4Q29ERmVYNGJ3a21pUWxQWDBsQ3JMT2s1dEVCUDBBc0ZVU0p4UF9jZ25mLWxVMUp4VGZaakpKb21hREI1bVBGMjVseWtZVVBnVDA?oc=5",
+      "source": "Opera Mundi",
+      "published_at": "Fri, 18 Sep 2026 16:51:00 GMT",
       "category": "IA",
-      "signal": "down"
-    },
-    {
-      "title": "Uso Não Autorizado de IA Atinge 82% das Empresas Brasileiras; Entenda os Riscos",
-      "summary": "Uso Não Autorizado de IA Atinge 82% das Empresas Brasileiras; Entenda os Riscos",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLThqVU9oNE9ueTRmZm1KUjFXb1VtcV96WGV6TUxkaFM4Y19fYmRSVEJHa1BudThpSi1uRTNVd2tuRHdfemk2cWtpSUhLOWlRWFVFRU0xWjVqa2Vocm1qcm81ZVo5ZXkxanF5MkJ0dlQzSVEwMEpHUTdTdXZhbUJXZUhkakxVUlVPTkJiazl6ZHhfTlNyeVllbkhQYVZMUXA3Q3J5QUJVMnVBRU5TZEhHcFVXcGZlLXdMWndrSUZ3?oc=5",
-      "source": "forbes.com.br",
-      "published_at": "Wed, 16 Sep 2026 08:00:00 GMT",
-      "category": "IA",
-      "signal": "down"
+      "signal": "flat"
     }
   ],
   "category": "IA"
