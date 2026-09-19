@@ -1,17 +1,8 @@
 {
-  "generated_at": "2026-09-19T12:05:52.801106+00:00",
+  "generated_at": "2026-09-19T21:59:41.644233+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
-    {
-      "title": "FIERN promove oficina sobre uso prático de inteligência artificial nas empresas na terça-feira 22",
-      "summary": "FIERN promove oficina sobre uso prático de inteligência artificial nas empresas na terça-feira 22",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVDlUUzFOLTJFWnRMSEJLTG9ZLVJxZzZJMG5yVFZFRF9BZ3RNZlRxTjBVR1lRVjcyMkxpeHBPTE5UOGh6aTNUdk8wTHpGNy1uRGJzbk5aVXdJNlVjdFg3OFBDTnRKaDFDYnlyY05VUkhEMnBNbklsS3JxMXNjVkRiOEZQM3pKT2R2Y3UyZnd3?oc=5",
-      "source": "Agora RN",
-      "published_at": "Fri, 18 Sep 2026 21:00:29 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
     {
       "title": "IA não vai tirar seu emprego, mas alguém usando IA vai, diz David Vélez, do Nubank",
       "summary": "IA não vai tirar seu emprego, mas alguém usando IA vai, diz David Vélez, do Nubank",
@@ -22,40 +13,49 @@
       "signal": "flat"
     },
     {
-      "title": "Agentes de IA: Como a tecnologia pode ajudar empreendedores e profissionais autônomos a ganhar tempo e produtividade",
-      "summary": "Agentes de IA: Como a tecnologia pode ajudar empreendedores e profissionais autônomos a ganhar tempo e produtividade",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVVk0VkNNckY4OTcwVW81a0ExWncwakRhZzNOaEoxMXFNSDdKLW13LUhuRWJfNE9iVGlJeWZqdnFtWTFaUVZPN2duQ1pQd2JISHUzbGxBQzh5NUVrMk9ySVhSdXhKWG90U09mSk54ekV3V2pIcmN3NjVCTml3R0kzZWZDZEpzUzVzTVBJSmgxQmd5dGM1YlRsWS1ZRDhCVkU3ZVVleFRuU01RdHFtTTd0TEU0TXU3aUs2emVsWkRRMHRza2FoMVFHYm4yQno5WjlYNi0tNHRFZHNiam9pZnJvMDhaS19sYm04QXU5ZQ?oc=5",
-      "source": "Money Times",
-      "published_at": "Sat, 19 Sep 2026 12:00:00 GMT",
+      "title": "Como adotar a inteligência artificial nas empresas",
+      "summary": "Como adotar a inteligência artificial nas empresas",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdlNWODNsZ084VVJPeUZYanA5RXB3ZWk0SXk3bmxrQXpkV051cFYtUHVKaDZmaHZ3dldJNVpVSFNmS3VzeTFhMVRsMDRQdjZFVktXVldxcU8tZDJNenFndGRoRFpDZVBJdk5ZTEtCYWgySzhYeENsNGo0UmdDZVZTbklid1RzQVdXNGRtVVJiUlJOeDlfdXFOYUVORVByNnFKRS1xMi1jRTBaQlFK0gG7AUFVX3lxTE9NNTBXWU1pUlVLRkExWW9uSlQ4NXhSZWpNM2xtd3BRZzZPelpYMEUxZmhMY0d4eG1LUHotYWRYNHBjMXdjak52cTI2YlFjWHdxaWNwZy1BRjJ4ZHJwcmswUmlBbF8wWTVnM2hNdFdmY210Z0tpUXd3YmtfRVJFM0VWM0w1aVIzOEc2V210STN3QnB6WUx5SnVicDQwd0NaUHN1LTZoZnpCU2xlZkh1UG84VUNaeEFxLUhXWjQ?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Thu, 17 Sep 2026 08:00:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
+      "title": "Cada vez mais, confidências a chatbots da IA terminam nas cortes dos EUA",
+      "summary": "Cada vez mais, confidências a chatbots da IA terminam nas cortes dos EUA",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcElzdjBXdFVaRThvdzh1dzVjQV9USzJwQzZlSEZQS1Q4R2hkeU5IRVQwNHdrYnIwTlJ6VnpQYjdBVXZjNTRCamJzSlNjMG94S2QxZnRRQ21wZVdncGt0RkhXZGI5X1RCZDI1Y1dub0ZmblFmZ2xRSU9CUmJNbUxPQ0VWbUVYZTdTTjkzakQ2eU05bTlPdzFidDR3alJ6SVE?oc=5",
+      "source": "Consultor Jurídico",
+      "published_at": "Sat, 19 Sep 2026 15:28:05 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Empresas aceleram uso de IA enquanto cresce debate sobre quem deve controlar modelos avançados - Varejo S.A - CNDL",
+      "summary": "Empresas aceleram uso de IA enquanto cresce debate sobre quem deve controlar modelos avançados - Varejo S.A - CNDL",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSll2blFwWHJoZFZWM1oxZjVHOGZZWFhuVnRSUXJmU1NjSEpUUkxBMVRCNTZLYTlKMG5oNzVzcUtHeXlQeEZ3U1BjaXhxRy1YajNrM2NPR3lOTWFnclZCRDJUSjJLOUN5d254NTNUN0N2WDUzY3Y5LTVNY1BOSUZrSUNkdWI2c0dXVW1maG9HbnNKYm9yYlF6X3R0cG1peHg0NkoyN0FrSUV4SzJlWi1yQW8tNDh6Tnl1RllfeENrVzJ6Zw?oc=5",
+      "source": "CNDL - Confederação Nacional de Dirigentes Lojistas",
+      "published_at": "Sat, 19 Sep 2026 15:47:10 GMT",
+      "category": "IA",
+      "signal": "up"
+    },
+    {
       "title": "Anthropic escolhe consultoria independente para avaliar segurança de modelo de IA",
       "summary": "Anthropic escolhe consultoria independente para avaliar segurança de modelo de IA",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTHFTQXBwVjRldTBxQ1lQSUx3cTlVdS1oQVI1N2dWeGdidWlCLWU5SEVZYld5Z0hLOHRubE1tUnp6NlVqNDZ4d3l2REc2VFpCTWJuLWlTS3VRTTlsRkpCdE1VdWVJODIwU1ZKRGpQMXdYdDJWUE5PUnlzczJ1S3JIQnRNemozYUhmazNDak5MOXdxaVNzdlRaV2dKa2RjUXZSV3AzSm1aQnB4cHduUTZaandRVWFhWm94N0s5NFZqdXVxbndWSmc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPenhVSTJmSlh5NXpfUHlEd2JVUm9UeTlKYkRLb2ZqVHE3NDVpeFRvN2xqM1BSMDZ5VE9RaE1EcmxoXzMwTEFQVTRnQXFlQkZqTndXOHNHRHQ4ekJBQnB1NjZkTlhYWjJidkJ1eTNELXo5b3RBNXRrQXNnMXRhRGxsbFhBLWlVV2k1RHoxaGtVZkNTU0VSNkxqWHA1MXlkVUpMdVJKSEZDSE1WYjd6R1BqMXJxbnVIaGRlOTlPcjIzQW5zUVlHRVZWN3p4a9IB0AFBVV95cUxNaWV0Um5LQ1hJbjF3R3FyUTdLRGFoT2JPODhqd1JHYXROUzc2NmpfZVBDaTZ2d2FnV3NxSUo4Y3M0T0NzRzdCamRKWkYzeEhIZXQ5c0NwU2xOZDVKSGt3c0pFTUZSdGtIQnNqZ0VxN2ZVeDk1X0RXaGV1b3JIQnBJbEliNGdMZmRGMFFQaldlblV6bVlzeEFudnc0Y0o2Sks0ZmlRcTBTWHQxVjdBOElwV3FCUk9TbkdNTGk1SVkzSE9HeWFXaGdPeEFvUXptRU5j?oc=5",
       "source": "Estadão",
       "published_at": "Sat, 19 Sep 2026 11:01:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Uma das principais empresas de IA do mundo revela situações em que a tecnologia agiu por conta própria; veja episódios",
-      "summary": "Uma das principais empresas de IA do mundo revela situações em que a tecnologia agiu por conta própria; veja episódios",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOMEFFR2dlaW5JX2NEYll4ajFSQUdOWnRkQXpmQ00tLVlzWmd1cXU0dk9Da3BxbXZQMlVpMHpmakMxZlVQc3pIN1pCX1FqbTlpYWIzRVVCY3JOcmx6aVFaOFRnLS00S1A2YkNIbzNKSEk3eGtUZEthdkNjZV9OUU9SWWJjTDZyOVVOaW5pY0lQbU5odmpuQmJaM002NGs1Z25NYkdKNmUyWjdzRV93ZGt0dFhOOXNqZmdROGN0X0xvanVHNG84bGF0emtaSFZHb1pTSzNieVRWMnB5QkYtd0QxTzlRV1lqRGNsVE9xeGFTZEVvOW14am13R1MydlBVclFkZURoUms0a1NOa1XSAZoCQVVfeXFMTzV5SXA1enFPVmJtX3ViT0VxLXhHT1dMWUMxWExYSUZyUG1tYVZUYk9oTU9RdVdvcmluamc5U2NoUktsQTFVVHpib1cyb1BZTjRNNzhsVUhJR0hEclhFNUpCcEc1dTBmZWtUbGZvZGI1b0JoVkR5eXJVcnRQMldSZG41R3JTQmNjZmhFREw2RnY4MWpEMDJNS2V3WWFuZWoyZ0xPSUhONXN0bktiLTFGR3pGeG1KcDFNR05EY1BZd0gzTkc1Q3pMTEJWbFRpTHNpODV5dmJjS2NPZG5fUTk1U1g0UGFJOVdGM205SnBTV0pqVzJTZzBudWFSMGUzWk1SUWRfUy1WNGxsZFJGNXpteWROV0VOd255U1V3?oc=5",
-      "source": "G1",
-      "published_at": "Fri, 18 Sep 2026 01:10:37 GMT",
+      "title": "Chefes de empresas de tecnologia pedem desaceleração da IA — mas o que a China pensa?",
+      "summary": "Chefes de empresas de tecnologia pedem desaceleração da IA — mas o que a China pensa?",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5lT1VnZTE2a1VOVWZDVENQYzVORmV1OEo1cmpLbUVKem5mT29IcWVxV0hpU1JWWDJwWXZjZFhYSEprMGlUR2QzTDBPQkNPNlhKYXRJS2V2WVhaODliNW5vZ01pd9IBaEFVX3lxTE1fUmI3Y3IzemQxYzJsTmFSN25xUHl5VDRyaXJ3Y1VHdVYyR2MyRkcxdGhqZHB1ZnUtbzctNlJ6blN0UEkzOWlpVWoybEpwNXJNb0UwOVZRb29PTmRKU1Uyc0xVeGE4UkR4?oc=5",
+      "source": "BBC",
+      "published_at": "Fri, 18 Sep 2026 22:05:25 GMT",
       "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "IA do Google invade três empresas em novo incidente envolvendo agentes autônomos",
-      "summary": "IA do Google invade três empresas em novo incidente envolvendo agentes autônomos",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeFZ1ZXBhdm4tbjlPSW9RUmdBUENYWTcyTy1FYzBQQ2JHU05VNDZDYlNwTXNOT05qb3BfMW5NTGlDZUNuRXNpdUxQVmJjUlBwYXpGTjYwZWh3bmdvNk5FMHBKQWoteFp3b1gwT2FQblRhT0VGNjdwdjBNV3V4bzMtZFRYbFhabXZ6MG40YXBHMlFwVDR6VnpPY1RxTVB2bTQyMnJ6NUpxTW1DX1lIM3ZPQmVYVEsxY1plNU9Jc0NxaElCZ3hyNWxueHA4dXNUT0VXeG5aVlNPWDhQVVdKUXg2NUpCRdIB8gFBVV95cUxOb0l1cFNJNTNtNFRMUFJfMkoxc2R4TEZfLVlLa01fZy1LRl9Ocnl6Uy1XbzVmLTJ5RzJ2YlVzcGJBRUlWZG5ETDJodkpBZzVBckRlX29tMnktQXZwbXNiUnFZN3hnbzkyMDFkeW1temRfNy1KY0t6SkYzb0tzNWFTN3FRdlVGQXhSRmdKWVpDWVo3TEVQOUtFblZVY3ZlcEFBVG5qTWVKYVJGYUFfVGg5aEVvQWhtcFR0OExxSm54S1VsMFRNbEk3OTFkbTRLdXhvMF9GSVpCdy1Ga0tNS2VWWnpnNEhDYS00cTdxcm91U3oxZw?oc=5",
-      "source": "G1",
-      "published_at": "Sat, 19 Sep 2026 10:21:55 GMT",
-      "category": "IA",
-      "signal": "flat"
+      "signal": "up"
     }
   ],
   "category": "IA"
