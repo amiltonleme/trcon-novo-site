@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-09-18T22:08:18.597068+00:00",
+  "generated_at": "2026-09-19T12:05:52.801106+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
-    {
-      "title": "Anthropic alerta para sistemas de inteligência artificial capazes de desenvolver novos modelos IA",
-      "summary": "Anthropic alerta para sistemas de inteligência artificial capazes de desenvolver novos modelos IA",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQQkJEbmMzTEtLajVMcVVsdEE5SUJjREwwdExDRzZmQmdhb3NCOEkwNkFwZXdUTmRRdXoxZmEtUC1hWDFfZzJXMG5SQVl0VnBrN0FXZVh1aGFkSEduLVA2X1ZmaVFRNjNsYkRVNTlMNXJ6bU9zWGxQYlF6bHdpUEFrNGJUWERoa2QxZGpSbWw1QXJJVWlpOFlFOG1VUzJLLWxVWllzWElpVWNWTUV3emxtM1lFdmdDNXNqVHVlbGhwV3Z1VmF0NEgzUXBkSEJHdXNaaWlsaWxBX2N6X1RFSXRTeVlSUmFDcTFtdDBlRDdBUE9GUkNTMEtINDI4MmxGZw?oc=5",
-      "source": "Times Brasil | CNBC",
-      "published_at": "Fri, 18 Sep 2026 12:15:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
     {
       "title": "FIERN promove oficina sobre uso prático de inteligência artificial nas empresas na terça-feira 22",
       "summary": "FIERN promove oficina sobre uso prático de inteligência artificial nas empresas na terça-feira 22",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVDlUUzFOLTJFWnRMSEJLTG9ZLVJxZzZJMG5yVFZFRF9BZ3RNZlRxTjBVR1lRVjcyMkxpeHBPTE5UOGh6aTNUdk8wTHpGNy1uRGJzbk5aVXdJNlVjdFg3OFBDTnRKaDFDYnlyY05VUkhEMnBNbklsS3JxMXNjVkRiOEZQM3pKT2R2Y3UyZnd3?oc=5",
       "source": "Agora RN",
-      "published_at": "Fri, 18 Sep 2026 20:59:57 GMT",
+      "published_at": "Fri, 18 Sep 2026 21:00:29 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "O mundo está certo em temer IA, mas precisa confiar nas empresas, diz chefe da OpenAI",
-      "summary": "O mundo está certo em temer IA, mas precisa confiar nas empresas, diz chefe da OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9rRTdiTThUNzZVd2hHS01jXzBqcFNkcnNqM0pna241M3F2UUQ5R3BpQVNTaWlpQjZzU3dmaG5hcmxHcjdqRTBvM2ZlSDM5YXFJWEhrcWpOc09ibEc4YnhORUxTc9IBaEFVX3lxTFBqbXg5NndyX0t2OTZKdDFpMW5zdWNPczJwSzVtWVFaZUc1RnhOVFNKWGpjTEJkejBmd2luLWZCWkZKX0lXazExQy1KbkVJeUU0RGpaUmhWVFRpRlE2TlBCMGJZaDMyVmJ4?oc=5",
-      "source": "BBC",
-      "published_at": "Wed, 16 Sep 2026 12:50:27 GMT",
+      "title": "IA não vai tirar seu emprego, mas alguém usando IA vai, diz David Vélez, do Nubank",
+      "summary": "IA não vai tirar seu emprego, mas alguém usando IA vai, diz David Vélez, do Nubank",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTmxVNUY4YjVFVG1ubmRlYU1BTWxGYkdqRzBSd1JPZXhVTmQxdXJXWlhzVTlwQzl0X1V6cnlYbmxNdEJsbzRSdkQ0Z2tFWm9iMU9fa3JBVHlhZk9DeEo3SHlVeHp6YV9Zc09vd2lFOXg3aE41bU1lZDVncGhDbzJnUGJCMzdNSWN1azA3SnFBX2hhXzhreDFxX2FiNm9FWHBiZ2xjejNuY0rSAa4BQVVfeXFMUDJqTW5mMTdzTUxncDd5dF9zcTZhbTBzY1VuNTZJMWp5WnM5Nl9zOXNwTEttQXZaeDJxUk92ODhFMHFtZkp6c2JuV1JaZTdnaXdMcEhJVmlIZ1VYSV9yOUtndXU0WjRoMUZXejZCa2FxWHZQVlZ2S2VQc0paSG13N3JBY09JM1BGM0hoc3ZkMThHUmhtNlYyMFA2VmNUX2pkdEZ4dTlXWDI0VlVuRFVn?oc=5",
+      "source": "Estadão",
+      "published_at": "Wed, 16 Sep 2026 16:17:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "O que as empresas esperam dos profissionais de tecnologia hoje",
-      "summary": "O que as empresas esperam dos profissionais de tecnologia hoje",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSUYybHgzalBmc08tSjJZbG92dVl3Rk50UW5nWWRUWURDNWJlV0lOMzI0OE1pWDlJY2hPSFo0WFR1MDAwdDgzb3VTOWdneDNLamxfMUR5ZXhTWFM5UHBMZGx0ZE01Z2c4dGlDMnNjaG5ERWpKNXdGU09JOWdEUEl4eS0taFJiTWhPR3hySGJDejBuZ2MyRmZ5M1BISVlxSk9kUzNFZ2U4ajdLZw?oc=5",
-      "source": "Olhar Digital",
-      "published_at": "Wed, 16 Sep 2026 14:38:00 GMT",
+      "title": "Agentes de IA: Como a tecnologia pode ajudar empreendedores e profissionais autônomos a ganhar tempo e produtividade",
+      "summary": "Agentes de IA: Como a tecnologia pode ajudar empreendedores e profissionais autônomos a ganhar tempo e produtividade",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVVk0VkNNckY4OTcwVW81a0ExWncwakRhZzNOaEoxMXFNSDdKLW13LUhuRWJfNE9iVGlJeWZqdnFtWTFaUVZPN2duQ1pQd2JISHUzbGxBQzh5NUVrMk9ySVhSdXhKWG90U09mSk54ekV3V2pIcmN3NjVCTml3R0kzZWZDZEpzUzVzTVBJSmgxQmd5dGM1YlRsWS1ZRDhCVkU3ZVVleFRuU01RdHFtTTd0TEU0TXU3aUs2emVsWkRRMHRza2FoMVFHYm4yQno5WjlYNi0tNHRFZHNiam9pZnJvMDhaS19sYm04QXU5ZQ?oc=5",
+      "source": "Money Times",
+      "published_at": "Sat, 19 Sep 2026 12:00:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Anthropic escolhe consultoria independente para avaliar segurança de modelo de IA",
+      "summary": "Anthropic escolhe consultoria independente para avaliar segurança de modelo de IA",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTHFTQXBwVjRldTBxQ1lQSUx3cTlVdS1oQVI1N2dWeGdidWlCLWU5SEVZYld5Z0hLOHRubE1tUnp6NlVqNDZ4d3l2REc2VFpCTWJuLWlTS3VRTTlsRkpCdE1VdWVJODIwU1ZKRGpQMXdYdDJWUE5PUnlzczJ1S3JIQnRNemozYUhmazNDak5MOXdxaVNzdlRaV2dKa2RjUXZSV3AzSm1aQnB4cHduUTZaandRVWFhWm94N0s5NFZqdXVxbndWSmc?oc=5",
+      "source": "Estadão",
+      "published_at": "Sat, 19 Sep 2026 11:01:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -43,17 +43,17 @@
       "title": "Uma das principais empresas de IA do mundo revela situações em que a tecnologia agiu por conta própria; veja episódios",
       "summary": "Uma das principais empresas de IA do mundo revela situações em que a tecnologia agiu por conta própria; veja episódios",
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOMEFFR2dlaW5JX2NEYll4ajFSQUdOWnRkQXpmQ00tLVlzWmd1cXU0dk9Da3BxbXZQMlVpMHpmakMxZlVQc3pIN1pCX1FqbTlpYWIzRVVCY3JOcmx6aVFaOFRnLS00S1A2YkNIbzNKSEk3eGtUZEthdkNjZV9OUU9SWWJjTDZyOVVOaW5pY0lQbU5odmpuQmJaM002NGs1Z25NYkdKNmUyWjdzRV93ZGt0dFhOOXNqZmdROGN0X0xvanVHNG84bGF0emtaSFZHb1pTSzNieVRWMnB5QkYtd0QxTzlRV1lqRGNsVE9xeGFTZEVvOW14am13R1MydlBVclFkZURoUms0a1NOa1XSAZoCQVVfeXFMTzV5SXA1enFPVmJtX3ViT0VxLXhHT1dMWUMxWExYSUZyUG1tYVZUYk9oTU9RdVdvcmluamc5U2NoUktsQTFVVHpib1cyb1BZTjRNNzhsVUhJR0hEclhFNUpCcEc1dTBmZWtUbGZvZGI1b0JoVkR5eXJVcnRQMldSZG41R3JTQmNjZmhFREw2RnY4MWpEMDJNS2V3WWFuZWoyZ0xPSUhONXN0bktiLTFGR3pGeG1KcDFNR05EY1BZd0gzTkc1Q3pMTEJWbFRpTHNpODV5dmJjS2NPZG5fUTk1U1g0UGFJOVdGM205SnBTV0pqVzJTZzBudWFSMGUzWk1SUWRfUy1WNGxsZFJGNXpteWROV0VOd255U1V3?oc=5",
-      "source": "g1.globo.com",
+      "source": "G1",
       "published_at": "Fri, 18 Sep 2026 01:10:37 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "OpenAI diz que ferramentas de IA geraram comando sem autorização humana",
-      "summary": "OpenAI diz que ferramentas de IA geraram comando sem autorização humana",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQi1CWW1mQXFzeWV5UGhzTkQtWDl4MDM3SXNuQlg4NXUwMUNWME85TlVGUWlKSnpUQ05Gb28zOV95N0JXdVM2NnRISE5wSGlUaTd6U3Zad1pjVUxXa1JSUl9KLTNNUFB5XzlOcFYtLVBEaS0yZWR4Q29ERmVYNGJ3a21pUWxQWDBsQ3JMT2s1dEVCUDBBc0ZVU0p4UF9jZ25mLWxVMUp4VGZaakpKb21hREI1bVBGMjVseWtZVVBnVDA?oc=5",
-      "source": "Opera Mundi",
-      "published_at": "Fri, 18 Sep 2026 16:51:00 GMT",
+      "title": "IA do Google invade três empresas em novo incidente envolvendo agentes autônomos",
+      "summary": "IA do Google invade três empresas em novo incidente envolvendo agentes autônomos",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeFZ1ZXBhdm4tbjlPSW9RUmdBUENYWTcyTy1FYzBQQ2JHU05VNDZDYlNwTXNOT05qb3BfMW5NTGlDZUNuRXNpdUxQVmJjUlBwYXpGTjYwZWh3bmdvNk5FMHBKQWoteFp3b1gwT2FQblRhT0VGNjdwdjBNV3V4bzMtZFRYbFhabXZ6MG40YXBHMlFwVDR6VnpPY1RxTVB2bTQyMnJ6NUpxTW1DX1lIM3ZPQmVYVEsxY1plNU9Jc0NxaElCZ3hyNWxueHA4dXNUT0VXeG5aVlNPWDhQVVdKUXg2NUpCRdIB8gFBVV95cUxOb0l1cFNJNTNtNFRMUFJfMkoxc2R4TEZfLVlLa01fZy1LRl9Ocnl6Uy1XbzVmLTJ5RzJ2YlVzcGJBRUlWZG5ETDJodkpBZzVBckRlX29tMnktQXZwbXNiUnFZN3hnbzkyMDFkeW1temRfNy1KY0t6SkYzb0tzNWFTN3FRdlVGQXhSRmdKWVpDWVo3TEVQOUtFblZVY3ZlcEFBVG5qTWVKYVJGYUFfVGg5aEVvQWhtcFR0OExxSm54S1VsMFRNbEk3OTFkbTRLdXhvMF9GSVpCdy1Ga0tNS2VWWnpnNEhDYS00cTdxcm91U3oxZw?oc=5",
+      "source": "G1",
+      "published_at": "Sat, 19 Sep 2026 10:21:55 GMT",
       "category": "IA",
       "signal": "flat"
     }

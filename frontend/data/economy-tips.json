@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T22:08:15.419651+00:00",
+  "generated_at": "2026-09-19T12:05:51.651580+00:00",
   "source_note": "Curadoria automatica de educacao financeira a partir de feeds RSS publicos, com complemento do catalogo estatico TRCONGROUP quando necessario.",
   "errors": [],
   "items": [
@@ -7,37 +7,25 @@
       "tag": "Mercado",
       "tag_class": "tag-blue",
       "title": "Selic cai para 14,75% ao ano e começa a redesenhar crédito, dívidas e investimentos no Brasil",
-      "body": "Selic cai para 14,75% ao ano e começa a redesenhar crédito, dívidas e investimentos no Brasil jornalgrandebahia.com.br",
+      "body": "Selic cai para 14,75% ao ano e começa a redesenhar crédito, dívidas e investimentos no Brasil Jornal Grande Bahia",
       "meta": [
         "Leitura rapida",
-        "Fonte: jornalgrandebahia.com.br"
+        "Fonte: Jornal Grande Bahia"
       ],
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYlQ2dS1xQTdKek1XSDVxZW14eXJkbzJ1bkx5Q1dYRGNjdGNSYVpaVWc1V2FseFpuQTdUZmMxaDV5YXR5OExuejBTeFVvRmNpcm9RNGdUY2VQczhFUFRpRWJGLUlMR2ZKRjdXYnF0b2lteG9IYkdrNGM0em9KRGJZVmpPX3NabFpGNmxlMGhlLVZNYVcwZmRTZ0VEdkhjZ2I3dGJsa3ZrV2FJOE9XTEVBb1NyRTFZRnBfS1hKamM4dmc2dDRGYjZOV253eHk?oc=5",
       "link_label": "Ler mais",
       "featured": true
     },
     {
-      "tag": "Estrategia Mensal",
-      "tag_class": "tag-green",
-      "title": "Concorrente da poupança, Tesouro Reserva atinge R$ 5,7 bi e 167 mil investidores",
-      "body": "Concorrente da poupança, Tesouro Reserva atinge R$ 5,7 bi e 167 mil investidores InfoMoney",
+      "tag": "Mercado",
+      "tag_class": "tag-blue",
+      "title": "R$ 1 trilhão na poupança: o que isso significa para a economia e os investimentos no Brasil?",
+      "body": "R$ 1 trilhão na poupança: o que isso significa para a economia e os investimentos no Brasil? XP Investimentos",
       "meta": [
         "Leitura rapida",
-        "Fonte: InfoMoney"
+        "Fonte: XP Investimentos"
       ],
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRVdVX3ZOS0s5NHVwTlJoWi1rVmJmRlN6X0FJd0JVVzJneGpkZFpCNXFiYWhqVG5GRlFuLWFMbEpkTWo0ak1sOGNvY1BIa29TVzY4WlFxN3MtNFZTN3QwbklxWjFhME1WM2VIQ2s1ZVM1cllnSXFOTlRxc0FOeW0zOUpSdWFZR3libEVFUVF5S0tVd09BcDJHTkxtWnlNMGFDM21oenkzaTJHNmc3WFJ5VElNMjd0SW1oSl9iRkp30gHDAUFVX3lxTFBFbHBZRVZOSWFuYjhHYlRjLXdLSUJWaVJTWmhBQTAtR2RRNV9hNmdBeGFyVDVEN05wRDA1OFRmckVvVjh4WG11aUl4MHpCNHVqUW5JS0pidWFDUV9LbGIyWkJIWm94Tkg4S3YydTZVQWpXNVFvUDdyMWhZU1AzNlNoT0c4cXBkZVBHZGdjRjVSUlFaeVUteHJxUWlCMjJsd1pjVVdkUTh6SUhGS25La3h6OHRVcFc3QkJTQlFZT2x5MloxZw?oc=5",
-      "link_label": "Ler mais"
-    },
-    {
-      "tag": "Estrategia Mensal",
-      "tag_class": "tag-green",
-      "title": "Poupança ainda lidera investimentos no Brasil enquanto maioria segue sem reserva financeira",
-      "body": "Poupança ainda lidera investimentos no Brasil enquanto maioria segue sem reserva financeira arevista.com.br",
-      "meta": [
-        "Leitura rapida",
-        "Fonte: arevista.com.br"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQlVfU3FjemdJZE43a183NzYzLXFPblhXQlZMYXJlUHBORkdjbGNad2VxbzVYcDkwMUp4NHN0VzU0b1IwMi1zVDVwVVRsRU1BYXJ0VjAwQU9pbGZJUDBMUG03cmExTHliMHVRLTJlcnlnWU8yekpMdW5PVzZJXzBDME5uR3Q0S0paYXlfRHMzR1VYRnVQWm9FTlJVT0dfNWJMWlJxclZFNUZyOEN2QWctTk45R25hYXVYUDdqTnJfQkM2MXM?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbUs0eEVlWktIR2tkSFhnLV9naGp5MTczYThQdTVMa2c3ajR3X1JNQlpVY1owWm1ZZThlUVY0N24xN2NtYnN5VVp4aUVtUXJIU3FrYTVlQWVYWVQweEFvYTdyZXFFeExmOC1aTHJoaHFjYldhT0FuSFlLWTVvUTB3ZU1UQ1huM1JoeTNLQ1psT29ra3BZZ0UwRFFKTmdOdUVYU2t6ZzZNMVJpcmZBa0wxdFM3Ri1wLU1ZRTJjWTVSUlp2WGRpV1lj?oc=5",
       "link_label": "Ler mais"
     },
     {
@@ -50,6 +38,18 @@
         "Fonte: InfoMoney"
       ],
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdlBkM3hSODJ6dnBRdW5wdUZ5dE5jWUpISjBPVGZSdDVBVzAwYlFmTk1PQ3dYREUzVk9tWGJTWHQxeEVNaHlZUGY4azNSNVF6Nm1lNVdGT1Q3aXV1dEhYRXVnWWxTbjBXcFhacGp6eG5ReEVVeHoyZnVZTDl5d29iSFR2LVhRNUZ2MjlKa29RNUhod1UycVlzZUFOcl9xX2NDQWFGWTZMTlBKa3BOc243Nmh0OHA4OFd0UWFOYWJCNVV1QdIBxwFBVV95cUxQRzQ3R2lkOHZxRm9HbHgtMjdMUGdQZzNXanpiemdBMDBnMGdmUTBudnZwbjI4S3N4TjZHMkMzMTdhbmExYWZLMVNvZGJfWHc2bFNqeVBzdjd0dzJPbXRkc2g1amk0RzVhcm9COFFCYVBJdENWSWh1LWJfU3R2aVNiN2dCWW1iV2luNWZMTWFncTZYZkh5QVltbHJ0aHZ5aUpRS3VyY2xoWEllWVVNd1RYZXF2YjdWYm9KUTY2TTk3NnNFOE1CVHRN?oc=5",
+      "link_label": "Ler mais"
+    },
+    {
+      "tag": "Estrategia Mensal",
+      "tag_class": "tag-green",
+      "title": "Poupança ainda lidera investimentos no Brasil enquanto maioria segue sem reserva financeira",
+      "body": "Poupança ainda lidera investimentos no Brasil enquanto maioria segue sem reserva financeira A Revista",
+      "meta": [
+        "Leitura rapida",
+        "Fonte: A Revista"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcUZUUlJZZDAycmc5eDBVWlplRzlzRncwNUMxSzFtVTZCNEFlNTZidDlTVnliRlhhSmRsTE1ZZHZLMlE4X19PTS03NmVSdjdMZk94bWJleFJYWWY3S2hncWlINjRaN3NoMUY3TEV6ZWw1T3ZTck0xRl9iQzBwMzZhTjBXaURITUR3OE12SjVndGFfMzlGZUs2QThNblJDYi1Ja1dkOFpXQ0RKTkZ5MEgxWHYxdEtuTl93bVFhcTExMi1DYmM?oc=5",
       "link_label": "Ler mais"
     }
   ],
