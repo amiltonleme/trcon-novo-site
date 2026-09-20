@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T12:40:12.981939+00:00",
+  "generated_at": "2026-09-20T22:04:56.933633+00:00",
   "source_note": "Curadoria automatica de educacao financeira a partir de feeds RSS publicos, com complemento do catalogo estatico TRCONGROUP quando necessario.",
   "errors": [],
   "items": [
@@ -17,6 +17,18 @@
       "featured": true
     },
     {
+      "tag": "Mercado",
+      "tag_class": "tag-blue",
+      "title": "R$ 1 trilhão na poupança: o que isso significa para a economia e os investimentos no Brasil?",
+      "body": "R$ 1 trilhão na poupança: o que isso significa para a economia e os investimentos no Brasil? XP Investimentos",
+      "meta": [
+        "Leitura rapida",
+        "Fonte: XP Investimentos"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbUs0eEVlWktIR2tkSFhnLV9naGp5MTczYThQdTVMa2c3ajR3X1JNQlpVY1owWm1ZZThlUVY0N24xN2NtYnN5VVp4aUVtUXJIU3FrYTVlQWVYWVQweEFvYTdyZXFFeExmOC1aTHJoaHFjYldhT0FuSFlLWTVvUTB3ZU1UQ1huM1JoeTNLQ1psT29ra3BZZ0UwRFFKTmdOdUVYU2t6ZzZNMVJpcmZBa0wxdFM3Ri1wLU1ZRTJjWTVSUlp2WGRpV1lj?oc=5",
+      "link_label": "Ler mais"
+    },
+    {
       "tag": "Estrategia Mensal",
       "tag_class": "tag-green",
       "title": "Tesouro Reserva: como funciona e quanto rende a nova “poupança 24 horas” do governo",
@@ -32,24 +44,12 @@
       "tag": "Estrategia Mensal",
       "tag_class": "tag-green",
       "title": "Poupança ainda lidera investimentos no Brasil enquanto maioria segue sem reserva financeira",
-      "body": "Poupança ainda lidera investimentos no Brasil enquanto maioria segue sem reserva financeira A Revista",
+      "body": "Poupança ainda lidera investimentos no Brasil enquanto maioria segue sem reserva financeira arevista.com.br",
       "meta": [
         "Leitura rapida",
-        "Fonte: A Revista"
+        "Fonte: arevista.com.br"
       ],
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcUZUUlJZZDAycmc5eDBVWlplRzlzRncwNUMxSzFtVTZCNEFlNTZidDlTVnliRlhhSmRsTE1ZZHZLMlE4X19PTS03NmVSdjdMZk94bWJleFJYWWY3S2hncWlINjRaN3NoMUY3TEV6ZWw1T3ZTck0xRl9iQzBwMzZhTjBXaURITUR3OE12SjVndGFfMzlGZUs2QThNblJDYi1Ja1dkOFpXQ0RKTkZ5MEgxWHYxdEtuTl93bVFhcTExMi1DYmM?oc=5",
-      "link_label": "Ler mais"
-    },
-    {
-      "tag": "Cartao",
-      "tag_class": "tag-orange",
-      "title": "Opinião | Endividamento alto e educação financeira",
-      "body": "Opinião | Endividamento alto e educação financeira Estadão",
-      "meta": [
-        "Leitura rapida",
-        "Fonte: Estadão"
-      ],
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU2UxQWs1alltU1EzekszTC1BUXVJYkV2cjRJSVZWb29aWlJTU2ZXaUdSaHBhcnBucmJ3MmpPSUk3bzRyZW1jSy02eWtoQ2c5WVk3LWJMQXhrenZwVEROamQya2ZuZkhZU2xsQTdPSkVGS3g4azVqNVQydU1qazFwNVdYS2FEWHNYdEt6ZTVwZWlTOUREV1E?oc=5",
       "link_label": "Ler mais"
     }
   ],
