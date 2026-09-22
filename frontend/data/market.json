@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T22:57:07.087391+00:00",
+  "generated_at": "2026-09-22T12:52:23.070044+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -23,19 +23,19 @@
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 86.344",
-      "change": "+6,34%",
+      "value": "US$ 85.984",
+      "change": "+0,89%",
       "direction": "up"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 2.775",
-      "change": "+5,10%",
+      "value": "US$ 2.752",
+      "change": "+0,97%",
       "direction": "up"
     },
     {
       "symbol": "OURO",
-      "value": "US$ 4.392",
+      "value": "US$ 4.378",
       "change": "estavel",
       "direction": "flat"
     },
@@ -90,29 +90,29 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 86.344",
-      "change": "+6,34%",
+      "quote": "US$ 85.984",
+      "change": "+0,89%",
       "direction": "up",
-      "recommendation": "Aguardar",
+      "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
-      "reason": "Alta forte aumenta risco de comprar no impulso; entrada gradual e cautelosa faz mais sentido."
+      "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
     },
     {
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 2.775",
-      "change": "+5,10%",
+      "quote": "US$ 2.752",
+      "change": "+0,97%",
       "direction": "up",
-      "recommendation": "Aguardar",
+      "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
-      "reason": "Alta forte aumenta risco de comprar no impulso; entrada gradual e cautelosa faz mais sentido."
+      "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
     },
     {
       "id": "gold",
       "name": "Ouro",
       "icon": "🥇",
-      "quote": "US$ 4.392",
+      "quote": "US$ 4.378",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -156,10 +156,6 @@
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95RjhkZTVfZDZzaEpSdFQya05vSW1VZEYyR1BicHlhLUxDbThXa0hSaGVEbjJ1T3pIYzhVZGVzSm9neVJrSzFRN0VERUxkby1fTG0wbXFaSWM4blo5bTVCMnlRQWlBTi01M011dmJzdDdQenBuSUdWWdIBhwFBVV95cUxQb2lCcWRRQjAybWFRcWZkVlhPLXZtc2w5YkdqRXhXYmxFODlRUHJGSVk0UU5aN0pZRTJPVEJQY1hVVTdpREpZT09rN3F5VXdDN3Z4TzdJUlJLSmk0OGJQZU5zamo3Z2hzVEdPOG9Xbl9oQW12UUlOclNkQ3E0YlhlZGlKeXRDNW8?oc=5"
     },
     {
-      "title": "Ibovespa fecha em baixa e acumula 1ª queda semanal desde agosto; dólar sobe",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNjFGOG4tY0kxOXhjRG9NWmR4T0hELWpYZ0NrdFRfX0N6VUZkeC1PRWs1cFRwOFk3aGo4cFVhMDJFbmZZaVNUY3VRTDlRNnM3V3BUS2ZWd0RTQ0FiSlViSVg5aFlBVzBCR2laaVAyQnYyOElNRnV6aWdXWThnYmdvQWZMQWwtV2Z5eV9kVmdoSXZ1bmxTNzE0QUN5ZDJxamN5OUxWWFNn?oc=5"
-    },
-    {
       "title": "Dólar fecha a R$ 5,13 e Bolsa sobe após decisões sobre juros no Brasil e nos Estados Unidos",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTmVsQ285S1RzdF9QaVRTWmxBcjFRaURDcFZySkNvUlhOdWZwUTlBQkZLR2tzRHg0ZUx1SW1vY054a01hcTdIbExGUjMtR2xvMnJTdlJtb0lyUVhLT1NzRHEyTFQ0MnN1YzZRSlR5TUVuSUl5MnJDUUxrbG15WWNYYkJnam1vZUFGMHdWZkxPelFwV3R5MC1BRXQtVTUtUVRnX0VXSzF6ZENZWnFXblEyVE5UV0JobmpobERBZA?oc=5"
     },
@@ -174,12 +170,16 @@
     {
       "title": "Dólar sobe e fecha a R$ 5,14 com cautela global e cenário político no Brasil; Ibovespa cai",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE54RS1nLUdLOUYxN3JGaFBuY28yc2dIUTJabWYxQlFRWURJdmE0Y21OZGdUdGdUYXZwYVd6MVI2MkY4UVNvRGlMSmRTdWhQcXdZN0NLbXNjeVMtOFFuUkNybWdmMkZLX2prbWFtVHk3X2FmaXhONXYxVtIBhwFBVV95cUxOS1ZDV0JDQUZhRmM2QUdsMExRN0c3M28xTVA1UHNyck1zUGswYUU0N3k1ZS16MEFVa004WWU2Q2V6N0p4ZkJHRTZFNFhQemhDdHIwVV9tdWlFbm9YZFRudm9pem9TZ2oxdjhoRG9OYUc0ZS00dld3N1AxSG1LMlFvYllLdkJaalk?oc=5"
+    },
+    {
+      "title": "Eleições 2026: como a disputa eleitoral afeta bolsa, juros e câmbio?",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zWExVd3Ffc1EtTjExc2tBWUd6d3BYcGQzZDJZbHdkV29sbHlIRkE1cGNkekdQNXRZQ0c2ZmwzZGcyeXJZVmZXNUN2SlVDOG5IclgxSmFJNENHeFlTckx1dk1QeHoxanhGNng3bjRENkQySlFrUTVVNWFBQjbSAYIBQVVfeXFMTW82Wng5bXAyRFpWY3YtZl9zRE5hQWRZOFQtcmhDdW9SOTdvaW9FTlBCTmlKaUlHcTZaQUxCX0hFbUI0NEhBQ1hRUmU0UTMtcnk2bGVMYUlwZTRqb25qSUhVSVg0Q1o2V2Q5LWdoZUpsMmE5S1lPNEc5NDlzT2ZXSF9QZw?oc=5"
     }
   ],
   "market_mood": {
     "label": "Neutro",
     "summary": "O mercado mostra sinais mistos; diversificacao e compras parceladas reduzem o risco de timing.",
-    "score": 0
+    "score": 1
   },
   "errors": []
 }
