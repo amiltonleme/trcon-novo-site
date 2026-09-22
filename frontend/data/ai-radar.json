@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T12:52:26.627291+00:00",
+  "generated_at": "2026-09-22T22:35:33.064633+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -13,22 +13,22 @@
       "signal": "flat"
     },
     {
-      "title": "Alibaba intensifica aposta na IA com novo chip e modelo mais robusto; ações sobem 5%",
-      "summary": "Alibaba intensifica aposta na IA com novo chip e modelo mais robusto; ações sobem 5%",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObTRtZXVYQXJUNHRIYm9FUURlMm5MV0p6dUx5MVY4WGNzRkNWd3k3UmZpVWJoUW05bDJITUlXSmxsNWMwVFEtVE8yVWFKb1RIOGEzVzRGOWpHYXJIbnFEUUxJdUU2NDQ3TVZJWEM2cVlRRkxWdmJIaHVDOGxQU2htVExLUFlsYmQtb3cyZWZ6S1Mzc3VmVy1UWnJEQ2hXRHFjVGxBVDAwa2llckFxYXMyMGxYeGNURTdWT1E?oc=5",
+      "title": "Claude Opus 5.5: Anthropic lança sua inteligência artificial mais poderosa e barata",
+      "summary": "Claude Opus 5.5: Anthropic lança sua inteligência artificial mais poderosa e barata",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY1J0Y181Y0FYNTY0OU0wNi12b25tdkY4U3psbEdhaGtMUXFBQndKeXlxWkw2YTFOS1ctU0lKZzZmelMycFdTVHQwanY4a0gzeEd1RjFvTXRMZ2lSN3RQZDBlSGw5RWVNVy1RNGlYQ1I4WGg0Tl93bkZvdnZTZFl0eHZwMmt1VGtrdjJCOWJQVTFnNnJqLUdtdXRkNE1VZlRpNmVvWENLcGQtRFhCQzhmRFJ4VzAzNWhod2c?oc=5",
       "source": "Money Times",
-      "published_at": "Tue, 22 Sep 2026 10:49:00 GMT",
+      "published_at": "Tue, 22 Sep 2026 17:52:00 GMT",
       "category": "IA",
-      "signal": "flat"
+      "signal": "up"
     },
     {
-      "title": "IA: líderes alertam para riscos existenciais da inteligência artificial",
-      "summary": "IA: líderes alertam para riscos existenciais da inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZjNKeWtCTmVScFVCeGJNNXJSYTZlWXc1M1JSUjNEOXdMWHFDcHhvU2Y0cVMxOEpDb3BOUmhDZWcyaXZKVG53ZEhqUnJ3Qkd2UkRCZ052ZjhWeEwyTmZSTHFKdzJlTTB0d1JYSWNYX0pBQTFFNnh0cWliUlBBUVhJelBpb0Z4dTJTVHJONFZDWkRMQQ?oc=5",
-      "source": "ISTOÉ DINHEIRO",
-      "published_at": "Mon, 21 Sep 2026 16:28:26 GMT",
+      "title": "5 tarefas que empresas já podem automatizar com inteligência artificial",
+      "summary": "5 tarefas que empresas já podem automatizar com inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQenZnUGszNWZqLWtEYnltcTVWS3lQZURFMnVULW9kSWVUWEtyaDBMTzFNZkJFNDNpYnFhRmY5aTNJUm1UR2pTN0J5eEZZdWxMRl9OS0xVaXViNU9jNGt5c0dXaTl3cDlPZG1RLVZEME54WklhNW5fbWJ3Ti1DWmV2N2RwTUZSRzlyVmlCNWVHLUdyc2FBclE?oc=5",
+      "source": "CartaCapital",
+      "published_at": "Tue, 22 Sep 2026 14:30:00 GMT",
       "category": "IA",
-      "signal": "down"
+      "signal": "flat"
     },
     {
       "title": "IA avança, mas dados ainda desafiam empresas",
@@ -40,20 +40,20 @@
       "signal": "flat"
     },
     {
-      "title": "Onde a IA reina mais no Brasil: na grande empresa ou na pequena?",
-      "summary": "Onde a IA reina mais no Brasil: na grande empresa ou na pequena?",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQb04wSjBTd3prREIwNE9OQkNlRmMyajdFTlBLYjFBS3FXNVhROUQxZ3pHRlh3OWdBdnBweEZ5YXhFRnJ0akYzUjdqa0dkTVE5RmlDQXNaS2dHUVR1dHdySEVHXzVYRWlxbEs2NExyLVVvYWdyVW0tQmtlSUo1Szc2OFZLbDNSN3dmVnBnVVduVUtxNDJwTVRqNjZ6cw?oc=5",
-      "source": "StartSe",
-      "published_at": "Mon, 21 Sep 2026 12:01:28 GMT",
+      "title": "Hacker Usa IA para Atacar Mais de 100 Empresas em Apenas Cinco Dias",
+      "summary": "Hacker Usa IA para Atacar Mais de 100 Empresas em Apenas Cinco Dias",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa0ZEY1ROU3I5b2JrRElHNDZzN1FzOUVkeHBsaHpMRWIwS1Roc1AzTGxQQ0NyZk1tUUppSF9nSzAxUERnVzFDRDJGcjZjYmZUZjlKMUt0OU8zbGxMRjZXMUxHSG91bjQxRlotN2VOeUZ0WU4yQk5TTFltb3I1X09hMldQck5EY2tiTkR2QVhCbVpjVnpZS01ycEs4bnVqMlBPRkZnYUtRTkZPMDEtaWlZ?oc=5",
+      "source": "Forbes Brasil",
+      "published_at": "Tue, 22 Sep 2026 17:23:42 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Prefeitura promove palestra internacional sobre Inteligência Artificial, infraestrutura e inovação em empresas",
-      "summary": "Prefeitura promove palestra internacional sobre Inteligência Artificial, infraestrutura e inovação em empresas",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNdjM5TjJOVmdUSmROcFpua3p6bDhNWUZoVDlDM2Y0MzNENlRURWdubldpblRsWUwzM3JXc0NVVk5udkpIcE1oRVRHaWZFUm5VcVQ3UFppUFVmUWpudWFaNHN6alJXR3IzcTNRYjlDeGFnN2hHS3NYbU1YcV9WaGc0UzA4ZXc4czB4UHg2cVVKVHhVeFZmZFJYT0dOUTdnVldzT3oyMi1CRWtQY2JfZWhmU0R2WDBuSkVzX2VvajJYd3lYLU9oRUJXX3JPS25qRlBfcUVpQ2d3bG8tRGdXNGh6Z3Itdko5ekRrQ3c?oc=5",
-      "source": "uberlandia.mg.gov.br",
-      "published_at": "Mon, 21 Sep 2026 20:57:47 GMT",
+      "title": "Panorama Mindset Digital: IA está disseminada nas empresas, mas ainda tem baixo impacto no P&L",
+      "summary": "Panorama Mindset Digital: IA está disseminada nas empresas, mas ainda tem baixo impacto no P&L",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMmpHQjlTa2EtcVpnaTY2VmJOLTVnUXFxc0dtUHVSNFhON3pKdHFQcjBrM3FYTUdQeVNkaHhud2JOUUVuSmNXNjJEWWlnMkVmMC1JNUhMQUNKYmRTUnJYZXpvcm5NZHNMY3NQQ0pNbnZURzZBQXViTWFVcnBqTjRTYVAxQUNwaDI2U25TWjdDV1Z1OTVJdldheDh6ZzN5RjBNS1IyQUgwNWdpdUpWd21xMUlZZ1BNellwWjdxVExRTHRUSXExVHc?oc=5",
+      "source": "TI INSIDE Online",
+      "published_at": "Tue, 22 Sep 2026 13:40:29 GMT",
       "category": "IA",
       "signal": "flat"
     }

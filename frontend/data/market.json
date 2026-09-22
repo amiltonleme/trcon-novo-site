@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-09-22T12:52:23.070044+00:00",
+  "generated_at": "2026-09-22T22:35:29.880094+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
     {
       "symbol": "USD/BRL",
-      "value": "R$ 5,11",
+      "value": "R$ 5,12",
       "change": "0,00%",
       "direction": "flat"
     },
     {
       "symbol": "EUR/BRL",
-      "value": "R$ 5,87",
+      "value": "R$ 5,86",
       "change": "0,00%",
       "direction": "flat"
     },
     {
       "symbol": "IBOVESPA",
-      "value": "186.596 pts",
+      "value": "187.423 pts",
       "change": "estavel",
       "direction": "flat"
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 85.984",
-      "change": "+0,89%",
-      "direction": "up"
+      "value": "US$ 86.190",
+      "change": "-0,37%",
+      "direction": "down"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 2.752",
-      "change": "+0,97%",
-      "direction": "up"
+      "value": "US$ 2.748",
+      "change": "-1,03%",
+      "direction": "down"
     },
     {
       "symbol": "OURO",
-      "value": "US$ 4.378",
+      "value": "US$ 4.402",
       "change": "estavel",
       "direction": "flat"
     },
@@ -57,7 +57,7 @@
       "id": "usdbrl",
       "name": "Dolar (USD)",
       "icon": "💵",
-      "quote": "R$ 5,11",
+      "quote": "R$ 5,12",
       "change": "0,00%",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -68,7 +68,7 @@
       "id": "eurbrl",
       "name": "Euro (EUR)",
       "icon": "💶",
-      "quote": "R$ 5,87",
+      "quote": "R$ 5,86",
       "change": "0,00%",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -79,7 +79,7 @@
       "id": "ibov",
       "name": "Ibovespa",
       "icon": "📊",
-      "quote": "186.596 pts",
+      "quote": "187.423 pts",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -90,9 +90,9 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 85.984",
-      "change": "+0,89%",
-      "direction": "up",
+      "quote": "US$ 86.190",
+      "change": "-0,37%",
+      "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
       "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
@@ -101,9 +101,9 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 2.752",
-      "change": "+0,97%",
-      "direction": "up",
+      "quote": "US$ 2.748",
+      "change": "-1,03%",
+      "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
       "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
@@ -112,7 +112,7 @@
       "id": "gold",
       "name": "Ouro",
       "icon": "🥇",
-      "quote": "US$ 4.378",
+      "quote": "US$ 4.402",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -144,20 +144,16 @@
   ],
   "news": [
     {
-      "title": "Alta dos juros nos EUA: o que esperar do dólar e das bolsas",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa0FoN3l5S1lrX0FGdWFwWVQtRjU4cnI2cWRub2w2SXlJOG5KS1RYNUdRWF9MakN6bXR4dzJyVzJEQXVmUHVKU3pNRHlpQ0VqQWJtWnI4VGhuSzZOSXZYYW85TVFIQ3BPZnYxTk9NRXR2V3RJcnpYUHpjUW85MmRQLdIB5wFBVV95cUxOOTYyakJRUXBXTXMxLVdLUnBxQzJMN0gtTThvYmRScWFyRXQtelotcVcxcS1DWGEyRGtYdWI5M3Q2dEl6dTZZUlhfejBQQ0t2NzRod0lOdkhNaVpRbnJnclpSZXQwSGF4c25UaUJTUWM0RTZOaWwzVk52TGVfellzcjRZZXVJSVg5VnNPWDBrR09FWmc2WXBibV9yYmdGd3FCWmJ1bEFNLXhvWjB3LXdGVHBXanA1M0s1dnJaaGtoWmZ1TUljckVKM3NfM0dkYkZrYkJiSW1YQndPV19IWXhBOE9GUXl5cTg?oc=5"
-    },
-    {
       "title": "Dólar sobe a R$ 5,14 e Bolsa cai, com ajustes a juros e à política fiscal",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUkFjX3RSU3hRNWgtZHJKR1puNFpQLS1EcXRhT3IzMHBYcVhUREdtak1velppZ1VmdGljRHNVcXZncE41bXJWQnh4MExIaTRsUkFiNVFVZm9ESGNDSjV6SG1rWTNfLTVFaDBqWm82TnZXbzR0TmRuUVRSQTgwbFFOMXdqNVBNYXhTMmR0TnMwNHNvRWhtUHZkdmhybnpUNmVnQkdaVHlhTDJmdzV6dHBtbFVYVm0xcjlNWmxHbg?oc=5"
     },
     {
-      "title": "Dólar cai e fecha a R$ 5,13 após reajuste do Bolsa Família e decisões de juros; Ibovespa sobe",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95RjhkZTVfZDZzaEpSdFQya05vSW1VZEYyR1BicHlhLUxDbThXa0hSaGVEbjJ1T3pIYzhVZGVzSm9neVJrSzFRN0VERUxkby1fTG0wbXFaSWM4blo5bTVCMnlRQWlBTi01M011dmJzdDdQenBuSUdWWdIBhwFBVV95cUxQb2lCcWRRQjAybWFRcWZkVlhPLXZtc2w5YkdqRXhXYmxFODlRUHJGSVk0UU5aN0pZRTJPVEJQY1hVVTdpREpZT09rN3F5VXdDN3Z4TzdJUlJLSmk0OGJQZU5zamo3Z2hzVEdPOG9Xbl9oQW12UUlOclNkQ3E0YlhlZGlKeXRDNW8?oc=5"
+      "title": "Alta dos juros nos EUA: o que esperar do dólar e das bolsas",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa0FoN3l5S1lrX0FGdWFwWVQtRjU4cnI2cWRub2w2SXlJOG5KS1RYNUdRWF9MakN6bXR4dzJyVzJEQXVmUHVKU3pNRHlpQ0VqQWJtWnI4VGhuSzZOSXZYYW85TVFIQ3BPZnYxTk9NRXR2V3RJcnpYUHpjUW85MmRQLdIB5wFBVV95cUxOOTYyakJRUXBXTXMxLVdLUnBxQzJMN0gtTThvYmRScWFyRXQtelotcVcxcS1DWGEyRGtYdWI5M3Q2dEl6dTZZUlhfejBQQ0t2NzRod0lOdkhNaVpRbnJnclpSZXQwSGF4c25UaUJTUWM0RTZOaWwzVk52TGVfellzcjRZZXVJSVg5VnNPWDBrR09FWmc2WXBibV9yYmdGd3FCWmJ1bEFNLXhvWjB3LXdGVHBXanA1M0s1dnJaaGtoWmZ1TUljckVKM3NfM0dkYkZrYkJiSW1YQndPV19IWXhBOE9GUXl5cTg?oc=5"
     },
     {
-      "title": "Dólar fecha a R$ 5,13 e Bolsa sobe após decisões sobre juros no Brasil e nos Estados Unidos",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTmVsQ285S1RzdF9QaVRTWmxBcjFRaURDcFZySkNvUlhOdWZwUTlBQkZLR2tzRHg0ZUx1SW1vY054a01hcTdIbExGUjMtR2xvMnJTdlJtb0lyUVhLT1NzRHEyTFQ0MnN1YzZRSlR5TUVuSUl5MnJDUUxrbG15WWNYYkJnam1vZUFGMHdWZkxPelFwV3R5MC1BRXQtVTUtUVRnX0VXSzF6ZENZWnFXblEyVE5UV0JobmpobERBZA?oc=5"
+      "title": "Dólar cai e fecha a R$ 5,13 após reajuste do Bolsa Família e decisões de juros; Ibovespa sobe",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95RjhkZTVfZDZzaEpSdFQya05vSW1VZEYyR1BicHlhLUxDbThXa0hSaGVEbjJ1T3pIYzhVZGVzSm9neVJrSzFRN0VERUxkby1fTG0wbXFaSWM4blo5bTVCMnlRQWlBTi01M011dmJzdDdQenBuSUdWWdIBhwFBVV95cUxQb2lCcWRRQjAybWFRcWZkVlhPLXZtc2w5YkdqRXhXYmxFODlRUHJGSVk0UU5aN0pZRTJPVEJQY1hVVTdpREpZT09rN3F5VXdDN3Z4TzdJUlJLSmk0OGJQZU5zamo3Z2hzVEdPOG9Xbl9oQW12UUlOclNkQ3E0YlhlZGlKeXRDNW8?oc=5"
     },
     {
       "title": "Aumento do Bolsa Família impacta Ibovespa e dólar, que oscilam sem viés",
@@ -168,12 +164,16 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQa2hmTTE3ak5sUzhjYXhnbTZkWkdVZjhuUHJlSV9tdFp0WUpsWmhZSTRZV1VuTV84TGpGcHQwSEdYcHhFUi01LTVvQXV4emk1TVROUEZXYUJ4QnBUVDJKNzZfbHZMbm1BTEtrZF9rempFRlFOaWJsbGJuZ09JMWQxQ3N0dndsSDVKRjJhdkg5Yw?oc=5"
     },
     {
+      "title": "Eleições 2026: como a disputa eleitoral afeta bolsa, juros e câmbio?",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zWExVd3Ffc1EtTjExc2tBWUd6d3BYcGQzZDJZbHdkV29sbHlIRkE1cGNkekdQNXRZQ0c2ZmwzZGcyeXJZVmZXNUN2SlVDOG5IclgxSmFJNENHeFlTckx1dk1QeHoxanhGNng3bjRENkQySlFrUTVVNWFBQjbSAYIBQVVfeXFMTW82Wng5bXAyRFpWY3YtZl9zRE5hQWRZOFQtcmhDdW9SOTdvaW9FTlBCTmlKaUlHcTZaQUxCX0hFbUI0NEhBQ1hRUmU0UTMtcnk2bGVMYUlwZTRqb25qSUhVSVg0Q1o2V2Q5LWdoZUpsMmE5S1lPNEc5NDlzT2ZXSF9QZw?oc=5"
+    },
+    {
       "title": "Dólar sobe e fecha a R$ 5,14 com cautela global e cenário político no Brasil; Ibovespa cai",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE54RS1nLUdLOUYxN3JGaFBuY28yc2dIUTJabWYxQlFRWURJdmE0Y21OZGdUdGdUYXZwYVd6MVI2MkY4UVNvRGlMSmRTdWhQcXdZN0NLbXNjeVMtOFFuUkNybWdmMkZLX2prbWFtVHk3X2FmaXhONXYxVtIBhwFBVV95cUxOS1ZDV0JDQUZhRmM2QUdsMExRN0c3M28xTVA1UHNyck1zUGswYUU0N3k1ZS16MEFVa004WWU2Q2V6N0p4ZkJHRTZFNFhQemhDdHIwVV9tdWlFbm9YZFRudm9pem9TZ2oxdjhoRG9OYUc0ZS00dld3N1AxSG1LMlFvYllLdkJaalk?oc=5"
     },
     {
-      "title": "Eleições 2026: como a disputa eleitoral afeta bolsa, juros e câmbio?",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zWExVd3Ffc1EtTjExc2tBWUd6d3BYcGQzZDJZbHdkV29sbHlIRkE1cGNkekdQNXRZQ0c2ZmwzZGcyeXJZVmZXNUN2SlVDOG5IclgxSmFJNENHeFlTckx1dk1QeHoxanhGNng3bjRENkQySlFrUTVVNWFBQjbSAYIBQVVfeXFMTW82Wng5bXAyRFpWY3YtZl9zRE5hQWRZOFQtcmhDdW9SOTdvaW9FTlBCTmlKaUlHcTZaQUxCX0hFbUI0NEhBQ1hRUmU0UTMtcnk2bGVMYUlwZTRqb25qSUhVSVg0Q1o2V2Q5LWdoZUpsMmE5S1lPNEc5NDlzT2ZXSF9QZw?oc=5"
+      "title": "Dólar cai para R$ 5,08, e bolsa recua pela quarta vez consecutiva",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdml3ZTZ5a0ZlMDRRZ0Q3aG5za0FPTHh4SThXMWJvY1h2S0ItT2dtdEFHT2pST19Tek41Q1NIRUp6S29NbU1OeGRtbmFmb19lOXU2TWFHeEZTeVkwSjFNcHFXNTYxQ2d0WW44VEppZTAwT1NnQjlXLThRVHdjd0t1UGo3MURtWkpjT3VUaFhwMXhreGpEY2FBOTJNUld5bzBzVVZrM0pTdGJacm1wd0FkZWoyM3lZdnNKNVQ3WQ?oc=5"
     }
   ],
   "market_mood": {
