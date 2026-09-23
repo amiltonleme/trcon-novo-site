@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-23T13:03:48.289710+00:00",
+  "generated_at": "2026-09-23T22:35:57.861035+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
+    {
+      "title": "Uso de inteligência artificial cresce, mas integração com agentes de IA ainda é desafio para 41% das empresas",
+      "summary": "Uso de inteligência artificial cresce, mas integração com agentes de IA ainda é desafio para 41% das empresas",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdENTN1g1MUJxcHlYQ05aS0hneHdGeXRFZExGbmZoYkowMnp2NkFWT01BNUFkZmNJU2RoMXMzTlBHQ0lkU0RYTnFlLW9WNlJ0TGhLd3UxQk1FUTVmZDMyMWZCcGxzUHBuTVpReHdMeFhsOGlLNUg3ZEtlX1Ezci1sR2FqWlhvdE9zWDNsajhQeHRwTTdqX29oemFsdnE2YW5Bc2V4cm9xenhHSlpocVhtTUN4c05QcTdseHVNMDZ5MkZsRThKUV9aQ0lOQjZsV1Z2WVZwV3gxVGJoUEhpR2w2dHZR?oc=5",
+      "source": "Money Times",
+      "published_at": "Wed, 23 Sep 2026 17:00:00 GMT",
+      "category": "IA",
+      "signal": "up"
+    },
     {
       "title": "Oficina aborda aplicação da Inteligência Artificial para avanços de processos das empresas industriais",
       "summary": "Oficina aborda aplicação da Inteligência Artificial para avanços de processos das empresas industriais",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSmh4T0RwUEpJTklTR1ZYbUxGQlhHSjdnRTJIOTJ1UG56R2tNcFVTU2xkWlZ0SVRTdTljbnIwdmNBRHFiVnN5T1ZWMWdwM3MxdXV6eDA4bVBsVkIzaURNUWdabTFzWlhTa3dDOUVnT3RXR3JpZFdKSThydVZJNjFZS0t2Q01tOGZEM05rRnJULUVBb1RmYmpvVmoxSFExRTd6NXE0UDFwWEpLVG1XT0JyaFJxZkVGRmk5TUprNWptb0hvYVV1S2c?oc=5",
       "source": "SENAI RN",
-      "published_at": "Wed, 23 Sep 2026 01:12:51 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Hacker Usa IA para Atacar Mais de 100 Empresas em Apenas Cinco Dias",
-      "summary": "Hacker Usa IA para Atacar Mais de 100 Empresas em Apenas Cinco Dias",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa0ZEY1ROU3I5b2JrRElHNDZzN1FzOUVkeHBsaHpMRWIwS1Roc1AzTGxQQ0NyZk1tUUppSF9nSzAxUERnVzFDRDJGcjZjYmZUZjlKMUt0OU8zbGxMRjZXMUxHSG91bjQxRlotN2VOeUZ0WU4yQk5TTFltb3I1X09hMldQck5EY2tiTkR2QVhCbVpjVnpZS01ycEs4bnVqMlBPRkZnYUtRTkZPMDEtaWlZ?oc=5",
-      "source": "Forbes Brasil",
-      "published_at": "Tue, 22 Sep 2026 17:23:42 GMT",
+      "published_at": "Wed, 23 Sep 2026 01:12:46 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -25,17 +25,17 @@
       "title": "5 tarefas que empresas já podem automatizar com inteligência artificial",
       "summary": "5 tarefas que empresas já podem automatizar com inteligência artificial",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQenZnUGszNWZqLWtEYnltcTVWS3lQZURFMnVULW9kSWVUWEtyaDBMTzFNZkJFNDNpYnFhRmY5aTNJUm1UR2pTN0J5eEZZdWxMRl9OS0xVaXViNU9jNGt5c0dXaTl3cDlPZG1RLVZEME54WklhNW5fbWJ3Ti1DWmV2N2RwTUZSRzlyVmlCNWVHLUdyc2FBclE?oc=5",
-      "source": "CartaCapital",
+      "source": "cartacapital.com.br",
       "published_at": "Tue, 22 Sep 2026 14:30:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "A ilusão de barrar a inteligência artificial nas empresas",
-      "summary": "A ilusão de barrar a inteligência artificial nas empresas",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY2JlQzZvcE1fRGRlejBQdEY0UjVmLWVYZW9Jb2c4dzdnZEE4WWtKSWxfMWcyZXNFd0lISEsyVjdoRjBpR3ljRG56SDRaU0pMQ1cxVTRNb2hobjRUbUZ0WjZENVRORWtXak1oa1V1ZUVORWZ3RXdJb1FNTEtZLWpyU0lndWF2VVNHMVhtQkJuUWRYUGRzZW15Sw?oc=5",
-      "source": "TI INSIDE Online",
-      "published_at": "Tue, 22 Sep 2026 13:46:05 GMT",
+      "title": "Empresa brasileira recebe prêmio da Cloudera por soluções de dados e inteligência artificial",
+      "summary": "Empresa brasileira recebe prêmio da Cloudera por soluções de dados e inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTWpHUklTMWNOdVNMUVk5cFAtUnFLSjVQYThYWjJfM3JaTkIyMFhMXzg0MnV6VlpPU0xvUzVPR3dfUFBWdUp4NF9GTExzdGhNWWNYN3R4cjVpdjdpY2ROODUtVnB4eDNEdDhkamV0Vl9GcWNsSE9ZbVZwdjNwX1MxeXA1TUpoV1kzMXdCM24xZnp3MVdISTNkcVd5YVZrZGZBOFJnQ2hNSFhOLUpEOGN4VnFDOFl5cG1KaWRXQVNoWGJBOTdkVUlzQ3BOQzB1dmJ0U002NTl3d3VQZDQ?oc=5",
+      "source": "Jornal de Brasília",
+      "published_at": "Wed, 23 Sep 2026 15:07:30 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -43,17 +43,17 @@
       "title": "IA do Google saiu do teste, invadiu três empresas e só parou quando percebeu o erro",
       "summary": "IA do Google saiu do teste, invadiu três empresas e só parou quando percebeu o erro",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb1Q1dzl6NGZZUjdYZEFlT3FlUDlNbDBsZWhlNlFHYTQ2UGNZVXZMSlNoNGZ5Wi1qdmlrX3JQZnM3UzJZcWc1RFhxaThOM01Dd2dMeWZLdEs5WXdfN1R0eTRoNHRYazQ0VzBKUWhUVDF3b0ljOVN5RTlIcXQ2eTJVck85a2NqTFhHZUNDZkltc1duRzVKdjh6ZXdBQmZHMFFyeEV3b2M2SWg?oc=5",
-      "source": "brasilparalelo.com.br",
+      "source": "Brasil Paralelo",
       "published_at": "Mon, 21 Sep 2026 15:54:37 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "IA avança mais rápido que governança em 77% das empresas, aponta IBM",
-      "summary": "IA avança mais rápido que governança em 77% das empresas, aponta IBM",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUGVhTHVqSDBRb0EyVnI1NUR0VEw5RW1wVXlBWmJKeVIxSVFnQ1hNQ2VRVElrSkg3NlFxNnJiZVFmT2I4VmxoTlhTd3RIYnRaNElqUktDRzJ4MTgxbkI4T0I2QWlpRmJ0akVRdVlaOXpDNHliNjN5eHV3SHprazRzdnQtLWRXUW1s0gGQAUFVX3lxTE9CNTlIeWVWNzluMFFOLTBQM2JoQVVfSG5nQ2RNLUpoaU80SmlCazdGYW5wODVMZWJvblZ6S3lGNmJRdUVUWjVlZEl6UW9pbHRjR3lZWXJtWUFYajA0RDY1V2hpbmFBdFhuUXowNDJhOWVIMEp0ZGNaTzJvQkhuVEw0YjJqUXN5V1ZTdHk0V1I4bg?oc=5",
-      "source": "Business Moment",
-      "published_at": "Wed, 23 Sep 2026 11:50:33 GMT",
+      "title": "IA avança mais rápido entre líderes do que nas empresas, aponta pesquisa da Talenses",
+      "summary": "IA avança mais rápido entre líderes do que nas empresas, aponta pesquisa da Talenses",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ERVNLWGpMcUFVZDRXb004TzhJMjhSTW5NRnBKLUVvNEkyQllIYVVxOUx3cU9OSFJ1OEZ5OG1uRTVCNXZxclJfc09nUGRSOU9YbFpsMU5WeG9tYmxkcndnRmVfeGdKWjRYU2xaakM4bDhYd9IBd0FVX3lxTE80MlhxUnE3cm9RbktFUjVlMEEzT1ZTTHhQOGcycGFxeWVDT0ljQlhHLURiRllDZDRSZkRPbzFiQy1HTkVVaUVJOE5aT2hsdVpncFFfeVdaOGw5cWNSZEk5MUc1WGREUF9zc2g1Z3Z1YjhtLUhzd1JZ?oc=5",
+      "source": "IT Forum",
+      "published_at": "Wed, 23 Sep 2026 19:55:28 GMT",
       "category": "IA",
       "signal": "flat"
     }
