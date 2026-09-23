@@ -30,5 +30,20 @@ let html = readFileSync(htmlPath, 'utf8');
 html = html.replace(/(<span id="siteAppVersion">)[^<]*(<\/span>)/, `$1${version}$2`);
 html = html.replace(/(<code id="siteCommitHash">)[^<]*(<\/code>)/, `$1${commit}$2`);
 
+// Cache-busting: reaproveita o mesmo hash de commit já calculado acima para
+// versionar a URL do JS/CSS. Sem isso, o rodapé mudava de versão a cada deploy
+// mas o navegador de quem já visitou o site continuava servindo o app.js/style.css
+// antigos do próprio cache (assets/app.js é sempre a mesma URL, então o
+// Cache-Control de 4h do nginx nunca era invalidado por um deploy novo).
+// Regex idempotente: troca um ?v= antigo se já existir, ou adiciona um novo.
+html = html.replace(
+  /(src="assets\/app\.js)(?:\?v=[a-f0-9]+)?(")/,
+  `$1?v=${commit}$2`
+);
+html = html.replace(
+  /(href="style\.css)(?:\?v=[a-f0-9]+)?(")/,
+  `$1?v=${commit}$2`
+);
+
 writeFileSync(htmlPath, html, 'utf8');
-console.log(`Stamped site footer: v${version} @ ${commit}`);
+console.log(`Stamped site footer: v${version} @ ${commit} (cache-busting aplicado em app.js e style.css)`);
