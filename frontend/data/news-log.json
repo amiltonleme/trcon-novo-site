@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-09-24T12:56:49.398438+00:00",
+  "generated_at": "2026-09-24T22:53:25.022811+00:00",
   "source_note": "Historico de novidades TRCONGROUP consolidado dos radares.",
   "errors": [],
   "items": [
+    {
+      "source": "Seu Dinheiro",
+      "category": "IA",
+      "title": "Apesar da adoção crescente da inteligência artificial, 41% das empresas ainda apresentam dificuldades na integração com agentes de IA",
+      "summary": "Apesar da adoção crescente da inteligência artificial, 41% das empresas ainda apresentam dificuldades na integração com agentes de IA",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxON3lfd2Q5M1ZVQVdrZTc5aTFsQWFadHRQYl9KLThLNEpZT1lFMmtneHR1dE1NTngzcUJlanU1dmlzV2NhVzVtcGxZdXNzRnU3eTFaaGRCdUtDVkkzMEUzSlVMVTdiS1FjdWpETjJSTHVyS1M0VFBsZHdZV1hFM3l5YUpfWEtTZnpiMlhDeTgxTWhjekF2c040RHpndExIbk1tWmM0SzVPeG1zWlRSVWlkQnJoblpTSmgzRHRrNmllU1NKQ2Rqc1AwSkhDNFNEQ0EtQmlqRFFUWm1abDE3TUI1b19laGR4YmtSX0gyNEc0dmdUTFhBOFpndE0wX2FFMGpKYTBNWUtWZm9GUnQwakFfTVB3?oc=5",
+      "publishedAt": "Thu, 24 Sep 2026 17:04:25 GMT"
+    },
     {
       "source": "Money Times",
       "category": "IA",
@@ -12,7 +20,7 @@
       "publishedAt": "Wed, 23 Sep 2026 17:00:00 GMT"
     },
     {
-      "source": "Estadão",
+      "source": "estadao.com.br",
       "category": "IA",
       "title": "Modelos de IA abertos avançam e começam a desafiar gigantes como OpenAI e Anthropic",
       "summary": "Modelos de IA abertos avançam e começam a desafiar gigantes como OpenAI e Anthropic",
@@ -28,28 +36,20 @@
       "publishedAt": "Wed, 23 Sep 2026 01:05:46 GMT"
     },
     {
+      "source": "Brasil Paralelo",
+      "category": "IA",
+      "title": "IA do Google saiu de teste e invadiu sistemas de três empresas",
+      "summary": "IA do Google saiu de teste e invadiu sistemas de três empresas",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb1Q1dzl6NGZZUjdYZEFlT3FlUDlNbDBsZWhlNlFHYTQ2UGNZVXZMSlNoNGZ5Wi1qdmlrX3JQZnM3UzJZcWc1RFhxaThOM01Dd2dMeWZLdEs5WXdfN1R0eTRoNHRYazQ0VzBKUWhUVDF3b0ljOVN5RTlIcXQ2eTJVck85a2NqTFhHZUNDZkltc1duRzVKdjh6ZXdBQmZHMFFyeEV3b2M2SWg?oc=5",
+      "publishedAt": "Mon, 21 Sep 2026 15:54:37 GMT"
+    },
+    {
       "source": "CNN Brasil",
       "category": "IA",
       "title": "IA avança, mas dados ainda desafiam empresas",
       "summary": "IA avança, mas dados ainda desafiam empresas",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT016RGNLcm1KYVF6YjRyeEJmU1Axd1ZGcDBmc0NrZTZPNDQtTUp3SGk4WVZROUx3ZW1JWEFNSXV5UktYVHBrakRyQWUwQ3YwbjAyd0s2QUVmdHhBXzhZWjVHYTA5QXR5WW1iUHFmUksxTjB3TUJ5bERrSmJvRVlJamx1MDRySm9yOVhEcVVSYjE0RkZLOVpfNnB5c0kyc1NWd2dSMlR1bw?oc=5",
       "publishedAt": "Mon, 21 Sep 2026 13:10:16 GMT"
-    },
-    {
-      "source": "brasilparalelo.com.br",
-      "category": "IA",
-      "title": "IA do Google saiu do teste, invadiu três empresas e só parou quando percebeu o erro",
-      "summary": "IA do Google saiu do teste, invadiu três empresas e só parou quando percebeu o erro",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb1Q1dzl6NGZZUjdYZEFlT3FlUDlNbDBsZWhlNlFHYTQ2UGNZVXZMSlNoNGZ5Wi1qdmlrX3JQZnM3UzJZcWc1RFhxaThOM01Dd2dMeWZLdEs5WXdfN1R0eTRoNHRYazQ0VzBKUWhUVDF3b0ljOVN5RTlIcXQ2eTJVck85a2NqTFhHZUNDZkltc1duRzVKdjh6ZXdBQmZHMFFyeEV3b2M2SWg?oc=5",
-      "publishedAt": "Mon, 21 Sep 2026 15:54:37 GMT"
-    },
-    {
-      "source": "uberlandia.mg.gov.br",
-      "category": "IA",
-      "title": "Prefeitura promove palestra internacional sobre Inteligência Artificial, infraestrutura e inovação em empresas",
-      "summary": "Prefeitura promove palestra internacional sobre Inteligência Artificial, infraestrutura e inovação em empresas",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNdjM5TjJOVmdUSmROcFpua3p6bDhNWUZoVDlDM2Y0MzNENlRURWdubldpblRsWUwzM3JXc0NVVk5udkpIcE1oRVRHaWZFUm5VcVQ3UFppUFVmUWpudWFaNHN6alJXR3IzcTNRYjlDeGFnN2hHS3NYbU1YcV9WaGc0UzA4ZXc4czB4UHg2cVVKVHhVeFZmZFJYT0dOUTdnVldzT3oyMi1CRWtQY2JfZWhmU0R2WDBuSkVzX2VvajJYd3lYLU9oRUJXX3JPS25qRlBfcUVpQ2d3bG8tRGdXNGh6Z3Itdko5ekRrQ3c?oc=5",
-      "publishedAt": "Mon, 21 Sep 2026 20:57:47 GMT"
     },
     {
       "source": "TI INSIDE Online",
@@ -65,7 +65,7 @@
       "title": "IA aumenta produtividade no desenvolvimento de software, mas empresas ainda enfrentam gargalos de custo e revisão",
       "summary": "IA aumenta produtividade no desenvolvimento de software, mas empresas ainda enfrentam gargalos de custo e revisão",
       "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOeGlwOUlldGNnZmlOWW82d2Nacll3Z0ItRnI3ZlZlZkg3OHU5WXhJNmVyMU16U2dzVmx3MzNacG5KZFNzM3hFWEdzQ1hQMkFuSTlDajlzaXlQYXlKUUxhY1dZRUI2ZkNRZFFpZFRfYXk0c3piZkhRMDJ5TUhrMUlqZXh0MDVjVlBrc0xqcWxUM3Z0SERLYjN6cXRPSFVJdEpCTGtGQXcteEN5ZDE2d19pam1ub0ZKTTI1dkxjX3ZHNFNKZjY4elJHQkVoYVpibzctN2UzT20ya1JCc3NkeHhPb2dWU1ZkMERwNnZtZlRnT2ZCVEdGXzBYYTNWUXM3TE90U01MMmJGcU9wVnVleVl2TEt0VUvSAaMCQVVfeXFMUE1aYTFnRXlBTExDaEwxM3llamtSaEkzNlBkb09hSFZpc3ktYkl3VktEdHo1eU9wQXhYU0xDQWtTNnlEelFzeXlBSFRldUUyTEJuak9Zczc3MVhGMmJIdXVyVlZEbUstelVlTUNLSDdBWUlIbkFPakUzZkpud2t2aFliY3dvWU5YYW0tUnpma3Y4NGJ1WGZiemtEcnBzR2d6QVNwMThIdnBXd1hBbkNCNnZkWmVtcnRzS2tEZWZyUU1iak9Xbl9XS2hGaXBSWVFsX21TMXVyNm9kdW9LTExlTVk5MDhkbEE2TFBOUTNXVlhlUlhNNm1PcXN6eHB2Sk51ODFvMWJxbEVTTGI1V21PQXhuLTNSeWRNRWthc3pIbUd5S2Rr?oc=5",
-      "publishedAt": "Wed, 16 Sep 2026 12:15:28 GMT"
+      "publishedAt": "Wed, 16 Sep 2026 07:00:00 GMT"
     },
     {
       "source": "Prefeitura de São Paulo",
