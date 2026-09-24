@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T22:35:57.861035+00:00",
+  "generated_at": "2026-09-24T12:56:48.241885+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -13,29 +13,29 @@
       "signal": "up"
     },
     {
+      "title": "Modelos de IA abertos avançam e começam a desafiar gigantes como OpenAI e Anthropic",
+      "summary": "Modelos de IA abertos avançam e começam a desafiar gigantes como OpenAI e Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTHN5aXpqd1RodG5STFd1WVZxSEt4dklSd0NsenpXam80U3hzekFFSlFudVlERmdFa2dtWXRvU2lPNklRcTNMREtIVGZWQmQ4aHFYMWR4eU5uTG85Q0dOWUx2Ny02MWxvT0Y3cW51cFZBZlB6YXFLZm5fQXdvSnY4QkU4UWxvbjlpV2tfQmQxMDM2WlloR05XQWdhb0Q5a0RNY2l1QlkydUplZ2dOSkdXZ2s5RnI4dHdyZkdJbWVTQ3Jnc2hOOGZ6adIBzgFBVV95cUxQc0VTeU5VbHFzUWp3ck5SMFlfcjk4QUhuclRkUGlBOGVFWGoydFhlZVEwQlNRSTdNRm83ekgzMFJBb0RsdU9JR09hMFlmX1UwdU0wZzlOMldjZEJJdjdLMzlfd2tMb1JNdEx5Z3BsV0hyMHF6YXdXclBBVjZSc0FaTWtHZnRBaThtMVFIYV83aUFfdlNZaGVIWlV4UWJKbmZEcWkwOEJnYVZKSFhucVd5T3hpVnNYT0RxYXA5U1JBemJpWVpTd0ZQd3Y1RWpFUQ?oc=5",
+      "source": "Estadão",
+      "published_at": "Mon, 21 Sep 2026 21:00:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
       "title": "Oficina aborda aplicação da Inteligência Artificial para avanços de processos das empresas industriais",
       "summary": "Oficina aborda aplicação da Inteligência Artificial para avanços de processos das empresas industriais",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSmh4T0RwUEpJTklTR1ZYbUxGQlhHSjdnRTJIOTJ1UG56R2tNcFVTU2xkWlZ0SVRTdTljbnIwdmNBRHFiVnN5T1ZWMWdwM3MxdXV6eDA4bVBsVkIzaURNUWdabTFzWlhTa3dDOUVnT3RXR3JpZFdKSThydVZJNjFZS0t2Q01tOGZEM05rRnJULUVBb1RmYmpvVmoxSFExRTd6NXE0UDFwWEpLVG1XT0JyaFJxZkVGRmk5TUprNWptb0hvYVV1S2c?oc=5",
-      "source": "SENAI RN",
-      "published_at": "Wed, 23 Sep 2026 01:12:46 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOczJmaVdsa1cyMHcxcG94YVVlN0VoQldiMFhsTE1qbHhDOEJGM0NhbVFRTjB1TjBUd3pKdURMMWhOQW95WkNDbnVYNGw1YXFjOGtCNmprLTV3MnE5SG5hSGNlc0FFSlNCQkw5bGFOT0ZreFUyLVdYdjVWejVHSUVJSDZJZUVrWmRteTVDcjNnVzhrcmFJVHg5UVUtY3dKWG9lUmxieDZWRnBkbTJ1YmdWMjdfMnN0dG5ac1lxbF9iVkhhVE5RZXBmTg?oc=5",
+      "source": "FIERN",
+      "published_at": "Wed, 23 Sep 2026 01:05:46 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "5 tarefas que empresas já podem automatizar com inteligência artificial",
-      "summary": "5 tarefas que empresas já podem automatizar com inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQenZnUGszNWZqLWtEYnltcTVWS3lQZURFMnVULW9kSWVUWEtyaDBMTzFNZkJFNDNpYnFhRmY5aTNJUm1UR2pTN0J5eEZZdWxMRl9OS0xVaXViNU9jNGt5c0dXaTl3cDlPZG1RLVZEME54WklhNW5fbWJ3Ti1DWmV2N2RwTUZSRzlyVmlCNWVHLUdyc2FBclE?oc=5",
-      "source": "cartacapital.com.br",
-      "published_at": "Tue, 22 Sep 2026 14:30:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Empresa brasileira recebe prêmio da Cloudera por soluções de dados e inteligência artificial",
-      "summary": "Empresa brasileira recebe prêmio da Cloudera por soluções de dados e inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTWpHUklTMWNOdVNMUVk5cFAtUnFLSjVQYThYWjJfM3JaTkIyMFhMXzg0MnV6VlpPU0xvUzVPR3dfUFBWdUp4NF9GTExzdGhNWWNYN3R4cjVpdjdpY2ROODUtVnB4eDNEdDhkamV0Vl9GcWNsSE9ZbVZwdjNwX1MxeXA1TUpoV1kzMXdCM24xZnp3MVdISTNkcVd5YVZrZGZBOFJnQ2hNSFhOLUpEOGN4VnFDOFl5cG1KaWRXQVNoWGJBOTdkVUlzQ3BOQzB1dmJ0U002NTl3d3VQZDQ?oc=5",
-      "source": "Jornal de Brasília",
-      "published_at": "Wed, 23 Sep 2026 15:07:30 GMT",
+      "title": "IA avança, mas dados ainda desafiam empresas",
+      "summary": "IA avança, mas dados ainda desafiam empresas",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT016RGNLcm1KYVF6YjRyeEJmU1Axd1ZGcDBmc0NrZTZPNDQtTUp3SGk4WVZROUx3ZW1JWEFNSXV5UktYVHBrakRyQWUwQ3YwbjAyd0s2QUVmdHhBXzhZWjVHYTA5QXR5WW1iUHFmUksxTjB3TUJ5bERrSmJvRVlJamx1MDRySm9yOVhEcVVSYjE0RkZLOVpfNnB5c0kyc1NWd2dSMlR1bw?oc=5",
+      "source": "CNN Brasil",
+      "published_at": "Mon, 21 Sep 2026 13:10:16 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -43,17 +43,17 @@
       "title": "IA do Google saiu do teste, invadiu três empresas e só parou quando percebeu o erro",
       "summary": "IA do Google saiu do teste, invadiu três empresas e só parou quando percebeu o erro",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb1Q1dzl6NGZZUjdYZEFlT3FlUDlNbDBsZWhlNlFHYTQ2UGNZVXZMSlNoNGZ5Wi1qdmlrX3JQZnM3UzJZcWc1RFhxaThOM01Dd2dMeWZLdEs5WXdfN1R0eTRoNHRYazQ0VzBKUWhUVDF3b0ljOVN5RTlIcXQ2eTJVck85a2NqTFhHZUNDZkltc1duRzVKdjh6ZXdBQmZHMFFyeEV3b2M2SWg?oc=5",
-      "source": "Brasil Paralelo",
+      "source": "brasilparalelo.com.br",
       "published_at": "Mon, 21 Sep 2026 15:54:37 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "IA avança mais rápido entre líderes do que nas empresas, aponta pesquisa da Talenses",
-      "summary": "IA avança mais rápido entre líderes do que nas empresas, aponta pesquisa da Talenses",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ERVNLWGpMcUFVZDRXb004TzhJMjhSTW5NRnBKLUVvNEkyQllIYVVxOUx3cU9OSFJ1OEZ5OG1uRTVCNXZxclJfc09nUGRSOU9YbFpsMU5WeG9tYmxkcndnRmVfeGdKWjRYU2xaakM4bDhYd9IBd0FVX3lxTE80MlhxUnE3cm9RbktFUjVlMEEzT1ZTTHhQOGcycGFxeWVDT0ljQlhHLURiRllDZDRSZkRPbzFiQy1HTkVVaUVJOE5aT2hsdVpncFFfeVdaOGw5cWNSZEk5MUc1WGREUF9zc2g1Z3Z1YjhtLUhzd1JZ?oc=5",
-      "source": "IT Forum",
-      "published_at": "Wed, 23 Sep 2026 19:55:28 GMT",
+      "title": "Prefeitura promove palestra internacional sobre Inteligência Artificial, infraestrutura e inovação em empresas",
+      "summary": "Prefeitura promove palestra internacional sobre Inteligência Artificial, infraestrutura e inovação em empresas",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNdjM5TjJOVmdUSmROcFpua3p6bDhNWUZoVDlDM2Y0MzNENlRURWdubldpblRsWUwzM3JXc0NVVk5udkpIcE1oRVRHaWZFUm5VcVQ3UFppUFVmUWpudWFaNHN6alJXR3IzcTNRYjlDeGFnN2hHS3NYbU1YcV9WaGc0UzA4ZXc4czB4UHg2cVVKVHhVeFZmZFJYT0dOUTdnVldzT3oyMi1CRWtQY2JfZWhmU0R2WDBuSkVzX2VvajJYd3lYLU9oRUJXX3JPS25qRlBfcUVpQ2d3bG8tRGdXNGh6Z3Itdko5ekRrQ3c?oc=5",
+      "source": "uberlandia.mg.gov.br",
+      "published_at": "Mon, 21 Sep 2026 20:57:47 GMT",
       "category": "IA",
       "signal": "flat"
     }
