@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-09-25T13:03:27.993002+00:00",
+  "generated_at": "2026-09-25T22:59:31.736599+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
     {
       "symbol": "USD/BRL",
-      "value": "R$ 5,18",
+      "value": "R$ 5,20",
       "change": "0,00%",
       "direction": "flat"
     },
     {
       "symbol": "EUR/BRL",
-      "value": "R$ 5,89",
+      "value": "R$ 5,93",
       "change": "0,00%",
       "direction": "flat"
     },
     {
       "symbol": "IBOVESPA",
-      "value": "183.966 pts",
+      "value": "183.477 pts",
       "change": "estavel",
       "direction": "flat"
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 84.362",
-      "change": "+0,86%",
-      "direction": "up"
+      "value": "US$ 84.098",
+      "change": "-0,15%",
+      "direction": "down"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 2.714",
-      "change": "+2,44%",
+      "value": "US$ 2.693",
+      "change": "+0,37%",
       "direction": "up"
     },
     {
       "symbol": "OURO",
-      "value": "US$ 4.334",
+      "value": "US$ 4.320",
       "change": "estavel",
       "direction": "flat"
     },
@@ -57,7 +57,7 @@
       "id": "usdbrl",
       "name": "Dolar (USD)",
       "icon": "💵",
-      "quote": "R$ 5,18",
+      "quote": "R$ 5,20",
       "change": "0,00%",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -68,7 +68,7 @@
       "id": "eurbrl",
       "name": "Euro (EUR)",
       "icon": "💶",
-      "quote": "R$ 5,89",
+      "quote": "R$ 5,93",
       "change": "0,00%",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -79,7 +79,7 @@
       "id": "ibov",
       "name": "Ibovespa",
       "icon": "📊",
-      "quote": "183.966 pts",
+      "quote": "183.477 pts",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -90,9 +90,9 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 84.362",
-      "change": "+0,86%",
-      "direction": "up",
+      "quote": "US$ 84.098",
+      "change": "-0,15%",
+      "direction": "down",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
       "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
@@ -101,8 +101,8 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 2.714",
-      "change": "+2,44%",
+      "quote": "US$ 2.693",
+      "change": "+0,37%",
       "direction": "up",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
@@ -112,7 +112,7 @@
       "id": "gold",
       "name": "Ouro",
       "icon": "🥇",
-      "quote": "US$ 4.334",
+      "quote": "US$ 4.320",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -148,12 +148,12 @@
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa0FoN3l5S1lrX0FGdWFwWVQtRjU4cnI2cWRub2w2SXlJOG5KS1RYNUdRWF9MakN6bXR4dzJyVzJEQXVmUHVKU3pNRHlpQ0VqQWJtWnI4VGhuSzZOSXZYYW85TVFIQ3BPZnYxTk9NRXR2V3RJcnpYUHpjUW85MmRQLdIB5wFBVV95cUxOOTYyakJRUXBXTXMxLVdLUnBxQzJMN0gtTThvYmRScWFyRXQtelotcVcxcS1DWGEyRGtYdWI5M3Q2dEl6dTZZUlhfejBQQ0t2NzRod0lOdkhNaVpRbnJnclpSZXQwSGF4c25UaUJTUWM0RTZOaWwzVk52TGVfellzcjRZZXVJSVg5VnNPWDBrR09FWmc2WXBibV9yYmdGd3FCWmJ1bEFNLXhvWjB3LXdGVHBXanA1M0s1dnJaaGtoWmZ1TUljckVKM3NfM0dkYkZrYkJiSW1YQndPV19IWXhBOE9GUXl5cTg?oc=5"
     },
     {
-      "title": "Dólar sobe a R$ 5,14 e Bolsa cai, com ajustes a juros e à política fiscal",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUkFjX3RSU3hRNWgtZHJKR1puNFpQLS1EcXRhT3IzMHBYcVhUREdtak1velppZ1VmdGljRHNVcXZncE41bXJWQnh4MExIaTRsUkFiNVFVZm9ESGNDSjV6SG1rWTNfLTVFaDBqWm82TnZXbzR0TmRuUVRSQTgwbFFOMXdqNVBNYXhTMmR0TnMwNHNvRWhtUHZkdmhybnpUNmVnQkdaVHlhTDJmdzV6dHBtbFVYVm0xcjlNWmxHbg?oc=5"
-    },
-    {
       "title": "Dólar cai e fecha a R$ 5,13 após reajuste do Bolsa Família e decisões de juros; Ibovespa sobe",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95RjhkZTVfZDZzaEpSdFQya05vSW1VZEYyR1BicHlhLUxDbThXa0hSaGVEbjJ1T3pIYzhVZGVzSm9neVJrSzFRN0VERUxkby1fTG0wbXFaSWM4blo5bTVCMnlRQWlBTi01M011dmJzdDdQenBuSUdWWdIBhwFBVV95cUxQb2lCcWRRQjAybWFRcWZkVlhPLXZtc2w5YkdqRXhXYmxFODlRUHJGSVk0UU5aN0pZRTJPVEJQY1hVVTdpREpZT09rN3F5VXdDN3Z4TzdJUlJLSmk0OGJQZU5zamo3Z2hzVEdPOG9Xbl9oQW12UUlOclNkQ3E0YlhlZGlKeXRDNW8?oc=5"
+    },
+    {
+      "title": "Dólar sobe a R$ 5,14 e Bolsa cai, com ajustes a juros e à política fiscal",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUkFjX3RSU3hRNWgtZHJKR1puNFpQLS1EcXRhT3IzMHBYcVhUREdtak1velppZ1VmdGljRHNVcXZncE41bXJWQnh4MExIaTRsUkFiNVFVZm9ESGNDSjV6SG1rWTNfLTVFaDBqWm82TnZXbzR0TmRuUVRSQTgwbFFOMXdqNVBNYXhTMmR0TnMwNHNvRWhtUHZkdmhybnpUNmVnQkdaVHlhTDJmdzV6dHBtbFVYVm0xcjlNWmxHbg?oc=5"
     },
     {
       "title": "Ibovespa fecha em alta de mais de 1%, com eleições; dólar recua a R$ 5,08",
@@ -164,16 +164,16 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTUZHVmREWUw2cHVseDM0XzI4UDEzaGg3NkJIbkItV0c4bEJhZkx4OHh6Y3JKTG92b2RnNjhxdmhsYXVaRlVzR0tEMHotUW1tNkswVDJha2ExMW05NXJaWmtrVEZkeHdfVnc1bzJXVkxRcUEzcXNPQ01KM0dmMFdGNkdrSUZKOE0zcHNSUnhVQ3NOOHE4WlhyZ3pfY3NJdGl5NWh1ODRrS3hBeVY0ODRCWUZ5V2s?oc=5"
     },
     {
+      "title": "Dólar sobe e fecha a R$ 5,14 com cautela global e cenário político no Brasil; Ibovespa cai",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE54RS1nLUdLOUYxN3JGaFBuY28yc2dIUTJabWYxQlFRWURJdmE0Y21OZGdUdGdUYXZwYVd6MVI2MkY4UVNvRGlMSmRTdWhQcXdZN0NLbXNjeVMtOFFuUkNybWdmMkZLX2prbWFtVHk3X2FmaXhONXYxVtIBhwFBVV95cUxOS1ZDV0JDQUZhRmM2QUdsMExRN0c3M28xTVA1UHNyck1zUGswYUU0N3k1ZS16MEFVa004WWU2Q2V6N0p4ZkJHRTZFNFhQemhDdHIwVV9tdWlFbm9YZFRudm9pem9TZ2oxdjhoRG9OYUc0ZS00dld3N1AxSG1LMlFvYllLdkJaalk?oc=5"
+    },
+    {
+      "title": "Dólar cai para R$ 5,08, e bolsa recua pela quarta vez consecutiva",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdml3ZTZ5a0ZlMDRRZ0Q3aG5za0FPTHh4SThXMWJvY1h2S0ItT2dtdEFHT2pST19Tek41Q1NIRUp6S29NbU1OeGRtbmFmb19lOXU2TWFHeEZTeVkwSjFNcHFXNTYxQ2d0WW44VEppZTAwT1NnQjlXLThRVHdjd0t1UGo3MURtWkpjT3VUaFhwMXhreGpEY2FBOTJNUld5bzBzVVZrM0pTdGJacm1wd0FkZWoyM3lZdnNKNVQ3WQ?oc=5"
+    },
+    {
       "title": "Eleições 2026: como a disputa eleitoral afeta bolsa, juros e câmbio?",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zWExVd3Ffc1EtTjExc2tBWUd6d3BYcGQzZDJZbHdkV29sbHlIRkE1cGNkekdQNXRZQ0c2ZmwzZGcyeXJZVmZXNUN2SlVDOG5IclgxSmFJNENHeFlTckx1dk1QeHoxanhGNng3bjRENkQySlFrUTVVNWFBQjbSAYIBQVVfeXFMTW82Wng5bXAyRFpWY3YtZl9zRE5hQWRZOFQtcmhDdW9SOTdvaW9FTlBCTmlKaUlHcTZaQUxCX0hFbUI0NEhBQ1hRUmU0UTMtcnk2bGVMYUlwZTRqb25qSUhVSVg0Q1o2V2Q5LWdoZUpsMmE5S1lPNEc5NDlzT2ZXSF9QZw?oc=5"
-    },
-    {
-      "title": "Ibovespa B3 recua 3% na semana, com foco nos juros dos EUA e do Brasil; dólar cai a R$ 5,08",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZzJNdFVFRUlNeHZrT3BrZEIyT0ZZZUxGNVR5YUFRdDBHM05XNkgtbjNJdk1COWZtNmFIcVA3dUlta2plNjVGV1dkUlAxQ2ZjVzU2Q19yNGpaNnE1UDFfRzJ5bkh4NE5mZmhpc3NmNTZfdWlhQ01RNXItN2gtQ01nNkc5aFFETVF1a3c0NE1Gdkg2V1dFaHFlMG1Hanc3UGNpb0lhYl9CYzRJZzc0ekhvRktZa1BsZnhXOHBMaWg5RVJiYUg0NDBqM2JFUHJsT3pO?oc=5"
-    },
-    {
-      "title": "Ibovespa hoje fecha em alta e dólar sobe a R$ 5,07; pregão foi mais curto por falha na B3",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOXzR6R0QxMVZCQkFqMnZNdWJ6bGx4QU00WmNJYVBnU1JZVVhsNG11VG50Zjd5R3NqbV9GYldtZ3ljWmRuakplS19icG16dWVCMTc1SnVSd1k3RTZ3OHhvcjFxY01BT2gzRVVxYkZMSDdrY0REOU92WGh0Z0t0V2RLNnVGU3lVZlFhekhiTEExV0xMQmY1eTRmMlhYRHF5aFZJWkxhbWRnUXZZT1ltSUFJMk96akJkZ0l1dHFuMlFCMkpSd3hDR2Y5c0t0ZEh2TW8zby1GUXNSenZoQVBNLWlxLdIB5gFBVV95cUxQcnpOdjd6b0tOb1dVZjdPOTZmeHBnMVZBaDQwQ3IyVjkwSzJRVklwLXlCMVN6ZTVzX0tuSVctRXRhWUQwTXJuak1RZ0NCODU3RWUwbTZmcXNicUozUVh1dGpDdHVEalRLMUgxSGZid2lDaTZuLWdkdnBXMDUtS0w4Nmw0bkM1VTR1VW5mRWxEOXA1Ui1uck1kMmxZU24wTW9TZGpsdWVQNlZMSXBSRzJDZm5jazZMbl9kRWRmNnZCLV92dkgxSUY1RDB5a3h2TDdia3B3cFJyTXFzZTYya0JieEk1NU9JQQ?oc=5"
     }
   ],
   "market_mood": {

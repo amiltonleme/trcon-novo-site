@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T13:03:33.361378+00:00",
+  "generated_at": "2026-09-25T22:59:34.928681+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -25,37 +25,37 @@
       "title": "Hacker Usa IA para Atacar Mais de 100 Empresas em Apenas Cinco Dias",
       "summary": "Hacker Usa IA para Atacar Mais de 100 Empresas em Apenas Cinco Dias",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa0ZEY1ROU3I5b2JrRElHNDZzN1FzOUVkeHBsaHpMRWIwS1Roc1AzTGxQQ0NyZk1tUUppSF9nSzAxUERnVzFDRDJGcjZjYmZUZjlKMUt0OU8zbGxMRjZXMUxHSG91bjQxRlotN2VOeUZ0WU4yQk5TTFltb3I1X09hMldQck5EY2tiTkR2QVhCbVpjVnpZS01ycEs4bnVqMlBPRkZnYUtRTkZPMDEtaWlZ?oc=5",
-      "source": "forbes.com.br",
+      "source": "Forbes Brasil",
       "published_at": "Tue, 22 Sep 2026 17:23:42 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "IA: Empresas europeias, ainda tentando recuperar terreno, contestam os apelos dos EUA por desaceleração",
-      "summary": "IA: Empresas europeias, ainda tentando recuperar terreno, contestam os apelos dos EUA por desaceleração",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQblQzZ1JZU2N0bUZ0STFfMVh6NTZSa2NhMHdseXRJSWFIRU9QdkZJRDdtdGp2Q25PSVV1WGMwVWpBOElaZk53UHJnaXpSUHg0NEhqcTlTVlY4cmZoMk5vWFNQM2FxMjk2ek1rVVBCS1ctUF9rR3RNLXl1S0lHbTFTd2FJbWxwMWR0MVpSQnVEeWp4T184Q3RXTzdWZnN2ZDBsQjF0dWYtSzB1LWpOVFp5VDh4Wk9tcEJIVnRpYUdFWEpGd3FlcnVjOXJFZmZLd1NKWThOVklhaU5hRl9hOWhZa2xR?oc=5",
-      "source": "FashionNetwork Brasil",
-      "published_at": "Fri, 25 Sep 2026 08:34:04 GMT",
+      "title": "Uso de IA sem regras expõe empresas a riscos jurídicos e operacionais",
+      "summary": "Uso de IA sem regras expõe empresas a riscos jurídicos e operacionais",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNbUVhMHlUazhYTlpRVmVTNFQtWG01d1VLVEt4bFV4MkNDck8zUFFJdGJ2UEJQMGxuLUdQSmxXVHFmVmZXUW1HanBpb0tZSVFQSl9fbkVYX2pDTlRfRl83b3RHcVI0WDdGc3h3clh1dmhBS3B6b3RHenBtcHBsei16S1d0WnU5SVN3X0xCNkl3VUpVUS1qT1hMV1R5N04xRUVYTV9pUU5sa0RzalRERXJkWTMtVGJxS203dEpIMlhQRWZWSmRrcC1WamlmXzZhRHBTZFdPaFRzbFVNMDdHcnFQYUduMGE?oc=5",
+      "source": "Jornal Opção",
+      "published_at": "Fri, 25 Sep 2026 20:32:00 GMT",
       "category": "IA",
-      "signal": "up"
+      "signal": "down"
     },
     {
-      "title": "Empresas precisam estabelecer regras para usar inteligência artificial com segurança",
-      "summary": "Empresas precisam estabelecer regras para usar inteligência artificial com segurança",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOS1NXOWtHLVNfeEd3UzA5UEl3ME81VC1jR1dhY2JJbGNTZUtnZXIwUjRLbThLTmk2a3dqbXNUQjEwZUJGRk1qd1FIc1RlMUlzQl9yeG5WdUkwUzU0RUtPQUZLOWxzVmtwMURUVUNvWTVMUEpIQ2FBMTA2blhCTUh1SnF5VkFrbllFQ2VIZ2p0UXhweHFrek1IUWJVclZOblNvc1l5R0NjV0J2TklK?oc=5",
-      "source": "SATC",
-      "published_at": "Thu, 24 Sep 2026 19:01:28 GMT",
+      "title": "A Inbix e a utilização de Inteligência Artificial por parte das empresas",
+      "summary": "A Inbix e a utilização de Inteligência Artificial por parte das empresas",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeWRhSWpJalRrVE5kUy00LTNCSzRGRzhieW9JTHN6Y0YteFRvYWJYd3dSZjlSczdiaFhYMmNJb1dDOU01UWplY1JTWnM2NFB2V00waXBQT2RGcG1ZZmR2SnRLNmZWbURUREM1b01maFhRYzYzanl0MnppOGd1bTRZX1B2Y09uWGFVVUlZTl84Q2ZTTk9adFZSdlY0OTJwNGJqTnBna1BQNC0?oc=5",
+      "source": "Monitor Mercantil",
+      "published_at": "Fri, 25 Sep 2026 20:54:38 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "5 sinais de que sua empresa está pronta, ou não, para colocar IA em operação",
-      "summary": "5 sinais de que sua empresa está pronta, ou não, para colocar IA em operação",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeklfZkdEWFhaNjhSRjdfVmlUYkNONUhUaWdjVnJKaW1jNGw4cHFJOHZ6M2VyUjhoR3VfY3V4bWxKLXBVVXg4b3gzN2hlWjVheUhUTWZTejFpVUFzVE84Y29SZlBaZ3g5VVpfX3ZxdHV3TVFjQTdVc0F2NDYwQnRla3ViZ0MxbnViMmtieU5ZMndoS3dxX3d4WnhvUF9FU2ZYdmwta2Z0SUNOSGJfOERJLVl3?oc=5",
-      "source": "Computer Weekly",
-      "published_at": "Fri, 25 Sep 2026 04:29:34 GMT",
+      "title": "Inteligência Artificial nas empresas: uso sem regras aumenta riscos | SEGS Portal Nacional de Seguros,...",
+      "summary": "Inteligência Artificial nas empresas: uso sem regras aumenta riscos | SEGS Portal Nacional de Seguros,...",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMjU1bmZrY1NIMV9pd3hOMFJBQ0FiV3V6clRGNThlU0c4Y1luQ19SUlFZaFdIWFNhMllxMTdhZUY3UTZuYndLZFRkTGxXczhudjYxaG5GaVZTVndFYk9IS1dhbThjdjcyenI3MWlDUjVNNF8ybDBWU3FHdmpIWElQNEZ2N29PbGtNRlk5X2JzenFSa0MzTWlWSTRKNy1hV2lUU1Rxb0d0aHbSAa4BQVVfeXFMT2tIT1lVMWtKN1FMT0U2UmxEZ1RLdjlicDd4VHJ1MkRmUHJmajFKNUUwRG45Vm5XUUJvWklzS3BDa0NvczY2alFhNkxXQWM4a243WXNPUUxUak9ZcTJrVllWOFlNNkFHT2lfbmc4bEpIZVdJZDBTNS00TFJfRFcwWk1Hdm96RVZpOWpPN3hUa1RydGRpUk95VGNtU0lHWDRMUFc2cTc2M09MQUpPQkF3?oc=5",
+      "source": "SEGS Portal Nacional",
+      "published_at": "Fri, 25 Sep 2026 18:29:03 GMT",
       "category": "IA",
-      "signal": "flat"
+      "signal": "down"
     }
   ],
   "category": "IA"
