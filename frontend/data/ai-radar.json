@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T22:53:23.844386+00:00",
+  "generated_at": "2026-09-25T13:03:33.361378+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -22,38 +22,38 @@
       "signal": "up"
     },
     {
-      "title": "Modelos de IA abertos avançam e começam a desafiar gigantes como OpenAI e Anthropic",
-      "summary": "Modelos de IA abertos avançam e começam a desafiar gigantes como OpenAI e Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTHN5aXpqd1RodG5STFd1WVZxSEt4dklSd0NsenpXam80U3hzekFFSlFudVlERmdFa2dtWXRvU2lPNklRcTNMREtIVGZWQmQ4aHFYMWR4eU5uTG85Q0dOWUx2Ny02MWxvT0Y3cW51cFZBZlB6YXFLZm5fQXdvSnY4QkU4UWxvbjlpV2tfQmQxMDM2WlloR05XQWdhb0Q5a0RNY2l1QlkydUplZ2dOSkdXZ2s5RnI4dHdyZkdJbWVTQ3Jnc2hOOGZ6adIBzgFBVV95cUxQc0VTeU5VbHFzUWp3ck5SMFlfcjk4QUhuclRkUGlBOGVFWGoydFhlZVEwQlNRSTdNRm83ekgzMFJBb0RsdU9JR09hMFlmX1UwdU0wZzlOMldjZEJJdjdLMzlfd2tMb1JNdEx5Z3BsV0hyMHF6YXdXclBBVjZSc0FaTWtHZnRBaThtMVFIYV83aUFfdlNZaGVIWlV4UWJKbmZEcWkwOEJnYVZKSFhucVd5T3hpVnNYT0RxYXA5U1JBemJpWVpTd0ZQd3Y1RWpFUQ?oc=5",
-      "source": "estadao.com.br",
-      "published_at": "Mon, 21 Sep 2026 21:00:00 GMT",
+      "title": "Hacker Usa IA para Atacar Mais de 100 Empresas em Apenas Cinco Dias",
+      "summary": "Hacker Usa IA para Atacar Mais de 100 Empresas em Apenas Cinco Dias",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa0ZEY1ROU3I5b2JrRElHNDZzN1FzOUVkeHBsaHpMRWIwS1Roc1AzTGxQQ0NyZk1tUUppSF9nSzAxUERnVzFDRDJGcjZjYmZUZjlKMUt0OU8zbGxMRjZXMUxHSG91bjQxRlotN2VOeUZ0WU4yQk5TTFltb3I1X09hMldQck5EY2tiTkR2QVhCbVpjVnpZS01ycEs4bnVqMlBPRkZnYUtRTkZPMDEtaWlZ?oc=5",
+      "source": "forbes.com.br",
+      "published_at": "Tue, 22 Sep 2026 17:23:42 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "Oficina aborda aplicação da Inteligência Artificial para avanços de processos das empresas industriais",
-      "summary": "Oficina aborda aplicação da Inteligência Artificial para avanços de processos das empresas industriais",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOczJmaVdsa1cyMHcxcG94YVVlN0VoQldiMFhsTE1qbHhDOEJGM0NhbVFRTjB1TjBUd3pKdURMMWhOQW95WkNDbnVYNGw1YXFjOGtCNmprLTV3MnE5SG5hSGNlc0FFSlNCQkw5bGFOT0ZreFUyLVdYdjVWejVHSUVJSDZJZUVrWmRteTVDcjNnVzhrcmFJVHg5UVUtY3dKWG9lUmxieDZWRnBkbTJ1YmdWMjdfMnN0dG5ac1lxbF9iVkhhVE5RZXBmTg?oc=5",
-      "source": "FIERN",
-      "published_at": "Wed, 23 Sep 2026 01:05:46 GMT",
+      "title": "IA: Empresas europeias, ainda tentando recuperar terreno, contestam os apelos dos EUA por desaceleração",
+      "summary": "IA: Empresas europeias, ainda tentando recuperar terreno, contestam os apelos dos EUA por desaceleração",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQblQzZ1JZU2N0bUZ0STFfMVh6NTZSa2NhMHdseXRJSWFIRU9QdkZJRDdtdGp2Q25PSVV1WGMwVWpBOElaZk53UHJnaXpSUHg0NEhqcTlTVlY4cmZoMk5vWFNQM2FxMjk2ek1rVVBCS1ctUF9rR3RNLXl1S0lHbTFTd2FJbWxwMWR0MVpSQnVEeWp4T184Q3RXTzdWZnN2ZDBsQjF0dWYtSzB1LWpOVFp5VDh4Wk9tcEJIVnRpYUdFWEpGd3FlcnVjOXJFZmZLd1NKWThOVklhaU5hRl9hOWhZa2xR?oc=5",
+      "source": "FashionNetwork Brasil",
+      "published_at": "Fri, 25 Sep 2026 08:34:04 GMT",
+      "category": "IA",
+      "signal": "up"
+    },
+    {
+      "title": "Empresas precisam estabelecer regras para usar inteligência artificial com segurança",
+      "summary": "Empresas precisam estabelecer regras para usar inteligência artificial com segurança",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOS1NXOWtHLVNfeEd3UzA5UEl3ME81VC1jR1dhY2JJbGNTZUtnZXIwUjRLbThLTmk2a3dqbXNUQjEwZUJGRk1qd1FIc1RlMUlzQl9yeG5WdUkwUzU0RUtPQUZLOWxzVmtwMURUVUNvWTVMUEpIQ2FBMTA2blhCTUh1SnF5VkFrbllFQ2VIZ2p0UXhweHFrek1IUWJVclZOblNvc1l5R0NjV0J2TklK?oc=5",
+      "source": "SATC",
+      "published_at": "Thu, 24 Sep 2026 19:01:28 GMT",
       "category": "IA",
       "signal": "flat"
     },
     {
-      "title": "IA do Google saiu de teste e invadiu sistemas de três empresas",
-      "summary": "IA do Google saiu de teste e invadiu sistemas de três empresas",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb1Q1dzl6NGZZUjdYZEFlT3FlUDlNbDBsZWhlNlFHYTQ2UGNZVXZMSlNoNGZ5Wi1qdmlrX3JQZnM3UzJZcWc1RFhxaThOM01Dd2dMeWZLdEs5WXdfN1R0eTRoNHRYazQ0VzBKUWhUVDF3b0ljOVN5RTlIcXQ2eTJVck85a2NqTFhHZUNDZkltc1duRzVKdjh6ZXdBQmZHMFFyeEV3b2M2SWg?oc=5",
-      "source": "Brasil Paralelo",
-      "published_at": "Mon, 21 Sep 2026 15:54:37 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "IA avança, mas dados ainda desafiam empresas",
-      "summary": "IA avança, mas dados ainda desafiam empresas",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT016RGNLcm1KYVF6YjRyeEJmU1Axd1ZGcDBmc0NrZTZPNDQtTUp3SGk4WVZROUx3ZW1JWEFNSXV5UktYVHBrakRyQWUwQ3YwbjAyd0s2QUVmdHhBXzhZWjVHYTA5QXR5WW1iUHFmUksxTjB3TUJ5bERrSmJvRVlJamx1MDRySm9yOVhEcVVSYjE0RkZLOVpfNnB5c0kyc1NWd2dSMlR1bw?oc=5",
-      "source": "CNN Brasil",
-      "published_at": "Mon, 21 Sep 2026 13:10:16 GMT",
+      "title": "5 sinais de que sua empresa está pronta, ou não, para colocar IA em operação",
+      "summary": "5 sinais de que sua empresa está pronta, ou não, para colocar IA em operação",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeklfZkdEWFhaNjhSRjdfVmlUYkNONUhUaWdjVnJKaW1jNGw4cHFJOHZ6M2VyUjhoR3VfY3V4bWxKLXBVVXg4b3gzN2hlWjVheUhUTWZTejFpVUFzVE84Y29SZlBaZ3g5VVpfX3ZxdHV3TVFjQTdVc0F2NDYwQnRla3ViZ0MxbnViMmtieU5ZMndoS3dxX3d4WnhvUF9FU2ZYdmwta2Z0SUNOSGJfOERJLVl3?oc=5",
+      "source": "Computer Weekly",
+      "published_at": "Fri, 25 Sep 2026 04:29:34 GMT",
       "category": "IA",
       "signal": "flat"
     }
