@@ -1,22 +1,13 @@
 {
-  "generated_at": "2026-09-27T13:21:53.172504+00:00",
+  "generated_at": "2026-09-27T22:43:43.379350+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
     {
-      "title": "Por que empresas estão trocando modelos gigantes de IA por versões menores e mais baratas",
-      "summary": "Por que empresas estão trocando modelos gigantes de IA por versões menores e mais baratas",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNa0EyOWlxYU9PNVJJZk41ZFkwX1hyRi1DYzJUazRDVW9kc2QxVTBiZUM3NE5vbHZEVXBOOXlTLUh1VkRvanMtR05NUzZzc0ZGOW1Qd1lOVXI2aXQzcmpuUDNMNWFsOUdGQzhsSjlMc21uOEpZeUpCX0VNeUlsMFo4OU5pblZ4OHFKc25MUzhPeUlqampZZTFNY0dTQ09DeGVPdk5la2RtWFpzdUVham5HTDROb29mZ21QN0hYa3ZDR05kSU4yejhUV05RWTI?oc=5",
-      "source": "Exame",
-      "published_at": "Sun, 27 Sep 2026 08:04:41 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
       "title": "Apesar da adoção crescente da inteligência artificial, 41% das empresas ainda apresentam dificuldades na integração com agentes de IA",
       "summary": "Apesar da adoção crescente da inteligência artificial, 41% das empresas ainda apresentam dificuldades na integração com agentes de IA",
       "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxON3lfd2Q5M1ZVQVdrZTc5aTFsQWFadHRQYl9KLThLNEpZT1lFMmtneHR1dE1NTngzcUJlanU1dmlzV2NhVzVtcGxZdXNzRnU3eTFaaGRCdUtDVkkzMEUzSlVMVTdiS1FjdWpETjJSTHVyS1M0VFBsZHdZV1hFM3l5YUpfWEtTZnpiMlhDeTgxTWhjekF2c040RHpndExIbk1tWmM0SzVPeG1zWlRSVWlkQnJoblpTSmgzRHRrNmllU1NKQ2Rqc1AwSkhDNFNEQ0EtQmlqRFFUWm1abDE3TUI1b19laGR4YmtSX0gyNEc0dmdUTFhBOFpndE0wX2FFMGpKYTBNWUtWZm9GUnQwakFfTVB3?oc=5",
-      "source": "Seu Dinheiro",
+      "source": "seudinheiro.com",
       "published_at": "Thu, 24 Sep 2026 17:04:25 GMT",
       "category": "IA",
       "signal": "up"
@@ -25,7 +16,7 @@
       "title": "Empresas precisam estabelecer regras para usar inteligência artificial com segurança",
       "summary": "Empresas precisam estabelecer regras para usar inteligência artificial com segurança",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMWtlQnB1RTExTEZLUnRQTXZpVkhndmN1NEM3NmY2MTBsYmtOWEc2ektYT0RKNlpGdlZfaUUtX2t5TC1lUU9ZajZMU1FjQ1N1aWxsM1NIR0lVcHExYU5lUXA5SGhHRC16dUx2dnBCdzlkdXFMU1dqYVpQSlBsQzkwUktkRHI3Mi1tYTQxRzZLSEdJWkFVV01ncGNSTnFQcExieHdDbkk0OUZaNFVtT0Y0QVBXRFY0eUlfZGRBcjFfR1kxTXRxRV9lVw?oc=5",
-      "source": "engeplus.com.br",
+      "source": "Portal Engeplus",
       "published_at": "Sun, 27 Sep 2026 00:34:00 GMT",
       "category": "IA",
       "signal": "flat"
@@ -38,6 +29,15 @@
       "published_at": "Sun, 27 Sep 2026 13:00:00 GMT",
       "category": "IA",
       "signal": "flat"
+    },
+    {
+      "title": "Ferramentas de IA crescem no cotidiano das empresas, mas integração de agentes autônomos ainda é baixa; confira solução da Empiricus",
+      "summary": "Ferramentas de IA crescem no cotidiano das empresas, mas integração de agentes autônomos ainda é baixa; confira solução da Empiricus",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQOEZ6N0Q2bUR4TVh3WE1Ja0xpUGtlYjNpbURrV3pkNnlNM2U3eXhLY2NmNFJRNV95c3BBUHNDMmRpSzhJUDg1d251MklQeFp0bW5DNjhmTTdNdEkycGVQbUJGOXRtWDBaUXozRXVYbDJGZjcwNGlsZDhpempub2VmQVk0cHVJajRlVVAyTGQ1TFBrNFpvT2ZQbEUyeUVPNFRhVVY0VGFLWWxVckRvazFkZ2Y2VmFQdzkybUwwekNEWE9xQnlfaGpZSzIxcVlRUFVpQktOcTZ1bUZoZEE2czAyUkRvYm9IYS02Y0hHemhfdHBxOGJzNFNvVVZLZGxxdkdZaWRCT0xmUDRlbzRuY0dFbGJpOUhBeDIyTWl1NQ?oc=5",
+      "source": "empiricus.com.br",
+      "published_at": "Fri, 25 Sep 2026 17:00:00 GMT",
+      "category": "IA",
+      "signal": "up"
     },
     {
       "title": "Inteligência artificial movimenta US$ 2,7 trilhões, mas retorno patina; o que falta?",
