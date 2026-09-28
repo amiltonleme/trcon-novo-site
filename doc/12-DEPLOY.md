@@ -336,10 +336,12 @@ Segurança:
 3. `GET https://api-site.trcongroup.com.br/api/public/news` retorna 200.
 4. `GET https://api-site.trcongroup.com.br/api/public/economy-tips` retorna 200.
 5. Site abre em `https://trcongroup.com.br`.
-6. Home: seções Radar, Novidades e **Educação Financeira** (merge API + JSON RSS).
+6. Página Conteúdo: Radar usa API com fallback `home-highlights.json`; Novidades
+   usa somente a API institucional. A Home não exibe Educação Financeira.
 7. Formulário de contato envia lead e recebe 201.
 8. Reenvio do mesmo lead retorna 409.
-9. Se a API ficar indisponível, a home continua abrindo com JSON estático.
+9. Se a API ficar indisponível, o site continua abrindo; Radar usa o JSON estático
+   e Novidades fica oculta.
 10. Cloudflare não cacheia respostas de `/api/*`.
 11. *(Integração)* Aprovar `LANDING_PAGE` no marketing → item aparece em economy-tips.
 

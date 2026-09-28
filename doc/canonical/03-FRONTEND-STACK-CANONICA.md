@@ -37,7 +37,7 @@ Manter **HTML/CSS/JavaScript estático (vanilla)**, sem framework de UI
 | Testes de lógica JS | Vitest, apenas para funções não triviais (parsing/composição de dados de `data/*.json`) |
 | Acessibilidade | checagem manual + `axe-core` via extensão de navegador no checkpoint de revisão |
 | Hospedagem | Coolify no Hetzner, atrás do Cloudflare; alternativas estáticas ficam apenas como contingência |
-| Integração com backend | `fetch` para endpoints públicos do backend (`/api/public/...`), com fallback para JSON local conforme [07-MIGRACAO-PARALELA.md](../07-MIGRACAO-PARALELA.md) |
+| Integração com backend | `fetch` para endpoints públicos; Radar admite fallback local, enquanto Novidades usa somente a API institucional e fica oculta quando indisponível |
 
 ## O que não usar no início
 
@@ -75,7 +75,7 @@ frontend/
     app.js               # orquestração geral da página
     modules/
       config.js          # URLs de API por ambiente (TRCON_*_API_URL)
-      content.js         # Radar e Novidades com fallback controlado
+      content.js         # fallback do Radar e consumo institucional de Novidades
       article.js         # fallback CSR e metadados do artigo
       lead-form.js       # envio do lead comercial
       sanitize.js        # escaping e validações de apresentação
@@ -84,7 +84,7 @@ frontend/
     ai-radar.json
     tech-radar.json
     home-highlights.json
-    news-log.json         # somente conteúdo institucional válido como fallback
+    news-log.json         # artefato residual do pipeline; não é consumido como Novidades
   tests/
     modules/               # testes Vitest dos módulos com lógica não trivial
 ```
@@ -105,9 +105,9 @@ utilidades. O plano de migração e os limites por arquivo estão em
 2. Toda URL de API vem de `assets/modules/config.js`, nunca hardcoded espalhada
    pelo código (permite o rollout por configuração de
    [07-MIGRACAO-PARALELA.md](../07-MIGRACAO-PARALELA.md)).
-3. Todo consumo de API pública tem fallback explícito para o JSON estático
-   correspondente — nenhuma seção do site pode quebrar por indisponibilidade do
-   backend.
+3. Radar tem fallback explícito para JSON estático. Novidades não aceita fallback
+   oriundo dos radares: se a API institucional estiver vazia ou indisponível, o
+   bloco é ocultado sem quebrar a página.
 4. Lógica de composição/parsing de dados (não trivial) fica isolada em função
    pura testável — não misturada com manipulação direta de DOM, para permitir
    teste unitário sem precisar de navegador.

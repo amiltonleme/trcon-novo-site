@@ -55,7 +55,7 @@
 | Páginas de produto (Hub / Agendamento / Marketing) | ✅ | `#page-hub`, `#page-agendamento`, `#page-marketing` — só conteúdo |
 | Contato contextual (`data-product`) | ✅ | hub / agendamento / marketing / servicos / default |
 | Radar: API + fallback pipeline JSON | ✅ | `fetchRadarHighlights` — exclui editorial legado |
-| Novidades: API + fallback JSON | ✅ | feed separado de highlights |
+| Novidades: somente API institucional | ✅ | bloco oculto se vazio/offline; nenhum fallback oriundo dos radares |
 | **Layout Radar + Novidades: cards-grid** | ✅ | `buildCardItemHtml` compartilhado |
 | Educação Financeira na Home | Removida | Consumidor, JSON, pipeline e CSS retirados |
 | **Seções editoriais só com conteúdo** | ✅ | `#block-news` / `#block-radar` ocultos se vazios |

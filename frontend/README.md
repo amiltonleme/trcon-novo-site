@@ -40,11 +40,12 @@ frontend/
 | Seção | API | Fallback JSON | Layout |
 |-------|-----|---------------|--------|
 | **Radar TRCONGROUP** | `GET /api/public/highlights` | `data/home-highlights.json` | `cards-grid` (bloco oculto se vazio) |
-| **Novidades TRCONGROUP** | `GET /api/public/news` | `data/news-log.json` | `cards-grid` (bloco oculto se vazio) |
+| **Novidades TRCONGROUP** | `GET /api/public/news` | nenhum; o bloco fica oculto se a API estiver vazia ou indisponível | `cards-grid` |
 
 Implementação em `assets/modules/content.js`:
 
-- **`fetchWithFallback`** — API → JSON se falha ou lista vazia (news).
+- **`fetchWithFallback`** — API → JSON para conteúdo que admite fallback externo.
+- **`fetchInstitutionalNews`** — consulta somente a API institucional; não usa os radares como Novidades.
 - **`fetchRadarHighlights`** — exclui highlights editoriais legados; se API só tiver artigos marketing, cai no JSON do pipeline.
 - **`buildHighlightsHtml` / `buildNewsHtml`** — grid de cards; lista vazia → string vazia (seção some).
 - Novidades com `slug` → link interno `/novidades/{slug}` (mesma aba).

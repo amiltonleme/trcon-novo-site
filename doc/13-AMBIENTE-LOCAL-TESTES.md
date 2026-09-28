@@ -130,7 +130,7 @@ window.TRCON_CHAT_API_URL = 'http://localhost:8081/api/v1/site/chat';
 | Seção na home | API | Conteúdo | Layout |
 |---|---|---|---|
 | **Radar TRCONGROUP** | `/api/public/highlights` | Sinais IA/tecnologia (pipeline JSON 2×/dia). API **exclui** artigos marketing (`/novidades/`, `-radar`). Fallback `home-highlights.json`. | `cards-grid` |
-| **Novidades TRCONGROUP** | `/api/public/news` | Artigos Sirius Marketing (`news_items`). Link → `/novidades/{slug}`. | `cards-grid` |
+| **Novidades TRCONGROUP** | `/api/public/news` | Artigos institucionais (`news_items`). Link → `/novidades/{slug}`; sem fallback dos radares, bloco oculto se API vazia/offline. | `cards-grid` |
 | **Chat institucional** | `POST /api/v1/site/chat` | Base factual autorizada; profile `dev` usa stub sem custo | Widget flutuante |
 
 **Não são o mesmo feed.** Artigos aprovados vão **somente** a Novidades (correção 27/07/2026).

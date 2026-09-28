@@ -20,7 +20,7 @@
 | 4 | Página Serviços, CTAs `data-lead-type`, copy institucional |
 | 5 | Leads → `POST /api/v1/site/leads`, fallback offline |
 | 6 | Pipeline Python: radar IA/tecnologia, mercado, economy RSS, `update-content.yml` |
-| 7 | Home Radar + Novidades com `fetchWithFallback` API→JSON; layout **cards-grid** |
+| 7 | Registro histórico: Home Radar + Novidades usavam API→JSON; após a Etapa 2 do plano 22, ambos estão em Conteúdo e Novidades usa somente a API institucional |
 
 ### Fase 8 — Infra produção (parcial)
 
@@ -38,7 +38,7 @@
 | S3.1 | `POST /api/internal/news` + API key | ✅ |
 | S3.2 | `POST /api/internal/highlights` + V5 | ✅ |
 | S3.3 | Idempotência `external_id` news/highlights | ✅ V4/V5 |
-| S3.4 | Frontend: Radar ≠ Novidades; fallback; **cards-grid** | ✅ |
+| S3.4 | Frontend: Radar ≠ Novidades; Radar com fallback e Novidades somente pela API institucional; **cards-grid** | ✅ atualizado na Etapa 2 |
 | S3.5 | `application-dev.yml`, porta **8081** | ✅ |
 | S3.6 | Profiles prod + CORS + Hikari idle | ✅ |
 

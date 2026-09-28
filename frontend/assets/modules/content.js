@@ -1,7 +1,6 @@
-// Consumo de conteúdo público (highlights / news) com degradação previsível:
-// tenta a API do backend quando configurada e, em qualquer falha, cai para o
-// JSON estático publicado. O site nunca quebra por indisponibilidade do backend
-// (doc/07-MIGRACAO-PARALELA.md — fallback por capacidade).
+// Consumo de conteúdo público com degradação por capacidade: Radar pode usar o
+// JSON estático; Novidades usa somente a API institucional e fica oculta quando
+// indisponível. O site nunca quebra por falha do backend.
 //
 // Funções puras de render (buildHighlightsHtml / buildNewsHtml) ficam isoladas
 // de DOM/rede para serem testáveis com Vitest.
@@ -53,6 +52,18 @@ export async function fetchWithFallback(apiUrl, jsonUrl, deps = {}) {
     source: 'json',
     disclaimer: payload.disclaimer || '',
   };
+}
+
+// Novidades institucionais não podem usar o feed externo dos radares como
+// fallback. Se a API estiver vazia ou indisponível, a seção deve ficar oculta.
+export async function fetchInstitutionalNews(apiUrl, deps = {}) {
+  const fetchImpl = deps.fetch || (typeof fetch !== 'undefined' ? fetch : null);
+  if (!fetchImpl) throw new Error('fetch indisponível neste ambiente.');
+  if (!apiUrl) return [];
+
+  const response = await fetchImpl(apiUrl, { headers: { Accept: 'application/json' } });
+  if (!response.ok) throw new Error(`Novidades indisponíveis: HTTP ${response.status}`);
+  return extractItems(await response.json());
 }
 
 /** Destaque enviado pelo Sirius Marketing (legado: ia também para o Radar). */

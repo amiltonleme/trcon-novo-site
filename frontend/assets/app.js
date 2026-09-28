@@ -1,6 +1,6 @@
 import { apiConfig } from './modules/config.js';
 import { buildLeadPayload, submitLead, mensagemDeErro } from './modules/lead-form.js';
-import { fetchWithFallback, buildHighlightsHtml, buildNewsHtml, fetchRadarHighlights } from './modules/content.js';
+import { buildHighlightsHtml, buildNewsHtml, fetchInstitutionalNews, fetchRadarHighlights } from './modules/content.js';
 import { initChatWidget } from './modules/chat-widget.js';
 
 const LEADS_API_URL = apiConfig.leadsApiUrl;
@@ -615,7 +615,8 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
     });
   }
 
-  // Radar (highlights) e Novidades (news): API com fallback para JSON estático.
+  // Radar usa fallback estático. Novidades vêm somente da API institucional;
+  // se ela estiver vazia ou indisponível, a seção fica oculta.
   async function loadPublishedContent() {
     const radarGrid = document.getElementById('radarGrid');
     const radarUpdated = document.getElementById('radarUpdated');
@@ -623,10 +624,7 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
 
     if (newsList) {
       try {
-        const { items } = await fetchWithFallback(
-          apiConfig.newsApiUrl,
-          'data/news-log.json',
-        );
+        const items = await fetchInstitutionalNews(apiConfig.newsApiUrl);
         const visible = items.slice(0, 8);
         newsList.innerHTML = buildNewsHtml(visible);
         newsList.removeAttribute('aria-busy');

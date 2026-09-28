@@ -56,7 +56,7 @@ DNS `@`/`www` → Hetzner pendente; `fluxo-caixa-app/site-trcon` ainda não desc
 |---|---|
 | Leads | exibir erro claro no formulário, sem quebrar a página |
 | Highlights | usar JSON local (`home-highlights.json`) se API vazia ou offline |
-| News | usar JSON local (`news-log.json`) se API vazia ou offline |
+| News | ocultar a seção se a API institucional estiver vazia ou offline; não usar `news-log.json` dos radares como fallback |
 | Economy tips | merge API + `economy-tips.json`; JSON se API offline |
 
 ## Rollout por configuração
@@ -64,7 +64,7 @@ DNS `@`/`www` → Hetzner pendente; `fluxo-caixa-app/site-trcon` ainda não desc
 - `TRCON_LEADS_API_URL`
 - `TRCON_HIGHLIGHTS_API_URL`
 - `TRCON_NEWS_API_URL`
-- `TRCON_ECONOMY_TIPS_API_URL`
+- `TRCON_ECONOMY_TIPS_API_URL` foi removida do frontend; permanece apenas como referência histórica desta migração
 
 Ausência de valor = usa o comportamento estático atual. Nenhuma URL fica hardcoded
 no frontend.

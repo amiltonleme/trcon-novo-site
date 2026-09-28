@@ -3,6 +3,9 @@
 > Criado em **28/09/2026**. Plano de execução; nenhuma exclusão descrita aqui
 > deve ser feita sem concluir a etapa de substituição e as verificações da própria
 > fase.
+>
+> **Última atualização: 28/09/2026.** Etapas 0, 1 e 2 concluídas. Próximo gate:
+> Etapa 3 — evolução visual e componentes.
 
 ## Objetivo
 
@@ -90,10 +93,10 @@ remoção do backend financeiro em um único deploy.
 | 0 — Baseline e proteção | **Concluída em 28/09/2026** | estado do Git preservado; 260 testes executados; lint e build aprovados; baseline visual desktop/mobile registrado; produtor e consumidores de `economy-tips` inventariados; conteúdo financeiro classificado | nenhuma pendência do gate; a retirada do produtor continua sendo pré-condição da Etapa 7 |
 | 1 — Fonte de verdade | **Concluída em 28/09/2026** | fonte canônica com 12 IDs estáveis; YAML sincronizado; responsáveis e revisão definidos; conteúdo público e fallbacks auditados; teste de contrato entre documento, site e chat | nenhuma pendência do gate; fatos novos exigem o processo de aprovação registrado |
 | 2 — Arquitetura e conteúdo | **Concluída em 28/09/2026** | Home e Empresa reposicionadas; página “Como ajudamos”; Conteúdo na navegação; quatro ofertas com problema, entregáveis, processo, contratação e CTA contextual; processo e métricas comerciais registrados | nenhuma pendência do gate; o estouro horizontal mobile segue como prioridade da Etapa 3 |
-| 3 — Visual e componentes | Parcial | CSS dividido em módulos; bundles separados; CSS legal extraído; chat redesenhado | retirar 88 estilos inline; substituir animação JS por classes; distribuir `responsive.css`; avaliar Stylelint; retirar backup de logo |
+| 3 — Visual e componentes | Parcial | CSS dividido em 21 módulos; bundles separados; CSS legal extraído; chat redesenhado; módulo de ofertas criado | corrigir estouro horizontal mobile; retirar 76 estilos inline; substituir animação JS por classes; distribuir `responsive.css`; avaliar Stylelint; retirar backup de logo |
 | 4 — Trabalhe Conosco | Parcial | página criada; áreas e estado real de vagas publicados; nenhuma coleta indevida | aprofundar cultura e forma de trabalho; adicionar perguntas frequentes; smoke editorial e de acessibilidade |
 | 5 — Assistente institucional | Parcial | widget, endpoint, base factual, cliente DeepSeek, rate limit, orçamento, stub local e testes unitários | validar DeepSeek real; testes HTTP/integrados e adversariais; configurar e validar produção |
-| 6 — Limpeza frontend/pipeline | Implementada no código; gate pendente | consumidores, JSONs, scripts financeiros e passos do workflow removidos; Radar e Novidades preservados | observação após deploy e confirmação de que nenhum produtor/consumidor externo depende dos artefatos retirados |
+| 6 — Limpeza frontend/pipeline | Parcial | consumidores financeiros, JSONs, scripts financeiros, configurações e passos correspondentes do workflow removidos; Radar preservado; frontend deixou de usar `news-log.json` como fallback institucional | retirar geração residual de `news-log.json` baseada nos radares, remover seletor órfão `.insight-card.featured`, renomear `.market-disclaimer`, testar pipeline e observar o deploy |
 | 7 — Backend financeiro | Não iniciada | módulo legado apenas marcado como pendente | interromper produtor externo; remover `economytips`, scheduler e testes; backup e migration nova de remoção |
 | 8 — Higiene do repositório | Parcial | regra de ignore criada e bytecode marcado para remoção | concluir remoção versionada dos caches; retirar backup; eliminar referências e documentação obsoletas |
 | 9 — Verificação e publicação | Parcial local | lint, frontend, pipeline e testes unitários do chat executados; smoke visual local | suíte integrada com Docker, SEO/acessibilidade completos, deploy gradual, smoke e observação em produção |
@@ -102,10 +105,11 @@ remoção do backend financeiro em um único deploy.
 
 O próximo trabalho não deve avançar para novas funcionalidades fora da sequência. Deve:
 
-1. concluir os itens editoriais pendentes da Etapa 2;
-2. fechar a dívida visual da Etapa 3, começando pelo estouro horizontal em mobile, pelos estilos inline e pela animação via classes;
-3. somente depois validar formalmente as Etapas 4, 5 e 6;
-4. não iniciar a Etapa 7 até o Sírius Marketing deixar de publicar em `POST /api/internal/economy-tips`.
+1. executar a Etapa 3, começando pelo estouro horizontal em mobile, pelos 76
+   estilos inline e pela animação via classes;
+2. somente depois validar formalmente as Etapas 4, 5 e 6;
+3. não iniciar a Etapa 7 até o Sírius Marketing deixar de publicar em
+   `POST /api/internal/economy-tips`.
 
 Até esses gates serem fechados, o estado do plano é **em execução**, não
 “implementado por completo”.
@@ -134,7 +138,7 @@ seções seguintes detalham cada item.
 - adicionar `build:css` e `check:css`
 - comparar desktop e mobile antes e depois de cada extração
 
-### 3. Implantar a nova arquitetura de navegação
+### 3. Implantar a nova arquitetura de navegação — concluído na Etapa 2
 
 - Home
 - Empresa
@@ -144,36 +148,38 @@ seções seguintes detalham cada item.
 - Trabalhe Conosco
 - Contato
 
-Substituir a página atual “Clientes” por “Como ajudamos” ou “Para empresas”, com
-alias temporário para links antigos.
+A navegação alvo foi implantada. A página “Como ajudamos” substituiu o destino
+antigo e `#clientes` permanece temporariamente como alias compatível.
 
-### 4. Reposicionar Home e Empresa
+### 4. Reposicionar Home e Empresa — concluído na Etapa 2
 
-- apresentar os 21 anos
-- comunicar IA, novas tecnologias, desenvolvimento sob demanda, customização e
-  outsourcing como atuação atual
-- remover a narrativa predominantemente financeira
-- trocar os pilares por Engenharia de Software, IA e Automação, Produtos Digitais
-  e Squads/Profissionais
-- retirar ticker, ativos, humor de mercado e educação financeira da Home
+- os 21 anos e a evolução tecnológica atual foram publicados;
+- IA, desenvolvimento sob demanda, customização e outsourcing passaram a compor
+  a atuação atual;
+- a narrativa predominantemente financeira e os elementos de mercado saíram da
+  Home;
+- os pilares foram substituídos por Engenharia de Software, IA e Automação,
+  Produtos Digitais e Squads/Profissionais.
 
-### 5. Transformar Serviços em ofertas comerciais
+### 5. Transformar Serviços em ofertas comerciais — concluído na Etapa 2
 
-- Diagnóstico de IA e automação
-- Desenvolvimento de MVP ou produto
-- Modernização e customização
-- Outsourcing por profissional, célula ou squad
+- Diagnóstico de IA e automação;
+- Desenvolvimento de MVP ou produto;
+- Modernização e customização;
+- Outsourcing por profissional, célula ou squad.
 
-Cada oferta apresenta problema, entrega, processo, modelo de contratação e CTA.
+Cada oferta apresenta público, problema, entregáveis, processo, modelo de
+contratação e CTA próprio.
 
-### 6. Melhorar a conversão
+### 6. Melhorar a conversão — concluído na Etapa 2
 
-- usar CTAs “Solicitar diagnóstico”, “Falar sobre um projeto”, “Receber uma
-  proposta” e “Montar meu time”
-- preservar `origem` e `leadType` no formulário
-- definir processo interno de qualificação, reunião, proposta e acompanhamento
-- medir visitas por oferta, formulários iniciados, leads qualificados, reuniões,
-  propostas e contratos
+- CTAs implantados: “Solicitar diagnóstico”, “Falar sobre um projeto”, “Receber
+  uma proposta” e “Montar meu time”;
+- `origem` e `leadType` preservados no formulário;
+- processo interno de qualificação, reunião, proposta e acompanhamento definido;
+- métricas de visitas, formulários iniciados, leads qualificados, reuniões,
+  propostas e contratos definidas. A instrumentação aguarda aprovação do sistema
+  de analytics e da retenção, conforme [23-PROCESSO-COMERCIAL.md](23-PROCESSO-COMERCIAL.md).
 
 ### 7. Criar Trabalhe Conosco
 
@@ -316,6 +322,10 @@ headless, após 3 segundos de renderização, nos viewports 1440×900 e 390×844
 Foram inspecionadas 18 capturas temporárias; elas não foram adicionadas ao
 repositório.
 
+> A tabela abaixo é o registro histórico anterior às correções das Etapas 1 e 2;
+> não descreve o estado atual. O gate atual da Etapa 2 está documentado na seção
+> “Evidência do gate”.
+
 | Página/rota | Desktop 1440×900 | Mobile 390×844 |
 |---|---|---|
 | Home `#home` | navegação e hero carregam; o texto de apoio e os CTAs ficam com contraste/opacidade insuficiente no estado capturado | marca, texto e ações ultrapassam a largura; conteúdo e botão do chat ficam cortados |
@@ -323,7 +333,7 @@ repositório.
 | Soluções `#servicos` | primeira dobra carrega e comunica IA, software, modernização e outsourcing | título e texto ultrapassam a largura e ficam cortados |
 | Produtos `#produtos` | primeira dobra carrega; o texto ainda apresenta o portfólio como predominantemente financeiro | título e texto ultrapassam a largura e ficam cortados |
 | Trabalhe Conosco `#carreiras` | primeira dobra carrega e a rota está na navegação principal | título, texto e botão do chat ultrapassam a largura |
-| Clientes `#clientes` | não existe página própria; o código converte o hash para `#carreiras` | mesmo comportamento; deve ser substituído por “Como ajudamos” na Etapa 2 |
+| Clientes `#clientes` | no baseline, não existia página própria e o código convertia o hash para `#carreiras` | registro histórico corrigido na Etapa 2: hoje o alias aponta para `#como-ajudamos` |
 | Contato `#contato` | primeira dobra carrega e apresenta o contexto comercial | título, texto e botão do chat ultrapassam a largura |
 | Sírius Hub `#hub` | primeira dobra do convite beta carrega | título, texto e botão do chat ultrapassam a largura |
 | Sírius Agendamento `#agendamento` | primeira dobra carrega | título, texto e botão do chat ultrapassam a largura |
@@ -361,7 +371,7 @@ em produção. O backend, o scheduler, as migrations e os testes de
 | Classificação | Conteúdo | Decisão registrada |
 |---|---|---|
 | manter no contexto do Sírius Hub | controle de receitas e despesas, visão mensal, metas, programação financeira, galeria do produto e convite beta | permanece nas rotas e cards do produto; não volta para a Home institucional |
-| revisar e centralizar no produto | Market AI, análise de humor, cotações, recomendações, BI financeiro e textos que apresentam todo o portfólio como financeiro | não excluir automaticamente; a Etapa 2 deve validar o que é capacidade real e restringir conteúdo financeiro ao produto correspondente |
+| revisar e centralizar no produto | Market AI, análise de humor, cotações, recomendações, BI financeiro e textos que apresentam todo o portfólio como financeiro | a Etapa 2 retirou alegações não comprovadas e manteve conteúdo financeiro somente no contexto real do Sírius Hub; qualquer capacidade nova exige aprovação factual |
 | arquivar | antigos payloads `market.json`, `economy-tips.json` e `recipes.json`, além do conteúdo gerado por seus pipelines | removidos da árvore atual e preservados no histórico Git anterior a `c3a2325`; não restaurar na Home |
 | excluir do site institucional | ticker, tabela de ativos, humor de mercado, recomendações, cards de Educação Financeira e receitas econômicas | consumidores e geradores frontend já removidos; CSS órfão deve ser tratado na Etapa 3/8 |
 | preservar por dependência | conteúdo publicado pelo Sírius Marketing na tabela `economy_tips` | manter até decidir a migração para notícia/produto ou o arquivamento e desligar o produtor |
@@ -456,114 +466,70 @@ de fatos institucionais devem seguir a governança registrada antes da publicaç
 
 ## Etapa 2 — Arquitetura de informação e conteúdo
 
-### Home
+**Estado: concluída em 28/09/2026.**
 
-1. Reescrever o hero para software, IA e times de tecnologia.
-2. Trocar os pilares financeiros por:
-   - Engenharia de Software
-   - IA, Dados e Automação
-   - Produtos Digitais
-   - Squads e Profissionais
-3. Usar CTAs “Conheça nossas soluções” e “Converse com a TRCONGROUP”.
-4. Inserir “Como trabalhamos”: descoberta, arquitetura, construção, operação e
-   evolução.
-5. Exibir produtos próprios como demonstração de capacidade.
-6. Manter Radar apenas para IA e tecnologia.
-7. Exibir Novidades apenas com conteúdo publicado pela TRCONGROUP.
+### Resultado implementado
 
-### Empresa
+| Frente | Estado entregue |
+|---|---|
+| Home | hero comunica software, IA e times de tecnologia; pilares são Engenharia de Software, IA e Automação, Produtos Digitais e Squads/Outsourcing; existe o fluxo “Como trabalhamos”; conteúdo financeiro não voltou à página |
+| Empresa | comunica 21 anos e a evolução tecnológica atual; apresenta engenharia, qualidade, transparência e IA sem inventar origem histórica, clientes ou métricas |
+| Navegação | contém Home, Empresa, Soluções, Produtos, Conteúdo, Trabalhe Conosco e Contato; desktop, mobile e rodapé possuem os destinos aplicáveis |
+| Conteúdo | `#conteudo` concentra Radar de IA/Tecnologia e Novidades institucionais; os blocos saíram da Home sem reintroduzir notícia externa como novidade própria |
+| Como ajudamos | `#como-ajudamos` orienta empresas que precisam construir, modernizar, aplicar IA ou ampliar o time |
+| Compatibilidade | `#clientes` é alias temporário de `#como-ajudamos`; o redirecionamento incorreto para Carreiras foi removido |
+| Soluções | quatro ofertas apresentam público, problema, entregáveis, processo, formato de contratação e CTA específico |
+| Conversão | CTAs usam “Solicitar diagnóstico”, “Falar sobre um projeto”, “Receber uma proposta” e “Montar meu time”; `tipoInteresse` e uma `origem` própria seguem até o formulário |
+| Operação comercial | resposta, qualificação, reunião, proposta, acompanhamento, estados, responsabilidades e métricas internas estão definidos em [23-PROCESSO-COMERCIAL.md](23-PROCESSO-COMERCIAL.md) |
 
-1. Comunicar os 21 anos e a evolução tecnológica como atuação atual da empresa.
-2. Remover a narrativa não documentada de que a empresa nasceu para democratizar
-   finanças pessoais.
-3. Apresentar princípios de engenharia, qualidade, transparência e aplicação de IA.
-4. Não preencher a ausência de cases com números genéricos.
+### Ofertas e contexto do lead
 
-### Conversão e aquisição de clientes
+| Oferta | CTA | `origem` | `tipoInteresse` |
+|---|---|---|---|
+| Diagnóstico de IA e automação | Solicitar diagnóstico | `site-trcon-diagnostico-ia` | `DESENVOLVIMENTO_SOB_DEMANDA` |
+| MVP ou produto sob demanda | Falar sobre um projeto | `site-trcon-oferta-mvp` | `DESENVOLVIMENTO_SOB_DEMANDA` |
+| Modernização e customização | Receber uma proposta | `site-trcon-oferta-modernizacao` | `CUSTOMIZACAO` |
+| Outsourcing por profissional, célula ou squad | Montar meu time | `site-trcon-oferta-outsourcing` | `ALOCACAO_MAO_DE_OBRA` |
 
-1. Definir públicos prioritários para cada oferta: empresa que precisa construir,
-   modernizar, aplicar IA ou ampliar time.
-2. Criar quatro ofertas de entrada com escopo compreensível:
-   - diagnóstico de IA e automação
-   - desenvolvimento de MVP/produto sob demanda
-   - modernização e customização de sistemas
-   - outsourcing por profissional, célula ou squad
-3. Para cada oferta, apresentar problema, entregáveis, processo, formato de
-   contratação e CTA próprio.
-4. Usar CTAs orientados à ação: “Solicitar diagnóstico”, “Falar sobre um projeto”,
-   “Receber uma proposta” e “Montar meu time”.
-5. Preservar `origem` e `leadType` no formulário para qualificar o contato.
-6. Definir processo interno de resposta, qualificação, reunião, proposta e
-   acompanhamento; publicar prazo somente depois que houver capacidade de cumpri-lo.
-7. Medir visitas por oferta, abertura de formulário, leads qualificados, reuniões,
-   propostas e contratos, sem exibir essas métricas publicamente.
-8. Transformar contratos concluídos em cases apenas com autorização e dados
-   verificáveis.
+Prazos, preços, métricas de resultado, clientes e cases não foram publicados sem
+registro factual. Contratos concluídos somente podem virar cases com autorização
+e dados verificáveis.
 
-### Soluções
+### Evidência do gate
 
-1. Organizar por resultado e entrega:
-   - desenvolvimento sob demanda
-   - modernização e customização
-   - IA e automação
-   - dados e BI
-   - squads e alocação
-2. Separar soluções de modelos de contratação.
-3. Publicar tecnologias específicas somente quando fizerem parte da capacidade
-   real da empresa.
+- primeira dobra identificada como empresa de tecnologia nas rotas alteradas;
+- finanças restritas ao contexto do produto Sírius Hub;
+- nenhuma prova social simulada introduzida;
+- todas as rotas usadas por `data-page-link` possuem uma página correspondente e
+  não existem IDs HTML duplicados;
+- teste de contrato editorial cobre arquitetura, quatro ofertas, campos
+  obrigatórios, origens, funil e métricas;
+- 81 testes frontend, lint, build e `check:css` aprovados;
+- smoke visual desktop das rotas `#conteudo`, `#como-ajudamos` e `#servicos`
+  aprovado.
 
-### Clientes
-
-A página atual de perfis financeiros não representa clientes corporativos. O
-destino recomendado é substituí-la por **Como ajudamos** ou **Para empresas**.
-Durante uma versão, `#clientes` pode funcionar como alias para a nova página; em
-seguida o identificador antigo é removido.
-
-### Critério de aceite
-
-- a primeira dobra é entendida como empresa de tecnologia
-- finanças aparecem como domínio de um produto, não como identidade da empresa
-- não há prova social simulada
-- links e hashes antigos têm tratamento de compatibilidade definido
-
-### Fechamento da Etapa 2 — 28/09/2026
-
-- criada a página corporativa `#como-ajudamos`, organizada pelas necessidades de
-  construir, modernizar, aplicar IA e ampliar o time;
-- o hash legado `#clientes` agora é alias de `#como-ajudamos`; deixou de apontar
-  incorretamente para Trabalhe Conosco;
-- criada a página `#conteudo` e adicionada à navegação desktop, mobile e rodapé;
-  Radar de IA/Tecnologia e Novidades institucionais foram movidos da Home para
-  esse contexto;
-- a página Soluções apresenta as quatro ofertas de entrada com público, problema,
-  entregáveis, processo, formato de contratação e CTA próprio;
-- os CTAs preservam `tipoInteresse` e usam origens específicas para diagnóstico,
-  MVP/produto, modernização/customização e outsourcing;
-- resposta, qualificação, reunião, proposta, acompanhamento, estados e métricas
-  internas foram definidos em [23-PROCESSO-COMERCIAL.md](23-PROCESSO-COMERCIAL.md),
-  sem publicar prazo ou indicador não comprovado;
-- contrato editorial automatizado ampliado para cobrir arquitetura, campos das
-  ofertas, contextos de conversão, etapas do funil e métricas;
-- validação local: 78 testes frontend aprovados, lint aprovado, build e
-  `check:css` aprovados; smoke visual desktop das rotas alteradas aprovado;
-- o estouro horizontal observado em 390×844 permanece registrado para a Etapa 3,
-  conforme o ponto de retomada obrigatório deste plano.
+O estouro horizontal reproduzido em 390×844 não reabre a Etapa 2: é dívida visual
+já atribuída à Etapa 3 e constitui o próximo ponto de execução.
 
 ## Etapa 3 — Evolução visual e componentes
 
 ### Diagnóstico CSS atual
 
-`frontend/style.css` concentra responsabilidades demais:
+Diagnóstico recalculado depois da conclusão da Etapa 2. `frontend/style.css` é um
+bundle gerado; a dívida restante está nos módulos-fonte, nos estilos inline e na
+responsividade:
 
 | Medida em 28/09/2026 | Resultado |
 |---|---:|
-| Linhas | 2.170 |
-| Tamanho | 62.594 bytes |
-| Blocos `@media` | 9 |
-| Animações `@keyframes` | 14 |
+| Linhas do bundle `style.css` | 2.008 |
+| Tamanho do bundle `style.css` | 59.527 bytes |
+| Módulos CSS fonte | 21 |
+| Maior módulo fonte | `home-hero.css`, 390 linhas |
+| Blocos `@media` no bundle | 11 |
+| Animações `@keyframes` no bundle | 12 |
 | Usos de `!important` | 0 |
-| Atributos `style` no `index.html` | 87 |
-| CSS embutido em `privacidade.html` | 42 linhas |
+| Atributos `style` no `index.html` | 76 |
+| CSS embutido em `privacidade.html` | 0 linhas |
 
 O arquivo mistura tokens, reset, navegação, dois tipos de hero, componentes,
 produtos, formulários, páginas, conteúdo financeiro, responsividade, artigos e
@@ -673,7 +639,8 @@ orientados a componente, layout, página, utilidade e estado.
 
 ### Retirada de CSS inline
 
-Os 87 atributos `style` do `index.html` devem ser classificados:
+Os 76 atributos `style` atualmente presentes no `index.html` devem ser
+classificados:
 
 1. **repetidos**: transformar em classe de componente ou modificador, como margens
    de grids, grupos de botão e variações de ícone
@@ -822,68 +789,69 @@ Executar a especificação de [21-CHAT-IA-DEEPSEEK.md](21-CHAT-IA-DEEPSEEK.md):
 
 ## Etapa 6 — Limpeza do frontend e do pipeline
 
-Esta etapa ocorre depois que a nova Home estiver pronta.
+**Estado: parcial.** A nova Home e a arquitetura da Etapa 2 já satisfazem a
+pré-condição editorial. Consumidores e geradores financeiros foram retirados, mas
+o pipeline ainda gera `news-log.json` a partir dos radares externos. O frontend da
+Etapa 2 não usa mais esse arquivo como fallback de Novidades: se a API
+institucional estiver vazia ou indisponível, a seção fica oculta. O gate também
+depende da limpeza CSS residual, de testes do pipeline e de observação após deploy.
 
-### HTML a retirar ou substituir
+### HTML retirado ou substituído
 
 Em `frontend/index.html`:
 
-- retirar `#ticker` e `.ticker-wrap` do hero
-- retirar `#section-market`
-- retirar `#block-economy-tips` e `#section-economy-tips`
-- substituir `#page-clientes` pela página corporativa definida na Etapa 2
-- preservar as páginas e imagens do Sírius Hub que ainda explicam o produto
+- `#ticker`, `.ticker-wrap`, `#section-market`, `#block-economy-tips` e
+  `#section-economy-tips` foram retirados;
+- `#page-clientes` não existe; `#como-ajudamos` é a página corporativa e
+  `#clientes` permanece apenas como alias de compatibilidade;
+- páginas e imagens do Sírius Hub que explicam o produto foram preservadas.
 
-### JavaScript a retirar
+### JavaScript retirado
 
 Em `frontend/assets/app.js`:
 
-- `renderTicker`
-- `renderMarket`
-- `renderTips`
-- `renderRecipes`
-- carregamentos de `market.json`, `economy-tips.json` e `recipes.json`
-- imports que ficarem sem uso depois dessas remoções
+- `renderTicker`, `renderMarket`, `renderTips` e `renderRecipes` foram removidos;
+- carregamentos de `market.json`, `economy-tips.json` e `recipes.json` foram
+  removidos;
+- imports sem uso e testes exclusivos foram removidos.
 
-`recipes.json` já é um caso de código morto: o pipeline gera o arquivo e o
-JavaScript tenta carregá-lo, mas não existe `#recipeGrid` no HTML atual.
+O antigo `recipes.json` era código morto e não existe mais na árvore atual.
 
 Em `frontend/assets/modules/content.js`:
 
-- retirar `loadEconomyTips` e `normalizeTitleKey` se nenhum consumidor permanecer
-- preservar `fetchWithFallback`, `fetchRadarHighlights` e renderização de notícias
+- `loadEconomyTips` e `normalizeTitleKey` foram removidos
+- `fetchWithFallback` e `fetchRadarHighlights` foram preservados para o Radar; a
+  renderização de Novidades permanece, agora alimentada somente pela API
+  institucional
 
-Em `frontend/assets/modules/sanitize.js`, remover somente após nova busca de
-referências:
+Em `frontend/assets/modules/sanitize.js`, a busca de referências foi concluída e
+as funções sem consumidor foram removidas:
 
 - `changeClass`
 - `safePercent`
 - `safeCssColor`
 - `safeGradient`
 
-Os testes exclusivos dessas funções também saem. Funções genéricas ainda usadas,
-como `escapeHtml`, `safeUrl` e `safeClass`, permanecem.
+Os testes exclusivos dessas funções também foram retirados. Funções genéricas
+ainda usadas, como `escapeHtml`, `safeUrl` e `safeClass`, permanecem.
 
-### CSS a retirar
+### CSS residual a retirar
 
-Após remover HTML e JS, procurar seletores sem referência e retirar os blocos de:
+Os blocos de ticker, mercado e receitas foram retirados. A busca atual ainda
+encontra:
 
-- ticker e animação `@keyframes ticker`
-- tabela/status de mercado
-- `insight-card` financeiro
-- `recipe-card`, `recipe-thumb` e `recipe-body`
+- `.insight-card.featured` em `responsive.css`, sem consumidor;
+- `.market-disclaimer`, ainda usado como nota de contexto em Soluções e que deve
+  receber um nome genérico antes da remoção do nome financeiro.
 
 Não apagar `.market-disclaimer` de forma global sem revisar o uso remanescente na
 página de Serviços. Se o elemento continuar necessário, renomeá-lo para uma classe
 genérica, como `.context-note`, antes de remover o bloco financeiro.
 
-### Dados estáticos a retirar
+### Dados estáticos retirados
 
-Depois de eliminar todos os consumidores:
-
-- `frontend/data/market.json`
-- `frontend/data/economy-tips.json`
-- `frontend/data/recipes.json`
+`frontend/data/market.json`, `frontend/data/economy-tips.json` e
+`frontend/data/recipes.json` foram removidos depois da retirada dos consumidores.
 
 Preservar:
 
@@ -891,43 +859,35 @@ Preservar:
 - `tech-radar.json`
 - `home-highlights.json`
 
-`news-log.json` exige correção: hoje é gerado a partir dos radares externos e pode
-parecer “Novidades da TRCONGROUP”. A nova versão deve usar a API de notícias
-institucionais. Se a API estiver vazia ou indisponível, ocultar a seção ou usar um
-fallback editorial realmente publicado pela empresa; não renomear notícia externa
-como novidade própria.
+`news-log.json` continua sendo gerado a partir dos radares externos e deve sair do
+pipeline. Desde a Etapa 2, Novidades usa somente a API institucional; se ela
+estiver vazia ou indisponível, a seção é ocultada. Notícia externa não é mais
+usada como fallback nem apresentada como novidade da empresa.
 
-### Scripts Python a retirar
+### Scripts Python retirados
 
-Quando os JSONs deixarem de ser consumidos:
+Foram removidos `update_market.py`, `update_economy_tips.py`,
+`update_daily_content.py`, `economy_tips_builder.py` e
+`economy_tips_fallback.py`, além dos testes exclusivos desses fluxos.
 
-- `frontend/scripts/update_market.py`
-- `frontend/scripts/update_economy_tips.py`
-- `frontend/scripts/update_daily_content.py`
-- `frontend/scripts/builders/economy_tips_builder.py`
-- `frontend/scripts/catalog/economy_tips_fallback.py`
+`core/`, `providers/`, `radar_builder.py`, `update_ai_radar.py` e
+`update_tech_radar.py` permanecem porque alimentam o Radar tecnológico. O README
+do pipeline ainda deve ser corrigido junto com a retirada de `news-log.json`.
 
-Retirar os testes desses builders e atualizar `frontend/scripts/README.md`.
-Preservar `core/`, `providers/`, `radar_builder.py`, `update_ai_radar.py` e
-`update_tech_radar.py` enquanto alimentarem o Radar tecnológico.
-
-### GitHub Actions
+### GitHub Actions — parcial
 
 Em `.github/workflows/update-content.yml`:
 
-- retirar os passos “Atualizar mercado”, “Atualizar Educação Financeira” e
-  “Atualizar receitas econômicas”
-- manter testes do pipeline e geração dos radares
-- ajustar a consolidação para produzir somente artefatos realmente consumidos
-- parar de gerar `news-log.json` a partir de notícias externas
+- os passos “Atualizar mercado”, “Atualizar Educação Financeira” e “Atualizar
+  receitas econômicas” foram retirados;
+- testes do pipeline e geração dos radares foram preservados;
+- ainda falta retirar `news-log.json` de `build_home_payload.py`, do workflow, dos
+  testes e da documentação do pipeline.
 
-### Configuração do frontend
+### Configuração do frontend — concluída
 
-Retirar, depois da desativação do endpoint:
-
-- `TRCON_ECONOMY_TIPS_API_URL` de `frontend/assets/env.js`
-- `economyTipsApiUrl` de `frontend/assets/modules/config.js`
-- testes exclusivos dessa configuração
+`TRCON_ECONOMY_TIPS_API_URL`, `economyTipsApiUrl` e os testes exclusivos dessa
+configuração foram removidos.
 
 ### Critério de aceite
 
@@ -935,6 +895,14 @@ Retirar, depois da desativação do endpoint:
 - nenhum import, função, seletor ou teste órfão
 - pipeline gera apenas arquivos consumidos
 - Radar de IA/Tecnologia e Novidades continuam funcionando
+
+### Pendências do gate
+
+- retirar a geração e as referências de `news-log.json` do pipeline;
+- remover `.insight-card.featured` e renomear `.market-disclaimer`;
+- executar os testes do pipeline depois dessas remoções;
+- confirmar em deploy que não há requisições aos artefatos financeiros removidos
+  e que Radar e Novidades mantêm o comportamento documentado.
 
 ## Etapa 7 — Desativação do backend financeiro
 
