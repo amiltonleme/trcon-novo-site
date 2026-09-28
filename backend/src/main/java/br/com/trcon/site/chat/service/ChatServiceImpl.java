@@ -77,15 +77,24 @@ public class ChatServiceImpl implements ChatService {
             return response("A base institucional registra que a TRCONGROUP não possui contratos ativos no momento. Posso explicar nossas capacidades e direcionar você para uma conversa comercial.", "commercial.status", false, false, true, false);
         if (contains(normalized, "vaga", "carreira", "trabalhe", "emprego"))
             return response("No momento, não há vagas publicadas nem banco de talentos disponível. As próximas oportunidades serão divulgadas na página Trabalhe Conosco e no LinkedIn da TRCONGROUP.", "careers.status", false, false, false, true);
+        if (contains(normalized, "produto", "hub", "agendamento", "marketing"))
+            return response("Os produtos próprios publicados são o Sírius Hub de Inteligência Financeira, em beta, o Sírius Agendamento e o Sírius Marketing, ambos em desenvolvimento.", false, false, true, false,
+                    "products.hub", "products.scheduling", "products.marketing");
         if (contains(normalized, "21", "história", "historia", "quem é", "quem e"))
-            return response("A TRCONGROUP é uma empresa de tecnologia com 21 anos de experiência. Atua com inteligência artificial, desenvolvimento sob demanda, modernização, produtos digitais e outsourcing.", "company.identity", false, false, false, false);
+            return response("A TRCONGROUP é uma empresa de tecnologia com 21 anos de existência. Atua com inteligência artificial, desenvolvimento sob demanda, modernização, produtos digitais e outsourcing.", false, false, false, false,
+                    "company.identity", "company.current_focus");
         if (contains(normalized, "ia", "software", "desenvolvimento", "outsourcing", "serviço", "servico"))
-            return response("A TRCONGROUP desenvolve software sob demanda, aplica IA a processos e bases de conhecimento, moderniza sistemas e oferece squads ou profissionais especializados. O formato é definido a partir do desafio e do contexto da empresa.", "business.services", false, false, true, false);
+            return response("A TRCONGROUP desenvolve software sob demanda, aplica IA, moderniza sistemas e oferece squads ou profissionais especializados. O formato é definido a partir do desafio e do contexto da empresa.", false, false, true, false,
+                    "company.current_focus", "business.offerings");
         return new ChatResponse("Posso responder apenas sobre a TRCONGROUP, suas soluções, produtos, forma de trabalho e oportunidades.", List.of(), DISCLAIMER, true, false, false, false);
     }
     private static boolean contains(String value, String... terms) { for (String term : terms) if (value.contains(term)) return true; return false; }
     private static ChatResponse response(String text, String sourceId, boolean out, boolean missing, boolean contact, boolean careers) {
         return new ChatResponse(text, List.of(sourceId), DISCLAIMER, out, missing, contact, careers);
+    }
+    private static ChatResponse response(String text, boolean out, boolean missing, boolean contact, boolean careers,
+                                         String... sourceIds) {
+        return new ChatResponse(text, List.of(sourceIds), DISCLAIMER, out, missing, contact, careers);
     }
     private static ChatResponse missingKnowledge() {
         return new ChatResponse("Não tenho essa informação na base institucional da TRCONGROUP. Posso direcionar você para o formulário de contato.", List.of("governance.missing"), DISCLAIMER, false, true, true, false);

@@ -7,15 +7,15 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
 
   const LEAD_CONTEXTS = {
     hub: {
-      label: 'Convite para o Beta',
-      title: 'Confirme sua vaga no Sírius Hub',
-      copy: '90 dias de acesso completo, sem cartão de crédito. Preencha seus dados para confirmarmos sua vaga por e-mail.',
-      note: 'Beta fechado, vagas limitadas. Nenhuma cobrança é feita agora nem ao final dos 90 dias sem o seu aceite explícito.',
+      label: 'Produto em beta',
+      title: 'Registre seu interesse no Sírius Hub',
+      copy: 'Preencha seus dados para receber informações sobre a disponibilidade do beta.',
+      note: 'O cadastro não garante acesso nem define condições comerciais. Esses detalhes serão informados antes de qualquer contratação.',
       leadType: 'PRODUTO',
       origem: 'site-trcon-hub',
       produtoLabel: 'Sírius Hub de Inteligência Financeira',
-      submitLabel: 'Confirmar minha vaga',
-      successCopy: 'Vaga solicitada! Você vai receber um e-mail confirmando o acesso e a data exata do seu beta de 90 dias.',
+      submitLabel: 'Registrar interesse',
+      successCopy: 'Interesse registrado. Entraremos em contato quando houver informações sobre a disponibilidade do beta.',
       showUso: true,
     },
     agendamento: {

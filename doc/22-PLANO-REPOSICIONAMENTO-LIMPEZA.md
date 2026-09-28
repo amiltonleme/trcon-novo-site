@@ -78,6 +78,38 @@ A substituição vem antes da exclusão. Cada fase deve terminar com o site nave
 testes verdes e um ponto de reversão. Não misturar toda a reformulação, o chat e a
 remoção do backend financeiro em um único deploy.
 
+## Estado real da execução em 28/09/2026
+
+> **Desvio de execução registrado:** o commit `c3a2325` misturou partes das Etapas
+> 0 a 6 em uma única alteração de 89 arquivos, sem concluir e registrar o gate de
+> cada etapa antes de avançar. Isso não seguiu a estratégia definida acima. O
+> commit não representa a conclusão integral deste plano.
+
+| Etapa formal | Estado real | Entregue | Falta para o gate |
+|---|---|---|---|
+| 0 — Baseline e proteção | **Concluída em 28/09/2026** | estado do Git preservado; 260 testes executados; lint e build aprovados; baseline visual desktop/mobile registrado; produtor e consumidores de `economy-tips` inventariados; conteúdo financeiro classificado | nenhuma pendência do gate; a retirada do produtor continua sendo pré-condição da Etapa 7 |
+| 1 — Fonte de verdade | **Concluída em 28/09/2026** | fonte canônica com 12 IDs estáveis; YAML sincronizado; responsáveis e revisão definidos; conteúdo público e fallbacks auditados; teste de contrato entre documento, site e chat | nenhuma pendência do gate; fatos novos exigem o processo de aprovação registrado |
+| 2 — Arquitetura e conteúdo | Parcial | Home e Empresa reposicionadas; Soluções ajustada; narrativa financeira retirada da Home | página corporativa “Como ajudamos”; item Conteúdo na navegação; ofertas com entregáveis e contratação; processo e métricas comerciais |
+| 3 — Visual e componentes | Parcial | CSS dividido em módulos; bundles separados; CSS legal extraído; chat redesenhado | retirar 88 estilos inline; substituir animação JS por classes; distribuir `responsive.css`; avaliar Stylelint; retirar backup de logo |
+| 4 — Trabalhe Conosco | Parcial | página criada; áreas e estado real de vagas publicados; nenhuma coleta indevida | aprofundar cultura e forma de trabalho; adicionar perguntas frequentes; smoke editorial e de acessibilidade |
+| 5 — Assistente institucional | Parcial | widget, endpoint, base factual, cliente DeepSeek, rate limit, orçamento, stub local e testes unitários | validar DeepSeek real; testes HTTP/integrados e adversariais; configurar e validar produção |
+| 6 — Limpeza frontend/pipeline | Implementada no código; gate pendente | consumidores, JSONs, scripts financeiros e passos do workflow removidos; Radar e Novidades preservados | observação após deploy e confirmação de que nenhum produtor/consumidor externo depende dos artefatos retirados |
+| 7 — Backend financeiro | Não iniciada | módulo legado apenas marcado como pendente | interromper produtor externo; remover `economytips`, scheduler e testes; backup e migration nova de remoção |
+| 8 — Higiene do repositório | Parcial | regra de ignore criada e bytecode marcado para remoção | concluir remoção versionada dos caches; retirar backup; eliminar referências e documentação obsoletas |
+| 9 — Verificação e publicação | Parcial local | lint, frontend, pipeline e testes unitários do chat executados; smoke visual local | suíte integrada com Docker, SEO/acessibilidade completos, deploy gradual, smoke e observação em produção |
+
+### Ponto de retomada obrigatório
+
+O próximo trabalho não deve avançar para novas funcionalidades fora da sequência. Deve:
+
+1. concluir os itens editoriais pendentes da Etapa 2;
+2. fechar a dívida visual da Etapa 3, começando pelo estouro horizontal em mobile, pelos estilos inline e pela animação via classes;
+3. somente depois validar formalmente as Etapas 4, 5 e 6;
+4. não iniciar a Etapa 7 até o Sírius Marketing deixar de publicar em `POST /api/internal/economy-tips`.
+
+Até esses gates serem fechados, o estado do plano é **em execução**, não
+“implementado por completo”.
+
 ## Sequência executiva recomendada
 
 Esta é a ordem prática para transformar o plano em trabalho de implementação. As
@@ -242,6 +274,106 @@ Para clientes e cases, usar a formulação factual definida na especificação:
 - testes atuais conhecidos
 - nenhum endpoint ou arquivo marcado para exclusão sem consumidor identificado
 
+### Fechamento da Etapa 0 — 28/09/2026
+
+#### Estado protegido do repositório
+
+- branch: `preparar-repositorio-20260928`
+- commit de referência: `c3a2325`
+- `origin/preparar-repositorio-20260928` estava no mesmo commit no início da verificação
+- alterações que já existiam e foram preservadas: este plano modificado e 11
+  arquivos `*.pyc` versionados marcados para remoção
+- o build alterou somente os carimbos de versão de `index.html`,
+  `novidades.html` e `privacidade.html`; esses efeitos foram revertidos após a
+  verificação
+- os testes Python recriaram os bytecodes; eles foram removidos novamente para
+  restaurar o estado de trabalho anterior ao teste
+
+Nenhuma exclusão funcional adicional foi feita durante o fechamento desta etapa.
+
+#### Baseline de testes
+
+| Verificação | Resultado em 28/09/2026 |
+|---|---|
+| `frontend: npm test` | aprovado — 6 arquivos e 73 testes |
+| `frontend: npm run lint` | aprovado |
+| `frontend: npm run build` | aprovado — `style.css`, `article.css` e `legal.css` gerados |
+| `frontend: python -m unittest discover -s scripts -p "test_*.py"` | aprovado — 18 testes |
+| `backend: mvnw.cmd test` | aprovado — 169 testes, sem falhas, erros ou testes ignorados |
+
+Avisos conhecidos do baseline, sem falha da execução:
+
+- npm avisa que a configuração `min-release-age` deixará de ser aceita em uma
+  versão principal futura;
+- Flyway avisa que o PostgreSQL 18.4 do Testcontainers é mais novo que a versão
+  oficialmente validada pela biblioteca, PostgreSQL 17;
+- Mockito avisa sobre o carregamento dinâmico do agente em versões futuras do JDK.
+
+#### Baseline visual local
+
+Verificação feita no servidor já ativo em `http://127.0.0.1:4173`, com Edge
+headless, após 3 segundos de renderização, nos viewports 1440×900 e 390×844.
+Foram inspecionadas 18 capturas temporárias; elas não foram adicionadas ao
+repositório.
+
+| Página/rota | Desktop 1440×900 | Mobile 390×844 |
+|---|---|---|
+| Home `#home` | navegação e hero carregam; o texto de apoio e os CTAs ficam com contraste/opacidade insuficiente no estado capturado | marca, texto e ações ultrapassam a largura; conteúdo e botão do chat ficam cortados |
+| Empresa `#sobre` | primeira dobra carrega e identifica os 21 anos | título e texto ultrapassam a largura e ficam cortados |
+| Soluções `#servicos` | primeira dobra carrega e comunica IA, software, modernização e outsourcing | título e texto ultrapassam a largura e ficam cortados |
+| Produtos `#produtos` | primeira dobra carrega; o texto ainda apresenta o portfólio como predominantemente financeiro | título e texto ultrapassam a largura e ficam cortados |
+| Trabalhe Conosco `#carreiras` | primeira dobra carrega e a rota está na navegação principal | título, texto e botão do chat ultrapassam a largura |
+| Clientes `#clientes` | não existe página própria; o código converte o hash para `#carreiras` | mesmo comportamento; deve ser substituído por “Como ajudamos” na Etapa 2 |
+| Contato `#contato` | primeira dobra carrega e apresenta o contexto comercial | título, texto e botão do chat ultrapassam a largura |
+| Sírius Hub `#hub` | primeira dobra do convite beta carrega | título, texto e botão do chat ultrapassam a largura |
+| Sírius Agendamento `#agendamento` | primeira dobra carrega | título, texto e botão do chat ultrapassam a largura |
+| Sírius Marketing `#marketing` | primeira dobra carrega | título, texto e botão do chat ultrapassam a largura |
+
+O estouro horizontal mobile e a opacidade da Home são defeitos registrados para
+a Etapa 3. O fechamento deste baseline não os classifica como aprovados.
+
+#### Inventário de `economy-tips`
+
+A busca foi feita em todos os projetos locais sob `C:\Trcongroup\projetos`, além
+das configurações de desenvolvimento e produção versionadas. O inventário
+encontrado é:
+
+| Papel | Componente e evidência | Estado comprovado pelo código |
+|---|---|---|
+| produtor externo | Sírius Marketing: `ContentPublisher.publishToEconomyTips` chama `SiteContentClient.publishEconomyTip` para `NEWSLETTER` e `LANDING_PAGE` | ativo no código |
+| configuração do produtor | Sírius Marketing: `application-prod.yml`, `.env.production.example` e compose do Coolify usam `APP_SITE_PUBLISH_ENABLED`, `APP_SITE_API_URL` e `APP_SITE_INTERNAL_API_KEY` | perfil de produção tem publicação habilitada por padrão e aponta para `https://api-site.trcongroup.com.br` no exemplo versionado |
+| receptor interno | site backend: `POST /api/internal/economy-tips` | ativo e protegido pela chave interna compartilhada |
+| persistência | entidade/repositório `EconomyTip`; migrations V6 e V9 | ativo; tabela e índice ainda fazem parte do schema |
+| leitura pública | site backend: `GET /api/public/economy-tips` | ativo no backend |
+| consumidor interno | `ContentExpiryScheduler` usa `EconomyTipRepository` | ativo |
+| consumidor frontend | nenhum no frontend atual; URL, carregamento e renderização foram retirados no commit `c3a2325` | removido |
+| pipeline do site | workflow atual não gera `economy-tips.json`; scripts e builders correspondentes foram retirados | removido |
+| outros projetos locais | nenhuma referência executável encontrada no Sírius Hub Financeiro ou no Sírius Agendamento | nenhum consumidor identificado |
+
+O repositório comprova a configuração do produtor, mas não comprova o valor real
+das variáveis no painel do Coolify nem o tráfego atual de produção. Portanto, o
+produtor é tratado como **ativo** até ser alterado no Sírius Marketing e validado
+em produção. O backend, o scheduler, as migrations e os testes de
+`economy-tips` não estão autorizados para remoção antes disso.
+
+#### Destino do conteúdo financeiro
+
+| Classificação | Conteúdo | Decisão registrada |
+|---|---|---|
+| manter no contexto do Sírius Hub | controle de receitas e despesas, visão mensal, metas, programação financeira, galeria do produto e convite beta | permanece nas rotas e cards do produto; não volta para a Home institucional |
+| revisar e centralizar no produto | Market AI, análise de humor, cotações, recomendações, BI financeiro e textos que apresentam todo o portfólio como financeiro | não excluir automaticamente; a Etapa 2 deve validar o que é capacidade real e restringir conteúdo financeiro ao produto correspondente |
+| arquivar | antigos payloads `market.json`, `economy-tips.json` e `recipes.json`, além do conteúdo gerado por seus pipelines | removidos da árvore atual e preservados no histórico Git anterior a `c3a2325`; não restaurar na Home |
+| excluir do site institucional | ticker, tabela de ativos, humor de mercado, recomendações, cards de Educação Financeira e receitas econômicas | consumidores e geradores frontend já removidos; CSS órfão deve ser tratado na Etapa 3/8 |
+| preservar por dependência | conteúdo publicado pelo Sírius Marketing na tabela `economy_tips` | manter até decidir a migração para notícia/produto ou o arquivamento e desligar o produtor |
+
+#### Gate
+
+O critério de aceite da Etapa 0 está atendido: o baseline está documentado, as
+alterações anteriores foram preservadas, os testes são conhecidos e todos os
+componentes locais associados a `economy-tips` foram identificados antes de
+qualquer remoção do backend. A Etapa 0 está **concluída**. O próximo gate formal é
+o da Etapa 1.
+
 ## Etapa 1 — Fonte de verdade institucional
 
 ### Ações
@@ -264,6 +396,63 @@ Para clientes e cases, usar a formulação factual definida na especificação:
 - site e chat usam a mesma verdade institucional
 - nenhum fato comercial depende apenas de texto livre no prompt
 - informação ausente tem fallback explícito, sem inferência do modelo
+
+### Fechamento da Etapa 1 — 28/09/2026
+
+#### Fonte canônica e responsáveis
+
+`doc/canonical/01-POSICIONAMENTO-INSTITUCIONAL.md` passou a ser o registro
+explícito dos fatos autorizados, com 12 IDs estáveis espelhados em
+`backend/src/main/resources/chat/trcon-knowledge.yml`.
+
+- aprovação institucional: Direção da TRCONGROUP
+- manutenção técnica: responsável técnico do site
+- divulgações de privacidade: DPO identificado na Política de Privacidade
+- revisão: trimestral e também imediata quando mudar produto, situação comercial,
+  case publicado, vaga ou canal de contato
+- ordem obrigatória: evidência e aprovação, fonte canônica, YAML e fallbacks,
+  conteúdo público, testes e publicação
+
+O histórico Git registra aprovação e reversão. Fatos ausentes usam
+`governance.missing`; não podem ser completados por inferência.
+
+#### Auditoria factual concluída
+
+Foram revisados o texto institucional estático de `frontend/index.html`, os
+contextos comerciais de `frontend/assets/app.js`, a base e o prompt do chat, os
+fallbacks determinísticos, a página de privacidade e o shell público de Novidades.
+Conteúdo externo do Radar continua identificado como curadoria externa e artigos
+dinâmicos continuam sujeitos ao fluxo editorial próprio.
+
+| Tema | Decisão aplicada |
+|---|---|
+| identidade | preservados 21 anos e foco tecnológico atual; retirada a data derivada “desde 2005” |
+| ofertas | preservadas as quatro linhas aprovadas; garantias universais de cobertura, infraestrutura e composição de time foram substituídas por definições por contratação |
+| produtos | lista pública restrita a Sírius Hub, Sírius Agendamento e Sírius Marketing, com estados explícitos |
+| alegações retiradas | Market AI, BI & Analytics e IA generativa/produção de conteúdo como serviço ativo deixaram de ser apresentados como ofertas publicadas |
+| beta do Hub | retiradas promessas sem aprovação registrada de 90 dias, gratuidade, desconto vitalício e vagas limitadas; o CTA agora registra interesse |
+| comercial | ausência de cases publicados e estado sem contratos ativos registrados na fonte; o segundo fato só é informado quando perguntado diretamente |
+| carreiras | mantidos “sem vagas abertas” e “sem banco de talentos”; áreas de interesse não são apresentadas como vagas |
+| privacidade | fatos legais e operacionais permanecem sob governança específica do DPO e não são inferidos pelo assistente institucional |
+
+#### Contrato e verificações
+
+- o backend rejeita IDs duplicados e falha na inicialização se faltar qualquer ID
+  obrigatório da base factual
+- o stub do chat cita IDs compatíveis com cada afirmação e agora responde os três
+  estados de produto sem criar condições comerciais
+- `frontend/tests/institutional-facts.test.js` compara os IDs do documento e do
+  YAML e impede o retorno das alegações retiradas
+- testes focados executados no fechamento: 3 testes do contrato factual frontend e
+  7 testes do provider/serviço do chat, todos aprovados
+- suíte completa do frontend: 7 arquivos e 76 testes aprovados
+- suíte completa do backend: 171 testes aprovados, sem falhas, erros ou ignorados
+- `npm run lint` e `npm run build` aprovados; bundles CSS reproduzidos; os
+  carimbos de versão alterados pelo build foram restaurados ao estado protegido
+  porque não fazem parte da Etapa 1
+
+Com isso, os três critérios de aceite da Etapa 1 estão atendidos. Mudanças futuras
+de fatos institucionais devem seguir a governança registrada antes da publicação.
 
 ## Etapa 2 — Arquitetura de informação e conteúdo
 

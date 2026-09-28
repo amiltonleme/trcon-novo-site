@@ -1,18 +1,32 @@
-version: 1
+version: 2
+governance:
+  canonicalSource: "doc/canonical/01-POSICIONAMENTO-INSTITUCIONAL.md"
+  institutionalOwner: "Direção da TRCONGROUP"
+  technicalCustodian: "Responsável técnico do site"
+  reviewedAt: "2026-09-28"
+  reviewCadence: "trimestral e sempre que mudar produto, estado comercial, case, vaga ou canal de contato"
 facts:
   - id: company.identity
-    text: "A TRCONGROUP é uma empresa de tecnologia fundada em 2005, com 21 anos de experiência em 2026. Seu foco atual inclui inteligência artificial, novas tecnologias, desenvolvimento sob demanda, modernização, produtos digitais e outsourcing."
-  - id: business.services
-    text: "A TRCONGROUP atua com IA aplicada, desenvolvimento de software sob demanda, customização e modernização de sistemas, integrações, squads dedicados e profissionais especializados."
-  - id: business.products
-    text: "Os produtos próprios publicados são Sírius Hub de Inteligência Financeira, Sírius Agendamento e Sírius Marketing. Produtos próprios não são cases de clientes."
+    text: "A TRCONGROUP é uma empresa de tecnologia com 21 anos de existência. O ano de fundação não está autorizado para publicação na base atual."
+  - id: company.current_focus
+    text: "O foco atual da TRCONGROUP inclui inteligência artificial aplicada, novas tecnologias, desenvolvimento de software sob demanda, customização e modernização, produtos digitais e outsourcing."
+  - id: business.offerings
+    text: "As quatro linhas comerciais da TRCONGROUP são produtos próprios, desenvolvimento sob demanda, customização de sistemas e outsourcing de profissionais ou squads de tecnologia."
   - id: business.delivery
-    text: "A forma de trabalho passa por descoberta, arquitetura, construção em ciclos e evolução orientada por resultados. Escopo, prazo e preço dependem do contexto e devem ser tratados pelo canal comercial."
+    text: "A abordagem de trabalho passa por descoberta do contexto, definição de arquitetura e escopo, construção em ciclos e evolução. Preço, prazo, composição do time e indicadores dependem de cada contratação e devem ser tratados pelo canal comercial."
+  - id: products.hub
+    text: "O Sírius Hub de Inteligência Financeira é um produto próprio em beta. A base atual não autoriza prometer preço, gratuidade, duração de acesso, desconto ou quantidade de vagas."
+  - id: products.scheduling
+    text: "O Sírius Agendamento é um produto próprio em desenvolvimento. O site recebe manifestações de interesse, mas não anuncia disponibilidade geral."
+  - id: products.marketing
+    text: "O Sírius Marketing é um produto próprio em desenvolvimento. O site recebe manifestações de interesse, mas não anuncia disponibilidade geral."
   - id: commercial.cases
-    text: "Ainda não há cases de clientes publicados na base institucional da TRCONGROUP. Isso não autoriza afirmar que existem clientes confidenciais ou contratos sob sigilo."
+    text: "Ainda não há cases de clientes publicados na base institucional da TRCONGROUP. Produtos próprios, protótipos e trabalho interno não são cases de clientes. Isso não autoriza afirmar que existem clientes confidenciais ou contratos sob sigilo."
   - id: commercial.status
-    text: "A TRCONGROUP não possui contratos ativos no momento. Esse fato só deve ser informado quando perguntado diretamente; nunca deve ser usado como apresentação espontânea."
+    text: "A TRCONGROUP não possui contratos ativos no momento. Esse fato só deve ser informado quando perguntado diretamente e precisa ser revisto quando a situação comercial mudar."
   - id: careers.status
-    text: "Existe uma página Trabalhe Conosco. No momento não há vagas publicadas e não existe banco de talentos disponível. Novas oportunidades serão divulgadas no site e no LinkedIn."
+    text: "Existe uma página Trabalhe Conosco. No momento não há vagas abertas publicadas e não existe banco de talentos disponível. Novas oportunidades serão divulgadas no site e no LinkedIn."
+  - id: careers.areas
+    text: "As áreas de interesse são desenvolvimento, dados e IA, qualidade, cloud e DevOps, produto e análise, e projetos e atendimento. Essa lista não representa vagas abertas."
   - id: governance.missing
-    text: "Quando uma informação não estiver nesta base, declarar que ela não consta na base institucional e oferecer o canal de contato."
+    text: "Quando uma informação não estiver nesta base, declarar que ela não consta na base institucional, não inferir uma resposta e oferecer o canal de contato adequado."

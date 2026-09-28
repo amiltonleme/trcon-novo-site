@@ -24,7 +24,7 @@ class ChatServiceImplTest {
     void informaIdentidadeEFocoAtual() {
         ChatResponse response = service.reply(new ChatRequest("Quem é a empresa?", List.of(), "site"), "ip-1");
         assertThat(response.reply()).contains("21 anos", "inteligência artificial", "outsourcing");
-        assertThat(response.sourceIds()).containsExactly("company.identity");
+        assertThat(response.sourceIds()).containsExactly("company.identity", "company.current_focus");
     }
 
     @Test
@@ -40,5 +40,13 @@ class ChatServiceImplTest {
         ChatResponse response = service.reply(new ChatRequest("Tem vaga aberta?", List.of(), "site"), "ip-3");
         assertThat(response.reply()).contains("não há vagas publicadas", "banco de talentos");
         assertThat(response.suggestCareersPage()).isTrue();
+    }
+
+    @Test
+    void refleteEstadosReaisDosProdutosSemPrometerCondicoesComerciais() {
+        ChatResponse response = service.reply(new ChatRequest("Quais produtos vocês têm?", List.of(), "site"), "ip-4");
+        assertThat(response.reply()).contains("Sírius Hub", "em beta", "Sírius Agendamento", "Sírius Marketing", "em desenvolvimento");
+        assertThat(response.reply()).doesNotContain("grátis", "90 dias", "desconto");
+        assertThat(response.sourceIds()).containsExactly("products.hub", "products.scheduling", "products.marketing");
     }
 }

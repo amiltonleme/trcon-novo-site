@@ -1,6 +1,7 @@
 # Posicionamento Institucional — TRCONGROUP
 
-> Atualizado em **28/09/2026** — evolução tecnológica, foco comercial e página Trabalhe Conosco.
+> Atualizado em **28/09/2026** — fonte canônica dos fatos institucionais
+> aprovados para o site e para o assistente.
 
 ## Quem é a TRCONGROUP
 
@@ -8,9 +9,8 @@
 
 A TRCONGROUP tem **21 anos de existência** e evoluiu sua atuação para novas
 tecnologias, inteligência artificial, desenvolvimento sob demanda, customização e
-outsourcing de profissionais de tecnologia. Essa evolução já está em curso há seis
-meses e compõe a atuação atual da empresa; não deve ser comunicada como tentativa,
-retorno ou preparação futura.
+outsourcing de profissionais de tecnologia. Essa evolução compõe a atuação atual
+da empresa; não deve ser comunicada como tentativa, retorno ou preparação futura.
 
 O site deve transformar essa capacidade em oportunidades comerciais: explicar
 problemas que a TRCONGROUP resolve, apresentar formas objetivas de contratação e
@@ -20,12 +20,13 @@ Empresa de tecnologia que atua em quatro frentes conectadas:
 
 - **Inteligência Artificial** — soluções de IA aplicada a negócio (automação, análise, copilotos internos)
 - **Tecnologia** — desenvolvimento, customização e manutenção de software
-- **Finanças** — produtos e módulos voltados a controle financeiro, dados de mercado e resultado
+- **Produtos digitais** — produtos próprios publicados com seus estados reais
 - **Resultados** — o critério comum a tudo: cada entrega deve gerar resultado mensurável para o cliente
 
 ## O que a TRCONGROUP vende (linhas de negócio)
 
-1. **Venda de software/produto próprio** — produtos prontos (ex.: módulo de fluxo de caixa, radar de mercado) licenciados ou por assinatura.
+1. **Software/produto próprio** — produtos digitais da linha Sírius, apresentados
+   com o estado real de disponibilidade.
 2. **Desenvolvimento sob demanda** — squads ou projetos fechados para construir software para o cliente.
 3. **Customização** — adaptação de produtos existentes (próprios ou do cliente) a necessidades específicas.
 4. **Alocação de mão de obra em tecnologia (staffing/bodyshop)** — profissionais de tecnologia (dev, dados, IA, QA) alocados em squads do cliente.
@@ -47,12 +48,47 @@ O site institucional precisa deixar essas 4 linhas claras e navegáveis — hoje
 
 - a empresa tem 21 anos de existência
 - a evolução para IA, novas tecnologias, desenvolvimento sob demanda e outsourcing
-  já faz parte da atuação atual e está em curso há seis meses
+  já faz parte da atuação atual
 - não apresentar trabalho interno, protótipo ou produto próprio como case de cliente
 - não inventar nomes de clientes, segmentos atendidos, projetos entregues,
   depoimentos, certificações, parceiros, equipe, vagas ou números de resultado
 - datas, números e marcos históricos além dos 21 anos só podem ser publicados após
   confirmação e registro neste documento
+
+## Registro factual aprovado
+
+Os IDs abaixo são estáveis e têm correspondência em
+`backend/src/main/resources/chat/trcon-knowledge.yml`. Textos do site podem variar
+na forma, mas não podem ampliar o significado destes fatos.
+
+| ID | Fato aprovado |
+|---|---|
+| `company.identity` | A TRCONGROUP é uma empresa de tecnologia com 21 anos de existência. O ano de fundação não está autorizado para publicação enquanto não houver registro comprobatório anexado a esta fonte. |
+| `company.current_focus` | A atuação atual inclui IA aplicada, desenvolvimento de software sob demanda, customização e modernização, produtos digitais e outsourcing de profissionais ou squads. |
+| `business.offerings` | As quatro linhas comerciais são produtos próprios, desenvolvimento sob demanda, customização e outsourcing. O formato pode ser projeto, célula, squad ou profissional especializado, conforme definição comercial. |
+| `business.delivery` | A abordagem publicada é descoberta do contexto, definição de arquitetura e escopo, construção em ciclos e evolução. Preço, prazo, composição do time e indicadores são definidos para cada contratação. |
+| `products.hub` | O Sírius Hub de Inteligência Financeira é produto próprio em beta. A comunicação pública pode descrever as funções exibidas nas telas publicadas, mas não prometer preço, gratuidade, duração do acesso ou desconto sem aprovação comercial registrada. |
+| `products.scheduling` | O Sírius Agendamento é produto próprio em desenvolvimento. O site aceita manifestação de interesse; ainda não anuncia disponibilidade geral. |
+| `products.marketing` | O Sírius Marketing é produto próprio em desenvolvimento. O site aceita manifestação de interesse; ainda não anuncia disponibilidade geral. |
+| `commercial.cases` | Não há cases de clientes publicados na base institucional. Produtos próprios, protótipos e trabalho interno não são cases de clientes. |
+| `commercial.status` | A TRCONGROUP não possui contratos ativos no momento. Esse estado só é informado quando perguntado diretamente e deve ser revisto sempre que a situação comercial mudar. |
+| `careers.status` | Existe uma página Trabalhe Conosco. No momento não há vagas abertas publicadas e não há banco de talentos disponível. |
+| `careers.areas` | Áreas de interesse: desenvolvimento, dados e IA, qualidade, cloud/DevOps, produto/análise e projetos/atendimento. A lista não representa vagas abertas. |
+| `governance.missing` | Informação que não conste neste registro deve ser declarada como ausente, sem inferência, com direcionamento ao contato adequado. |
+
+### Alegações não autorizadas nesta revisão
+
+- ano de fundação ou a expressão “desde 2005”
+- duração, preço, gratuidade, desconto ou quantidade de vagas do beta do Sírius Hub
+- Market AI e BI & Analytics como produtos publicados
+- IA generativa e produção de conteúdo como serviço ativo autônomo
+- disponibilidade imediata de profissionais, composição fixa de squad, cobertura
+  mínima de testes ou infraestrutura incluída em toda contratação
+- clientes, cases, parceiros, certificações, contratos sigilosos, tamanho de
+  equipe e métricas de resultado não registrados na tabela factual
+
+Esses itens podem ser aprovados no futuro, desde que tenham evidência, responsável
+e registro nesta fonte antes de chegar ao site ou ao assistente.
 
 ## Estrutura de páginas alvo do site institucional
 
@@ -142,3 +178,31 @@ que contratos reais gerem cases autorizados.
 - formulário de contato captura o tipo de interesse
 - ofertas e CTAs conduzem a diagnóstico, proposta ou composição de time
 - identidade visual (logo, fundo, paleta) preservada conforme [08-REDESIGN-DIRETRIZES.md](08-REDESIGN-DIRETRIZES.md)
+
+## Governança da fonte factual
+
+- **Responsável pela aprovação institucional:** Direção da TRCONGROUP.
+- **Responsável pela manutenção técnica:** responsável técnico do site, que mantém
+  este documento, o YAML do chat e os testes de sincronização.
+- **Responsável por divulgações de privacidade:** DPO identificado na Política de
+  Privacidade. Mudanças nessa página exigem sua revisão específica.
+
+### Processo de revisão
+
+1. A alteração nasce com evidência verificável ou confirmação escrita do
+   responsável institucional. A evidência não precisa ser pública, mas deve ser
+   referenciada no registro da mudança.
+2. A Direção aprova o fato e o responsável técnico atualiza primeiro esta fonte,
+   preservando o ID existente quando o assunto for o mesmo.
+3. Na mesma alteração, o responsável técnico sincroniza
+   `trcon-knowledge.yml`, o texto público afetado e os fallbacks determinísticos
+   do chat.
+4. Os testes de contrato factual, frontend, backend e build precisam passar antes
+   da publicação.
+5. A base é revista a cada trimestre e também imediatamente quando mudar produto,
+   disponibilidade comercial, case publicado, vaga ou canal de contato.
+6. Fato vencido ou sem evidência é retirado do site e do chat na mesma publicação.
+   Informação ausente usa `governance.missing`; não se completa por inferência.
+
+O histórico Git é o registro de aprovação e reversão. A descrição do commit ou PR
+deve identificar quem aprovou e qual evidência sustentou fatos novos ou alterados.
