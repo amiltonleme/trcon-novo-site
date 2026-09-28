@@ -6,7 +6,9 @@
   "description": "Frontend público do site TRCONGROUP (HTML/CSS/JS vanilla). Ver ../doc/03-FRONTEND-STACK-CANONICA.md",
   "scripts": {
     "dev": "node scripts/dev_server.js",
-    "build": "node scripts/stamp-build-info.mjs",
+    "build:css": "node scripts/build-css.mjs",
+    "check:css": "node scripts/build-css.mjs --check",
+    "build": "npm run build:css && node scripts/stamp-build-info.mjs",
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "eslint \"assets/**/*.js\" \"tests/**/*.js\"",

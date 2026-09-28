@@ -79,7 +79,7 @@ frontend/
       article.js         # fallback CSR e metadados do artigo
       lead-form.js       # envio do lead comercial
       sanitize.js        # escaping e validações de apresentação
-      chat-widget.js     # futuro assistente institucional
+      chat-widget.js     # assistente institucional, histórico e CTAs seguros
   data/
     ai-radar.json
     tech-radar.json

@@ -70,7 +70,7 @@ public final class ArticlePageHtmlBuilder {
                 .append("&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300")
                 .append("&family=Orbitron:wght@400;700;900&display=swap\" rel=\"stylesheet\">\n");
         html.append("  <link rel=\"icon\" href=\"/assets/brand/trcon-mark.svg\" type=\"image/svg+xml\">\n");
-        html.append("  <link rel=\"stylesheet\" href=\"/style.css\">\n");
+        html.append("  <link rel=\"stylesheet\" href=\"/article.css\">\n");
         html.append("</head>\n");
         html.append("<body class=\"article-page\" data-article-ssr=\"true\">\n");
         html.append("<nav>\n");
@@ -131,7 +131,7 @@ public final class ArticlePageHtmlBuilder {
                 + "<meta charset=\"UTF-8\" />"
                 + "<meta name=\"robots\" content=\"noindex\" />"
                 + "<title>Artigo não encontrado — TRCONGROUP</title>"
-                + "<link rel=\"stylesheet\" href=\"/style.css\">"
+                + "<link rel=\"stylesheet\" href=\"/article.css\">"
                 + "</head><body class=\"article-page\"><main class=\"article-shell\">"
                 + "<p class=\"article-error\">Não foi possível carregar este artigo.</p>"
                 + "<p><a href=\"" + ArticleBodyHtmlRenderer.escapeHtml(base) + "/\">Voltar à home</a></p>"

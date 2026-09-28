@@ -51,6 +51,7 @@ Ver especificação completa em [05-BACKEND-ARQUITETURA-MVC.md](05-BACKEND-ARQUI
 2. **content** — leitura de conteúdo persistido / novidades
 3. **highlights** — destaques principais da home
 4. **shared** — config, persistência comum, serialização, tratamento de erro, segurança comum, VOs transversais
+5. **chat** — assistente institucional com DeepSeek, base factual versionada, orçamento e rate limit
 
 ## Banco de dados
 
@@ -75,6 +76,9 @@ sinais de mercado públicos, resumos automatizados de baixo risco.
 ### Leads
 - `POST /api/v1/site/leads`
 - `GET /api/v1/site/leads/{id}` (uso interno/admin, se necessário)
+
+### Assistente institucional
+- `POST /api/v1/site/chat`
 
 ### Health
 - `GET /actuator/health`

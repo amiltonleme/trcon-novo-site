@@ -1,10 +1,9 @@
 # Chat "Fale comigo com IA" — TRCon Site (DeepSeek)
 
-> Proposta de especificação — **ainda não implementada**. Escrita antes de qualquer
-> linha de código, conforme regra de governança de [`README.md`](README.md) e do
-> [09-PLANO-EXECUCAO-IA.md](canonical/09-PLANO-EXECUCAO-IA.md) (checkpoint humano antes
-> de avançar). Contém decisões em aberto marcadas explicitamente — ver
-> [Decisões que precisam de aprovação humana](#decisões-que-precisam-de-aprovação-humana-antes-de-codar).
+> **Implementação iniciada em 28/09/2026.** A V1 usa os padrões recomendados nesta
+> especificação: chave própria do site, orçamento inicial de US$ 10/mês, widget em
+> todas as páginas, fallback para contato e página Trabalhe Conosco sem coleta de
+> currículos. O provedor permanece desligado por padrão até a configuração do ambiente.
 > A ordem de implementação, o reposicionamento do site e a retirada do legado
 > financeiro estão em
 > [22-PLANO-REPOSICIONAMENTO-LIMPEZA.md](22-PLANO-REPOSICIONAMENTO-LIMPEZA.md).
@@ -166,7 +165,7 @@ Response 200:
 - `suggestContactForm: true` quando houver intenção comercial; o frontend usa esse
   campo para exibir um CTA para `#page-contato`.
 - `suggestCareersPage: true` quando a pergunta tratar de carreira, vaga ou banco de
-  talentos; o frontend exibe CTA para `#page-trabalhe-conosco` e não mistura esse
+  talentos; o frontend exibe CTA para `#page-carreiras` e não mistura esse
   fluxo com o lead comercial.
 
 Erros:
@@ -353,9 +352,8 @@ mais rápido que spam de formulário).
   limiter, não o IP em texto puro).
 - **Aviso de terceiro obrigatório na UI**: antes da primeira mensagem, o widget
   exibe que as mensagens são processadas por um serviço de IA de terceiro
-  (DeepSeek) para gerar a resposta — visitante decide se quer continuar. Texto
-  exato é decisão de copy/jurídico, não travado nesta especificação técnica (ver
-  "Decisões que precisam de aprovação humana").
+  (DeepSeek) para gerar a resposta — visitante decide se quer continuar. A V1
+  também orienta a não informar dados pessoais ou confidenciais.
 - **Transferência internacional de dados**: DeepSeek é operado fora do Brasil.
   Como o chat não deve coletar PII por design, o risco de dado pessoal cruzando
   fronteira é baixo, mas **não é zero** — um visitante pode digitar seu e-mail
@@ -397,11 +395,38 @@ DeepSeek no momento da implementação, pois pode ter mudado.
 `.env.example` (`site/infra/.env.example`) ganha bloco novo comentado, no mesmo
 formato do bloco de mail:
 ```env
-# Chat IA (DeepSeek). Em local fica off por padrão (usar TRCON_SITE_CHAT_STUB_ENABLED=true para testar sem chave).
+# Chat IA (DeepSeek). O perfil dev usa stub por padrão e não consome a API.
+# Defina as variáveis abaixo somente para substituir esse comportamento.
 # TRCON_SITE_CHAT_ENABLED=true
-# TRCON_SITE_CHAT_STUB_ENABLED=true
+# TRCON_SITE_CHAT_STUB_ENABLED=false
 # TRCON_SITE_DEEPSEEK_API_KEY=sk-xxxxxxxx
 ```
+
+### Execução local e wiring do Spring
+
+O profile `dev` habilita `enabled=true` e `stub-enabled=true` por padrão. Assim,
+o endpoint local responde pela base institucional sem chave DeepSeek e sem custo.
+Produção continua seguindo os defaults seguros de `application.yml` e só ativa o
+provedor por variáveis de ambiente.
+
+`ChatRateLimiter` e `DeepSeekChatClient` possuem um construtor de produção e um
+construtor auxiliar para testes. O construtor público de produção deve permanecer
+marcado com `@Autowired`; sem essa indicação, o Spring tenta procurar um construtor
+default e o contexto falha com `No default constructor found`. O teste
+`ChatWiringTest` sobe um contexto mínimo e protege esse contrato.
+
+Se a inicialização falhar em `webServerStartStop`, verificar primeiro se outra
+instância já ocupa a porta 8081:
+
+```powershell
+Get-NetTCPConnection -State Listen |
+  Where-Object LocalPort -eq 8081 |
+  Select-Object LocalAddress, LocalPort, OwningProcess
+```
+
+Esse erro ocorre depois que o contexto foi criado e não indica, por si só, falha
+do módulo de chat. Não manter IntelliJ, Maven e Docker Compose executando o mesmo
+backend simultaneamente na mesma porta.
 
 ## Frontend
 
@@ -436,7 +461,7 @@ frontend/assets/modules/
   na resposta, exibe um CTA para `#page-contato` (reaproveita o mecanismo já
   existente de `data-product`/`data-lead-type` das outras páginas — ver
   [01-POSICIONAMENTO-INSTITUCIONAL.md](canonical/01-POSICIONAMENTO-INSTITUCIONAL.md)).
-  Para intenção de carreira, mostra CTA separado para `#page-trabalhe-conosco`,
+  Para intenção de carreira, mostra CTA separado para `#page-carreiras`,
   conforme `suggestCareersPage`, sem abrir o formulário comercial.
 - **Falha graciosa** (regra de
   [02-ARQUITETURA-CANONICA.md](canonical/02-ARQUITETURA-CANONICA.md): "o site
@@ -491,38 +516,30 @@ Segue [10-TESTES-QUALIDADE.md](canonical/10-TESTES-QUALIDADE.md) — mesmo gate
 - recusa perguntas gerais, pedidos de código e tentativas de ignorar o prompt
 - retorna `knowledgeMissing=true` para datas, pessoas, preços e fatos ausentes
 
-## Decisões que precisam de aprovação humana antes de codar
+## Decisões adotadas na V1
 
-Por [09-PLANO-EXECUCAO-IA.md](canonical/09-PLANO-EXECUCAO-IA.md) ("manter o
-checkpoint" em caso de dúvida): os itens abaixo têm uma recomendação nesta
-especificação, mas não devem ser tratados como decididos sem confirmação
-explícita.
+As recomendações abaixo foram adotadas para a primeira implementação autorizada.
+Podem ser alteradas por configuração ou em uma evolução posterior.
 
 1. **Chave DeepSeek própria do site ou compartilhada com o `sirius-marketing`?**
-   Recomendação: **chave própria** (`TRCON_SITE_DEEPSEEK_API_KEY` separada de
+   **Chave própria** (`TRCON_SITE_DEEPSEEK_API_KEY` separada de
    `DEEPSEEK_API_KEY` do marketing), mesmo orçamento (`trcon.site.chat.ai.monthly-budget-usd`)
    isolado — evita que tráfego do chat público consuma o orçamento de geração
    editorial (e vice-versa). Custo de setup: uma segunda chave na mesma conta
    DeepSeek (ou conta separada).
-2. **Orçamento mensal do chat.** Default proposto nesta doc: **US$ 10/mês**
+2. **Orçamento mensal do chat:** **US$ 10/mês**
    (metade do orçamento de texto do marketing, tráfego público é menos previsível
    que geração sob demanda). Ajustar depois de observar volume real.
-3. **Texto exato do aviso de terceiro (LGPD)** exibido antes da primeira
-   mensagem — copy/jurídico, não técnico.
-4. **Nome/label do botão no widget** — "Fale comigo com IA" (como pedido) vs.
-   alternativa mais alinhada ao tom institucional (ex.: "Assistente TRCONGROUP").
-5. **Onde o widget aparece**: só na Home, ou em todas as páginas (Produtos,
-   Serviços, Novidades)? Recomendação: todas as páginas públicas, mesmo
+3. **Aviso de terceiro:** a V1 informa que as mensagens são processadas por um
+   serviço de IA de terceiro e orienta a não enviar dados pessoais ou confidenciais.
+4. **Nome do botão:** "Fale comigo com IA"; o painel se identifica como
+   "Assistente TRCONGROUP".
+5. **Onde o widget aparece:** todas as páginas públicas, mesmo
    componente, `origem` variando por página (mesmo padrão de `data-product` no
    formulário de lead).
-6. **O que fazer se o orçamento mensal estourar no meio do mês**: esta doc
-   propõe indisponibilidade silenciosa com fallback para o formulário (nunca
-   erro visível) — confirmar se é aceitável ou se deve haver alerta operacional
-   (e-mail/log) quando o orçamento se aproxima do limite.
-7. **Banco de talentos na V1**: a página Trabalhe Conosco pode começar apenas
-   institucional ou já coletar candidaturas. Coleta exige contrato de API,
-   consentimento LGPD, retenção, exclusão e segurança próprios; não reaproveitar o
-   lead comercial sem uma decisão explícita.
+6. **Orçamento esgotado:** indisponibilidade com mensagem amigável e CTA para o
+   formulário; a V1 não envia alerta operacional.
+7. **Banco de talentos:** página apenas institucional, sem coleta de candidatura.
 
 ## Impacto em outros documentos (após aprovação, antes do merge)
 
@@ -560,5 +577,4 @@ implementação:
   "carregando"
 - cobertura de teste do módulo `chat` ≥ 80% linha/branch (backend) + testes
   Vitest das funções puras do `chat-widget.js` (frontend)
-- todas as decisões da seção "Decisões que precisam de aprovação humana"
-  confirmadas explicitamente antes do merge
+- decisões da seção "Decisões adotadas na V1" refletidas na configuração e na interface

@@ -1,0 +1,144 @@
+    /* ══════════════════════════════
+       ARTICLE PAGE (/novidades/{slug})
+    ══════════════════════════════ */
+    body.article-page {
+      background: var(--bg);
+    }
+
+    .article-shell {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 108px 5vw 80px;
+    }
+
+    .article-loading,
+    .article-error {
+      color: var(--text2);
+      text-align: center;
+      padding: 48px 0;
+      min-height: 1.5em;
+    }
+
+    .article-loading[aria-busy="true"]:empty::after {
+      content: "";
+      display: inline-block;
+      width: 1.25rem;
+      height: 1.25rem;
+      border: 2px solid color-mix(in srgb, var(--text2) 35%, transparent);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: article-spin 0.7s linear infinite;
+    }
+
+    @keyframes article-spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .article-error {
+      color: #ffb0b0;
+    }
+
+    .article-breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--text3);
+      font-size: 0.88rem;
+      margin-bottom: 24px;
+    }
+
+    .article-breadcrumb a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .article-header {
+      margin-bottom: 32px;
+    }
+
+    .article-cover {
+      margin: 0 0 28px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid color-mix(in srgb, var(--text3) 35%, transparent);
+    }
+
+    .article-cover img {
+      display: block;
+      width: 100%;
+      max-height: 420px;
+      object-fit: cover;
+    }
+
+    .article-tag {
+      display: inline-block;
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 12px;
+    }
+
+    .article-header h1 {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      line-height: 1.08;
+      letter-spacing: -0.03em;
+      margin-bottom: 16px;
+    }
+
+    .article-summary {
+      color: var(--text2);
+      font-size: 1.08rem;
+      line-height: 1.7;
+      margin-bottom: 18px;
+    }
+
+    .article-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      color: var(--text3);
+      font-size: 0.88rem;
+    }
+
+    .article-body {
+      color: var(--text);
+      font-size: 1.05rem;
+      line-height: 1.85;
+    }
+
+    .article-body p {
+      margin-bottom: 1.2em;
+    }
+
+    .article-body p:last-child {
+      margin-bottom: 0;
+    }
+
+    .article-body p:empty {
+      display: none;
+    }
+
+    .article-video {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      margin: 1.4em 0;
+      border-radius: 12px;
+      overflow: hidden;
+      background: #0a0f16;
+      border: 1px solid color-mix(in srgb, var(--text3) 35%, transparent);
+    }
+
+    .article-video iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .article-empty {
+      color: var(--text2);
+    }

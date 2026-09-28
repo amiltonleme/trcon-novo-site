@@ -1,0 +1,5 @@
+    /* ══════════════════════════════
+       PAGE SECTIONS
+    ══════════════════════════════ */
+    .page { display: none; padding-top: 68px; min-height: 100vh; }
+    .page.active { display: block; }

@@ -1,0 +1,28 @@
+    :root {
+      --bg: #080c10;
+      --bg2: #0d1219;
+      --bg3: #111822;
+      --surface: #141c26;
+      --surface2: #1a2535;
+      --border: rgba(255,255,255,0.07);
+      --accent: #00d4aa;
+      --accent2: #0097ff;
+      --accent3: #ff6b35;
+      --text: #e8edf4;
+      --text2: #8fa3bc;
+      --text3: #4d6480;
+      --gold: #f0b429;
+      --red: #ff4d4d;
+      --green: #00d4aa;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      overflow-x: hidden;
+    }

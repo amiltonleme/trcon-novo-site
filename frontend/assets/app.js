@@ -1,16 +1,7 @@
 import { apiConfig } from './modules/config.js';
-import {
-  changeClass,
-  escapeHtml,
-  localizeSiteHref,
-  safeClass,
-  safeCssColor,
-  safeGradient,
-  safePercent,
-  safeUrl,
-} from './modules/sanitize.js';
 import { buildLeadPayload, submitLead, mensagemDeErro } from './modules/lead-form.js';
-import { fetchWithFallback, buildHighlightsHtml, buildNewsHtml, loadEconomyTips, fetchRadarHighlights } from './modules/content.js';
+import { fetchWithFallback, buildHighlightsHtml, buildNewsHtml, fetchRadarHighlights } from './modules/content.js';
+import { initChatWidget } from './modules/chat-widget.js';
 
 const LEADS_API_URL = apiConfig.leadsApiUrl;
 
@@ -63,6 +54,18 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
       successCopy: 'Mensagem recebida. Em breve entraremos em contato.',
       showUso: false,
     },
+    ia: {
+      label: 'Diagnóstico de IA',
+      title: 'Onde a IA pode gerar valor?',
+      copy: 'Conte o processo, gargalo ou ideia que você quer avaliar. Vamos analisar o contexto e indicar um próximo passo viável.',
+      note: 'Conversa inicial com foco em aplicação prática, dados necessários, integrações e limites da solução.',
+      leadType: 'DESENVOLVIMENTO_SOB_DEMANDA',
+      origem: 'site-trcon-diagnostico-ia',
+      produtoLabel: '',
+      submitLabel: 'Solicitar diagnóstico',
+      successCopy: 'Solicitação recebida. Em breve entraremos em contato para entender o contexto.',
+      showUso: false,
+    },
     default: {
       label: 'Contato',
       title: 'Vamos conversar',
@@ -95,7 +98,6 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
   }
 
   // MOBILE NAV
-  function openMobile() { document.getElementById('mobileNav').classList.add('open'); }
   function closeMobile() { document.getElementById('mobileNav').classList.remove('open'); }
   function toggleMobile() { document.getElementById('mobileNav').classList.toggle('open'); }
 
@@ -562,210 +564,19 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
     });
   }
 
-  async function loadJson(path) {
-    const response = await fetch(path, { cache: 'no-store' });
-    if (!response.ok) throw new Error('Falha ao carregar ' + path);
-    return response.json();
-  }
-
-  // changeClass, escapeHtml, safeClass, safeUrl, safePercent, safeCssColor e
-  // safeGradient agora vivem em ./modules/sanitize.js (funções puras, testadas
-  // com Vitest). Ver doc/03-FRONTEND-STACK-CANONICA.md.
-
-  function isInternalSitePath(href) {
-    if (!href) return false;
-    if (href.startsWith('/')) return true;
-    try {
-      const url = new URL(href);
-      return url.pathname.startsWith('/novidades/');
-    } catch {
-      return false;
-    }
-  }
-
-  function renderContentLink(item, fallbackLabel) {
-    const href = localizeSiteHref(safeUrl(item.url));
-    if (!href || href === '/') {
-      return '';
-    }
-    const label = item.link_label || fallbackLabel;
-    const internal = isInternalSitePath(href);
-    const targetAttrs = internal ? '' : ' target="_blank" rel="noopener noreferrer"';
-    return `<a class="content-link" href="${escapeHtml(href)}"${targetAttrs}>${escapeHtml(label)} →</a>`;
-  }
-
-  function renderTicker(items) {
-    const ticker = document.getElementById('ticker');
-    if (!ticker) return;
-    if (!items || !items.length) {
-      ticker.innerHTML = '';
-      ticker.setAttribute('aria-hidden', 'true');
-      return;
-    }
-    const doubled = items.concat(items);
-    ticker.innerHTML = doubled.map(item => `
-      <div class="ticker-item">
-        <span class="sym">${escapeHtml(item.symbol)}</span>
-        <span class="val">${escapeHtml(item.value)}</span>
-        <span class="${changeClass(item.direction)}">${escapeHtml(item.change)}</span>
-      </div>
-    `).join('');
-    ticker.removeAttribute('aria-hidden');
-  }
-
   function setHomeContentBlockVisible(blockId, visible) {
     const block = document.getElementById(blockId);
     if (!block) return;
     block.hidden = !visible;
   }
 
-  function renderMarket(data) {
-    const rows = document.getElementById('marketRows');
-    if (!rows) return;
-
-    rows.removeAttribute('aria-busy');
-    if (!data.assets || !data.assets.length) {
-      rows.innerHTML = '';
-    } else {
-      rows.innerHTML = data.assets.map(asset => {
-        const arrow = asset.direction === 'up' ? '▲ ' : asset.direction === 'down' ? '▼ ' : '';
-        const color = asset.direction === 'up' ? 'var(--green)' : asset.direction === 'down' ? 'var(--red)' : 'var(--text3)';
-        return `
-          <tr>
-            <td class="asset-name">${escapeHtml(asset.icon)} ${escapeHtml(asset.name)}</td>
-            <td>${escapeHtml(asset.quote)}</td>
-            <td style="color:${color}">${arrow}${escapeHtml(asset.change)}</td>
-            <td><span class="rec ${safeClass(asset.recommendation_class, 'rec-watch')}">${escapeHtml(asset.recommendation)}</span></td>
-            <td>${escapeHtml(asset.reason)}</td>
-          </tr>
-        `;
-      }).join('');
-    }
-
-    const mood = data.market_mood || {};
-    const moodEl = document.getElementById('marketMood');
-    if (moodEl) {
-      if (mood.label || mood.summary) {
-        moodEl.hidden = false;
-        moodEl.innerHTML = `<strong>Humor de mercado: ${escapeHtml(mood.label || '')}.</strong> ${escapeHtml(mood.summary || '')}`;
-      } else {
-        moodEl.hidden = true;
-        moodEl.innerHTML = '';
-      }
-    }
-    const disclaimerEl = document.getElementById('marketDisclaimer');
-    if (disclaimerEl) {
-      disclaimerEl.textContent = data.disclaimer || 'Conteúdo educacional.';
-    }
-    const updatedEl = document.getElementById('marketUpdated');
-    if (updatedEl) {
-      updatedEl.textContent = data.generated_at
-        ? `Atualizado em ${new Date(data.generated_at).toLocaleString('pt-BR')}. ${data.source_note || ''}`
-        : data.source_note || '';
-    }
-    renderTicker(data.ticker);
-  }
-
-  function renderTips(data) {
-    const grid = document.getElementById('tipsGrid');
-    const hasItems = Boolean(data?.items?.length);
-    setHomeContentBlockVisible('block-economy-tips', hasItems);
-    if (!grid) return;
-    grid.removeAttribute('aria-busy');
-    if (!hasItems) {
-      grid.innerHTML = '';
-      return;
-    }
-    grid.innerHTML = data.items.map(item => {
-      const chart = item.chart ? `
-        <div>
-          <div style="background:var(--bg3);border-radius:12px;padding:24px;">
-            <p style="font-size:0.8rem;color:var(--text3);margin-bottom:12px;text-transform:uppercase;letter-spacing:.08em;">Distribuicao sugerida</p>
-            <div style="display:flex;flex-direction:column;gap:10px;">
-              ${item.chart.map(bar => `
-                <div>
-                  <div style="display:flex;justify-content:space-between;font-size:0.85rem;margin-bottom:5px;"><span>${escapeHtml(bar.label)}</span><span style="color:${safeCssColor(bar.color)}">${safePercent(bar.value)}%</span></div>
-                  <div style="height:8px;background:var(--surface2);border-radius:4px;"><div style="width:${safePercent(bar.value)}%;height:100%;background:${safeCssColor(bar.color)};border-radius:4px;"></div></div>
-                </div>
-              `).join('')}
-            </div>
-          </div>
-        </div>
-      ` : '';
-      return `
-        <div class="insight-card ${item.featured ? 'featured' : ''}">
-          <div>
-            <span class="insight-tag ${safeClass(item.tag_class, 'tag-blue')}">${escapeHtml(item.tag)}</span>
-            <h3>${escapeHtml(item.title)}</h3>
-            <p>${escapeHtml(item.body)}</p>
-            <div class="insight-meta">${(item.meta || []).map(meta => `<span>${escapeHtml(meta)}</span>`).join('')}</div>
-            ${renderContentLink(item, 'Ler mais')}
-          </div>
-          ${chart}
-        </div>
-      `;
-    }).join('');
-  }
-
-  function renderRecipes(data) {
-    const grid = document.getElementById('recipeGrid');
-    if (!grid || !data.items || !data.items.length) return;
-    grid.innerHTML = data.items.map(item => `
-      <div class="recipe-card">
-        <div class="recipe-thumb" style="background:${safeGradient(item.gradient)}">${escapeHtml(item.emoji)}</div>
-        <div class="recipe-body">
-          <h4>${escapeHtml(item.title)}</h4>
-          <p>${escapeHtml(item.body)}</p>
-          <div class="recipe-meta">${(item.meta || []).map(meta => `<span>${escapeHtml(meta)}</span>`).join('')}</div>
-          ${renderContentLink(item, 'Ver receita')}
-        </div>
-      </div>
-    `).join('');
-  }
-
   function observeDynamicCards() {
-    document.querySelectorAll('.card, .insight-card, .recipe-card, .pillar, .audience-card, .product-card').forEach(el => {
+    document.querySelectorAll('.card, .pillar, .audience-card, .product-card, .process-step').forEach(el => {
       el.style.opacity = '0';
       el.style.transform = 'translateY(16px)';
       el.style.transition = 'opacity .5s ease, transform .5s ease, border-color .25s';
       observer.observe(el);
     });
-  }
-
-  async function loadSiteData() {
-    try {
-      renderMarket(await loadJson('data/market.json'));
-    } catch (error) {
-      const updated = document.getElementById('marketUpdated');
-      if (updated) updated.textContent = '';
-      const rows = document.getElementById('marketRows');
-      if (rows) {
-        rows.innerHTML = '';
-        rows.removeAttribute('aria-busy');
-      }
-    }
-
-    const tipsDisclaimer = document.getElementById('tipsDisclaimer');
-    try {
-      const { items, disclaimer } = await loadEconomyTips(
-        apiConfig.economyTipsApiUrl,
-        'data/economy-tips.json',
-      );
-      renderTips({ items, disclaimer });
-      if (tipsDisclaimer && items.length) {
-        tipsDisclaimer.textContent =
-          disclaimer || 'Conteudo educacional. Nao constitui recomendacao individual de investimento.';
-      }
-    } catch (error) {
-      renderTips({ items: [] });
-      if (tipsDisclaimer) tipsDisclaimer.textContent = '';
-    }
-
-    try {
-      renderRecipes(await loadJson('data/recipes.json'));
-    } catch (error) {}
-
-    observeDynamicCards();
   }
 
   // Radar (highlights) e Novidades (news): API com fallback para JSON estático.
@@ -830,15 +641,22 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
   setupContatoLeadForm();
   setupHubLightbox();
   applyContatoContext('default');
-  loadSiteData();
+  observeDynamicCards();
   loadHomeContent();
+  initChatWidget({
+    apiUrl: apiConfig.chatApiUrl,
+    getPageId: () => document.querySelector('.page.active')?.id.replace('page-', '') || 'home',
+    onContact: () => { showPage('contato'); applyContatoContext('servicos'); },
+    onCareers: () => showPage('carreiras'),
+  });
 
   // Deep link: abre direto a página indicada na URL (ex.: trcongroup.com.br/#hub),
   // para convites pessoais e campanhas que devem cair direto numa página específica
   // sem exigir navegação manual pelo menu. Não altera a navegação por clique
   // existente — só lê o hash uma vez, no carregamento da página.
   (function applyInitialHashRoute() {
-    const id = (window.location.hash || '').replace('#', '');
+    const requestedId = (window.location.hash || '').replace('#', '');
+    const id = requestedId === 'clientes' ? 'carreiras' : requestedId;
     if (id && document.getElementById('page-' + id)) {
       showPage(id);
     }

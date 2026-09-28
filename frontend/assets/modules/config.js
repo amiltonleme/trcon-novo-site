@@ -20,8 +20,7 @@ export function resolveApiConfig(overrides = {}) {
       'http://localhost:8081/api/v1/site/leads',
     highlightsApiUrl: scope.TRCON_HIGHLIGHTS_API_URL || 'http://localhost:8081/api/public/highlights',
     newsApiUrl: scope.TRCON_NEWS_API_URL || 'http://localhost:8081/api/public/news',
-    economyTipsApiUrl:
-      scope.TRCON_ECONOMY_TIPS_API_URL || 'http://localhost:8081/api/public/economy-tips',
+    chatApiUrl: scope.TRCON_CHAT_API_URL || 'http://localhost:8081/api/v1/site/chat',
     siteBaseUrl: scope.TRCON_SITE_BASE_URL || 'https://trcongroup.com.br',
   };
 }

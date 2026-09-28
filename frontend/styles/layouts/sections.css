@@ -1,0 +1,30 @@
+    /* ══════════════════════════════
+       SECTIONS COMMONS
+    ══════════════════════════════ */
+    section {
+      padding: 80px 5vw;
+    }
+    .section-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+    .section-title {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 800;
+      line-height: 1.1;
+      letter-spacing: -0.025em;
+      margin-bottom: 16px;
+    }
+    .section-sub {
+      color: var(--text2);
+      font-size: 1.05rem;
+      line-height: 1.7;
+      max-width: 560px;
+      font-weight: 300;
+    }
+    .divider { height: 1px; background: var(--border); margin: 0; }

@@ -27,6 +27,13 @@ const commit = resolveCommit(process.argv[2]);
 const htmlPath = join(root, 'index.html');
 let html = readFileSync(htmlPath, 'utf8');
 
+function stampCss(content) {
+  return content.replace(
+    /(href="\/?(?:style|article|legal)\.css)(?:\?v=[^"]+)?(")/g,
+    `$1?v=${commit}$2`
+  );
+}
+
 html = html.replace(/(<span id="siteAppVersion">)[^<]*(<\/span>)/, `$1${version}$2`);
 html = html.replace(/(<code id="siteCommitHash">)[^<]*(<\/code>)/, `$1${commit}$2`);
 
@@ -37,13 +44,17 @@ html = html.replace(/(<code id="siteCommitHash">)[^<]*(<\/code>)/, `$1${commit}$
 // Cache-Control de 4h do nginx nunca era invalidado por um deploy novo).
 // Regex idempotente: troca um ?v= antigo se já existir, ou adiciona um novo.
 html = html.replace(
-  /(src="assets\/app\.js)(?:\?v=[a-f0-9]+)?(")/,
+  /(src="assets\/app\.js)(?:\?v=[^"]+)?(")/,
   `$1?v=${commit}$2`
 );
-html = html.replace(
-  /(href="style\.css)(?:\?v=[a-f0-9]+)?(")/,
-  `$1?v=${commit}$2`
-);
+html = stampCss(html);
 
 writeFileSync(htmlPath, html, 'utf8');
-console.log(`Stamped site footer: v${version} @ ${commit} (cache-busting aplicado em app.js e style.css)`);
+
+for (const staticPage of ['novidades.html', 'privacidade.html']) {
+  const pagePath = join(root, staticPage);
+  const pageHtml = stampCss(readFileSync(pagePath, 'utf8'));
+  writeFileSync(pagePath, pageHtml, 'utf8');
+}
+
+console.log(`Stamped site footer: v${version} @ ${commit} (cache-busting aplicado em JS/CSS)`);

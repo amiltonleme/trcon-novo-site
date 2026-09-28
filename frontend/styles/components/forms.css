@@ -1,0 +1,105 @@
+    .waitlist-section {
+      padding-top: 72px;
+    }
+
+    .product-detail-content {
+      max-width: 720px;
+    }
+
+    .product-detail-content .feature-list {
+      margin-top: 8px;
+    }
+
+    .waitlist-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 0.85fr) minmax(320px, 1.15fr);
+      gap: 30px;
+      align-items: start;
+    }
+
+    .waitlist-note {
+      background: rgba(0, 212, 170, 0.08);
+      border: 1px solid rgba(0, 212, 170, 0.18);
+      border-radius: 12px;
+      padding: 18px;
+      color: var(--text2);
+      font-size: 0.92rem;
+      line-height: 1.65;
+      margin-top: 24px;
+    }
+
+    .waitlist-form {
+      background: var(--surface);
+      border: 1px solid rgba(0, 212, 170, 0.18);
+      border-radius: 16px;
+      padding: 30px;
+    }
+
+    .field-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .waitlist-form label {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      color: var(--text2);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .waitlist-form .full-field {
+      grid-column: 1 / -1;
+    }
+
+    .waitlist-form input,
+    .waitlist-form select,
+    .waitlist-form textarea {
+      width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: rgba(5, 10, 15, 0.76);
+      color: var(--text);
+      font: inherit;
+      font-size: 0.95rem;
+      letter-spacing: 0;
+      padding: 13px 14px;
+      outline: none;
+      transition: border-color .2s, box-shadow .2s;
+    }
+
+    .waitlist-form textarea {
+      min-height: 112px;
+      resize: vertical;
+    }
+
+    .waitlist-form input:focus,
+    .waitlist-form select:focus,
+    .waitlist-form textarea:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(0, 212, 170, 0.1);
+    }
+
+    .waitlist-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .waitlist-success {
+      margin-top: 18px;
+      padding: 18px;
+      border-radius: 12px;
+      background: rgba(240, 180, 41, 0.1);
+      border: 1px solid rgba(240, 180, 41, 0.24);
+    }
+
+    .waitlist-success[hidden] { display: none; }
+    .waitlist-success strong { display: block; margin-bottom: 6px; color: var(--gold); }
+    .waitlist-success p { color: var(--text2); font-size: 0.9rem; line-height: 1.6; margin-bottom: 14px; }

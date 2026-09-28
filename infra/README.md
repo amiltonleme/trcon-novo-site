@@ -24,15 +24,29 @@ cp .env.example .env        # ajuste se quiser (portas, senha, CORS)
 docker compose up -d        # sobe postgres + backend
 ```
 
-- Backend: http://localhost:8080 (health: `/actuator/health`)
+- Backend: http://localhost:8081 (health: `/actuator/health`)
 - Postgres: localhost:5432 (db `trcon_site`, user/senha `trcon`/`trcon` por padrão)
 
-Se a porta 8080 já estiver ocupada na sua máquina, suba em outra porta sem editar
+Se a porta 8081 já estiver ocupada na sua máquina, suba em outra porta sem editar
 o arquivo:
 
 ```bash
-BACKEND_PORT=8081 docker compose up -d
+BACKEND_PORT=8082 docker compose up -d
 ```
+
+Não execute simultaneamente o backend pelo Docker Compose e pelo IntelliJ/Maven
+na mesma porta. O erro `Failed to start bean 'webServerStartStop'` normalmente
+significa que uma segunda instância tentou ocupar a porta já utilizada.
+
+Para executar sem Docker no backend, mantendo apenas o PostgreSQL local:
+
+```powershell
+cd C:\Trcongroup\projetos\site\backend
+.\mvnw.cmd spring-boot:run
+```
+
+No profile `dev`, o chat institucional usa o stub local por padrão e não exige
+chave DeepSeek.
 
 Parar e limpar (inclui o volume do banco):
 

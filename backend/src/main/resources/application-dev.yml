@@ -21,6 +21,11 @@ trcon:
       api-key: ${TRCON_SITE_MAIL_API_KEY:}
       from: ${TRCON_SITE_MAIL_FROM:}
       notify-to: ${TRCON_SITE_LEAD_NOTIFY_TO:contato@trcongroup.com.br}
+    chat:
+      ai:
+        # Desenvolvimento local responde pela base factual sem consumir DeepSeek.
+        enabled: ${TRCON_SITE_CHAT_ENABLED:true}
+        stub-enabled: ${TRCON_SITE_CHAT_STUB_ENABLED:true}
 
 logging:
   level:

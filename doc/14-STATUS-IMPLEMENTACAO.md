@@ -1,6 +1,6 @@
 # Status de implementação — Site TRCON
 
-> Atualizado em **16/08/2026** — `site/backend` **0.8.0** + `site/frontend` **0.8.0** (SEO hub editorial: higiene de indexação + HTML SSR `/novidades/{slug}`).  
+> Atualizado em **28/09/2026** — reposicionamento tecnológico, CSS modular e V1 do assistente institucional implementados no código; publicação pendente.
 > Gaps e segurança: [`15-GAPS-PRODUCAO-SEGURANCA.md`](15-GAPS-PRODUCAO-SEGURANCA.md).  
 > Feito / fazendo / a fazer: [`16-PASSO-A-PASSO.md`](16-PASSO-A-PASSO.md).
 
@@ -27,6 +27,7 @@
 | `feeds` | **`GET /sitemap.xml`**, **`GET /feed/news.xml`** | — | — | IT |
 | `internal` (filtro) | — | `InternalApiKeyFilter` | — | IT |
 | mail | — | Resend via `trcon.site.mail.*` | — | unit + mock HTTP |
+| `chat` | `POST /api/v1/site/chat` | — | V10 | unit; IT pendente de ambiente Docker |
 
 ### Flyway (Neon `trcon_site`)
 
@@ -40,6 +41,8 @@
 | V6 | `economy_tips` |
 | **V7** | `slug`, `body`, `meta_title`, `meta_description` em `news_items` |
 | **V8** | `cover_image_url` em `news_items` |
+| **V9** | `expires_at` em conteúdo |
+| **V10** | `chat_usage_logs` sem conteúdo das conversas |
 
 ---
 
@@ -54,8 +57,11 @@
 | Radar: API + fallback pipeline JSON | ✅ | `fetchRadarHighlights` — exclui editorial legado |
 | Novidades: API + fallback JSON | ✅ | feed separado de highlights |
 | **Layout Radar + Novidades: cards-grid** | ✅ | `buildCardItemHtml` compartilhado |
-| Educação Financeira merge API + RSS | ✅ | `loadEconomyTips` |
-| **Seções editoriais só com conteúdo** | ✅ | `#block-news` / `#block-radar` / `#block-economy-tips` ocultos se vazios; sem texto operacional no HTML inicial |
+| Educação Financeira na Home | Removida | Consumidor, JSON, pipeline e CSS retirados |
+| **Seções editoriais só com conteúdo** | ✅ | `#block-news` / `#block-radar` ocultos se vazios |
+| CSS modular | ✅ | fontes em `styles/`; bundles `style.css`, `article.css` e `legal.css` gerados por `build-css.mjs` |
+| Assistente institucional | ✅ código | `chat-widget.js`; ativação do provedor depende de `TRCON_SITE_CHAT_*` |
+| Trabalhe Conosco | ✅ | página institucional, sem vagas publicadas nem coleta de currículos |
 | Página artigo `/novidades/{slug}` | ✅ | **SSR backend** (meta/OG/JSON-LD/corpo) + fallback CSR `novidades.html` |
 | Meta SEO + Open Graph + JSON-LD | ✅ | HTML inicial via `ArticlePageController`; CSR também injeta JSON-LD |
 | `robots.txt` | ✅ | `frontend/robots.txt` + sitemap institucional |
@@ -83,9 +89,9 @@ Manual: [`18-MANUAL-MARKETING-EDITORIAL.md`](18-MANUAL-MARKETING-EDITORIAL.md).
 | Estado | Itens |
 |--------|-------|
 | **Feito** | Fases 0–7; S8.1–S8.7; **S8.5b** JSON-LD + HTML SSR; higiene SEO home (`robots.txt`, seções vazias); Desenho A; Radar ≠ Novidades; economy tips V6; produtos + contato; Resend; JaCoCo ≥ 80% |
-| **Fazendo** | Redeploy prod frontend/backend **0.8.0** + `SITE_API_UPSTREAM`; DNS `@`/`www` → Hetzner; smoke end-to-end; Coolify `TRCON_SITE_MAIL_*` |
+| **Fazendo** | Revisão visual, configuração do chat e deploy do reposicionamento |
 | **A fazer** | Rate limit CF leads/interno; LGPD export/exclusão; staging; F9 consolidação legado |
-| **Melhorias** | Painel desativar dica economy; CRM; **Desenho B (R2)**; E2E cross-stack |
+| **Melhorias** | CRM; alerta de orçamento do chat; **Desenho B (R2)**; E2E cross-stack |
 
 ---
 

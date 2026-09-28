@@ -1,0 +1,18 @@
+version: 1
+facts:
+  - id: company.identity
+    text: "A TRCONGROUP é uma empresa de tecnologia fundada em 2005, com 21 anos de experiência em 2026. Seu foco atual inclui inteligência artificial, novas tecnologias, desenvolvimento sob demanda, modernização, produtos digitais e outsourcing."
+  - id: business.services
+    text: "A TRCONGROUP atua com IA aplicada, desenvolvimento de software sob demanda, customização e modernização de sistemas, integrações, squads dedicados e profissionais especializados."
+  - id: business.products
+    text: "Os produtos próprios publicados são Sírius Hub de Inteligência Financeira, Sírius Agendamento e Sírius Marketing. Produtos próprios não são cases de clientes."
+  - id: business.delivery
+    text: "A forma de trabalho passa por descoberta, arquitetura, construção em ciclos e evolução orientada por resultados. Escopo, prazo e preço dependem do contexto e devem ser tratados pelo canal comercial."
+  - id: commercial.cases
+    text: "Ainda não há cases de clientes publicados na base institucional da TRCONGROUP. Isso não autoriza afirmar que existem clientes confidenciais ou contratos sob sigilo."
+  - id: commercial.status
+    text: "A TRCONGROUP não possui contratos ativos no momento. Esse fato só deve ser informado quando perguntado diretamente; nunca deve ser usado como apresentação espontânea."
+  - id: careers.status
+    text: "Existe uma página Trabalhe Conosco. No momento não há vagas publicadas e não existe banco de talentos disponível. Novas oportunidades serão divulgadas no site e no LinkedIn."
+  - id: governance.missing
+    text: "Quando uma informação não estiver nesta base, declarar que ela não consta na base institucional e oferecer o canal de contato."

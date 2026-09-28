@@ -1,0 +1,57 @@
+    /* Mobile nav drawer — painel deslizando pela direita, sem cobrir a tela
+       inteira; o fundo (backdrop) escurece o resto da página e fecha o menu
+       ao ser clicado. */
+    .mobile-nav {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 1001;
+      justify-content: flex-end;
+      background: rgba(2,4,8,0.6);
+      backdrop-filter: blur(2px);
+    }
+    .mobile-nav.open {
+      display: flex;
+      animation: trMobileBackdropIn .2s ease both;
+    }
+    @keyframes trMobileBackdropIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .mobile-nav-panel {
+      position: relative;
+      width: min(300px, 82vw);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 22px;
+      padding: 96px 32px 32px;
+      background: #0b1017;
+      border-left: 1px solid var(--border);
+      box-shadow: -24px 0 48px rgba(0,0,0,0.45);
+      animation: trMobileNavSlide .3s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+    @keyframes trMobileNavSlide {
+      from { transform: translateX(100%); }
+      to { transform: translateX(0); }
+    }
+    .mobile-nav a {
+      text-decoration: none;
+      font-family: 'Syne', sans-serif;
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--text2);
+      transition: color .2s;
+    }
+    .mobile-nav a:hover, .mobile-nav a.active { color: var(--accent); }
+    .mobile-close {
+      position: absolute;
+      top: 22px; right: 22px;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: var(--text2);
+      background: none;
+      border: none;
+    }
