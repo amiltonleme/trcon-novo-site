@@ -19,8 +19,15 @@ Hoje o site comunica principalmente "produto/fluxo de caixa". Para refletir uma
 empresa que também desenvolve, customiza e aloca mão de obra, a evolução visual deve:
 
 - adicionar hierarquia clara para as 4 linhas de negócio (ver [01-POSICIONAMENTO-INSTITUCIONAL.md](./01-POSICIONAMENTO-INSTITUCIONAL.md))
-- comunicar solidez (cases, forma de trabalho, engenharia) e não só "novidade"
+- comunicar solidez por 21 anos de existência, forma de trabalho, engenharia,
+  produtos próprios e demonstrações técnicas; usar cases e prova social somente
+  quando forem reais e houver autorização
 - manter a linguagem viva/tecnológica já planejada (radar diário, novidades), mas subordinada à mensagem institucional na primeira dobra
+
+A evolução para novas tecnologias, IA, desenvolvimento sob demanda e outsourcing
+já integra a atuação da TRCONGROUP. O design deve transmitir maturidade, capacidade
+e prontidão comercial, sem simular escala por meio de logotipos fictícios,
+contadores, depoimentos, parcerias ou números de projetos não comprovados.
 
 ## Direções recomendadas (mantidas do backlog anterior)
 
@@ -49,8 +56,9 @@ TRCon e o que ela vende", depois vê o conteúdo vivo.
 2. as 4 linhas de negócio em blocos (produto / dev sob demanda / customização / alocação)
 3. Radar IA / Radar Tecnologia / Radar Mercado
 4. bloco "Atualizado hoje"
-5. seção "Novidades da TRCONGROUP"
-6. CTA final dupla (produto vs. serviço/staffing)
+5. bloco "Como trabalhamos" com processo, engenharia e artefatos verificáveis
+6. seção "Novidades da TRCONGROUP"
+7. CTA final dupla (produto vs. serviço/staffing)
 
 ## Demais páginas
 
@@ -59,6 +67,8 @@ TRCon e o que ela vende", depois vê o conteúdo vivo.
 - **Beta**: página de conversão, mantida
 - **Laboratório**: experiências visuais e demonstrações de IA
 - **Novidades**: timeline de atualizações
+- **Trabalhe Conosco**: cultura, áreas de interesse, estado real das vagas e banco
+  de talentos opcional com aviso de que o cadastro não garante contratação
 
 ## O que pode mudar sem afetar a identidade
 
