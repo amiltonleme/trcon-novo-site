@@ -8,6 +8,7 @@ const canonical = read('../../doc/canonical/01-POSICIONAMENTO-INSTITUCIONAL.md')
 const knowledge = read('../../backend/src/main/resources/chat/trcon-knowledge.yml');
 const site = read('../index.html');
 const app = read('../assets/app.js');
+const commercialProcess = read('../../doc/23-PROCESSO-COMERCIAL.md');
 
 describe('contrato da fonte institucional', () => {
   it('mantém no YAML exatamente os IDs do registro factual canônico', () => {
@@ -33,5 +34,42 @@ describe('contrato da fonte institucional', () => {
     expect(publicCopy).not.toMatch(/desde 2005|fundada em 2005/i);
     expect(publicCopy).not.toMatch(/90 dias|vital[ií]cio|vagas limitadas|teste gratuito/i);
     expect(publicCopy).not.toMatch(/Market AI|BI & Analytics|Serviço Ativo/i);
+  });
+
+  it('publica a arquitetura e as quatro ofertas completas da etapa 2', () => {
+    expect(site).toContain('data-page-link="conteudo"');
+    expect(site).toContain('id="page-conteudo"');
+    expect(site).toContain('id="page-como-ajudamos"');
+    expect(app).toContain("clientes: 'como-ajudamos'");
+
+    for (const offer of [
+      'Diagnóstico de IA e automação',
+      'Desenvolvimento de MVP ou produto',
+      'Modernização e customização',
+      'Outsourcing por profissional, célula ou squad',
+    ]) {
+      expect(site).toContain(offer);
+    }
+    for (const field of ['Problema', 'Entregáveis', 'Processo', 'Contratação']) {
+      expect(site.match(new RegExp(`<dt>${field}</dt>`, 'g'))).toHaveLength(4);
+    }
+  });
+
+  it('preserva contexto por oferta e registra funil e métricas internas', () => {
+    for (const origin of [
+      'site-trcon-diagnostico-ia',
+      'site-trcon-oferta-mvp',
+      'site-trcon-oferta-modernizacao',
+      'site-trcon-oferta-outsourcing',
+    ]) {
+      expect(`${site}\n${app}`).toContain(origin);
+      expect(commercialProcess).toContain(origin);
+    }
+    for (const stage of ['Recepção', 'Qualificação', 'Reunião de entendimento', 'Proposta', 'Acompanhamento']) {
+      expect(commercialProcess).toContain(stage);
+    }
+    for (const metric of ['Visitas por oferta', 'Formulários iniciados', 'Leads qualificados', 'Reuniões', 'Propostas', 'Contratos']) {
+      expect(commercialProcess).toContain(metric);
+    }
   });
 });

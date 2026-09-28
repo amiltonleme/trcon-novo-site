@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&family=Share+Tech+Mono&display=swap"
           rel="stylesheet">
     <link rel="icon" href="assets/brand/trcon-mark.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="style.css?v=2307f86">
+    <link rel="stylesheet" href="style.css?v=5f42076">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
@@ -25,11 +25,12 @@
         <li><a href="#" data-page-link="sobre">Empresa</a></li>
         <li><a href="#" data-page-link="servicos">Soluções</a></li>
         <li><a href="#" data-page-link="produtos">Produtos</a></li>
+        <li><a href="#" data-page-link="conteudo">Conteúdo</a></li>
         <li><a href="#" data-page-link="carreiras">Trabalhe Conosco</a></li>
     </ul>
 
     <div class="nav-cta">
-        <a href="#" class="btn btn-primary nav-contact" data-page-link="contato" data-product="servicos">Fale com a TRCON</a>
+        <a href="#" class="btn btn-primary nav-contact" data-page-link="contato" data-product="servicos">Fale com a TRCONGROUP</a>
         <button class="hamburger" type="button" data-mobile-open aria-label="Abrir menu">
             <span></span><span></span><span></span>
         </button>
@@ -44,6 +45,7 @@
         <a href="#" data-page-link="sobre" data-close-mobile>Empresa</a>
         <a href="#" data-page-link="servicos" data-close-mobile>Soluções</a>
         <a href="#" data-page-link="produtos" data-close-mobile>Produtos</a>
+        <a href="#" data-page-link="conteudo" data-close-mobile>Conteúdo</a>
         <a href="#" data-page-link="hub" data-close-mobile>Testar Beta</a>
         <a href="#" data-page-link="contato" data-product="servicos" data-close-mobile>Contato</a>
         <a href="#" data-page-link="carreiras" data-close-mobile>Trabalhe Conosco</a>
@@ -266,14 +268,32 @@
         </div>
     </section>
 
+</div><!-- /page-home -->
+
+<!-- ════════════════════════════════
+     PAGE: CONTEÚDO
+════════════════════════════════ -->
+<div class="page" id="page-conteudo">
+    <section class="subpage-tr-hero">
+        <canvas class="tr-neural-canvas subpage-neural-canvas" aria-hidden="true"></canvas>
+        <div class="subpage-tr-status"><span>TRCONGROUP CONTENT</span><span>RADAR IA TECNOLOGIA NOVIDADES</span></div>
+        <div class="subpage-tr-grid"></div>
+        <div class="subpage-tr-corner tl"></div><div class="subpage-tr-corner tr"></div>
+        <div class="subpage-tr-corner bl"></div><div class="subpage-tr-corner br"></div>
+        <div class="subpage-tr-stage">
+            <div class="subpage-tr-logo"><img src="assets/trcon-logo.png" alt="TRCONGROUP"></div>
+            <span class="subpage-tr-kicker">Conteúdo</span>
+            <h1 class="subpage-tr-title">Tecnologia em <em>movimento</em></h1>
+            <p class="subpage-tr-copy">Radar de inteligência artificial e tecnologia, além de artigos e comunicados publicados pela TRCONGROUP.</p>
+            <div class="subpage-tr-divider"></div>
+        </div>
+    </section>
+
     <div id="block-radar" class="home-content-block" hidden>
-        <div class="divider"></div>
         <section id="section-radar">
-            <div class="section-label">Radar TRCONGROUP — Atualizado hoje</div>
-            <div class="section-title">Sinais de <em style="color:var(--accent);font-style:normal">IA e tecnologia</em>
-            </div>
-            <p class="section-sub">Curadoria automática dos principais movimentos de IA e tecnologia. Atualizado ao
-                longo do dia.</p>
+            <div class="section-label">Radar TRCONGROUP</div>
+            <div class="section-title">Sinais de <em style="color:var(--accent);font-style:normal">IA e tecnologia</em></div>
+            <p class="section-sub">Curadoria dos principais movimentos de inteligência artificial e tecnologia.</p>
             <div class="cards-grid" id="radarGrid" style="margin-top:40px;" aria-busy="true"></div>
             <div class="data-updated" id="radarUpdated"></div>
         </section>
@@ -283,13 +303,12 @@
         <div class="divider"></div>
         <section id="section-news">
             <div class="section-label">Novidades da TRCONGROUP</div>
-            <div class="section-title">O que <em style="color:var(--accent);font-style:normal">mudou</em> por aí</div>
-            <p class="section-sub">Artigos e comunicados publicados pela equipe TRCONGROUP via Sírius Marketing AI.</p>
+            <div class="section-title">Artigos e <em style="color:var(--accent);font-style:normal">comunicados</em></div>
+            <p class="section-sub">Conteúdo institucional publicado pela equipe TRCONGROUP.</p>
             <div class="cards-grid" id="newsList" style="margin-top:40px;" aria-busy="true"></div>
         </section>
     </div>
-
-</div><!-- /page-home -->
+</div>
 
 <!-- ════════════════════════════════
      PAGE: QUEM SOMOS
@@ -432,6 +451,51 @@
 </div>
 
 <!-- ════════════════════════════════
+     PAGE: COMO AJUDAMOS
+════════════════════════════════ -->
+<div class="page" id="page-como-ajudamos">
+    <section class="subpage-tr-hero">
+        <canvas class="tr-neural-canvas subpage-neural-canvas" aria-hidden="true"></canvas>
+        <div class="subpage-tr-status"><span>TRCONGROUP FOR BUSINESS</span><span>CONSTRUIR MODERNIZAR AUTOMATIZAR AMPLIAR</span></div>
+        <div class="subpage-tr-grid"></div>
+        <div class="subpage-tr-corner tl"></div><div class="subpage-tr-corner tr"></div>
+        <div class="subpage-tr-corner bl"></div><div class="subpage-tr-corner br"></div>
+        <div class="subpage-tr-stage">
+            <div class="subpage-tr-logo"><img src="assets/trcon-logo.png" alt="TRCONGROUP"></div>
+            <span class="subpage-tr-kicker">Como ajudamos</span>
+            <h1 class="subpage-tr-title">O próximo passo para cada <em>desafio</em></h1>
+            <p class="subpage-tr-copy">Conectamos o problema de negócio à combinação adequada de diagnóstico, software, modernização e especialistas.</p>
+            <div class="subpage-tr-divider"></div>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-label">Para empresas</div>
+        <div class="section-title">Comece pela sua <em style="color:var(--accent);font-style:normal">necessidade</em></div>
+        <p class="section-sub">Cada cenário leva a uma oferta de entrada clara. Escopo, prazo, composição e indicadores são definidos com base no contexto real.</p>
+        <div class="help-grid">
+            <article class="help-card"><span>01</span><h3>Preciso construir</h3><p>Uma ideia, operação ou oportunidade precisa virar MVP, integração ou produto digital.</p><a href="#" data-page-link="contato" data-product="mvp" data-lead-type="DESENVOLVIMENTO_SOB_DEMANDA">Falar sobre um projeto →</a></article>
+            <article class="help-card"><span>02</span><h3>Preciso modernizar</h3><p>O sistema atual limita a operação, precisa de integrações ou deve incorporar novas regras.</p><a href="#" data-page-link="contato" data-product="modernizacao" data-lead-type="CUSTOMIZACAO">Receber uma proposta →</a></article>
+            <article class="help-card"><span>03</span><h3>Quero aplicar IA</h3><p>Há processos repetitivos, dados dispersos ou decisões que podem receber apoio de automação.</p><a href="#" data-page-link="contato" data-product="ia" data-lead-type="DESENVOLVIMENTO_SOB_DEMANDA">Solicitar diagnóstico →</a></article>
+            <article class="help-card"><span>04</span><h3>Preciso ampliar o time</h3><p>Uma competência ou frente de trabalho exige capacidade adicional integrada à equipe atual.</p><a href="#" data-page-link="contato" data-product="outsourcing" data-lead-type="ALOCACAO_MAO_DE_OBRA">Montar meu time →</a></article>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+    <section>
+        <div class="section-label">Caminho de trabalho</div>
+        <div class="section-title">Contexto antes da <em style="color:var(--accent);font-style:normal">solução</em></div>
+        <div class="process-grid">
+            <article class="process-step"><span>01</span><h3>Entendimento</h3><p>Reunimos objetivo, operação atual, restrições e critérios de sucesso.</p></article>
+            <article class="process-step"><span>02</span><h3>Direcionamento</h3><p>Indicamos a oferta, o escopo inicial e o formato de contratação compatíveis.</p></article>
+            <article class="process-step"><span>03</span><h3>Proposta</h3><p>Formalizamos entregáveis, responsabilidades, composição, prazo e condições.</p></article>
+            <article class="process-step"><span>04</span><h3>Execução</h3><p>Trabalhamos em ciclos com validação, visibilidade e evolução orientada por evidências.</p></article>
+        </div>
+        <div class="tr-actions section-actions"><a href="#" class="btn btn-primary btn-lg" data-page-link="servicos">Comparar as ofertas →</a></div>
+    </section>
+</div>
+
+<!-- ════════════════════════════════
      PAGE: SERVIÇOS
 ════════════════════════════════ -->
 <div class="page" id="page-servicos">
@@ -457,6 +521,63 @@
             <div class="subpage-tr-divider"></div>
         </div>
     </section>
+
+    <section class="offers-section">
+        <div class="section-label">Ofertas de entrada</div>
+        <div class="section-title">Um escopo claro para <em style="color:var(--accent);font-style:normal">começar</em></div>
+        <p class="section-sub">Escolha a situação mais próxima da sua. Cada conversa começa com contexto e segue para entregáveis e contratação definidos em conjunto.</p>
+        <div class="offer-grid">
+            <article class="offer-card">
+                <div class="offer-card-heading"><span class="offer-number">01</span><h2>Diagnóstico de IA e automação</h2></div>
+                <p class="offer-audience">Para empresas que querem aplicar IA, mas precisam identificar onde existe valor e viabilidade.</p>
+                <dl class="offer-details">
+                    <div><dt>Problema</dt><dd>Processos manuais, informação dispersa ou oportunidades de IA ainda sem prioridade e limites claros.</dd></div>
+                    <div><dt>Entregáveis</dt><dd>Mapeamento do processo, casos de uso priorizados, dados e integrações necessários, riscos e próximo passo recomendado.</dd></div>
+                    <div><dt>Processo</dt><dd>Imersão, análise de viabilidade, priorização e apresentação das recomendações.</dd></div>
+                    <div><dt>Contratação</dt><dd>Diagnóstico com escopo fechado; uma implementação posterior recebe proposta própria.</dd></div>
+                </dl>
+                <a href="#" class="btn btn-primary" data-page-link="contato" data-product="ia" data-lead-type="DESENVOLVIMENTO_SOB_DEMANDA">Solicitar diagnóstico</a>
+            </article>
+
+            <article class="offer-card">
+                <div class="offer-card-heading"><span class="offer-number">02</span><h2>Desenvolvimento de MVP ou produto</h2></div>
+                <p class="offer-audience">Para empresas que precisam transformar uma oportunidade, operação ou ideia em software utilizável.</p>
+                <dl class="offer-details">
+                    <div><dt>Problema</dt><dd>Uma necessidade de negócio ainda depende de processos manuais ou não tem produto digital adequado.</dd></div>
+                    <div><dt>Entregáveis</dt><dd>Descoberta, escopo priorizado, arquitetura, software testado e estratégia de entrega e evolução.</dd></div>
+                    <div><dt>Processo</dt><dd>Descoberta, definição, construção em ciclos, validação e entrada em operação.</dd></div>
+                    <div><dt>Contratação</dt><dd>Projeto por escopo e marcos ou ciclos evolutivos, conforme incerteza e maturidade do produto.</dd></div>
+                </dl>
+                <a href="#" class="btn btn-primary" data-page-link="contato" data-product="mvp" data-lead-type="DESENVOLVIMENTO_SOB_DEMANDA">Falar sobre um projeto</a>
+            </article>
+
+            <article class="offer-card">
+                <div class="offer-card-heading"><span class="offer-number">03</span><h2>Modernização e customização</h2></div>
+                <p class="offer-audience">Para empresas cujo sistema precisa evoluir sem interromper a operação nem descartar o que funciona.</p>
+                <dl class="offer-details">
+                    <div><dt>Problema</dt><dd>Arquitetura, regras, integrações ou experiência atuais limitam o negócio e aumentam o risco da mudança.</dd></div>
+                    <div><dt>Entregáveis</dt><dd>Diagnóstico técnico, plano incremental, integrações ou funcionalidades priorizadas, testes e documentação acordada.</dd></div>
+                    <div><dt>Processo</dt><dd>Leitura do ambiente, desenho da transição, implementação por etapas e validação de regressão.</dd></div>
+                    <div><dt>Contratação</dt><dd>Projeto por etapa ou capacidade recorrente para uma fila priorizada de evolução.</dd></div>
+                </dl>
+                <a href="#" class="btn btn-primary" data-page-link="contato" data-product="modernizacao" data-lead-type="CUSTOMIZACAO">Receber uma proposta</a>
+            </article>
+
+            <article class="offer-card">
+                <div class="offer-card-heading"><span class="offer-number">04</span><h2>Outsourcing por profissional, célula ou squad</h2></div>
+                <p class="offer-audience">Para empresas que precisam ampliar capacidade ou incorporar uma competência ao time atual.</p>
+                <dl class="offer-details">
+                    <div><dt>Problema</dt><dd>Falta capacidade, senioridade ou uma combinação de competências para executar uma frente prioritária.</dd></div>
+                    <div><dt>Entregáveis</dt><dd>Perfil ou composição acordada, responsabilidades, forma de integração, cadência e acompanhamento.</dd></div>
+                    <div><dt>Processo</dt><dd>Entendimento da demanda, desenho dos papéis, alinhamento e atuação integrada à rotina da empresa.</dd></div>
+                    <div><dt>Contratação</dt><dd>Profissional, célula ou squad dedicado, com período e capacidade definidos na proposta.</dd></div>
+                </dl>
+                <a href="#" class="btn btn-primary" data-page-link="contato" data-product="outsourcing" data-lead-type="ALOCACAO_MAO_DE_OBRA">Montar meu time</a>
+            </article>
+        </div>
+    </section>
+
+    <div class="divider"></div>
 
     <section>
         <div class="section-label">Inteligência artificial aplicada</div>
@@ -1068,6 +1189,8 @@
                 <li><a href="#" data-page-link="sobre">Empresa</a></li>
                 <li><a href="#" data-page-link="servicos">Soluções</a></li>
                 <li><a href="#" data-page-link="produtos">Produtos</a></li>
+                <li><a href="#" data-page-link="conteudo">Conteúdo</a></li>
+                <li><a href="#" data-page-link="como-ajudamos">Como ajudamos</a></li>
                 <li><a href="#" data-page-link="carreiras">Trabalhe Conosco</a></li>
             </ul>
         </div>
@@ -1096,7 +1219,7 @@
         <p>© 2026 TRCONGROUP. Todos os direitos reservados.</p>
         <div class="site-build-info" id="siteBuildInfo" aria-label="Versão do site">
             <span>Versão <span id="siteAppVersion">0.9.1</span></span>
-            <code id="siteCommitHash">2307f86</code>
+            <code id="siteCommitHash">5f42076</code>
         </div>
         <div class="footer-links">
             <a href="/privacidade.html">Privacidade</a>
@@ -1135,7 +1258,7 @@
 </aside>
 
 <script src="assets/env.js"></script>
-<script type="module" src="assets/app.js?v=2307f86"></script>
+<script type="module" src="assets/app.js?v=5f42076"></script>
 <a
         href="https://wa.me/5511939288899?text=Olá%2C%20vim%20pelo%20site%20da%20TRCONGROUP%20e%20gostaria%20de%20saber%20mais%20sobre%20as%20soluções."
         class="whatsapp-float"

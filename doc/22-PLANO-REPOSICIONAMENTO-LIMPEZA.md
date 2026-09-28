@@ -89,7 +89,7 @@ remoção do backend financeiro em um único deploy.
 |---|---|---|---|
 | 0 — Baseline e proteção | **Concluída em 28/09/2026** | estado do Git preservado; 260 testes executados; lint e build aprovados; baseline visual desktop/mobile registrado; produtor e consumidores de `economy-tips` inventariados; conteúdo financeiro classificado | nenhuma pendência do gate; a retirada do produtor continua sendo pré-condição da Etapa 7 |
 | 1 — Fonte de verdade | **Concluída em 28/09/2026** | fonte canônica com 12 IDs estáveis; YAML sincronizado; responsáveis e revisão definidos; conteúdo público e fallbacks auditados; teste de contrato entre documento, site e chat | nenhuma pendência do gate; fatos novos exigem o processo de aprovação registrado |
-| 2 — Arquitetura e conteúdo | Parcial | Home e Empresa reposicionadas; Soluções ajustada; narrativa financeira retirada da Home | página corporativa “Como ajudamos”; item Conteúdo na navegação; ofertas com entregáveis e contratação; processo e métricas comerciais |
+| 2 — Arquitetura e conteúdo | **Concluída em 28/09/2026** | Home e Empresa reposicionadas; página “Como ajudamos”; Conteúdo na navegação; quatro ofertas com problema, entregáveis, processo, contratação e CTA contextual; processo e métricas comerciais registrados | nenhuma pendência do gate; o estouro horizontal mobile segue como prioridade da Etapa 3 |
 | 3 — Visual e componentes | Parcial | CSS dividido em módulos; bundles separados; CSS legal extraído; chat redesenhado | retirar 88 estilos inline; substituir animação JS por classes; distribuir `responsive.css`; avaliar Stylelint; retirar backup de logo |
 | 4 — Trabalhe Conosco | Parcial | página criada; áreas e estado real de vagas publicados; nenhuma coleta indevida | aprofundar cultura e forma de trabalho; adicionar perguntas frequentes; smoke editorial e de acessibilidade |
 | 5 — Assistente institucional | Parcial | widget, endpoint, base factual, cliente DeepSeek, rate limit, orçamento, stub local e testes unitários | validar DeepSeek real; testes HTTP/integrados e adversariais; configurar e validar produção |
@@ -525,6 +525,29 @@ seguida o identificador antigo é removido.
 - finanças aparecem como domínio de um produto, não como identidade da empresa
 - não há prova social simulada
 - links e hashes antigos têm tratamento de compatibilidade definido
+
+### Fechamento da Etapa 2 — 28/09/2026
+
+- criada a página corporativa `#como-ajudamos`, organizada pelas necessidades de
+  construir, modernizar, aplicar IA e ampliar o time;
+- o hash legado `#clientes` agora é alias de `#como-ajudamos`; deixou de apontar
+  incorretamente para Trabalhe Conosco;
+- criada a página `#conteudo` e adicionada à navegação desktop, mobile e rodapé;
+  Radar de IA/Tecnologia e Novidades institucionais foram movidos da Home para
+  esse contexto;
+- a página Soluções apresenta as quatro ofertas de entrada com público, problema,
+  entregáveis, processo, formato de contratação e CTA próprio;
+- os CTAs preservam `tipoInteresse` e usam origens específicas para diagnóstico,
+  MVP/produto, modernização/customização e outsourcing;
+- resposta, qualificação, reunião, proposta, acompanhamento, estados e métricas
+  internas foram definidos em [23-PROCESSO-COMERCIAL.md](23-PROCESSO-COMERCIAL.md),
+  sem publicar prazo ou indicador não comprovado;
+- contrato editorial automatizado ampliado para cobrir arquitetura, campos das
+  ofertas, contextos de conversão, etapas do funil e métricas;
+- validação local: 78 testes frontend aprovados, lint aprovado, build e
+  `check:css` aprovados; smoke visual desktop das rotas alteradas aprovado;
+- o estouro horizontal observado em 390×844 permanece registrado para a Etapa 3,
+  conforme o ponto de retomada obrigatório deste plano.
 
 ## Etapa 3 — Evolução visual e componentes
 

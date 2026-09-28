@@ -66,6 +66,42 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
       successCopy: 'Solicitação recebida. Em breve entraremos em contato para entender o contexto.',
       showUso: false,
     },
+    mvp: {
+      label: 'MVP ou produto sob demanda',
+      title: 'Fale sobre o produto que precisa construir',
+      copy: 'Conte a oportunidade, operação ou ideia que precisa virar software. Vamos entender o contexto e estruturar o próximo passo.',
+      note: 'A conversa inicial orienta escopo, riscos, marcos e o formato de contratação mais adequado.',
+      leadType: 'DESENVOLVIMENTO_SOB_DEMANDA',
+      origem: 'site-trcon-oferta-mvp',
+      produtoLabel: '',
+      submitLabel: 'Falar sobre um projeto',
+      successCopy: 'Mensagem recebida. Entraremos em contato para entender o contexto do projeto.',
+      showUso: false,
+    },
+    modernizacao: {
+      label: 'Modernização e customização',
+      title: 'Evolua seu sistema com segurança',
+      copy: 'Descreva o sistema, a limitação atual e a mudança que sua operação precisa.',
+      note: 'A proposta é preparada depois de entendermos ambiente, prioridades, integrações e riscos de transição.',
+      leadType: 'CUSTOMIZACAO',
+      origem: 'site-trcon-oferta-modernizacao',
+      produtoLabel: '',
+      submitLabel: 'Receber uma proposta',
+      successCopy: 'Mensagem recebida. Entraremos em contato para entender a evolução necessária.',
+      showUso: false,
+    },
+    outsourcing: {
+      label: 'Outsourcing e squads',
+      title: 'Monte a capacidade que seu time precisa',
+      copy: 'Conte a frente de trabalho, as competências necessárias e como o novo time deve se integrar à operação.',
+      note: 'Perfil, composição, responsabilidades, período e capacidade são definidos na proposta.',
+      leadType: 'ALOCACAO_MAO_DE_OBRA',
+      origem: 'site-trcon-oferta-outsourcing',
+      produtoLabel: '',
+      submitLabel: 'Montar meu time',
+      successCopy: 'Mensagem recebida. Entraremos em contato para entender a composição necessária.',
+      showUso: false,
+    },
     default: {
       label: 'Contato',
       title: 'Vamos conversar',
@@ -564,14 +600,14 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
     });
   }
 
-  function setHomeContentBlockVisible(blockId, visible) {
+  function setPublishedContentBlockVisible(blockId, visible) {
     const block = document.getElementById(blockId);
     if (!block) return;
     block.hidden = !visible;
   }
 
   function observeDynamicCards() {
-    document.querySelectorAll('.card, .pillar, .audience-card, .product-card, .process-step').forEach(el => {
+    document.querySelectorAll('.card, .pillar, .audience-card, .product-card, .process-step, .offer-card, .help-card').forEach(el => {
       el.style.opacity = '0';
       el.style.transform = 'translateY(16px)';
       el.style.transition = 'opacity .5s ease, transform .5s ease, border-color .25s';
@@ -580,7 +616,7 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
   }
 
   // Radar (highlights) e Novidades (news): API com fallback para JSON estático.
-  async function loadHomeContent() {
+  async function loadPublishedContent() {
     const radarGrid = document.getElementById('radarGrid');
     const radarUpdated = document.getElementById('radarUpdated');
     const newsList = document.getElementById('newsList');
@@ -594,11 +630,11 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
         const visible = items.slice(0, 8);
         newsList.innerHTML = buildNewsHtml(visible);
         newsList.removeAttribute('aria-busy');
-        setHomeContentBlockVisible('block-news', visible.length > 0);
+        setPublishedContentBlockVisible('block-news', visible.length > 0);
       } catch (error) {
         newsList.innerHTML = '';
         newsList.removeAttribute('aria-busy');
-        setHomeContentBlockVisible('block-news', false);
+        setPublishedContentBlockVisible('block-news', false);
       }
     }
 
@@ -610,7 +646,7 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
         );
         radarGrid.innerHTML = buildHighlightsHtml(items);
         radarGrid.removeAttribute('aria-busy');
-        setHomeContentBlockVisible('block-radar', items.length > 0);
+        setPublishedContentBlockVisible('block-radar', items.length > 0);
         if (radarUpdated) {
           radarUpdated.textContent = items.length
             ? (source === 'api' ? 'Fonte: API TRCONGROUP' : 'Fonte: conteúdo publicado')
@@ -620,7 +656,7 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
       } catch (error) {
         radarGrid.innerHTML = '';
         radarGrid.removeAttribute('aria-busy');
-        setHomeContentBlockVisible('block-radar', false);
+        setPublishedContentBlockVisible('block-radar', false);
       }
     }
   }
@@ -642,7 +678,7 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
   setupHubLightbox();
   applyContatoContext('default');
   observeDynamicCards();
-  loadHomeContent();
+  loadPublishedContent();
   initChatWidget({
     apiUrl: apiConfig.chatApiUrl,
     getPageId: () => document.querySelector('.page.active')?.id.replace('page-', '') || 'home',
@@ -656,7 +692,8 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
   // existente — só lê o hash uma vez, no carregamento da página.
   (function applyInitialHashRoute() {
     const requestedId = (window.location.hash || '').replace('#', '');
-    const id = requestedId === 'clientes' ? 'carreiras' : requestedId;
+    const aliases = { clientes: 'como-ajudamos', conteudos: 'conteudo' };
+    const id = aliases[requestedId] || requestedId;
     if (id && document.getElementById('page-' + id)) {
       showPage(id);
     }
