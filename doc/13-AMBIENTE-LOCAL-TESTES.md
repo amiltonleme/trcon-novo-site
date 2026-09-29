@@ -319,6 +319,7 @@ PostgreSQL com:
 | Novidades vazia, Radar ok | site backend off ou `env.js` apontando prod | `env.js` → `localhost:8081`; marketing publicou? `GET /api/public/news` |
 | Artigo duplicado Radar + Novidades | deploy antigo (pré-27/07) | redeploy marketing + site; highlights legados filtrados na API |
 | Frontend abre, mas formulário não envia | `env.js` ou CORS | conferir `TRCON_CORS_ALLOWED_ORIGINS` e URLs em `env.js` |
+| Preview do Coolify tenta acessar `localhost:8081` | deploy anterior à resolução de hosts remotos | redeploy do frontend; configurar `SITE_API_UPSTREAM` para o backend dev; o preview passa a usar `/api/*` na própria origem |
 | `npm test` falha por dependência ausente | `node_modules` não instalado | rodar `npm install` em `frontend/` |
 | Backend falha por banco indisponível | PostgreSQL local não está pronto | aguardar health do container ou recriar com `docker compose up -d postgres` |
 

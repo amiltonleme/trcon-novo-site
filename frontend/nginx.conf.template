@@ -7,6 +7,19 @@ server {
     # Resolve upstream em runtime (Docker DNS).
     resolver 127.0.0.11 ipv6=off valid=10s;
 
+    # API do site no mesmo domínio do frontend. Usado por previews e domínios
+    # temporários do Coolify para evitar localhost e CORS no navegador.
+    location /api/ {
+        set $site_api_upstream "${SITE_API_UPSTREAM}";
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_ssl_server_name on;
+        proxy_pass $site_api_upstream$request_uri;
+    }
+
     # HTML editorial com meta/OG/JSON-LD no first paint (backend).
     location /novidades/ {
         set $site_api_upstream "${SITE_API_UPSTREAM}";
@@ -15,6 +28,7 @@ server {
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_ssl_server_name on;
         proxy_pass $site_api_upstream;
         proxy_intercept_errors on;
         error_page 502 503 504 = @article_csr_fallback;

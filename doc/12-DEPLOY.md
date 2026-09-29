@@ -71,7 +71,7 @@ Regras:
 | Artefato | Papel atual |
 |---|---|
 | `backend/Dockerfile` | Imagem de produção do backend Spring Boot. Usar no Coolify. |
-| `frontend/` | Site estático + nginx; proxy `/novidades/` → backend (`SITE_API_UPSTREAM`) |
+| `frontend/` | Site estático + nginx; proxy `/api/` e `/novidades/` → backend (`SITE_API_UPSTREAM`) |
 | `frontend/assets/env.js` | URLs públicas da API — produção: `https://api-site.trcongroup.com.br/api/...` |
 | `frontend/robots.txt` | Política de crawlers do site institucional |
 | `frontend/_headers` | Headers herdados do fluxo Cloudflare Pages. Pode servir como referência para configurar headers no proxy/Coolify/Cloudflare. |
@@ -227,6 +227,7 @@ Resposta esperada no health:
 
 O `Dockerfile` gera `nginx.conf` via `envsubst` (`nginx.conf.template` + `docker-entrypoint.sh`). Proxy:
 
+- `/api/*` → `$SITE_API_UPSTREAM` (APIs no mesmo domínio para previews do Coolify)
 - `/novidades/*` → `$SITE_API_UPSTREAM` (HTML SSR com SEO)
 - falha 502/503/504 → fallback `novidades.html` (CSR)
 
