@@ -20,7 +20,7 @@ frontend/
   novidades.html        # fallback CSR da página de artigo
   robots.txt
   style.css
-  nginx.conf.template   # proxy /novidades/ → SITE_API_UPSTREAM
+  nginx.conf.template   # proxy /api/ e /novidades/ → SITE_API_UPSTREAM
   docker-entrypoint.sh
   assets/
     app.js              # orquestrador (esconde seções vazias)
@@ -53,7 +53,9 @@ Implementação em `assets/modules/content.js`:
 Artigo: preferir HTML SSR do backend (`GET /novidades/{slug}`); `novidades.html` só como fallback.
 
 Variáveis: `window.TRCON_HIGHLIGHTS_API_URL`, `TRCON_NEWS_API_URL` (via `env.js`).  
-Deploy: `SITE_API_UPSTREAM` no Coolify/nginx.
+Deploy: `SITE_API_UPSTREAM` no Coolify/nginx. Domínios temporários de preview e o
+servidor local usam `/api/*` na própria origem; o frontend não aponta diretamente
+para uma porta do backend.
 
 ## Desenvolvimento
 
