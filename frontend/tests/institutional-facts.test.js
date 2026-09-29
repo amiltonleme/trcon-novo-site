@@ -25,7 +25,19 @@ describe('contrato da fonte institucional', () => {
     expect(site).toContain('Produto em beta');
     expect(site).toContain('Sírius Agendamento');
     expect(site).toContain('Sírius Marketing');
-    expect(site).toContain('No momento, não há vagas abertas publicadas.');
+    expect(site).toContain('No momento, não há vagas abertas publicadas');
+    expect(site).toContain('não há banco de talentos disponível');
+  });
+
+  it('publica a etapa 4 sem transformar áreas de interesse em vagas ou coletar candidaturas', () => {
+    const careers = site.match(/<div class="page" id="page-carreiras">([\s\S]*?)<\/div>\s*<!-- FOOTER/)[1];
+
+    expect(careers).toContain('21 anos de experiência');
+    expect(careers.match(/<article class="career-principle">/g)).toHaveLength(4);
+    expect(careers.match(/<details>/g)).toHaveLength(5);
+    expect(careers).toContain('A lista apresenta campos de atuação e não representa vagas abertas.');
+    expect(careers).toContain('O formulário de contato é destinado a conversas comerciais');
+    expect(careers).not.toMatch(/<form|<input|<textarea|type="file"/i);
   });
 
   it('não publica alegações removidas nem promessa comercial sem aprovação', () => {

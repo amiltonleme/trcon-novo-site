@@ -1,5 +1,5 @@
 /* GENERATED FILE. Edit frontend/styles/** and run npm run build:css. */
-/* Sources: styles/tokens.css, styles/base.css, styles/layouts/navigation.css, styles/layouts/page-shell.css, styles/pages/home-legacy-hero.css, styles/pages/home-hero.css, styles/pages/home-hero-responsive.css, styles/layouts/sections.css, styles/components/cards.css, styles/components/hub-gallery.css, styles/pages/company.css, styles/pages/offers.css, styles/components/subpage-hero.css, styles/components/product-cards.css, styles/components/forms.css, styles/pages/audiences.css, styles/layouts/footer.css, styles/components/mobile-nav.css, styles/components/floating-actions.css */
+/* Sources: styles/tokens.css, styles/base.css, styles/layouts/navigation.css, styles/layouts/page-shell.css, styles/pages/home-legacy-hero.css, styles/pages/home-hero.css, styles/pages/home-hero-responsive.css, styles/layouts/sections.css, styles/components/cards.css, styles/components/hub-gallery.css, styles/pages/company.css, styles/pages/careers.css, styles/pages/offers.css, styles/components/subpage-hero.css, styles/components/product-cards.css, styles/components/forms.css, styles/pages/audiences.css, styles/layouts/footer.css, styles/components/mobile-nav.css, styles/components/floating-actions.css */
     :root {
       --bg: #080c10;
       --bg2: #0d1219;
@@ -1070,6 +1070,140 @@
     .pillar-icon { display: grid; flex: 0 0 28px; place-items: center; color: var(--accent); line-height: 1; }
     .pillar h4 { font-weight: 600; font-size: 0.9rem; margin-bottom: 4px; }
     .pillar p { color: var(--text2); font-size: 0.82rem; line-height: 1.55; font-weight: 300; }
+
+/* ══════════════════════════════
+   TRABALHE CONOSCO
+══════════════════════════════ */
+.career-culture {
+  background:
+    radial-gradient(circle at 88% 18%, rgba(0, 151, 255, 0.08), transparent 28%),
+    var(--bg2);
+}
+
+.career-principles {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.career-principle {
+  min-height: 250px;
+  padding: 28px;
+  background: rgba(10, 17, 32, 0.76);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.career-principle-number {
+  display: block;
+  margin-bottom: 42px;
+  color: var(--accent);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+}
+
+.career-principle h2 {
+  margin-bottom: 12px;
+  font-family: 'Syne', sans-serif;
+  font-size: 1.05rem;
+}
+
+.career-principle p {
+  color: var(--text2);
+  font-size: 0.88rem;
+  font-weight: 300;
+  line-height: 1.65;
+}
+
+.career-openings {
+  margin: 0;
+}
+
+.career-faq {
+  background: var(--bg2);
+}
+
+.career-faq-list {
+  max-width: 860px;
+  margin-top: 40px;
+  border-top: 1px solid var(--border);
+}
+
+.career-faq details {
+  border-bottom: 1px solid var(--border);
+}
+
+.career-faq summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 24px 0;
+  color: var(--text);
+  font-family: 'Syne', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  list-style: none;
+}
+
+.career-faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.career-faq summary::after {
+  content: '+';
+  flex: 0 0 auto;
+  color: var(--accent);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.career-faq details[open] summary::after {
+  content: '−';
+}
+
+.career-faq summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 6px;
+  border-radius: 2px;
+}
+
+.career-faq details p {
+  max-width: 720px;
+  padding: 0 48px 24px 0;
+  color: var(--text2);
+  font-size: 0.92rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+@media (max-width: 1024px) {
+  .career-principles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .career-principles {
+    grid-template-columns: 1fr;
+  }
+
+  .career-principle {
+    min-height: 0;
+  }
+
+  .career-principle-number {
+    margin-bottom: 24px;
+  }
+
+  .career-faq summary {
+    padding: 20px 0;
+  }
+}
 
 /* Etapa 2 — ofertas comerciais e página Como ajudamos. */
 .offers-section {

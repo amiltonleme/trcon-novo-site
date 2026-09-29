@@ -4,8 +4,8 @@
 > deve ser feita sem concluir a etapa de substituição e as verificações da própria
 > fase.
 >
-> **Última atualização: 29/09/2026.** Etapas 0, 1, 2 e 3 concluídas. Próximo gate:
-> Etapa 4 — Página Trabalhe Conosco.
+> **Última atualização: 29/09/2026.** Etapas 0, 1, 2, 3 e 4 concluídas. Próximo
+> gate: Etapa 5 — Assistente institucional.
 
 ## Objetivo
 
@@ -94,7 +94,7 @@ remoção do backend financeiro em um único deploy.
 | 1 — Fonte de verdade | **Concluída em 28/09/2026** | fonte canônica com 12 IDs estáveis; YAML sincronizado; responsáveis e revisão definidos; conteúdo público e fallbacks auditados; teste de contrato entre documento, site e chat | nenhuma pendência do gate; fatos novos exigem o processo de aprovação registrado |
 | 2 — Arquitetura e conteúdo | **Concluída em 28/09/2026** | Home e Empresa reposicionadas; página “Como ajudamos”; Conteúdo na navegação; quatro ofertas com problema, entregáveis, processo, contratação e CTA contextual; processo e métricas comerciais registrados | nenhuma pendência do gate |
 | 3 — Visual e componentes | **Concluída em 29/09/2026** | overflow mobile corrigido; 76 estilos inline retirados; animação por classes e movimento reduzido; media queries distribuídas; Stylelint ativado; iconografia vetorial; backup de logo retirado; smoke automatizado | nenhuma pendência do gate |
-| 4 — Trabalhe Conosco | Parcial | página criada; áreas e estado real de vagas publicados; nenhuma coleta indevida | aprofundar cultura e forma de trabalho; adicionar perguntas frequentes; smoke editorial e de acessibilidade |
+| 4 — Trabalhe Conosco | **Concluída em 29/09/2026** | cultura e forma de trabalho publicadas; áreas identificadas como interesses, sem simular vagas; ausência de vagas e banco de talentos explícita; FAQ publicado; nenhuma coleta de candidatura; smoke editorial, semântico e responsivo automatizado | nenhuma pendência do gate; eventual banco de talentos continua condicionado à definição do ciclo de vida LGPD |
 | 5 — Assistente institucional | Parcial | widget, endpoint, base factual, cliente DeepSeek, rate limit, orçamento, stub local e testes unitários | validar DeepSeek real; testes HTTP/integrados e adversariais; configurar e validar produção |
 | 6 — Limpeza frontend/pipeline | Parcial | consumidores financeiros, JSONs, scripts financeiros, configurações e passos correspondentes do workflow removidos; Radar preservado; frontend deixou de usar `news-log.json` como fallback institucional; seletor órfão removido e nota financeira renomeada | retirar geração residual de `news-log.json` baseada nos radares, testar pipeline e observar o deploy |
 | 7 — Backend financeiro | Não iniciada | módulo legado apenas marcado como pendente | interromper produtor externo; remover `economytips`, scheduler e testes; backup e migration nova de remoção |
@@ -105,9 +105,10 @@ remoção do backend financeiro em um único deploy.
 
 O próximo trabalho não deve avançar para novas funcionalidades fora da sequência. Deve:
 
-1. executar o gate da Etapa 4, aprofundando cultura, forma de trabalho, perguntas
-   frequentes e o smoke editorial e de acessibilidade;
-2. somente depois validar formalmente as Etapas 5 e 6;
+1. validar formalmente a Etapa 5, incluindo integração real, testes HTTP,
+   integrados e adversariais e configuração de produção;
+2. depois concluir o gate da Etapa 6, retirando `news-log.json` e validando o
+   pipeline e o deploy;
 3. não iniciar a Etapa 7 até o Sírius Marketing deixar de publicar em
    `POST /api/internal/economy-tips`.
 
@@ -826,6 +827,42 @@ lead comercial. Se aprovado, deve ter contrato, domínio e testes próprios.
 - nenhuma vaga inexistente é anunciada
 - o chat aponta para a página de carreiras, não para o lead comercial
 - eventual coleta de candidato tem ciclo de vida documentado
+
+### Fechamento da Etapa 4 — 29/09/2026
+
+#### Conteúdo e limites factuais
+
+- a página apresenta a trajetória de 21 anos, a cultura técnica e quatro
+  princípios de trabalho: entendimento do contexto, engenharia responsável,
+  colaboração clara e evolução em ciclos;
+- as seis áreas aprovadas permanecem publicadas como áreas de interesse e o texto
+  declara que elas não representam posições abertas;
+- o estado atual informa em destaque que não há vagas abertas nem banco de
+  talentos disponível;
+- cinco perguntas frequentes esclarecem vagas, banco de talentos, áreas,
+  divulgação de oportunidades e a separação do formulário comercial;
+- a página não contém formulário, campo de arquivo ou qualquer coleta de dados de
+  candidatura. Um banco de talentos futuro continua condicionado à especificação
+  de consentimento, retenção, exclusão, proteção e auditoria.
+
+#### Acessibilidade e verificação
+
+- as seções de cultura, áreas, oportunidades e perguntas frequentes possuem nomes
+  programáticos; a página mantém um único `h1` e ordem válida de títulos;
+- o FAQ usa `details` e `summary`, com operação nativa por teclado e foco visível;
+- o smoke verifica, em desktop e mobile, os avisos de vagas e banco de talentos,
+  os cinco controles de FAQ, a ausência de coleta, links nomeados, seções
+  identificadas, hierarquia de títulos, overflow e erros críticos do navegador;
+- o callback de carreira do assistente continua direcionando para
+  `#page-carreiras`, separado do formulário comercial.
+
+| Verificação | Resultado em 29/09/2026 |
+|---|---|
+| `npm run build` | aprovado; `style.css` regenerado com o módulo `pages/careers.css` e cache busting atualizado |
+| `npm run check:css` | aprovado; bundle reproduzível e Stylelint verde |
+| `npm run lint` | aprovado |
+| `npm test` | aprovado — 7 arquivos e 83 testes |
+| `npm run smoke:layout` | aprovado — 22 verificações, sem overflow, falha editorial/semântica ou erro crítico |
 
 ## Etapa 5 — Assistente institucional
 

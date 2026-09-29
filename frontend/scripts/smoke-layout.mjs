@@ -155,6 +155,27 @@ try {
           const root = document.documentElement;
           const body = document.body;
           const active = document.querySelector('.page.active');
+          const careerPage = location.hash.slice(1) === 'carreiras' ? active : null;
+          const headings = careerPage ? [...careerPage.querySelectorAll('h1, h2')].map(heading => ({
+            level: Number(heading.tagName.slice(1)),
+            text: heading.textContent.trim(),
+          })) : [];
+          const headingOrderValid = headings.every((heading, index) =>
+            index === 0 || heading.level <= headings[index - 1].level + 1
+          );
+          const careerChecks = careerPage ? {
+            hasSingleH1: careerPage.querySelectorAll('h1').length === 1,
+            headingOrderValid,
+            labelledSections: [...careerPage.querySelectorAll('section[aria-labelledby]')].every(section => {
+              const labelId = section.getAttribute('aria-labelledby');
+              return labelId && section.querySelector('#' + CSS.escape(labelId));
+            }),
+            faqCount: careerPage.querySelectorAll('.career-faq details > summary').length,
+            emptyVacanciesClear: careerPage.textContent.includes('não há vagas abertas publicadas'),
+            talentBankClear: careerPage.textContent.includes('não há banco de talentos disponível'),
+            hasCandidateCollection: Boolean(careerPage.querySelector('form, input, textarea, [type="file"]')),
+            unnamedLinks: [...careerPage.querySelectorAll('a')].filter(link => !link.textContent.trim() && !link.getAttribute('aria-label')).length,
+          } : null;
           return {
             route: location.hash.slice(1),
             activePage: active?.id || null,
@@ -162,6 +183,7 @@ try {
             documentWidth: root.scrollWidth,
             bodyWidth: body.scrollWidth,
             overflow: root.scrollWidth > innerWidth || body.scrollWidth > innerWidth,
+            careerChecks,
           };
         })()`,
         returnByValue: true,
@@ -182,7 +204,17 @@ try {
 
   client.close();
   const failures = results.filter(result =>
-    result.overflow || result.activePage !== result.expectedPage
+    result.overflow || result.activePage !== result.expectedPage ||
+    (result.careerChecks && (
+      !result.careerChecks.hasSingleH1 ||
+      !result.careerChecks.headingOrderValid ||
+      !result.careerChecks.labelledSections ||
+      result.careerChecks.faqCount !== 5 ||
+      !result.careerChecks.emptyVacanciesClear ||
+      !result.careerChecks.talentBankClear ||
+      result.careerChecks.hasCandidateCollection ||
+      result.careerChecks.unnamedLinks > 0
+    ))
   );
   const criticalBrowserIssues = client.issues.filter(issue =>
     issue.source === 'runtime' || issue.url.startsWith(baseUrl)

@@ -61,7 +61,7 @@
 | **Seções editoriais só com conteúdo** | ✅ | `#block-news` / `#block-radar` ocultos se vazios |
 | CSS modular | ✅ | fontes em `styles/`; bundles `style.css`, `article.css` e `legal.css` gerados por `build-css.mjs` |
 | Assistente institucional | ✅ código | `chat-widget.js`; ativação do provedor depende de `TRCON_SITE_CHAT_*` |
-| Trabalhe Conosco | ✅ | página institucional, sem vagas publicadas nem coleta de currículos |
+| Trabalhe Conosco | ✅ | cultura e forma de trabalho, áreas de interesse, estado real sem vagas/banco de talentos, FAQ e nenhuma coleta de currículos; smoke editorial e acessível |
 | Página artigo `/novidades/{slug}` | ✅ | **SSR backend** (meta/OG/JSON-LD/corpo) + fallback CSR `novidades.html` |
 | Meta SEO + Open Graph + JSON-LD | ✅ | HTML inicial via `ArticlePageController`; CSR também injeta JSON-LD |
 | `robots.txt` | ✅ | `frontend/robots.txt` + sitemap institucional |

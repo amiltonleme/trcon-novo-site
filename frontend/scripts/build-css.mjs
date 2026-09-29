@@ -22,6 +22,7 @@ const manifests = {
     'styles/components/cards.css',
     'styles/components/hub-gallery.css',
     'styles/pages/company.css',
+    'styles/pages/careers.css',
     'styles/pages/offers.css',
     'styles/components/subpage-hero.css',
     'styles/components/product-cards.css',
