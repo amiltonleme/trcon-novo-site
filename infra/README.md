@@ -48,6 +48,13 @@ cd C:\Trcongroup\projetos\site\backend
 No profile `dev`, o chat institucional usa o stub local por padrão e não exige
 chave DeepSeek.
 
+Para validar a API real antes do deploy, use uma chave própria do site e execute o
+teste opt-in documentado em `../doc/21-CHAT-IA-DEEPSEEK.md`. Em produção, configure
+no Coolify `TRCON_SITE_CHAT_ENABLED=true`, `TRCON_SITE_CHAT_STUB_ENABLED=false` e
+`TRCON_SITE_DEEPSEEK_API_KEY`; mantenha `deepseek-flash`, orçamento de US$ 10/mês
+e os custos conservadores do `.env.example`, salvo revisão explícita da tabela
+oficial. Não grave a chave em arquivo versionado.
+
 Parar e limpar (inclui o volume do banco):
 
 ```bash

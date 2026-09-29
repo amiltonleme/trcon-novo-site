@@ -17,6 +17,7 @@ import java.util.HexFormat;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import java.util.Set;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -58,15 +59,31 @@ public class ChatServiceImpl implements ChatService {
         DeepSeekChatResponse.Usage usage = provider.usage();
         if (usage != null) quota.log(usage.promptTokens(), usage.completionTokens(), hash(clientKey));
         try {
-            ModelAnswer answer = objectMapper.readValue(provider.choices().getFirst().message().content(), ModelAnswer.class);
+            DeepSeekChatResponse.Choice choice = provider.choices().getFirst();
+            if (choice.message() == null || (choice.finishReason() != null && !"stop".equals(choice.finishReason())))
+                return missingKnowledge();
+            ModelAnswer answer = objectMapper.readValue(choice.message().content(), ModelAnswer.class);
             List<String> sourceIds = answer.sourceIds() == null ? List.of() : List.copyOf(answer.sourceIds());
-            if (answer.reply() == null || answer.reply().isBlank() || (!answer.outOfScope() && sourceIds.isEmpty())
-                    || !knowledge.containsAll(sourceIds)) return missingKnowledge();
+            if (!isValid(answer, sourceIds)) return missingKnowledge();
             return new ChatResponse(answer.reply().trim(), sourceIds, DISCLAIMER, answer.outOfScope(),
                     answer.knowledgeMissing(), answer.suggestContactForm(), answer.suggestCareersPage());
         } catch (Exception ex) {
             return missingKnowledge();
         }
+    }
+
+    private boolean isValid(ModelAnswer answer, List<String> sourceIds) {
+        if (answer.reply() == null || answer.reply().isBlank()
+                || sourceIds.size() != Set.copyOf(sourceIds).size()
+                || !knowledge.containsAll(sourceIds)
+                || (answer.outOfScope() && answer.knowledgeMissing())
+                || (answer.suggestContactForm() && answer.suggestCareersPage())) return false;
+        if (answer.outOfScope())
+            return sourceIds.isEmpty() && !answer.suggestContactForm() && !answer.suggestCareersPage();
+        if (answer.knowledgeMissing())
+            return sourceIds.contains("governance.missing") && answer.suggestContactForm();
+        if (sourceIds.isEmpty()) return false;
+        return !answer.suggestCareersPage() || sourceIds.stream().allMatch(id -> id.startsWith("careers."));
     }
 
     private ChatResponse groundedStub(String message) {

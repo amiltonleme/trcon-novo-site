@@ -95,7 +95,7 @@ remoção do backend financeiro em um único deploy.
 | 2 — Arquitetura e conteúdo | **Concluída em 28/09/2026** | Home e Empresa reposicionadas; página “Como ajudamos”; Conteúdo na navegação; quatro ofertas com problema, entregáveis, processo, contratação e CTA contextual; processo e métricas comerciais registrados | nenhuma pendência do gate |
 | 3 — Visual e componentes | **Concluída em 29/09/2026** | overflow mobile corrigido; 76 estilos inline retirados; animação por classes e movimento reduzido; media queries distribuídas; Stylelint ativado; iconografia vetorial; backup de logo retirado; smoke automatizado | nenhuma pendência do gate |
 | 4 — Trabalhe Conosco | **Concluída em 29/09/2026** | cultura e forma de trabalho publicadas; áreas identificadas como interesses, sem simular vagas; ausência de vagas e banco de talentos explícita; FAQ publicado; nenhuma coleta de candidatura; smoke editorial, semântico e responsivo automatizado | nenhuma pendência do gate; eventual banco de talentos continua condicionado à definição do ciclo de vida LGPD |
-| 5 — Assistente institucional | Parcial | widget, endpoint, base factual, cliente DeepSeek, rate limit, orçamento, stub local e testes unitários | validar DeepSeek real; testes HTTP/integrados e adversariais; configurar e validar produção |
+| 5 — Assistente institucional | Parcial | widget, endpoint, base factual, cliente DeepSeek, rate limit, orçamento, stub local, validação rígida do JSON, testes HTTP/integrados/adversariais, servidor DeepSeek simulado, teste real opt-in e configuração Docker | executar o teste opt-in com a chave própria; configurar, publicar e validar produção |
 | 6 — Limpeza frontend/pipeline | Parcial | consumidores financeiros, JSONs, scripts financeiros, configurações e passos correspondentes do workflow removidos; Radar preservado; frontend deixou de usar `news-log.json` como fallback institucional; seletor órfão removido e nota financeira renomeada | retirar geração residual de `news-log.json` baseada nos radares, testar pipeline e observar o deploy |
 | 7 — Backend financeiro | Não iniciada | módulo legado apenas marcado como pendente | interromper produtor externo; remover `economytips`, scheduler e testes; backup e migration nova de remoção |
 | 8 — Higiene do repositório | Parcial | regra de ignore criada; bytecode marcado para remoção; backup antigo do logo retirado | concluir remoção versionada dos caches; eliminar referências e documentação obsoletas |
@@ -866,6 +866,13 @@ lead comercial. Se aprovado, deve ter contrato, domínio e testes próprios.
 
 ## Etapa 5 — Assistente institucional
 
+**Estado em 29/09/2026: validação local concluída; gate externo pendente.** O
+endpoint foi testado com Spring Boot e PostgreSQL em Testcontainers, o cliente foi
+testado contra servidor HTTP simulado e os casos adversariais possuem cobertura
+determinística. O modelo default e os custos foram atualizados conforme a tabela
+oficial vigente. A chave própria do site não estava disponível no ambiente local;
+por isso, a chamada real e a ativação no Coolify não são registradas como concluídas.
+
 Executar a especificação de [21-CHAT-IA-DEEPSEEK.md](21-CHAT-IA-DEEPSEEK.md):
 
 1. implementar base factual YAML e validador
@@ -882,6 +889,19 @@ Executar a especificação de [21-CHAT-IA-DEEPSEEK.md](21-CHAT-IA-DEEPSEEK.md):
 - perguntas externas são recusadas
 - clientes, cases, contratos, vagas e história não são inventados
 - indisponibilidade do provedor não quebra o site
+
+### Evidência local do gate — 29/09/2026
+
+| Verificação | Resultado |
+|---|---|
+| cliente HTTP DeepSeek simulado | aprovado — autorização, JSON mode, tokens e erro seguro |
+| endpoint integrado | aprovado — 200, 400, rate limit 429 e orçamento 429 |
+| casos adversariais determinísticos | aprovado — fonte inventada, JSON inválido, truncamento, flags incoerentes, escopo e desconhecimento |
+| backend `mvnw.cmd -B clean verify` | aprovado — 194 testes, zero falhas; pacote `chat` com 94,41% de linhas e 88,00% de branches; gate global JaCoCo de 80% atendido |
+| frontend `npm test`, `npm run lint`, `npm run build` | aprovado — 83 testes, lint e build verdes |
+| configuração Docker | aprovada por `docker compose --env-file .env.example config --quiet` |
+| DeepSeek real | pendente — `DeepSeekLiveIT` criado e ignorado porque a chave própria não estava disponível |
+| produção | pendente — configurar segredo, ativar, publicar e executar smoke/observação |
 
 ## Etapa 6 — Limpeza do frontend e do pipeline
 

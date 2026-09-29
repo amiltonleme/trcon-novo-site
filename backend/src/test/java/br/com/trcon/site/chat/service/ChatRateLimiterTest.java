@@ -10,7 +10,7 @@ class ChatRateLimiterTest {
     @Test
     void bloqueiaQuandoExcedeLimitePorCliente() {
         ChatAiProperties properties = new ChatAiProperties(true, true, "", "https://api.deepseek.com",
-                "deepseek-chat", 400, 6, 2, 10, 0.14, 0.28);
+                "deepseek-flash", 400, 6, 2, 10, 0.30, 1.20);
         ChatRateLimiter limiter = new ChatRateLimiter(properties);
         limiter.check("ip"); limiter.check("ip");
         assertThatThrownBy(() -> limiter.check("ip")).isInstanceOf(ChatRateLimitedException.class);

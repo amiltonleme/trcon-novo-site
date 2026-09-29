@@ -13,8 +13,8 @@ import org.junit.jupiter.api.Test;
 
 class ChatServiceImplTest {
     private final ChatAiProperties properties = new ChatAiProperties(
-            true, true, "", "https://api.deepseek.com", "deepseek-chat",
-            400, 6, 8, 10, 0.14, 0.28);
+            true, true, "", "https://api.deepseek.com", "deepseek-flash",
+            400, 6, 8, 10, 0.30, 1.20);
     private final ChatKnowledgeProvider knowledge = new ChatKnowledgeProvider();
     private final ChatService service = new ChatServiceImpl(
             properties, new ChatRateLimiter(properties), mock(ChatQuotaService.class),

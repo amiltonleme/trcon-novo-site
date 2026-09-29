@@ -5,5 +5,5 @@ import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 
 public record ChatMessageDto(
-        @Pattern(regexp = "user|assistant") String role,
+        @NotBlank @Pattern(regexp = "user|assistant") String role,
         @NotBlank @Size(max = 800) String content) {}

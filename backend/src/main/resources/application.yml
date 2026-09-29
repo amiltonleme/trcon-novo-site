@@ -45,10 +45,11 @@ trcon:
         stub-enabled: ${TRCON_SITE_CHAT_STUB_ENABLED:false}
         api-key: ${TRCON_SITE_DEEPSEEK_API_KEY:}
         base-url: ${TRCON_SITE_DEEPSEEK_BASE_URL:https://api.deepseek.com}
-        model: ${TRCON_SITE_DEEPSEEK_MODEL:deepseek-chat}
+        model: ${TRCON_SITE_DEEPSEEK_MODEL:deepseek-flash}
         max-output-tokens: ${TRCON_SITE_CHAT_MAX_OUTPUT_TOKENS:400}
         max-history-turns: ${TRCON_SITE_CHAT_MAX_HISTORY_TURNS:6}
         rate-limit-per-minute: ${TRCON_SITE_CHAT_RATE_LIMIT_PER_MINUTE:8}
         monthly-budget-usd: ${TRCON_SITE_CHAT_MONTHLY_BUDGET_USD:10}
-        input-cost-per-1m-usd: ${TRCON_SITE_CHAT_INPUT_COST_PER_1M_USD:0.14}
-        output-cost-per-1m-usd: ${TRCON_SITE_CHAT_OUTPUT_COST_PER_1M_USD:0.28}
+        # Custos de pico, sem cache, conferidos na tabela oficial em 29/09/2026.
+        input-cost-per-1m-usd: ${TRCON_SITE_CHAT_INPUT_COST_PER_1M_USD:0.30}
+        output-cost-per-1m-usd: ${TRCON_SITE_CHAT_OUTPUT_COST_PER_1M_USD:1.20}

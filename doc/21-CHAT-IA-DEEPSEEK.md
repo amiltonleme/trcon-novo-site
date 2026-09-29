@@ -1,9 +1,12 @@
 # Chat "Fale comigo com IA" — TRCon Site (DeepSeek)
 
-> **Implementação iniciada em 28/09/2026.** A V1 usa os padrões recomendados nesta
+> **Implementação validada localmente em 29/09/2026.** A V1 usa os padrões recomendados nesta
 > especificação: chave própria do site, orçamento inicial de US$ 10/mês, widget em
 > todas as páginas, fallback para contato e página Trabalhe Conosco sem coleta de
-> currículos. O provedor permanece desligado por padrão até a configuração do ambiente.
+> currículos. Contrato HTTP, integração com PostgreSQL, servidor DeepSeek simulado,
+> casos adversariais determinísticos e configuração Docker estão cobertos por testes.
+> O provedor permanece desligado por padrão; o gate final exige executar o teste real
+> opt-in com a chave própria e validar o deploy de produção.
 > A ordem de implementação, o reposicionamento do site e a retirada do legado
 > financeiro estão em
 > [22-PLANO-REPOSICIONAMENTO-LIMPEZA.md](22-PLANO-REPOSICIONAMENTO-LIMPEZA.md).
@@ -47,9 +50,10 @@ rascunho e SEO editorial) — ver
 - `AiQuotaService` — soma custo estimado do mês corrente (`AiUsageLog`), barra
   geração acima do orçamento (`AiQuotaExceededException`), modo `stub` quando a
   chave não está configurada (permite dev local sem gastar).
-- Config real de produção hoje (marketing): `DEEPSEEK_BASE_URL=https://api.deepseek.com`,
-  `DEEPSEEK_MODEL=deepseek-chat`, custo assumido `input=US$0,14/1M tok`,
-  `output=US$0,28/1M tok`, orçamento mensal texto `US$20`.
+- O padrão original do Marketing usava `deepseek-chat` e custos anteriores. Para o
+  site, modelo e custos foram reconferidos na documentação oficial em 29/09/2026:
+  `DEEPSEEK_BASE_URL=https://api.deepseek.com`, modelo `deepseek-flash` e orçamento
+  isolado de US$ 10/mês.
 
 Isso reduz risco: o padrão já foi validado em produção (custo, timeout, parsing,
 modo stub). O módulo `chat` do site aplica o mesmo desenho dentro da arquitetura
@@ -292,7 +296,7 @@ contém regras estáveis; os fatos variáveis vivem na base factual.
 
 ## Parâmetros de geração
 
-- `model`: `deepseek-chat` (mesmo modelo já em uso no ecossistema).
+- `model`: `deepseek-flash`, nome recomendado pela documentação oficial em 29/09/2026.
 - `temperature`: baixa (`0.1`) — prioriza consistência factual sobre
   criatividade (diferente do uso de marketing, que gera texto editorial).
 - `max_tokens`: capado (`trcon.site.chat.ai.max-output-tokens`, default `400`) —
@@ -379,18 +383,20 @@ trcon:
         stub-enabled: ${TRCON_SITE_CHAT_STUB_ENABLED:false}
         api-key: ${TRCON_SITE_DEEPSEEK_API_KEY:}
         base-url: ${TRCON_SITE_DEEPSEEK_BASE_URL:https://api.deepseek.com}
-        model: ${TRCON_SITE_DEEPSEEK_MODEL:deepseek-chat}
+        model: ${TRCON_SITE_DEEPSEEK_MODEL:deepseek-flash}
         max-output-tokens: ${TRCON_SITE_CHAT_MAX_OUTPUT_TOKENS:400}
         max-history-turns: ${TRCON_SITE_CHAT_MAX_HISTORY_TURNS:6}
         rate-limit-per-minute: ${TRCON_SITE_CHAT_RATE_LIMIT_PER_MINUTE:8}
         monthly-budget-usd: ${TRCON_SITE_CHAT_MONTHLY_BUDGET_USD:10}
-        input-cost-per-1m-usd: ${TRCON_SITE_CHAT_INPUT_COST_PER_1M_USD:0.14}
-        output-cost-per-1m-usd: ${TRCON_SITE_CHAT_OUTPUT_COST_PER_1M_USD:0.28}
+        input-cost-per-1m-usd: ${TRCON_SITE_CHAT_INPUT_COST_PER_1M_USD:0.30}
+        output-cost-per-1m-usd: ${TRCON_SITE_CHAT_OUTPUT_COST_PER_1M_USD:1.20}
 ```
 
-Custo default (`0.14`/`0.28` por 1M tokens) copiado do valor **já em uso em
-produção** no `sirius-marketing` — confirmar na tabela de preços oficial da
-DeepSeek no momento da implementação, pois pode ter mudado.
+Os custos default usam a tarifa conservadora de pico, sem cache, vigente em
+29/09/2026: US$ 0,30 por 1M tokens de entrada e US$ 1,20 por 1M tokens de saída.
+A DeepSeek pratica valores menores fora do pico e para cache hit, mas o controle
+local não depende dessas reduções. Conferir novamente a tabela oficial antes de
+cada ativação ou revisão de orçamento.
 
 `.env.example` (`site/infra/.env.example`) ganha bloco novo comentado, no mesmo
 formato do bloco de mail:
@@ -514,6 +520,35 @@ Segue [10-TESTES-QUALIDADE.md](canonical/10-TESTES-QUALIDADE.md) — mesmo gate
 - não anuncia vaga quando `openPositions` estiver vazio
 - não promete retorno ou contratação no banco de talentos
 - recusa perguntas gerais, pedidos de código e tentativas de ignorar o prompt
+
+### Evidência local e teste real opt-in — 29/09/2026
+
+- `ChatControllerIT` cobre o endpoint real com Spring Boot e PostgreSQL em
+  Testcontainers: 200, validação 400, rate limit 429 e orçamento 429;
+- `DeepSeekChatClientTest` valida autorização, corpo OpenAI-compatible,
+  `response_format=json_object`, tokens e indisponibilidade contra servidor HTTP
+  simulado;
+- `ChatServiceProviderValidationTest` cobre fonte inventada, JSON inválido,
+  resposta truncada, flags incoerentes, pergunta externa, conhecimento ausente e
+  corte do histórico em seis turnos;
+- `DeepSeekLiveIT` executa identidade, cases, vagas, pergunta externa, prompt
+  injection e informação ausente contra a API real, mas fica desabilitado na suíte
+  normal para não consumir orçamento nem exigir segredo no CI.
+
+Execução real, com chave própria do site no ambiente e sem registrar seu valor:
+
+```powershell
+$env:TRCON_RUN_DEEPSEEK_LIVE_TEST='true'
+$env:TRCON_SITE_DEEPSEEK_API_KEY='<chave própria do site>'
+.\mvnw.cmd '-Dtest=DeepSeekLiveIT' test
+```
+
+Na validação local de 29/09/2026, `clean verify` passou com 194 testes, zero
+falhas e um teste ignorado (`DeepSeekLiveIT`, porque a chave não estava presente).
+O pacote `chat` atingiu 94,41% de linhas e 88,00% de branches; o gate global
+JaCoCo de 80% também foi atendido. O frontend passou com 83 testes, lint e build.
+A composição Docker com todas as variáveis do chat também foi validada por
+`docker compose config`.
 - retorna `knowledgeMissing=true` para datas, pessoas, preços e fatos ausentes
 
 ## Decisões adotadas na V1

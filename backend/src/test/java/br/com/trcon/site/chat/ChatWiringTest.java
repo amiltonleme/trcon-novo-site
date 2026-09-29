@@ -18,13 +18,13 @@ class ChatWiringTest {
                     "trcon.site.chat.ai.enabled=true",
                     "trcon.site.chat.ai.stub-enabled=true",
                     "trcon.site.chat.ai.base-url=https://api.deepseek.com",
-                    "trcon.site.chat.ai.model=deepseek-chat",
+                    "trcon.site.chat.ai.model=deepseek-flash",
                     "trcon.site.chat.ai.max-output-tokens=400",
                     "trcon.site.chat.ai.max-history-turns=6",
                     "trcon.site.chat.ai.rate-limit-per-minute=8",
                     "trcon.site.chat.ai.monthly-budget-usd=10",
-                    "trcon.site.chat.ai.input-cost-per-1m-usd=0.14",
-                    "trcon.site.chat.ai.output-cost-per-1m-usd=0.28");
+                    "trcon.site.chat.ai.input-cost-per-1m-usd=0.30",
+                    "trcon.site.chat.ai.output-cost-per-1m-usd=1.20");
 
     @Test
     void springInjetaConstrutoresDeProducao() {
