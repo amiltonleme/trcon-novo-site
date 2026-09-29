@@ -110,8 +110,8 @@ O próximo trabalho não deve avançar para novas funcionalidades fora da sequê
 1. não iniciar a Etapa 7 até o Sírius Marketing deixar de publicar em
    `POST /api/internal/economy-tips`.
 
-Até esses gates serem fechados, o estado do plano é **em execução**, não
-“implementado por completo”.
+Enquanto essa pré-condição não for atendida, o estado do plano é **em execução**,
+não “implementado por completo”.
 
 ## Sequência executiva recomendada
 
@@ -698,7 +698,7 @@ por componente com busca de referências e smoke visual.
 5. Extrair páginas institucionais e produtos.
 6. Migrar estilos inline para classes.
 7. Consolidar media queries dentro de cada módulo.
-8. Executar a limpeza financeira da Etapa 6 nos módulos já separados.
+8. Limpeza financeira da Etapa 6 nos módulos já separados — concluída.
 9. Ativar `check:css`, Stylelint e orçamento de tamanho.
 
 Cada extração deve produzir o mesmo layout antes de qualquer redesign. Isso torna
