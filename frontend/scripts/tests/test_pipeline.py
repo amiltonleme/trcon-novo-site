@@ -12,7 +12,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from builders.home_builder import build_home_highlights, build_news_log
+from builders.home_builder import build_home_highlights
 from builders.radar_builder import RadarConfig, build_radar
 from core import text
 from core.rss import parse_rss
@@ -151,20 +151,15 @@ class BuilderTests(unittest.TestCase):
         for key in ("title", "summary", "url", "source", "published_at", "category", "signal"):
             self.assertIn(key, first)
 
-    def test_home_builders_consolidate(self):
+    def test_home_builder_consolidates_highlights(self):
         cfg = RadarConfig(category="IA", relevance_keywords={"ia"})
         radar = build_radar(self._provider(), cfg)
         highlights = build_home_highlights([radar])
-        news = build_news_log([radar])
-
         self.assertTrue(highlights["items"])
         self.assertEqual(highlights["items"][0]["priority"], 1)
         self.assertIn("link", highlights["items"][0])
         # shape camelCase espelha os contratos do backend
         self.assertIn("publishedAt", highlights["items"][0])
-        self.assertTrue(news["items"])
-        self.assertIn("url", news["items"][0])
-        self.assertIn("publishedAt", news["items"][0])
 
     def test_home_builder_propagates_errors(self):
         radar = {"items": [], "errors": ["feed X caiu"], "category": "IA"}

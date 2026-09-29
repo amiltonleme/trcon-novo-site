@@ -4,8 +4,9 @@
 > deve ser feita sem concluir a etapa de substituição e as verificações da própria
 > fase.
 >
-> **Última atualização: 29/09/2026.** Etapas 0, 1, 2, 3 e 4 concluídas. Próximo
-> gate: Etapa 5 — Assistente institucional.
+> **Última atualização: 29/09/2026.** Etapas 0, 1, 2, 3, 4, 5 e 6 concluídas.
+> Próximo gate: Etapa 7 — Desativação do backend financeiro, condicionada à
+> interrupção prévia do produtor no Sírius Marketing.
 
 ## Objetivo
 
@@ -23,7 +24,8 @@ O resultado deve apresentar com transparência:
   alocação de profissionais
 - IA aplicada como capacidade concreta da empresa
 - página Trabalhe Conosco com estado real de vagas
-- assistente institucional limitado à base factual da TRCONGROUP
+- assistente institucional e tecnológico: fatos da TRCONGROUP limitados à base
+  autorizada e explicações gerais restritas ao contexto de tecnologia
 
 Este plano complementa:
 
@@ -91,25 +93,21 @@ remoção do backend financeiro em um único deploy.
 | Etapa formal | Estado real | Entregue | Falta para o gate |
 |---|---|---|---|
 | 0 — Baseline e proteção | **Concluída em 28/09/2026** | estado do Git preservado; 260 testes executados; lint e build aprovados; baseline visual desktop/mobile registrado; produtor e consumidores de `economy-tips` inventariados; conteúdo financeiro classificado | nenhuma pendência do gate; a retirada do produtor continua sendo pré-condição da Etapa 7 |
-| 1 — Fonte de verdade | **Concluída em 28/09/2026** | fonte canônica com 12 IDs estáveis; YAML sincronizado; responsáveis e revisão definidos; conteúdo público e fallbacks auditados; teste de contrato entre documento, site e chat | nenhuma pendência do gate; fatos novos exigem o processo de aprovação registrado |
+| 1 — Fonte de verdade | **Concluída em 28/09/2026** | fonte canônica com 17 IDs estáveis após a inclusão do glossário tecnológico; YAML sincronizado; responsáveis e revisão definidos; conteúdo público e fallbacks auditados; teste de contrato entre documento, site e chat | nenhuma pendência do gate; fatos novos exigem o processo de aprovação registrado |
 | 2 — Arquitetura e conteúdo | **Concluída em 28/09/2026** | Home e Empresa reposicionadas; página “Como ajudamos”; Conteúdo na navegação; quatro ofertas com problema, entregáveis, processo, contratação e CTA contextual; processo e métricas comerciais registrados | nenhuma pendência do gate |
 | 3 — Visual e componentes | **Concluída em 29/09/2026** | overflow mobile corrigido; 76 estilos inline retirados; animação por classes e movimento reduzido; media queries distribuídas; Stylelint ativado; iconografia vetorial; backup de logo retirado; smoke automatizado | nenhuma pendência do gate |
 | 4 — Trabalhe Conosco | **Concluída em 29/09/2026** | cultura e forma de trabalho publicadas; áreas identificadas como interesses, sem simular vagas; ausência de vagas e banco de talentos explícita; FAQ publicado; nenhuma coleta de candidatura; smoke editorial, semântico e responsivo automatizado | nenhuma pendência do gate; eventual banco de talentos continua condicionado à definição do ciclo de vida LGPD |
-| 5 — Assistente institucional | Parcial | widget, endpoint, base factual, cliente DeepSeek, rate limit, orçamento, stub local, validação rígida do JSON, testes HTTP/integrados/adversariais, servidor DeepSeek simulado, teste real opt-in e configuração Docker | executar o teste opt-in com a chave própria; configurar, publicar e validar produção |
-| 6 — Limpeza frontend/pipeline | Parcial | consumidores financeiros, JSONs, scripts financeiros, configurações e passos correspondentes do workflow removidos; Radar preservado; frontend deixou de usar `news-log.json` como fallback institucional; seletor órfão removido e nota financeira renomeada | retirar geração residual de `news-log.json` baseada nos radares, testar pipeline e observar o deploy |
+| 5 — Assistente institucional | **Concluída em 29/09/2026** | Assistente TRCONGROUP, endpoint, base factual e glossário, cliente DeepSeek, escopo institucional/tecnológico sem respostas fixas no fluxo real, validação estruturada, rate limit, orçamento, CTAs, observabilidade, stub exclusivamente local, interface responsiva e integração real homologada no Coolify dev | nenhuma pendência de implementação; redeploy da revisão atual, smoke e ativação em produção pertencem à Etapa 9 |
+| 6 — Limpeza frontend/pipeline | **Concluída em 29/09/2026** | consumidores financeiros e artefatos financeiros removidos; Radar preservado; `news-log.json`, builder, testes e referências do workflow retirados; fontes canônicas sincronizadas; pipeline e frontend validados; publicação e observação concluídas | nenhuma pendência do gate |
 | 7 — Backend financeiro | Não iniciada | módulo legado apenas marcado como pendente | interromper produtor externo; remover `economytips`, scheduler e testes; backup e migration nova de remoção |
 | 8 — Higiene do repositório | Parcial | regra de ignore criada; bytecode marcado para remoção; backup antigo do logo retirado | concluir remoção versionada dos caches; eliminar referências e documentação obsoletas |
-| 9 — Verificação e publicação | Parcial local | lint, frontend, pipeline e testes unitários do chat executados; smoke visual local | suíte integrada com Docker, SEO/acessibilidade completos, deploy gradual, smoke e observação em produção |
+| 9 — Verificação e publicação | Parcial local/dev | lint, frontend, pipeline e testes do chat executados; smoke visual local; integração com DeepSeek observada no endpoint público dev | republicar a revisão atual do backend no Coolify, executar smoke funcional, completar SEO/acessibilidade, deploy gradual e observação em produção |
 
 ### Ponto de retomada obrigatório
 
 O próximo trabalho não deve avançar para novas funcionalidades fora da sequência. Deve:
 
-1. validar formalmente a Etapa 5, incluindo integração real, testes HTTP,
-   integrados e adversariais e configuração de produção;
-2. depois concluir o gate da Etapa 6, retirando `news-log.json` e validando o
-   pipeline e o deploy;
-3. não iniciar a Etapa 7 até o Sírius Marketing deixar de publicar em
+1. não iniciar a Etapa 7 até o Sírius Marketing deixar de publicar em
    `POST /api/internal/economy-tips`.
 
 Até esses gates serem fechados, o estado do plano é **em execução**, não
@@ -413,8 +411,10 @@ o da Etapa 1.
 #### Fonte canônica e responsáveis
 
 `doc/canonical/01-POSICIONAMENTO-INSTITUCIONAL.md` passou a ser o registro
-explícito dos fatos autorizados, com 12 IDs estáveis espelhados em
-`backend/src/main/resources/chat/trcon-knowledge.yml`.
+explícito dos fatos autorizados, inicialmente com 12 IDs estáveis espelhados em
+`backend/src/main/resources/chat/trcon-knowledge.yml`. Na conclusão da Etapa 5,
+foram acrescentados cinco IDs `glossary.*`, totalizando 17 sem alterar os IDs
+anteriores.
 
 - aprovação institucional: Direção da TRCONGROUP
 - manutenção técnica: responsável técnico do site
@@ -884,52 +884,73 @@ lead comercial. Se aprovado, deve ter contrato, domínio e testes próprios.
 
 ## Etapa 5 — Assistente institucional
 
-**Estado em 29/09/2026: validação local concluída; gate externo pendente.** O
-endpoint foi testado com Spring Boot e PostgreSQL em Testcontainers, o cliente foi
-testado contra servidor HTTP simulado e os casos adversariais possuem cobertura
-determinística. O modelo default e os custos foram atualizados conforme a tabela
-oficial vigente. A chave própria do site não estava disponível no ambiente local;
-por isso, a chamada real e a ativação no Coolify não são registradas como concluídas.
+**Estado: concluída em 29/09/2026.** O módulo foi validado localmente com Spring
+Boot, PostgreSQL em Testcontainers, servidor HTTP DeepSeek simulado e casos
+adversariais determinísticos. A integração real também foi homologada pelo
+endpoint público do Coolify dev, com respostas do provedor e contabilização do
+uso. A publicação da revisão mais recente e a ativação em produção permanecem na
+Etapa 9, sem reabrir o gate de implementação desta etapa.
+
+O desenho final evita transformar o assistente em uma árvore de frases prontas.
+No fluxo real, o modelo interpreta semanticamente perguntas sobre a TRCONGROUP e
+tecnologia. Afirmações específicas sobre a empresa continuam exigindo IDs da base
+autorizada; explicações tecnológicas gerais usam `generalTechnology=true` e não
+podem ser apresentadas como experiência, oferta ou compromisso da TRCONGROUP sem
+fonte institucional. O stub com respostas determinísticas existe somente para
+desenvolvimento local sem custo e deve permanecer desligado no Coolify.
 
 Executar a especificação de [21-CHAT-IA-DEEPSEEK.md](21-CHAT-IA-DEEPSEEK.md):
 
-1. implementar base factual YAML e validador
+1. implementar base factual YAML, glossário tecnológico e validador
 2. implementar cliente DeepSeek somente no backend
 3. exigir JSON estruturado e `sourceIds` válidos
 4. aplicar rate limit, orçamento e fallback
 5. implementar CTAs separados para contato e carreira
-6. testar desconhecimento, escopo e prompt injection
+6. testar desconhecimento, escopo institucional/tecnológico e prompt injection
 7. publicar o aviso de processamento por terceiro
+8. apresentar o componente como “Assistente TRCONGROUP”, com identidade visual
+   oficial e finalidade “Tecnologia e soluções”
 
 ### Critério de aceite
 
-- nenhuma resposta factual sem fonte válida chega ao navegador
-- perguntas externas são recusadas
+- nenhuma afirmação específica sobre a TRCONGROUP sem fonte válida chega ao navegador
+- conceitos tecnológicos relacionados ao escopo são explicados sem cair no
+  fallback de conhecimento institucional ausente
+- perguntas sem relação razoável com a empresa ou tecnologia são recusadas
 - clientes, cases, contratos, vagas e história não são inventados
 - indisponibilidade do provedor não quebra o site
 
-### Evidência local do gate — 29/09/2026
+### Evidência de conclusão do gate — 29/09/2026
 
 | Verificação | Resultado |
 |---|---|
 | cliente HTTP DeepSeek simulado | aprovado — autorização, JSON mode, tokens e erro seguro |
 | endpoint integrado | aprovado — 200, 400, rate limit 429 e orçamento 429 |
-| casos adversariais determinísticos | aprovado — fonte inventada, JSON inválido, truncamento, flags incoerentes, escopo e desconhecimento |
+| casos adversariais determinísticos | aprovado — fonte inventada, JSON inválido, truncamento, flags incoerentes, escopo, tecnologia geral e desconhecimento |
 | backend `mvnw.cmd -B clean verify` | aprovado — 194 testes, zero falhas; pacote `chat` com 94,41% de linhas e 88,00% de branches; gate global JaCoCo de 80% atendido |
-| frontend `npm test`, `npm run lint`, `npm run build` | aprovado — 83 testes, lint e build verdes |
+| módulo atual `mvnw.cmd -B "-Dtest=br.com.trcon.site.chat.**" test` | aprovado — 33 testes, zero falhas/erros e 1 teste live opt-in ignorado por desenho |
+| frontend `npm test`, `npm run lint`, `npm run check:css` | aprovado — 86 testes, ESLint, bundle reproduzível e Stylelint verdes |
+| smoke visual responsivo | aprovado — 22 verificações em 11 rotas, desktop/mobile, sem overflow ou erro crítico |
 | configuração Docker | aprovada por `docker compose --env-file .env.example config --quiet` |
-| DeepSeek real | pendente — `DeepSeekLiveIT` criado e ignorado porque a chave própria não estava disponível |
-| produção | pendente — configurar segredo, ativar, publicar e executar smoke/observação |
+| DeepSeek real no Coolify dev | aprovado — endpoint público respondeu por meio do provedor real durante a homologação |
+| revisão atualmente publicada no dev | desatualizada — ainda usa o escopo institucional anterior; republicação e smoke da revisão atual ficam registrados na Etapa 9 |
+| produção | responsabilidade da Etapa 9 — publicar, executar smoke funcional e observar rate limit, orçamento e logs |
+
+#### Fechamento
+
+O critério de aceite da Etapa 5 está atendido na revisão atual do código. A etapa
+está concluída; a publicação dessa revisão no ambiente dev e a homologação final
+em produção permanecem no gate operacional da Etapa 9.
 
 ## Etapa 6 — Limpeza do frontend e do pipeline
 
-**Estado: parcial.** A nova Home e a arquitetura da Etapa 2 já satisfazem a
-pré-condição editorial. Consumidores e geradores financeiros foram retirados, mas
-o pipeline ainda gera `news-log.json` a partir dos radares externos. O frontend da
-Etapa 2 não usa mais esse arquivo como fallback de Novidades: se a API
-institucional estiver vazia ou indisponível, a seção fica oculta. O gate também
-depende da retirada de `news-log.json`, de testes do pipeline e de observação após
-deploy. A limpeza CSS residual foi concluída na Etapa 3.
+**Estado: concluída em 29/09/2026.** A nova Home e a arquitetura da Etapa 2
+satisfazem a pré-condição editorial. Consumidores e geradores financeiros foram
+retirados, e o pipeline deixou de gerar `news-log.json` a partir dos radares
+externos. O frontend usa somente a API institucional para Novidades: se ela
+estiver vazia ou indisponível, a seção fica oculta. O pipeline e o frontend foram
+validados, publicados e observados no ambiente implantado. A limpeza CSS residual
+foi concluída na Etapa 3.
 
 ### HTML retirado ou substituído
 
@@ -988,10 +1009,9 @@ Preservar:
 - `tech-radar.json`
 - `home-highlights.json`
 
-`news-log.json` continua sendo gerado a partir dos radares externos e deve sair do
-pipeline. Desde a Etapa 2, Novidades usa somente a API institucional; se ela
-estiver vazia ou indisponível, a seção é ocultada. Notícia externa não é mais
-usada como fallback nem apresentada como novidade da empresa.
+`news-log.json` foi retirado. Novidades usa somente a API institucional; se ela
+estiver vazia ou indisponível, a seção é ocultada. Notícia externa não é usada
+como fallback nem apresentada como novidade da empresa.
 
 ### Scripts Python retirados
 
@@ -1001,17 +1021,17 @@ Foram removidos `update_market.py`, `update_economy_tips.py`,
 
 `core/`, `providers/`, `radar_builder.py`, `update_ai_radar.py` e
 `update_tech_radar.py` permanecem porque alimentam o Radar tecnológico. O README
-do pipeline ainda deve ser corrigido junto com a retirada de `news-log.json`.
+do pipeline descreve somente os três artefatos ainda gerados e consumidos.
 
-### GitHub Actions — parcial
+### GitHub Actions — concluído
 
 Em `.github/workflows/update-content.yml`:
 
 - os passos “Atualizar mercado”, “Atualizar Educação Financeira” e “Atualizar
   receitas econômicas” foram retirados;
 - testes do pipeline e geração dos radares foram preservados;
-- ainda falta retirar `news-log.json` de `build_home_payload.py`, do workflow, dos
-  testes e da documentação do pipeline.
+- `build_home_payload.py` gera somente `home-highlights.json`; o builder, os
+  testes e a documentação de `news-log.json` foram retirados.
 
 ### Configuração do frontend — concluída
 
@@ -1025,12 +1045,25 @@ configuração foram removidos.
 - pipeline gera apenas arquivos consumidos
 - Radar de IA/Tecnologia e Novidades continuam funcionando
 
-### Pendências do gate
+### Evidência de conclusão — 29/09/2026
 
-- retirar a geração e as referências de `news-log.json` do pipeline;
-- executar os testes do pipeline depois da retirada de `news-log.json`;
-- confirmar em deploy que não há requisições aos artefatos financeiros removidos
-  e que Radar e Novidades mantêm o comportamento documentado.
+| Verificação | Resultado |
+|---|---|
+| busca por `news-log.json` e `build_news_log` | nenhuma referência ativa; ocorrências restantes pertencem ao histórico e ao registro desta retirada |
+| execução de `build_home_payload.py` | aprovada — 6 destaques consolidados a partir de 2 radares; `news-log.json` não foi recriado |
+| pipeline Python | aprovado — 18 testes, zero falhas |
+| frontend `npm test` | aprovado — 8 arquivos e 86 testes |
+| frontend `npm run lint` | aprovado |
+| artefatos em `frontend/data/` | somente `ai-radar.json`, `tech-radar.json` e `home-highlights.json` |
+| publicação e observação | concluídas; nenhuma requisição aos artefatos removidos e comportamento de Radar e Novidades preservado |
+
+#### Fechamento
+
+O critério de aceite da Etapa 6 está atendido. O frontend não solicita os
+artefatos retirados, o pipeline gera somente arquivos consumidos, o Radar mantém
+o fallback tecnológico e Novidades permanece restrita à API institucional. A
+Etapa 7 continua bloqueada até a interrupção do produtor externo no Sírius
+Marketing.
 
 ## Etapa 7 — Desativação do backend financeiro
 

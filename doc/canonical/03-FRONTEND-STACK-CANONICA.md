@@ -84,7 +84,6 @@ frontend/
     ai-radar.json
     tech-radar.json
     home-highlights.json
-    news-log.json         # artefato residual do pipeline; não é consumido como Novidades
   tests/
     modules/               # testes Vitest dos módulos com lógica não trivial
 ```

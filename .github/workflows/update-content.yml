@@ -40,7 +40,7 @@ jobs:
         run: python scripts/update_tech_radar.py
         continue-on-error: true
 
-      - name: Consolidar payload da home (highlights + news-log)
+      - name: Consolidar destaques do Radar
         run: python scripts/build_home_payload.py
         continue-on-error: true
 
