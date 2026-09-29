@@ -25,7 +25,7 @@
     scope.TRCON_HIGHLIGHTS_API_URL = 'https://api-site-dev.trcongroup.com.br/api/public/highlights';
     scope.TRCON_NEWS_API_URL = 'https://api-site-dev.trcongroup.com.br/api/public/news';
     scope.TRCON_CHAT_API_URL = 'https://api-site-dev.trcongroup.com.br/api/v1/site/chat';
-    scope.TRCON_SITE_BASE_URL = 'site-dev.trcongroup.com.br';
+    scope.TRCON_SITE_BASE_URL = 'https://site-dev.trcongroup.com.br';
     return;
   }
 
