@@ -1,4 +1,4 @@
-version: 2
+version: 3
 governance:
   canonicalSource: "doc/canonical/01-POSICIONAMENTO-INSTITUCIONAL.md"
   institutionalOwner: "Direção da TRCONGROUP"
@@ -14,6 +14,16 @@ facts:
     text: "As quatro linhas comerciais da TRCONGROUP são produtos próprios, desenvolvimento sob demanda, customização de sistemas e outsourcing de profissionais ou squads de tecnologia."
   - id: business.delivery
     text: "A abordagem de trabalho passa por descoberta do contexto, definição de arquitetura e escopo, construção em ciclos e evolução. Preço, prazo, composição do time e indicadores dependem de cada contratação e devem ser tratados pelo canal comercial."
+  - id: glossary.squad
+    text: "Squad de tecnologia é uma equipe multidisciplinar organizada em torno de um produto, sistema ou objetivo. Sua composição varia conforme o contexto e pode reunir competências como desenvolvimento, qualidade, dados, cloud, produto e gestão."
+  - id: glossary.outsourcing
+    text: "Outsourcing de tecnologia é a contratação de profissionais ou equipes externas para complementar capacidades, executar uma frente de trabalho ou sustentar uma iniciativa tecnológica. Escopo, duração e responsabilidades dependem da contratação."
+  - id: glossary.software_on_demand
+    text: "Software sob demanda é uma solução criada ou evoluída para necessidades específicas de uma organização, em vez de um produto padronizado oferecido da mesma forma a todos."
+  - id: glossary.modernization
+    text: "Modernização de sistemas é a evolução técnica e funcional de aplicações existentes, podendo envolver arquitetura, código, integrações, infraestrutura, segurança, experiência de uso e processo de entrega conforme o diagnóstico."
+  - id: glossary.applied_ai
+    text: "IA aplicada é o uso de técnicas de inteligência artificial para apoiar uma necessidade concreta, como automação, análise, classificação, geração assistida ou apoio à decisão. A aplicação adequada depende do problema e dos dados disponíveis."
   - id: products.hub
     text: "O Sírius Hub de Inteligência Financeira é um produto próprio em beta. A base atual não autoriza prometer preço, gratuidade, duração de acesso, desconto ou quantidade de vagas."
   - id: products.scheduling

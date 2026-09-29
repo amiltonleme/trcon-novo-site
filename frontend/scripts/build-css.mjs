@@ -17,6 +17,7 @@ const manifests = {
     'styles/layouts/page-shell.css',
     'styles/pages/home-legacy-hero.css',
     'styles/pages/home-hero.css',
+    'styles/components/home-data-nodes.css',
     'styles/pages/home-hero-responsive.css',
     'styles/layouts/sections.css',
     'styles/components/cards.css',
@@ -31,10 +32,23 @@ const manifests = {
     'styles/layouts/footer.css',
     'styles/components/mobile-nav.css',
     'styles/components/floating-actions.css',
+    'styles/components/chat.css',
   ],
   'article.css': [...shared, 'styles/pages/article.css'],
   'legal.css': [...shared, 'styles/pages/article.css', 'styles/pages/legal.css'],
 };
+
+const maxSourceLines = 400;
+
+for (const source of new Set(Object.values(manifests).flat())) {
+  const lineCount = readFileSync(join(root, source), 'utf8').split(/\r?\n/).length;
+  if (lineCount > maxSourceLines) {
+    console.error(`Módulo CSS acima do limite de ${maxSourceLines} linhas: ${source} (${lineCount})`);
+    process.exitCode = 1;
+  }
+}
+
+if (process.exitCode) process.exit();
 
 function buildBundle(sources) {
   const header = [
@@ -43,7 +57,7 @@ function buildBundle(sources) {
     '',
   ].join('\n');
   const body = sources
-    .map((source) => readFileSync(join(root, source), 'utf8').trimEnd())
+    .map((source) => readFileSync(join(root, source), 'utf8').replace(/\r\n/g, '\n').trimEnd())
     .join('\n\n');
   return `${header}${body}\n`;
 }

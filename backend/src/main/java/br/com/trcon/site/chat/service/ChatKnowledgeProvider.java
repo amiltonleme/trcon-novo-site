@@ -15,6 +15,8 @@ public class ChatKnowledgeProvider {
     private static final Pattern ID_LINE = Pattern.compile("^\\s*- id: ([a-z0-9._-]+)\\s*$");
     private static final Set<String> REQUIRED_IDS = Set.of(
             "company.identity", "company.current_focus", "business.offerings", "business.delivery",
+            "glossary.squad", "glossary.outsourcing", "glossary.software_on_demand",
+            "glossary.modernization", "glossary.applied_ai",
             "products.hub", "products.scheduling", "products.marketing", "commercial.cases",
             "commercial.status", "careers.status", "careers.areas", "governance.missing");
     private final String knowledge;

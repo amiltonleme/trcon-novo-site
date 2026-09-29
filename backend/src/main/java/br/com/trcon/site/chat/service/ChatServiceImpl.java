@@ -12,16 +12,20 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.HexFormat;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 @Service
 public class ChatServiceImpl implements ChatService {
+    private static final Logger LOG = LoggerFactory.getLogger(ChatServiceImpl.class);
     private static final String DISCLAIMER = "Resposta gerada por IA. Para uma proposta, fale com nosso time.";
     private final ChatAiProperties properties;
     private final ChatRateLimiter rateLimiter;
@@ -60,14 +64,22 @@ public class ChatServiceImpl implements ChatService {
         if (usage != null) quota.log(usage.promptTokens(), usage.completionTokens(), hash(clientKey));
         try {
             DeepSeekChatResponse.Choice choice = provider.choices().getFirst();
-            if (choice.message() == null || (choice.finishReason() != null && !"stop".equals(choice.finishReason())))
+            if (choice.message() == null || (choice.finishReason() != null && !"stop".equals(choice.finishReason()))) {
+                LOG.warn("Resposta do provedor descartada; finishReason={}", choice.finishReason());
                 return missingKnowledge();
+            }
             ModelAnswer answer = objectMapper.readValue(choice.message().content(), ModelAnswer.class);
             List<String> sourceIds = answer.sourceIds() == null ? List.of() : List.copyOf(answer.sourceIds());
-            if (!isValid(answer, sourceIds)) return missingKnowledge();
+            if (!isValid(answer, sourceIds)) {
+                LOG.warn("Resposta do provedor violou o contrato; sourceIds={}, outOfScope={}, knowledgeMissing={}, generalTechnology={}, contact={}, careers={}",
+                        sourceIds, answer.outOfScope(), answer.knowledgeMissing(), answer.generalTechnology(),
+                        answer.suggestContactForm(), answer.suggestCareersPage());
+                return missingKnowledge();
+            }
             return new ChatResponse(answer.reply().trim(), sourceIds, DISCLAIMER, answer.outOfScope(),
                     answer.knowledgeMissing(), answer.suggestContactForm(), answer.suggestCareersPage());
         } catch (Exception ex) {
+            LOG.warn("Falha ao interpretar a resposta estruturada do provedor do chat", ex);
             return missingKnowledge();
         }
     }
@@ -77,17 +89,21 @@ public class ChatServiceImpl implements ChatService {
                 || sourceIds.size() != Set.copyOf(sourceIds).size()
                 || !knowledge.containsAll(sourceIds)
                 || (answer.outOfScope() && answer.knowledgeMissing())
+                || (answer.outOfScope() && answer.generalTechnology())
+                || (answer.knowledgeMissing() && answer.generalTechnology())
                 || (answer.suggestContactForm() && answer.suggestCareersPage())) return false;
         if (answer.outOfScope())
             return sourceIds.isEmpty() && !answer.suggestContactForm() && !answer.suggestCareersPage();
         if (answer.knowledgeMissing())
             return sourceIds.contains("governance.missing") && answer.suggestContactForm();
+        if (answer.generalTechnology())
+            return !answer.suggestCareersPage();
         if (sourceIds.isEmpty()) return false;
         return !answer.suggestCareersPage() || sourceIds.stream().allMatch(id -> id.startsWith("careers."));
     }
 
     private ChatResponse groundedStub(String message) {
-        String normalized = message.toLowerCase(Locale.ROOT);
+        String normalized = normalize(message);
         if (contains(normalized, "cliente", "case", "referência", "referencia"))
             return response("Ainda não há cases de clientes publicados na base institucional da TRCONGROUP. Posso apresentar nossas capacidades, produtos e formas de contratação.", "commercial.cases", false, false, true, false);
         if (contains(normalized, "contrato"))
@@ -105,6 +121,10 @@ public class ChatServiceImpl implements ChatService {
                     "company.current_focus", "business.offerings");
         return new ChatResponse("Posso responder apenas sobre a TRCONGROUP, suas soluções, produtos, forma de trabalho e oportunidades.", List.of(), DISCLAIMER, true, false, false, false);
     }
+    private static String normalize(String value) {
+        String decomposed = Normalizer.normalize(value.toLowerCase(Locale.ROOT), Normalizer.Form.NFD);
+        return decomposed.replaceAll("\\p{M}+", "");
+    }
     private static boolean contains(String value, String... terms) { for (String term : terms) if (value.contains(term)) return true; return false; }
     private static ChatResponse response(String text, String sourceId, boolean out, boolean missing, boolean contact, boolean careers) {
         return new ChatResponse(text, List.of(sourceId), DISCLAIMER, out, missing, contact, careers);
@@ -121,6 +141,6 @@ public class ChatServiceImpl implements ChatService {
         catch (NoSuchAlgorithmException ex) { throw new IllegalStateException(ex); }
     }
     private record ModelAnswer(String reply, List<String> sourceIds, boolean outOfScope,
-                               boolean knowledgeMissing, boolean suggestContactForm,
+                               boolean knowledgeMissing, boolean generalTechnology, boolean suggestContactForm,
                                boolean suggestCareersPage) {}
 }

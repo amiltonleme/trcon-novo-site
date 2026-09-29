@@ -790,8 +790,26 @@ o diff revisável e permite distinguir regressão de refatoração estrutural.
 | `article.css` | 8.906 bytes | 2.645 bytes |
 | `legal.css` | 9.922 bytes | 2.852 bytes |
 
-O maior arquivo-fonte é `pages/home-hero.css`, com 399 linhas. Nenhum módulo
-ultrapassa o limite de 400 linhas definido nesta etapa.
+### Auditoria estrutural após o assistente — 29/09/2026
+
+- `style.css` permanece um bundle público gerado. Suas 2.211 linhas não representam
+  um retorno ao CSS monolítico: a fonte editável está dividida em 24 módulos sob
+  `styles/` e o arquivo começa com o aviso `GENERATED FILE`;
+- o CSS do assistente saiu de `components/floating-actions.css` e passou para
+  `components/chat.css`, conforme a arquitetura prevista nesta etapa;
+- os nós decorativos da Home saíram de `pages/home-hero.css` e passaram para
+  `components/home-data-nodes.css`; `home-hero.css` ficou com 382 linhas;
+- `build-css.mjs` agora falha se um módulo listado ultrapassar 400 linhas, tornando
+  o orçamento arquitetural verificável em vez de apenas documental.
+
+O `index.html` continua com 1.340 linhas. O plano original fatiou o CSS, mas não
+definiu fragmentação da fonte HTML; portanto, o HTML não deve ser descrito como
+modularizado. Se essa dívida for priorizada, a solução compatível com o site
+estático é composição em build: fragmentos-fonte por página/componente geram um
+único `index.html` publicável. Não usar `fetch` de fragmentos no navegador, pois
+isso prejudicaria primeiro carregamento, SEO e robustez. A implementação precisa
+integrar geração, carimbo de versão, Docker, CI e smoke antes de substituir a
+fonte atual.
 
 ## Etapa 4 — Página Trabalhe Conosco
 

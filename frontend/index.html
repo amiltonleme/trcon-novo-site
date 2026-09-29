@@ -1284,30 +1284,36 @@
 
 <aside class="ai-chat" id="aiChat" aria-label="Assistente virtual da TRCONGROUP">
     <button class="ai-chat-toggle" id="aiChatToggle" type="button" aria-controls="aiChatPanel" aria-expanded="false"
-            aria-label="Fale comigo com IA">
-        <span class="ai-chat-pulse" aria-hidden="true"></span>
-        <span class="ai-chat-label" aria-hidden="true">Fale comigo com IA</span>
-        <span class="ai-chat-compact-label" aria-hidden="true">IA</span>
+            aria-label="Abrir Assistente TRCONGROUP">
+        <span class="ai-chat-toggle-mark" aria-hidden="true">
+            <img src="assets/brand/trcon-mark.svg" alt="" width="42" height="42">
+        </span>
+        <span class="ai-chat-toggle-copy" aria-hidden="true">
+            <strong>Assistente TRCONGROUP</strong>
+            <span>Tecnologia e soluções</span>
+        </span>
     </button>
     <section class="ai-chat-panel" id="aiChatPanel" hidden>
         <header class="ai-chat-header">
             <div class="ai-chat-brand">
-                <span class="ai-chat-avatar" aria-hidden="true">TR</span>
-                <div><strong>Assistente TRCONGROUP</strong><span><i></i> IA institucional</span></div>
+                <span class="ai-chat-avatar" aria-hidden="true">
+                    <img src="assets/brand/trcon-mark.svg" alt="" width="42" height="42">
+                </span>
+                <div><strong>Assistente TRCONGROUP</strong><span>Tecnologia e soluções</span></div>
             </div>
             <button id="aiChatClose" type="button" aria-label="Fechar assistente">×</button>
         </header>
         <div class="ai-chat-gate" id="aiChatGate">
-            <p>Este assistente responde somente sobre a TRCONGROUP usando uma base institucional autorizada.</p>
+            <p>Converse sobre a TRCONGROUP e temas de tecnologia relacionados às nossas áreas de atuação.</p>
             <small>As mensagens são processadas por um serviço de inteligência artificial de terceiro. Não informe dados pessoais ou confidenciais.</small>
-            <button class="btn btn-primary" id="aiChatConsent" type="button">Entendi e quero usar</button>
+            <button class="btn btn-primary" id="aiChatConsent" type="button">Iniciar conversa</button>
         </div>
         <div class="ai-chat-messages" id="aiChatMessages" aria-live="polite" hidden>
-            <div class="ai-chat-message assistant">Olá! Posso explicar quem é a TRCONGROUP, nossas soluções, produtos e oportunidades.</div>
+            <div class="ai-chat-message assistant">Olá! Posso ajudar com informações sobre a TRCONGROUP e esclarecer temas de tecnologia relacionados às nossas soluções.</div>
         </div>
         <form class="ai-chat-form" id="aiChatForm" hidden>
             <label class="sr-only" for="aiChatInput">Sua pergunta</label>
-            <textarea id="aiChatInput" maxlength="800" rows="2" placeholder="Pergunte sobre a TRCONGROUP" required></textarea>
+            <textarea id="aiChatInput" maxlength="800" rows="2" placeholder="Digite sua pergunta" required></textarea>
             <button class="btn btn-primary" type="submit">Enviar</button>
         </form>
     </section>

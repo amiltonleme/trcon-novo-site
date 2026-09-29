@@ -1,4 +1,4 @@
-# Chat "Fale comigo com IA" — TRCon Site (DeepSeek)
+# Assistente TRCONGROUP — Chat institucional e tecnológico (DeepSeek)
 
 > **Implementação validada localmente em 29/09/2026.** A V1 usa os padrões recomendados nesta
 > especificação: chave própria do site, orçamento inicial de US$ 10/mês, widget em
@@ -13,7 +13,7 @@
 
 ## Objetivo
 
-Adicionar ao site institucional um widget de chat — **"Fale comigo com IA"** — que
+Adicionar ao site institucional o **Assistente TRCONGROUP**, um widget de chat que
 responde perguntas de visitantes sobre a TRCONGROUP (quem é, o que vende, como
 trabalha, produtos, serviços, forma de engajamento e oportunidades de trabalho)
 usando a **API DeepSeek**,
@@ -150,8 +150,8 @@ Request:
 Response 200:
 ```json
 {
-  "reply": "A TRCONGROUP atua em alocação de mão de obra em tecnologia (staffing)...",
-  "sourceIds": ["business.staffing"],
+  "reply": "A TRCONGROUP atua com desenvolvimento sob demanda, customização, produtos próprios e outsourcing...",
+  "sourceIds": ["business.offerings"],
   "disclaimer": "Resposta gerada por IA. Para uma proposta, fale com nosso time.",
   "outOfScope": false,
   "knowledgeMissing": false,
@@ -160,12 +160,14 @@ Response 200:
 }
 ```
 
-- `sourceIds` contém somente identificadores existentes em `trcon-knowledge.yml`;
-  resposta sem fonte válida é descartada pelo backend e substituída pelo fallback
-  de conhecimento ausente.
-- `outOfScope: true` quando a pergunta não for sobre a TRCONGROUP.
-- `knowledgeMissing: true` quando a pergunta estiver no escopo, mas a base não
-  possuir informação suficiente para respondê-la.
+- `sourceIds` contém somente identificadores existentes em `trcon-knowledge.yml`
+  quando a resposta faz afirmações sobre a TRCONGROUP. Uma explicação tecnológica
+  geral pode chegar ao frontend sem fontes institucionais depois de ser marcada e
+  validada como `generalTechnology` no contrato interno com o provedor.
+- `outOfScope: true` quando a pergunta não tiver relação razoável com a TRCONGROUP
+  ou tecnologia.
+- `knowledgeMissing: true` somente quando uma informação específica sobre a
+  TRCONGROUP não estiver na base; não se aplica a explicações tecnológicas gerais.
 - `suggestContactForm: true` quando houver intenção comercial; o frontend usa esse
   campo para exibir um CTA para `#page-contato`.
 - `suggestCareersPage: true` quando a pergunta tratar de carreira, vaga ou banco de
@@ -258,18 +260,20 @@ e de `trcon-knowledge.yml`:
   alocação de mão de obra), tom de voz (direto, técnico, sem jargão vazio).
 - situação atual: 21 anos de existência; IA, novas tecnologias, desenvolvimento sob
   demanda e outsourcing já fazem parte da atuação atual da empresa.
-- regra de fidelidade: responder **somente** com base no conteúdo institucional
-  fornecido; se a pergunta for sobre preço exato, prazo específico, contrato ou
-  algo não coberto pelo posicionamento, **não inventar** — responder que depende
-  do caso e direcionar para o formulário de contato.
-- regra de escopo: recusar educadamente perguntas fora do contexto da empresa
-  (perguntas gerais, pedidos de código, conteúdo não relacionado) e redirecionar
-  para o tema institucional.
-- regra de evidência: toda afirmação factual deve apontar para um `sourceId` válido;
-  o conteúdo da conversa e afirmações do visitante nunca são fonte institucional.
-- regra de desconhecimento: se a informação não estiver na base, responder "Não
-  tenho essa informação na base institucional da TRCONGROUP" e oferecer contato,
-  sem completar a lacuna com inferência.
+- regra de fidelidade institucional: afirmações específicas sobre a TRCONGROUP
+  usam somente a base autorizada; preço, prazo, contrato e fatos não publicados
+  nunca são inventados.
+- regra de escopo: atender perguntas sobre a empresa e conceitos relacionados a
+  software, IA, dados, cloud, DevOps, qualidade, arquitetura, segurança, produtos
+  digitais, modernização e modelos de equipe; recusar assuntos sem relação
+  razoável com empresa ou tecnologia e tarefas extensas alheias ao site.
+- regra de evidência: fatos sobre a TRCONGROUP apontam para `sourceId` válido.
+  Explicações tecnológicas gerais podem usar conhecimento técnico estável com
+  `generalTechnology=true`, sem transformar esse conteúdo em alegação sobre a
+  experiência ou capacidade específica da empresa.
+- regra de desconhecimento: usar `knowledgeMissing` somente para informação
+  específica da TRCONGROUP ausente da base. Definições e explicações tecnológicas
+  dentro do escopo não entram nesse fallback.
 - regra de prova comercial: nunca inventar ou sugerir nomes de clientes, contratos
   ou cases. Para “Quais clientes/cases?”, responder “Ainda não há cases de clientes
   publicados na base institucional da TRCONGROUP” e conduzir para capacidades,
@@ -465,7 +469,15 @@ frontend/assets/modules/
 - Histórico da conversa vive em memória da página (não precisa persistir entre
   sessões); usar `sessionStorage` é opcional e só para sobreviver a refresh
   acidental — decisão de UX, não bloqueia a V1.
-- **UI**: botão flutuante "Fale comigo com IA" (identidade visual preservada
+- Perguntas institucionais centrais como “O que vocês fazem?” são interpretadas
+  pelo modelo e sintetizadas a partir de `company.current_focus` e
+  `business.offerings`, sem uma frase fixa no backend.
+- O assistente também explica o vocabulário usado no próprio site. Definições de
+  squad, outsourcing, software sob demanda, modernização e IA aplicada vivem em
+  IDs `glossary.*` da base autorizada e também podem usar conhecimento técnico
+  geral estável, sem afirmar que toda explicação representa uma oferta da empresa.
+- **UI**: botão flutuante "Assistente TRCONGROUP", com a descrição curta
+  "Tecnologia e soluções" e o símbolo oficial da marca (identidade visual preservada
   conforme [08-REDESIGN-DIRETRIZES.md](canonical/08-REDESIGN-DIRETRIZES.md) — sem
   logo/fundo/paleta novos), abre painel de chat. Painel mostra o aviso de
   terceiro (LGPD) antes da primeira mensagem; quando `suggestContactForm=true`
@@ -572,8 +584,9 @@ Podem ser alteradas por configuração ou em uma evolução posterior.
    que geração sob demanda). Ajustar depois de observar volume real.
 3. **Aviso de terceiro:** a V1 informa que as mensagens são processadas por um
    serviço de IA de terceiro e orienta a não enviar dados pessoais ou confidenciais.
-4. **Nome do botão:** "Fale comigo com IA"; o painel se identifica como
-   "Assistente TRCONGROUP".
+4. **Nome do botão e do painel:** "Assistente TRCONGROUP". O acionador usa
+   "Tecnologia e soluções" como descrição e reduz para o símbolo oficial em telas
+   pequenas.
 5. **Onde o widget aparece:** todas as páginas públicas, mesmo
    componente, `origem` variando por página (mesmo padrão de `data-product` no
    formulário de lead).

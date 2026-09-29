@@ -55,6 +55,22 @@ class ChatServiceProviderValidationTest {
     }
 
     @Test
+    void aceitaExplicacaoTecnologicaGeralSemFonteInstitucional() {
+        when(client.complete(any())).thenReturn(provider("""
+                {"reply":"Uma squad é uma equipe multidisciplinar orientada a um objetivo.",
+                 "sourceIds":[],"outOfScope":false,"knowledgeMissing":false,
+                 "generalTechnology":true,"suggestContactForm":false,
+                 "suggestCareersPage":false}
+                """, "stop"));
+
+        ChatResponse response = service.reply(request("O que é uma squad?"), "client-tech");
+
+        assertThat(response.reply()).contains("equipe multidisciplinar");
+        assertThat(response.knowledgeMissing()).isFalse();
+        assertThat(response.outOfScope()).isFalse();
+    }
+
+    @Test
     void substituiFonteInventadaPorFallbackSeguro() {
         when(client.complete(any())).thenReturn(provider("""
                 {"reply":"A empresa atende o cliente ACME.","sourceIds":["clients.acme"],

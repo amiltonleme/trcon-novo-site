@@ -23,7 +23,8 @@ trcon:
       notify-to: ${TRCON_SITE_LEAD_NOTIFY_TO:contato@trcongroup.com.br}
     chat:
       ai:
-        # Desenvolvimento local responde pela base factual sem consumir DeepSeek.
+        # Stub apenas para desenvolvimento local sem custo. No Coolify, definir
+        # TRCON_SITE_CHAT_STUB_ENABLED=false para usar o provedor real.
         enabled: ${TRCON_SITE_CHAT_ENABLED:true}
         stub-enabled: ${TRCON_SITE_CHAT_STUB_ENABLED:true}
 

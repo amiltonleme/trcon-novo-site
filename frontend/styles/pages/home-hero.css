@@ -380,20 +380,3 @@
       color: rgba(200,150,12,0.76);
       text-align: center;
     }
-    .tr-data-node {
-      position: absolute;
-      left: var(--node-left);
-      bottom: var(--node-bottom);
-      z-index: 2;
-      font-family: 'Share Tech Mono', monospace;
-      font-size: 9px;
-      color: rgba(0,212,255,0.42);
-      letter-spacing: 1px;
-      pointer-events: none;
-      animation: trNodeFloat var(--node-duration) linear forwards;
-    }
-    @keyframes trNodeFloat {
-      0% { opacity: 0; transform: translateY(0); }
-      10%, 88% { opacity: 1; }
-      100% { opacity: 0; transform: translateY(-120px); }
-    }
