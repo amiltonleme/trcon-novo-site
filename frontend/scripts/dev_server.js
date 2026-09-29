@@ -1,4 +1,5 @@
 import http from 'node:http';
+import https from 'node:https';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -66,9 +67,31 @@ function proxyNovidades(req, res, pathname) {
   req.pipe(upstream);
 }
 
+function proxyApi(req, res) {
+  const target = new URL(req.url, siteApiUpstream);
+  const transport = target.protocol === 'https:' ? https : http;
+  const upstream = transport.request(
+    target,
+    { method: req.method, headers: { ...req.headers, host: target.host } },
+    (upstreamRes) => {
+      res.writeHead(upstreamRes.statusCode || 502, upstreamRes.headers);
+      upstreamRes.pipe(res);
+    },
+  );
+  upstream.on('error', () => {
+    res.writeHead(502);
+    res.end('backend unavailable');
+  });
+  req.pipe(upstream);
+}
+
 http
   .createServer((req, res) => {
     let pathname = decodeURIComponent(req.url.split('?')[0]);
+    if (pathname.startsWith('/api/')) {
+      proxyApi(req, res);
+      return;
+    }
     if (pathname.startsWith('/novidades/') && pathname !== '/novidades/') {
       proxyNovidades(req, res, pathname);
       return;
