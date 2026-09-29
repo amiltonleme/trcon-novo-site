@@ -10,7 +10,6 @@
   var origin = (scope.location && scope.location.origin) || '';
   var isProd = host === 'trcongroup.com.br' || host === 'www.trcongroup.com.br';
   var isDev = host === 'site-dev.trcongroup.com.br';
-  var isLocal = host === '' || host === 'localhost' || host === '127.0.0.1' || host === '::1';
 
   if (isProd) {
     scope.TRCON_LEADS_API_URL = 'https://api-site.trcongroup.com.br/api/v1/site/leads';
@@ -30,21 +29,11 @@
     return;
   }
 
-  // Previews e domínios temporários do Coolify usam o proxy /api do próprio
-  // frontend. Assim um hostname remoto nunca cai acidentalmente em localhost.
-  if (!isLocal && origin) {
-    scope.TRCON_LEADS_API_URL = origin + '/api/v1/site/leads';
-    scope.TRCON_HIGHLIGHTS_API_URL = origin + '/api/public/highlights';
-    scope.TRCON_NEWS_API_URL = origin + '/api/public/news';
-    scope.TRCON_CHAT_API_URL = origin + '/api/v1/site/chat';
-    scope.TRCON_SITE_BASE_URL = origin;
-    return;
-  }
-
-  // local (marketing + site backend em localhost)
-  scope.TRCON_LEADS_API_URL = 'http://localhost:8081/api/v1/site/leads';
-  scope.TRCON_HIGHLIGHTS_API_URL = 'http://localhost:8081/api/public/highlights';
-  scope.TRCON_NEWS_API_URL = 'http://localhost:8081/api/public/news';
-  scope.TRCON_CHAT_API_URL = 'http://localhost:8081/api/v1/site/chat';
-  scope.TRCON_SITE_BASE_URL = 'http://127.0.0.1:4173';
+  // Preview do Coolify e desenvolvimento local usam sempre o proxy /api da
+  // própria origem. O frontend não contém fallback direto para porta de backend.
+  scope.TRCON_LEADS_API_URL = origin + '/api/v1/site/leads';
+  scope.TRCON_HIGHLIGHTS_API_URL = origin + '/api/public/highlights';
+  scope.TRCON_NEWS_API_URL = origin + '/api/public/news';
+  scope.TRCON_CHAT_API_URL = origin + '/api/v1/site/chat';
+  scope.TRCON_SITE_BASE_URL = origin;
 })(window);

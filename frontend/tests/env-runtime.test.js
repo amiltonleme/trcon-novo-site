@@ -20,10 +20,10 @@ describe('env.js em runtime', () => {
       .toBe('https://site-preview.example.coolify.io/api/v1/site/chat');
   });
 
-  it('mantém localhost para desenvolvimento executado na máquina', () => {
+  it('usa o proxy da própria origem também no desenvolvimento local', () => {
     const env = loadRuntimeEnv('localhost', 'http://localhost:4173');
 
-    expect(env.TRCON_HIGHLIGHTS_API_URL).toBe('http://localhost:8081/api/public/highlights');
+    expect(env.TRCON_HIGHLIGHTS_API_URL).toBe('http://localhost:4173/api/public/highlights');
   });
 
   it('mantém os domínios públicos explícitos do ambiente dev', () => {

@@ -4,8 +4,8 @@
 // por configuração descrito em doc/07-MIGRACAO-PARALELA.md.
 //
 // Cada URL é lida de uma variável global (window.TRCON_*_API_URL) que pode ser
-// injetada por ambiente antes do carregamento do app; se ausente, cai no
-// default local de desenvolvimento.
+// injetada por ambiente antes do carregamento do app; se ausente, usa o proxy
+// /api da própria origem.
 
 const globalScope = typeof window !== 'undefined' ? window : {};
 
@@ -17,10 +17,10 @@ export function resolveApiConfig(overrides = {}) {
     leadsApiUrl:
       scope.TRCON_LEADS_API_URL ||
       scope.TRCON_WAITLIST_API_URL ||
-      'http://localhost:8081/api/v1/site/leads',
-    highlightsApiUrl: scope.TRCON_HIGHLIGHTS_API_URL || 'http://localhost:8081/api/public/highlights',
-    newsApiUrl: scope.TRCON_NEWS_API_URL || 'http://localhost:8081/api/public/news',
-    chatApiUrl: scope.TRCON_CHAT_API_URL || 'http://localhost:8081/api/v1/site/chat',
+      '/api/v1/site/leads',
+    highlightsApiUrl: scope.TRCON_HIGHLIGHTS_API_URL || '/api/public/highlights',
+    newsApiUrl: scope.TRCON_NEWS_API_URL || '/api/public/news',
+    chatApiUrl: scope.TRCON_CHAT_API_URL || '/api/v1/site/chat',
     siteBaseUrl: scope.TRCON_SITE_BASE_URL || 'https://trcongroup.com.br',
   };
 }

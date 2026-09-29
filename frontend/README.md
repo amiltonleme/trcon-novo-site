@@ -52,9 +52,9 @@ Implementação em `assets/modules/content.js`:
 Artigo: preferir HTML SSR do backend (`GET /novidades/{slug}`); `novidades.html` só como fallback.
 
 Variáveis: `window.TRCON_HIGHLIGHTS_API_URL`, `TRCON_NEWS_API_URL` (via `env.js`).  
-Deploy: `SITE_API_UPSTREAM` no Coolify/nginx. Domínios temporários de preview usam
-`/api/*` na própria origem; somente execução em `localhost` aponta diretamente
-para `http://localhost:8081`.
+Deploy: `SITE_API_UPSTREAM` no Coolify/nginx. Domínios temporários de preview e o
+servidor local usam `/api/*` na própria origem; o frontend não aponta diretamente
+para uma porta do backend.
 
 ## Desenvolvimento
 
