@@ -2,16 +2,16 @@ import { describe, it, expect } from 'vitest';
 import { resolveApiConfig } from '../../assets/modules/config.js';
 
 describe('resolveApiConfig', () => {
-  it('usa defaults locais quando nenhuma variável é injetada', () => {
+  it('usa o proxy da própria origem quando nenhuma variável é injetada', () => {
     const cfg = resolveApiConfig({
       TRCON_LEADS_API_URL: undefined,
       TRCON_WAITLIST_API_URL: undefined,
       TRCON_HIGHLIGHTS_API_URL: undefined,
       TRCON_NEWS_API_URL: undefined,
     });
-    expect(cfg.leadsApiUrl).toBe('http://localhost:8081/api/v1/site/leads');
-    expect(cfg.highlightsApiUrl).toBe('http://localhost:8081/api/public/highlights');
-    expect(cfg.newsApiUrl).toBe('http://localhost:8081/api/public/news');
+    expect(cfg.leadsApiUrl).toBe('/api/v1/site/leads');
+    expect(cfg.highlightsApiUrl).toBe('/api/public/highlights');
+    expect(cfg.newsApiUrl).toBe('/api/public/news');
   });
 
   it('prioriza TRCON_LEADS_API_URL sobre o legado waitlist', () => {
