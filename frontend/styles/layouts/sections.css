@@ -27,4 +27,11 @@
       max-width: 560px;
       font-weight: 300;
     }
+    .section-centered { text-align: center; }
+    .section-sub-centered { margin-inline: auto; }
+    .action-row-centered { justify-content: center; margin-top: 28px; }
     .divider { height: 1px; background: var(--border); margin: 0; }
+
+    @media (max-width: 768px) {
+      section { padding: 60px 20px; }
+    }

@@ -64,3 +64,7 @@
     .footer-links { display: flex; gap: 20px; }
     .footer-links a { color: var(--text3); font-size: 0.8rem; text-decoration: none; transition: color .2s; }
     .footer-links a:hover { color: var(--accent); }
+
+    @media (max-width: 768px) {
+      footer { padding: 40px 20px 24px; }
+    }

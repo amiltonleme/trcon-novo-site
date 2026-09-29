@@ -3,10 +3,11 @@
     ══════════════════════════════ */
     .cards-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
       gap: 16px;
       margin-top: 48px;
     }
+    .cards-grid-compact { margin-top: 40px; }
     .card {
       background: var(--surface);
       border: 1px solid var(--border);
@@ -26,7 +27,12 @@
       place-items: center;
       font-size: 1.25rem;
       margin-bottom: 18px;
+      color: var(--accent);
     }
+    .card-icon-blue { color: var(--accent2); background: rgba(0,151,255,.1); }
+    .card-icon-green { color: var(--accent); background: rgba(0,212,170,.1); }
+    .card-icon-gold { color: var(--gold); background: rgba(240,180,41,.1); }
+    .card-icon-orange { color: var(--accent3); background: rgba(255,107,53,.1); }
     .card h3 {
       font-family: 'Syne', sans-serif;
       font-size: 1.1rem;
@@ -78,8 +84,8 @@
     .process-step p { color: var(--text2); font-size: 0.88rem; line-height: 1.65; }
     .section-actions { margin-top: 32px; }
 
-    .market-disclaimer {
-      margin-top: 14px;
+    .context-note {
+      margin-top: 24px;
       padding: 14px 16px;
       background: rgba(240,180,41,0.12);
       border: 1px solid rgba(240,180,41,0.3);
@@ -90,3 +96,11 @@
       line-height: 1.5;
     }
     .data-updated { margin-top: 10px; color: var(--text3); font-size: 0.74rem; }
+
+    @media (max-width: 1400px) {
+      .process-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 768px) {
+      .process-grid { grid-template-columns: 1fr; }
+    }

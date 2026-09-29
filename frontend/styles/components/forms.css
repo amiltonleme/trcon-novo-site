@@ -10,6 +10,10 @@
       margin-top: 8px;
     }
 
+    .product-detail-lead { margin: 16px 0 0; }
+    .feature-list-spaced { margin-top: 28px; }
+    .waitlist-actions-spaced { margin-top: 32px; }
+
     .waitlist-layout {
       display: grid;
       grid-template-columns: minmax(0, 0.85fr) minmax(320px, 1.15fr);
@@ -103,3 +107,11 @@
     .waitlist-success[hidden] { display: none; }
     .waitlist-success strong { display: block; margin-bottom: 6px; color: var(--gold); }
     .waitlist-success p { color: var(--text2); font-size: 0.9rem; line-height: 1.6; margin-bottom: 14px; }
+
+    @media (max-width: 768px) {
+      .waitlist-layout,
+      .field-grid { grid-template-columns: 1fr; }
+      .waitlist-form { padding: 22px; }
+      .waitlist-note { padding: 16px; }
+      .waitlist-actions > * { width: 100%; justify-content: center; }
+    }

@@ -72,4 +72,10 @@ describe('contrato da fonte institucional', () => {
       expect(commercialProcess).toContain(metric);
     }
   });
+
+  it('mantém o HTML institucional sem estilos inline e seletores financeiros legados', () => {
+    expect(site).not.toMatch(/\sstyle\s*=/i);
+    expect(site).not.toContain('market-disclaimer');
+    expect(site).toContain('assets/brand/technology-icons.svg#');
+  });
 });

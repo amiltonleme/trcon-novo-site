@@ -297,8 +297,6 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
       height = Math.max(420, Math.floor(rect.height));
       canvas.width = Math.floor(width * ratio);
       canvas.height = Math.floor(height * ratio);
-      canvas.style.width = width + 'px';
-      canvas.style.height = height + 'px';
       ctx.setTransform(ratio, 0, 0, ratio, 0, 0);
       const targetCount = Math.min(115, Math.max(42, Math.floor((width * height) / 14500)));
       nodes = Array.from({ length: targetCount }, () => new HeroNode(true));
@@ -416,9 +414,9 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
       const duration = 8 + Math.random() * 7;
       el.className = 'tr-data-node';
       el.textContent = dataStrings[Math.floor(Math.random() * dataStrings.length)];
-      el.style.left = Math.random() * 86 + 7 + '%';
-      el.style.bottom = Math.random() * 28 + 12 + '%';
-      el.style.animationDuration = duration + 's';
+      el.style.setProperty('--node-left', Math.random() * 86 + 7 + '%');
+      el.style.setProperty('--node-bottom', Math.random() * 28 + 12 + '%');
+      el.style.setProperty('--node-duration', duration + 's');
       hero.appendChild(el);
       setTimeout(() => el.remove(), duration * 1000);
     }
@@ -515,8 +513,6 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
         height = Math.max(360, Math.floor(rect.height));
         canvas.width = Math.floor(width * ratio);
         canvas.height = Math.floor(height * ratio);
-        canvas.style.width = width + 'px';
-        canvas.style.height = height + 'px';
         ctx.setTransform(ratio, 0, 0, ratio, 0, 0);
         const targetCount = Math.min(72, Math.max(30, Math.floor((width * height) / 23000)));
         nodes = Array.from({ length: targetCount }, () => new SubpageNode(true));
@@ -608,9 +604,8 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
 
   function observeDynamicCards() {
     document.querySelectorAll('.card, .pillar, .audience-card, .product-card, .process-step, .offer-card, .help-card').forEach(el => {
-      el.style.opacity = '0';
-      el.style.transform = 'translateY(16px)';
-      el.style.transition = 'opacity .5s ease, transform .5s ease, border-color .25s';
+      if (el.classList.contains('reveal')) return;
+      el.classList.add('reveal');
       observer.observe(el);
     });
   }
@@ -663,8 +658,8 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
   const observer = new IntersectionObserver(entries => {
     entries.forEach(e => {
       if (e.isIntersecting) {
-        e.target.style.opacity = '1';
-        e.target.style.transform = 'translateY(0)';
+        e.target.classList.add('is-visible');
+        observer.unobserve(e.target);
       }
     });
   }, { threshold: 0.1 });

@@ -24,6 +24,23 @@
       text-align: center;
       padding: 40px;
     }
+    .about-experience-copy { margin-top: 8px; color: var(--text2); font-size: .9rem; }
+    .about-metrics {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 32px;
+      text-align: left;
+    }
+    .about-metric { padding: 16px; border-radius: 10px; background: var(--bg3); }
+    .about-metric-value {
+      color: var(--accent);
+      font-family: 'Syne', sans-serif;
+      font-size: 1.6rem;
+      font-weight: 800;
+    }
+    .about-metric-value-secondary { color: var(--accent2); }
+    .about-metric-label { margin-top: 4px; color: var(--text3); font-size: .78rem; }
     .big-number {
       font-family: 'Syne', sans-serif;
       font-size: 5rem;
@@ -58,6 +75,7 @@
       gap: 12px;
       margin-top: 28px;
     }
+    .pillar-list-narrow { max-width: 680px; margin-top: 40px; }
     .pillar {
       display: flex;
       align-items: flex-start;
@@ -67,6 +85,6 @@
       border: 1px solid var(--border);
       border-radius: 10px;
     }
-    .pillar-icon { font-size: 1.4rem; line-height: 1; }
+    .pillar-icon { display: grid; flex: 0 0 28px; place-items: center; color: var(--accent); line-height: 1; }
     .pillar h4 { font-weight: 600; font-size: 0.9rem; margin-bottom: 4px; }
     .pillar p { color: var(--text2); font-size: 0.82rem; line-height: 1.55; font-weight: 300; }

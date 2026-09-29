@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+  .tr-hero {
+    min-height: calc(100svh - 68px);
+    padding: 0 18px 72px;
+  }
+  .tr-stage {
+    min-width: 0;
+    min-height: calc(100svh - 168px);
+    padding-top: 58px;
+  }
+  .tr-status-bar { height: 42px; padding: 0 16px; }
+  .tr-status-items { display: none; }
+  .tr-corner { width: 42px; height: 42px; }
+  .tr-corner.tl,
+  .tr-corner.tr { top: 50px; }
+  .tr-corner.bl,
+  .tr-corner.br { bottom: 44px; }
+  .tr-wordmark {
+    row-gap: 2px;
+    width: 100%;
+    font-size: clamp(2.35rem, 12vw, 3.35rem);
+    letter-spacing: clamp(1px, .8vw, 4px);
+  }
+  .tr-tagline-bar { gap: 10px; max-width: 100%; }
+  .tr-tag-line { width: 28px; }
+  .tr-tagline-text,
+  .tr-full-name { white-space: normal; }
+  .tr-tagline-text { letter-spacing: 2px; }
+  .tr-full-name { letter-spacing: 2px; }
+  .tr-data-node { display: none; }
+  .tr-hero-copy { width: 100%; margin-top: 18px; font-size: .98rem; }
+  .tr-actions { margin-top: 22px; }
+  .tr-divider { margin: 28px 0 24px; }
+  .tr-pillars { gap: 14px 24px; }
+  .tr-pillar-icon { width: 42px; height: 42px; }
+  .tr-pillar-label { font-size: .62rem; letter-spacing: 1.4px; }
+}

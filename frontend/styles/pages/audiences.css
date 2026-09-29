@@ -7,7 +7,7 @@
     }
     .audience-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
       gap: 16px;
       padding: 0 5vw 80px;
     }
@@ -20,7 +20,17 @@
       transition: border-color .25s, transform .25s;
     }
     .audience-card:hover { border-color: rgba(0,212,170,0.3); transform: translateY(-3px); }
-    .audience-emoji { font-size: 2.5rem; display: block; margin-bottom: 16px; }
+    .audience-icon {
+      width: 48px;
+      height: 48px;
+      display: grid;
+      place-items: center;
+      margin: 0 auto 16px;
+      border: 1px solid rgba(0,212,170,.22);
+      border-radius: 12px;
+      background: rgba(0,212,170,.07);
+      color: var(--accent);
+    }
     .audience-card h3 {
       font-family: 'Syne', sans-serif;
       font-weight: 700;
@@ -66,4 +76,9 @@
       letter-spacing: 0.1em;
       text-transform: uppercase;
       position: relative;
+    }
+
+    @media (max-width: 768px) {
+      .audience-grid { padding: 0 20px 60px; }
+      .cta-band { margin: 0 20px 60px; padding: 40px 24px; }
     }

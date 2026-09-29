@@ -40,6 +40,8 @@ export default [
       globals: {
         process: 'readonly',
         console: 'readonly',
+        fetch: 'readonly',
+        WebSocket: 'readonly',
         URL: 'readonly',
         Buffer: 'readonly',
         __dirname: 'readonly',

@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&family=Share+Tech+Mono&display=swap"
           rel="stylesheet">
     <link rel="icon" href="assets/brand/trcon-mark.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="style.css?v=5f42076">
+    <link rel="stylesheet" href="style.css?v=ffeef72">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
@@ -71,10 +71,9 @@
                     class="tr-wordmark-con">CONGROUP</span></div>
             <div class="tr-status-items">
                 <div class="tr-status-item"><span class="tr-status-dot"></span>SOFTWARE ENGINEERING</div>
-                <div class="tr-status-item"><span class="tr-status-dot"
-                                                  style="background:#00d4ff;box-shadow:0 0 8px #00d4ff;"></span>AI SYSTEMS
+                <div class="tr-status-item"><span class="tr-status-dot tr-status-dot-blue"></span>AI SYSTEMS
                 </div>
-                <div class="tr-status-item"><span class="tr-status-dot" style="animation-delay:.7s"></span>DIGITAL
+                <div class="tr-status-item"><span class="tr-status-dot tr-status-dot-delayed"></span>DIGITAL
                     DELIVERY
                 </div>
             </div>
@@ -210,21 +209,21 @@
     <!-- O QUE A TRCON FAZ (4 LINHAS DE NEGÓCIO) -->
     <section>
         <div class="section-label">O que fazemos</div>
-        <div class="section-title">Tecnologia que vira <em style="color:var(--accent);font-style:normal">resultado</em>
+        <div class="section-title">Tecnologia que vira <em class="accent-text">resultado</em>
         </div>
         <p class="section-sub">Da ideia ao software em produção — e o time certo para sustentar. Atuamos em quatro
             frentes conectadas por engenharia de verdade e foco em resultado.</p>
 
-        <div class="cards-grid" style="margin-top:40px;">
+        <div class="cards-grid cards-grid-compact">
             <div class="card">
-                <div class="card-icon" style="background:rgba(0,212,170,0.1)">🚀</div>
+                <div class="card-icon card-icon-green"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#rocket"></use></svg></div>
                 <h3>Produtos digitais</h3>
                 <p>Plataformas próprias criadas pela TRCONGROUP para resolver rotinas reais com software, automação e
                     inteligência artificial.</p>
                 <a href="#" class="card-tag" data-page-link="produtos">Ver produtos →</a>
             </div>
             <div class="card">
-                <div class="card-icon" style="background:rgba(0,151,255,0.1)">🛠️</div>
+                <div class="card-icon card-icon-blue"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#code"></use></svg></div>
                 <h3>Desenvolvimento sob demanda</h3>
                 <p>Projetos de software do zero, sob medida para o seu negócio. Arquitetura limpa, código testado e
                     entrega com rigor de engenharia — do MVP à plataforma completa.</p>
@@ -232,7 +231,7 @@
                    data-lead-type="DESENVOLVIMENTO_SOB_DEMANDA">Falar sobre um projeto →</a>
             </div>
             <div class="card">
-                <div class="card-icon" style="background:rgba(240,180,41,0.1)">⚙️</div>
+                <div class="card-icon card-icon-gold"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#settings"></use></svg></div>
                 <h3>Customização de sistemas</h3>
                 <p>Adaptamos produtos existentes — nossos ou do seu ambiente — a novas regras, integrações e fluxos.
                     Evolução contínua sem reescrever o que já funciona.</p>
@@ -240,7 +239,7 @@
                    data-lead-type="CUSTOMIZACAO">Ver como funciona →</a>
             </div>
             <div class="card">
-                <div class="card-icon" style="background:rgba(255,107,53,0.1)">👥</div>
+                <div class="card-icon card-icon-orange"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#users"></use></svg></div>
                 <h3>Outsourcing e squads</h3>
                 <p>Profissionais de tecnologia — desenvolvimento, dados, IA e QA — alocados no seu time. Squad dedicado,
                     célula ágil ou profissional avulso, no modelo que o projeto pedir.</p>
@@ -254,7 +253,7 @@
 
     <section>
         <div class="section-label">Como trabalhamos</div>
-        <div class="section-title">Da necessidade à <em style="color:var(--accent);font-style:normal">evolução contínua</em></div>
+        <div class="section-title">Da necessidade à <em class="accent-text">evolução contínua</em></div>
         <p class="section-sub">Cada trabalho começa com contexto e termina com uma solução operável, mensurável e preparada para evoluir.</p>
         <div class="process-grid">
             <article class="process-step"><span>01</span><h3>Descoberta</h3><p>Mapeamos o problema, o processo atual, as restrições e o resultado esperado.</p></article>
@@ -292,9 +291,9 @@
     <div id="block-radar" class="home-content-block" hidden>
         <section id="section-radar">
             <div class="section-label">Radar TRCONGROUP</div>
-            <div class="section-title">Sinais de <em style="color:var(--accent);font-style:normal">IA e tecnologia</em></div>
+            <div class="section-title">Sinais de <em class="accent-text">IA e tecnologia</em></div>
             <p class="section-sub">Curadoria dos principais movimentos de inteligência artificial e tecnologia.</p>
-            <div class="cards-grid" id="radarGrid" style="margin-top:40px;" aria-busy="true"></div>
+            <div class="cards-grid cards-grid-compact" id="radarGrid" aria-busy="true"></div>
             <div class="data-updated" id="radarUpdated"></div>
         </section>
     </div>
@@ -303,9 +302,9 @@
         <div class="divider"></div>
         <section id="section-news">
             <div class="section-label">Novidades da TRCONGROUP</div>
-            <div class="section-title">Artigos e <em style="color:var(--accent);font-style:normal">comunicados</em></div>
+            <div class="section-title">Artigos e <em class="accent-text">comunicados</em></div>
             <p class="section-sub">Conteúdo institucional publicado pela equipe TRCONGROUP.</p>
-            <div class="cards-grid" id="newsList" style="margin-top:40px;" aria-busy="true"></div>
+            <div class="cards-grid cards-grid-compact" id="newsList" aria-busy="true"></div>
         </section>
     </div>
 </div>
@@ -342,20 +341,20 @@
             <div class="about-visual">
                 <div class="about-visual-inner">
                     <div class="big-number">21 anos</div>
-                    <p style="color:var(--text2);font-size:0.9rem;margin-top:8px;">de experiência em tecnologia</p>
-                    <div style="margin-top:32px;display:grid;grid-template-columns:1fr 1fr;gap:16px;text-align:left;">
-                        <div style="background:var(--bg3);border-radius:10px;padding:16px;">
-                            <div style="font-family:'Syne',sans-serif;font-size:1.6rem;font-weight:800;color:var(--accent)">
+                    <p class="about-experience-copy">de experiência em tecnologia</p>
+                    <div class="about-metrics">
+                        <div class="about-metric">
+                            <div class="about-metric-value">
                                 4
                             </div>
-                            <div style="font-size:0.78rem;color:var(--text3);margin-top:4px;">frentes de atuação
+                            <div class="about-metric-label">frentes de atuação
                             </div>
                         </div>
-                        <div style="background:var(--bg3);border-radius:10px;padding:16px;">
-                            <div style="font-family:'Syne',sans-serif;font-size:1.6rem;font-weight:800;color:var(--accent2)">
+                        <div class="about-metric">
+                            <div class="about-metric-value about-metric-value-secondary">
                                 IA
                             </div>
-                            <div style="font-size:0.78rem;color:var(--text3);margin-top:4px;">aplicada ao negócio</div>
+                            <div class="about-metric-label">aplicada ao negócio</div>
                         </div>
                     </div>
                 </div>
@@ -377,32 +376,32 @@
 
     <section>
         <div class="section-label">Nossos pilares</div>
-        <div class="section-title">O que nos <em style="color:var(--accent);font-style:normal">move</em></div>
+        <div class="section-title">O que nos <em class="accent-text">move</em></div>
 
-        <div class="cards-grid" style="margin-top:40px;">
+        <div class="cards-grid cards-grid-compact">
             <div class="card">
-                <div class="card-icon" style="background:rgba(0,212,170,0.1)">🤖</div>
+                <div class="card-icon card-icon-green"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#brain"></use></svg></div>
                 <h3>IA aplicada</h3>
                 <p>Assistentes, busca em bases de conhecimento, automação e análise de dados com regras claras,
                     rastreabilidade e supervisão humana.</p>
                 <span class="card-tag">Tecnologia com propósito</span>
             </div>
             <div class="card">
-                <div class="card-icon" style="background:rgba(0,151,255,0.1)">🎬</div>
+                <div class="card-icon card-icon-blue"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#layers"></use></svg></div>
                 <h3>Engenharia de software</h3>
                 <p>Aplicações web, APIs, integrações e plataformas construídas com arquitetura sustentável,
                     testes e atenção à operação.</p>
                 <span class="card-tag">Do escopo à produção</span>
             </div>
             <div class="card">
-                <div class="card-icon" style="background:rgba(240,180,41,0.1)">📊</div>
+                <div class="card-icon card-icon-gold"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#chart"></use></svg></div>
                 <h3>Entrega responsável</h3>
                 <p>Escopo explícito, ciclos curtos, acompanhamento de resultado e decisões técnicas que o cliente
                     consegue compreender.</p>
                 <span class="card-tag">Clareza em cada etapa</span>
             </div>
             <div class="card">
-                <div class="card-icon" style="background:rgba(255,107,53,0.1)">🏠</div>
+                <div class="card-icon card-icon-orange"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#handshake"></use></svg></div>
                 <h3>Parceria tecnológica</h3>
                 <p>Atuação por projeto, squad ou profissional especializado, de acordo com a maturidade e a necessidade
                     de cada operação.</p>
@@ -415,25 +414,25 @@
 
     <section>
         <div class="section-label">Nossa forma de atuar</div>
-        <div class="section-title">Tecnologia com <em style="color:var(--accent);font-style:normal">contexto</em></div>
+        <div class="section-title">Tecnologia com <em class="accent-text">contexto</em></div>
 
-        <div class="pillar-list" style="max-width:680px;margin-top:40px;">
+        <div class="pillar-list pillar-list-narrow">
             <div class="pillar">
-                <span class="pillar-icon">🚀</span>
+                <span class="pillar-icon"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#rocket"></use></svg></span>
                 <div>
                     <h4>Entender antes de construir</h4>
                     <p>Investigamos o processo, os usuários e os indicadores que determinam o sucesso da solução.</p>
                 </div>
             </div>
             <div class="pillar">
-                <span class="pillar-icon">📱</span>
+                <span class="pillar-icon"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#device"></use></svg></span>
                 <div>
                     <h4>Escolher tecnologia pelo problema</h4>
                     <p>Arquitetura, dados e IA entram quando agregam valor, com custos e limites conhecidos.</p>
                 </div>
             </div>
             <div class="pillar">
-                <span class="pillar-icon">🌐</span>
+                <span class="pillar-icon"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#globe"></use></svg></span>
                 <div>
                     <h4>Entregar valor em ciclos curtos</h4>
                     <p>Planejamos incrementos verificáveis para reduzir risco e permitir ajustes durante o trabalho.</p>
@@ -471,7 +470,7 @@
 
     <section>
         <div class="section-label">Para empresas</div>
-        <div class="section-title">Comece pela sua <em style="color:var(--accent);font-style:normal">necessidade</em></div>
+        <div class="section-title">Comece pela sua <em class="accent-text">necessidade</em></div>
         <p class="section-sub">Cada cenário leva a uma oferta de entrada clara. Escopo, prazo, composição e indicadores são definidos com base no contexto real.</p>
         <div class="help-grid">
             <article class="help-card"><span>01</span><h3>Preciso construir</h3><p>Uma ideia, operação ou oportunidade precisa virar MVP, integração ou produto digital.</p><a href="#" data-page-link="contato" data-product="mvp" data-lead-type="DESENVOLVIMENTO_SOB_DEMANDA">Falar sobre um projeto →</a></article>
@@ -484,7 +483,7 @@
     <div class="divider"></div>
     <section>
         <div class="section-label">Caminho de trabalho</div>
-        <div class="section-title">Contexto antes da <em style="color:var(--accent);font-style:normal">solução</em></div>
+        <div class="section-title">Contexto antes da <em class="accent-text">solução</em></div>
         <div class="process-grid">
             <article class="process-step"><span>01</span><h3>Entendimento</h3><p>Reunimos objetivo, operação atual, restrições e critérios de sucesso.</p></article>
             <article class="process-step"><span>02</span><h3>Direcionamento</h3><p>Indicamos a oferta, o escopo inicial e o formato de contratação compatíveis.</p></article>
@@ -524,7 +523,7 @@
 
     <section class="offers-section">
         <div class="section-label">Ofertas de entrada</div>
-        <div class="section-title">Um escopo claro para <em style="color:var(--accent);font-style:normal">começar</em></div>
+        <div class="section-title">Um escopo claro para <em class="accent-text">começar</em></div>
         <p class="section-sub">Escolha a situação mais próxima da sua. Cada conversa começa com contexto e segue para entregáveis e contratação definidos em conjunto.</p>
         <div class="offer-grid">
             <article class="offer-card">
@@ -581,13 +580,13 @@
 
     <section>
         <div class="section-label">Inteligência artificial aplicada</div>
-        <div class="section-title">Da oportunidade ao <em style="color:var(--accent);font-style:normal">uso responsável</em></div>
+        <div class="section-title">Da oportunidade ao <em class="accent-text">uso responsável</em></div>
         <p class="section-sub">Identificamos onde a IA pode gerar valor e construímos soluções conectadas ao seu
             processo, aos seus dados e às regras do negócio.</p>
-        <div class="cards-grid" style="margin-top:40px;">
-            <div class="card"><div class="card-icon" style="background:rgba(0,212,170,0.1)">🧠</div><h3>Assistentes e conhecimento</h3><p>Conversas orientadas por bases autorizadas, com busca contextual, limites de assunto e respostas rastreáveis.</p></div>
-            <div class="card"><div class="card-icon" style="background:rgba(0,151,255,0.1)">⚙️</div><h3>Automação inteligente</h3><p>Classificação, extração, geração e apoio à decisão integrados aos sistemas e às aprovações da empresa.</p></div>
-            <div class="card"><div class="card-icon" style="background:rgba(240,180,41,0.1)">📊</div><h3>Dados e análise</h3><p>Organização de fontes, indicadores e modelos para transformar dados dispersos em informação utilizável.</p></div>
+        <div class="cards-grid cards-grid-compact">
+            <div class="card"><div class="card-icon card-icon-green"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#brain"></use></svg></div><h3>Assistentes e conhecimento</h3><p>Conversas orientadas por bases autorizadas, com busca contextual, limites de assunto e respostas rastreáveis.</p></div>
+            <div class="card"><div class="card-icon card-icon-blue"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#settings"></use></svg></div><h3>Automação inteligente</h3><p>Classificação, extração, geração e apoio à decisão integrados aos sistemas e às aprovações da empresa.</p></div>
+            <div class="card"><div class="card-icon card-icon-gold"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#chart"></use></svg></div><h3>Dados e análise</h3><p>Organização de fontes, indicadores e modelos para transformar dados dispersos em informação utilizável.</p></div>
         </div>
         <div class="tr-actions section-actions">
             <a href="#" class="btn btn-primary btn-lg" data-page-link="contato" data-product="ia" data-lead-type="DESENVOLVIMENTO_SOB_DEMANDA">Solicitar diagnóstico de IA →</a>
@@ -599,26 +598,26 @@
     <!-- DESENVOLVIMENTO SOB DEMANDA -->
     <section>
         <div class="section-label">Desenvolvimento sob demanda</div>
-        <div class="section-title">Do <em style="color:var(--accent);font-style:normal">MVP</em> à plataforma completa
+        <div class="section-title">Do <em class="accent-text">MVP</em> à plataforma completa
         </div>
         <p class="section-sub">Projetos de software construídos do zero para o seu negócio, com arquitetura limpa
             (MVC/SOLID), cobertura de testes e entrega contínua.</p>
 
-        <div class="cards-grid" style="margin-top:40px;">
+        <div class="cards-grid cards-grid-compact">
             <div class="card">
-                <div class="card-icon" style="background:rgba(0,151,255,0.1)">🧭</div>
+                <div class="card-icon card-icon-blue"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#compass"></use></svg></div>
                 <h3>Descoberta e escopo</h3>
                 <p>Entendemos o problema antes de escrever código. Definição de escopo, arquitetura alvo e critérios de
                     pronto acordados com você.</p>
             </div>
             <div class="card">
-                <div class="card-icon" style="background:rgba(0,212,170,0.1)">🏗️</div>
+                <div class="card-icon card-icon-green"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#building"></use></svg></div>
                 <h3>Engenharia com rigor</h3>
                 <p>Camadas bem separadas, testes e revisão de arquitetura conforme o escopo e os critérios acordados
                     para cada entrega.</p>
             </div>
             <div class="card">
-                <div class="card-icon" style="background:rgba(240,180,41,0.1)">🚢</div>
+                <div class="card-icon card-icon-gold"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#deploy"></use></svg></div>
                 <h3>Entrega e evolução</h3>
                 <p>Estratégia de entrega, ambientes e observabilidade definidos conforme o contexto operacional da
                     solução.</p>
@@ -631,11 +630,11 @@
     <!-- CUSTOMIZAÇÃO -->
     <section>
         <div class="section-label">Customização de sistemas</div>
-        <div class="section-title">Evoluir sem <em style="color:var(--accent);font-style:normal">recomeçar</em></div>
+        <div class="section-title">Evoluir sem <em class="accent-text">recomeçar</em></div>
         <p class="section-sub">Adaptamos produtos existentes — nossos ou do seu ambiente — a novas regras, integrações e
             fluxos, preservando o que já funciona.</p>
 
-        <div class="pillar-list" style="max-width:680px;margin-top:40px;">
+        <div class="pillar-list pillar-list-narrow">
             <div class="pillar">
                 <span class="pillar-icon">🔌</span>
                 <div>
@@ -653,7 +652,7 @@
                 </div>
             </div>
             <div class="pillar">
-                <span class="pillar-icon">🛡️</span>
+                <span class="pillar-icon"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#shield"></use></svg></span>
                 <div>
                     <h4>Modernização segura</h4>
                     <p>Refatoração incremental com testes de regressão, para reduzir risco e manter o sistema no ar
@@ -668,32 +667,32 @@
     <!-- OUTSOURCING -->
     <section>
         <div class="section-label">Outsourcing de tecnologia</div>
-        <div class="section-title">O <em style="color:var(--accent);font-style:normal">time certo</em>, no modelo certo
+        <div class="section-title">O <em class="accent-text">time certo</em>, no modelo certo
         </div>
         <p class="section-sub">Profissionais de tecnologia integrados ao seu time, com o nível de senioridade e o formato
             de engajamento que o projeto exige.</p>
 
-        <div class="cards-grid" style="margin-top:40px;">
+        <div class="cards-grid cards-grid-compact">
             <div class="card">
-                <div class="card-icon" style="background:rgba(0,212,170,0.1)">🧩</div>
+                <div class="card-icon card-icon-green"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#puzzle"></use></svg></div>
                 <h3>Squad dedicado</h3>
                 <p>Composição de time definida para o produto e o contexto da contratação, com responsabilidades e
                     ritmo de trabalho acordados.</p>
             </div>
             <div class="card">
-                <div class="card-icon" style="background:rgba(0,151,255,0.1)">⚡</div>
+                <div class="card-icon card-icon-blue"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#bolt"></use></svg></div>
                 <h3>Célula ágil</h3>
                 <p>Grupo menor e focado para uma frente específica, integrado ao seu processo e às suas cerimônias.</p>
             </div>
             <div class="card">
-                <div class="card-icon" style="background:rgba(240,180,41,0.1)">🎯</div>
+                <div class="card-icon card-icon-gold"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#target"></use></svg></div>
                 <h3>Profissional avulso</h3>
                 <p>Um especialista para cobrir uma competência pontual — reforço de senioridade sem overhead de
                     estrutura.</p>
             </div>
         </div>
 
-        <div class="market-disclaimer" style="margin-top:24px;">
+        <div class="context-note">
             Áreas que podem compor a contratação: desenvolvimento (back-end, front-end, full-stack), dados e BI,
             IA/ML, QA e engenharia de qualidade, DevOps.
         </div>
@@ -702,12 +701,12 @@
     <div class="divider"></div>
 
     <!-- CTA -->
-    <section style="text-align:center;">
-        <div class="section-title">Vamos conversar sobre o seu <em style="color:var(--accent);font-style:normal">desafio?</em>
+    <section class="section-centered">
+        <div class="section-title">Vamos conversar sobre o seu <em class="accent-text">desafio?</em>
         </div>
-        <p class="section-sub" style="margin-left:auto;margin-right:auto;">Conte o que precisa mudar — um processo,
+        <p class="section-sub section-sub-centered">Conte o que precisa mudar — um processo,
             sistema, produto ou time — e estruturamos o próximo passo.</p>
-        <div class="tr-actions" style="justify-content:center;margin-top:28px;">
+        <div class="tr-actions action-row-centered">
             <a href="#" class="btn btn-primary btn-lg" data-page-link="contato" data-product="servicos"
                data-lead-type="ALOCACAO_MAO_DE_OBRA">Falar com um especialista →</a>
             <a href="#" class="btn btn-ghost btn-lg" data-page-link="produtos">Ver produtos</a>
@@ -756,7 +755,7 @@
                 <div class="feature-item">Segurança para não ultrapassar os limites planejados</div>
                 <div class="feature-item">Alertas de gastos acima do planejado</div>
             </div>
-            <div style="display:flex;gap:10px;flex-wrap:wrap;">
+            <div class="product-actions">
                 <a href="#" class="btn btn-primary" data-page-link="contato" data-product="hub"
                    data-lead-type="PRODUTO">Beta Test</a>
                 <a href="#" class="btn-outline" data-page-link="hub">Saiba mais</a>
@@ -775,7 +774,7 @@
                 <div class="feature-item">Confirmação e lembretes automáticos</div>
                 <div class="feature-item">Dashboard operacional multi-tenant</div>
             </div>
-            <div style="display:flex;gap:10px;flex-wrap:wrap;">
+            <div class="product-actions">
                 <a href="#" class="btn-outline btn-outline-primary">Em desenvolvimento</a>
                 <a href="#" class="btn-outline" data-page-link="agendamento">Saiba mais</a>
             </div>
@@ -792,7 +791,7 @@
                 <div class="feature-item">Publicação no site e LinkedIn</div>
                 <div class="feature-item">SEO, sitemap, RSS e histórico</div>
             </div>
-            <div style="display:flex;gap:10px;flex-wrap:wrap;">
+            <div class="product-actions">
                 <a href="#" class="btn-outline btn-outline-primary">Em desenvolvimento</a>
                 <a href="#" class="btn-outline" data-page-link="marketing">Saiba mais</a>
             </div>
@@ -834,13 +833,12 @@
     <section>
         <div class="section-label">Antes e depois</div>
         <div class="section-title">Saia da planilha. Vá para o Sírius Hub.</div>
-        <div class="hub-shots-grid"
-             style="margin-top:32px; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));">
+        <div class="hub-shots-grid hub-shots-grid-compare">
             <div class="hub-shot">
                 <img src="assets/hub/hub-antes-planilha.png"
                      alt="Planilha manual de controle financeiro, com categorias escritas de formas diferentes e total desatualizado"
                      loading="lazy">
-                <div class="hub-shot-caption"><span style="color:var(--red); font-weight:700;">ANTES</span> — sua
+                <div class="hub-shot-caption"><span class="comparison-label comparison-label-before">ANTES</span> — sua
                     planilha hoje, provavelmente
                 </div>
             </div>
@@ -848,7 +846,7 @@
                 <img src="assets/hub/hub-visao-estrategica.jpg"
                      alt="Painel Visão Estratégica do Sírius Hub, com saldo e fluxo previsto organizados"
                      loading="lazy">
-                <div class="hub-shot-caption"><span style="color:var(--accent); font-weight:700;">DEPOIS</span> — o
+                <div class="hub-shot-caption"><span class="comparison-label comparison-label-after">DEPOIS</span> — o
                     painel do Sírius Hub
                 </div>
             </div>
@@ -858,7 +856,7 @@
     <section>
         <div class="section-label">Como é por dentro</div>
         <div class="section-title">O painel que você vai usar de verdade</div>
-        <div class="hub-shots-grid" style="margin-top:32px;">
+        <div class="hub-shots-grid hub-shots-grid-spaced">
             <div class="hub-shot">
                 <img src="assets/hub/hub-visao-estrategica.jpg"
                      alt="Visão Estratégica do Sírius Hub — painel principal com saldo, entradas e saídas do mês"
@@ -894,13 +892,13 @@
         <div class="product-detail-content">
             <div class="section-label">Produto em beta</div>
             <h2 class="section-title">O controle financeiro que faltava na sua rotina</h2>
-            <p class="section-sub" style="margin:16px 0 0;">O Ecossistema Financeiro Digital ajuda a registrar entradas,
+            <p class="section-sub product-detail-lead">O Ecossistema Financeiro Digital ajuda a registrar entradas,
                 despesas, metas e sobra mensal em uma visão simples para decisões financeiras melhores.</p>
-            <div class="waitlist-note" style="margin-top:24px;">
+            <div class="waitlist-note">
                 O cadastro registra seu interesse. Disponibilidade, condições de acesso e eventual oferta comercial
                 serão informadas diretamente antes de qualquer contratação.
             </div>
-            <div class="feature-list" style="margin-top:28px;">
+            <div class="feature-list feature-list-spaced">
                 <div class="feature-item">Visão Estratégica — painel principal de acompanhamento</div>
                 <div class="feature-item">Programações — planeje receitas, despesas e recorrências</div>
                 <div class="feature-item">Lançamentos — execute o que está pendente no dia a dia, sempre ilimitados, em
@@ -909,7 +907,7 @@
                 <div class="feature-item">Transferências — mova saldo entre recursos sem gerar receita ou despesa</div>
                 <div class="feature-item">Relatórios — saldos, categorias, limites e leitura do período</div>
             </div>
-            <div class="waitlist-actions" style="margin-top:32px;">
+            <div class="waitlist-actions waitlist-actions-spaced">
                 <a href="#" class="btn btn-primary" data-page-link="contato" data-product="hub"
                    data-lead-type="PRODUTO">Registrar interesse no beta</a>
                 <a href="#" class="btn-outline" data-page-link="produtos">Voltar aos produtos</a>
@@ -949,13 +947,13 @@
         <div class="product-detail-content">
             <div class="section-label">Em desenvolvimento</div>
             <h2 class="section-title">Menos ida e volta, mais horários confirmados</h2>
-            <p class="section-sub" style="margin:16px 0 0;">O Sírius Agendamento é uma plataforma multi-tenant para
+            <p class="section-sub product-detail-lead">O Sírius Agendamento é uma plataforma multi-tenant para
                 negócios de serviço: o cliente conversa no canal preferido, o sistema interpreta a intenção, oferece
                 slots e registra o compromisso — com confirmações e lembretes automáticos.</p>
-            <div class="waitlist-note" style="margin-top:24px;">
+            <div class="waitlist-note">
                 Produto em desenvolvimento. Cadastre seu interesse para ser avisado quando abrirmos testes guiados.
             </div>
-            <div class="feature-list" style="margin-top:28px;">
+            <div class="feature-list feature-list-spaced">
                 <div class="feature-item">Agenda, slots e disponibilidade de profissionais</div>
                 <div class="feature-item">Conversas e canais (WhatsApp texto; voz e outros módulos no roadmap)</div>
                 <div class="feature-item">Confirmação e lembretes (ex.: 24h e 1h antes)</div>
@@ -963,7 +961,7 @@
                 <div class="feature-item">Dashboard operacional e relatórios de ocupação</div>
                 <div class="feature-item">Arquitetura multi-tenant com módulos de canal extensíveis</div>
             </div>
-            <div class="waitlist-actions" style="margin-top:32px;">
+            <div class="waitlist-actions waitlist-actions-spaced">
                 <a href="#" class="btn btn-primary" data-page-link="contato" data-product="agendamento"
                    data-lead-type="PRODUTO">Quero ser avisado</a>
                 <a href="#" class="btn-outline" data-page-link="produtos">Voltar aos produtos</a>
@@ -1003,20 +1001,20 @@
         <div class="product-detail-content">
             <div class="section-label">Em desenvolvimento</div>
             <h2 class="section-title">Marketing com ritmo e rastreio</h2>
-            <p class="section-sub" style="margin:16px 0 0;">O Sírius Marketing AI é a plataforma da TRCONGROUP para
+            <p class="section-sub product-detail-lead">O Sírius Marketing AI é a plataforma da TRCONGROUP para
                 planejar, produzir, aprovar, agendar e publicar conteúdo — do site institucional às redes sociais — com
                 visão de SEO e registro do que foi entregue.</p>
-            <div class="waitlist-note" style="margin-top:24px;">
+            <div class="waitlist-note">
                 Produto em desenvolvimento. Cadastre seu interesse para ser avisado quando abrirmos acesso antecipado.
             </div>
-            <div class="feature-list" style="margin-top:28px;">
+            <div class="feature-list feature-list-spaced">
                 <div class="feature-item">Planejamento editorial, conteúdos e versões</div>
                 <div class="feature-item">Fluxo de aprovação antes de publicar</div>
                 <div class="feature-item">Calendário e agendamento de publicações</div>
                 <div class="feature-item">Publicação no site e LinkedIn (Facebook e Instagram no roadmap)</div>
                 <div class="feature-item">SEO, sitemap, RSS e histórico com retries</div>
             </div>
-            <div class="waitlist-actions" style="margin-top:32px;">
+            <div class="waitlist-actions waitlist-actions-spaced">
                 <a href="#" class="btn btn-primary" data-page-link="contato" data-product="marketing"
                    data-lead-type="PRODUTO">Quero ser avisado</a>
                 <a href="#" class="btn-outline" data-page-link="produtos">Voltar aos produtos</a>
@@ -1056,7 +1054,7 @@
             <div>
                 <div class="section-label" id="contatoContextLabel">Contato</div>
                 <h2 class="section-title" id="contatoContextTitle">Vamos conversar</h2>
-                <p class="section-sub" id="contatoContextCopy" style="margin:16px 0 0;">Preencha o formulário. Usamos
+                <p class="section-sub product-detail-lead" id="contatoContextCopy">Preencha o formulário. Usamos
                     seus dados apenas para retornar o contato comercial.</p>
                 <div class="waitlist-note" id="contatoContextNote">
                     Escolha o tipo de interesse e descreva brevemente o que você precisa.
@@ -1087,7 +1085,7 @@
                         </select>
                     </label>
                     <label id="contatoUsoField">
-                        Uso pretendido <span style="color:var(--text3);font-weight:400;">(opcional)</span>
+                        Uso pretendido <span class="text-muted-optional">(opcional)</span>
                         <select name="uso">
                             <option value="">Selecione</option>
                             <option>Organização familiar</option>
@@ -1145,15 +1143,15 @@
 
     <section>
         <div class="section-label">Áreas de atuação</div>
-        <div class="section-title">Conhecimento que se transforma em <em style="color:var(--accent);font-style:normal">entrega</em></div>
+        <div class="section-title">Conhecimento que se transforma em <em class="accent-text">entrega</em></div>
         <p class="section-sub">Nossas oportunidades podem envolver projetos internos ou trabalhos para clientes, conforme cada necessidade.</p>
         <div class="audience-grid careers-grid">
-            <div class="audience-card"><span class="audience-emoji">⌨️</span><h3>Desenvolvimento</h3><p>Back-end, front-end, full-stack, APIs, integrações e arquitetura de aplicações.</p></div>
-            <div class="audience-card"><span class="audience-emoji">🧠</span><h3>Dados e IA</h3><p>Engenharia de dados, modelos, automação, agentes e soluções de conhecimento.</p></div>
-            <div class="audience-card"><span class="audience-emoji">🧪</span><h3>Qualidade</h3><p>Estratégia de testes, automação, confiabilidade e melhoria contínua da entrega.</p></div>
-            <div class="audience-card"><span class="audience-emoji">☁️</span><h3>Cloud e DevOps</h3><p>Infraestrutura, CI/CD, observabilidade, segurança e operação de ambientes.</p></div>
-            <div class="audience-card"><span class="audience-emoji">🧭</span><h3>Produto e análise</h3><p>Descoberta, requisitos, experiência, métricas e conexão entre negócio e tecnologia.</p></div>
-            <div class="audience-card"><span class="audience-emoji">🤝</span><h3>Projetos e atendimento</h3><p>Coordenação, comunicação com clientes e organização de entregas multidisciplinares.</p></div>
+            <div class="audience-card"><span class="audience-icon"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#code"></use></svg></span><h3>Desenvolvimento</h3><p>Back-end, front-end, full-stack, APIs, integrações e arquitetura de aplicações.</p></div>
+            <div class="audience-card"><span class="audience-icon"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#brain"></use></svg></span><h3>Dados e IA</h3><p>Engenharia de dados, modelos, automação, agentes e soluções de conhecimento.</p></div>
+            <div class="audience-card"><span class="audience-icon"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#flask"></use></svg></span><h3>Qualidade</h3><p>Estratégia de testes, automação, confiabilidade e melhoria contínua da entrega.</p></div>
+            <div class="audience-card"><span class="audience-icon"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#cloud"></use></svg></span><h3>Cloud e DevOps</h3><p>Infraestrutura, CI/CD, observabilidade, segurança e operação de ambientes.</p></div>
+            <div class="audience-card"><span class="audience-icon"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#compass"></use></svg></span><h3>Produto e análise</h3><p>Descoberta, requisitos, experiência, métricas e conexão entre negócio e tecnologia.</p></div>
+            <div class="audience-card"><span class="audience-icon"><svg class="ui-icon" aria-hidden="true"><use href="assets/brand/technology-icons.svg#handshake"></use></svg></span><h3>Projetos e atendimento</h3><p>Coordenação, comunicação com clientes e organização de entregas multidisciplinares.</p></div>
         </div>
     </section>
 
@@ -1219,7 +1217,7 @@
         <p>© 2026 TRCONGROUP. Todos os direitos reservados.</p>
         <div class="site-build-info" id="siteBuildInfo" aria-label="Versão do site">
             <span>Versão <span id="siteAppVersion">0.9.1</span></span>
-            <code id="siteCommitHash">5f42076</code>
+            <code id="siteCommitHash">ffeef72</code>
         </div>
         <div class="footer-links">
             <a href="/privacidade.html">Privacidade</a>
@@ -1230,8 +1228,11 @@
 </footer>
 
 <aside class="ai-chat" id="aiChat" aria-label="Assistente virtual da TRCONGROUP">
-    <button class="ai-chat-toggle" id="aiChatToggle" type="button" aria-controls="aiChatPanel" aria-expanded="false">
-        <span class="ai-chat-pulse" aria-hidden="true"></span> Fale comigo com IA
+    <button class="ai-chat-toggle" id="aiChatToggle" type="button" aria-controls="aiChatPanel" aria-expanded="false"
+            aria-label="Fale comigo com IA">
+        <span class="ai-chat-pulse" aria-hidden="true"></span>
+        <span class="ai-chat-label" aria-hidden="true">Fale comigo com IA</span>
+        <span class="ai-chat-compact-label" aria-hidden="true">IA</span>
     </button>
     <section class="ai-chat-panel" id="aiChatPanel" hidden>
         <header class="ai-chat-header">
@@ -1258,7 +1259,7 @@
 </aside>
 
 <script src="assets/env.js"></script>
-<script type="module" src="assets/app.js?v=5f42076"></script>
+<script type="module" src="assets/app.js?v=ffeef72"></script>
 <a
         href="https://wa.me/5511939288899?text=Olá%2C%20vim%20pelo%20site%20da%20TRCONGROUP%20e%20gostaria%20de%20saber%20mais%20sobre%20as%20soluções."
         class="whatsapp-float"

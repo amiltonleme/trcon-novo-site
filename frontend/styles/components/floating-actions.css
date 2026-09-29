@@ -56,6 +56,7 @@
       font: 600 .84rem 'DM Sans', sans-serif; cursor: pointer;
     }
     .ai-chat-pulse { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 12px var(--accent); }
+    .ai-chat-compact-label { display: none; }
     .ai-chat-panel {
       position: absolute; right: 0; bottom: 58px; width: min(390px, calc(100vw - 32px));
       max-height: min(620px, calc(100svh - 116px)); padding: 0; text-align: left;
@@ -100,7 +101,16 @@
     @media (max-width: 768px) {
       .ai-chat { right: 14px; bottom: 86px; }
       .ai-chat-panel { position: fixed; left: 12px; right: 12px; bottom: 78px; width: auto; max-height: calc(100svh - 94px); }
-      .ai-chat-toggle { max-width: calc(100vw - 32px); padding: 11px 14px; white-space: nowrap; }
+      .ai-chat-toggle {
+        width: 52px;
+        height: 52px;
+        justify-content: center;
+        gap: 4px;
+        padding: 0;
+        white-space: nowrap;
+      }
+      .ai-chat-label { display: none; }
+      .ai-chat-compact-label { display: inline; font-family: 'Orbitron', sans-serif; font-size: .72rem; }
       .ai-chat-messages { min-height: 150px; max-height: calc(100svh - 260px); }
     }
 

@@ -92,3 +92,7 @@
     .btn-lg { padding: 14px 28px; font-size: 0.95rem; border-radius: 9px; }
 
     @keyframes fadeUp { from{opacity:0;transform:translateY(20px);} to{opacity:1;transform:translateY(0);} }
+
+    @media (max-width: 768px) {
+      .hero { padding: 60px 20px 40px; }
+    }

@@ -4,8 +4,8 @@
 > deve ser feita sem concluir a etapa de substituição e as verificações da própria
 > fase.
 >
-> **Última atualização: 28/09/2026.** Etapas 0, 1 e 2 concluídas. Próximo gate:
-> Etapa 3 — evolução visual e componentes.
+> **Última atualização: 29/09/2026.** Etapas 0, 1, 2 e 3 concluídas. Próximo gate:
+> Etapa 4 — Página Trabalhe Conosco.
 
 ## Objetivo
 
@@ -81,7 +81,7 @@ A substituição vem antes da exclusão. Cada fase deve terminar com o site nave
 testes verdes e um ponto de reversão. Não misturar toda a reformulação, o chat e a
 remoção do backend financeiro em um único deploy.
 
-## Estado real da execução em 28/09/2026
+## Estado real da execução em 29/09/2026
 
 > **Desvio de execução registrado:** o commit `c3a2325` misturou partes das Etapas
 > 0 a 6 em uma única alteração de 89 arquivos, sem concluir e registrar o gate de
@@ -92,22 +92,22 @@ remoção do backend financeiro em um único deploy.
 |---|---|---|---|
 | 0 — Baseline e proteção | **Concluída em 28/09/2026** | estado do Git preservado; 260 testes executados; lint e build aprovados; baseline visual desktop/mobile registrado; produtor e consumidores de `economy-tips` inventariados; conteúdo financeiro classificado | nenhuma pendência do gate; a retirada do produtor continua sendo pré-condição da Etapa 7 |
 | 1 — Fonte de verdade | **Concluída em 28/09/2026** | fonte canônica com 12 IDs estáveis; YAML sincronizado; responsáveis e revisão definidos; conteúdo público e fallbacks auditados; teste de contrato entre documento, site e chat | nenhuma pendência do gate; fatos novos exigem o processo de aprovação registrado |
-| 2 — Arquitetura e conteúdo | **Concluída em 28/09/2026** | Home e Empresa reposicionadas; página “Como ajudamos”; Conteúdo na navegação; quatro ofertas com problema, entregáveis, processo, contratação e CTA contextual; processo e métricas comerciais registrados | nenhuma pendência do gate; o estouro horizontal mobile segue como prioridade da Etapa 3 |
-| 3 — Visual e componentes | Parcial | CSS dividido em 21 módulos; bundles separados; CSS legal extraído; chat redesenhado; módulo de ofertas criado | corrigir estouro horizontal mobile; retirar 76 estilos inline; substituir animação JS por classes; distribuir `responsive.css`; avaliar Stylelint; retirar backup de logo |
+| 2 — Arquitetura e conteúdo | **Concluída em 28/09/2026** | Home e Empresa reposicionadas; página “Como ajudamos”; Conteúdo na navegação; quatro ofertas com problema, entregáveis, processo, contratação e CTA contextual; processo e métricas comerciais registrados | nenhuma pendência do gate |
+| 3 — Visual e componentes | **Concluída em 29/09/2026** | overflow mobile corrigido; 76 estilos inline retirados; animação por classes e movimento reduzido; media queries distribuídas; Stylelint ativado; iconografia vetorial; backup de logo retirado; smoke automatizado | nenhuma pendência do gate |
 | 4 — Trabalhe Conosco | Parcial | página criada; áreas e estado real de vagas publicados; nenhuma coleta indevida | aprofundar cultura e forma de trabalho; adicionar perguntas frequentes; smoke editorial e de acessibilidade |
 | 5 — Assistente institucional | Parcial | widget, endpoint, base factual, cliente DeepSeek, rate limit, orçamento, stub local e testes unitários | validar DeepSeek real; testes HTTP/integrados e adversariais; configurar e validar produção |
-| 6 — Limpeza frontend/pipeline | Parcial | consumidores financeiros, JSONs, scripts financeiros, configurações e passos correspondentes do workflow removidos; Radar preservado; frontend deixou de usar `news-log.json` como fallback institucional | retirar geração residual de `news-log.json` baseada nos radares, remover seletor órfão `.insight-card.featured`, renomear `.market-disclaimer`, testar pipeline e observar o deploy |
+| 6 — Limpeza frontend/pipeline | Parcial | consumidores financeiros, JSONs, scripts financeiros, configurações e passos correspondentes do workflow removidos; Radar preservado; frontend deixou de usar `news-log.json` como fallback institucional; seletor órfão removido e nota financeira renomeada | retirar geração residual de `news-log.json` baseada nos radares, testar pipeline e observar o deploy |
 | 7 — Backend financeiro | Não iniciada | módulo legado apenas marcado como pendente | interromper produtor externo; remover `economytips`, scheduler e testes; backup e migration nova de remoção |
-| 8 — Higiene do repositório | Parcial | regra de ignore criada e bytecode marcado para remoção | concluir remoção versionada dos caches; retirar backup; eliminar referências e documentação obsoletas |
+| 8 — Higiene do repositório | Parcial | regra de ignore criada; bytecode marcado para remoção; backup antigo do logo retirado | concluir remoção versionada dos caches; eliminar referências e documentação obsoletas |
 | 9 — Verificação e publicação | Parcial local | lint, frontend, pipeline e testes unitários do chat executados; smoke visual local | suíte integrada com Docker, SEO/acessibilidade completos, deploy gradual, smoke e observação em produção |
 
 ### Ponto de retomada obrigatório
 
 O próximo trabalho não deve avançar para novas funcionalidades fora da sequência. Deve:
 
-1. executar a Etapa 3, começando pelo estouro horizontal em mobile, pelos 76
-   estilos inline e pela animação via classes;
-2. somente depois validar formalmente as Etapas 4, 5 e 6;
+1. executar o gate da Etapa 4, aprofundando cultura, forma de trabalho, perguntas
+   frequentes e o smoke editorial e de acessibilidade;
+2. somente depois validar formalmente as Etapas 5 e 6;
 3. não iniciar a Etapa 7 até o Sírius Marketing deixar de publicar em
    `POST /api/internal/economy-tips`.
 
@@ -513,6 +513,10 @@ já atribuída à Etapa 3 e constitui o próximo ponto de execução.
 
 ## Etapa 3 — Evolução visual e componentes
 
+**Estado: concluída em 29/09/2026.** O gate foi fechado com a modularização
+responsiva, a retirada integral dos estilos inline, a padronização da iconografia,
+a validação automática do CSS e o smoke de layout desktop/mobile.
+
 ### Diagnóstico CSS atual
 
 Diagnóstico recalculado depois da conclusão da Etapa 2. `frontend/style.css` é um
@@ -733,6 +737,61 @@ o diff revisável e permite distinguir regressão de refatoração estrutural.
 - CSS fonte está dividido por responsabilidade e os bundles são reproduzíveis
 - artigo e privacidade carregam apenas estilos comuns e próprios
 
+### Fechamento da Etapa 3 — 29/09/2026
+
+#### CSS, componentes e movimento
+
+- os 76 atributos `style` do `index.html` foram substituídos por classes
+  semânticas de componente, modificador ou layout;
+- o `IntersectionObserver` deixou de escrever `opacity`, `transform` e
+  `transition` diretamente e passou a controlar `.reveal` e `.is-visible`;
+- posições e duração realmente dinâmicas dos nós decorativos usam custom
+  properties validadas, e os canvas ocupam o contêiner pelo CSS;
+- `prefers-reduced-motion: reduce` desativa movimento, transições e rolagem suave;
+- o arquivo global `responsive.css` foi retirado e suas regras foram movidas para
+  os módulos responsáveis; `home-hero-responsive.css` mantém a regra da Home
+  separada sem ultrapassar o orçamento de tamanho;
+- grades passaram a aceitar a largura disponível e títulos mobile receberam
+  limites tipográficos próprios, eliminando o estouro horizontal;
+- cards de capacidades, ofertas e carreiras usam o sprite vetorial
+  `assets/brand/technology-icons.svg` no lugar de emojis;
+- `.market-disclaimer` foi renomeada para `.context-note` e o seletor órfão
+  `.insight-card.featured` foi eliminado;
+- `trcon-logo.old-backup.png`, sem consumidor, foi retirado dos assets publicados.
+
+#### Verificação automática
+
+- Stylelint 16 foi adicionado com regras graduais para sintaxe, propriedades,
+  unidades, seletores e declarações duplicadas;
+- `npm run check:css` verifica bundles e executa o Stylelint;
+- o ESLint também cobre os scripts JavaScript/MJS de build e smoke;
+- `npm run smoke:layout` inicia o servidor local quando necessário, abre um
+  navegador Chromium e valida página ativa, largura do documento e erros críticos;
+- o smoke passou em 22 combinações: 11 rotas em 1440×900 e 390×844, todas sem
+  overflow horizontal e sem erro crítico do frontend;
+- quando o backend local está desligado, as requisições de API indisponíveis são
+  classificadas separadamente; os fallbacks do site funcionam sem exceção de
+  JavaScript.
+
+| Verificação | Resultado em 29/09/2026 |
+|---|---|
+| `npm run build` | aprovado; bundles regenerados e cache busting atualizado |
+| `npm run check:css` | aprovado; bundle reproduzível e Stylelint verde |
+| `npm run lint` | aprovado, incluindo `scripts/**/*.{js,mjs}` |
+| `npm test` | aprovado — 7 arquivos e 82 testes |
+| `npm run smoke:layout` | aprovado — 22 verificações, zero overflow e zero erro crítico |
+
+#### Orçamento dos bundles
+
+| Bundle | Bruto | Gzip |
+|---|---:|---:|
+| `style.css` | 62.187 bytes | 11.842 bytes |
+| `article.css` | 8.906 bytes | 2.645 bytes |
+| `legal.css` | 9.922 bytes | 2.852 bytes |
+
+O maior arquivo-fonte é `pages/home-hero.css`, com 399 linhas. Nenhum módulo
+ultrapassa o limite de 400 linhas definido nesta etapa.
+
 ## Etapa 4 — Página Trabalhe Conosco
 
 ### V1 recomendada
@@ -794,7 +853,8 @@ pré-condição editorial. Consumidores e geradores financeiros foram retirados,
 o pipeline ainda gera `news-log.json` a partir dos radares externos. O frontend da
 Etapa 2 não usa mais esse arquivo como fallback de Novidades: se a API
 institucional estiver vazia ou indisponível, a seção fica oculta. O gate também
-depende da limpeza CSS residual, de testes do pipeline e de observação após deploy.
+depende da retirada de `news-log.json`, de testes do pipeline e de observação após
+deploy. A limpeza CSS residual foi concluída na Etapa 3.
 
 ### HTML retirado ou substituído
 
@@ -835,18 +895,12 @@ as funções sem consumidor foram removidas:
 Os testes exclusivos dessas funções também foram retirados. Funções genéricas
 ainda usadas, como `escapeHtml`, `safeUrl` e `safeClass`, permanecem.
 
-### CSS residual a retirar
+### CSS residual — concluído na Etapa 3
 
-Os blocos de ticker, mercado e receitas foram retirados. A busca atual ainda
-encontra:
-
-- `.insight-card.featured` em `responsive.css`, sem consumidor;
-- `.market-disclaimer`, ainda usado como nota de contexto em Soluções e que deve
-  receber um nome genérico antes da remoção do nome financeiro.
-
-Não apagar `.market-disclaimer` de forma global sem revisar o uso remanescente na
-página de Serviços. Se o elemento continuar necessário, renomeá-lo para uma classe
-genérica, como `.context-note`, antes de remover o bloco financeiro.
+Os blocos de ticker, mercado e receitas já estavam retirados. No fechamento da
+Etapa 3, `.insight-card.featured` foi removido junto do antigo `responsive.css`, e
+a nota ainda necessária em Soluções passou de `.market-disclaimer` para a classe
+genérica `.context-note`. A busca atual não encontra os seletores antigos.
 
 ### Dados estáticos retirados
 
@@ -899,8 +953,7 @@ configuração foram removidos.
 ### Pendências do gate
 
 - retirar a geração e as referências de `news-log.json` do pipeline;
-- remover `.insight-card.featured` e renomear `.market-disclaimer`;
-- executar os testes do pipeline depois dessas remoções;
+- executar os testes do pipeline depois da retirada de `news-log.json`;
 - confirmar em deploy que não há requisições aos artefatos financeiros removidos
   e que Radar e Novidades mantêm o comportamento documentado.
 
@@ -962,11 +1015,10 @@ permanece na árvore versionada.
 
 ### Backups dentro do código
 
-`frontend/assets/trcon-logo.old-backup.png` não tem referência de execução. Antes
-de removê-lo, confirmar visualmente que o logo atual é o definitivo e que o arquivo
-não é exigido por documentação ou processo de design. Backups necessários devem
-ficar no histórico do Git ou em armazenamento de design, não misturados aos assets
-publicados.
+`frontend/assets/trcon-logo.old-backup.png` não tinha referência de execução e foi
+retirado na Etapa 3 depois da conferência visual do logo atual e da busca de
+consumidores. Backups necessários devem ficar no histórico do Git ou em
+armazenamento de design, não misturados aos assets publicados.
 
 ### Código e documentação residual
 

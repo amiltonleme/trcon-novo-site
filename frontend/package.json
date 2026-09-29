@@ -7,16 +7,19 @@
   "scripts": {
     "dev": "node scripts/dev_server.js",
     "build:css": "node scripts/build-css.mjs",
-    "check:css": "node scripts/build-css.mjs --check",
+    "check:css": "node scripts/build-css.mjs --check && npm run lint:css",
     "build": "npm run build:css && node scripts/stamp-build-info.mjs",
     "test": "vitest run",
     "test:watch": "vitest",
-    "lint": "eslint \"assets/**/*.js\" \"tests/**/*.js\"",
+    "lint": "eslint \"assets/**/*.js\" \"scripts/**/*.{js,mjs}\" \"tests/**/*.js\"",
+    "lint:css": "stylelint \"styles/**/*.css\"",
+    "smoke:layout": "node scripts/smoke-layout.mjs",
     "format": "prettier --write \"assets/**/*.js\" \"tests/**/*.js\""
   },
   "devDependencies": {
     "eslint": "^9.15.0",
     "prettier": "^3.4.1",
+    "stylelint": "^16.23.1",
     "vitest": "^2.1.6"
   }
 }

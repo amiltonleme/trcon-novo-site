@@ -4,8 +4,13 @@
     ══════════════════════════════ */
     .hub-shots-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr));
       gap: 24px;
+    }
+    .hub-shots-grid-spaced { margin-top: 32px; }
+    .hub-shots-grid-compare {
+      grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr));
+      margin-top: 32px;
     }
     .hub-shot {
       background: var(--surface);
@@ -68,3 +73,6 @@
       color: var(--text2);
       font-weight: 500;
     }
+    .comparison-label { font-weight: 700; }
+    .comparison-label-before { color: var(--red); }
+    .comparison-label-after { color: var(--accent); }

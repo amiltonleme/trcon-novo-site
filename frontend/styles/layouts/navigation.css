@@ -108,3 +108,11 @@
     /* hamburger */
     .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 5px; background: none; border: 0; }
     .hamburger span { display: block; width: 22px; height: 2px; background: var(--text2); border-radius: 2px; transition: all .3s; }
+
+    @media (max-width: 768px) {
+      nav { padding: 0 20px; }
+      .logo-text { font-size: .82rem; letter-spacing: .05em; }
+      .nav-links,
+      .nav-contact { display: none; }
+      .hamburger { display: flex; }
+    }
