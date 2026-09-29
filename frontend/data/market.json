@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T00:05:57.995924+00:00",
+  "generated_at": "2026-09-29T14:23:50.452439+00:00",
   "source_note": "Fontes publicas: AwesomeAPI, CoinGecko, Banco Central do Brasil e RSS de noticias.",
   "disclaimer": "*** Conteudo educacional. Nao constitui recomendacao individual de investimento. ***",
   "ticker": [
@@ -11,31 +11,31 @@
     },
     {
       "symbol": "EUR/BRL",
-      "value": "R$ 5,93",
+      "value": "R$ 5,92",
       "change": "0,00%",
       "direction": "flat"
     },
     {
       "symbol": "IBOVESPA",
-      "value": "182.991 pts",
+      "value": "182.604 pts",
       "change": "estavel",
       "direction": "flat"
     },
     {
       "symbol": "BTC/USD",
-      "value": "US$ 83.481",
-      "change": "-1,24%",
-      "direction": "down"
+      "value": "Atualizando",
+      "change": "estavel",
+      "direction": "flat"
     },
     {
       "symbol": "ETH/USD",
-      "value": "US$ 2.689",
-      "change": "-0,03%",
-      "direction": "down"
+      "value": "Atualizando",
+      "change": "estavel",
+      "direction": "flat"
     },
     {
       "symbol": "OURO",
-      "value": "US$ 4.157",
+      "value": "US$ 4.197",
       "change": "estavel",
       "direction": "flat"
     },
@@ -68,7 +68,7 @@
       "id": "eurbrl",
       "name": "Euro (EUR)",
       "icon": "💶",
-      "quote": "R$ 5,93",
+      "quote": "R$ 5,92",
       "change": "0,00%",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -79,7 +79,7 @@
       "id": "ibov",
       "name": "Ibovespa",
       "icon": "📊",
-      "quote": "182.991 pts",
+      "quote": "182.604 pts",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -90,9 +90,9 @@
       "id": "btc",
       "name": "Bitcoin",
       "icon": "₿",
-      "quote": "US$ 83.481",
-      "change": "-1,24%",
-      "direction": "down",
+      "quote": "Atualizando",
+      "change": "estavel",
+      "direction": "flat",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
       "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
@@ -101,9 +101,9 @@
       "id": "eth",
       "name": "Ethereum",
       "icon": "Ξ",
-      "quote": "US$ 2.689",
-      "change": "-0,03%",
-      "direction": "down",
+      "quote": "Atualizando",
+      "change": "estavel",
+      "direction": "flat",
       "recommendation": "Moderado",
       "recommendation_class": "rec-watch",
       "reason": "Cripto segue volatil; use apenas parcela pequena e compatível com seu perfil de risco."
@@ -112,7 +112,7 @@
       "id": "gold",
       "name": "Ouro",
       "icon": "🥇",
-      "quote": "US$ 4.157",
+      "quote": "US$ 4.197",
       "change": "estavel",
       "direction": "flat",
       "recommendation": "Neutro",
@@ -152,6 +152,10 @@
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUkFjX3RSU3hRNWgtZHJKR1puNFpQLS1EcXRhT3IzMHBYcVhUREdtak1velppZ1VmdGljRHNVcXZncE41bXJWQnh4MExIaTRsUkFiNVFVZm9ESGNDSjV6SG1rWTNfLTVFaDBqWm82TnZXbzR0TmRuUVRSQTgwbFFOMXdqNVBNYXhTMmR0TnMwNHNvRWhtUHZkdmhybnpUNmVnQkdaVHlhTDJmdzV6dHBtbFVYVm0xcjlNWmxHbg?oc=5"
     },
     {
+      "title": "Dólar sobe e bolsa cai: o que move a economia hoje",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQekd0Vi1IdFNfVlVTOTd0S3JmLXo2ci1zTy1aWVVSMWRNcmR0RXFUSTFLeEw2ZTZPTzNsaFg0VmNsQ2dzSy1vczM4cXNDelBtc19QWGFFZDJhcm4tbWJ1R0laOEdxY2RDdTBYaXN2VTVaeW1MOHMzYVRfWlZEOVlXREl5N2FkX254cGxQbWgyQXJ6STJNMFctRg?oc=5"
+    },
+    {
       "title": "Ibovespa fecha em alta de mais de 1%, com eleições; dólar recua a R$ 5,08",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNGpmazlhY0FDMFR6VDhPZWd1X0RUYnA4OUVCdFF0Si15ZzVyVHNKSGpYMHVRVm9jdHA4eXNFTE1rVU51bS01bVhwbUR6WUJ3cGtjb3VTWmxvUjRFdEREQlBuaHRfQUsxY0ZSNFZYYTlGVDB5cGNyMVBoTlI4TDEzRllxd3UyZ0ZNQ1VyaERybw?oc=5"
     },
@@ -170,10 +174,6 @@
     {
       "title": "Eleições 2026: como a disputa eleitoral afeta bolsa, juros e câmbio?",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zWExVd3Ffc1EtTjExc2tBWUd6d3BYcGQzZDJZbHdkV29sbHlIRkE1cGNkekdQNXRZQ0c2ZmwzZGcyeXJZVmZXNUN2SlVDOG5IclgxSmFJNENHeFlTckx1dk1QeHoxanhGNng3bjRENkQySlFrUTVVNWFBQjbSAYIBQVVfeXFMTW82Wng5bXAyRFpWY3YtZl9zRE5hQWRZOFQtcmhDdW9SOTdvaW9FTlBCTmlKaUlHcTZaQUxCX0hFbUI0NEhBQ1hRUmU0UTMtcnk2bGVMYUlwZTRqb25qSUhVSVg0Q1o2V2Q5LWdoZUpsMmE5S1lPNEc5NDlzT2ZXSF9QZw?oc=5"
-    },
-    {
-      "title": "Ibovespa hoje fecha em alta e dólar sobe a R$ 5,07; pregão foi mais curto por falha na B3",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOXzR6R0QxMVZCQkFqMnZNdWJ6bGx4QU00WmNJYVBnU1JZVVhsNG11VG50Zjd5R3NqbV9GYldtZ3ljWmRuakplS19icG16dWVCMTc1SnVSd1k3RTZ3OHhvcjFxY01BT2gzRVVxYkZMSDdrY0REOU92WGh0Z0t0V2RLNnVGU3lVZlFhekhiTEExV0xMQmY1eTRmMlhYRHF5aFZJWkxhbWRnUXZZT1ltSUFJMk96akJkZ0l1dHFuMlFCMkpSd3hDR2Y5c0t0ZEh2TW8zby1GUXNSenZoQVBNLWlxLdIB5gFBVV95cUxQcnpOdjd6b0tOb1dVZjdPOTZmeHBnMVZBaDQwQ3IyVjkwSzJRVklwLXlCMVN6ZTVzX0tuSVctRXRhWUQwTXJuak1RZ0NCODU3RWUwbTZmcXNicUozUVh1dGpDdHVEalRLMUgxSGZid2lDaTZuLWdkdnBXMDUtS0w4Nmw0bkM1VTR1VW5mRWxEOXA1Ui1uck1kMmxZU24wTW9TZGpsdWVQNlZMSXBSRzJDZm5jazZMbl9kRWRmNnZCLV92dkgxSUY1RDB5a3h2TDdia3B3cFJyTXFzZTYya0JieEk1NU9JQQ?oc=5"
     }
   ],
   "market_mood": {
@@ -181,5 +181,7 @@
     "summary": "O mercado mostra sinais mistos; diversificacao e compras parceladas reduzem o risco de timing.",
     "score": 1
   },
-  "errors": []
+  "errors": [
+    "cripto: HTTP Error 403: Forbidden"
+  ]
 }
