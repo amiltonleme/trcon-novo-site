@@ -43,6 +43,24 @@ server {
         try_files $uri =404;
     }
 
+    # HTML e módulos ES devem ser revalidados. Os módulos também recebem uma
+    # versão na URL durante o build, mas esta regra evita que proxies mantenham
+    # documentos de entrada incompatíveis entre dois deploys.
+    location ~* \.js$ {
+        add_header Cache-Control "no-cache, no-store, must-revalidate" always;
+        try_files $uri =404;
+    }
+
+    location = /index.html {
+        add_header Cache-Control "no-cache, no-store, must-revalidate" always;
+        try_files $uri =404;
+    }
+
+    location = / {
+        add_header Cache-Control "no-cache, no-store, must-revalidate" always;
+        try_files /index.html =404;
+    }
+
     location / {
         try_files $uri $uri/ =404;
     }

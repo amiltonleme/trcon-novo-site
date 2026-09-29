@@ -445,8 +445,13 @@ frontend/assets/modules/
 ```
 
 - `assets/modules/config.js` ganha `chatApiUrl` (padrão
-  `window.TRCON_CHAT_API_URL` → fallback local `http://localhost:8081/api/v1/site/chat`),
-  mesmo padrão de `leadsApiUrl`/`highlightsApiUrl`.
+  `window.TRCON_CHAT_API_URL` → fallback de mesma origem `/api/v1/site/chat`),
+  mesmo padrão de `leadsApiUrl`/`highlightsApiUrl`. `assets/env.js` define os
+  domínios explícitos de dev e produção; localhost e previews do Coolify usam o
+  proxy `/api` do próprio frontend.
+- O build do container versiona `app.js` e todos os imports entre módulos ES com
+  o mesmo identificador. Isso impede que o cache da CDN combine um `app.js` novo
+  com módulos antigos e interrompa a inicialização da navegação e do widget.
 - Funções puras testáveis (regra 4 de
   [03-FRONTEND-STACK-CANONICA.md](canonical/03-FRONTEND-STACK-CANONICA.md)),
   isoladas de manipulação de DOM:
