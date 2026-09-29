@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-09-28T16:07:44.881777+00:00",
+  "generated_at": "2026-09-29T00:06:01.253430+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
     {
-      "title": "Apesar da adoção crescente da inteligência artificial, 41% das empresas ainda apresentam dificuldades na integração com agentes de IA",
-      "summary": "Apesar da adoção crescente da inteligência artificial, 41% das empresas ainda apresentam dificuldades na integração com agentes de IA",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxON3lfd2Q5M1ZVQVdrZTc5aTFsQWFadHRQYl9KLThLNEpZT1lFMmtneHR1dE1NTngzcUJlanU1dmlzV2NhVzVtcGxZdXNzRnU3eTFaaGRCdUtDVkkzMEUzSlVMVTdiS1FjdWpETjJSTHVyS1M0VFBsZHdZV1hFM3l5YUpfWEtTZnpiMlhDeTgxTWhjekF2c040RHpndExIbk1tWmM0SzVPeG1zWlRSVWlkQnJoblpTSmgzRHRrNmllU1NKQ2Rqc1AwSkhDNFNEQ0EtQmlqRFFUWm1abDE3TUI1b19laGR4YmtSX0gyNEc0dmdUTFhBOFpndE0wX2FFMGpKYTBNWUtWZm9GUnQwakFfTVB3?oc=5",
-      "source": "Seu Dinheiro",
-      "published_at": "Thu, 24 Sep 2026 17:04:25 GMT",
+      "title": "Avanço Rápido da Inteligência Artificial Exige Mais Governança e Proteção de Dados nas Empresas",
+      "summary": "Avanço Rápido da Inteligência Artificial Exige Mais Governança e Proteção de Dados nas Empresas",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9UeDlLYkpxUDdfOEV0N21pa0hrZGZZWFVvaXNLdlZja3psc3g3NmFwUm5TQjU5d050bElObTFsdUpCTVlQS3NmYXg1UHRMMjEzRGVodTRQQ1h1MjFjWTJvYmtXT1FteWpRWjFmSDFNNDRlQnlmWHR1aVl0VQ?oc=5",
+      "source": "ABC Agora",
+      "published_at": "Mon, 28 Sep 2026 17:21:55 GMT",
       "category": "IA",
       "signal": "up"
+    },
+    {
+      "title": "Por Que Depender De Uma Única Inteligência Artificial É O Maior Risco Para As Empresas",
+      "summary": "Por Que Depender De Uma Única Inteligência Artificial É O Maior Risco Para As Empresas",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBkQnJsTW83R1pwc1NiR2x4LXdKOWtXOTFPSk54eURZd1o1elh6RFp1OWdaX2dBaVU4TjRLQjFuMVduNERvOW1uSXBhc0RQdlBsV3hUQVlPdTBDSE95OUNlSXNuQXVSVnJ5Qm1uTHctbTBQWFlTOURJ?oc=5",
+      "source": "ABC Agora",
+      "published_at": "Mon, 28 Sep 2026 17:18:24 GMT",
+      "category": "IA",
+      "signal": "down"
     },
     {
       "title": "Shadow AI: 31% dos usuários de IA no trabalho escondem o uso das empresas",
@@ -22,11 +31,11 @@
       "signal": "flat"
     },
     {
-      "title": "Apenas 6%: O ‘segredo’ das empresas que faturam com IA vai além da tecnologia, aponta McKinsey",
-      "summary": "Apenas 6%: O ‘segredo’ das empresas que faturam com IA vai além da tecnologia, aponta McKinsey",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVEt0TWg3RHFWcC0yWDdhTldFMG1Ma1FFTG5nUUZZb3MzNTlyVGxJTDY2b2o1SktzY1hEMDM2dXI4T1ZfTUZoMEo5cExNcUZXbW9KQ3dfUDNfbU9LOHhRSmU2dkUyeHdtV2pJTHVnel9FR3lIYU9rV2V0ZW5LSjk5UEk3SHRCa1laQzl0VFdXZFhMcmF2MDNCQ3dfalN5Y1hsQ3BocW5sUjRLODB1eHl5SWxwLXVwXzhkX0xGeEs0Rk94TnoyUjc0a0Fn?oc=5",
-      "source": "Money Times",
-      "published_at": "Sun, 27 Sep 2026 13:00:00 GMT",
+      "title": "Inteligência Artificial nas empresas: falta de governança dificulta escala no Brasil | SEGS Portal...",
+      "summary": "Inteligência Artificial nas empresas: falta de governança dificulta escala no Brasil | SEGS Portal...",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQm9SbkI3X2VVaFl4Z0ctNXJ1a2wxM2NsX0VoTTkwZG01cUZYanVIUzBZWWowN2FrOEdvWmNmdUVJR3YxTkVtOVNGUGdmODF3SGJXclQxbUxaZkFDQVNObFpCVUFOTnRPMElMU3ZUcEk5RW9RYVJDRlotdmdidkFNblprR0NhT1pjMDVBSHMtS1gyWHQ4LWJoRUEwaV8tcnVfMTVHcDMzR1VIZ3pTTE9Ha0kzM0k3djhkNGc5SE9ZMNIBxAFBVV95cUxPZmQ3N2RHdkFyalU2cmtrZUFwY19MM2YzOFZwOTRacUxuTWx3TlpiNGZmekRGSWVvY09pdDJYc1ZScWZrbk9SMmhTa1FMM21MenBDWXZRc0hobXE3Ti0zX1NNeUlIc28wT0RSRExocW9VTm81WmF3cU5zWFZSX2RjS2c0aHNrd2g0WkZQR0tJNmdxVEloR1FhM25Kb01UVVF1Y3duNUZxR3NwUGVwNTg3OFc5dVVWVGRTM2ZRd0NSQVV3Z2ZF?oc=5",
+      "source": "SEGS Portal Nacional",
+      "published_at": "Mon, 28 Sep 2026 18:24:23 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -36,15 +45,6 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZUw4Z2QxTnZzTzA0ckZwZ3YwNGQ5NEdTdFJFMmNzN1NNMW9NUTdYOXJoYkJaVm1mOUpYM2hPX0M4TG1neXVYM3lyX2FkV2x0UTNWMGx2MlU3cGYtdklzRngzNHhzcnBkNUF0dWttLTRLcFNfYUFiNkRBNmM4TVd0VXNaN0RnNC14VlFTd1dOZUp5U1c4dmxoYnFCQVdjR05aUE90VnJxYy1CZ0M2?oc=5",
       "source": "Economia SC",
       "published_at": "Mon, 28 Sep 2026 12:19:51 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Análise: Empresas usam IA, mas maioria não sabe dimensionar seus efeitos",
-      "summary": "Análise: Empresas usam IA, mas maioria não sabe dimensionar seus efeitos",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPVzlfQ190X0lKajRKQnRwaXFQbGh2UHNuQWp5QnROV0p2Y3RWTWh0bThGV1M4dzF3QlhKUGtnS3F3VWZVX3NVTTBaQldKV3Jkbzdmb2t2TnJ5bTZwMlVHaEs5WUE0SkZyblBXczkwaENpTjZScHBfVGQyeWRNTkhwUm9ZM0ZYTUgxZk1KUTVKLWhDblFSMjJJT3E3NVV3bkg4WW9WMHlhZDZPQlZBTWR6X2NhM0ZOT0JRSG9Ua3IzVHFVXzlzSHBFcmphZUdHVjhwUFBpUGNDbXk5U25GMWlYN29WSUQ0Zw?oc=5",
-      "source": "CNN Brasil",
-      "published_at": "Mon, 28 Sep 2026 15:27:55 GMT",
       "category": "IA",
       "signal": "flat"
     },
