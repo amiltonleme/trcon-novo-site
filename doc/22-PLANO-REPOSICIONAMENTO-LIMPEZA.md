@@ -4,9 +4,8 @@
 > deve ser feita sem concluir a etapa de substituição e as verificações da própria
 > fase.
 >
-> **Última atualização: 29/09/2026.** Etapas 0, 1, 2, 3, 4, 5 e 6 concluídas.
-> Próximo gate: Etapa 7 — Desativação do backend financeiro, condicionada à
-> interrupção prévia do produtor no Sírius Marketing.
+> **Última atualização: 30/09/2026.** Etapas 0, 1, 2, 3, 4, 5, 6 e 7 concluídas.
+> Próximo gate: Etapa 8 — Higiene do repositório.
 
 ## Objetivo
 
@@ -83,7 +82,7 @@ A substituição vem antes da exclusão. Cada fase deve terminar com o site nave
 testes verdes e um ponto de reversão. Não misturar toda a reformulação, o chat e a
 remoção do backend financeiro em um único deploy.
 
-## Estado real da execução em 29/09/2026
+## Estado real da execução em 30/09/2026
 
 > **Desvio de execução registrado:** o commit `c3a2325` misturou partes das Etapas
 > 0 a 6 em uma única alteração de 89 arquivos, sem concluir e registrar o gate de
@@ -99,7 +98,7 @@ remoção do backend financeiro em um único deploy.
 | 4 — Trabalhe Conosco | **Concluída em 29/09/2026** | cultura e forma de trabalho publicadas; áreas identificadas como interesses, sem simular vagas; ausência de vagas e banco de talentos explícita; FAQ publicado; nenhuma coleta de candidatura; smoke editorial, semântico e responsivo automatizado | nenhuma pendência do gate; eventual banco de talentos continua condicionado à definição do ciclo de vida LGPD |
 | 5 — Assistente institucional | **Concluída em 29/09/2026** | Assistente TRCONGROUP, endpoint, base factual e glossário, cliente DeepSeek, escopo institucional/tecnológico sem respostas fixas no fluxo real, validação estruturada, rate limit, orçamento, CTAs, observabilidade, stub exclusivamente local, interface responsiva e integração real homologada no Coolify dev | nenhuma pendência de implementação; redeploy da revisão atual, smoke e ativação em produção pertencem à Etapa 9 |
 | 6 — Limpeza frontend/pipeline | **Concluída em 29/09/2026** | consumidores financeiros e artefatos financeiros removidos; Radar preservado; `news-log.json`, builder, testes e referências do workflow retirados; fontes canônicas sincronizadas; pipeline e frontend validados; publicação e observação concluídas | nenhuma pendência do gate |
-| 7 — Backend financeiro | Não iniciada | módulo legado apenas marcado como pendente | interromper produtor externo; remover `economytips`, scheduler e testes; backup e migration nova de remoção |
+| 7 — Backend financeiro | **Concluída em 30/09/2026** | produtor retirado do Sírius Marketing; pacotes, endpoints e testes de `economytips` removidos do site; scheduler preserva somente notícias; documentação funcional atualizada; backend aprovado com 192 testes; migration V11 criada | execução da V11, backup e validação operacional pertencem à Etapa 9 |
 | 8 — Higiene do repositório | Parcial | regra de ignore criada; bytecode marcado para remoção; backup antigo do logo retirado | concluir remoção versionada dos caches; eliminar referências e documentação obsoletas |
 | 9 — Verificação e publicação | Parcial local/dev | lint, frontend, pipeline e testes do chat executados; smoke visual local; integração com DeepSeek observada no endpoint público dev | republicar a revisão atual do backend no Coolify, executar smoke funcional, completar SEO/acessibilidade, deploy gradual e observação em produção |
 
@@ -107,10 +106,10 @@ remoção do backend financeiro em um único deploy.
 
 O próximo trabalho não deve avançar para novas funcionalidades fora da sequência. Deve:
 
-1. não iniciar a Etapa 7 até o Sírius Marketing deixar de publicar em
-   `POST /api/internal/economy-tips`.
+1. concluir a Etapa 8 com a remoção dos caches e das referências obsoletas ainda
+   identificadas.
 
-Enquanto essa pré-condição não for atendida, o estado do plano é **em execução**,
+Enquanto esse gate não for atendido, o estado do plano é **em execução**,
 não “implementado por completo”.
 
 ## Sequência executiva recomendada
@@ -1062,8 +1061,9 @@ configuração foram removidos.
 O critério de aceite da Etapa 6 está atendido. O frontend não solicita os
 artefatos retirados, o pipeline gera somente arquivos consumidos, o Radar mantém
 o fallback tecnológico e Novidades permanece restrita à API institucional. A
-Etapa 7 continua bloqueada até a interrupção do produtor externo no Sírius
-Marketing.
+O produtor externo foi retirado do código do Sírius Marketing em 30/09/2026.
+Newsletter e landing page permanecem somente no produto e não são divulgadas no
+site institucional.
 
 ## Etapa 7 — Desativação do backend financeiro
 
@@ -1074,7 +1074,7 @@ consumidores externos.
 
 1. Alterar o Sirius Marketing para não publicar mais em
    `POST /api/internal/economy-tips`; decidir se o conteúdo passa a ser notícia
-   institucional ou deixa de ser enviado ao site.
+   institucional ou deixa de ser enviado ao site. (Não será mais divulgado no site.)
 2. Publicar o frontend sem chamadas a `GET /api/public/economy-tips`.
 3. Verificar logs e configurações para confirmar ausência de tráfego.
 4. Durante uma versão de transição, documentar a depreciação ou responder `410
@@ -1094,9 +1094,50 @@ Não editar nem excluir migrations já aplicadas, especialmente
 `V9__content_expires_at.sql`.
 
 Depois de backup e confirmação de que não há consumidor, criar uma migration nova,
-por exemplo `V10__drop_economy_tips.sql`, para remover tabela e índices. A migration
+`V11__drop_economy_tips.sql`, para remover tabela e índices. A migration
 deve ser executada primeiro em ambiente de teste. Se o conteúdo precisar ser
 preservado para o Sírius Hub, exportá-lo ou migrá-lo antes do `DROP TABLE`.
+
+Como `V10__chat_usage_logs.sql` já existe, a migration desta etapa deve ser
+`V11__drop_economy_tips.sql`.
+
+### Backup e rollback definidos
+
+Antes do deploy que executará a V11:
+
+1. gerar um backup em formato custom do PostgreSQL limitado à tabela
+   `public.economy_tips`, incluindo estrutura, dados e índices;
+2. registrar quantidade de linhas, tamanho do arquivo e SHA-256;
+3. validar o arquivo com `pg_restore --list` e uma restauração em banco isolado;
+4. armazenar o backup fora do repositório e do container da aplicação.
+
+Rollback operacional:
+
+1. interromper o backend novo;
+2. restaurar `public.economy_tips` a partir do backup validado;
+3. republicar a revisão anterior do backend;
+4. confirmar inicialização, contagem restaurada e ausência de erro no scheduler.
+
+A migration histórica não será editada nem removida. A V11 foi criada, mas sua
+execução permanece condicionada ao backup e à validação operacional previstos
+para a Etapa 9.
+
+### Fechamento da Etapa 7 — 30/09/2026
+
+- o Sírius Marketing deixou de chamar `/api/internal/economy-tips`; `ARTICLE`
+  continua em `/api/internal/news`, enquanto `NEWSLETTER` e `LANDING_PAGE`
+  concluem apenas o fluxo interno;
+- `backend/.../economytips/`, `backend/.../internal/economytips/` e o IT exclusivo
+  foram removidos;
+- `ContentExpiryScheduler` mantém apenas a contagem de notícias expiradas;
+- `mvnw.cmd -B clean verify` foi aprovado com 192 testes, zero falhas, zero erros,
+  um teste live ignorado por desenho e gate JaCoCo atendido;
+- `V11__drop_economy_tips.sql` foi criada para remover `economy_tips`, sem alterar
+  as migrations históricas V6 e V9;
+- por determinação operacional, a V11 não foi executada e nenhuma nova rodada de
+  testes, build ou comandos Git foi feita após sua criação;
+- backup, execução da migration e smoke no ambiente implantado permanecem no gate
+  operacional da Etapa 9.
 
 ### Critério de aceite
 
@@ -1105,6 +1146,14 @@ preservado para o Sírius Hub, exportá-lo ou migrá-lo antes do `DROP TABLE`.
 - scheduler e testes passam
 - migration nova funciona em banco atualizado desde V1
 - rollback de aplicação e recuperação do backup foram definidos
+
+#### Fechamento
+
+O critério de implementação da Etapa 7 está atendido: não há produtor ou
+consumidor ativo, o módulo foi removido, o scheduler foi ajustado, o backend foi
+validado antes da criação da migration e a V11 está incorporada como próxima
+migration da cadeia. A exclusão física dos dados será realizada somente durante
+a publicação controlada da Etapa 9, depois do backup previsto nesta seção.
 
 ## Etapa 8 — Higiene do repositório
 

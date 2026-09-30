@@ -29,7 +29,6 @@ configurações de produção permanecem desligadas por padrão.
 - `highlights`: Radar de IA e tecnologia
 - `news`: novidades, artigos SSR, sitemap e feed
 - `chat`: assistente institucional, rate limit, orçamento e base factual
-- `economytips`: legado ainda preservado até o produtor externo ser desligado
 
 ## Erro `Failed to start bean 'webServerStartStop'`
 

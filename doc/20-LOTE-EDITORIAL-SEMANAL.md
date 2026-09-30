@@ -10,7 +10,7 @@ O Sirius Marketing continua publicando via:
 | Tipo | API site | Seção |
 |------|----------|--------|
 | `ARTICLE` | `POST /api/internal/news` | Novidades + `/novidades/{slug}` |
-| `NEWSLETTER` | news (Educação) + economy-tips | Educação Financeira + leitura |
+| `NEWSLETTER` | — | permanece somente no Sírius Marketing |
 
 **Radar** continua só com pipeline externo — artigos do lote **não** entram no Radar.
 
@@ -21,7 +21,6 @@ O Sirius Marketing continua publicando via:
 | Destino | Ritmo |
 |---------|--------|
 | Novidades | até **1 artigo/dia** (7/semana) |
-| Educação Financeira | até **1 tip editorial/dia** (7/semana) |
 | LinkedIn | 2 person + 2 company **/dia** (só marketing; não site) |
 
 Infra site (Neon, CF, Hetzner): **custo incremental ~R$ 0**. Storage texto ~MB/ano. Sem worker novo além de um job diário leve.
@@ -36,7 +35,7 @@ Para a home **não** acumular dezenas de cards, cada peça editorial do marketin
 |------|--------|
 | **Default de fábrica** | 4 dias (`SITE_CONTENT_TTL_DAYS=4`) — **ADMIN pode mudar** |
 | **Por lote / peça** | Campo “Visível no site por N dias” (ex.: 2 ou 6) ou Permanente |
-| **Escopo** | `news_items` (Novidades + `/novidades/{slug}`) e `economy_tips` (Educação Financeira) |
+| **Escopo** | `news_items` (Novidades + `/novidades/{slug}`) |
 | **Fora** | Radar (pipeline), RSS estático externo, leads, LinkedIn |
 
 ### Comportamento

@@ -57,7 +57,6 @@ Responsável por:
 - captação estruturada de leads comerciais (produto, dev sob demanda, customização, staffing)
 - autenticação e autorização, se existirem áreas privadas
 - histórico de eventos e novidades
-- **Educação Financeira curada:** tabela `economy_tips` (Flyway V6); ingestão via `POST /api/internal/economy-tips` (Sirius Marketing); leitura pública `GET /api/public/economy-tips`
 - APIs internas do ecossistema TRCon Site
 
 Arquitetura obrigatória: MVC modular monolith — controller / service / repository / mapper / VO / DTO / domain / shared. Detalhes completos em [05-BACKEND-ARQUITETURA-MVC.md](05-BACKEND-ARQUITETURA-MVC.md).

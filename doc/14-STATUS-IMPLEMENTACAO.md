@@ -23,7 +23,6 @@
 | `lead` | `POST /api/v1/site/leads` | — | V1 | IT + unit; e-mail Resend (falha não quebra 201) |
 | `highlights` | `GET /api/public/highlights` | `POST /api/internal/highlights` | V2, V5 | IT + unit (filtra editorial) |
 | `news` | `GET /api/public/news`, **`GET /api/public/news/{slug}`**, **`GET /novidades/{slug}` (HTML SSR)** | `POST /api/internal/news` (+ **`coverImageUrl`**) | V3, V4, V7, **V8** | IT + unit |
-| `economytips` | `GET /api/public/economy-tips` | `POST /api/internal/economy-tips` | V6 | IT |
 | `feeds` | **`GET /sitemap.xml`**, **`GET /feed/news.xml`** | — | — | IT |
 | `internal` (filtro) | — | `InternalApiKeyFilter` | — | IT |
 | mail | — | Resend via `trcon.site.mail.*` | — | unit + mock HTTP |
@@ -38,11 +37,12 @@
 | V3 | `news_items` |
 | V4 | `brand_slug`, `external_id` em news |
 | V5 | `external_id` em highlights |
-| V6 | `economy_tips` |
+| V6 | histórico: criação de `economy_tips` |
 | **V7** | `slug`, `body`, `meta_title`, `meta_description` em `news_items` |
 | **V8** | `cover_image_url` em `news_items` |
 | **V9** | `expires_at` em conteúdo |
 | **V10** | `chat_usage_logs` sem conteúdo das conversas |
+| **V11** | reservado para remoção de `economy_tips`, após backup explícito |
 
 ---
 
@@ -75,7 +75,7 @@
 | Fluxo | Endpoint site | Tipo marketing |
 |-------|---------------|----------------|
 | **Novidades** | `POST /api/internal/news` | `ARTICLE` |
-| Educação Financeira | `POST /api/internal/economy-tips` | `LANDING_PAGE`, `NEWSLETTER` |
+| Newsletter e landing page | — | permanecem somente no Sírius Marketing; não são enviadas ao site |
 | ~~Radar via marketing~~ | — | **Removido 27/07** — Radar = pipeline |
 
 **Highlights API** filtra itens editoriais (`/novidades/` ou `external_id` `-radar`) em `HighlightServiceImpl`.
@@ -88,7 +88,7 @@ Manual: [`18-MANUAL-MARKETING-EDITORIAL.md`](18-MANUAL-MARKETING-EDITORIAL.md).
 
 | Estado | Itens |
 |--------|-------|
-| **Feito** | Fases 0–7; S8.1–S8.7; **S8.5b** JSON-LD + HTML SSR; higiene SEO home (`robots.txt`, seções vazias); Desenho A; Radar ≠ Novidades; economy tips V6; produtos + contato; Resend; JaCoCo ≥ 80% |
+| **Feito** | Fases 0–7; S8.1–S8.7; **S8.5b** JSON-LD + HTML SSR; higiene SEO home (`robots.txt`, seções vazias); Desenho A; Radar ≠ Novidades; produtos + contato; Resend; JaCoCo ≥ 80% |
 | **Fazendo** | Revisão visual, configuração do chat e deploy do reposicionamento |
 | **A fazer** | Rate limit CF leads/interno; LGPD export/exclusão; staging; F9 consolidação legado |
 | **Melhorias** | CRM; alerta de orçamento do chat; **Desenho B (R2)**; E2E cross-stack |

@@ -197,10 +197,10 @@ Smoke test:
 GET https://api-site.trcongroup.com.br/actuator/health
 GET https://api-site.trcongroup.com.br/api/public/news
 GET https://api-site.trcongroup.com.br/api/public/highlights
-GET https://api-site.trcongroup.com.br/api/public/economy-tips
 ```
 
-Após redeploy com Flyway **V6 + V7**, validar `economy-tips` e `GET /api/public/news/{slug}` (200). Lista de economy-tips pode estar vazia até marketing publicar.
+Após o redeploy, validar `GET /api/public/news/{slug}` (200). Os endpoints de
+`economy-tips` foram retirados na Etapa 7 do reposicionamento.
 
 Com mail ligado, smoke: `POST /api/v1/site/leads` → 201 e e-mail em `TRCON_SITE_LEAD_NOTIFY_TO` (falha de Resend não deve quebrar o 201).
 
@@ -254,7 +254,6 @@ Antes do deploy, `frontend/assets/env.js`:
 window.TRCON_LEADS_API_URL        = 'https://api-site.trcongroup.com.br/api/v1/site/leads';
 window.TRCON_HIGHLIGHTS_API_URL   = 'https://api-site.trcongroup.com.br/api/public/highlights';
 window.TRCON_NEWS_API_URL         = 'https://api-site.trcongroup.com.br/api/public/news';
-window.TRCON_ECONOMY_TIPS_API_URL = 'https://api-site.trcongroup.com.br/api/public/economy-tips';
 ```
 
 Nenhum segredo no frontend.
@@ -335,16 +334,14 @@ Segurança:
 1. `GET https://api-site.trcongroup.com.br/actuator/health` retorna `{"status":"UP"}`.
 2. `GET https://api-site.trcongroup.com.br/api/public/highlights` retorna 200.
 3. `GET https://api-site.trcongroup.com.br/api/public/news` retorna 200.
-4. `GET https://api-site.trcongroup.com.br/api/public/economy-tips` retorna 200.
-5. Site abre em `https://trcongroup.com.br`.
-6. Página Conteúdo: Radar usa API com fallback `home-highlights.json`; Novidades
+4. Site abre em `https://trcongroup.com.br`.
+5. Página Conteúdo: Radar usa API com fallback `home-highlights.json`; Novidades
    usa somente a API institucional. A Home não exibe Educação Financeira.
-7. Formulário de contato envia lead e recebe 201.
-8. Reenvio do mesmo lead retorna 409.
-9. Se a API ficar indisponível, o site continua abrindo; Radar usa o JSON estático
+6. Formulário de contato envia lead e recebe 201.
+7. Reenvio do mesmo lead retorna 409.
+8. Se a API ficar indisponível, o site continua abrindo; Radar usa o JSON estático
    e Novidades fica oculta.
-10. Cloudflare não cacheia respostas de `/api/*`.
-11. *(Integração)* Aprovar `LANDING_PAGE` no marketing → item aparece em economy-tips.
+9. Cloudflare não cacheia respostas de `/api/*`.
 
 ## CI/CD
 
