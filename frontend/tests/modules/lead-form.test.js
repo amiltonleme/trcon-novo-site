@@ -10,18 +10,18 @@ describe('buildLeadPayload', () => {
   it('monta o payload no contrato do backend e limpa espaços', () => {
     const p = buildLeadPayload({
       nome: '  Ana  ',
-      email: ' ana@trcon.com.br ',
+      email: ' ana@trcongroup.com.br ',
       telefone: ' +55 11 90000-0000 ',
       tipoInteresse: 'ALOCACAO_MAO_DE_OBRA',
       mensagem: '  preciso de 2 devs  ',
     });
     expect(p).toEqual({
       nome: 'Ana',
-      email: 'ana@trcon.com.br',
+      email: 'ana@trcongroup.com.br',
       telefone: '+55 11 90000-0000',
       tipoInteresse: 'ALOCACAO_MAO_DE_OBRA',
       mensagem: 'preciso de 2 devs',
-      origem: 'site-trcon',
+      origem: 'site-trcongroup',
       consentimentoLgpd: true,
     });
   });
@@ -57,10 +57,13 @@ describe('buildLeadPayload', () => {
   });
 
   it('respeita origem customizada', () => {
-    const p = buildLeadPayload({ nome: 'X', email: 'x@y.com', telefone: '1' }, {
-      origem: 'site-trcon-servicos',
-    });
-    expect(p.origem).toBe('site-trcon-servicos');
+    const p = buildLeadPayload(
+      { nome: 'X', email: 'x@y.com', telefone: '1' },
+      {
+        origem: 'site-trcongroup-servicos',
+      },
+    );
+    expect(p.origem).toBe('site-trcongroup-servicos');
   });
 
   it('prefixa produtoLabel na mensagem quando informado', () => {
@@ -74,7 +77,7 @@ describe('buildLeadPayload', () => {
       },
       { produtoLabel: 'Sírius Hub de Inteligência Financeira', origem: 'site-trcon-hub' },
     );
-    expect(p.origem).toBe('site-trcon-hub');
+    expect(p.origem).toBe('site-trcongroup-hub');
     expect(p.mensagem).toBe('Produto: Sírius Hub de Inteligência Financeira\nquero testar');
   });
 
