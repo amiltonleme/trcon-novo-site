@@ -5,8 +5,8 @@
 // Funções puras de render (buildHighlightsHtml / buildNewsHtml) ficam isoladas
 // de DOM/rede para serem testáveis com Vitest.
 
-import { escapeHtml, safeUrl, localizeSiteHref } from './sanitize.js';
-import { isInternalArticleHref, resolveNewsHref } from './article.js';
+import { escapeHtml, safeUrl, localizeSiteHref } from './sanitize.js?v=6872001';
+import { isInternalArticleHref, resolveNewsHref } from './article.js?v=6872001';
 
 // Extrai a lista de itens do envelope canônico (ou do array puro).
 export function extractItems(payload) {

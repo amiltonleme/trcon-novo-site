@@ -1,7 +1,7 @@
-import { apiConfig } from './modules/config.js';
-import { buildLeadPayload, submitLead, mensagemDeErro } from './modules/lead-form.js';
-import { buildHighlightsHtml, buildNewsHtml, fetchInstitutionalNews, fetchRadarHighlights } from './modules/content.js';
-import { initChatWidget } from './modules/chat-widget.js';
+import { apiConfig } from './modules/config.js?v=6872001';
+import { buildLeadPayload, submitLead, mensagemDeErro } from './modules/lead-form.js?v=6872001';
+import { buildHighlightsHtml, buildNewsHtml, fetchInstitutionalNews, fetchRadarHighlights } from './modules/content.js?v=6872001';
+import { initChatWidget } from './modules/chat-widget.js?v=6872001';
 
 const LEADS_API_URL = apiConfig.leadsApiUrl;
 
@@ -403,10 +403,10 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
     }
 
     const dataStrings = [
-      'LOADING AI MODEL...', 'NEURAL NET V4.2', 'RISK ANALYSIS OK',
-      'API CONNECTED', 'DATA PIPELINE ACTIVE', 'ML TRAINING 98%',
-      'PORTFOLIO OPTIMIZED', 'LATENCY: 12ms', 'MARKET SIGNAL ON',
-      'SECURITY: AES-256', 'NODES: 12.408', 'UPTIME: 99.97%'
+      'ENGENHARIA DE SOFTWARE', 'INTELIGENCIA ARTIFICIAL', 'AUTOMACAO RESPONSAVEL',
+      'PRODUTOS DIGITAIS', 'DADOS COM PROPOSITO', 'DESENVOLVIMENTO SOB DEMANDA',
+      'CUSTOMIZACAO DE SISTEMAS', 'ARQUITETURA EVOLUTIVA', 'QUALIDADE CONTINUA',
+      'TIMES DE TECNOLOGIA', 'INTEGRACOES SEGURAS', 'SOLUCOES SOB MEDIDA'
     ];
 
     function spawnDataNode() {
