@@ -160,9 +160,6 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
     const submitBtn = document.getElementById('contatoSubmitBtn');
     if (submitBtn) submitBtn.textContent = ctx.submitLabel;
 
-    const usoField = document.getElementById('contatoUsoField');
-    if (usoField) usoField.hidden = !ctx.showUso;
-
     const tipo = leadType || ctx.leadType;
     preselectLeadType(tipo);
   }
