@@ -2,7 +2,7 @@
 
 Runbook canônico de produção do ecossistema TRCon.
 
-> **Status jul/2026:** backend site **no ar** (`api-site.*`). Frontend: redeploy + DNS `@`/`www` pendente.  
+> **Status 30/09/2026:** backend site **no ar** (`api-site.*`); a publicação da revisão atual, o backup anterior à V11 e o smoke pertencem à Etapa 9. Frontend: redeploy + DNS `@`/`www` pendente.
 > Matriz e pendências: [`14-STATUS-IMPLEMENTACAO.md`](./14-STATUS-IMPLEMENTACAO.md), [`16-PASSO-A-PASSO.md`](./16-PASSO-A-PASSO.md).
 
 Decisão oficial:
@@ -71,7 +71,7 @@ Regras:
 | Artefato | Papel atual |
 |---|---|
 | `backend/Dockerfile` | Imagem de produção do backend Spring Boot. Usar no Coolify. |
-| `frontend/` | Site estático + nginx; proxy `/novidades/` → backend (`SITE_API_UPSTREAM`) |
+| `frontend/` | Site estático + nginx; proxy `/api/` e `/novidades/` → backend (`SITE_API_UPSTREAM`) |
 | `frontend/assets/env.js` | URLs públicas da API — produção: `https://api-site.trcongroup.com.br/api/...` |
 | `frontend/robots.txt` | Política de crawlers do site institucional |
 | `frontend/_headers` | Headers herdados do fluxo Cloudflare Pages. Pode servir como referência para configurar headers no proxy/Coolify/Cloudflare. |
@@ -197,10 +197,14 @@ Smoke test:
 GET https://api-site.trcongroup.com.br/actuator/health
 GET https://api-site.trcongroup.com.br/api/public/news
 GET https://api-site.trcongroup.com.br/api/public/highlights
-GET https://api-site.trcongroup.com.br/api/public/economy-tips
 ```
 
-Após redeploy com Flyway **V6 + V7**, validar `economy-tips` e `GET /api/public/news/{slug}` (200). Lista de economy-tips pode estar vazia até marketing publicar.
+Após o redeploy, validar `GET /api/public/news/{slug}` (200). Os endpoints de
+`economy-tips` foram retirados na Etapa 7 do reposicionamento.
+
+A V11 está versionada, mas o deploy que a executar só pode ocorrer depois do
+backup, conferência de SHA-256, `pg_restore --list` e restauração isolada
+descritos no [plano de reposicionamento](22-PLANO-REPOSICIONAMENTO-LIMPEZA.md).
 
 Com mail ligado, smoke: `POST /api/v1/site/leads` → 201 e e-mail em `TRCON_SITE_LEAD_NOTIFY_TO` (falha de Resend não deve quebrar o 201).
 
@@ -227,6 +231,7 @@ Resposta esperada no health:
 
 O `Dockerfile` gera `nginx.conf` via `envsubst` (`nginx.conf.template` + `docker-entrypoint.sh`). Proxy:
 
+- `/api/*` → `$SITE_API_UPSTREAM` (APIs no mesmo domínio para previews do Coolify)
 - `/novidades/*` → `$SITE_API_UPSTREAM` (HTML SSR com SEO)
 - falha 502/503/504 → fallback `novidades.html` (CSR)
 
@@ -253,7 +258,6 @@ Antes do deploy, `frontend/assets/env.js`:
 window.TRCON_LEADS_API_URL        = 'https://api-site.trcongroup.com.br/api/v1/site/leads';
 window.TRCON_HIGHLIGHTS_API_URL   = 'https://api-site.trcongroup.com.br/api/public/highlights';
 window.TRCON_NEWS_API_URL         = 'https://api-site.trcongroup.com.br/api/public/news';
-window.TRCON_ECONOMY_TIPS_API_URL = 'https://api-site.trcongroup.com.br/api/public/economy-tips';
 ```
 
 Nenhum segredo no frontend.
@@ -334,14 +338,14 @@ Segurança:
 1. `GET https://api-site.trcongroup.com.br/actuator/health` retorna `{"status":"UP"}`.
 2. `GET https://api-site.trcongroup.com.br/api/public/highlights` retorna 200.
 3. `GET https://api-site.trcongroup.com.br/api/public/news` retorna 200.
-4. `GET https://api-site.trcongroup.com.br/api/public/economy-tips` retorna 200.
-5. Site abre em `https://trcongroup.com.br`.
-6. Home: seções Radar, Novidades e **Educação Financeira** (merge API + JSON RSS).
-7. Formulário de contato envia lead e recebe 201.
-8. Reenvio do mesmo lead retorna 409.
-9. Se a API ficar indisponível, a home continua abrindo com JSON estático.
-10. Cloudflare não cacheia respostas de `/api/*`.
-11. *(Integração)* Aprovar `LANDING_PAGE` no marketing → item aparece em economy-tips.
+4. Site abre em `https://trcongroup.com.br`.
+5. Página Conteúdo: Radar usa API com fallback `home-highlights.json`; Novidades
+   usa somente a API institucional. A Home não exibe Educação Financeira.
+6. Formulário de contato envia lead e recebe 201.
+7. Reenvio do mesmo lead retorna 409.
+8. Se a API ficar indisponível, o site continua abrindo; Radar usa o JSON estático
+   e Novidades fica oculta.
+9. Cloudflare não cacheia respostas de `/api/*`.
 
 ## CI/CD
 

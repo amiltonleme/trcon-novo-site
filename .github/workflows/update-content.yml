@@ -32,18 +32,6 @@ jobs:
 
       # Cada script tem responsabilidade unica (SRP). Se um cair, os demais
       # continuam — a degradacao é tratada dentro de cada script.
-      - name: Atualizar mercado
-        run: python scripts/update_market.py
-        continue-on-error: true
-
-      - name: Atualizar Educacao Financeira (RSS + fallback)
-        run: python scripts/update_economy_tips.py
-        continue-on-error: true
-
-      - name: Atualizar receitas economicas
-        run: python scripts/update_daily_content.py
-        continue-on-error: true
-
       - name: Atualizar Radar IA
         run: python scripts/update_ai_radar.py
         continue-on-error: true
@@ -52,7 +40,7 @@ jobs:
         run: python scripts/update_tech_radar.py
         continue-on-error: true
 
-      - name: Consolidar payload da home (highlights + news-log)
+      - name: Consolidar destaques do Radar
         run: python scripts/build_home_payload.py
         continue-on-error: true
 

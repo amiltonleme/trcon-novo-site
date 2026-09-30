@@ -6,8 +6,8 @@ import {
   videoEmbedSrc,
   isHtmlArticleBody,
   sanitizeArticleHtml,
-} from './sanitize.js';
-import { resolveApiConfig } from './config.js';
+} from './sanitize.js?v=6872001';
+import { resolveApiConfig } from './config.js?v=6872001';
 
 export function parseArticleSlug(pathname = '') {
   const match = String(pathname).match(/\/novidades\/([^/?#]+)/);

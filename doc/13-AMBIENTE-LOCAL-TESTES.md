@@ -3,12 +3,17 @@
 Guia prático para abrir o projeto, subir o ambiente local e validar frontend,
 backend e integração ponta a ponta.
 
+> Atualizado em **30/09/2026**. O ambiente atual contém leads, Radar, Novidades,
+> feed/sitemap e assistente institucional. O antigo módulo financeiro do site foi
+> retirado; V6 e V9 permanecem somente no histórico do Flyway e a V11 integra a
+> cadeia de migrations.
+
 ## Abrindo no IntelliJ
 
 Abra a pasta raiz do projeto:
 
 ```text
-C:\projetos-al\trcongroup\site
+C:\Trcongroup\projetos\site
 ```
 
 Não é necessário abrir duas instâncias do IntelliJ. O ideal é abrir uma única
@@ -22,7 +27,7 @@ janela com a raiz `site`, porque ela contém:
 No IntelliJ:
 
 1. `File -> Open`.
-2. Selecione `C:\projetos-al\trcongroup\site`.
+2. Selecione `C:\Trcongroup\projetos\site`.
 3. Confirme abrir como projeto.
 4. Aguarde o IntelliJ importar o Maven do `backend/pom.xml`.
 5. Configure SDK Java 21 para o projeto/backend.
@@ -50,7 +55,7 @@ Desktop recente, veja a nota em [infra/README.md](../infra/README.md).
 Essa opção sobe backend e PostgreSQL em containers.
 
 ```powershell
-cd C:\projetos-al\trcongroup\site\infra
+cd C:\Trcongroup\projetos\site\infra
 docker compose up -d --build
 ```
 
@@ -63,7 +68,7 @@ Serviços:
 | Health | `http://localhost:8081/actuator/health` |
 | API Novidades | `http://localhost:8081/api/public/news` |
 | API Radar (highlights) | `http://localhost:8081/api/public/highlights` |
-| API Educação Financeira | `http://localhost:8081/api/public/economy-tips` |
+| API Chat institucional | `POST http://localhost:8081/api/v1/site/chat` |
 | PostgreSQL | `localhost:5434` (se `5432` ocupada) ou `5432` |
 
 Banco local padrão:
@@ -77,7 +82,7 @@ Banco local padrão:
 Para usar outra porta no backend:
 
 ```powershell
-cd C:\projetos-al\trcongroup\site\infra
+cd C:\Trcongroup\projetos\site\infra
 $env:BACKEND_PORT="8081"
 docker compose up -d --build
 ```
@@ -85,14 +90,14 @@ docker compose up -d --build
 Parar o ambiente mantendo volume do banco:
 
 ```powershell
-cd C:\projetos-al\trcongroup\site\infra
+cd C:\Trcongroup\projetos\site\infra
 docker compose down
 ```
 
 Parar e apagar o volume do banco local:
 
 ```powershell
-cd C:\projetos-al\trcongroup\site\infra
+cd C:\Trcongroup\projetos\site\infra
 docker compose down -v
 ```
 
@@ -101,7 +106,7 @@ docker compose down -v
 Em outro terminal:
 
 ```powershell
-cd C:\projetos-al\trcongroup\site\frontend
+cd C:\Trcongroup\projetos\site\frontend
 npm install
 npm run dev
 ```
@@ -122,16 +127,16 @@ já aponta para `:8081`:
 window.TRCON_LEADS_API_URL = 'http://localhost:8081/api/v1/site/leads';
 window.TRCON_HIGHLIGHTS_API_URL = 'http://localhost:8081/api/public/highlights';
 window.TRCON_NEWS_API_URL = 'http://localhost:8081/api/public/news';
-window.TRCON_ECONOMY_TIPS_API_URL = 'http://localhost:8081/api/public/economy-tips';
+window.TRCON_CHAT_API_URL = 'http://localhost:8081/api/v1/site/chat';
 ```
 
-### Radar TRCONGROUP vs Novidades vs Educação Financeira
+### Radar TRCONGROUP, Novidades e Chat
 
 | Seção na home | API | Conteúdo | Layout |
 |---|---|---|---|
 | **Radar TRCONGROUP** | `/api/public/highlights` | Sinais IA/tecnologia (pipeline JSON 2×/dia). API **exclui** artigos marketing (`/novidades/`, `-radar`). Fallback `home-highlights.json`. | `cards-grid` |
-| **Novidades TRCONGROUP** | `/api/public/news` | Artigos Sirius Marketing (`news_items`). Link → `/novidades/{slug}`. | `cards-grid` |
-| **Educação Financeira** | `/api/public/economy-tips` + JSON | Merge: marketing prioridade; RSS preenche até 4 cards | `insights-grid` |
+| **Novidades TRCONGROUP** | `/api/public/news` | Artigos institucionais (`news_items`). Link → `/novidades/{slug}`; sem fallback dos radares, bloco oculto se API vazia/offline. | `cards-grid` |
+| **Chat institucional** | `POST /api/v1/site/chat` | Base factual autorizada; profile `dev` usa stub sem custo | Widget flutuante |
 
 **Não são o mesmo feed.** Artigos aprovados vão **somente** a Novidades (correção 27/07/2026).
 
@@ -144,7 +149,7 @@ Use esta opção quando quiser debugar o backend dentro do IntelliJ.
 1. Suba apenas o banco local:
 
 ```powershell
-cd C:\projetos-al\trcongroup\site\infra
+cd C:\Trcongroup\projetos\site\infra
 docker compose up -d postgres
 ```
 
@@ -181,7 +186,7 @@ Se a porta `5432` estiver ocupada por outro projeto, defina `DB_PORT` ou `DB_URL
 Rodar todos os testes e gate de cobertura:
 
 ```powershell
-cd C:\projetos-al\trcongroup\site\backend
+cd C:\Trcongroup\projetos\site\backend
 .\mvnw.cmd clean verify
 ```
 
@@ -202,14 +207,14 @@ backend\target\site\jacoco\index.html
 Rodar só os testes, sem o gate completo:
 
 ```powershell
-cd C:\projetos-al\trcongroup\site\backend
+cd C:\Trcongroup\projetos\site\backend
 .\mvnw.cmd test
 ```
 
 ## Testes do frontend
 
 ```powershell
-cd C:\projetos-al\trcongroup\site\frontend
+cd C:\Trcongroup\projetos\site\frontend
 npm install
 npm test
 ```
@@ -217,14 +222,14 @@ npm test
 Lint:
 
 ```powershell
-cd C:\projetos-al\trcongroup\site\frontend
+cd C:\Trcongroup\projetos\site\frontend
 npm run lint
 ```
 
 Watch mode durante desenvolvimento:
 
 ```powershell
-cd C:\projetos-al\trcongroup\site\frontend
+cd C:\Trcongroup\projetos\site\frontend
 npm run test:watch
 ```
 
@@ -233,7 +238,7 @@ npm run test:watch
 Os scripts Python do frontend possuem testes com `unittest`.
 
 ```powershell
-cd C:\projetos-al\trcongroup\site\frontend
+cd C:\Trcongroup\projetos\site\frontend
 python -m unittest discover scripts/tests
 ```
 
@@ -251,8 +256,8 @@ Com backend e frontend rodando:
 3. Abrir `http://localhost:8081/api/public/highlights` (Radar — sinais pipeline; **não** inclui artigos marketing).
 4. Abrir `http://localhost:8081/api/public/news` (Novidades — artigos aprovados).
 5. Abrir `http://localhost:8081/api/public/news/{slug}` — artigo completo (S8).
-6. Abrir `http://localhost:8081/api/public/economy-tips` (Educação Financeira).
-7. Abrir `http://127.0.0.1:4173` — Radar, Novidades (cards-grid) e Educação Financeira.
+6. Enviar uma pergunta a `POST http://localhost:8081/api/v1/site/chat` e conferir `sourceIds`.
+7. Abrir `http://127.0.0.1:4173` — Home tecnológica, Radar, Novidades, Trabalhe Conosco e widget de IA.
 8. Enviar o formulário de contato.
 8. Esperar HTTP 201 no primeiro envio.
 9. Reenviar o mesmo lead e esperar HTTP 409.
@@ -311,11 +316,15 @@ PostgreSQL com:
 |---|---|---|
 | `Failed to determine a suitable driver class` ao iniciar o backend | backend iniciou sem profile ativo | profile **`dev`** (default) ou Active profiles = `dev` |
 | `FATAL: autenticação do tipo senha falhou` | Postgres de outro projeto ou credenciais erradas | conferir porta (`5434`); `DB_URL=...5434/trcon_site` |
-| `localhost:8081` não abre | backend não subiu ou porta ocupada | marketing usa `:8080`; site deve usar `:8081` |
+| `localhost:8081` não abre | backend não subiu ou porta ocupada | verificar `Get-NetTCPConnection -State Listen` e iniciar o site em `:8081` |
+| `Failed to start bean 'webServerStartStop'` | outra instância já ocupa a porta 8081 | localizar `OwningProcess`, conferir com `Get-Process` e encerrar somente a instância anterior reconhecida |
+| `No default constructor found` em bean do chat | build anterior à correção de wiring | atualizar o código e recompilar; `ChatWiringTest` cobre `ChatRateLimiter` e `DeepSeekChatClient` |
+| Chat retorna 503 no ambiente local | profile `dev` não está ativo ou variáveis sobrescreveram o stub | usar profile `dev`; remover override `TRCON_SITE_CHAT_ENABLED=false`/`TRCON_SITE_CHAT_STUB_ENABLED=false` |
 | Radar vazio, Novidades ok | API só tinha highlights legados (artigos) ou pipeline não ingerido | esperado após 27/07: Radar usa JSON pipeline; conferir `fetchRadarHighlights` e `GET /api/public/highlights` |
 | Novidades vazia, Radar ok | site backend off ou `env.js` apontando prod | `env.js` → `localhost:8081`; marketing publicou? `GET /api/public/news` |
 | Artigo duplicado Radar + Novidades | deploy antigo (pré-27/07) | redeploy marketing + site; highlights legados filtrados na API |
 | Frontend abre, mas formulário não envia | `env.js` ou CORS | conferir `TRCON_CORS_ALLOWED_ORIGINS` e URLs em `env.js` |
+| Preview do Coolify tenta acessar `localhost:8081` | deploy anterior à resolução de hosts remotos | redeploy do frontend; configurar `SITE_API_UPSTREAM` para o backend dev; o preview passa a usar `/api/*` na própria origem |
 | `npm test` falha por dependência ausente | `node_modules` não instalado | rodar `npm install` em `frontend/` |
 | Backend falha por banco indisponível | PostgreSQL local não está pronto | aguardar health do container ou recriar com `docker compose up -d postgres` |
 
@@ -324,7 +333,7 @@ PostgreSQL com:
 Subir tudo:
 
 ```powershell
-cd C:\projetos-al\trcongroup\site\infra
+cd C:\Trcongroup\projetos\site\infra
 docker compose up -d --build
 cd ..\frontend
 npm install
@@ -334,7 +343,7 @@ npm run dev
 Validar tudo:
 
 ```powershell
-cd C:\projetos-al\trcongroup\site\backend
+cd C:\Trcongroup\projetos\site\backend
 .\mvnw.cmd clean verify
 cd ..\frontend
 npm test

@@ -4,6 +4,7 @@
 |---------|-----|
 | `trcon-mark.svg` | Monograma hex **TR** (nav, favicon, overlay de capa) |
 | `trcon-lockup.svg` | Mark + wordmark **TR**ouro + **CONGROUP**branco |
+| `technology-icons.svg` | Sprite vetorial de ícones para capacidades, ofertas e carreiras |
 
 Regras:
 

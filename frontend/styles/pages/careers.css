@@ -1,0 +1,133 @@
+/* ══════════════════════════════
+   TRABALHE CONOSCO
+══════════════════════════════ */
+.career-culture {
+  background:
+    radial-gradient(circle at 88% 18%, rgba(0, 151, 255, 0.08), transparent 28%),
+    var(--bg2);
+}
+
+.career-principles {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.career-principle {
+  min-height: 250px;
+  padding: 28px;
+  background: rgba(10, 17, 32, 0.76);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.career-principle-number {
+  display: block;
+  margin-bottom: 42px;
+  color: var(--accent);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+}
+
+.career-principle h2 {
+  margin-bottom: 12px;
+  font-family: 'Syne', sans-serif;
+  font-size: 1.05rem;
+}
+
+.career-principle p {
+  color: var(--text2);
+  font-size: 0.88rem;
+  font-weight: 300;
+  line-height: 1.65;
+}
+
+.career-openings {
+  margin: 0;
+}
+
+.career-faq {
+  background: var(--bg2);
+}
+
+.career-faq-list {
+  max-width: 860px;
+  margin-top: 40px;
+  border-top: 1px solid var(--border);
+}
+
+.career-faq details {
+  border-bottom: 1px solid var(--border);
+}
+
+.career-faq summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 24px 0;
+  color: var(--text);
+  font-family: 'Syne', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  list-style: none;
+}
+
+.career-faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.career-faq summary::after {
+  content: '+';
+  flex: 0 0 auto;
+  color: var(--accent);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.career-faq details[open] summary::after {
+  content: '−';
+}
+
+.career-faq summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 6px;
+  border-radius: 2px;
+}
+
+.career-faq details p {
+  max-width: 720px;
+  padding: 0 48px 24px 0;
+  color: var(--text2);
+  font-size: 0.92rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+@media (max-width: 1024px) {
+  .career-principles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .career-principles {
+    grid-template-columns: 1fr;
+  }
+
+  .career-principle {
+    min-height: 0;
+  }
+
+  .career-principle-number {
+    margin-bottom: 24px;
+  }
+
+  .career-faq summary {
+    padding: 20px 0;
+  }
+}

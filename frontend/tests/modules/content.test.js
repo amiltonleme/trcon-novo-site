@@ -2,11 +2,10 @@ import { describe, it, expect, vi } from 'vitest';
 import {
   extractItems,
   fetchWithFallback,
+  fetchInstitutionalNews,
   buildHighlightsHtml,
   buildNewsHtml,
-  loadEconomyTips,
   filterRadarDuplicates,
-  isEditorialHighlight,
   fetchRadarHighlights,
 } from '../../assets/modules/content.js';
 
@@ -82,34 +81,25 @@ describe('fetchWithFallback', () => {
   });
 });
 
-describe('loadEconomyTips', () => {
-  it('prioriza API e completa com JSON', async () => {
-    const fetchImpl = vi
-      .fn()
-      .mockResolvedValueOnce({
-        ok: true,
-        json: () =>
-          Promise.resolve({
-            disclaimer: 'Conteudo educacional.',
-            items: [{ title: 'Dica marketing' }],
-          }),
-      })
-      .mockResolvedValueOnce({
-        ok: true,
-        json: () =>
-          Promise.resolve({
-            disclaimer: 'Conteudo educacional.',
-            items: [{ title: 'Dica RSS' }, { title: 'Outra RSS' }],
-          }),
-      });
-    const res = await loadEconomyTips('http://api/economy-tips', 'data/economy-tips.json', 3, {
-      fetch: fetchImpl,
-    });
-    expect(res.source).toBe('api+json');
-    expect(res.items).toHaveLength(3);
-    expect(res.items[0].title).toBe('Dica marketing');
-    expect(res.items[0].featured).toBe(true);
-    expect(res.disclaimer).toContain('educacional');
+describe('fetchInstitutionalNews', () => {
+  it('retorna somente itens da API institucional', async () => {
+    const fetchImpl = vi.fn().mockResolvedValue(ok({ items: [{ title: 'Comunicado TRCON' }] }));
+    const items = await fetchInstitutionalNews('http://api/news', { fetch: fetchImpl });
+    expect(items).toEqual([{ title: 'Comunicado TRCON' }]);
+    expect(fetchImpl).toHaveBeenCalledTimes(1);
+  });
+
+  it('não tenta fallback externo quando a API falha', async () => {
+    const fetchImpl = vi.fn().mockResolvedValue(fail(503));
+    await expect(fetchInstitutionalNews('http://api/news', { fetch: fetchImpl }))
+      .rejects.toThrow(/Novidades indisponíveis/);
+    expect(fetchImpl).toHaveBeenCalledTimes(1);
+  });
+
+  it('retorna lista vazia quando não há endpoint configurado', async () => {
+    const fetchImpl = vi.fn();
+    await expect(fetchInstitutionalNews('', { fetch: fetchImpl })).resolves.toEqual([]);
+    expect(fetchImpl).not.toHaveBeenCalled();
   });
 });
 

@@ -17,15 +17,10 @@ scripts/
     rss_provider.py  # RssProvider: agrega feeds, tolera falhas, dedup
   builders/
     radar_builder.py # build_radar(provider, config) -> payload do radar
-    home_builder.py  # build_home_highlights / build_news_log (shape = contratos do backend)
+    home_builder.py  # build_home_highlights (shape = contrato do backend)
   update_ai_radar.py       # -> data/ai-radar.json
   update_tech_radar.py     # -> data/tech-radar.json
-  update_economy_tips.py   # -> data/economy-tips.json (RSS + catalogo estatico)
-  build_home_payload.py    # -> data/home-highlights.json, data/news-log.json
-  update_market.py         # (existente) -> data/market.json
-  update_daily_content.py  # -> data/recipes.json
-  catalog/
-    economy_tips_fallback.py  # dicas estaticas quando RSS falha ou complementa
+  build_home_payload.py    # -> data/home-highlights.json
   tests/
     test_pipeline.py       # unittest (stdlib), sem rede
 ```
@@ -44,16 +39,16 @@ provider recebe o `fetcher` por injeção.
 ## Contrato de saída
 
 Todo artefato tem o envelope: `generated_at`, `source_note`, `errors`, `items`.
-`home-highlights.json` e `news-log.json` usam o **mesmo shape (camelCase) dos
-contratos do backend** (`HighlightResponse` / `NewsItemResponse`), para que a
-home consuma JSON ou API sem diferença (Fase 7 — doc/07-MIGRACAO-PARALELA.md).
+`home-highlights.json` usa o **mesmo shape (camelCase) do contrato do backend**
+(`HighlightResponse`), para que o Radar consuma JSON ou API sem diferença.
+Novidades usa somente a API institucional e fica oculta quando ela está vazia ou
+indisponível; notícias dos radares não são convertidas em conteúdo institucional.
 
 ## Rodar localmente
 
 ```bash
 python scripts/update_ai_radar.py
 python scripts/update_tech_radar.py
-python scripts/update_economy_tips.py
 python scripts/build_home_payload.py
 ```
 
@@ -74,20 +69,5 @@ publicar vazio. O site nunca quebra por falha de feed externo
 
 `update-content.yml` (em `../.github/workflows/`) roda o pipeline **2x/dia**
 (08:00 e 20:00 UTC) e commita apenas `frontend/data/*.json`.
-
-## Integração Sirius Marketing (Educação Financeira)
-
-Conteúdos **`LANDING_PAGE`** e **`NEWSLETTER`** aprovados no marketing publicam via
-`POST /api/internal/economy-tips` (X-API-Key). Na home, `loadEconomyTips()` em
-`assets/modules/content.js` **prioriza a API** e completa com itens do JSON RSS até
-4 cards. Config prod: `TRCON_ECONOMY_TIPS_API_URL` em `env.js`.
-
-**Fluxo:**
-
-```text
-RSS (CI) → economy-tips.json ──┐
-                               ├── Home (merge, disclaimer)
-Marketing approve → Neon API ──┘
-```
 
 Ver também: `doc/02-ARQUITETURA-CANONICA.md` e runbook marketing `docs/cursor/09_deploy_producao.md`.

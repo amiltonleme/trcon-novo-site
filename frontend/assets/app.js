@@ -1,30 +1,22 @@
-import { apiConfig } from './modules/config.js';
-import {
-  changeClass,
-  escapeHtml,
-  localizeSiteHref,
-  safeClass,
-  safeCssColor,
-  safeGradient,
-  safePercent,
-  safeUrl,
-} from './modules/sanitize.js';
-import { buildLeadPayload, submitLead, mensagemDeErro } from './modules/lead-form.js';
-import { fetchWithFallback, buildHighlightsHtml, buildNewsHtml, loadEconomyTips, fetchRadarHighlights } from './modules/content.js';
+import { apiConfig } from './modules/config.js?v=6872001';
+import { buildLeadPayload, submitLead, mensagemDeErro } from './modules/lead-form.js?v=6872001';
+import { buildHighlightsHtml, buildNewsHtml, fetchInstitutionalNews, fetchRadarHighlights } from './modules/content.js?v=6872001';
+import { initChatWidget } from './modules/chat-widget.js?v=6872001';
 
 const LEADS_API_URL = apiConfig.leadsApiUrl;
 
   const LEAD_CONTEXTS = {
     hub: {
-      label: 'Convite para o Beta',
-      title: 'Confirme sua vaga no Sírius Hub',
-      copy: '90 dias de acesso completo, sem cartão de crédito. Preencha seus dados para confirmarmos sua vaga por e-mail.',
-      note: 'Beta fechado, vagas limitadas. Nenhuma cobrança é feita agora nem ao final dos 90 dias sem o seu aceite explícito.',
+      label: 'Produto em beta',
+      title: 'Registre seu interesse no Sírius Hub',
+      copy: 'Preencha seus dados para receber informações sobre a disponibilidade do beta.',
+      note: 'O cadastro não garante acesso nem define condições comerciais. Esses detalhes serão informados antes de qualquer contratação.',
       leadType: 'PRODUTO',
-      origem: 'site-trcon-hub',
+      origem: 'site-trcongroup-hub',
       produtoLabel: 'Sírius Hub de Inteligência Financeira',
-      submitLabel: 'Confirmar minha vaga',
-      successCopy: 'Vaga solicitada! Você vai receber um e-mail confirmando o acesso e a data exata do seu beta de 90 dias.',
+      submitLabel: 'Registrar interesse',
+      successCopy:
+        'Interesse registrado. Entraremos em contato quando houver informações sobre a disponibilidade do beta.',
       showUso: true,
     },
     agendamento: {
@@ -33,10 +25,11 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
       copy: 'Cadastre seu interesse no assistente de agendamento autônomo. Avisaremos quando abrirmos testes guiados.',
       note: 'Produto em desenvolvimento — WhatsApp, agenda, confirmações e lembretes.',
       leadType: 'PRODUTO',
-      origem: 'site-trcon-agendamento',
+      origem: 'site-trcongroup-agendamento',
       produtoLabel: 'Sírius Agendamento',
       submitLabel: 'Quero ser avisado',
-      successCopy: 'Interesse registrado. Avisaremos quando o Sírius Agendamento estiver disponível para testes.',
+      successCopy:
+        'Interesse registrado. Avisaremos quando o Sírius Agendamento estiver disponível para testes.',
       showUso: false,
     },
     marketing: {
@@ -45,10 +38,11 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
       copy: 'Cadastre seu interesse na plataforma de conteúdo, aprovação e publicação. Avisaremos no acesso antecipado.',
       note: 'Produto em desenvolvimento — editorial, calendário, site e redes sociais.',
       leadType: 'PRODUTO',
-      origem: 'site-trcon-marketing',
+      origem: 'site-trcongroup-marketing',
       produtoLabel: 'Sírius Marketing',
       submitLabel: 'Quero ser avisado',
-      successCopy: 'Interesse registrado. Avisaremos quando o Sírius Marketing estiver disponível para testes.',
+      successCopy:
+        'Interesse registrado. Avisaremos quando o Sírius Marketing estiver disponível para testes.',
       showUso: false,
     },
     servicos: {
@@ -57,10 +51,59 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
       copy: 'Conte o que você precisa — projeto sob demanda, customização ou alocação de time — e retornamos com o melhor caminho.',
       note: 'Atendimento comercial da TRCONGROUP. Sem compromisso de waitlist de produto.',
       leadType: 'ALOCACAO_MAO_DE_OBRA',
-      origem: 'site-trcon-servicos',
+      origem: 'site-trcongroup-servicos',
       produtoLabel: '',
       submitLabel: 'Enviar mensagem',
       successCopy: 'Mensagem recebida. Em breve entraremos em contato.',
+      showUso: false,
+    },
+    ia: {
+      label: 'Diagnóstico de IA',
+      title: 'Onde a IA pode gerar valor?',
+      copy: 'Conte o processo, gargalo ou ideia que você quer avaliar. Vamos analisar o contexto e indicar um próximo passo viável.',
+      note: 'Conversa inicial com foco em aplicação prática, dados necessários, integrações e limites da solução.',
+      leadType: 'DESENVOLVIMENTO_SOB_DEMANDA',
+      origem: 'site-trcongroup-diagnostico-ia',
+      produtoLabel: '',
+      submitLabel: 'Solicitar diagnóstico',
+      successCopy: 'Solicitação recebida. Em breve entraremos em contato para entender o contexto.',
+      showUso: false,
+    },
+    mvp: {
+      label: 'MVP ou produto sob demanda',
+      title: 'Fale sobre o produto que precisa construir',
+      copy: 'Conte a oportunidade, operação ou ideia que precisa virar software. Vamos entender o contexto e estruturar o próximo passo.',
+      note: 'A conversa inicial orienta escopo, riscos, marcos e o formato de contratação mais adequado.',
+      leadType: 'DESENVOLVIMENTO_SOB_DEMANDA',
+      origem: 'site-trcongroup-oferta-mvp',
+      produtoLabel: '',
+      submitLabel: 'Falar sobre um projeto',
+      successCopy: 'Mensagem recebida. Entraremos em contato para entender o contexto do projeto.',
+      showUso: false,
+    },
+    modernizacao: {
+      label: 'Modernização e customização',
+      title: 'Evolua seu sistema com segurança',
+      copy: 'Descreva o sistema, a limitação atual e a mudança que sua operação precisa.',
+      note: 'A proposta é preparada depois de entendermos ambiente, prioridades, integrações e riscos de transição.',
+      leadType: 'CUSTOMIZACAO',
+      origem: 'site-trcongroup-oferta-modernizacao',
+      produtoLabel: '',
+      submitLabel: 'Receber uma proposta',
+      successCopy: 'Mensagem recebida. Entraremos em contato para entender a evolução necessária.',
+      showUso: false,
+    },
+    outsourcing: {
+      label: 'Outsourcing e squads',
+      title: 'Monte a capacidade que seu time precisa',
+      copy: 'Conte a frente de trabalho, as competências necessárias e como o novo time deve se integrar à operação.',
+      note: 'Perfil, composição, responsabilidades, período e capacidade são definidos na proposta.',
+      leadType: 'ALOCACAO_MAO_DE_OBRA',
+      origem: 'site-trcongroup-oferta-outsourcing',
+      produtoLabel: '',
+      submitLabel: 'Montar meu time',
+      successCopy:
+        'Mensagem recebida. Entraremos em contato para entender a composição necessária.',
       showUso: false,
     },
     default: {
@@ -69,7 +112,7 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
       copy: 'Preencha o formulário. Usamos seus dados apenas para retornar o contato comercial.',
       note: 'Escolha o tipo de interesse e descreva brevemente o que você precisa.',
       leadType: 'PRODUTO',
-      origem: 'site-trcon',
+      origem: 'site-trcongroup',
       produtoLabel: '',
       submitLabel: 'Enviar mensagem',
       successCopy: 'Seus dados foram enviados. Logo entraremos em contato.',
@@ -95,7 +138,6 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
   }
 
   // MOBILE NAV
-  function openMobile() { document.getElementById('mobileNav').classList.add('open'); }
   function closeMobile() { document.getElementById('mobileNav').classList.remove('open'); }
   function toggleMobile() { document.getElementById('mobileNav').classList.toggle('open'); }
 
@@ -259,8 +301,6 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
       height = Math.max(420, Math.floor(rect.height));
       canvas.width = Math.floor(width * ratio);
       canvas.height = Math.floor(height * ratio);
-      canvas.style.width = width + 'px';
-      canvas.style.height = height + 'px';
       ctx.setTransform(ratio, 0, 0, ratio, 0, 0);
       const targetCount = Math.min(115, Math.max(42, Math.floor((width * height) / 14500)));
       nodes = Array.from({ length: targetCount }, () => new HeroNode(true));
@@ -367,10 +407,10 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
     }
 
     const dataStrings = [
-      'LOADING AI MODEL...', 'NEURAL NET V4.2', 'RISK ANALYSIS OK',
-      'API CONNECTED', 'DATA PIPELINE ACTIVE', 'ML TRAINING 98%',
-      'PORTFOLIO OPTIMIZED', 'LATENCY: 12ms', 'MARKET SIGNAL ON',
-      'SECURITY: AES-256', 'NODES: 12.408', 'UPTIME: 99.97%'
+      'ENGENHARIA DE SOFTWARE', 'INTELIGENCIA ARTIFICIAL', 'AUTOMACAO RESPONSAVEL',
+      'PRODUTOS DIGITAIS', 'DADOS COM PROPOSITO', 'DESENVOLVIMENTO SOB DEMANDA',
+      'CUSTOMIZACAO DE SISTEMAS', 'ARQUITETURA EVOLUTIVA', 'QUALIDADE CONTINUA',
+      'TIMES DE TECNOLOGIA', 'INTEGRACOES SEGURAS', 'SOLUCOES SOB MEDIDA'
     ];
 
     function spawnDataNode() {
@@ -378,9 +418,9 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
       const duration = 8 + Math.random() * 7;
       el.className = 'tr-data-node';
       el.textContent = dataStrings[Math.floor(Math.random() * dataStrings.length)];
-      el.style.left = Math.random() * 86 + 7 + '%';
-      el.style.bottom = Math.random() * 28 + 12 + '%';
-      el.style.animationDuration = duration + 's';
+      el.style.setProperty('--node-left', Math.random() * 86 + 7 + '%');
+      el.style.setProperty('--node-bottom', Math.random() * 28 + 12 + '%');
+      el.style.setProperty('--node-duration', duration + 's');
       hero.appendChild(el);
       setTimeout(() => el.remove(), duration * 1000);
     }
@@ -477,8 +517,6 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
         height = Math.max(360, Math.floor(rect.height));
         canvas.width = Math.floor(width * ratio);
         canvas.height = Math.floor(height * ratio);
-        canvas.style.width = width + 'px';
-        canvas.style.height = height + 'px';
         ctx.setTransform(ratio, 0, 0, ratio, 0, 0);
         const targetCount = Math.min(72, Math.max(30, Math.floor((width * height) / 23000)));
         nodes = Array.from({ length: targetCount }, () => new SubpageNode(true));
@@ -562,232 +600,38 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
     });
   }
 
-  async function loadJson(path) {
-    const response = await fetch(path, { cache: 'no-store' });
-    if (!response.ok) throw new Error('Falha ao carregar ' + path);
-    return response.json();
-  }
-
-  // changeClass, escapeHtml, safeClass, safeUrl, safePercent, safeCssColor e
-  // safeGradient agora vivem em ./modules/sanitize.js (funções puras, testadas
-  // com Vitest). Ver doc/03-FRONTEND-STACK-CANONICA.md.
-
-  function isInternalSitePath(href) {
-    if (!href) return false;
-    if (href.startsWith('/')) return true;
-    try {
-      const url = new URL(href);
-      return url.pathname.startsWith('/novidades/');
-    } catch {
-      return false;
-    }
-  }
-
-  function renderContentLink(item, fallbackLabel) {
-    const href = localizeSiteHref(safeUrl(item.url));
-    if (!href || href === '/') {
-      return '';
-    }
-    const label = item.link_label || fallbackLabel;
-    const internal = isInternalSitePath(href);
-    const targetAttrs = internal ? '' : ' target="_blank" rel="noopener noreferrer"';
-    return `<a class="content-link" href="${escapeHtml(href)}"${targetAttrs}>${escapeHtml(label)} →</a>`;
-  }
-
-  function renderTicker(items) {
-    const ticker = document.getElementById('ticker');
-    if (!ticker) return;
-    if (!items || !items.length) {
-      ticker.innerHTML = '';
-      ticker.setAttribute('aria-hidden', 'true');
-      return;
-    }
-    const doubled = items.concat(items);
-    ticker.innerHTML = doubled.map(item => `
-      <div class="ticker-item">
-        <span class="sym">${escapeHtml(item.symbol)}</span>
-        <span class="val">${escapeHtml(item.value)}</span>
-        <span class="${changeClass(item.direction)}">${escapeHtml(item.change)}</span>
-      </div>
-    `).join('');
-    ticker.removeAttribute('aria-hidden');
-  }
-
-  function setHomeContentBlockVisible(blockId, visible) {
+  function setPublishedContentBlockVisible(blockId, visible) {
     const block = document.getElementById(blockId);
     if (!block) return;
     block.hidden = !visible;
   }
 
-  function renderMarket(data) {
-    const rows = document.getElementById('marketRows');
-    if (!rows) return;
-
-    rows.removeAttribute('aria-busy');
-    if (!data.assets || !data.assets.length) {
-      rows.innerHTML = '';
-    } else {
-      rows.innerHTML = data.assets.map(asset => {
-        const arrow = asset.direction === 'up' ? '▲ ' : asset.direction === 'down' ? '▼ ' : '';
-        const color = asset.direction === 'up' ? 'var(--green)' : asset.direction === 'down' ? 'var(--red)' : 'var(--text3)';
-        return `
-          <tr>
-            <td class="asset-name">${escapeHtml(asset.icon)} ${escapeHtml(asset.name)}</td>
-            <td>${escapeHtml(asset.quote)}</td>
-            <td style="color:${color}">${arrow}${escapeHtml(asset.change)}</td>
-            <td><span class="rec ${safeClass(asset.recommendation_class, 'rec-watch')}">${escapeHtml(asset.recommendation)}</span></td>
-            <td>${escapeHtml(asset.reason)}</td>
-          </tr>
-        `;
-      }).join('');
-    }
-
-    const mood = data.market_mood || {};
-    const moodEl = document.getElementById('marketMood');
-    if (moodEl) {
-      if (mood.label || mood.summary) {
-        moodEl.hidden = false;
-        moodEl.innerHTML = `<strong>Humor de mercado: ${escapeHtml(mood.label || '')}.</strong> ${escapeHtml(mood.summary || '')}`;
-      } else {
-        moodEl.hidden = true;
-        moodEl.innerHTML = '';
-      }
-    }
-    const disclaimerEl = document.getElementById('marketDisclaimer');
-    if (disclaimerEl) {
-      disclaimerEl.textContent = data.disclaimer || 'Conteúdo educacional.';
-    }
-    const updatedEl = document.getElementById('marketUpdated');
-    if (updatedEl) {
-      updatedEl.textContent = data.generated_at
-        ? `Atualizado em ${new Date(data.generated_at).toLocaleString('pt-BR')}. ${data.source_note || ''}`
-        : data.source_note || '';
-    }
-    renderTicker(data.ticker);
-  }
-
-  function renderTips(data) {
-    const grid = document.getElementById('tipsGrid');
-    const hasItems = Boolean(data?.items?.length);
-    setHomeContentBlockVisible('block-economy-tips', hasItems);
-    if (!grid) return;
-    grid.removeAttribute('aria-busy');
-    if (!hasItems) {
-      grid.innerHTML = '';
-      return;
-    }
-    grid.innerHTML = data.items.map(item => {
-      const chart = item.chart ? `
-        <div>
-          <div style="background:var(--bg3);border-radius:12px;padding:24px;">
-            <p style="font-size:0.8rem;color:var(--text3);margin-bottom:12px;text-transform:uppercase;letter-spacing:.08em;">Distribuicao sugerida</p>
-            <div style="display:flex;flex-direction:column;gap:10px;">
-              ${item.chart.map(bar => `
-                <div>
-                  <div style="display:flex;justify-content:space-between;font-size:0.85rem;margin-bottom:5px;"><span>${escapeHtml(bar.label)}</span><span style="color:${safeCssColor(bar.color)}">${safePercent(bar.value)}%</span></div>
-                  <div style="height:8px;background:var(--surface2);border-radius:4px;"><div style="width:${safePercent(bar.value)}%;height:100%;background:${safeCssColor(bar.color)};border-radius:4px;"></div></div>
-                </div>
-              `).join('')}
-            </div>
-          </div>
-        </div>
-      ` : '';
-      return `
-        <div class="insight-card ${item.featured ? 'featured' : ''}">
-          <div>
-            <span class="insight-tag ${safeClass(item.tag_class, 'tag-blue')}">${escapeHtml(item.tag)}</span>
-            <h3>${escapeHtml(item.title)}</h3>
-            <p>${escapeHtml(item.body)}</p>
-            <div class="insight-meta">${(item.meta || []).map(meta => `<span>${escapeHtml(meta)}</span>`).join('')}</div>
-            ${renderContentLink(item, 'Ler mais')}
-          </div>
-          ${chart}
-        </div>
-      `;
-    }).join('');
-  }
-
-  function renderRecipes(data) {
-    const grid = document.getElementById('recipeGrid');
-    if (!grid || !data.items || !data.items.length) return;
-    grid.innerHTML = data.items.map(item => `
-      <div class="recipe-card">
-        <div class="recipe-thumb" style="background:${safeGradient(item.gradient)}">${escapeHtml(item.emoji)}</div>
-        <div class="recipe-body">
-          <h4>${escapeHtml(item.title)}</h4>
-          <p>${escapeHtml(item.body)}</p>
-          <div class="recipe-meta">${(item.meta || []).map(meta => `<span>${escapeHtml(meta)}</span>`).join('')}</div>
-          ${renderContentLink(item, 'Ver receita')}
-        </div>
-      </div>
-    `).join('');
-  }
-
   function observeDynamicCards() {
-    document.querySelectorAll('.card, .insight-card, .recipe-card, .pillar, .audience-card, .product-card').forEach(el => {
-      el.style.opacity = '0';
-      el.style.transform = 'translateY(16px)';
-      el.style.transition = 'opacity .5s ease, transform .5s ease, border-color .25s';
+    document.querySelectorAll('.card, .pillar, .audience-card, .product-card, .process-step, .offer-card, .help-card').forEach(el => {
+      if (el.classList.contains('reveal')) return;
+      el.classList.add('reveal');
       observer.observe(el);
     });
   }
 
-  async function loadSiteData() {
-    try {
-      renderMarket(await loadJson('data/market.json'));
-    } catch (error) {
-      const updated = document.getElementById('marketUpdated');
-      if (updated) updated.textContent = '';
-      const rows = document.getElementById('marketRows');
-      if (rows) {
-        rows.innerHTML = '';
-        rows.removeAttribute('aria-busy');
-      }
-    }
-
-    const tipsDisclaimer = document.getElementById('tipsDisclaimer');
-    try {
-      const { items, disclaimer } = await loadEconomyTips(
-        apiConfig.economyTipsApiUrl,
-        'data/economy-tips.json',
-      );
-      renderTips({ items, disclaimer });
-      if (tipsDisclaimer && items.length) {
-        tipsDisclaimer.textContent =
-          disclaimer || 'Conteudo educacional. Nao constitui recomendacao individual de investimento.';
-      }
-    } catch (error) {
-      renderTips({ items: [] });
-      if (tipsDisclaimer) tipsDisclaimer.textContent = '';
-    }
-
-    try {
-      renderRecipes(await loadJson('data/recipes.json'));
-    } catch (error) {}
-
-    observeDynamicCards();
-  }
-
-  // Radar (highlights) e Novidades (news): API com fallback para JSON estático.
-  async function loadHomeContent() {
+  // Radar usa fallback estático. Novidades vêm somente da API institucional;
+  // se ela estiver vazia ou indisponível, a seção fica oculta.
+  async function loadPublishedContent() {
     const radarGrid = document.getElementById('radarGrid');
     const radarUpdated = document.getElementById('radarUpdated');
     const newsList = document.getElementById('newsList');
 
     if (newsList) {
       try {
-        const { items } = await fetchWithFallback(
-          apiConfig.newsApiUrl,
-          'data/news-log.json',
-        );
+        const items = await fetchInstitutionalNews(apiConfig.newsApiUrl);
         const visible = items.slice(0, 8);
         newsList.innerHTML = buildNewsHtml(visible);
         newsList.removeAttribute('aria-busy');
-        setHomeContentBlockVisible('block-news', visible.length > 0);
+        setPublishedContentBlockVisible('block-news', visible.length > 0);
       } catch (error) {
         newsList.innerHTML = '';
         newsList.removeAttribute('aria-busy');
-        setHomeContentBlockVisible('block-news', false);
+        setPublishedContentBlockVisible('block-news', false);
       }
     }
 
@@ -799,7 +643,7 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
         );
         radarGrid.innerHTML = buildHighlightsHtml(items);
         radarGrid.removeAttribute('aria-busy');
-        setHomeContentBlockVisible('block-radar', items.length > 0);
+        setPublishedContentBlockVisible('block-radar', items.length > 0);
         if (radarUpdated) {
           radarUpdated.textContent = items.length
             ? (source === 'api' ? 'Fonte: API TRCONGROUP' : 'Fonte: conteúdo publicado')
@@ -809,7 +653,7 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
       } catch (error) {
         radarGrid.innerHTML = '';
         radarGrid.removeAttribute('aria-busy');
-        setHomeContentBlockVisible('block-radar', false);
+        setPublishedContentBlockVisible('block-radar', false);
       }
     }
   }
@@ -818,8 +662,8 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
   const observer = new IntersectionObserver(entries => {
     entries.forEach(e => {
       if (e.isIntersecting) {
-        e.target.style.opacity = '1';
-        e.target.style.transform = 'translateY(0)';
+        e.target.classList.add('is-visible');
+        observer.unobserve(e.target);
       }
     });
   }, { threshold: 0.1 });
@@ -830,15 +674,23 @@ const LEADS_API_URL = apiConfig.leadsApiUrl;
   setupContatoLeadForm();
   setupHubLightbox();
   applyContatoContext('default');
-  loadSiteData();
-  loadHomeContent();
+  observeDynamicCards();
+  loadPublishedContent();
+  initChatWidget({
+    apiUrl: apiConfig.chatApiUrl,
+    getPageId: () => document.querySelector('.page.active')?.id.replace('page-', '') || 'home',
+    onContact: () => { showPage('contato'); applyContatoContext('servicos'); },
+    onCareers: () => showPage('carreiras'),
+  });
 
   // Deep link: abre direto a página indicada na URL (ex.: trcongroup.com.br/#hub),
   // para convites pessoais e campanhas que devem cair direto numa página específica
   // sem exigir navegação manual pelo menu. Não altera a navegação por clique
   // existente — só lê o hash uma vez, no carregamento da página.
   (function applyInitialHashRoute() {
-    const id = (window.location.hash || '').replace('#', '');
+    const requestedId = (window.location.hash || '').replace('#', '');
+    const aliases = { clientes: 'como-ajudamos', conteudos: 'conteudo' };
+    const id = aliases[requestedId] || requestedId;
     if (id && document.getElementById('page-' + id)) {
       showPage(id);
     }

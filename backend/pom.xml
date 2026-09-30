@@ -5,12 +5,12 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.5.0</version>
+		<version>3.5.14</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.trcon.site</groupId>
 	<artifactId>site-backend</artifactId>
-	<version>0.9.1</version>
+	<version>1.0.5</version>
 	<name>site-backend</name>
 	<description>TRCon Site Backend</description>
 	<url/>

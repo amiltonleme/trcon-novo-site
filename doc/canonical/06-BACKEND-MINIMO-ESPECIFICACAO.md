@@ -12,7 +12,6 @@ Primeira versão implementável de `site/backend`, coerente com:
 - persistência de **leads comerciais**
 - exposição de highlights públicos + ingestão interna (marketing)
 - exposição de novidades públicas + ingestão interna (marketing)
-- **Educação Financeira:** `economy_tips` (API + pipeline RSS)
 - healthcheck, profiles dev/prod, Docker/Coolify
 
 Ver matriz completa em [`14-STATUS-IMPLEMENTACAO.md`](../14-STATUS-IMPLEMENTACAO.md).
@@ -32,7 +31,6 @@ Protegida por `InternalApiKeyFilter` — header `X-API-Key` = env `TRCON_SITE_IN
 |----------|--------|
 | `POST /api/internal/news` | Ingestão Novidades (slug, body, meta — V7; **`coverImageUrl` — V8**); idempotência `externalId` |
 | `POST /api/internal/highlights` | Ingestão Radar (pipeline/manual); **não** usado por artigos marketing |
-| `POST /api/internal/economy-tips` | Ingestão Educação Financeira (V6) |
 
 ### API pública relacionada (S8)
 
@@ -61,18 +59,6 @@ Request news (resumo):
 ```
 
 `coverImageUrl` é opcional (HTTPS, ≤500). Desenho A — ver [`19-DESENHO-MIDIA.md`](../19-DESENHO-MIDIA.md).
-## Módulo 5 — Economy tips (Educação Financeira)
-
-### Entidade `EconomyTip` (V6)
-
-`tag`, `tagClass`, `title`, `body` (≤600), `url`, `linkLabel`, `featured`, `active`, `priority`, `publishedAt`, `externalId`, `brandSlug`, `source`.
-
-### Endpoint `GET /api/public/economy-tips`
-
-Lista itens `active`, ordenados por prioridade/data. Resposta inclui `disclaimer` editorial.
-
-Pipeline RSS complementa via `frontend/data/economy-tips.json` — merge no frontend (`loadEconomyTips`).
-
 ## Módulo 1 — Lead
 
 ### Finalidade
@@ -164,7 +150,7 @@ Response 400:
 
 ## Banco de dados
 
-Tabelas: `leads`, `daily_highlights`, `news_items`, **`economy_tips`**.
+Tabelas ativas: `leads`, `daily_highlights`, `news_items`, `chat_usage_logs`.
 
 Migrations:
 - `V1__create_leads.sql`
@@ -172,7 +158,9 @@ Migrations:
 - `V3__create_news_items.sql`
 - `V4__news_editorial_fields.sql` — `brand_slug`, `external_id`
 - `V5__highlights_external_id.sql`
-- `V6__economy_tips.sql`
+- `V6__economy_tips.sql` — histórica; não editar
+- `V9__content_expires_at.sql` — histórica; inclui alteração de `economy_tips`
+- `V11__drop_economy_tips.sql` — remoção condicionada a backup explícito
 
 ```sql
 create table leads (

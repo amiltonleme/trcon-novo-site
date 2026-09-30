@@ -1,13 +1,12 @@
-// Consumo de conteúdo público (highlights / news) com degradação previsível:
-// tenta a API do backend quando configurada e, em qualquer falha, cai para o
-// JSON estático publicado. O site nunca quebra por indisponibilidade do backend
-// (doc/07-MIGRACAO-PARALELA.md — fallback por capacidade).
+// Consumo de conteúdo público com degradação por capacidade: Radar pode usar o
+// JSON estático; Novidades usa somente a API institucional e fica oculta quando
+// indisponível. O site nunca quebra por falha do backend.
 //
 // Funções puras de render (buildHighlightsHtml / buildNewsHtml) ficam isoladas
 // de DOM/rede para serem testáveis com Vitest.
 
-import { escapeHtml, safeUrl, localizeSiteHref } from './sanitize.js';
-import { isInternalArticleHref, resolveNewsHref } from './article.js';
+import { escapeHtml, safeUrl, localizeSiteHref } from './sanitize.js?v=6872001';
+import { isInternalArticleHref, resolveNewsHref } from './article.js?v=6872001';
 
 // Extrai a lista de itens do envelope canônico (ou do array puro).
 export function extractItems(payload) {
@@ -55,71 +54,16 @@ export async function fetchWithFallback(apiUrl, jsonUrl, deps = {}) {
   };
 }
 
-function normalizeTitleKey(item) {
-  return String(item?.title || '')
-    .trim()
-    .toLowerCase();
-}
-
-// Educação Financeira: prioriza itens da API (marketing) e completa com JSON (RSS/catálogo).
-export async function loadEconomyTips(apiUrl, jsonUrl, maxItems = 4, deps = {}) {
+// Novidades institucionais não podem usar o feed externo dos radares como
+// fallback. Se a API estiver vazia ou indisponível, a seção deve ficar oculta.
+export async function fetchInstitutionalNews(apiUrl, deps = {}) {
   const fetchImpl = deps.fetch || (typeof fetch !== 'undefined' ? fetch : null);
   if (!fetchImpl) throw new Error('fetch indisponível neste ambiente.');
+  if (!apiUrl) return [];
 
-  let apiItems = [];
-  let apiDisclaimer = '';
-  if (apiUrl) {
-    try {
-      const res = await fetchImpl(apiUrl, { headers: { Accept: 'application/json' } });
-      if (res.ok) {
-        const payload = await res.json();
-        apiItems = extractItems(payload);
-        apiDisclaimer = payload.disclaimer || '';
-      }
-    } catch (error) {
-      // silencioso — usa JSON abaixo
-    }
-  }
-
-  let jsonItems = [];
-  let jsonDisclaimer = '';
-  try {
-    const res = await fetchImpl(jsonUrl, { cache: 'no-store' });
-    if (res.ok) {
-      const payload = await res.json();
-      jsonItems = extractItems(payload);
-      jsonDisclaimer = payload.disclaimer || '';
-    }
-  } catch (error) {
-    if (apiItems.length === 0) throw error;
-  }
-
-  const seen = new Set();
-  const merged = [];
-  for (const item of [...apiItems, ...jsonItems]) {
-    const key = normalizeTitleKey(item);
-    if (!key || seen.has(key)) continue;
-    seen.add(key);
-    merged.push(item);
-    if (merged.length >= maxItems) break;
-  }
-
-  if (merged.length > 0 && merged[0]) {
-    merged[0] = { ...merged[0], featured: true };
-  }
-
-  const source =
-    apiItems.length > 0 && jsonItems.length > 0
-      ? 'api+json'
-      : apiItems.length > 0
-        ? 'api'
-        : 'json';
-
-  return {
-    items: merged,
-    source,
-    disclaimer: apiDisclaimer || jsonDisclaimer || '',
-  };
+  const response = await fetchImpl(apiUrl, { headers: { Accept: 'application/json' } });
+  if (!response.ok) throw new Error(`Novidades indisponíveis: HTTP ${response.status}`);
+  return extractItems(await response.json());
 }
 
 /** Destaque enviado pelo Sirius Marketing (legado: ia também para o Radar). */

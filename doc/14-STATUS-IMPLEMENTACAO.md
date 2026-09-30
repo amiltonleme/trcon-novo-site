@@ -1,6 +1,6 @@
 # Status de implementação — Site TRCON
 
-> Atualizado em **16/08/2026** — `site/backend` **0.8.0** + `site/frontend` **0.8.0** (SEO hub editorial: higiene de indexação + HTML SSR `/novidades/{slug}`).  
+> Atualizado em **30/09/2026** — Etapas 0 a 8 do reposicionamento concluídas no código; publicação e operação da V11 permanecem na Etapa 9.
 > Gaps e segurança: [`15-GAPS-PRODUCAO-SEGURANCA.md`](15-GAPS-PRODUCAO-SEGURANCA.md).  
 > Feito / fazendo / a fazer: [`16-PASSO-A-PASSO.md`](16-PASSO-A-PASSO.md).
 
@@ -9,7 +9,7 @@
 | Camada | Stack | Prod (ago/2026) |
 |--------|-------|-----------------|
 | Frontend | HTML/CSS/JS (ES modules), Vitest — **0.8.0** | Coolify; nginx proxy `/novidades/` → API |
-| Backend | Spring Boot 3, Java 21, Flyway V1–**V8**, versão **0.8.0** | **OK** — `api-site.trcongroup.com.br` (Coolify + Neon `trcon_site`) |
+| Backend | Spring Boot 3, Java 21, Flyway V1–**V11** | **Código OK** — `api-site.trcongroup.com.br` requer redeploy da revisão atual e backup antes da V11 |
 | Pipeline conteúdo | Python + GitHub Actions 2×/dia | **OK** — `update-content.yml` |
 | Integração marketing | API interna `X-API-Key` | **Código OK** — smoke/redeploy conforme ambiente |
 | Notificação lead | Resend (`LeadEmailNotifier`) | **Código OK** — configurar `TRCON_SITE_MAIL_*` no Coolify |
@@ -23,10 +23,10 @@
 | `lead` | `POST /api/v1/site/leads` | — | V1 | IT + unit; e-mail Resend (falha não quebra 201) |
 | `highlights` | `GET /api/public/highlights` | `POST /api/internal/highlights` | V2, V5 | IT + unit (filtra editorial) |
 | `news` | `GET /api/public/news`, **`GET /api/public/news/{slug}`**, **`GET /novidades/{slug}` (HTML SSR)** | `POST /api/internal/news` (+ **`coverImageUrl`**) | V3, V4, V7, **V8** | IT + unit |
-| `economytips` | `GET /api/public/economy-tips` | `POST /api/internal/economy-tips` | V6 | IT |
 | `feeds` | **`GET /sitemap.xml`**, **`GET /feed/news.xml`** | — | — | IT |
 | `internal` (filtro) | — | `InternalApiKeyFilter` | — | IT |
 | mail | — | Resend via `trcon.site.mail.*` | — | unit + mock HTTP |
+| `chat` | `POST /api/v1/site/chat` | — | V10 | unit; IT pendente de ambiente Docker |
 
 ### Flyway (Neon `trcon_site`)
 
@@ -37,9 +37,12 @@
 | V3 | `news_items` |
 | V4 | `brand_slug`, `external_id` em news |
 | V5 | `external_id` em highlights |
-| V6 | `economy_tips` |
+| V6 | histórico: criação de `economy_tips` |
 | **V7** | `slug`, `body`, `meta_title`, `meta_description` em `news_items` |
 | **V8** | `cover_image_url` em `news_items` |
+| **V9** | `expires_at` em conteúdo |
+| **V10** | `chat_usage_logs` sem conteúdo das conversas |
+| **V11** | remove `economy_tips`; execução condicionada a backup explícito e restauração validada na Etapa 9 |
 
 ---
 
@@ -52,10 +55,13 @@
 | Páginas de produto (Hub / Agendamento / Marketing) | ✅ | `#page-hub`, `#page-agendamento`, `#page-marketing` — só conteúdo |
 | Contato contextual (`data-product`) | ✅ | hub / agendamento / marketing / servicos / default |
 | Radar: API + fallback pipeline JSON | ✅ | `fetchRadarHighlights` — exclui editorial legado |
-| Novidades: API + fallback JSON | ✅ | feed separado de highlights |
+| Novidades: somente API institucional | ✅ | bloco oculto se vazio/offline; nenhum fallback oriundo dos radares |
 | **Layout Radar + Novidades: cards-grid** | ✅ | `buildCardItemHtml` compartilhado |
-| Educação Financeira merge API + RSS | ✅ | `loadEconomyTips` |
-| **Seções editoriais só com conteúdo** | ✅ | `#block-news` / `#block-radar` / `#block-economy-tips` ocultos se vazios; sem texto operacional no HTML inicial |
+| Educação Financeira na Home | Removida | Consumidor, JSON, pipeline e CSS retirados |
+| **Seções editoriais só com conteúdo** | ✅ | `#block-news` / `#block-radar` ocultos se vazios |
+| CSS modular | ✅ | fontes em `styles/`; bundles `style.css`, `article.css` e `legal.css` gerados por `build-css.mjs` |
+| Assistente institucional | ✅ código | `chat-widget.js`; ativação do provedor depende de `TRCON_SITE_CHAT_*` |
+| Trabalhe Conosco | ✅ | cultura e forma de trabalho, áreas de interesse, estado real sem vagas/banco de talentos, FAQ e nenhuma coleta de currículos; smoke editorial e acessível |
 | Página artigo `/novidades/{slug}` | ✅ | **SSR backend** (meta/OG/JSON-LD/corpo) + fallback CSR `novidades.html` |
 | Meta SEO + Open Graph + JSON-LD | ✅ | HTML inicial via `ArticlePageController`; CSR também injeta JSON-LD |
 | `robots.txt` | ✅ | `frontend/robots.txt` + sitemap institucional |
@@ -69,7 +75,7 @@
 | Fluxo | Endpoint site | Tipo marketing |
 |-------|---------------|----------------|
 | **Novidades** | `POST /api/internal/news` | `ARTICLE` |
-| Educação Financeira | `POST /api/internal/economy-tips` | `LANDING_PAGE`, `NEWSLETTER` |
+| Newsletter e landing page | — | permanecem somente no Sírius Marketing; não são enviadas ao site |
 | ~~Radar via marketing~~ | — | **Removido 27/07** — Radar = pipeline |
 
 **Highlights API** filtra itens editoriais (`/novidades/` ou `external_id` `-radar`) em `HighlightServiceImpl`.
@@ -82,10 +88,10 @@ Manual: [`18-MANUAL-MARKETING-EDITORIAL.md`](18-MANUAL-MARKETING-EDITORIAL.md).
 
 | Estado | Itens |
 |--------|-------|
-| **Feito** | Fases 0–7; S8.1–S8.7; **S8.5b** JSON-LD + HTML SSR; higiene SEO home (`robots.txt`, seções vazias); Desenho A; Radar ≠ Novidades; economy tips V6; produtos + contato; Resend; JaCoCo ≥ 80% |
-| **Fazendo** | Redeploy prod frontend/backend **0.8.0** + `SITE_API_UPSTREAM`; DNS `@`/`www` → Hetzner; smoke end-to-end; Coolify `TRCON_SITE_MAIL_*` |
+| **Feito** | Etapas 0–8 do plano 22; S8.1–S8.7; **S8.5b** JSON-LD + HTML SSR; higiene SEO home (`robots.txt`, seções vazias); Desenho A; Radar ≠ Novidades; produtos + contato; Resend; JaCoCo ≥ 80% |
+| **Fazendo** | Preparação do gate operacional da Etapa 9: backup, publicação, smoke e observação |
 | **A fazer** | Rate limit CF leads/interno; LGPD export/exclusão; staging; F9 consolidação legado |
-| **Melhorias** | Painel desativar dica economy; CRM; **Desenho B (R2)**; E2E cross-stack |
+| **Melhorias** | CRM; alerta de orçamento do chat; **Desenho B (R2)**; E2E cross-stack |
 
 ---
 
@@ -93,7 +99,8 @@ Manual: [`18-MANUAL-MARKETING-EDITORIAL.md`](18-MANUAL-MARKETING-EDITORIAL.md).
 
 | Item | Prioridade |
 |------|------------|
-| Redeploy backend + frontend **0.8.0** (SSR `/novidades/` + proxy) | Alta |
+| Backup validado de `economy_tips` antes da execução da V11 | Alta |
+| Redeploy backend + frontend da revisão atual | Alta |
 | Coolify frontend: env **`SITE_API_UPSTREAM`** (ex. `http://trcon-site-backend:8080` ou URL interna da API) | Alta |
 | `TRCON_SITE_MAIL_*` + `TRCON_SITE_LEAD_NOTIFY_TO` no Coolify | Alta |
 | DNS `@`/`www` → Hetzner | Alta |

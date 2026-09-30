@@ -1,8 +1,8 @@
-"""Consolida os radares em home-highlights.json e news-log.json.
+"""Consolida os radares em home-highlights.json.
 
-Os formatos de saida espelham os contratos publicos do backend
-(HighlightResponse / NewsItemResponse), para que a home possa consumir tanto o
-JSON estatico quanto a API na Fase 7 sem mudar o shape.
+O formato de saida espelha o contrato publico HighlightResponse do backend,
+para que a home possa consumir tanto o JSON estatico quanto a API sem mudar o
+shape.
 """
 
 from __future__ import annotations
@@ -46,31 +46,5 @@ def build_home_highlights(radars: list[dict], max_items: int = 6) -> dict:
     return build_envelope(
         items=items,
         source_note="Destaques consolidados dos radares TRCONGROUP (curadoria por regras).",
-        errors=errors,
-    )
-
-
-def build_news_log(radars: list[dict], max_items: int = 30) -> dict:
-    """Feed cronologico unificado de todas as noticias coletadas."""
-    all_items: list[dict] = []
-    for radar in radars:
-        for entry in radar.get("items", []):
-            # Shape identico ao NewsItemResponse do backend (camelCase).
-            all_items.append(
-                {
-                    "source": entry.get("source", ""),
-                    "category": entry.get("category", ""),
-                    "title": entry.get("title", ""),
-                    "summary": entry.get("summary", ""),
-                    "url": entry.get("url", ""),
-                    "publishedAt": entry.get("published_at", ""),
-                }
-            )
-
-    unique = dedup_by_title(all_items)[:max_items]
-    errors = [e for radar in radars for e in radar.get("errors", [])]
-    return build_envelope(
-        items=unique,
-        source_note="Historico de novidades TRCONGROUP consolidado dos radares.",
         errors=errors,
     )

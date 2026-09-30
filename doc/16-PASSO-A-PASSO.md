@@ -1,6 +1,6 @@
 # Passo a passo — feito, em andamento e a fazer
 
-> Atualizado em **16/08/2026** — versões site **0.8.0**.  
+> Atualizado em **30/09/2026** — Etapas 0 a 8 do plano de reposicionamento concluídas no código.
 > Status detalhado: [`14-STATUS-IMPLEMENTACAO.md`](14-STATUS-IMPLEMENTACAO.md).  
 > Gaps: [`15-GAPS-PRODUCAO-SEGURANCA.md`](15-GAPS-PRODUCAO-SEGURANCA.md).
 > Mídia: [`19-DESENHO-MIDIA.md`](19-DESENHO-MIDIA.md).
@@ -19,8 +19,8 @@
 | 3 | Frontend migrado para `site/frontend`, módulos ES, Vitest |
 | 4 | Página Serviços, CTAs `data-lead-type`, copy institucional |
 | 5 | Leads → `POST /api/v1/site/leads`, fallback offline |
-| 6 | Pipeline Python: radar IA/tecnologia, mercado, economy RSS, `update-content.yml` |
-| 7 | Home Radar + Novidades com `fetchWithFallback` API→JSON; layout **cards-grid** |
+| 6 | Pipeline Python: radares de IA/tecnologia e `home-highlights.json`, via `update-content.yml` |
+| 7 | Registro histórico: Home Radar + Novidades usavam API→JSON; após a Etapa 2 do plano 22, ambos estão em Conteúdo e Novidades usa somente a API institucional |
 
 ### Fase 8 — Infra produção (parcial)
 
@@ -38,26 +38,17 @@
 | S3.1 | `POST /api/internal/news` + API key | ✅ |
 | S3.2 | `POST /api/internal/highlights` + V5 | ✅ |
 | S3.3 | Idempotência `external_id` news/highlights | ✅ V4/V5 |
-| S3.4 | Frontend: Radar ≠ Novidades; fallback; **cards-grid** | ✅ |
+| S3.4 | Frontend: Radar ≠ Novidades; Radar com fallback e Novidades somente pela API institucional; **cards-grid** | ✅ atualizado na Etapa 2 |
 | S3.5 | `application-dev.yml`, porta **8081** | ✅ |
 | S3.6 | Profiles prod + CORS + Hikari idle | ✅ |
 
-### Educação Financeira (S3.10)
+### Educação Financeira (histórico encerrado)
 
-| # | Tarefa | Status |
-|---|--------|--------|
-| S3.10.1 | Pipeline `update_economy_tips.py` + catálogo 18 dicas | ✅ |
-| S3.10.2 | Flyway **V6** + APIs interna/pública economy tips | ✅ |
-| S3.10.3 | Home: `loadEconomyTips` merge API + JSON + disclaimer | ✅ |
-| S3.10.4 | Marketing publica `LANDING_PAGE`/`NEWSLETTER` | ✅ (repo marketing) |
-
-**Fluxo:**
-
-```text
-RSS 2×/dia → economy-tips.json ──┐
-                                  ├── Home (até 4 cards; marketing tem prioridade)
-Marketing → POST /api/internal/economy-tips ──┘
-```
+O fluxo entregue originalmente na S3.10 foi removido nas Etapas 6 e 7 do
+[plano 22](22-PLANO-REPOSICIONAMENTO-LIMPEZA.md). A Home, o pipeline, o Sirius
+Marketing e o backend não produzem nem consomem mais esse conteúdo. As migrations
+V6 e V9 permanecem imutáveis; a V11 será executada somente após o backup previsto
+na Etapa 9.
 
 ### Sprint 8 — Páginas de artigo e SEO
 
@@ -77,7 +68,7 @@ Marketing → POST /api/internal/economy-tips ──┘
 | # | Tarefa | Status |
 |---|--------|--------|
 | H1 | Remover textos operacionais do HTML inicial da home | ✅ |
-| H2 | Ocultar Radar / Novidades / Educação Financeira sem itens | ✅ |
+| H2 | Ocultar Radar e Novidades sem itens | ✅ |
 | H3 | `robots.txt` + sitemap no site institucional | ✅ |
 | H4 | Nginx/`dev_server` proxy `/novidades/` → backend (`SITE_API_UPSTREAM`) | ✅ |
 | H5 | Marketing: `noindex` + `X-Robots-Tag` (app autenticado) | ✅ (repo marketing) |
@@ -121,8 +112,8 @@ Marketing → POST /api/internal/economy-tips ──┘
 
 | Item | Hoje | Próximo passo |
 |------|------|---------------|
-| Backend prod Flyway V6/V7/V8 + **0.8.0** SSR | Código no repo | Redeploy Coolify / smoke `/novidades/{slug}` |
-| Frontend prod (S8 + SEO 0.8.0) | Código OK | Redeploy + `SITE_API_UPSTREAM` + smoke View Source |
+| Backend prod com revisão atual e Flyway até V11 | Código no repo | Backup de `economy_tips`, redeploy Coolify e smoke conforme Etapa 9 |
+| Frontend prod reposicionado | Código OK | Redeploy + `SITE_API_UPSTREAM` + smoke funcional conforme Etapa 9 |
 | Mail lead prod | Código OK | `TRCON_SITE_MAIL_*` + smoke submit |
 | DNS `@`/`www` | Pages ou legado | **A** → Hetzner (Coolify `site-frontend`) |
 | Smoke marketing ↔ site | Código OK nos dois repos | Aprovar artigo → View Source `/novidades/{slug}` (meta + JSON-LD) |
@@ -136,9 +127,9 @@ Marketing → POST /api/internal/economy-tips ──┘
 
 | # | Tarefa | Onde |
 |---|--------|------|
-| O1 | Coolify → redeploy `site-trcon-backend` (**V6 + V7 + V8**) se necessário | Coolify |
+| O1 | Fazer backup validado da tabela histórica e redeploy do `site-trcon-backend` com a V11 | Coolify/PostgreSQL |
 | O2 | Smoke `GET .../news/{slug}`, **`GET /novidades/{slug}`** (HTML), sitemap/feed; View Source | Browser/curl |
-| O3 | Redeploy `site-frontend` **0.8.0** + env **`SITE_API_UPSTREAM`** | Coolify |
+| O3 | Redeploy da revisão atual de `site-frontend` + env **`SITE_API_UPSTREAM`** | Coolify |
 | O4 | Cloudflare: `@` e `www` → IP Hetzner | Cloudflare DNS |
 | O5 | Smoke leads + e-mail Resend + home | Manual |
 | O6 | Configurar `TRCON_SITE_MAIL_*` / `TRCON_SITE_LEAD_NOTIFY_TO` | Coolify |
@@ -158,8 +149,7 @@ Marketing → POST /api/internal/economy-tips ──┘
 |---|--------|--------|
 | M1 | JSON-LD `NewsArticle` na página de artigo | ✅ 16/08/2026 |
 | M2 | S8.7 — campos SEO no form marketing | ✅ 17/08/2026 |
-| M3 | Endpoint desativar dica economy | ❌ |
-| M4 | Ampliar feeds RSS / curadoria | ❌ |
+| M3 | Ampliar feeds RSS / curadoria dos radares | ❌ |
 
 ### Fase 9 — Consolidação ([`09-PLANO-EXECUCAO-IA.md`](canonical/09-PLANO-EXECUCAO-IA.md))
 
@@ -197,9 +187,9 @@ Mail local (opcional): `TRCON_SITE_MAIL_ENABLED=true` + key Resend; default loca
 
 1. `http://localhost:8081/api/public/news`
 2. `http://localhost:8081/api/public/highlights`
-3. `http://localhost:8081/api/public/economy-tips`
-4. `http://localhost:8081/novidades/{slug}` — HTML com meta/JSON-LD (View Source)
-5. `http://127.0.0.1:4173` — Radar/Novidades só se houver itens; proxy `/novidades/` → `:8081`
+3. `http://localhost:8081/novidades/{slug}` — HTML com meta/JSON-LD (View Source)
+4. `http://127.0.0.1:4173` — Radar/Novidades só se houver itens; proxy `/novidades/` → `:8081`
+5. Enviar pergunta ao assistente e conferir a resposta e os `sourceIds`
 6. Aprovar artigo no marketing → View Source em `/novidades/{slug}`
 7. Enviar lead em Contato → 201 + (se mail ON) e-mail ao destinatário
 
@@ -212,6 +202,6 @@ Mail local (opcional): `TRCON_SITE_MAIL_ENABLED=true` + key Resend; default loca
 | **16/08/2026** | **0.8.0** — SEO higiene (home/`robots.txt`) + SSR `/novidades/{slug}` + JSON-LD; proxy `SITE_API_UPSTREAM` |
 | **29/07/2026** | Docs sync 0.4.0; produtos + contato; mail lead; cobertura; CI mvnw |
 | **27/07/2026** | S8 + Radar≠Novidades + layout cards; docs 14–18 |
-| **26/07/2026** | Economy tips V6 + merge frontend + pipeline RSS |
+| **26/07/2026** | Histórico: fluxo de Educação Financeira criado na V6; retirado depois pelas Etapas 6 e 7 do plano 22 |
 | **23/07/2026** | API interna highlights/news; backend prod Coolify |
 | **jul/2026** | Fases 0–7 concluídas; migração de `fluxo-caixa-app/site-trcon` |

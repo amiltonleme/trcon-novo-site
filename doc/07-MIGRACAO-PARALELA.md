@@ -18,19 +18,19 @@ que `trcongroup/site` seja validado. Nenhuma remoção acontece antes da valida�
 3. Toda substituição deve ser reversível com baixo impacto.
 4. A nova arquitetura entra por incremento, nunca por reescrita total de uma vez.
 
-## Estado atual (jul/2026)
+## Estado atual (30/09/2026)
 
-- frontend em **`trcongroup/site/frontend`** — paridade com antigo `fluxo-caixa-app/site-trcon` + evoluções (Serviços, API, economy tips)
-- backend Spring Boot em **`trcongroup/site/backend`** — leads, highlights, news, economy tips, APIs internas marketing
+- frontend em **`trcongroup/site/frontend`** — site institucional reposicionado, com Serviços, Produtos, Conteúdo, Trabalhe Conosco, Contato e assistente
+- backend Spring Boot em **`trcongroup/site/backend`** — leads, highlights, news, chat e API interna de notícias
 - **Produção:** backend no Coolify (`api-site.trcongroup.com.br`); frontend migrando DNS para Hetzner
-- pipeline de conteúdo via GitHub Actions (`update-content.yml`, 2×/dia UTC)
-- integração Sirius Marketing ativa no código (smoke prod pós-redeploy V6)
+- pipeline de conteúdo via GitHub Actions (`update-content.yml`, 2×/dia UTC), restrito aos radares de IA e tecnologia e ao `home-highlights.json`
+- integração Sirius Marketing publica no site somente artigos aprovados em Novidades
 
 ## Estado alvo (quase alcançado)
 
 - `trcongroup/site/frontend` como **única** fonte publicada (`@`/`www` → Hetzner)
 - `fluxo-caixa-app/site-trcon` congelado como histórico ([`16-PASSO-A-PASSO.md`](./16-PASSO-A-PASSO.md) F9)
-- convivência JSON (fallback) + API própria — **implementada** (`fetchWithFallback`, `loadEconomyTips`)
+- fallback JSON mantido somente para o Radar; Novidades usa exclusivamente a API institucional
 
 ## Fases de migração
 
@@ -44,7 +44,7 @@ que `trcongroup/site` seja validado. Nenhuma remoção acontece antes da valida�
 
 ### Fase 4 — Home consumindo highlights/news via API ✅
 
-`TRCON_HIGHLIGHTS_API_URL`, `TRCON_NEWS_API_URL`, `TRCON_ECONOMY_TIPS_API_URL` em `env.js`.
+`TRCON_HIGHLIGHTS_API_URL` e `TRCON_NEWS_API_URL` em `env.js`.
 
 ### Fase 5 — Consolidação e corte oficial 🟡
 
@@ -56,15 +56,18 @@ DNS `@`/`www` → Hetzner pendente; `fluxo-caixa-app/site-trcon` ainda não desc
 |---|---|
 | Leads | exibir erro claro no formulário, sem quebrar a página |
 | Highlights | usar JSON local (`home-highlights.json`) se API vazia ou offline |
-| News | usar JSON local (`news-log.json`) se API vazia ou offline |
-| Economy tips | merge API + `economy-tips.json`; JSON se API offline |
+| News | ocultar a seção se a API institucional estiver vazia ou offline; não usar `news-log.json` dos radares como fallback |
 
 ## Rollout por configuração
 
 - `TRCON_LEADS_API_URL`
 - `TRCON_HIGHLIGHTS_API_URL`
 - `TRCON_NEWS_API_URL`
-- `TRCON_ECONOMY_TIPS_API_URL`
+
+O fluxo de Educação Financeira desta migração foi encerrado nas Etapas 6 e 7 do
+[plano de reposicionamento](22-PLANO-REPOSICIONAMENTO-LIMPEZA.md): consumidores,
+artefatos, pipeline e módulo backend foram retirados. As migrations que criaram e
+alteraram a tabela permanecem como histórico imutável do Flyway.
 
 Ausência de valor = usa o comportamento estático atual. Nenhuma URL fica hardcoded
 no frontend.

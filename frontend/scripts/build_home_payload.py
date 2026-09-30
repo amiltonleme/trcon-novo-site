@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Consolida os radares em data/home-highlights.json e data/news-log.json.
+"""Consolida os radares em data/home-highlights.json.
 
 Le os artefatos ja gerados (ai-radar, tech-radar) e produz os payloads que a
 home consome. Se um radar nao existir, degrada usando os que houver.
@@ -12,7 +12,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from builders.home_builder import build_home_highlights, build_news_log
+from builders.home_builder import build_home_highlights
 from core.writer import read_json, write_json
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -32,18 +32,14 @@ def main() -> int:
             missing.append(name)
 
     highlights = build_home_highlights(radars)
-    news = build_news_log(radars)
-
-    for artifact in (highlights, news):
-        for name in missing:
-            artifact.setdefault("errors", []).append(f"Radar ausente: {name}")
+    for name in missing:
+        highlights.setdefault("errors", []).append(f"Radar ausente: {name}")
 
     write_json(DATA_DIR / "home-highlights.json", highlights)
-    write_json(DATA_DIR / "news-log.json", news)
 
     print(
         f"home-highlights: {len(highlights['items'])} itens; "
-        f"news-log: {len(news['items'])} itens; radares usados: {len(radars)}."
+        f"radares usados: {len(radars)}."
     )
     return 0
 

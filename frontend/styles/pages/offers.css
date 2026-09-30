@@ -1,0 +1,136 @@
+/* Etapa 2 — ofertas comerciais e página Como ajudamos. */
+.offers-section {
+  background: linear-gradient(180deg, rgba(0, 212, 170, 0.035), transparent 22%);
+}
+
+.offer-grid,
+.help-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.offer-card,
+.help-card {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--surface);
+}
+
+.offer-card {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.offer-card-heading {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.offer-number,
+.help-card > span {
+  flex: 0 0 auto;
+  color: var(--accent);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+}
+
+.offer-card h2,
+.help-card h3 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+}
+
+.offer-card h2 {
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
+
+.offer-audience {
+  min-height: 70px;
+  color: var(--text2);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.offer-details {
+  display: grid;
+  gap: 0;
+  margin: 20px 0 24px;
+}
+
+.offer-details > div {
+  padding: 14px 0;
+  border-top: 1px solid var(--border);
+}
+
+.offer-details dt {
+  margin-bottom: 5px;
+  color: var(--accent);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.offer-details dd {
+  margin: 0;
+  color: var(--text2);
+  font-size: 0.86rem;
+  line-height: 1.55;
+}
+
+.offer-card .btn {
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+.help-card {
+  padding: 28px;
+  transition: border-color .25s, transform .25s;
+}
+
+.help-card:hover {
+  border-color: rgba(0, 212, 170, 0.3);
+  transform: translateY(-3px);
+}
+
+.help-card h3 {
+  margin: 16px 0 10px;
+  font-size: 1.1rem;
+}
+
+.help-card p {
+  min-height: 68px;
+  color: var(--text2);
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.help-card a {
+  display: inline-block;
+  margin-top: 18px;
+  color: var(--accent);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+  .offer-grid,
+  .help-grid { grid-template-columns: 1fr; }
+  .offer-audience,
+  .help-card p { min-height: 0; }
+}
+
+@media (max-width: 480px) {
+  .offer-card,
+  .help-card { padding: 22px; }
+  .offer-card .btn { width: 100%; justify-content: center; }
+}
