@@ -29,7 +29,7 @@ class LeadEmailNotifierTest {
     void naoEnviaQuandoMailNaoConfigurado() {
         MailProperties props = new MailProperties(false, "", "", "amilton.leme@trcongroup.com.br");
         LeadEmailNotifier notifier = new LeadEmailNotifier(props, resendEmailClient);
-        Lead lead = Lead.novo("Ana", "ana@ex.com", "11", LeadType.PRODUTO, "oi", "site-trcon-hub", true);
+        Lead lead = Lead.novo("Ana", "ana@ex.com", "11", LeadType.PRODUTO, "oi", "site-trcongroup-hub", true);
 
         notifier.notifyNewLead(lead);
 
@@ -47,7 +47,7 @@ class LeadEmailNotifierTest {
                 "11",
                 LeadType.PRODUTO,
                 "quero <b>beta</b>\nlinha2",
-                "site-trcon-hub",
+                "site-trcongroup-hub",
                 true);
 
         notifier.notifyNewLead(lead);
@@ -58,7 +58,7 @@ class LeadEmailNotifierTest {
         verify(resendEmailClient)
                 .sendHtml(eq("amilton.leme@trcongroup.com.br"), subject.capture(), html.capture(), replyTo.capture());
 
-        assertThat(subject.getValue()).contains("PRODUTO").contains("site-trcon-hub");
+        assertThat(subject.getValue()).contains("PRODUTO").contains("site-trcongroup-hub");
         assertThat(subject.getValue()).doesNotContain("\n");
         assertThat(html.getValue()).contains("Ana &lt;script&gt;");
         assertThat(html.getValue()).contains("quero &lt;b&gt;beta&lt;/b&gt;<br>linha2");
@@ -71,7 +71,7 @@ class LeadEmailNotifierTest {
         MailProperties props = new MailProperties(
                 true, "re_test", "noreply@trcongroup.com.br", "amilton.leme@trcongroup.com.br");
         LeadEmailNotifier notifier = new LeadEmailNotifier(props, resendEmailClient);
-        Lead lead = Lead.novo("Ana", "ana@ex.com", "11", LeadType.PRODUTO, null, "site-trcon", true);
+        Lead lead = Lead.novo("Ana", "ana@ex.com", "11", LeadType.PRODUTO, null, "site-trcongroup", true);
 
         notifier.notifyNewLead(lead);
 
@@ -85,7 +85,7 @@ class LeadEmailNotifierTest {
         MailProperties props = new MailProperties(
                 true, "re_test", "noreply@trcongroup.com.br", "amilton.leme@trcongroup.com.br");
         LeadEmailNotifier notifier = new LeadEmailNotifier(props, resendEmailClient);
-        Lead lead = Lead.novo("Ana", "ana@ex.com", "11", LeadType.PRODUTO, "oi", "site-trcon", true);
+        Lead lead = Lead.novo("Ana", "ana@ex.com", "11", LeadType.PRODUTO, "oi", "site-trcongroup", true);
 
         doThrow(new RuntimeException("Resend down"))
                 .when(resendEmailClient)
