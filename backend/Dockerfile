@@ -4,13 +4,12 @@
 FROM maven:3.9-eclipse-temurin-21 AS build
 WORKDIR /build
 
-# Cache de dependências: copia só o pom primeiro
+# Copia o projeto e empacota. O cache BuildKit preserva o repositório Maven entre
+# builds, inclusive quando o pom muda, sem executar o caro dependency:go-offline.
 COPY pom.xml .
-RUN mvn -B -q dependency:go-offline
-
-# Copia o código e empacota (pula testes: a suíte com Testcontainers roda no CI, não no build da imagem)
 COPY src ./src
-RUN mvn -B -q clean package -DskipTests
+RUN --mount=type=cache,target=/root/.m2,sharing=locked \
+    mvn -B -q package -Dmaven.test.skip=true
 
 # ---- Stage 2: runtime ----
 FROM eclipse-temurin:21-jre-jammy AS runtime

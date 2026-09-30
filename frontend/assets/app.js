@@ -1,7 +1,7 @@
-import { apiConfig } from './modules/config.js';
-import { buildLeadPayload, submitLead, mensagemDeErro } from './modules/lead-form.js';
-import { buildHighlightsHtml, buildNewsHtml, fetchInstitutionalNews, fetchRadarHighlights } from './modules/content.js';
-import { initChatWidget } from './modules/chat-widget.js';
+import { apiConfig } from './modules/config.js?v=6872001';
+import { buildLeadPayload, submitLead, mensagemDeErro } from './modules/lead-form.js?v=6872001';
+import { buildHighlightsHtml, buildNewsHtml, fetchInstitutionalNews, fetchRadarHighlights } from './modules/content.js?v=6872001';
+import { initChatWidget } from './modules/chat-widget.js?v=6872001';
 
 const LEADS_API_URL = apiConfig.leadsApiUrl;
 

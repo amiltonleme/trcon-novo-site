@@ -1,4 +1,4 @@
-import { parseArticleSlug, fetchArticleBySlug, renderArticlePage } from './modules/article.js';
+import { parseArticleSlug, fetchArticleBySlug, renderArticlePage } from './modules/article.js?v=6872001';
 
 async function bootArticlePage() {
   if (document.body?.dataset?.articleSsr === 'true') {
