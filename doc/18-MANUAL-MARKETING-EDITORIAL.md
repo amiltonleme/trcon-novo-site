@@ -2,14 +2,14 @@
 
 > Manual completo: [`../../sirius-marketing/projeto/docs/cursor/12_manual_usuario_marketing.md`](../../sirius-marketing/projeto/docs/cursor/12_manual_usuario_marketing.md)  
 > **Guia capa / demos / apresentação:** §4.1 do manual completo.  
-> Atualizado em **16/08/2026**
+> Atualizado em **30/09/2026**
 
 ## O que vai para onde
 
 | Tipo marketing | Seção no site `trcongroup.com.br` |
 |----------------|-----------------------------------|
 | **Artigo** | **Novidades TRCONGROUP** apenas (grid de cards + `/novidades/{slug}`) |
-| **Newsletter** / **Landing page** | Educação Financeira (card) + leitura `/novidades/{slug}` (fora do grid Novidades) |
+| **Newsletter** / **Landing page** | Permanecem somente no Sirius Marketing; não são enviadas ao site institucional |
 | **Post social** | LinkedIn (não site) |
 
 **Radar TRCONGROUP** (Sinais de IA e tecnologia) **não** recebe artigos do marketing — só pipeline automático de sinais externos.
@@ -18,14 +18,14 @@ No marketing, o editor vê **pré-visualização** do artigo (layout ≈ `/novid
 
 ## TTL — visibilidade no site (L0)
 
-Artigos e dicas editoriais **somem da home** após N dias (soft-hide). Default de fábrica: **4 dias**.
+Artigos editoriais **somem da seção Novidades** após N dias (soft-hide). Default de fábrica: **4 dias**.
 
 | Config | Valor |
 |--------|--------|
 | Site | `SITE_CONTENT_TTL_DAYS` (env) / `trcon.site.content.ttl-days` |
 | Marketing (publish) | `APP_SITE_CONTENT_TTL_DAYS` → payload `ttlDays` |
 | Permanente | `ttlDays=0` → `expires_at` null |
-| Override por peça | body `ttlDays` / `expiresAt` no `POST /api/internal/news` e economy-tips |
+| Override por peça | body `ttlDays` / `expiresAt` no `POST /api/internal/news` |
 
 Slug expirado → **404**. Sitemap/RSS usam as mesmas listagens filtradas.
 
@@ -39,7 +39,7 @@ Slug expirado → **404**. Sitemap/RSS usam as mesmas listagens filtradas.
 
 ## Layout na home (ago/2026)
 
-As seções **Radar**, **Novidades** e **Educação Financeira** usam grid de cards e **só aparecem se houver itens**. Sem conteúdo, o bloco inteiro fica oculto — não há “Carregando…” / “Sem novidades…” no HTML inicial (higiene de indexação).
+As seções **Radar** e **Novidades** usam grid de cards e **só aparecem se houver itens**. Sem conteúdo, o bloco inteiro fica oculto — não há “Carregando…” / “Sem novidades…” no HTML inicial (higiene de indexação).
 
 Novidades: link interno `/novidades/{slug}` (mesma aba). Radar: links externos (Google News, etc.).
 
@@ -77,9 +77,10 @@ Marketing: `APP_SITE_DEFAULT_URL=http://127.0.0.1:4173` para os links gravados n
 
 | Data | Correção |
 |------|----------|
+| 30/09/2026 | Newsletter e landing page deixam de ser enviadas ao site; fluxo de Educação Financeira removido do frontend, pipeline e backend nas Etapas 6 e 7 do plano 22 |
 | 16/08/2026 | Site **0.8.0**: SSR `/novidades/{slug}` + JSON-LD; home sem placeholders operacionais; `robots.txt`; proxy `SITE_API_UPSTREAM` |
-| 06/08/2026 | L0 TTL: `expires_at` em news/economy-tips; env `SITE_CONTENT_TTL_DAYS`; soft-hide home |
-| 05/08/2026 | Newsletter/landing: leitura completa em `/novidades/{slug}`; excluídas do grid Novidades (categoria Educacao); upsert economy-tips |
+| 06/08/2026 | Histórico: L0 TTL foi introduzido para notícias e para o módulo financeiro depois removido |
+| 05/08/2026 | Histórico: newsletter/landing chegaram a alimentar Educação Financeira antes da retirada desse fluxo |
 | 30/07/2026 | Desenho A: capa URL + `og:image` + embed YouTube/Vimeo; guia editorial §4.1 |
 | 27/07/2026 | Artigos deixam de duplicar no Radar |
 | 27/07/2026 | API highlights exclui itens com link `/novidades/` ou `external_id` `-radar` |

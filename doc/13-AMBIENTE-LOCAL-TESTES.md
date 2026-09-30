@@ -3,6 +3,11 @@
 Guia prático para abrir o projeto, subir o ambiente local e validar frontend,
 backend e integração ponta a ponta.
 
+> Atualizado em **30/09/2026**. O ambiente atual contém leads, Radar, Novidades,
+> feed/sitemap e assistente institucional. O antigo módulo financeiro do site foi
+> retirado; V6 e V9 permanecem somente no histórico do Flyway e a V11 integra a
+> cadeia de migrations.
+
 ## Abrindo no IntelliJ
 
 Abra a pasta raiz do projeto:

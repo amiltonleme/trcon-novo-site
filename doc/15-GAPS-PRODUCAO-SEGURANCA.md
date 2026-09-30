@@ -1,6 +1,6 @@
 # Gaps produção e segurança — Site TRCON
 
-> Atualizado em **16/08/2026** — cruzado com `site/backend` **0.8.0** e `site/frontend` **0.8.0**.
+> Atualizado em **30/09/2026** — sincronizado com as Etapas 6, 7 e 8 do plano de reposicionamento.
 
 Legenda: ✅ implementado · 🟡 parcial · ❌ pendente
 
@@ -13,7 +13,6 @@ Legenda: ✅ implementado · 🟡 parcial · ❌ pendente
 | Página de artigo legível | ✅ | `slug`, `body`, `/novidades/{slug}` (SSR + CSR fallback), capa, meta/OG/JSON-LD | — |
 | SEO (meta, OG, sitemap, RSS, JSON-LD) | ✅ | Meta + OG + `og:image` + **JSON-LD**; sitemap; RSS; HTML inicial SSR; `robots.txt`; form SEO marketing **S8.7** | — |
 | Páginas de produto + contato | ✅ | `#page-hub`, `#page-agendamento`, `#page-marketing`, `#page-contato` | Copy/cases contínuos |
-| Painel admin desativar dica economy | ❌ | Campo `active` em `economy_tips` | Endpoint interno ou SQL manual |
 | Backoffice editorial no site | ❌ | Conteúdo via marketing + pipeline JSON | Fora do escopo MVP |
 | Imagens / object storage | 🟡 | **Desenho A:** URL externa + embed vídeo | R2 = Desenho B |
 
@@ -23,10 +22,8 @@ Legenda: ✅ implementado · 🟡 parcial · ❌ pendente
 
 | Gap | Status | O que existe | O que falta |
 |-----|--------|--------------|-------------|
-| Sirius Marketing → news | ✅ | `InternalNewsController`, idempotência `external_id` | Smoke prod pós-redeploy 0.8.0 |
+| Sirius Marketing → news | ✅ | `InternalNewsController`, idempotência `external_id` | Smoke prod pós-redeploy da revisão atual |
 | Marketing → highlights (Radar) | ✅ API existe | **Artigos marketing não usam** (27/07) | Pipeline / manual |
-| Marketing → economy tips | ✅ | V6 + `InternalEconomyTipController` | Smoke pós-redeploy |
-| Pipeline RSS economy tips | ✅ | CI 2×/dia, merge na home | Ampliar feeds / curadoria |
 | Notificação de novo lead | ✅ | Lead + e-mail Resend (`LeadEmailNotifier`) | Configurar `TRCON_SITE_MAIL_*` no Coolify |
 | CRM externo | ❌ | — | Export ou integração futura |
 
@@ -67,7 +64,7 @@ Referência ecossistema: [`sirius-marketing/projeto/docs/cursor/10_estrategia_in
 
 | Gap | Status | O que existe | O que falta |
 |-----|--------|--------------|-------------|
-| Deploy backend Coolify | ✅ | `backend/Dockerfile`, healthcheck 90s | Manter Flyway alinhado (V8) |
+| Deploy backend Coolify | ✅ | `backend/Dockerfile`, healthcheck 90s | Na publicação da revisão atual, executar backup e validar a V11 conforme a Etapa 9 |
 | Deploy frontend Coolify | 🟡 | `frontend/Dockerfile` + proxy `/novidades/` (`SITE_API_UPSTREAM`) | DNS `@`/`www` → Hetzner; env `SITE_API_UPSTREAM` no Coolify |
 | Ambiente staging | ❌ | dev local + prod | Neon branch + subdomínio |
 | Monitoramento / alertas | 🟡 | Actuator + logs Coolify | Uptime + 5xx + health Neon |
@@ -94,7 +91,7 @@ Referência ecossistema: [`sirius-marketing/projeto/docs/cursor/10_estrategia_in
 
 | Prioridade | Item |
 |------------|------|
-| **Alta** | Redeploy prod **0.8.0** (backend SSR + frontend proxy) + smoke View Source `/novidades/{slug}` |
+| **Alta** | Redeploy da revisão atual + smoke funcional de artigo, chat, conteúdo e contato |
 | **Alta** | Coolify frontend: `SITE_API_UPSTREAM` + DNS `@`/`www` → Hetzner |
 | **Alta** | Coolify mail lead (`TRCON_SITE_MAIL_*`) + smoke formulário |
 | **Média** | Rate limit CF leads + alertas |
@@ -104,8 +101,8 @@ Referência ecossistema: [`sirius-marketing/projeto/docs/cursor/10_estrategia_in
 
 ## Resumo
 
-O **backend e o frontend (0.8.0)** cobrem leads (com notificação), Radar, Novidades (artigo SSR + SEO), Educação Financeira e páginas de produto/contato. Gaps restantes:
+O backend e o frontend cobrem leads (com notificação), Radar, Novidades (artigo SSR + SEO), assistente institucional e páginas corporativas, de produto, carreiras e contato. O antigo fluxo de Educação Financeira foi removido do site; V6 e V9 permanecem somente como migrations históricas e a V11 aguarda o procedimento operacional da Etapa 9. Gaps restantes:
 
-1. **Operacional** — redeploy 0.8.0, `SITE_API_UPSTREAM`, DNS frontend, vars Resend, smoke.
+1. **Operacional** — redeploy da revisão atual, `SITE_API_UPSTREAM`, DNS frontend, vars Resend, smoke.
 2. **Segurança escala** — rate limit borda, LGPD leads, alertas.
 3. **Adiados** — backoffice, CRM, object storage (Desenho B).

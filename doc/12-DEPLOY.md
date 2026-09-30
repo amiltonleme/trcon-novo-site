@@ -2,7 +2,7 @@
 
 Runbook canônico de produção do ecossistema TRCon.
 
-> **Status jul/2026:** backend site **no ar** (`api-site.*`). Frontend: redeploy + DNS `@`/`www` pendente.  
+> **Status 30/09/2026:** backend site **no ar** (`api-site.*`); a publicação da revisão atual, o backup anterior à V11 e o smoke pertencem à Etapa 9. Frontend: redeploy + DNS `@`/`www` pendente.
 > Matriz e pendências: [`14-STATUS-IMPLEMENTACAO.md`](./14-STATUS-IMPLEMENTACAO.md), [`16-PASSO-A-PASSO.md`](./16-PASSO-A-PASSO.md).
 
 Decisão oficial:
@@ -201,6 +201,10 @@ GET https://api-site.trcongroup.com.br/api/public/highlights
 
 Após o redeploy, validar `GET /api/public/news/{slug}` (200). Os endpoints de
 `economy-tips` foram retirados na Etapa 7 do reposicionamento.
+
+A V11 está versionada, mas o deploy que a executar só pode ocorrer depois do
+backup, conferência de SHA-256, `pg_restore --list` e restauração isolada
+descritos no [plano de reposicionamento](22-PLANO-REPOSICIONAMENTO-LIMPEZA.md).
 
 Com mail ligado, smoke: `POST /api/v1/site/leads` → 201 e e-mail em `TRCON_SITE_LEAD_NOTIFY_TO` (falha de Resend não deve quebrar o 201).
 

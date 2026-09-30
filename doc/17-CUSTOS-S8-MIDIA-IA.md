@@ -1,10 +1,16 @@
 # Custos — Sprint 8, mídia visual e IA de imagem
 
-> Atualizado em **27/07/2026**  
+> Atualizado em **30/09/2026**
 > **Documento canônico (completo):** [`../../sirius-marketing/projeto/docs/cursor/11_custos_sprint8_midia_ia.md`](../../sirius-marketing/projeto/docs/cursor/11_custos_sprint8_midia_ia.md)  
 > Escopo S8 no site: [`16-PASSO-A-PASSO.md`](16-PASSO-A-PASSO.md) · Gaps: [`15-GAPS-PRODUCAO-SEGURANCA.md`](15-GAPS-PRODUCAO-SEGURANCA.md)
 
 Este arquivo resume o mesmo conteúdo para leitura no monorepo **site**; detalhes e Sprint 9 estão no link acima.
+
+O reposicionamento e a retirada do antigo fluxo financeiro do site não criaram
+novo custo recorrente. O assistente institucional tem orçamento próprio de até
+US$ 10/mês, documentado em
+[`21-CHAT-IA-DEEPSEEK.md`](21-CHAT-IA-DEEPSEEK.md); backup e execução da V11
+usam a infraestrutura já prevista e pertencem à Etapa 9.
 
 ---
 

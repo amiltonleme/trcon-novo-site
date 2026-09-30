@@ -78,9 +78,10 @@ Arquivos:
   > mover `.github/` para a raiz e ajustar os `paths:` do workflow.
 - Pipeline de CD (build/deploy de produção): deve ser configurado no Coolify por
   Git/webhook após CI verde. O workflow antigo de Render/Fly é legado.
-- Pipeline de conteúdo recorrente (2x/dia — herdado do workflow atual em
-  `fluxo-caixa-app/site-trcon/.github/workflows/update-site-data.yml`): pendente
-  (entra na fase de migração do frontend).
+- Pipeline de conteúdo recorrente: `../.github/workflows/update-content.yml`,
+  executado 2x/dia para gerar `ai-radar.json`, `tech-radar.json` e
+  `home-highlights.json`. O pipeline não gera conteúdo financeiro nem Novidades
+  institucionais.
 
 Estimativa de custo de operação: `../doc/09-PLANO-EXECUCAO-IA.md` (seção
 "Custos estimados").

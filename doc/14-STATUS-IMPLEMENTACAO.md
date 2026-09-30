@@ -1,6 +1,6 @@
 # Status de implementação — Site TRCON
 
-> Atualizado em **28/09/2026** — reposicionamento tecnológico, CSS modular e V1 do assistente institucional implementados no código; publicação pendente.
+> Atualizado em **30/09/2026** — Etapas 0 a 8 do reposicionamento concluídas no código; publicação e operação da V11 permanecem na Etapa 9.
 > Gaps e segurança: [`15-GAPS-PRODUCAO-SEGURANCA.md`](15-GAPS-PRODUCAO-SEGURANCA.md).  
 > Feito / fazendo / a fazer: [`16-PASSO-A-PASSO.md`](16-PASSO-A-PASSO.md).
 
@@ -9,7 +9,7 @@
 | Camada | Stack | Prod (ago/2026) |
 |--------|-------|-----------------|
 | Frontend | HTML/CSS/JS (ES modules), Vitest — **0.8.0** | Coolify; nginx proxy `/novidades/` → API |
-| Backend | Spring Boot 3, Java 21, Flyway V1–**V8**, versão **0.8.0** | **OK** — `api-site.trcongroup.com.br` (Coolify + Neon `trcon_site`) |
+| Backend | Spring Boot 3, Java 21, Flyway V1–**V11** | **Código OK** — `api-site.trcongroup.com.br` requer redeploy da revisão atual e backup antes da V11 |
 | Pipeline conteúdo | Python + GitHub Actions 2×/dia | **OK** — `update-content.yml` |
 | Integração marketing | API interna `X-API-Key` | **Código OK** — smoke/redeploy conforme ambiente |
 | Notificação lead | Resend (`LeadEmailNotifier`) | **Código OK** — configurar `TRCON_SITE_MAIL_*` no Coolify |
@@ -42,7 +42,7 @@
 | **V8** | `cover_image_url` em `news_items` |
 | **V9** | `expires_at` em conteúdo |
 | **V10** | `chat_usage_logs` sem conteúdo das conversas |
-| **V11** | reservado para remoção de `economy_tips`, após backup explícito |
+| **V11** | remove `economy_tips`; execução condicionada a backup explícito e restauração validada na Etapa 9 |
 
 ---
 
@@ -88,8 +88,8 @@ Manual: [`18-MANUAL-MARKETING-EDITORIAL.md`](18-MANUAL-MARKETING-EDITORIAL.md).
 
 | Estado | Itens |
 |--------|-------|
-| **Feito** | Fases 0–7; S8.1–S8.7; **S8.5b** JSON-LD + HTML SSR; higiene SEO home (`robots.txt`, seções vazias); Desenho A; Radar ≠ Novidades; produtos + contato; Resend; JaCoCo ≥ 80% |
-| **Fazendo** | Revisão visual, configuração do chat e deploy do reposicionamento |
+| **Feito** | Etapas 0–8 do plano 22; S8.1–S8.7; **S8.5b** JSON-LD + HTML SSR; higiene SEO home (`robots.txt`, seções vazias); Desenho A; Radar ≠ Novidades; produtos + contato; Resend; JaCoCo ≥ 80% |
+| **Fazendo** | Preparação do gate operacional da Etapa 9: backup, publicação, smoke e observação |
 | **A fazer** | Rate limit CF leads/interno; LGPD export/exclusão; staging; F9 consolidação legado |
 | **Melhorias** | CRM; alerta de orçamento do chat; **Desenho B (R2)**; E2E cross-stack |
 
@@ -99,7 +99,8 @@ Manual: [`18-MANUAL-MARKETING-EDITORIAL.md`](18-MANUAL-MARKETING-EDITORIAL.md).
 
 | Item | Prioridade |
 |------|------------|
-| Redeploy backend + frontend **0.8.0** (SSR `/novidades/` + proxy) | Alta |
+| Backup validado de `economy_tips` antes da execução da V11 | Alta |
+| Redeploy backend + frontend da revisão atual | Alta |
 | Coolify frontend: env **`SITE_API_UPSTREAM`** (ex. `http://trcon-site-backend:8080` ou URL interna da API) | Alta |
 | `TRCON_SITE_MAIL_*` + `TRCON_SITE_LEAD_NOTIFY_TO` no Coolify | Alta |
 | DNS `@`/`www` → Hetzner | Alta |

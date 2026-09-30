@@ -4,8 +4,8 @@
 > deve ser feita sem concluir a etapa de substituição e as verificações da própria
 > fase.
 >
-> **Última atualização: 30/09/2026.** Etapas 0, 1, 2, 3, 4, 5, 6 e 7 concluídas.
-> Próximo gate: Etapa 8 — Higiene do repositório.
+> **Última atualização: 30/09/2026.** Etapas 0, 1, 2, 3, 4, 5, 6, 7 e 8 concluídas.
+> Próximo gate: Etapa 9 — Verificação e publicação.
 
 ## Objetivo
 
@@ -99,15 +99,15 @@ remoção do backend financeiro em um único deploy.
 | 5 — Assistente institucional | **Concluída em 29/09/2026** | Assistente TRCONGROUP, endpoint, base factual e glossário, cliente DeepSeek, escopo institucional/tecnológico sem respostas fixas no fluxo real, validação estruturada, rate limit, orçamento, CTAs, observabilidade, stub exclusivamente local, interface responsiva e integração real homologada no Coolify dev | nenhuma pendência de implementação; redeploy da revisão atual, smoke e ativação em produção pertencem à Etapa 9 |
 | 6 — Limpeza frontend/pipeline | **Concluída em 29/09/2026** | consumidores financeiros e artefatos financeiros removidos; Radar preservado; `news-log.json`, builder, testes e referências do workflow retirados; fontes canônicas sincronizadas; pipeline e frontend validados; publicação e observação concluídas | nenhuma pendência do gate |
 | 7 — Backend financeiro | **Concluída em 30/09/2026** | produtor retirado do Sírius Marketing; pacotes, endpoints e testes de `economytips` removidos do site; scheduler preserva somente notícias; documentação funcional atualizada; backend aprovado com 192 testes; migration V11 criada | execução da V11, backup e validação operacional pertencem à Etapa 9 |
-| 8 — Higiene do repositório | Parcial | regra de ignore criada; bytecode marcado para remoção; backup antigo do logo retirado | concluir remoção versionada dos caches; eliminar referências e documentação obsoletas |
+| 8 — Higiene do repositório | **Concluída em 30/09/2026** | caches e bytecode retirados da árvore; regras de ignore confirmadas; nenhum backup publicado; referências residuais classificadas; documentação canônica, operacional, de ambiente, status e custos sincronizada | nenhuma pendência do gate |
 | 9 — Verificação e publicação | Parcial local/dev | lint, frontend, pipeline e testes do chat executados; smoke visual local; integração com DeepSeek observada no endpoint público dev | republicar a revisão atual do backend no Coolify, executar smoke funcional, completar SEO/acessibilidade, deploy gradual e observação em produção |
 
 ### Ponto de retomada obrigatório
 
 O próximo trabalho não deve avançar para novas funcionalidades fora da sequência. Deve:
 
-1. concluir a Etapa 8 com a remoção dos caches e das referências obsoletas ainda
-   identificadas.
+1. executar a Etapa 9, começando pelo backup e pela validação operacional
+   definidos para a V11 antes da publicação da revisão atual.
 
 Enquanto esse gate não for atendido, o estado do plano é **em execução**,
 não “implementado por completo”.
@@ -1157,6 +1157,10 @@ a publicação controlada da Etapa 9, depois do backup previsto nesta seção.
 
 ## Etapa 8 — Higiene do repositório
 
+**Estado: concluída em 30/09/2026.** A limpeza ficou restrita a artefatos gerados,
+backups publicados e referências/documentação residual. Nenhuma ação de
+publicação, banco de dados ou infraestrutura da Etapa 9 foi executada.
+
 ### Artefatos gerados
 
 Retirar todos os diretórios `__pycache__` e arquivos `*.pyc` versionados ou não
@@ -1197,6 +1201,45 @@ armazenamento de design, não misturados aos assets publicados.
 - assets publicados não contêm backups
 - buscas residuais retornam apenas migrations e histórico explicitamente mantidos
 - documentação descreve o sistema que realmente está implantado
+
+### Fechamento da Etapa 8 — 30/09/2026
+
+- os 11 arquivos `*.pyc` anteriormente versionados e um bytecode ignorado
+  remanescente foram retirados da árvore de trabalho; `git ls-files` identifica
+  os 11 versionados somente como registros rastreados e deletados, e
+  `rg --files -uu` não encontra bytecode ou diretório `__pycache__` presente no
+  filesystem;
+- `.gitignore` já contém `__pycache__/` e `*.py[cod]`, sem necessidade de nova
+  alteração;
+- a busca por nomes de backup não encontrou asset publicado; o antigo backup do
+  logo continua ausente;
+- as ocorrências de `economy-tips`, `EconomyTip`, `market.json`, `recipes.json`,
+  `update_market` e `update_daily_content` ficaram restritas a este plano
+  histórico e ao registro explícito da retirada no guia de deploy;
+- as ocorrências de `economy_tips` no código ficaram restritas às migrations V6,
+  V9 e V11. V6 e V9 não foram reescritas;
+- documentação canônica, migração, deploy, ambiente local, status, segurança,
+  execução, marketing, infraestrutura e custos foi sincronizada com o sistema
+  atual.
+
+#### Evidência do gate
+
+| Verificação | Resultado em 30/09/2026 |
+|---|---|
+| `git status --short` | somente as alterações documentais da Etapa 8 e as exclusões esperadas dos 11 bytecodes; nenhum cache novo |
+| `git ls-files` + estado do filesystem | 11 registros de bytecode marcados como deletados; nenhum deles existe na árvore de trabalho |
+| `rg --files -uu` para `__pycache__` e `*.py[cod]` | nenhuma ocorrência, inclusive entre arquivos ignorados |
+| busca por backups em assets/árvore versionada | nenhuma ocorrência |
+| busca residual dos seis termos definidos nesta etapa | apenas histórico explicitamente mantido; nenhum código ativo, configuração ou consumidor |
+| `git diff --check` | aprovado |
+
+#### Fechamento
+
+O critério de aceite da Etapa 8 está atendido. O repositório não contém cache,
+bytecode ou backup publicado no filesystem, e a documentação operacional não
+descreve como ativos os fluxos financeiros retirados. Backup de banco, execução
+da V11, testes de publicação, deploy e observação continuam exclusivamente na
+Etapa 9.
 
 ## Etapa 9 — Verificação e publicação
 

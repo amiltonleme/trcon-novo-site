@@ -61,8 +61,7 @@ MVC do site ([05-BACKEND-ARQUITETURA-MVC.md](canonical/05-BACKEND-ARQUITETURA-MV
 
 ## Decisão de nomenclatura de domínio
 
-Novo módulo de domínio **`chat`**, quinto módulo do backend do site (ao lado de
-`lead`, `highlights`, `news`, `economytips`) — ver
+Novo módulo de domínio **`chat`**, ao lado de `lead`, `highlights` e `news` — ver
 [04-BACKEND-STACK-CANONICA.md](canonical/04-BACKEND-STACK-CANONICA.md) ("Módulos
 iniciais").
 

@@ -42,8 +42,8 @@ trcongroup/
 | 5 | ✅ **Concluída.** Integração frontend → backend: módulo `lead-form.js` (`buildLeadPayload`/`submitLead`/`mensagemDeErro`), formulário com `tipoInteresse`, CTAs pré-selecionando o tipo via `data-lead-type`, config apontando para `/api/v1/site/leads`. Validado no navegador: 201 (persistido), 409 duplicado e fallback de backend offline. 32 testes Vitest | 1–2 sessões | Testar formulário ponta a ponta em ambiente de teste | Fases 1, 2, 4 |
 | 6 | ✅ **Concluída e simplificada na Etapa 6 do plano 22.** Pipeline SOLID (`core`/`providers`/`builders` + scripts finos) gerando `ai-radar.json`, `tech-radar.json` e `home-highlights.json` (shape de `HighlightResponse`). Testes unittest, fallback ao último artefato validado e workflow `update-content.yml` 2x/dia | 2–3 sessões | Aprovar curadoria/fontes usadas | Fase 3 |
 | 7 | ✅ **Concluída historicamente; revisada na Etapa 2 do plano 22.** Radar e Novidades foram movidos para Conteúdo; Radar mantém fallback e Novidades usa somente a API institucional | — | — | Fases 1, 5, 6 |
-| 8 | 🟡 **Parcial.** Backend prod Coolify (`api-site.*`); frontend DNS Hetzner pendente — [12-DEPLOY.md](../12-DEPLOY.md), [16-PASSO-A-PASSO.md](../16-PASSO-A-PASSO.md) | provisionamento + redeploy V6 | Validar smoke economy tips | Fases 1–7 |
-| 8b | ✅ **Concluída (código).** Integração Sirius Marketing + economy tips V6 | — | Redeploy prod | Fase 8 |
+| 8 | 🟡 **Parcial.** Backend prod Coolify (`api-site.*`); a revisão atual ainda exige publicação e smoke operacional — [12-DEPLOY.md](../12-DEPLOY.md), [16-PASSO-A-PASSO.md](../16-PASSO-A-PASSO.md) | publicação controlada | Validar artigo, chat, conteúdo e contato; executar backup antes da V11 | Fases 1–7 |
+| 8b | ✅ **Encerrada.** A antiga integração de Educação Financeira com o Sirius Marketing foi retirada nas Etapas 6 e 7 do plano 22; V6 e V9 permanecem apenas como migrations históricas | — | — | Fase 8 |
 | 9 | Consolidação: observação, corte `fluxo-caixa-app/site-trcon` | contínuo | Decisão explícita | Fase 8 estável |
 | 10 | Sprint 8: página artigo + SEO/RSS | 3–5 dias dev | Aceite SEO | Fase 8 |
 
