@@ -1,17 +1,8 @@
 {
-  "generated_at": "2026-09-30T23:21:29.299473+00:00",
+  "generated_at": "2026-10-01T14:51:58.715239+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de tecnologia.",
   "errors": [],
   "items": [
-    {
-      "title": "Nova plataforma da Meta leva agentes de IA para atendimento, vendas e desenvolvimento de software",
-      "summary": "Nova plataforma da Meta leva agentes de IA para atendimento, vendas e desenvolvimento de software",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUDl5MzlQbmVNclRjYnRlSXEyejEyYnRJRlgzN1ppaGxqaFNrdHpfQ1NoTGFJdGQySEdMeGh1a2hQaVduYzRpeWtzT09NZzFHNWRsblRnZ0ZXajBheDc4ZVJYeWdSa182aWYxajNnUGhvTTFXMUJ1eXdRT202ZEFwRjNfU0lRY2oyLUFSajJ1WHZlV0RmWHhEbkE5WFp0UDNZendEQmk0UjBxWFVzbmNVdExoMFdEY2J0dEFXa2M0MWYxM0hGYW1BSW1wQWNfMGVIRmc?oc=5",
-      "source": "Agora Litoral",
-      "published_at": "Mon, 28 Sep 2026 16:08:20 GMT",
-      "category": "Tecnologia",
-      "signal": "flat"
-    },
     {
       "title": "Zurich reforça cibersegurança ao integrar segurança no desenvolvimento de software | SEGS Portal Nacional...",
       "summary": "Zurich reforça cibersegurança ao integrar segurança no desenvolvimento de software | SEGS Portal Nacional...",
@@ -52,10 +43,19 @@
       "title": "B3 adota IA no desenvolvimento de software e reduz prazo de entrega em 35%",
       "summary": "B3 adota IA no desenvolvimento de software e reduz prazo de entrega em 35%",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZE93R0FMaVlpNEl0R1RBZTRXeVlIODN2b3U1R0U0cGRNR2ozNG1fc1NpR0JDY2QxTXZwSUNuNTl4Y2ZiZ1ZzVWhOWkNwTEJVZFpfTl9ISzR3akN4UW9ISmlyU1NHX0FST1RQZThPVi14ZzkyUTVtSUxadld6YkYzbDJFUWlpSzQ2V2FHYWZxMkdLbHhfbGppMzJ5NklrUnN4SThOa2xUTkdsRDVfdG5xV0lQTmVlUnZj?oc=5",
-      "source": "BPMoney",
+      "source": "bpmoney.com.br",
       "published_at": "Thu, 03 Sep 2026 07:00:00 GMT",
       "category": "Tecnologia",
       "signal": "up"
+    },
+    {
+      "title": "O desenvolvimento de software entra em uma nova fase",
+      "summary": "O desenvolvimento de software entra em uma nova fase",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSnpBeW1nUVZVRFp3cWlWRVB3RVV1blJjSEwwcFFpU2UyQ3h2Zk56M3Fjby1JU2JqdUhEMlR2X2dCQlBVTHlnd2R5b3ZhdTRhUjZ4c0pfVGpnUjIzMW5HU0pzMDVDTDFHRnZkNVlqMHh5UHNmNW5rdUhFQWVMeDh5QXY0WEhJcU1kS3FId2dIRQ?oc=5",
+      "source": "ND Mais",
+      "published_at": "Mon, 08 Jun 2026 07:00:00 GMT",
+      "category": "Tecnologia",
+      "signal": "flat"
     }
   ],
   "category": "Tecnologia"

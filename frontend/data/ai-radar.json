@@ -1,59 +1,59 @@
 {
-  "generated_at": "2026-09-30T23:21:28.246808+00:00",
+  "generated_at": "2026-10-01T14:51:57.586954+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
+    {
+      "title": "Agenda Global: Países e empresas debatem limites da inteligência artificial e riscos para a Humanidade",
+      "summary": "Agenda Global: Países e empresas debatem limites da inteligência artificial e riscos para a Humanidade",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOMU9iLVVSVVpiaGxvQmU4X2dwdFZ4WVdRRTRMVVFGYnduTEVxTVI3NDNBbUlXU1FtRkg5RnpyM1k3NVFybTQyTFR2Z3A2TGdaY2NtajRHQlJpdTgzZG5VeDVpTHVkNXBhVDA1YWUyREdsRTluZEVMV2dpWUw1d0hZY3pXY3c5QUFucWtzR1lJbk9lM2lCcUJMTTFFeVNXNmFyMGtqOFZPUnRPSDItY3lZU2ZGX0loTFBRUnpnU1ljN2RKNHFvdUU0NlJPT0pVQnJEQ1ZGVE9aWVQ4clhhdnBGSHl6UDTSAfMBQVVfeXFMT2xxZWxpazVLWG9mNGRtRUNyb2V1SVBkSWE4aExrY1UyaHJJY0NmQjdkSnJhRURFSUxIMDFrUUtsbDQ5N0JuRGhGM29LaE5ROUI4RG51eUVuZmNfcXVCQnpzV2hzUHFGcGxzUW16cTZaQi1SS2FYUV9uS3FnTVdtSzlDYlB3RkVuMlpFWFUzYkVMR2p5UXBiWFNmSHhBMGd3UDFtUU44UHN5R1hMUTdkRFRVV0NBaHlZUDlrLUF2OHdqc0xWOFpzYW8yY21wY3FFRkhBdUgtbU5qQTYxdkZfZUhiUzlIMFVwaHpKNzF0UGZkbDBv?oc=5",
+      "source": "O GLOBO",
+      "published_at": "Wed, 30 Sep 2026 11:00:00 GMT",
+      "category": "IA",
+      "signal": "down"
+    },
+    {
+      "title": "IA virou commodity? Por que apenas ter inteligência artificial não diferencia mais nenhuma empresa",
+      "summary": "IA virou commodity? Por que apenas ter inteligência artificial não diferencia mais nenhuma empresa",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPdUQ1TkJsNjFCeC1UeFRCZkRuQ0VSaGNhc3ktdVVzS0J2LTNhaU5aVnVNT3Rub0gyQXNVaHV5UUlNZVd0YTFFdGNsVGxtWEhOSnB5M3NvdEJQWkpkT09qOXZKQzhrMGRtSmQ0M0NBSEhTVi1McmlGWVFJaDZ0OFRIMW1LVW5WWVVDLU5HTkNuM01HaDE0VHpsOHN6NGNQbFF0U1IwZzVMNXYzaTRpQ2F2a1h6RFQ5dUhleU5BTUMxcFRSdURBTGZROTN3Wk1aVTR2eXNzZkFoMzBrUENtOTk4bw?oc=5",
+      "source": "Sala da Notícia",
+      "published_at": "Thu, 01 Oct 2026 08:10:39 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Google revela novo modelo de inteligência artificial Gemini 4 Argon",
+      "summary": "Google revela novo modelo de inteligência artificial Gemini 4 Argon",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcUpTZkl4VWZTdTExbHFVbEtwYTBBRkhnRDFZZVJvRHotdDZxMktfWWpxem04LUNwcnBodEhlUWh1dXFUQU5LTTBURDAwc05LR1lCQ25kTWlNSnFUX09wYllhSkljVlNJMmFvRmZ6Nk9YWkFlSU1QajhXMXVMVE1FU1UwVHpudzgxbkFQZlNFM1RqLU9kaW1DZGl1dHJBSlUzQ0E4YXBHM3NIZ2Vza1VWUTlkQTBiOS1tTGdXbFZHckIwYU5B?oc=5",
+      "source": "Tribuna do Sertão",
+      "published_at": "Thu, 01 Oct 2026 13:41:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "\"IA pode deixar sua empresa mais ocupada, não mais eficiente\", afirma especialista",
+      "summary": "\"IA pode deixar sua empresa mais ocupada, não mais eficiente\", afirma especialista",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbjVIT1FybjBCY2VEQ2p6c3dDd3NjSHFhX0NUbzZOT0Y2QVp3U29SeUZHdC1BSUFuR09vZDNlR2pvUTZkM0ltbkdtT1ZybFc3ZUVGdHNnUV9KYTl4enczSkxxVzd3ZFY1Qm5ycnI0SXlqZzhKSW5rbDVjUFUxMWF6YTBCNnI5QQ?oc=5",
+      "source": "InfoMoney",
+      "published_at": "Thu, 01 Oct 2026 14:00:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Aline Sordili: Empresas incentivam IA sem dar ferramentas, dizem 28% dos profissionais",
+      "summary": "Aline Sordili: Empresas incentivam IA sem dar ferramentas, dizem 28% dos profissionais",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTWFzVmRIR3hMcGRFQ3hUZmFPUk83ZzRHVlJ4WWF3ZkRndG5uSy1SQ0oxSi1YSWhaZjdic201NGtQZUpCS1ROSlI2djNXUFVESUxBWFNXT0hkaTFuYmM0djhrQXhtR2JpM2lmUEd6Tk55ZnhHLWRqcDhjOTFCRG5aTU81aEV5WW0taDlpMDc0STVXWXlVano3c2NRVnRDM0VjRVBjc1YtbEJUblJPMDRub0xKMGFYc0ZrSVpiQmpEempYdlpQckxoUUZDOGVxODVO?oc=5",
+      "source": "economia.uol.com.br",
+      "published_at": "Thu, 01 Oct 2026 12:30:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
     {
       "title": "Evento em Curitiba discute o que vem depois da Inteligência Artificial nas empresas",
       "summary": "Evento em Curitiba discute o que vem depois da Inteligência Artificial nas empresas",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOVJCLU5UTTFKaFZNeVhmNjNVWi0wZ2F4X3FrUG9fQUpCbG5oNEpQNGhEN0ZwSkR3UzdNcXNkRWd0b3gyMGxpSFVvSEF4OGpVaTczV3Zoc0lYSldIakJfaG5KUTFUbG13RmlXWldzc2szSW5RbTg1R0ZHU2I3M0lLYUUyeW03Z0hHSnpycXpUbDVydjlmTmxOTXBKRjhDY2cxREE3OHAwT0t5eXFKdnBTTjYxemE2T2c1b2JtUjFhWWZhV0pvVUhDTFd2ONIB0AFBVV95cUxPTF9kUl9kQkxsTm02eTdjWWRmUkxIOXhaN1piak1ucE5FVjFhSHlydGVPa3M2SENXRjFObHZUUjBJMFBWdVQ3LW5JQWxjTUFFb1VqRDNqNlRYZ3ROYmRNbUpCWkhqM2FXZFNHc1ZmdTBMakFsTFZrNHpJWTlzSFNRQjQtOXNid1J0ak0tN0pFVWtRWVVoNnJ6UnUtMXVDWlpjSHZmUmxjLTgyZ0NjNGRMdnFocDF6S3BEaG9nMlNsa1VuV1BSdUQ4STNwc0hiNkZX?oc=5",
       "source": "Bem Paraná",
       "published_at": "Wed, 30 Sep 2026 18:10:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "EUA abrem investigação inédita sobre OpenAI e Anthropic após agentes de IA invadirem sistemas",
-      "summary": "EUA abrem investigação inédita sobre OpenAI e Anthropic após agentes de IA invadirem sistemas",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMmRNRGtGQUVkZDZRZzgyZnV5bWJGdThNQkJNcW9WQkdNVnI0MDhLdWtFaUN1bS03TnRsYldqdmMxSDVXdlZlV05VQWQza0xnT0t5YUkxR0NTM3pmcFFoUnpRX2t2eFViWUNQR3hzc0lFTk5sYVVPWWNNczhoUVV6Si1aZjBLa1luWHZLRDRqSWFhU0xKWGlRVzM0cnhqMUZJLTJqTGtzVlNJUWM3TUFHVU1iMjc1alR2Y2xvTVhMUW04bWJjV1Jic1JOcEplWUJWOHlYYWtvUjc5TUtMR2p2SzZFUzHSAfMBQVVfeXFMT1o1U3RqQU1jeHhSWDlzVndjVE9WUHJydzNENnhScHRhcFVqekkxZklZTFVUV1JxeVptZmM4WUxDT3lqaGVrT1JQNklEcTJJYlE5N1lxYktrYzNTeWt0X3hjY0ZGMXRyYkJyZVNOOFZXQVdYRUZkMmNvYXJrSE9tbnNaUE5CVnd4dVNlb2t0LTVXY0c5YTBiZUNoV0o3VnNSVFhROXU0ZnRMVnBvSmlDblFOaWVJcG1hNXVPZmRFZXN2c2V4X2tpdUJPdVZ2dF9jNlVOdW1LaS1lcnFONElnVFllS0FkcWZXN1kzNGFpN1JuRWVB?oc=5",
-      "source": "G1",
-      "published_at": "Wed, 30 Sep 2026 16:51:16 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Empresas gastam mais com IA, mas ainda automatizam processos que deveriam redesenhar",
-      "summary": "Empresas gastam mais com IA, mas ainda automatizam processos que deveriam redesenhar",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPSmFtVk5GODRHX09yc3dWRGlSRm1fNjBKcWVCSnpBYmNuekdrVGdtU0hFeG9ueF8yeVl3d00tZTdMYVZ3MnZNb2hkT1BKcnFLZGNTRjFLay1jbEVBdFcwSWRIX0s0UlpVWkx0NC1DLU1TWU1ubkhYdFplLXVVNmpYU2FZMEhYeUJMVXNwRXNGUURLN1BJSU9hTXNNVklNd3RzQktFRkwyMWJLUG42T0pPdEVyRjZRWUxtN1lTMHlaM0FBNlZpN0F1RGwzMzk3VFF4MEozRkdqV3BoTXpnVXRNRnJDcHZqNHBqa2NWQW1Qb0dmdEVBd2xIV9IBhwJBVV95cUxOWU5HSFhTRnNmOGJRVUNBM2NBalJNR2o1VUFxbm4tM0hrQWVGdnlVcEYyVWloMGxRem93Vmx1R2ZvQ0tIV205WkwzYnBHeVZaWXZTUjFXZ3Q5dTNLVmdkTFplUmJwMUpPeE9yU0FhTFhQa1l3TWk2bVNXSzlKUm5FQ3JVdjZSek9FMVFOOENKZDJWdU5MVHo4SUFpcGV2V2RVY2N6TDJzRlVMUVgyZlZfWVZ2SERmODA1Yzk4dklqSS03SXIyOVVydW9qd1JLMlo3all0LTc2SjJTN1Fta2RkOWxaSlg0U1BTWjVUdzJKYTd1NThoZVZtWlRaZllnbW94SEd3ajlJMA?oc=5",
-      "source": "Época Negócios",
-      "published_at": "Wed, 30 Sep 2026 09:00:01 GMT",
-      "category": "IA",
-      "signal": "down"
-    },
-    {
-      "title": "3,5x de ROI: o que separa as empresas que lucram com IA das que só gastam com IA",
-      "summary": "3,5x de ROI: o que separa as empresas que lucram com IA das que só gastam com IA",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOX1o3QlR2NVk3RmFneTZYYTVhU0dqMmVLb2diazd0MlZ6X3pYVFIya283SWNra2oxcFFIU2Fya2FZd1FnZE80M1p0anR1YlB6NlUyZTZFZWhIXzZmS29HUm9XV1dnWFF3OE92M2ZBdTZ3U1FnZVhHUTVfSHI2OFJVam9KVWhjV2NaWXdmeGw3SG9MQV85ZzRTaHNrYXA3VjJmR3ZmdzMzYlYzWXFlUGpwdHVmOGdBUmxaLUpZSEhVM3dvcXM1NGh0aXRCdzVlN2lXdGpSV1UzTXptMVFXTjZraExORWJCTGFB0gH3AUFVX3lxTE92NTVxaHQ3SklBQk8yMExVTHNhMlljaklTZW9PWlhWUDNjZDB2NzJCYW12Y1ViYVh4VHp5aERkYkNqMGp1emRNR2NXNERDa3NydGJDS0xSaEVYLWRISDNvbXU5TVJYd21YZU9hWTIwX0hicHR3R0tXaXVGT2ZHT1RQTWdPZVQtYm9EektBT0ZCblNNTmhTOVZIdUNfWXlXTUdYNlEwd1N5WmlxZUt6SXNzX2R2TEtyRmx3MTlGcm4zMjJIYnRoV0RzczRkR0Ewc1ZRNWVIYVU0WmswbnAwUnhKXzZKaFBYN3ZtZ1E4RlNkXzNKY0l6M1U?oc=5",
-      "source": "Valor Econômico",
-      "published_at": "Wed, 30 Sep 2026 12:36:17 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Sem leis: entenda o que significa o acordo de ‘autorregulação’ feito por Trump com empresas de IA",
-      "summary": "Sem leis: entenda o que significa o acordo de ‘autorregulação’ feito por Trump com empresas de IA",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTm9nR3U3NGZycVNSNjA5UWlPOEpaUXBvM0RsZ0NvMnE5cjJfd3ptbFF6N2RhODQyOW9pZ0ZuWkhCUUxOaUNsYm9kbFNYbEZUOXg5M1hUaHlkemE1YnhlZ3JDTTlJd3ZpY1lwbWRSZGdnVUM1elFmMDlVRWNjc2IwZzNNU3FUZkZXeUEzTEQxaUFiYUV1LVhFelNHSGJCckc4OUs4WVZnZE5Wc0M0RldvZVdBamRXRWtYWU1KbkIxTmJacjk0NnZDaXBfUnNrLTRNRXFzS2VfS0xYOTRJMFVoTGFVYktiRWdhQ3pJ0gHwAUFVX3lxTE93RVhqdGowWnhxN045bEdYZnY5UDlPeXRQdmxrUWtrRVZaZVhPZE51ay1jTElCUXQtMlJYRDhuOHVad1JJVzktbkg2N19WTW5NaHFnN1VYd19SMGVQc252UG1ONC1FQmlYenljZXRWV19iTFo1QTNkTkFCMVQ5UjBFckF4Mnc0ZGVGbEsxeHpUaWZ0aTF6M2VNR09FakFPY2lDNy1XN3ZKREQwdDNUbnhPZEozN0QzYVdndm9YaFhZdWZaSldLMFRsUXRlVTUwcktlbXhPNmRSUUtOSjZOS0M4Zlg1WU14bk5ETHQ1TW9ncA?oc=5",
-      "source": "Estadão",
-      "published_at": "Wed, 30 Sep 2026 14:30:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Só 15% das empresas tratam conhecimento em IA como requisito ao contratar | Planeta IA",
-      "summary": "Só 15% das empresas tratam conhecimento em IA como requisito ao contratar | Planeta IA",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPR3RtOEZEdzBycURFVFZQME1wYXJTMHQwWi00Y185ZkN0SHdOZFpZaS0wWUs2ZEgtdnpHTUVQT1JNbkFwM1Bsd1pDTnE0VzVPcGVoTGJVX2lHdHJsY3hBbEFHbnlVaTQ4ZlFrTTRNbHlvWkRMWENDM2JrdWNWSDkzLWoxei1HSjJDLWs1Y3ZHNVF1VkVnZHBuS1Z4WHBsY2JHc1BjYVRRNWgxWkpUMGNmNHZZOFFXbmFq?oc=5",
-      "source": "VEJA",
-      "published_at": "Wed, 30 Sep 2026 09:00:37 GMT",
       "category": "IA",
       "signal": "flat"
     }
