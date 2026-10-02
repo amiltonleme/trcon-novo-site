@@ -1,8 +1,35 @@
 {
-  "generated_at": "2026-10-01T23:36:03.480457+00:00",
+  "generated_at": "2026-10-02T14:11:33.004711+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
+    {
+      "title": "Agenda Global: Países e empresas debatem limites da inteligência artificial e riscos para a Humanidade",
+      "summary": "Agenda Global: Países e empresas debatem limites da inteligência artificial e riscos para a Humanidade",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOMU9iLVVSVVpiaGxvQmU4X2dwdFZ4WVdRRTRMVVFGYnduTEVxTVI3NDNBbUlXU1FtRkg5RnpyM1k3NVFybTQyTFR2Z3A2TGdaY2NtajRHQlJpdTgzZG5VeDVpTHVkNXBhVDA1YWUyREdsRTluZEVMV2dpWUw1d0hZY3pXY3c5QUFucWtzR1lJbk9lM2lCcUJMTTFFeVNXNmFyMGtqOFZPUnRPSDItY3lZU2ZGX0loTFBRUnpnU1ljN2RKNHFvdUU0NlJPT0pVQnJEQ1ZGVE9aWVQ4clhhdnBGSHl6UDTSAfMBQVVfeXFMT2xxZWxpazVLWG9mNGRtRUNyb2V1SVBkSWE4aExrY1UyaHJJY0NmQjdkSnJhRURFSUxIMDFrUUtsbDQ5N0JuRGhGM29LaE5ROUI4RG51eUVuZmNfcXVCQnpzV2hzUHFGcGxzUW16cTZaQi1SS2FYUV9uS3FnTVdtSzlDYlB3RkVuMlpFWFUzYkVMR2p5UXBiWFNmSHhBMGd3UDFtUU44UHN5R1hMUTdkRFRVV0NBaHlZUDlrLUF2OHdqc0xWOFpzYW8yY21wY3FFRkhBdUgtbU5qQTYxdkZfZUhiUzlIMFVwaHpKNzF0UGZkbDBv?oc=5",
+      "source": "oglobo.globo.com",
+      "published_at": "Wed, 30 Sep 2026 11:00:00 GMT",
+      "category": "IA",
+      "signal": "down"
+    },
+    {
+      "title": "OpenAI notifica mais de cem empresas após agentes de IA burlarem sistemas",
+      "summary": "OpenAI notifica mais de cem empresas após agentes de IA burlarem sistemas",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYXhOWGMyNXR1V3k2dk92OXRnc3ZTMjQ1NWJxd1JOR3RxZmZNODdSb1JrSzllVTgwT1gwNUtISnNpWHBHam5LUnBfcmx6cHB5NFJ1cnpKVzN4cUxheFdhTl9zaXY2c1E0bkFGV0N6N2g5eTdXd2lnSzk1bC1ZY3B6TmJvWjZzeWtLTEk2VjBEYVZJeDlCbHoyMTBrZGtNckozbHV0Z0NBUTNBVUNjdTVreW5fNjI5bE1ZRk9zeU14a1UzT1prS3VUM2NmQV9vaVBqbUE?oc=5",
+      "source": "UOL",
+      "published_at": "Fri, 02 Oct 2026 12:12:26 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "O que o manguezal ensina às empresas sobre inteligência artificial",
+      "summary": "O que o manguezal ensina às empresas sobre inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcEI1OHhHeUZueEZWR0c5ckoyaUFZTURMc2t3ZGw2emFMajdfODRLUjFqdXM1X1ktbVBleE5FNGVhV1Ewa19FMEJzZkM4ZUF3NXVkVkVGX1VWV08tWmlvOFkwWS1jZmlqcV9nU09OdndpWTFtYlFEQURaMWdKbmpncmlBRU5LcmYxTFBKNkQzTm1TRExlN2tDQVJKUWFmUWpmSjZVRUJSSDFDeVRpd3FxTA?oc=5",
+      "source": "VEJA",
+      "published_at": "Fri, 02 Oct 2026 09:00:50 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
     {
       "title": "“IA pode deixar sua empresa mais ocupada, não mais eficiente”, afirma especialista",
       "summary": "“IA pode deixar sua empresa mais ocupada, não mais eficiente”, afirma especialista",
@@ -13,49 +40,22 @@
       "signal": "flat"
     },
     {
-      "title": "Aline Sordili: Empresas incentivam IA sem dar ferramentas, dizem 28% dos profissionais",
-      "summary": "Aline Sordili: Empresas incentivam IA sem dar ferramentas, dizem 28% dos profissionais",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTWFzVmRIR3hMcGRFQ3hUZmFPUk83ZzRHVlJ4WWF3ZkRndG5uSy1SQ0oxSi1YSWhaZjdic201NGtQZUpCS1ROSlI2djNXUFVESUxBWFNXT0hkaTFuYmM0djhrQXhtR2JpM2lmUEd6Tk55ZnhHLWRqcDhjOTFCRG5aTU81aEV5WW0taDlpMDc0STVXWXlVano3c2NRVnRDM0VjRVBjc1YtbEJUblJPMDRub0xKMGFYc0ZrSVpiQmpEempYdlpQckxoUUZDOGVxODVO?oc=5",
-      "source": "UOL Economia",
-      "published_at": "Thu, 01 Oct 2026 12:30:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
       "title": "Samsung investe US$ 1 bilhão em infraestrutura para inteligência artificial",
       "summary": "Samsung investe US$ 1 bilhão em infraestrutura para inteligência artificial",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQjNXLXZFTVNlNWlHckctbVRfS0pEUWg1NzlpNlFWbG9FUVZfdHBiRHpDREtIVWxIZDlseXljX0RpVnVDNXgwZW4wYmVUWkJ2d1lyNkFTd0VoeENrS2JVZUxwMVZ2OXJHZnFpOXVnOWtSVHcwSlRnWlozc2RTWS03TG8zZnAwMEgyRjVKYjlSeWFsMkNYYURwWG1zQQ?oc=5",
-      "source": "ecommercebrasil.com.br",
+      "source": "E-Commerce Brasil",
       "published_at": "Thu, 01 Oct 2026 19:50:00 GMT",
       "category": "IA",
       "signal": "up"
     },
     {
-      "title": "Pensamento crítico e inteligência artificial nas empresas",
-      "summary": "Pensamento crítico e inteligência artificial nas empresas",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPakRwdzV6em5iUW5qMUxnb1JUTjI0VzRsaEJkMlB2QzdjTmd5eXBOQ0hONE53bTdDWHlUU3U0OEgxTi1GalByUU44dHJkZk13UUozOHd5WVFUdnJib0RvWDdVXzFPa1dRUWJQY3BzdFJJU2lFdFhYcEtfeXRoa0Q0dA?oc=5",
-      "source": "rhpravoce.com.br",
-      "published_at": "Thu, 01 Oct 2026 13:27:49 GMT",
+      "title": "Antes de implantar inteligência artificial, empresas precisam preparar processos e dados",
+      "summary": "Antes de implantar inteligência artificial, empresas precisam preparar processos e dados",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQazNRY0lDZlRJSVhMZXhuRGpablhoWW9FRlctTVlIRzgzeHoyN21iekVFbUVOYnJSYkpxV29LeW5Rdnd5TUgyMjVCUTV2T3phbGh5Q3MwNW5yNm9GOHhPeXQtTWF3aWNVbHF1YVg5LXRLeUFRSFIzNjRHMGpkcHlwUHVSQ3AwQWlrbDNobWJmQzVTRjdDMTctZHdwMVRQZGdPaWg0ck11c056OF9ia2thVQ?oc=5",
+      "source": "SATC",
+      "published_at": "Wed, 30 Sep 2026 19:02:01 GMT",
       "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "OpenAI: agentes de IA podem ter afetado mais de 100 organizações",
-      "summary": "OpenAI: agentes de IA podem ter afetado mais de 100 organizações",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMGZVQ2Zwd2RHZFgzclNuXzUxY3dEVDBOTlNVN0hJMS1JNEhleWxpVGg2b3UwWlVLSUs0emhkR2xxeVl3cHpkZVhBWm5Wc0d4UlpBNklBX2xQcFc5cDM2a2xmdTBvd3FjVVBmWVMtVzFlaWl1WEgtTi12VlRlRXVNUkxkVlRsWUVRcU1YX21XcFlpNi1yWWxBOUV6NXVLMkRMRG5Xdl82enpsd1Y3VVhCQ0h6NTNjTG5acmNicHRreEpGZGhvakE?oc=5",
-      "source": "Olhar Digital",
-      "published_at": "Thu, 01 Oct 2026 20:49:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Empresas que ganharão mais com a IA não a usarão para eliminar empregos, mas para melhorar pessoas",
-      "summary": "Empresas que ganharão mais com a IA não a usarão para eliminar empregos, mas para melhorar pessoas",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQak1pS3NFTVdDSUQwdENGTFdtU21lN1FXd2RlVzV5SDdaYUlabW9RTG0yNXh0bmtFN3pyUlZtcmpZTmt5MHNDUmJWUC1Xb3BGUDM4cTU4SWlKS1Y4T0ZwcGtwd1VVV01na292MGZpUTNGNFpyMVJaeXNCaFNXNnM5MXdielQ4ZVBITU02a3hGNzQ5eHdSOUNPVl9IdEpYazhoOUx0OS1nZWJxYkdldWRQZWlwN2JURGdobnRIU3BOZm9nejd2MU90ZnBZdjRmRzFKTk1pVlFQQU40YUhUMmZXWmJR0gHnAUFVX3lxTE5WWWNKTWtrZ1g5RXNHR0pKMVk0MmtuVTRvME40dDJ4Z0Q4Nk9EWE9aM3IyLUNGOTRuSFFIbmlCZ0hBMXFtY1JpUWxzRjN6LTVmbGtVWlVBZVNOQU9WeS1aSWR1VEExZ0ZaaUVzSnVkTF9jRnFWMjB2UjlVUWxWVnE4dTRNUlFIV0hzcFNqRWhMLVoxUzlXOUxFMmdYdThtSlZJUWhWazRnMTNMcEVlMU51eGxuZ2lsQks4WjMxTW1wZDVQdHlTTU5ZRFVYaFcyMHFGWmxlY0JqZTR2a3NOa1phVXJYRkhRRQ?oc=5",
-      "source": "Estadão",
-      "published_at": "Thu, 01 Oct 2026 11:00:57 GMT",
-      "category": "IA",
-      "signal": "flat"
+      "signal": "down"
     }
   ],
   "category": "IA"

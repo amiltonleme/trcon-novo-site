@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T23:36:04.620109+00:00",
+  "generated_at": "2026-10-02T14:11:34.220408+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de tecnologia.",
   "errors": [],
   "items": [
@@ -49,13 +49,13 @@
       "signal": "flat"
     },
     {
-      "title": "B3 adota IA no desenvolvimento de software e reduz prazo de entrega em 35%",
-      "summary": "B3 adota IA no desenvolvimento de software e reduz prazo de entrega em 35%",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZE93R0FMaVlpNEl0R1RBZTRXeVlIODN2b3U1R0U0cGRNR2ozNG1fc1NpR0JDY2QxTXZwSUNuNTl4Y2ZiZ1ZzVWhOWkNwTEJVZFpfTl9ISzR3akN4UW9ISmlyU1NHX0FST1RQZThPVi14ZzkyUTVtSUxadld6YkYzbDJFUWlpSzQ2V2FHYWZxMkdLbHhfbGppMzJ5NklrUnN4SThOa2xUTkdsRDVfdG5xV0lQTmVlUnZj?oc=5",
-      "source": "BPMoney",
-      "published_at": "Thu, 03 Sep 2026 07:00:00 GMT",
+      "title": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
+      "summary": "Uso de IA eleva produtividade no desenvolvimento de software em 35%",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMmI2WllsYUJSdkFjR005QjVKaV9XS295ck5ERHNDV2FOSFlJSG8xV3o4SW5KV3FfNFN2cHI0aWNtcUxrMl96dm5iT3EzTDFrdGs4ekxHQVpndTcyN2Jjb1Qtd3lyYUNpVnV3bjJHQTlLQTU1cU16OUNTbllzWVZFLU1fMlRtWEdyVDNrbzZqYVN4aVFneXpNczJ1TGllSU9TUFRjTnZ5blhIamc?oc=5",
+      "source": "jornaltribuna.com.br",
+      "published_at": "Wed, 01 Jul 2026 07:00:00 GMT",
       "category": "Tecnologia",
-      "signal": "up"
+      "signal": "flat"
     }
   ],
   "category": "Tecnologia"
