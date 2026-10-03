@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T23:27:59.574386+00:00",
+  "generated_at": "2026-10-03T12:47:01.973221+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -7,8 +7,17 @@
       "title": "O que o manguezal ensina às empresas sobre inteligência artificial",
       "summary": "O que o manguezal ensina às empresas sobre inteligência artificial",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcEI1OHhHeUZueEZWR0c5ckoyaUFZTURMc2t3ZGw2emFMajdfODRLUjFqdXM1X1ktbVBleE5FNGVhV1Ewa19FMEJzZkM4ZUF3NXVkVkVGX1VWV08tWmlvOFkwWS1jZmlqcV9nU09OdndpWTFtYlFEQURaMWdKbmpncmlBRU5LcmYxTFBKNkQzTm1TRExlN2tDQVJKUWFmUWpmSjZVRUJSSDFDeVRpd3FxTA?oc=5",
-      "source": "veja.abril.com.br",
+      "source": "VEJA",
       "published_at": "Fri, 02 Oct 2026 09:00:50 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "A IA se rebelou, saiu de controle e causou estragos. Quem paga a conta nesses casos?",
+      "summary": "A IA se rebelou, saiu de controle e causou estragos. Quem paga a conta nesses casos?",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVHplTzZOYTdUMmtWRXdjaDNyVm8xcXVlSTVkRlIyZFhZSTU1TXVCQm5hUEo4bndxRHViUF8wc2FGNEljRkNzY3dnYnJEbUtPbGg2MGZyMThqakg0N3JmQjhUZXkwblF3MkFyWmlpbEtfQUNPUGlwZzNXZVh5Qnh0TGM0dFFvSlo0MW5oNTVqSmhFQ25LUC1xeThBajVscTFzdTAyOGhxS3RvdDcyc1NSUHVxQkl4ZGxuTkpzbXZUTnNKc1FDTXfSAcsBQVVfeXFMTnY2YWpZTkJ0ODlBRjVGbWRGdEFueFZYUFhMUWZYMnl1ZmM4NTAzQTMyVzhDN1NQYS1nYzkta3FDMjJtZFBBT3NMVEhIQXZubXJCY2JxdlJyTWRnb3ZzN2xFTG5ROXUtTTVyWUtfSmo0M3JobXFWdUtrdGpOTnB0dnFNbFRpclpzTE1sMVZ0aEFaX2l2cFRVM0xId0FHMUVDaUxRZ3daQnVOZl9GMUpBVjU5Q0hnUTlteEQ2Vko5aDFBT3k4RFN0a25hRlU?oc=5",
+      "source": "InfoMoney",
+      "published_at": "Fri, 02 Oct 2026 08:00:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -22,29 +31,11 @@
       "signal": "flat"
     },
     {
-      "title": "“IA pode deixar sua empresa mais ocupada, não mais eficiente”, afirma especialista",
-      "summary": "“IA pode deixar sua empresa mais ocupada, não mais eficiente”, afirma especialista",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbjVIT1FybjBCY2VEQ2p6c3dDd3NjSHFhX0NUbzZOT0Y2QVp3U29SeUZHdC1BSUFuR09vZDNlR2pvUTZkM0ltbkdtT1ZybFc3ZUVGdHNnUV9KYTl4enczSkxxVzd3ZFY1Qm5ycnI0SXlqZzhKSW5rbDVjUFUxMWF6YTBCNnI5QdIBiwFBVV95cUxPVTMzeHJzZWptNjFycm9ER3VVTGEwWUJQdjRYc2xocFlhRUhwTmdScUJRdzlMWEFIME5NY1R3UXJUenpWZjFkQ3pYb3FOQ21iSlRvaG1jOXJQb1JfY3BxV2ZERVl3aXpLWUlyMDhOd0k1TzB0ZGdyZGhfUGhEYmYyM3dDX0kyYXhKbmI4?oc=5",
-      "source": "InfoMoney",
-      "published_at": "Thu, 01 Oct 2026 14:00:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Antes de implantar inteligência artificial, empresas precisam preparar processos e dados",
-      "summary": "Antes de implantar inteligência artificial, empresas precisam preparar processos e dados",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQazNRY0lDZlRJSVhMZXhuRGpablhoWW9FRlctTVlIRzgzeHoyN21iekVFbUVOYnJSYkpxV29LeW5Rdnd5TUgyMjVCUTV2T3phbGh5Q3MwNW5yNm9GOHhPeXQtTWF3aWNVbHF1YVg5LXRLeUFRSFIzNjRHMGpkcHlwUHVSQ3AwQWlrbDNobWJmQzVTRjdDMTctZHdwMVRQZGdPaWg0ck11c056OF9ia2thVQ?oc=5",
-      "source": "SATC",
-      "published_at": "Wed, 30 Sep 2026 19:02:01 GMT",
-      "category": "IA",
-      "signal": "down"
-    },
-    {
-      "title": "Pensamento crítico e inteligência artificial nas empresas",
-      "summary": "Pensamento crítico e inteligência artificial nas empresas",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPakRwdzV6em5iUW5qMUxnb1JUTjI0VzRsaEJkMlB2QzdjTmd5eXBOQ0hONE53bTdDWHlUU3U0OEgxTi1GalByUU44dHJkZk13UUozOHd5WVFUdnJib0RvWDdVXzFPa1dRUWJQY3BzdFJJU2lFdFhYcEtfeXRoa0Q0dA?oc=5",
-      "source": "rhpravoce.com.br",
-      "published_at": "Thu, 01 Oct 2026 13:27:49 GMT",
+      "title": "Mais ataques: Agentes de IA tentaram invadir site do governo do Canadá",
+      "summary": "Mais ataques: Agentes de IA tentaram invadir site do governo do Canadá",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNzZIVzI0MUJ1d29EeDl3TTRtdmZoX3hOS2c5c1F4aVFGQ0ZNcTRNbUhyUWQ4OXYyeWpBcGhuVWFSTFZFcjV4NmFvTGdqcXd3R1JHWTlWazRSWUx1eTJoMzZYRVZ2X21TbDJJaEJTR2I1cVdVbnROcDVSeXZaaTJZeS1tOTNFb0VIRTY2Vmp5SmtiZmlpNkpfdzdPb1JCeDR6QkMtRWZTQ053NWtCWXRyWjZTNjdSckViMjd0VWREdlZDSmo4YV84NVVxbER3cWxad2NWaQ?oc=5",
+      "source": "CNN Brasil",
+      "published_at": "Thu, 01 Oct 2026 14:44:42 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -54,6 +45,15 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNd1BYNEtWZjZoNjQ5UWkxNVJuSjhqMUVmYk9wdy1UeGM0STk2by1saEpOYlI1aVNkWVN0eUthc0wyM2tPMXJXQ3BvTDBEOWpxTk1NQms4WmNrM1c1Z1BYaGtqWTNmb1pOSEg1WFhDc3BUT3pJQmRBZW1TSGxJU3BRY004TnhlRHY0c0lZWkpNRlVJS19jWUE?oc=5",
       "source": "TI INSIDE Online",
       "published_at": "Fri, 02 Oct 2026 19:41:23 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "“IA pode deixar sua empresa mais ocupada, não mais eficiente”, afirma especialista",
+      "summary": "“IA pode deixar sua empresa mais ocupada, não mais eficiente”, afirma especialista",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbjVIT1FybjBCY2VEQ2p6c3dDd3NjSHFhX0NUbzZOT0Y2QVp3U29SeUZHdC1BSUFuR09vZDNlR2pvUTZkM0ltbkdtT1ZybFc3ZUVGdHNnUV9KYTl4enczSkxxVzd3ZFY1Qm5ycnI0SXlqZzhKSW5rbDVjUFUxMWF6YTBCNnI5QdIBiwFBVV95cUxPVTMzeHJzZWptNjFycm9ER3VVTGEwWUJQdjRYc2xocFlhRUhwTmdScUJRdzlMWEFIME5NY1R3UXJUenpWZjFkQ3pYb3FOQ21iSlRvaG1jOXJQb1JfY3BxV2ZERVl3aXpLWUlyMDhOd0k1TzB0ZGdyZGhfUGhEYmYyM3dDX0kyYXhKbmI4?oc=5",
+      "source": "InfoMoney",
+      "published_at": "Thu, 01 Oct 2026 14:00:00 GMT",
       "category": "IA",
       "signal": "flat"
     }
