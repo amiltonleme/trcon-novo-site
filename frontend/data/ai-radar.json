@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T22:38:23.282827+00:00",
+  "generated_at": "2026-10-05T16:27:51.922893+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -13,20 +13,11 @@
       "signal": "flat"
     },
     {
-      "title": "Ex-funcionário da OpenAI diz que empresas de IA não são 'nem de perto cuidadosas o suficiente'",
-      "summary": "Ex-funcionário da OpenAI diz que empresas de IA não são 'nem de perto cuidadosas o suficiente'",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPam9VODlFSHA4cXZsZGtraUlkdHc4eEdPT2FtNHdVWWxpY0R3OUFVclg4cEZBelRwaUNtTUlPTEM0MHI0d3NrZmFJWFFhUzZVTmNnMDBzSzl3RlFRMENkMGVJMUFnLV94VzZjWDVReUM2bGtRd2xiSnpYSFVCTW5rUkpRVEtRUTdTT0JMSnhpZ0NrcnJxeXNtTTRXcHJSTWtTOFFzcTdaVdIBtgFBVV95cUxQVlZMd01CQmZkZ0E5eHZHMzBLaGVDUTNMc0xXUTgwYThPVlVPWHZEUDZqLTFlMC03Y0V6TndiaV9QN0pGeldPVjVQMm03QkxCX3BDekhoVjI0bWJPVHBoWlZnZHpVRUh3ZkdROVl2czFiVU5neGhCYjhEZjVKVkxObXQxcnlhV05qYzBJV2UxcmpsZmJzSndRS0luOTZRWVZiaUxqTmdadVRuR181dGlqLVpHTUFPUQ?oc=5",
-      "source": "G1",
-      "published_at": "Sat, 03 Oct 2026 19:24:15 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "O que o manguezal ensina às empresas sobre inteligência artificial",
-      "summary": "O que o manguezal ensina às empresas sobre inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcEI1OHhHeUZueEZWR0c5ckoyaUFZTURMc2t3ZGw2emFMajdfODRLUjFqdXM1X1ktbVBleE5FNGVhV1Ewa19FMEJzZkM4ZUF3NXVkVkVGX1VWV08tWmlvOFkwWS1jZmlqcV9nU09OdndpWTFtYlFEQURaMWdKbmpncmlBRU5LcmYxTFBKNkQzTm1TRExlN2tDQVJKUWFmUWpmSjZVRUJSSDFDeVRpd3FxTA?oc=5",
-      "source": "VEJA",
-      "published_at": "Fri, 02 Oct 2026 09:00:50 GMT",
+      "title": "IA no trabalho em 2026: o que mudou para profissionais e empresas",
+      "summary": "IA no trabalho em 2026: o que mudou para profissionais e empresas",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUUZjUWQzeW4tRVBqOHdTdUN6MTdidXZaenJqSDEzVjdsbzc0RVIzOFBTT2ZwY0xEUk1rc2xDZ2N2aEdMb2pzS2dBOUZNOWdWZ0x2U3pUUU04WkNGYTEtT2wwbWVBb2pqaTV1RnRpUXJtLUxpcFc0bzZsWEQ5MkV4dXh4ejF4OUNkUTE0dGgwWG9pbmxyUWhRaUoxNGFsYnc?oc=5",
+      "source": "Quero Bolsa",
+      "published_at": "Mon, 05 Oct 2026 10:49:44 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -49,11 +40,20 @@
       "signal": "flat"
     },
     {
-      "title": "“IA pode deixar sua empresa mais ocupada, não mais eficiente”, afirma especialista",
-      "summary": "“IA pode deixar sua empresa mais ocupada, não mais eficiente”, afirma especialista",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbjVIT1FybjBCY2VEQ2p6c3dDd3NjSHFhX0NUbzZOT0Y2QVp3U29SeUZHdC1BSUFuR09vZDNlR2pvUTZkM0ltbkdtT1ZybFc3ZUVGdHNnUV9KYTl4enczSkxxVzd3ZFY1Qm5ycnI0SXlqZzhKSW5rbDVjUFUxMWF6YTBCNnI5QdIBiwFBVV95cUxPVTMzeHJzZWptNjFycm9ER3VVTGEwWUJQdjRYc2xocFlhRUhwTmdScUJRdzlMWEFIME5NY1R3UXJUenpWZjFkQ3pYb3FOQ21iSlRvaG1jOXJQb1JfY3BxV2ZERVl3aXpLWUlyMDhOd0k1TzB0ZGdyZGhfUGhEYmYyM3dDX0kyYXhKbmI4?oc=5",
-      "source": "InfoMoney",
-      "published_at": "Thu, 01 Oct 2026 14:00:00 GMT",
+      "title": "O que o manguezal ensina às empresas sobre inteligência artificial",
+      "summary": "O que o manguezal ensina às empresas sobre inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcEI1OHhHeUZueEZWR0c5ckoyaUFZTURMc2t3ZGw2emFMajdfODRLUjFqdXM1X1ktbVBleE5FNGVhV1Ewa19FMEJzZkM4ZUF3NXVkVkVGX1VWV08tWmlvOFkwWS1jZmlqcV9nU09OdndpWTFtYlFEQURaMWdKbmpncmlBRU5LcmYxTFBKNkQzTm1TRExlN2tDQVJKUWFmUWpmSjZVRUJSSDFDeVRpd3FxTA?oc=5",
+      "source": "VEJA",
+      "published_at": "Fri, 02 Oct 2026 09:00:50 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Ex-funcionário da OpenAI diz que empresas de IA não são 'nem de perto cuidadosas o suficiente'",
+      "summary": "Ex-funcionário da OpenAI diz que empresas de IA não são 'nem de perto cuidadosas o suficiente'",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPam9VODlFSHA4cXZsZGtraUlkdHc4eEdPT2FtNHdVWWxpY0R3OUFVclg4cEZBelRwaUNtTUlPTEM0MHI0d3NrZmFJWFFhUzZVTmNnMDBzSzl3RlFRMENkMGVJMUFnLV94VzZjWDVReUM2bGtRd2xiSnpYSFVCTW5rUkpRVEtRUTdTT0JMSnhpZ0NrcnJxeXNtTTRXcHJSTWtTOFFzcTdaVdIBtgFBVV95cUxQVlZMd01CQmZkZ0E5eHZHMzBLaGVDUTNMc0xXUTgwYThPVlVPWHZEUDZqLTFlMC03Y0V6TndiaV9QN0pGeldPVjVQMm03QkxCX3BDekhoVjI0bWJPVHBoWlZnZHpVRUh3ZkdROVl2czFiVU5neGhCYjhEZjVKVkxObXQxcnlhV05qYzBJV2UxcmpsZmJzSndRS0luOTZRWVZiaUxqTmdadVRuR181dGlqLVpHTUFPUQ?oc=5",
+      "source": "G1",
+      "published_at": "Sat, 03 Oct 2026 19:24:15 GMT",
       "category": "IA",
       "signal": "flat"
     }
