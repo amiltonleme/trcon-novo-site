@@ -1,14 +1,41 @@
 {
-  "generated_at": "2026-10-05T16:27:51.922893+00:00",
+  "generated_at": "2026-10-06T01:03:08.957694+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
     {
-      "title": "IA virou commodity? Por que apenas ter inteligência artificial não diferencia mais nenhuma empresa",
-      "summary": "IA virou commodity? Por que apenas ter inteligência artificial não diferencia mais nenhuma empresa",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOXN1SnNYaEJ2YWZMeEVGeF9oVW9WRmVGM1pkUTZRcmRwcDFTNlQtM19GSVQ2NTJUNWRMS3J1MUZFR09Tb3FSUEZTcGZiMy1qMXF6ZmlqWnZTa3hzcUM4Qjl0Z0FndHJfOVhrNy1kMFJWb1M5QlpQSkhWdzNEc3RGc2NLUmV0UHZ5WjZlVkh5bUQySUxidHBKaW5uYlhHRkJsUEcyemJpTHNRTWgtT01iWHB5VUdkN05INnJPQjN0RUMxdTdrYm5FVVBibE50SGhkNnN0Sw?oc=5",
-      "source": "jornaltribuna.com.br",
-      "published_at": "Sat, 03 Oct 2026 21:23:56 GMT",
+      "title": "Empresas de IA são incapazes de controlar seus modelos, alerta ex-pesquisador da OpenAI",
+      "summary": "Empresas de IA são incapazes de controlar seus modelos, alerta ex-pesquisador da OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdDJfMDlZOGtJN3c3NjFVTHlYdElGa3lRRUhDR0N3U1NCaUd6S1FiN2phYXU5MG9ZREV0WlhGMkhMTVVKMDFad3o0SkREUFdueVN4dmFWeGlZcVRyMkN5RUNLY3BDWFpYUHktaWE5VnRnVEptZllEa2RhNEJLb1l2THZPaEk3YUdwZmJGT0hYQkxlcWdSd3JfVV9oNk8wXzBHUWFSa1QwUzVOUV9SV2xJYW1iRFFnZ2xRTkQ0VThQWU5XQzFocHFGaHYySjhMSnBIQThVc016Y3Q0b1c4TnVCakpQdDE?oc=5",
+      "source": "UOL Notícias",
+      "published_at": "Mon, 05 Oct 2026 18:59:18 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Ex-OpenAI diz que empresas de IA ainda não sabem controlar seus modelos",
+      "summary": "Ex-OpenAI diz que empresas de IA ainda não sabem controlar seus modelos",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdTd4M0pLMGdCVkU1WnJQOFA5UzhRbGZNWlhtUGJ3Sm9wZkFtRHVuc25pMVRnTXhfdXQyT2ZWTzg0MUpFdXB4OGNMeUtLTm1CNncxS1VRT2dXeEE2aTBBZnNXYkpHd1NjRlo3TnhMeEtsMkdQQlFYOHNYTEowREpzak5fa2lENVdLcWl2eU5YNmRjeWM2VGJMNk1xX0ZpRVFKZGZVeFpZeEFzaUVnRjZzQW56VXBWeGhzRXpYSExkZGFTT3UyVzdqYUUwbDFBZDlj?oc=5",
+      "source": "Olhar Digital",
+      "published_at": "Mon, 05 Oct 2026 22:29:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Empresas aceleram adoção de IA, mas desorganização operacional ainda trava resultados, apontam executivos",
+      "summary": "Empresas aceleram adoção de IA, mas desorganização operacional ainda trava resultados, apontam executivos",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQa2FGUkxMMjhHT0JRVVRVcHJfVHhVRXY3MVJoU1dzdVBiMHFwdDlMa2lTeUZyZkFmWFVSWGdla00xZWc5RHhZVTNRUEpZaVJ3QURmcU55QVh2dlppQmxCbklLY0lLeVBJMmdzR2pOZTBvZDhNOFBTNEUtTld0Wk0zR25RRlQ4Y045ZldxX1pfYzU4ZUVOSWdoUTd4ckR2N3ctNWY2dlFiTERQdU5ja0JHQkdDdV9zQm1Ya0lLXzRGdUJjX0oxVDdSSzhjaFNFYmxSTDd6R2JIQUxYdEsyMWpEV0xJbXZucmM?oc=5",
+      "source": "Brasil 247",
+      "published_at": "Mon, 05 Oct 2026 17:04:00 GMT",
+      "category": "IA",
+      "signal": "up"
+    },
+    {
+      "title": "Ex-funcionário da OpenAI diz que empresas de IA não são 'nem de perto cuidadosas o suficiente'",
+      "summary": "Ex-funcionário da OpenAI diz que empresas de IA não são 'nem de perto cuidadosas o suficiente'",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPam9VODlFSHA4cXZsZGtraUlkdHc4eEdPT2FtNHdVWWxpY0R3OUFVclg4cEZBelRwaUNtTUlPTEM0MHI0d3NrZmFJWFFhUzZVTmNnMDBzSzl3RlFRMENkMGVJMUFnLV94VzZjWDVReUM2bGtRd2xiSnpYSFVCTW5rUkpRVEtRUTdTT0JMSnhpZ0NrcnJxeXNtTTRXcHJSTWtTOFFzcTdaVdIBtgFBVV95cUxQVlZMd01CQmZkZ0E5eHZHMzBLaGVDUTNMc0xXUTgwYThPVlVPWHZEUDZqLTFlMC03Y0V6TndiaV9QN0pGeldPVjVQMm03QkxCX3BDekhoVjI0bWJPVHBoWlZnZHpVRUh3ZkdROVl2czFiVU5neGhCYjhEZjVKVkxObXQxcnlhV05qYzBJV2UxcmpsZmJzSndRS0luOTZRWVZiaUxqTmdadVRuR181dGlqLVpHTUFPUQ?oc=5",
+      "source": "G1",
+      "published_at": "Sat, 03 Oct 2026 19:24:15 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -27,33 +54,6 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWWdPa0hqSUxlMHBxYXBOaVd5czhDTDhrOVBfMEhOc0hqeThjNFFCNFQ0SUZzUGM5Nkw2TG5ocEVNUjRqeTdGTkhXREU5WFFOQkppRHQ0c2liUEVaU1pUSFRXT095Ri16VDRyMlJaMTNsdThPMVdPY2h3Y293bG5FcjMxb0NjNGxOb1FsWFp3SktQaWxKZ1p1R0V4WU9JX0o3YWFMVlIyT05HTlV4eW5EakR3?oc=5",
       "source": "Olhar Digital",
       "published_at": "Sat, 03 Oct 2026 19:46:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "A IA se rebelou, saiu de controle e causou estragos. Quem paga a conta nesses casos?",
-      "summary": "A IA se rebelou, saiu de controle e causou estragos. Quem paga a conta nesses casos?",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVHplTzZOYTdUMmtWRXdjaDNyVm8xcXVlSTVkRlIyZFhZSTU1TXVCQm5hUEo4bndxRHViUF8wc2FGNEljRkNzY3dnYnJEbUtPbGg2MGZyMThqakg0N3JmQjhUZXkwblF3MkFyWmlpbEtfQUNPUGlwZzNXZVh5Qnh0TGM0dFFvSlo0MW5oNTVqSmhFQ25LUC1xeThBajVscTFzdTAyOGhxS3RvdDcyc1NSUHVxQkl4ZGxuTkpzbXZUTnNKc1FDTXfSAcsBQVVfeXFMTnY2YWpZTkJ0ODlBRjVGbWRGdEFueFZYUFhMUWZYMnl1ZmM4NTAzQTMyVzhDN1NQYS1nYzkta3FDMjJtZFBBT3NMVEhIQXZubXJCY2JxdlJyTWRnb3ZzN2xFTG5ROXUtTTVyWUtfSmo0M3JobXFWdUtrdGpOTnB0dnFNbFRpclpzTE1sMVZ0aEFaX2l2cFRVM0xId0FHMUVDaUxRZ3daQnVOZl9GMUpBVjU5Q0hnUTlteEQ2Vko5aDFBT3k4RFN0a25hRlU?oc=5",
-      "source": "InfoMoney",
-      "published_at": "Fri, 02 Oct 2026 08:00:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "O que o manguezal ensina às empresas sobre inteligência artificial",
-      "summary": "O que o manguezal ensina às empresas sobre inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcEI1OHhHeUZueEZWR0c5ckoyaUFZTURMc2t3ZGw2emFMajdfODRLUjFqdXM1X1ktbVBleE5FNGVhV1Ewa19FMEJzZkM4ZUF3NXVkVkVGX1VWV08tWmlvOFkwWS1jZmlqcV9nU09OdndpWTFtYlFEQURaMWdKbmpncmlBRU5LcmYxTFBKNkQzTm1TRExlN2tDQVJKUWFmUWpmSjZVRUJSSDFDeVRpd3FxTA?oc=5",
-      "source": "VEJA",
-      "published_at": "Fri, 02 Oct 2026 09:00:50 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Ex-funcionário da OpenAI diz que empresas de IA não são 'nem de perto cuidadosas o suficiente'",
-      "summary": "Ex-funcionário da OpenAI diz que empresas de IA não são 'nem de perto cuidadosas o suficiente'",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPam9VODlFSHA4cXZsZGtraUlkdHc4eEdPT2FtNHdVWWxpY0R3OUFVclg4cEZBelRwaUNtTUlPTEM0MHI0d3NrZmFJWFFhUzZVTmNnMDBzSzl3RlFRMENkMGVJMUFnLV94VzZjWDVReUM2bGtRd2xiSnpYSFVCTW5rUkpRVEtRUTdTT0JMSnhpZ0NrcnJxeXNtTTRXcHJSTWtTOFFzcTdaVdIBtgFBVV95cUxQVlZMd01CQmZkZ0E5eHZHMzBLaGVDUTNMc0xXUTgwYThPVlVPWHZEUDZqLTFlMC03Y0V6TndiaV9QN0pGeldPVjVQMm03QkxCX3BDekhoVjI0bWJPVHBoWlZnZHpVRUh3ZkdROVl2czFiVU5neGhCYjhEZjVKVkxObXQxcnlhV05qYzBJV2UxcmpsZmJzSndRS0luOTZRWVZiaUxqTmdadVRuR181dGlqLVpHTUFPUQ?oc=5",
-      "source": "G1",
-      "published_at": "Sat, 03 Oct 2026 19:24:15 GMT",
       "category": "IA",
       "signal": "flat"
     }
