@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T14:31:35.253388+00:00",
+  "generated_at": "2026-10-06T23:29:24.371161+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -22,15 +22,6 @@
       "signal": "flat"
     },
     {
-      "title": "Ex-funcionário da OpenAI e Anthropic alerta para riscos da inteligência artificial",
-      "summary": "Ex-funcionário da OpenAI e Anthropic alerta para riscos da inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPeTk1LU5CRWdudTdKbmc3ZmNoTnlKYk83SmhHTkFMN2FUXzJacDMwbmxpN1pnTFRsaGdfcjR0LVB4elNRNFNBb3hhRzhXdEkwdmVuY3hOUk5kUDlTcVEzUnVhY3FyV3dzVktxdEFvWFJvQ3oyT2lLYW9tRGR4aWEyT2ZMTGtzNUtKR0F0NEtsaUttMy0yTk1XTlVzNEVGbndvcExJcXVoWmNKSU5LeUlseDVjcVBFMjFZZldhMExUM2JpSkFQTzUySXpScXZiNUZ4ZmhLYWdPbGx0WnlxYXkw?oc=5",
-      "source": "Tribuna do Sertão",
-      "published_at": "Tue, 06 Oct 2026 13:16:00 GMT",
-      "category": "IA",
-      "signal": "down"
-    },
-    {
       "title": "Ex-funcionário de OpenAI e Anthropic diz que inteligência artificial pode sair do controle e levar à extinção humana",
       "summary": "Ex-funcionário de OpenAI e Anthropic diz que inteligência artificial pode sair do controle e levar à extinção humana",
       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQc0o2MkY4MlpCOWVIb0lKTV9HWWVjb0FHVG5QVHl4N0NnZDZ1djFPU0hCRW00dlQ4czgtY0tsOFlsNWhDUG9oQXc0MWdLUVlLcTI1eFBXZEpVaF9YdjhBdkRWNXlwa1lCdEgxT0txcUlyVk9nUnlhcXgteEdqYjRhdk1fbTRLMkNMV1lMVU15MnJBLVQ1SEZvT2FHb0JCZW9WTzNqNmpxbEJGWFRmWXN3cGFpT1FVUnh6ZFkzcUROcGg5Q0pVRHdUemI1cHRHcjhiWEdtb2tVVjM2STRfQi1RbnhOWjc3a1YyZ2Q4SXpjeFlkOVVfOTZF0gGGAkFVX3lxTE10ZHFtRVNBb2tRak9xVGZrblVDS1NqMk13cTl1dHJ3NUs3b3pfcjFMNmlXN2xTZTNzX1RWQU5ZWmRrSjUweHl0ZUl5WnZ0dVJpYWptTHhLZlFSdy16d215ckRBek42VDZhRnMwejByUWdLTkV6b09HMzVWMFhnSUlnLVpWcF9WSG5JMzVCcFQ2UlRNaV8xT2pwMm1iY0ZUanBoQkJCOV9vMlFxNXA2eHgybmJweTVSWE91VWZ0QzZCZG5xekZ4aFNhRnMxY29BSndKZEpEUHdHZWJGYWV3dUgzbmRDTDVxVEV4eE56RkNpSElEZkFrdUF5NlFDSTU2eW5nUXdGWXc?oc=5",
@@ -40,11 +31,11 @@
       "signal": "flat"
     },
     {
-      "title": "Inteligência artificial não é bolha nem vai acabar com empregos, diz executivo da Nvidia",
-      "summary": "Inteligência artificial não é bolha nem vai acabar com empregos, diz executivo da Nvidia",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUVJGQ0FIWmoxR0xqY2oybnhBeEgyVVVlM0QwdkViZlBsUXFKYzZyamp3UGdHalN1dDZTOTJnanVlSVhyNUNZZ04zYklWY0QtYTVIbi1CNXVMMlRoeC1IdzA3Rnlod3BiUDA3STFhYjljYjhHWkdCZlU5UGlsU0ZBMTlVMnVNOVZfRHprdTBGV0ZLRG0ycWVGd1VQLTgwNTBCb3NJWmlhX0xvSWQ0Z2RpTnlQN2EwekNES09XR0I2Ynd5NHVDU3hBbkhEcmQ3d9IB0wFBVV95cUxQLXItWTJ0RWpBUEpkUVh4QTVpek1OOTFRZFRfLWszbm5ya2VNbjNoRUlTSE95d3Y4YmRicE9qNXFCajJyb0dIUElNYnBEOHVXLUxDTklqTWlhNTZuQVFnTWR5RDU4ZGhQNmJJdW01anY4VDFYenEyQThWUEVkc21mQ1J6ekhxU3Baa0piQlFqNTV0SEFBWTJwRnRzcDQ3aThQYUp6M0hSUFk1bGVCMko2REFEckhzUm1ER0pwaG1tcndTOENmMUtmUlgzZVpMZDdyMWg4?oc=5",
-      "source": "Estadão",
-      "published_at": "Mon, 05 Oct 2026 15:00:00 GMT",
+      "title": "IA no trabalho em 2026: o que mudou para profissionais e empresas",
+      "summary": "IA no trabalho em 2026: o que mudou para profissionais e empresas",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUUZjUWQzeW4tRVBqOHdTdUN6MTdidXZaenJqSDEzVjdsbzc0RVIzOFBTT2ZwY0xEUk1rc2xDZ2N2aEdMb2pzS2dBOUZNOWdWZ0x2U3pUUU04WkNGYTEtT2wwbWVBb2pqaTV1RnRpUXJtLUxpcFc0bzZsWEQ5MkV4dXh4ejF4OUNkUTE0dGgwWG9pbmxyUWhRaUoxNGFsYnc?oc=5",
+      "source": "Quero Bolsa",
+      "published_at": "Mon, 05 Oct 2026 10:49:44 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -54,6 +45,15 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPam9VODlFSHA4cXZsZGtraUlkdHc4eEdPT2FtNHdVWWxpY0R3OUFVclg4cEZBelRwaUNtTUlPTEM0MHI0d3NrZmFJWFFhUzZVTmNnMDBzSzl3RlFRMENkMGVJMUFnLV94VzZjWDVReUM2bGtRd2xiSnpYSFVCTW5rUkpRVEtRUTdTT0JMSnhpZ0NrcnJxeXNtTTRXcHJSTWtTOFFzcTdaVdIBtgFBVV95cUxQVlZMd01CQmZkZ0E5eHZHMzBLaGVDUTNMc0xXUTgwYThPVlVPWHZEUDZqLTFlMC03Y0V6TndiaV9QN0pGeldPVjVQMm03QkxCX3BDekhoVjI0bWJPVHBoWlZnZHpVRUh3ZkdROVl2czFiVU5neGhCYjhEZjVKVkxObXQxcnlhV05qYzBJV2UxcmpsZmJzSndRS0luOTZRWVZiaUxqTmdadVRuR181dGlqLVpHTUFPUQ?oc=5",
       "source": "G1",
       "published_at": "Sat, 03 Oct 2026 19:24:15 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "DXC e CrewAI fecham parceria para levar agentes de IA a empresas na América Latina",
+      "summary": "DXC e CrewAI fecham parceria para levar agentes de IA a empresas na América Latina",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBISTd4SGIyVVU3enpaNmo2d1Rhbm80OTNMdkFUa2FlVVBpcXdOOHhNUG8yT0RWNUtqQk4weU1DVWFhMG5md0M1QnlVZ1VGT3ZoWWd2QlBKVmUwNDlzTEtFdVN2OFdSdkJyeXp3TGxTdW5Ca3ZxZ3h1dNIBfkFVX3lxTFBDOUstaUFjTHIyb2cxdXJxMHZKM183NUU2VXhiN2Ztd29UdUVxV2N3NS1Ld2hMODRZM3M1VmNxVFhqNUlrREc5eHd0RlRyV0tJZkFVZFlFTXdieDVvZHRVUExqVENURkkwVVRFMTcxMkt2Z1QwRVdoNmp3ak5KQQ?oc=5",
+      "source": "IT Forum",
+      "published_at": "Tue, 06 Oct 2026 12:00:22 GMT",
       "category": "IA",
       "signal": "flat"
     }
