@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-06T01:03:08.957694+00:00",
+  "generated_at": "2026-10-06T14:31:35.253388+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
     {
       "title": "Empresas de IA são incapazes de controlar seus modelos, alerta ex-pesquisador da OpenAI",
       "summary": "Empresas de IA são incapazes de controlar seus modelos, alerta ex-pesquisador da OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdDJfMDlZOGtJN3c3NjFVTHlYdElGa3lRRUhDR0N3U1NCaUd6S1FiN2phYXU5MG9ZREV0WlhGMkhMTVVKMDFad3o0SkREUFdueVN4dmFWeGlZcVRyMkN5RUNLY3BDWFpYUHktaWE5VnRnVEptZllEa2RhNEJLb1l2THZPaEk3YUdwZmJGT0hYQkxlcWdSd3JfVV9oNk8wXzBHUWFSa1QwUzVOUV9SV2xJYW1iRFFnZ2xRTkQ0VThQWU5XQzFocHFGaHYySjhMSnBIQThVc016Y3Q0b1c4TnVCakpQdDE?oc=5",
-      "source": "UOL Notícias",
-      "published_at": "Mon, 05 Oct 2026 18:59:18 GMT",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOXF0THV5OGlZZ19fbjZZNXBYWThxSUJWRllGR01TVXRGWHFHNndYS3k5RlV0Tm5qbXNoUjVUMGxOOUVsSG5PU1lNUF96MWMwd2dvQUlXZXNjS1NqNjZYa01kMUIxLVdaSXVSbWF0ZnQxYkR1dGVhTW14el93bGtqM3dydUt4QklTZXRfbVdBdk8zMG9veS1sNmRxTjF3N3hPTGRhbmpfUWNNRVdNaDItelVIWDJYZ2xSTkJFZm1sbTZkd3ByZUFXREU4SUktYWJ6TnI1Q25GY3lzOXfSAeoBQVVfeXFMTURmUHBaUFdHemNHaVI4RXo0Mjh5V3FqeEJXZHVLblpqV0xTYjBoeklKdXRXSDRqRFJCb1luQ2xvUmZqNGswb0Z2WmswdHpmNmJjRUZlMHp3OVc1R2E1eWgyeTZ3bURsbXFGMEF0QXd6T2pnelh1UDdRZG9BUVNnYW5aSTdZcjBTdTNOMElvTUxsdktzQVl5bVlaRXFsMkY3dHA3TFItSTZWSmFLdWtKQm1xUkJ5TFJkdVFtWUJNeEtlY2o0UXBuMmJhb1NtUjZLWm5STnVwQ2hWbWY2V2dQRENOTEk4NUNLQlh3?oc=5",
+      "source": "G1",
+      "published_at": "Mon, 05 Oct 2026 21:54:22 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -22,13 +22,31 @@
       "signal": "flat"
     },
     {
-      "title": "Empresas aceleram adoção de IA, mas desorganização operacional ainda trava resultados, apontam executivos",
-      "summary": "Empresas aceleram adoção de IA, mas desorganização operacional ainda trava resultados, apontam executivos",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQa2FGUkxMMjhHT0JRVVRVcHJfVHhVRXY3MVJoU1dzdVBiMHFwdDlMa2lTeUZyZkFmWFVSWGdla00xZWc5RHhZVTNRUEpZaVJ3QURmcU55QVh2dlppQmxCbklLY0lLeVBJMmdzR2pOZTBvZDhNOFBTNEUtTld0Wk0zR25RRlQ4Y045ZldxX1pfYzU4ZUVOSWdoUTd4ckR2N3ctNWY2dlFiTERQdU5ja0JHQkdDdV9zQm1Ya0lLXzRGdUJjX0oxVDdSSzhjaFNFYmxSTDd6R2JIQUxYdEsyMWpEV0xJbXZucmM?oc=5",
-      "source": "Brasil 247",
-      "published_at": "Mon, 05 Oct 2026 17:04:00 GMT",
+      "title": "Ex-funcionário da OpenAI e Anthropic alerta para riscos da inteligência artificial",
+      "summary": "Ex-funcionário da OpenAI e Anthropic alerta para riscos da inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPeTk1LU5CRWdudTdKbmc3ZmNoTnlKYk83SmhHTkFMN2FUXzJacDMwbmxpN1pnTFRsaGdfcjR0LVB4elNRNFNBb3hhRzhXdEkwdmVuY3hOUk5kUDlTcVEzUnVhY3FyV3dzVktxdEFvWFJvQ3oyT2lLYW9tRGR4aWEyT2ZMTGtzNUtKR0F0NEtsaUttMy0yTk1XTlVzNEVGbndvcExJcXVoWmNKSU5LeUlseDVjcVBFMjFZZldhMExUM2JpSkFQTzUySXpScXZiNUZ4ZmhLYWdPbGx0WnlxYXkw?oc=5",
+      "source": "Tribuna do Sertão",
+      "published_at": "Tue, 06 Oct 2026 13:16:00 GMT",
       "category": "IA",
-      "signal": "up"
+      "signal": "down"
+    },
+    {
+      "title": "Ex-funcionário de OpenAI e Anthropic diz que inteligência artificial pode sair do controle e levar à extinção humana",
+      "summary": "Ex-funcionário de OpenAI e Anthropic diz que inteligência artificial pode sair do controle e levar à extinção humana",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQc0o2MkY4MlpCOWVIb0lKTV9HWWVjb0FHVG5QVHl4N0NnZDZ1djFPU0hCRW00dlQ4czgtY0tsOFlsNWhDUG9oQXc0MWdLUVlLcTI1eFBXZEpVaF9YdjhBdkRWNXlwa1lCdEgxT0txcUlyVk9nUnlhcXgteEdqYjRhdk1fbTRLMkNMV1lMVU15MnJBLVQ1SEZvT2FHb0JCZW9WTzNqNmpxbEJGWFRmWXN3cGFpT1FVUnh6ZFkzcUROcGg5Q0pVRHdUemI1cHRHcjhiWEdtb2tVVjM2STRfQi1RbnhOWjc3a1YyZ2Q4SXpjeFlkOVVfOTZF0gGGAkFVX3lxTE10ZHFtRVNBb2tRak9xVGZrblVDS1NqMk13cTl1dHJ3NUs3b3pfcjFMNmlXN2xTZTNzX1RWQU5ZWmRrSjUweHl0ZUl5WnZ0dVJpYWptTHhLZlFSdy16d215ckRBek42VDZhRnMwejByUWdLTkV6b09HMzVWMFhnSUlnLVpWcF9WSG5JMzVCcFQ2UlRNaV8xT2pwMm1iY0ZUanBoQkJCOV9vMlFxNXA2eHgybmJweTVSWE91VWZ0QzZCZG5xekZ4aFNhRnMxY29BSndKZEpEUHdHZWJGYWV3dUgzbmRDTDVxVEV4eE56RkNpSElEZkFrdUF5NlFDSTU2eW5nUXdGWXc?oc=5",
+      "source": "Extra online",
+      "published_at": "Tue, 06 Oct 2026 10:16:45 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Inteligência artificial não é bolha nem vai acabar com empregos, diz executivo da Nvidia",
+      "summary": "Inteligência artificial não é bolha nem vai acabar com empregos, diz executivo da Nvidia",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUVJGQ0FIWmoxR0xqY2oybnhBeEgyVVVlM0QwdkViZlBsUXFKYzZyamp3UGdHalN1dDZTOTJnanVlSVhyNUNZZ04zYklWY0QtYTVIbi1CNXVMMlRoeC1IdzA3Rnlod3BiUDA3STFhYjljYjhHWkdCZlU5UGlsU0ZBMTlVMnVNOVZfRHprdTBGV0ZLRG0ycWVGd1VQLTgwNTBCb3NJWmlhX0xvSWQ0Z2RpTnlQN2EwekNES09XR0I2Ynd5NHVDU3hBbkhEcmQ3d9IB0wFBVV95cUxQLXItWTJ0RWpBUEpkUVh4QTVpek1OOTFRZFRfLWszbm5ya2VNbjNoRUlTSE95d3Y4YmRicE9qNXFCajJyb0dIUElNYnBEOHVXLUxDTklqTWlhNTZuQVFnTWR5RDU4ZGhQNmJJdW01anY4VDFYenEyQThWUEVkc21mQ1J6ekhxU3Baa0piQlFqNTV0SEFBWTJwRnRzcDQ3aThQYUp6M0hSUFk1bGVCMko2REFEckhzUm1ER0pwaG1tcndTOENmMUtmUlgzZVpMZDdyMWg4?oc=5",
+      "source": "Estadão",
+      "published_at": "Mon, 05 Oct 2026 15:00:00 GMT",
+      "category": "IA",
+      "signal": "flat"
     },
     {
       "title": "Ex-funcionário da OpenAI diz que empresas de IA não são 'nem de perto cuidadosas o suficiente'",
@@ -36,24 +54,6 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPam9VODlFSHA4cXZsZGtraUlkdHc4eEdPT2FtNHdVWWxpY0R3OUFVclg4cEZBelRwaUNtTUlPTEM0MHI0d3NrZmFJWFFhUzZVTmNnMDBzSzl3RlFRMENkMGVJMUFnLV94VzZjWDVReUM2bGtRd2xiSnpYSFVCTW5rUkpRVEtRUTdTT0JMSnhpZ0NrcnJxeXNtTTRXcHJSTWtTOFFzcTdaVdIBtgFBVV95cUxQVlZMd01CQmZkZ0E5eHZHMzBLaGVDUTNMc0xXUTgwYThPVlVPWHZEUDZqLTFlMC03Y0V6TndiaV9QN0pGeldPVjVQMm03QkxCX3BDekhoVjI0bWJPVHBoWlZnZHpVRUh3ZkdROVl2czFiVU5neGhCYjhEZjVKVkxObXQxcnlhV05qYzBJV2UxcmpsZmJzSndRS0luOTZRWVZiaUxqTmdadVRuR181dGlqLVpHTUFPUQ?oc=5",
       "source": "G1",
       "published_at": "Sat, 03 Oct 2026 19:24:15 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "IA no trabalho em 2026: o que mudou para profissionais e empresas",
-      "summary": "IA no trabalho em 2026: o que mudou para profissionais e empresas",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUUZjUWQzeW4tRVBqOHdTdUN6MTdidXZaenJqSDEzVjdsbzc0RVIzOFBTT2ZwY0xEUk1rc2xDZ2N2aEdMb2pzS2dBOUZNOWdWZ0x2U3pUUU04WkNGYTEtT2wwbWVBb2pqaTV1RnRpUXJtLUxpcFc0bzZsWEQ5MkV4dXh4ejF4OUNkUTE0dGgwWG9pbmxyUWhRaUoxNGFsYnc?oc=5",
-      "source": "Quero Bolsa",
-      "published_at": "Mon, 05 Oct 2026 10:49:44 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Empresas de IA deveriam ter regras de usinas nucleares, diz ex-OpenAI",
-      "summary": "Empresas de IA deveriam ter regras de usinas nucleares, diz ex-OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWWdPa0hqSUxlMHBxYXBOaVd5czhDTDhrOVBfMEhOc0hqeThjNFFCNFQ0SUZzUGM5Nkw2TG5ocEVNUjRqeTdGTkhXREU5WFFOQkppRHQ0c2liUEVaU1pUSFRXT095Ri16VDRyMlJaMTNsdThPMVdPY2h3Y293bG5FcjMxb0NjNGxOb1FsWFp3SktQaWxKZ1p1R0V4WU9JX0o3YWFMVlIyT05HTlV4eW5EakR3?oc=5",
-      "source": "Olhar Digital",
-      "published_at": "Sat, 03 Oct 2026 19:46:00 GMT",
       "category": "IA",
       "signal": "flat"
     }
