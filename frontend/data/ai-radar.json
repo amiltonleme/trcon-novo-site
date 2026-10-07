@@ -1,17 +1,8 @@
 {
-  "generated_at": "2026-10-07T14:47:41.979815+00:00",
+  "generated_at": "2026-10-07T23:56:54.720752+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
-    {
-      "title": "Ex-OpenAI diz que empresas de IA ainda não sabem controlar seus modelos",
-      "summary": "Ex-OpenAI diz que empresas de IA ainda não sabem controlar seus modelos",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdTd4M0pLMGdCVkU1WnJQOFA5UzhRbGZNWlhtUGJ3Sm9wZkFtRHVuc25pMVRnTXhfdXQyT2ZWTzg0MUpFdXB4OGNMeUtLTm1CNncxS1VRT2dXeEE2aTBBZnNXYkpHd1NjRlo3TnhMeEtsMkdQQlFYOHNYTEowREpzak5fa2lENVdLcWl2eU5YNmRjeWM2VGJMNk1xX0ZpRVFKZGZVeFpZeEFzaUVnRjZzQW56VXBWeGhzRXpYSExkZGFTT3UyVzdqYUUwbDFBZDlj?oc=5",
-      "source": "Olhar Digital",
-      "published_at": "Mon, 05 Oct 2026 22:29:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
     {
       "title": "Empresas brasileiras que adotaram IA enfrentam desafio de encontrar profissionais preparados para usar a tecnologia, diz estudo",
       "summary": "Empresas brasileiras que adotaram IA enfrentam desafio de encontrar profissionais preparados para usar a tecnologia, diz estudo",
@@ -31,6 +22,15 @@
       "signal": "flat"
     },
     {
+      "title": "Nem toda tarefa exige a IA mais cara: Snowflake alerta para a 'armadilha financeira' das empresas",
+      "summary": "Nem toda tarefa exige a IA mais cara: Snowflake alerta para a 'armadilha financeira' das empresas",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQlJMNzR2TWtjTHFSX2xmZl9fRVVGampIUC1BLXdXUlEzWFRhcklzVUQ2RVRHM01IT3YydzVkTnlRTWpQdFdQWVRySDQtZnkzaVhvaEVOWWxKQkNKUmQtWVpjRTE2ZFB2Wm9Qa2VxSWY2XzNqTzlKS0p3Q1RGaHFGTTJubmRJYXo3c1VhbFRRQm04UHBPUFUzRXRjNC1BcUZuVFh3R2o3UlMzNnB2Qnl4cVpOanRiSXVBaWJkX1FUTUhMRjdySUZ3dFhKMUNTXzBRMWow?oc=5",
+      "source": "Exame",
+      "published_at": "Wed, 07 Oct 2026 08:02:21 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
       "title": "Por que as empresas que aceleraram a corrida da inteligência artificial agora defendem limites",
       "summary": "Por que as empresas que aceleraram a corrida da inteligência artificial agora defendem limites",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNDZMOWVzVkFWd2QtYXZWQmZ3WTVwdWEzTWxLLXU4T2xuWXF4REhITjdzQy1BSlBwMGtKeDM0bk52X2ppNU83bDNwWkFHRmNGRE5LYzFVaGZoX210MnE3bFFLV3V3RHQyT0lxc0RlbER6OVB2YzBSRzBYWGZpb2dsa3JTRl90blY5SlhuNndRZW8tUm1mRnl6Rk94SUpablBqS3plc3JuSDh1cHdtSDdFekgxM0hnY1FsVDZV0gHAAUFVX3lxTE9ZbHpUay1UaFN3QW04NW56eFFsd25fOW9CeUs1NHdna050MHBJZU9KdWlkRTFibmt2N2NyN2gya0dyTTVZSl9ibGlxTEgxMFB3OGdDcllDTzVpYzVYXzV4ak50ZFo1VDdVVmwwQ3dJczJlMzJVdUdZMkhYMXAyVVFocFdZRHBGWXNjRnZNWG9TczdtNEV0R0UxdWh3SFJ0TzRBZjhEYmd6T3QzS2psMDBJMnc5Rk1DT1ppWFNxNmUtdA?oc=5",
@@ -40,15 +40,6 @@
       "signal": "up"
     },
     {
-      "title": "Detach! 26 aborda o impacto da inteligência artificial nos sistemas de design das empresas",
-      "summary": "Detach! 26 aborda o impacto da inteligência artificial nos sistemas de design das empresas",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNT19EMWN3R0VFUU9zYWhzaUxReC1OaEJPamVBMWNHUjgteDcwWWpLa1dNU01sN3Q0NVlCXzJRTWpQcEpqX05uRm9JNThodTlaT25rbWN6ZTVIdDQtYzBHbzVkbW94X0VxOTgwR0tvNjZDRUJVcURhdng1LXdhVmdmV3BHSlNTb1pSdVVsYTNmUjZISGxKbEdlbENWMnpCbmNOQlo2SlhZX1ZJalY1NlphZEtEZ3M2NnpFTUhIdWs4blF0TlB6cnBYMVhGN1VMUVJqSTh6cWRhRS1xWC1kckJTc3pBUDVmYzBNMUtDQmhHQ0JseEhkbFZXSWRNUQ?oc=5",
-      "source": "O POVO",
-      "published_at": "Wed, 07 Oct 2026 10:46:24 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
       "title": "IA no trabalho em 2026: o que mudou para profissionais e empresas",
       "summary": "IA no trabalho em 2026: o que mudou para profissionais e empresas",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUUZjUWQzeW4tRVBqOHdTdUN6MTdidXZaenJqSDEzVjdsbzc0RVIzOFBTT2ZwY0xEUk1rc2xDZ2N2aEdMb2pzS2dBOUZNOWdWZ0x2U3pUUU04WkNGYTEtT2wwbWVBb2pqaTV1RnRpUXJtLUxpcFc0bzZsWEQ5MkV4dXh4ejF4OUNkUTE0dGgwWG9pbmxyUWhRaUoxNGFsYnc?oc=5",
@@ -56,6 +47,15 @@
       "published_at": "Mon, 05 Oct 2026 10:49:44 GMT",
       "category": "IA",
       "signal": "flat"
+    },
+    {
+      "title": "Empresas chinesas lançam 16 modelos de IA em um mês, apesar de alerta da Anthropic",
+      "summary": "Empresas chinesas lançam 16 modelos de IA em um mês, apesar de alerta da Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOME9Wb0c1Q0hqVExzcTZiZ2pYbDZ3ckNSLThDM3E3UzY1elRwOTNuTkNhRVNSa19oSDlqYmlRVENSVFhFc0U3Tm1ILUt6UXNuUENnWl91YjFmc2x4SGgwaXBxWWdiOGl4X0FPaUVvSnNaSDF3eE1pR0VGRHdRbjZsVEtUX21RU1FJd05rRC1SSGxubHJHblF3V3VQRUpmMFRuRmZzbTZSb0l2RU1JQlRFd0dDLVktX3lHS1p0cUVWdWxZNUJUVWx6VE9fd2ZYM2xJcG000gHiAUFVX3lxTE15ekJ6UlYxbkpXT05vbmp5M3o3V3RpTmQyeVVTLTE5SW0zOUdKSkhSZjlScVQyYmtkbG9wYWY0ZzNkUHFVRHVUZGluTzZmVDJrQkhLT29Rdkw4TVF5amtzM2lxcE1DMkNtSEZFSnI4V2locXJEUGVodFVaam52NmZfak5yS0l0dmRhRV9SSHhkRkxTTDQ0aV8xWGhrTzhMZGU4SzM1R0VmUGFreUk4N0thWmlPbWRpNnF2TTJTUll4ekFmaTJxUlFBU2ZMZGRyOTJLOGtlc2hkZnJoRjRjS19ZN2c?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Wed, 07 Oct 2026 04:05:22 GMT",
+      "category": "IA",
+      "signal": "up"
     }
   ],
   "category": "IA"
