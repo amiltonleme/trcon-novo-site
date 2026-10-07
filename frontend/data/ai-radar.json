@@ -1,17 +1,8 @@
 {
-  "generated_at": "2026-10-06T23:29:24.371161+00:00",
+  "generated_at": "2026-10-07T14:47:41.979815+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
-    {
-      "title": "Empresas de IA são incapazes de controlar seus modelos, alerta ex-pesquisador da OpenAI",
-      "summary": "Empresas de IA são incapazes de controlar seus modelos, alerta ex-pesquisador da OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOXF0THV5OGlZZ19fbjZZNXBYWThxSUJWRllGR01TVXRGWHFHNndYS3k5RlV0Tm5qbXNoUjVUMGxOOUVsSG5PU1lNUF96MWMwd2dvQUlXZXNjS1NqNjZYa01kMUIxLVdaSXVSbWF0ZnQxYkR1dGVhTW14el93bGtqM3dydUt4QklTZXRfbVdBdk8zMG9veS1sNmRxTjF3N3hPTGRhbmpfUWNNRVdNaDItelVIWDJYZ2xSTkJFZm1sbTZkd3ByZUFXREU4SUktYWJ6TnI1Q25GY3lzOXfSAeoBQVVfeXFMTURmUHBaUFdHemNHaVI4RXo0Mjh5V3FqeEJXZHVLblpqV0xTYjBoeklKdXRXSDRqRFJCb1luQ2xvUmZqNGswb0Z2WmswdHpmNmJjRUZlMHp3OVc1R2E1eWgyeTZ3bURsbXFGMEF0QXd6T2pnelh1UDdRZG9BUVNnYW5aSTdZcjBTdTNOMElvTUxsdktzQVl5bVlaRXFsMkY3dHA3TFItSTZWSmFLdWtKQm1xUkJ5TFJkdVFtWUJNeEtlY2o0UXBuMmJhb1NtUjZLWm5STnVwQ2hWbWY2V2dQRENOTEk4NUNLQlh3?oc=5",
-      "source": "G1",
-      "published_at": "Mon, 05 Oct 2026 21:54:22 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
     {
       "title": "Ex-OpenAI diz que empresas de IA ainda não sabem controlar seus modelos",
       "summary": "Ex-OpenAI diz que empresas de IA ainda não sabem controlar seus modelos",
@@ -22,11 +13,38 @@
       "signal": "flat"
     },
     {
-      "title": "Ex-funcionário de OpenAI e Anthropic diz que inteligência artificial pode sair do controle e levar à extinção humana",
-      "summary": "Ex-funcionário de OpenAI e Anthropic diz que inteligência artificial pode sair do controle e levar à extinção humana",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQc0o2MkY4MlpCOWVIb0lKTV9HWWVjb0FHVG5QVHl4N0NnZDZ1djFPU0hCRW00dlQ4czgtY0tsOFlsNWhDUG9oQXc0MWdLUVlLcTI1eFBXZEpVaF9YdjhBdkRWNXlwa1lCdEgxT0txcUlyVk9nUnlhcXgteEdqYjRhdk1fbTRLMkNMV1lMVU15MnJBLVQ1SEZvT2FHb0JCZW9WTzNqNmpxbEJGWFRmWXN3cGFpT1FVUnh6ZFkzcUROcGg5Q0pVRHdUemI1cHRHcjhiWEdtb2tVVjM2STRfQi1RbnhOWjc3a1YyZ2Q4SXpjeFlkOVVfOTZF0gGGAkFVX3lxTE10ZHFtRVNBb2tRak9xVGZrblVDS1NqMk13cTl1dHJ3NUs3b3pfcjFMNmlXN2xTZTNzX1RWQU5ZWmRrSjUweHl0ZUl5WnZ0dVJpYWptTHhLZlFSdy16d215ckRBek42VDZhRnMwejByUWdLTkV6b09HMzVWMFhnSUlnLVpWcF9WSG5JMzVCcFQ2UlRNaV8xT2pwMm1iY0ZUanBoQkJCOV9vMlFxNXA2eHgybmJweTVSWE91VWZ0QzZCZG5xekZ4aFNhRnMxY29BSndKZEpEUHdHZWJGYWV3dUgzbmRDTDVxVEV4eE56RkNpSElEZkFrdUF5NlFDSTU2eW5nUXdGWXc?oc=5",
-      "source": "Extra online",
-      "published_at": "Tue, 06 Oct 2026 10:16:45 GMT",
+      "title": "Empresas brasileiras que adotaram IA enfrentam desafio de encontrar profissionais preparados para usar a tecnologia, diz estudo",
+      "summary": "Empresas brasileiras que adotaram IA enfrentam desafio de encontrar profissionais preparados para usar a tecnologia, diz estudo",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNbDlMNUNBVVBYaFJxNmNrSWNST01rLTNndkM2UE1kVFN0OUFuQUF1Y3RLUXFtdU1ub3FVcnhSWlo5ZFhDa09CMXZJUC1IMjByU2pmemh5bnpyWVZlWmM2VmE1RTNTRDVuVVc0Ty1NWExlQ3dXM3pXclY1M1JaNDlZTnF5QnpQWlJxMVhfMUIxTlB1WXk1dF85SzhIbndENV9WTkdZeXRoQzVneE5kdURQMmFxSHJQbm85MHg5bG5rZTNkb2c0bU9MWW4zZi1Wa2dvbG1EQXdEWUtnQlJIVVRfbm5UWXV3TUt5Y0h0S0ZaMDNyZVNlVlVJWURNNEVEbkpCMkN0eDVmalV3bTBXam5YSEVYZm9ldTDSAaYCQVVfeXFMT3FVbldiaDhNWlE0My1LWnN3dmdkVFlVemJPd1J0TF9RS0NRWWQ3ZzJXcHBaN0QyS3Q5bVUwX1dzZ3VOY0d1NWFDcVJjQ2VXeHBnS0Vpdjk2TEctUXR5LWNyU2JUTVM3MXlUNGJnMHdKYUY5alBsQW5LRDFrQVlZMkdFLXpCbDZnSjctZWM0UXRITC1WNDc3ZFhfaXBDT2RhT0NXQ0x5OUctVjJhRlBwWlJDXzRITHh5bGxFZV90R1piaVRMMFVlTE1yUGVNWWJTckhmbVBtM1U5TkVsMEFBaVBwejlZLUptZEttUnRHb2J1NFZHa0VPSzA3WXVyOTEtcmpyS0ZlQmIzOUY4cHF4ZXZYYVNROGZyeXRzUWtqM090VHlzQW1R?oc=5",
+      "source": "G1",
+      "published_at": "Wed, 07 Oct 2026 01:04:12 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Por que o diferencial da IA está cada vez mais nos dados que as empresas possuem",
+      "summary": "Por que o diferencial da IA está cada vez mais nos dados que as empresas possuem",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX01Ud3BYbVp6X09IUEczcUx4MGxRS0J1QzBMSjlDS3JZUWJQQW9LdmV3UWpiUnZUQWpYeHdkQk9EcGFaRG1PUGUzZWFlSWY5Qy1MNTFhRmlKbXVnd2c2dUN4Q25NRkFmZzJQb1lVZVJCX0hzaFN2RWRzOHlvMTBfdkVoUDlZM1pwRnVPeWdaaGk0TUtSV25wamUzc1o3TXNySFpsd1dlSGVINEgwVVF6VWxROUJJUVE?oc=5",
+      "source": "VEJA",
+      "published_at": "Wed, 07 Oct 2026 11:00:33 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Por que as empresas que aceleraram a corrida da inteligência artificial agora defendem limites",
+      "summary": "Por que as empresas que aceleraram a corrida da inteligência artificial agora defendem limites",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNDZMOWVzVkFWd2QtYXZWQmZ3WTVwdWEzTWxLLXU4T2xuWXF4REhITjdzQy1BSlBwMGtKeDM0bk52X2ppNU83bDNwWkFHRmNGRE5LYzFVaGZoX210MnE3bFFLV3V3RHQyT0lxc0RlbER6OVB2YzBSRzBYWGZpb2dsa3JTRl90blY5SlhuNndRZW8tUm1mRnl6Rk94SUpablBqS3plc3JuSDh1cHdtSDdFekgxM0hnY1FsVDZV0gHAAUFVX3lxTE9ZbHpUay1UaFN3QW04NW56eFFsd25fOW9CeUs1NHdna050MHBJZU9KdWlkRTFibmt2N2NyN2gya0dyTTVZSl9ibGlxTEgxMFB3OGdDcllDTzVpYzVYXzV4ak50ZFo1VDdVVmwwQ3dJczJlMzJVdUdZMkhYMXAyVVFocFdZRHBGWXNjRnZNWG9TczdtNEV0R0UxdWh3SFJ0TzRBZjhEYmd6T3QzS2psMDBJMnc5Rk1DT1ppWFNxNmUtdA?oc=5",
+      "source": "Jornal O Sul",
+      "published_at": "Wed, 07 Oct 2026 01:19:11 GMT",
+      "category": "IA",
+      "signal": "up"
+    },
+    {
+      "title": "Detach! 26 aborda o impacto da inteligência artificial nos sistemas de design das empresas",
+      "summary": "Detach! 26 aborda o impacto da inteligência artificial nos sistemas de design das empresas",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNT19EMWN3R0VFUU9zYWhzaUxReC1OaEJPamVBMWNHUjgteDcwWWpLa1dNU01sN3Q0NVlCXzJRTWpQcEpqX05uRm9JNThodTlaT25rbWN6ZTVIdDQtYzBHbzVkbW94X0VxOTgwR0tvNjZDRUJVcURhdng1LXdhVmdmV3BHSlNTb1pSdVVsYTNmUjZISGxKbEdlbENWMnpCbmNOQlo2SlhZX1ZJalY1NlphZEtEZ3M2NnpFTUhIdWs4blF0TlB6cnBYMVhGN1VMUVJqSTh6cWRhRS1xWC1kckJTc3pBUDVmYzBNMUtDQmhHQ0JseEhkbFZXSWRNUQ?oc=5",
+      "source": "O POVO",
+      "published_at": "Wed, 07 Oct 2026 10:46:24 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -36,24 +54,6 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUUZjUWQzeW4tRVBqOHdTdUN6MTdidXZaenJqSDEzVjdsbzc0RVIzOFBTT2ZwY0xEUk1rc2xDZ2N2aEdMb2pzS2dBOUZNOWdWZ0x2U3pUUU04WkNGYTEtT2wwbWVBb2pqaTV1RnRpUXJtLUxpcFc0bzZsWEQ5MkV4dXh4ejF4OUNkUTE0dGgwWG9pbmxyUWhRaUoxNGFsYnc?oc=5",
       "source": "Quero Bolsa",
       "published_at": "Mon, 05 Oct 2026 10:49:44 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Ex-funcionário da OpenAI diz que empresas de IA não são 'nem de perto cuidadosas o suficiente'",
-      "summary": "Ex-funcionário da OpenAI diz que empresas de IA não são 'nem de perto cuidadosas o suficiente'",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPam9VODlFSHA4cXZsZGtraUlkdHc4eEdPT2FtNHdVWWxpY0R3OUFVclg4cEZBelRwaUNtTUlPTEM0MHI0d3NrZmFJWFFhUzZVTmNnMDBzSzl3RlFRMENkMGVJMUFnLV94VzZjWDVReUM2bGtRd2xiSnpYSFVCTW5rUkpRVEtRUTdTT0JMSnhpZ0NrcnJxeXNtTTRXcHJSTWtTOFFzcTdaVdIBtgFBVV95cUxQVlZMd01CQmZkZ0E5eHZHMzBLaGVDUTNMc0xXUTgwYThPVlVPWHZEUDZqLTFlMC03Y0V6TndiaV9QN0pGeldPVjVQMm03QkxCX3BDekhoVjI0bWJPVHBoWlZnZHpVRUh3ZkdROVl2czFiVU5neGhCYjhEZjVKVkxObXQxcnlhV05qYzBJV2UxcmpsZmJzSndRS0luOTZRWVZiaUxqTmdadVRuR181dGlqLVpHTUFPUQ?oc=5",
-      "source": "G1",
-      "published_at": "Sat, 03 Oct 2026 19:24:15 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "DXC e CrewAI fecham parceria para levar agentes de IA a empresas na América Latina",
-      "summary": "DXC e CrewAI fecham parceria para levar agentes de IA a empresas na América Latina",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBISTd4SGIyVVU3enpaNmo2d1Rhbm80OTNMdkFUa2FlVVBpcXdOOHhNUG8yT0RWNUtqQk4weU1DVWFhMG5md0M1QnlVZ1VGT3ZoWWd2QlBKVmUwNDlzTEtFdVN2OFdSdkJyeXp3TGxTdW5Ca3ZxZ3h1dNIBfkFVX3lxTFBDOUstaUFjTHIyb2cxdXJxMHZKM183NUU2VXhiN2Ztd29UdUVxV2N3NS1Ld2hMODRZM3M1VmNxVFhqNUlrREc5eHd0RlRyV0tJZkFVZFlFTXdieDVvZHRVUExqVENURkkwVVRFMTcxMkt2Z1QwRVdoNmp3ak5KQQ?oc=5",
-      "source": "IT Forum",
-      "published_at": "Tue, 06 Oct 2026 12:00:22 GMT",
       "category": "IA",
       "signal": "flat"
     }
