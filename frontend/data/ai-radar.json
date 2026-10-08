@@ -1,17 +1,8 @@
 {
-  "generated_at": "2026-10-07T23:56:54.720752+00:00",
+  "generated_at": "2026-10-08T14:58:46.515456+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
-    {
-      "title": "Empresas brasileiras que adotaram IA enfrentam desafio de encontrar profissionais preparados para usar a tecnologia, diz estudo",
-      "summary": "Empresas brasileiras que adotaram IA enfrentam desafio de encontrar profissionais preparados para usar a tecnologia, diz estudo",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNbDlMNUNBVVBYaFJxNmNrSWNST01rLTNndkM2UE1kVFN0OUFuQUF1Y3RLUXFtdU1ub3FVcnhSWlo5ZFhDa09CMXZJUC1IMjByU2pmemh5bnpyWVZlWmM2VmE1RTNTRDVuVVc0Ty1NWExlQ3dXM3pXclY1M1JaNDlZTnF5QnpQWlJxMVhfMUIxTlB1WXk1dF85SzhIbndENV9WTkdZeXRoQzVneE5kdURQMmFxSHJQbm85MHg5bG5rZTNkb2c0bU9MWW4zZi1Wa2dvbG1EQXdEWUtnQlJIVVRfbm5UWXV3TUt5Y0h0S0ZaMDNyZVNlVlVJWURNNEVEbkpCMkN0eDVmalV3bTBXam5YSEVYZm9ldTDSAaYCQVVfeXFMT3FVbldiaDhNWlE0My1LWnN3dmdkVFlVemJPd1J0TF9RS0NRWWQ3ZzJXcHBaN0QyS3Q5bVUwX1dzZ3VOY0d1NWFDcVJjQ2VXeHBnS0Vpdjk2TEctUXR5LWNyU2JUTVM3MXlUNGJnMHdKYUY5alBsQW5LRDFrQVlZMkdFLXpCbDZnSjctZWM0UXRITC1WNDc3ZFhfaXBDT2RhT0NXQ0x5OUctVjJhRlBwWlJDXzRITHh5bGxFZV90R1piaVRMMFVlTE1yUGVNWWJTckhmbVBtM1U5TkVsMEFBaVBwejlZLUptZEttUnRHb2J1NFZHa0VPSzA3WXVyOTEtcmpyS0ZlQmIzOUY4cHF4ZXZYYVNROGZyeXRzUWtqM090VHlzQW1R?oc=5",
-      "source": "G1",
-      "published_at": "Wed, 07 Oct 2026 01:04:12 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
     {
       "title": "Por que o diferencial da IA está cada vez mais nos dados que as empresas possuem",
       "summary": "Por que o diferencial da IA está cada vez mais nos dados que as empresas possuem",
@@ -22,29 +13,11 @@
       "signal": "flat"
     },
     {
-      "title": "Nem toda tarefa exige a IA mais cara: Snowflake alerta para a 'armadilha financeira' das empresas",
-      "summary": "Nem toda tarefa exige a IA mais cara: Snowflake alerta para a 'armadilha financeira' das empresas",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQlJMNzR2TWtjTHFSX2xmZl9fRVVGampIUC1BLXdXUlEzWFRhcklzVUQ2RVRHM01IT3YydzVkTnlRTWpQdFdQWVRySDQtZnkzaVhvaEVOWWxKQkNKUmQtWVpjRTE2ZFB2Wm9Qa2VxSWY2XzNqTzlKS0p3Q1RGaHFGTTJubmRJYXo3c1VhbFRRQm04UHBPUFUzRXRjNC1BcUZuVFh3R2o3UlMzNnB2Qnl4cVpOanRiSXVBaWJkX1FUTUhMRjdySUZ3dFhKMUNTXzBRMWow?oc=5",
-      "source": "Exame",
-      "published_at": "Wed, 07 Oct 2026 08:02:21 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Por que as empresas que aceleraram a corrida da inteligência artificial agora defendem limites",
-      "summary": "Por que as empresas que aceleraram a corrida da inteligência artificial agora defendem limites",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNDZMOWVzVkFWd2QtYXZWQmZ3WTVwdWEzTWxLLXU4T2xuWXF4REhITjdzQy1BSlBwMGtKeDM0bk52X2ppNU83bDNwWkFHRmNGRE5LYzFVaGZoX210MnE3bFFLV3V3RHQyT0lxc0RlbER6OVB2YzBSRzBYWGZpb2dsa3JTRl90blY5SlhuNndRZW8tUm1mRnl6Rk94SUpablBqS3plc3JuSDh1cHdtSDdFekgxM0hnY1FsVDZV0gHAAUFVX3lxTE9ZbHpUay1UaFN3QW04NW56eFFsd25fOW9CeUs1NHdna050MHBJZU9KdWlkRTFibmt2N2NyN2gya0dyTTVZSl9ibGlxTEgxMFB3OGdDcllDTzVpYzVYXzV4ak50ZFo1VDdVVmwwQ3dJczJlMzJVdUdZMkhYMXAyVVFocFdZRHBGWXNjRnZNWG9TczdtNEV0R0UxdWh3SFJ0TzRBZjhEYmd6T3QzS2psMDBJMnc5Rk1DT1ppWFNxNmUtdA?oc=5",
-      "source": "Jornal O Sul",
-      "published_at": "Wed, 07 Oct 2026 01:19:11 GMT",
-      "category": "IA",
-      "signal": "up"
-    },
-    {
-      "title": "IA no trabalho em 2026: o que mudou para profissionais e empresas",
-      "summary": "IA no trabalho em 2026: o que mudou para profissionais e empresas",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUUZjUWQzeW4tRVBqOHdTdUN6MTdidXZaenJqSDEzVjdsbzc0RVIzOFBTT2ZwY0xEUk1rc2xDZ2N2aEdMb2pzS2dBOUZNOWdWZ0x2U3pUUU04WkNGYTEtT2wwbWVBb2pqaTV1RnRpUXJtLUxpcFc0bzZsWEQ5MkV4dXh4ejF4OUNkUTE0dGgwWG9pbmxyUWhRaUoxNGFsYnc?oc=5",
-      "source": "Quero Bolsa",
-      "published_at": "Mon, 05 Oct 2026 10:49:44 GMT",
+      "title": "Empresas brasileiras que adotaram IA enfrentam desafio de encontrar profissionais preparados para usar a tecnologia, diz estudo",
+      "summary": "Empresas brasileiras que adotaram IA enfrentam desafio de encontrar profissionais preparados para usar a tecnologia, diz estudo",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNbDlMNUNBVVBYaFJxNmNrSWNST01rLTNndkM2UE1kVFN0OUFuQUF1Y3RLUXFtdU1ub3FVcnhSWlo5ZFhDa09CMXZJUC1IMjByU2pmemh5bnpyWVZlWmM2VmE1RTNTRDVuVVc0Ty1NWExlQ3dXM3pXclY1M1JaNDlZTnF5QnpQWlJxMVhfMUIxTlB1WXk1dF85SzhIbndENV9WTkdZeXRoQzVneE5kdURQMmFxSHJQbm85MHg5bG5rZTNkb2c0bU9MWW4zZi1Wa2dvbG1EQXdEWUtnQlJIVVRfbm5UWXV3TUt5Y0h0S0ZaMDNyZVNlVlVJWURNNEVEbkpCMkN0eDVmalV3bTBXam5YSEVYZm9ldTDSAaYCQVVfeXFMT3FVbldiaDhNWlE0My1LWnN3dmdkVFlVemJPd1J0TF9RS0NRWWQ3ZzJXcHBaN0QyS3Q5bVUwX1dzZ3VOY0d1NWFDcVJjQ2VXeHBnS0Vpdjk2TEctUXR5LWNyU2JUTVM3MXlUNGJnMHdKYUY5alBsQW5LRDFrQVlZMkdFLXpCbDZnSjctZWM0UXRITC1WNDc3ZFhfaXBDT2RhT0NXQ0x5OUctVjJhRlBwWlJDXzRITHh5bGxFZV90R1piaVRMMFVlTE1yUGVNWWJTckhmbVBtM1U5TkVsMEFBaVBwejlZLUptZEttUnRHb2J1NFZHa0VPSzA3WXVyOTEtcmpyS0ZlQmIzOUY4cHF4ZXZYYVNROGZyeXRzUWtqM090VHlzQW1R?oc=5",
+      "source": "G1",
+      "published_at": "Wed, 07 Oct 2026 01:04:12 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -56,6 +29,33 @@
       "published_at": "Wed, 07 Oct 2026 04:05:22 GMT",
       "category": "IA",
       "signal": "up"
+    },
+    {
+      "title": "Como a Iron Mountain usa IA para transformar documentos em dados úteis para as empresas",
+      "summary": "Como a Iron Mountain usa IA para transformar documentos em dados úteis para as empresas",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNRVdRUFRlZXZmbmFuWVg5Z2ZVeFRaWktsaW5QeF9sSlNvNDdsWG1fNEpuSndEdWRLUDZTMmJpTnhNck9qaGxvRVVBNk1pdVVfemR6bjZJdFp6OWl0akJsdTNVRW96UklzdWhEckNFenlURUlIeFZfMU55VlhPc1pNVDNIR2ZBZHZsVG5jd1RsWnh4RTJBRjgzUVBVaFItVGd1QlBlWWxSWGtydmc0VVhGb3FwMnVSdmllc0RpNW1mYXBzYlFCRXIzX3NHdFI4MkUxTHZPczFXcktpVjE1eGRmcFlkVmNmS2haQUp6eHEzd2hYa3ZGdFBIajBwMV9acjJHNm9wMEhtai11ODjSAZoCQVVfeXFMT010UnNrb0E2amFkYVA2LW1kMlptZGFWeUEyYnl3SlpYLUotU19VeExwVnpjSEQzaHhsa3BiaFgwOTJ4d0l5Wi1CVXJuRElJM0UzWkFHbXUwYWhlazZLb1ZEUS0zNVNMcTFnaUNwZGVqNUdnSzdaWVhkMmNkMGt6SU5YZTNWYW42MVVWYTU0dmVhaHpsVHV1cmVndzB3VnA4b3NJY2c3eVNScmZWdTFBbWltYlVkUUdwUzZDSlExZEd6N21qeDVyX0ZvUHJJV09pMUVVWTZoMXhmeTBuZC0ybUtDQXpKRFdIckdwblJtWDdEa051bTdKZmwyMjRYWndNbWpvOHZHQkpoeVMyTENBek02SDg0Sk02Y2RR?oc=5",
+      "source": "Época Negócios",
+      "published_at": "Thu, 08 Oct 2026 09:00:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "OAB-SP vai à Justiça contra empresa de IA que produz peças jurídicas",
+      "summary": "OAB-SP vai à Justiça contra empresa de IA que produz peças jurídicas",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa1VjV1ZCaGFfZUpJQjU1TU92c1dDMXFRRGZydzRQUVhBWU43QTdwcnZObUhpTEcxTXozLWpSQ0w5LXEzb0JIUjVQQ0c0WUJDUmFud1ZVbGxkN09JNUxMVXRZOHJPT20zYzNHdkYyWFlBaFZ5N2N4UTN6WXU4Qm9hMzVwRTBaTGFkb2RlZG5lMmU5NkVfcHdVTnBkcl84YzAxQU5wMTh2Y0U?oc=5",
+      "source": "Metrópoles",
+      "published_at": "Thu, 08 Oct 2026 01:28:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "Inteligência Artificial não salva empresa desorganizada: entenda o erro de gestão",
+      "summary": "Inteligência Artificial não salva empresa desorganizada: entenda o erro de gestão",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRTlkeHMwMDdUcDhMblVtYzZnNVZGWTNTcVVGTGRST3hZemFTSjZXSzN1UHRnMVI5VUhWN3J3Q1NGLWVPbVViRWtMYmVOUExWUlZ0SnpyWjZMR21Wc1hYbWxmSE92VE8wQkJZd29TYmYwUEtWYkRYNmFKTEQ4ZzVJWm1MNEwyTUtUWUpjdjdxMmRVZGJpV1A3ajhPNlhkM1pvdTBYQk1tc0ZkUmJUS1BZMlAtYVBJd0NOdjhCRDNsaXU1QQ?oc=5",
+      "source": "bra1.com.br",
+      "published_at": "Thu, 08 Oct 2026 12:32:00 GMT",
+      "category": "IA",
+      "signal": "flat"
     }
   ],
   "category": "IA"
