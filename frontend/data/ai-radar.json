@@ -1,17 +1,8 @@
 {
-  "generated_at": "2026-10-09T00:04:21.637124+00:00",
+  "generated_at": "2026-10-09T14:43:33.837891+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
-    {
-      "title": "Qual é a melhor IA para sua empresa? Ranking revela diferenças entre os principais modelos",
-      "summary": "Qual é a melhor IA para sua empresa? Ranking revela diferenças entre os principais modelos",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSFZjV3hkc1ZTNkxVOWliN0M0bTdDYjZMOEFVaXhGZXFMc2xIY3JhZEtRQXVqR2FzRFNHeEJqbUtHbG1CRWhjT3NEN1dkVHo0SG1GZXNZQzdBSW1jZHlGdDExYjNuVDEwVS1nalJ6QmtsTlQwcWU1VFJUT2RTVWxQN1lBb21BUTNCSU9KVGN2YmQ3U2l4YjljTkMxOGkzY05xVHdZbm9GZDE?oc=5",
-      "source": "CryptoID",
-      "published_at": "Thu, 08 Oct 2026 17:33:33 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
     {
       "title": "O que está por trás das ameaças de a inteligência artificial acabar com a humanidade? Entenda",
       "summary": "O que está por trás das ameaças de a inteligência artificial acabar com a humanidade? Entenda",
@@ -31,6 +22,24 @@
       "signal": "flat"
     },
     {
+      "title": "Curso da ABIMAQ ensina como utilizar Inteligência Artificial para impulsionar empresas e otimizar processos",
+      "summary": "Curso da ABIMAQ ensina como utilizar Inteligência Artificial para impulsionar empresas e otimizar processos",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPak16eXRQeFN0YjQ4ajNpcTE5dnFwNzNka2RGTW04OEp2VGl0TWhTU2RsSWtidkJUakZFdXE2alFGYm9sb1ZmVFhRUFFZMVhBc3A2QlBMTFNpbjVEaVNuU3VvNnl5RWJxU2ZwWGw4WExyc3ZfYTZjRmJpNWZFR3JtVlBWRk1FT2pCbUtDYlNNTXBPeUdyaVdCRENoWEo0dDMzVzVoTjcwVzI0bDU4Wkl2bVlYdGZPV3hkTGZRQzVpelNmTGRzYWFCWTJaTmZ0QVRkdi1lbjlpYnlCb2ZpLTFnTXBJVjY?oc=5",
+      "source": "jornaltribuna.com.br",
+      "published_at": "Fri, 09 Oct 2026 14:03:32 GMT",
+      "category": "IA",
+      "signal": "down"
+    },
+    {
+      "title": "SBI pretende avaliar 5 mil empresas e movimentar R$ 25 milhões com soluções de inteligência artificial",
+      "summary": "SBI pretende avaliar 5 mil empresas e movimentar R$ 25 milhões com soluções de inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR1dkU2tDQ21sc3hoQmR1RXFPM2Z6M2RaN2FCNWo1MUY4U0hqV3dQWmEtSmZmX2NTeUlXb3FseWZkWFpuNlgxbWxPRDZXcTNMMUJDaTJkUmZFbEVJcHlEdDhPNW8yREhCdFpQR0NmVkR1eF9PMWRDVjg1TEJDTUUwV2RlYmozTmJXcUU0VklSSy1URHZWaV8yYVpUTDBhTk9nSmlqNGxmd1FSclZrOWtwSzBDOFJobGRSdE9mOGhwVkxhcl95dTFmTmd3aDI?oc=5",
+      "source": "Capital Digital",
+      "published_at": "Thu, 08 Oct 2026 21:34:58 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
       "title": "O que o IPO da Anthropic revela sobre a economia da inteligência artificial",
       "summary": "O que o IPO da Anthropic revela sobre a economia da inteligência artificial",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVlJGZFhoaVJ5ekNUY0YxTW16NmljaWpYZGlaNDNsM0lqSFozM2k4ak9TNzhRdGhvbVBTQ0k3NW82Qy1tNFczNTBHZnhmLVVuaDFWMzVZTGpCcWhYZDBGbVVwcHdOX0hCd29XVG52YlAybGsxbEM1bDR1ZG9lWHAtdURPaEdOQQ?oc=5",
@@ -40,20 +49,11 @@
       "signal": "flat"
     },
     {
-      "title": "SBI pretende avaliar 5 mil empresas e movimentar R$ 25 milhões com soluções de inteligência artificial",
-      "summary": "SBI pretende avaliar 5 mil empresas e movimentar R$ 25 milhões com soluções de inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR1dkU2tDQ21sc3hoQmR1RXFPM2Z6M2RaN2FCNWo1MUY4U0hqV3dQWmEtSmZmX2NTeUlXb3FseWZkWFpuNlgxbWxPRDZXcTNMMUJDaTJkUmZFbEVJcHlEdDhPNW8yREhCdFpQR0NmVkR1eF9PMWRDVjg1TEJDTUUwV2RlYmozTmJXcUU0VklSSy1URHZWaV8yYVpUTDBhTk9nSmlqNGxmd1FSclZrOWtwSzBDOFJobGRSdE9mOGhwVkxhcl95dTFmTmd3aDI?oc=5",
-      "source": "Capital Digital",
-      "published_at": "Thu, 08 Oct 2026 20:12:56 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Empresas brasileiras que adotaram IA enfrentam desafio de encontrar profissionais preparados para usar a tecnologia, diz estudo",
-      "summary": "Empresas brasileiras que adotaram IA enfrentam desafio de encontrar profissionais preparados para usar a tecnologia, diz estudo",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNbDlMNUNBVVBYaFJxNmNrSWNST01rLTNndkM2UE1kVFN0OUFuQUF1Y3RLUXFtdU1ub3FVcnhSWlo5ZFhDa09CMXZJUC1IMjByU2pmemh5bnpyWVZlWmM2VmE1RTNTRDVuVVc0Ty1NWExlQ3dXM3pXclY1M1JaNDlZTnF5QnpQWlJxMVhfMUIxTlB1WXk1dF85SzhIbndENV9WTkdZeXRoQzVneE5kdURQMmFxSHJQbm85MHg5bG5rZTNkb2c0bU9MWW4zZi1Wa2dvbG1EQXdEWUtnQlJIVVRfbm5UWXV3TUt5Y0h0S0ZaMDNyZVNlVlVJWURNNEVEbkpCMkN0eDVmalV3bTBXam5YSEVYZm9ldTDSAaYCQVVfeXFMT3FVbldiaDhNWlE0My1LWnN3dmdkVFlVemJPd1J0TF9RS0NRWWQ3ZzJXcHBaN0QyS3Q5bVUwX1dzZ3VOY0d1NWFDcVJjQ2VXeHBnS0Vpdjk2TEctUXR5LWNyU2JUTVM3MXlUNGJnMHdKYUY5alBsQW5LRDFrQVlZMkdFLXpCbDZnSjctZWM0UXRITC1WNDc3ZFhfaXBDT2RhT0NXQ0x5OUctVjJhRlBwWlJDXzRITHh5bGxFZV90R1piaVRMMFVlTE1yUGVNWWJTckhmbVBtM1U5TkVsMEFBaVBwejlZLUptZEttUnRHb2J1NFZHa0VPSzA3WXVyOTEtcmpyS0ZlQmIzOUY4cHF4ZXZYYVNROGZyeXRzUWtqM090VHlzQW1R?oc=5",
-      "source": "G1",
-      "published_at": "Wed, 07 Oct 2026 01:04:12 GMT",
+      "title": "A aposta da 'Palantir brasileira' para guardar a memória das empresas com IA — e chegar a R$ 1 bi",
+      "summary": "A aposta da 'Palantir brasileira' para guardar a memória das empresas com IA — e chegar a R$ 1 bi",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRmIyTFI2NWNObkFZcEdqRl9jN2w1OU1sRW9jVkRDMDFFOEJLNVB0bXY2S3VNU3FrUDEyQjB2U3lnNFM3N2I5dFdtWm9zU1NZM053bEJkM0ZzS3AtRC1kSXo5X1oxN2o1N1pwblNGMDhvUXpKM3NxTnBMY2RiNEJOd2QycUd1VTRLS3Y2V3pqcm5YcThSb2Z5VzluZlgxY3htTFIxYXRvRFJYQVFfenQ3d2FBZi1yel9hTDgya29YYWRROWh0YmJGTXo1SDExRFhM?oc=5",
+      "source": "Exame",
+      "published_at": "Fri, 09 Oct 2026 11:32:11 GMT",
       "category": "IA",
       "signal": "flat"
     }

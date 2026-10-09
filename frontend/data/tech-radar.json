@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T00:04:22.689418+00:00",
+  "generated_at": "2026-10-09T14:43:34.986343+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de tecnologia.",
   "errors": [],
   "items": [
@@ -13,15 +13,6 @@
       "signal": "flat"
     },
     {
-      "title": "Nova plataforma da Meta leva agentes de IA para atendimento, vendas e desenvolvimento de software",
-      "summary": "Nova plataforma da Meta leva agentes de IA para atendimento, vendas e desenvolvimento de software",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUDl5MzlQbmVNclRjYnRlSXEyejEyYnRJRlgzN1ppaGxqaFNrdHpfQ1NoTGFJdGQySEdMeGh1a2hQaVduYzRpeWtzT09NZzFHNWRsblRnZ0ZXajBheDc4ZVJYeWdSa182aWYxajNnUGhvTTFXMUJ1eXdRT202ZEFwRjNfU0lRY2oyLUFSajJ1WHZlV0RmWHhEbkE5WFp0UDNZendEQmk0UjBxWFVzbmNVdExoMFdEY2J0dEFXa2M0MWYxM0hGYW1BSW1wQWNfMGVIRmc?oc=5",
-      "source": "Agora Litoral",
-      "published_at": "Mon, 28 Sep 2026 07:00:00 GMT",
-      "category": "Tecnologia",
-      "signal": "flat"
-    },
-    {
       "title": "Equipe virtual de agentes de IA reduz em até 70% o tempo de desenvolvimento de software na Dígitro Tecnologia",
       "summary": "Equipe virtual de agentes de IA reduz em até 70% o tempo de desenvolvimento de software na Dígitro Tecnologia",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObGluV1kyWmNZa2VuODZNQzJ1LWV6NllPTHg2eVdBanUycklHWG5zR2Y1bUZJYmFCUDVDaTRFeFZlaS1WZU9fXzVLSVNhNDJPZElXTHR3bjhzVmw4NVh1V1lsWXNuLW9ycGNNdmU5Z1NWRmN5Y2NVZndBQWxWcnRkUjdEZVE4RjhuaXpHWmVnYnUzOGlGWEFaVThiakF4S0k5aFJlcTVLV0IwTV9XODl6UU5tY1RaMFFXb1doX1Qtcjg0YzVlaVp4ZnRqSzNmdG9BdnJLQ0diaGc1cjVk?oc=5",
@@ -31,11 +22,20 @@
       "signal": "flat"
     },
     {
+      "title": "Nova plataforma da Meta leva agentes de IA para atendimento, vendas e desenvolvimento de software",
+      "summary": "Nova plataforma da Meta leva agentes de IA para atendimento, vendas e desenvolvimento de software",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUDl5MzlQbmVNclRjYnRlSXEyejEyYnRJRlgzN1ppaGxqaFNrdHpfQ1NoTGFJdGQySEdMeGh1a2hQaVduYzRpeWtzT09NZzFHNWRsblRnZ0ZXajBheDc4ZVJYeWdSa182aWYxajNnUGhvTTFXMUJ1eXdRT202ZEFwRjNfU0lRY2oyLUFSajJ1WHZlV0RmWHhEbkE5WFp0UDNZendEQmk0UjBxWFVzbmNVdExoMFdEY2J0dEFXa2M0MWYxM0hGYW1BSW1wQWNfMGVIRmc?oc=5",
+      "source": "Agora Litoral",
+      "published_at": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "category": "Tecnologia",
+      "signal": "flat"
+    },
+    {
       "title": "IA aumenta produtividade no desenvolvimento de software, mas empresas ainda enfrentam gargalos de custo e revisão",
       "summary": "IA aumenta produtividade no desenvolvimento de software, mas empresas ainda enfrentam gargalos de custo e revisão",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOeGlwOUlldGNnZmlOWW82d2Nacll3Z0ItRnI3ZlZlZkg3OHU5WXhJNmVyMU16U2dzVmx3MzNacG5KZFNzM3hFWEdzQ1hQMkFuSTlDajlzaXlQYXlKUUxhY1dZRUI2ZkNRZFFpZFRfYXk0c3piZkhRMDJ5TUhrMUlqZXh0MDVjVlBrc0xqcWxUM3Z0SERLYjN6cXRPSFVJdEpCTGtGQXcteEN5ZDE2d19pam1ub0ZKTTI1dkxjX3ZHNFNKZjY4elJHQkVoYVpibzctN2UzT20ya1JCc3NkeHhPb2dWU1ZkMERwNnZtZlRnT2ZCVEdGXzBYYTNWUXM3TE90U01MMmJGcU9wVnVleVl2TEt0VUvSAaMCQVVfeXFMUE1aYTFnRXlBTExDaEwxM3llamtSaEkzNlBkb09hSFZpc3ktYkl3VktEdHo1eU9wQXhYU0xDQWtTNnlEelFzeXlBSFRldUUyTEJuak9Zczc3MVhGMmJIdXVyVlZEbUstelVlTUNLSDdBWUlIbkFPakUzZkpud2t2aFliY3dvWU5YYW0tUnpma3Y4NGJ1WGZiemtEcnBzR2d6QVNwMThIdnBXd1hBbkNCNnZkWmVtcnRzS2tEZWZyUU1iak9Xbl9XS2hGaXBSWVFsX21TMXVyNm9kdW9LTExlTVk5MDhkbEE2TFBOUTNXVlhlUlhNNm1PcXN6eHB2Sk51ODFvMWJxbEVTTGI1V21PQXhuLTNSeWRNRWthc3pIbUd5S2Rr?oc=5",
-      "source": "Valor Econômico",
-      "published_at": "Wed, 16 Sep 2026 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOYVp1cjRRcVY3UnIwbzlFTlRzc19wb1o5SkJwMnRpeTQwc3l2MlNjMWhhbGlKYWJ3cVBuUWtIdUIwSk0yWUZXUDU3bS1rdEJqcHA1d1VHS3VkclBIXzluUFVhMHU2N1VVS2taM1pXUkVnZWdsYkxPUmxGX0ZpU19QajhKYi1rOTQzZ0xiZ25TVURSV3NyMXFZSEFxWkg2cGNZQWw4Q3o3Mm1rWnBqSzVnSFdLVGdPSHN2S3hUY2lLUmFuSVM4M2pMZ0wtSlQwQVRSeXNaN2U0bnBwTUtlSmFPS1llYUQyOUdfUkgxXzVNTDZFaGJxMWxZYk9IXzlyTmc4czEtSWxZU0hCdWhndXk0TjREZGExTFQ2UEF0T0JCZmrSAa8CQVVfeXFMTU5QWl82WTZCLXBCZEdLbl9vTVY5cWFHXzNfb0pXc0dTVGF2RlhjYmFOSmlhQTBldXVWSnhPRE5RWjU1STVGM18zdmdUZnV2YVpVVTJzTVBJNUdfcHI3RjUzOERGMlF3QTgzOWJjcWpWSDBjQnJObHdnREVuaWhQY3I5Ym5SbUVUU0M2Y0txZEdxQVZyaVA5bFcyNVNZUjVuTUlzT3lqN1N6V3V1ZWpsbW9YS3M0X0FhZnJKZlNtdnhFR0hBNnQxUWNrYnlCWG1WNjZoUWxMTDRJNHhJU1dhb1AwWkVYUW84SmtZVWJoYy00U0RGZ0NhemRDWEh4X1gzcUlSTXdCczhHRjlOdTZKTUd4cTFIQWs1MWI5RW5ZZkk1SHBTaWZTd19nUFN1Z0tR?oc=5",
+      "source": "Pequenas Empresas & Grandes Negócios",
+      "published_at": "Wed, 16 Sep 2026 12:15:28 GMT",
       "category": "Tecnologia",
       "signal": "flat"
     },
