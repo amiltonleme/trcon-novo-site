@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-10-09T14:43:33.837891+00:00",
+  "generated_at": "2026-10-09T23:44:13.515122+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
+    {
+      "title": "Qual é a melhor IA para sua empresa? Ranking revela diferenças entre os principais modelos",
+      "summary": "Qual é a melhor IA para sua empresa? Ranking revela diferenças entre os principais modelos",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPV1VHQ1ZZSFd2QUtqWkZWR09pSVNydE5oekJqY2E3MnBDMVBRWUg3aXhkd29rT3NVd3hkVDZTaFFBcUVmd00tUnM0Zjh3S0RIa1J0S05BbTgxa1p5NlQ0LTBhTTNhMVJpOHpqNzNOcFJwcnRkZ1ptNXE5ZTFFY3AyVTRWUFVZTzZzb3dRMnRVNVYwTms0eGo0SXF5aVB4YUF2aV9ZWHE2b1kzVlROY0tQcFp2NFVnZVNHdDRWdHIyZldWS0gyZ2g0STVQbUtiMUZZRV94NVRYZjZmTnhsbHFjYkQ5TXYzbEZxRGVaYzZR?oc=5",
+      "source": "Contadores.cnt.br",
+      "published_at": "Fri, 09 Oct 2026 11:54:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
     {
       "title": "O que está por trás das ameaças de a inteligência artificial acabar com a humanidade? Entenda",
       "summary": "O que está por trás das ameaças de a inteligência artificial acabar com a humanidade? Entenda",
@@ -13,11 +22,29 @@
       "signal": "flat"
     },
     {
-      "title": "Por que o diferencial da IA está cada vez mais nos dados que as empresas possuem",
-      "summary": "Por que o diferencial da IA está cada vez mais nos dados que as empresas possuem",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX01Ud3BYbVp6X09IUEczcUx4MGxRS0J1QzBMSjlDS3JZUWJQQW9LdmV3UWpiUnZUQWpYeHdkQk9EcGFaRG1PUGUzZWFlSWY5Qy1MNTFhRmlKbXVnd2c2dUN4Q25NRkFmZzJQb1lVZVJCX0hzaFN2RWRzOHlvMTBfdkVoUDlZM1pwRnVPeWdaaGk0TUtSV25wamUzc1o3TXNySFpsd1dlSGVINEgwVVF6VWxROUJJUVE?oc=5",
-      "source": "VEJA",
-      "published_at": "Wed, 07 Oct 2026 11:00:33 GMT",
+      "title": "Empresas chinesas lançam 16 modelos de IA em um mês, apesar de alerta da Anthropic",
+      "summary": "Empresas chinesas lançam 16 modelos de IA em um mês, apesar de alerta da Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOME9Wb0c1Q0hqVExzcTZiZ2pYbDZ3ckNSLThDM3E3UzY1elRwOTNuTkNhRVNSa19oSDlqYmlRVENSVFhFc0U3Tm1ILUt6UXNuUENnWl91YjFmc2x4SGgwaXBxWWdiOGl4X0FPaUVvSnNaSDF3eE1pR0VGRHdRbjZsVEtUX21RU1FJd05rRC1SSGxubHJHblF3V3VQRUpmMFRuRmZzbTZSb0l2RU1JQlRFd0dDLVktX3lHS1p0cUVWdWxZNUJUVWx6VE9fd2ZYM2xJcG000gHiAUFVX3lxTE15ekJ6UlYxbkpXT05vbmp5M3o3V3RpTmQyeVVTLTE5SW0zOUdKSkhSZjlScVQyYmtkbG9wYWY0ZzNkUHFVRHVUZGluTzZmVDJrQkhLT29Rdkw4TVF5amtzM2lxcE1DMkNtSEZFSnI4V2locXJEUGVodFVaam52NmZfak5yS0l0dmRhRV9SSHhkRkxTTDQ0aV8xWGhrTzhMZGU4SzM1R0VmUGFreUk4N0thWmlPbWRpNnF2TTJTUll4ekFmaTJxUlFBU2ZMZGRyOTJLOGtlc2hkZnJoRjRjS19ZN2c?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Wed, 07 Oct 2026 04:05:22 GMT",
+      "category": "IA",
+      "signal": "up"
+    },
+    {
+      "title": "IA traz mais eficiência, mas também amplia riscos",
+      "summary": "IA traz mais eficiência, mas também amplia riscos",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd0tnaDZwVTlpRXlVUmFZYXp5MUxnVlgydDBveENiVFpKMXVESnBGNGRUbC1yUURhN3R3d3RkVGJtSG5NeU9uaHJabTA4OVhHQ093bmZfU0ZGN0QtSmRJSVFNZS1Cb1poZ2cybVlIdmJpWk9Faldzc3ltanpMV01XTncyX2VXbDZ6S1J6U1FJTm5sbHE0SEdtSzFXMDJncEpkY1c4dWxXcm1Od9IBuAFBVV95cUxOY1owdGRKREZYcThHTy04NEdJOUFHVkhSLVJNTldHeTFIVEh4cjRwNzdlMWFBa0ZKYi1LZlptdTdzMUI2OVFuTHg1S01GYzQtSFVwVjRVRzlCWEVfN2dMNFRXajNtN05tSkhCb2dEWXFkSnkzOERKYXppSWdsWUh1ZGNGWW5zY2xTR09FcExfRk5xSzlOa3EyREJSQmdsZ0hEMHNYY2hwcXFRV3dYM0JLWmxIb2Y4am9S?oc=5",
+      "source": "Valor Econômico",
+      "published_at": "Fri, 09 Oct 2026 08:17:14 GMT",
+      "category": "IA",
+      "signal": "down"
+    },
+    {
+      "title": "Especialista em marketing digital, Rapha Falcão destaca o uso da inteligência artificial nas empresas",
+      "summary": "Especialista em marketing digital, Rapha Falcão destaca o uso da inteligência artificial nas empresas",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPN0Q2d1NBVGpjRktIbjd4SGpqTC14S0Q4bENMNVViNGdMNjdjdDR2Y19WYThxcEV3QW9PbDQtd3RLaW40NUVJVlN4WGNXQTRmQUN1aFREOUllVzd3d0FVX0lqWFhkN0NwRndqNTlQdnZrS3NHbG5FODFPV2pTUWhudTFqZTBHbUFSNC1tcmRNUml6WW16bVpiV29VWExNS0k1Vl9mRUF6RHl6MHF6SDNBdFRoSHkxWDhWMzFCTGRiM0o3bU1DYWpvdUNVU3ZyY29T?oc=5",
+      "source": "URB News",
+      "published_at": "Fri, 09 Oct 2026 20:35:00 GMT",
       "category": "IA",
       "signal": "flat"
     },
@@ -29,33 +56,6 @@
       "published_at": "Fri, 09 Oct 2026 14:03:32 GMT",
       "category": "IA",
       "signal": "down"
-    },
-    {
-      "title": "SBI pretende avaliar 5 mil empresas e movimentar R$ 25 milhões com soluções de inteligência artificial",
-      "summary": "SBI pretende avaliar 5 mil empresas e movimentar R$ 25 milhões com soluções de inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR1dkU2tDQ21sc3hoQmR1RXFPM2Z6M2RaN2FCNWo1MUY4U0hqV3dQWmEtSmZmX2NTeUlXb3FseWZkWFpuNlgxbWxPRDZXcTNMMUJDaTJkUmZFbEVJcHlEdDhPNW8yREhCdFpQR0NmVkR1eF9PMWRDVjg1TEJDTUUwV2RlYmozTmJXcUU0VklSSy1URHZWaV8yYVpUTDBhTk9nSmlqNGxmd1FSclZrOWtwSzBDOFJobGRSdE9mOGhwVkxhcl95dTFmTmd3aDI?oc=5",
-      "source": "Capital Digital",
-      "published_at": "Thu, 08 Oct 2026 21:34:58 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "O que o IPO da Anthropic revela sobre a economia da inteligência artificial",
-      "summary": "O que o IPO da Anthropic revela sobre a economia da inteligência artificial",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVlJGZFhoaVJ5ekNUY0YxTW16NmljaWpYZGlaNDNsM0lqSFozM2k4ak9TNzhRdGhvbVBTQ0k3NW82Qy1tNFczNTBHZnhmLVVuaDFWMzVZTGpCcWhYZDBGbVVwcHdOX0hCd29XVG52YlAybGsxbEM1bDR1ZG9lWHAtdURPaEdOQQ?oc=5",
-      "source": "Monitor Mercantil",
-      "published_at": "Thu, 08 Oct 2026 17:31:51 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "A aposta da 'Palantir brasileira' para guardar a memória das empresas com IA — e chegar a R$ 1 bi",
-      "summary": "A aposta da 'Palantir brasileira' para guardar a memória das empresas com IA — e chegar a R$ 1 bi",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRmIyTFI2NWNObkFZcEdqRl9jN2w1OU1sRW9jVkRDMDFFOEJLNVB0bXY2S3VNU3FrUDEyQjB2U3lnNFM3N2I5dFdtWm9zU1NZM053bEJkM0ZzS3AtRC1kSXo5X1oxN2o1N1pwblNGMDhvUXpKM3NxTnBMY2RiNEJOd2QycUd1VTRLS3Y2V3pqcm5YcThSb2Z5VzluZlgxY3htTFIxYXRvRFJYQVFfenQ3d2FBZi1yel9hTDgya29YYWRROWh0YmJGTXo1SDExRFhM?oc=5",
-      "source": "Exame",
-      "published_at": "Fri, 09 Oct 2026 11:32:11 GMT",
-      "category": "IA",
-      "signal": "flat"
     }
   ],
   "category": "IA"
