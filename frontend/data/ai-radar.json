@@ -1,8 +1,26 @@
 {
-  "generated_at": "2026-10-08T14:58:46.515456+00:00",
+  "generated_at": "2026-10-09T00:04:21.637124+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
+    {
+      "title": "Qual é a melhor IA para sua empresa? Ranking revela diferenças entre os principais modelos",
+      "summary": "Qual é a melhor IA para sua empresa? Ranking revela diferenças entre os principais modelos",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSFZjV3hkc1ZTNkxVOWliN0M0bTdDYjZMOEFVaXhGZXFMc2xIY3JhZEtRQXVqR2FzRFNHeEJqbUtHbG1CRWhjT3NEN1dkVHo0SG1GZXNZQzdBSW1jZHlGdDExYjNuVDEwVS1nalJ6QmtsTlQwcWU1VFJUT2RTVWxQN1lBb21BUTNCSU9KVGN2YmQ3U2l4YjljTkMxOGkzY05xVHdZbm9GZDE?oc=5",
+      "source": "CryptoID",
+      "published_at": "Thu, 08 Oct 2026 17:33:33 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "O que está por trás das ameaças de a inteligência artificial acabar com a humanidade? Entenda",
+      "summary": "O que está por trás das ameaças de a inteligência artificial acabar com a humanidade? Entenda",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbUFvWmNiU0UtWEdQUkhLQlhkaU00VDZKV0Y0dWI4QVJxaVhEVEZLcmpNbmZEeDVxOHlUTDd2cEF3aVlJRGp5TmFDSmZtVzA2ZXBEZXJGQVJhczgxazBSekpMQTlsdzBrbHRmNWc5bENPQ0o0ZE52U1ZBRWthNmNaQi11Zy02VjNlMkZUQm1RSkppWnFDT3BZMUxUX2RKNHppbXo4bzBJUmRUWDV2YTNBU3E3ZS14QdIBuwFBVV95cUxPZWJTdjhmdy1SU0V0QUFaei01U0p2SXZ1THdkQTlyd3hvOE9aTGwzN2R4dGR0Y0d0dWFyQ3NWMFhyNGdDRHM3SmpJVnM2NTQ1cGdQODZsdmdpRDhEOE1KdXhIWUxGOERoMlBNWXFxMTB3WTQweDEwWThiY3FtaFlzTWZicjFRbmJmUDJ1cHdEcEk4UHlpWkl4b2xRdlJveDRfLUxiUU1yQ3ZBSG1Da2txNUU1bExFSUlhOTI0?oc=5",
+      "source": "Estadão",
+      "published_at": "Thu, 08 Oct 2026 15:00:00 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
     {
       "title": "Por que o diferencial da IA está cada vez mais nos dados que as empresas possuem",
       "summary": "Por que o diferencial da IA está cada vez mais nos dados que as empresas possuem",
@@ -13,47 +31,29 @@
       "signal": "flat"
     },
     {
+      "title": "O que o IPO da Anthropic revela sobre a economia da inteligência artificial",
+      "summary": "O que o IPO da Anthropic revela sobre a economia da inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVlJGZFhoaVJ5ekNUY0YxTW16NmljaWpYZGlaNDNsM0lqSFozM2k4ak9TNzhRdGhvbVBTQ0k3NW82Qy1tNFczNTBHZnhmLVVuaDFWMzVZTGpCcWhYZDBGbVVwcHdOX0hCd29XVG52YlAybGsxbEM1bDR1ZG9lWHAtdURPaEdOQQ?oc=5",
+      "source": "Monitor Mercantil",
+      "published_at": "Thu, 08 Oct 2026 17:31:51 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
+      "title": "SBI pretende avaliar 5 mil empresas e movimentar R$ 25 milhões com soluções de inteligência artificial",
+      "summary": "SBI pretende avaliar 5 mil empresas e movimentar R$ 25 milhões com soluções de inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR1dkU2tDQ21sc3hoQmR1RXFPM2Z6M2RaN2FCNWo1MUY4U0hqV3dQWmEtSmZmX2NTeUlXb3FseWZkWFpuNlgxbWxPRDZXcTNMMUJDaTJkUmZFbEVJcHlEdDhPNW8yREhCdFpQR0NmVkR1eF9PMWRDVjg1TEJDTUUwV2RlYmozTmJXcUU0VklSSy1URHZWaV8yYVpUTDBhTk9nSmlqNGxmd1FSclZrOWtwSzBDOFJobGRSdE9mOGhwVkxhcl95dTFmTmd3aDI?oc=5",
+      "source": "Capital Digital",
+      "published_at": "Thu, 08 Oct 2026 20:12:56 GMT",
+      "category": "IA",
+      "signal": "flat"
+    },
+    {
       "title": "Empresas brasileiras que adotaram IA enfrentam desafio de encontrar profissionais preparados para usar a tecnologia, diz estudo",
       "summary": "Empresas brasileiras que adotaram IA enfrentam desafio de encontrar profissionais preparados para usar a tecnologia, diz estudo",
       "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNbDlMNUNBVVBYaFJxNmNrSWNST01rLTNndkM2UE1kVFN0OUFuQUF1Y3RLUXFtdU1ub3FVcnhSWlo5ZFhDa09CMXZJUC1IMjByU2pmemh5bnpyWVZlWmM2VmE1RTNTRDVuVVc0Ty1NWExlQ3dXM3pXclY1M1JaNDlZTnF5QnpQWlJxMVhfMUIxTlB1WXk1dF85SzhIbndENV9WTkdZeXRoQzVneE5kdURQMmFxSHJQbm85MHg5bG5rZTNkb2c0bU9MWW4zZi1Wa2dvbG1EQXdEWUtnQlJIVVRfbm5UWXV3TUt5Y0h0S0ZaMDNyZVNlVlVJWURNNEVEbkpCMkN0eDVmalV3bTBXam5YSEVYZm9ldTDSAaYCQVVfeXFMT3FVbldiaDhNWlE0My1LWnN3dmdkVFlVemJPd1J0TF9RS0NRWWQ3ZzJXcHBaN0QyS3Q5bVUwX1dzZ3VOY0d1NWFDcVJjQ2VXeHBnS0Vpdjk2TEctUXR5LWNyU2JUTVM3MXlUNGJnMHdKYUY5alBsQW5LRDFrQVlZMkdFLXpCbDZnSjctZWM0UXRITC1WNDc3ZFhfaXBDT2RhT0NXQ0x5OUctVjJhRlBwWlJDXzRITHh5bGxFZV90R1piaVRMMFVlTE1yUGVNWWJTckhmbVBtM1U5TkVsMEFBaVBwejlZLUptZEttUnRHb2J1NFZHa0VPSzA3WXVyOTEtcmpyS0ZlQmIzOUY4cHF4ZXZYYVNROGZyeXRzUWtqM090VHlzQW1R?oc=5",
       "source": "G1",
       "published_at": "Wed, 07 Oct 2026 01:04:12 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Empresas chinesas lançam 16 modelos de IA em um mês, apesar de alerta da Anthropic",
-      "summary": "Empresas chinesas lançam 16 modelos de IA em um mês, apesar de alerta da Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOME9Wb0c1Q0hqVExzcTZiZ2pYbDZ3ckNSLThDM3E3UzY1elRwOTNuTkNhRVNSa19oSDlqYmlRVENSVFhFc0U3Tm1ILUt6UXNuUENnWl91YjFmc2x4SGgwaXBxWWdiOGl4X0FPaUVvSnNaSDF3eE1pR0VGRHdRbjZsVEtUX21RU1FJd05rRC1SSGxubHJHblF3V3VQRUpmMFRuRmZzbTZSb0l2RU1JQlRFd0dDLVktX3lHS1p0cUVWdWxZNUJUVWx6VE9fd2ZYM2xJcG000gHiAUFVX3lxTE15ekJ6UlYxbkpXT05vbmp5M3o3V3RpTmQyeVVTLTE5SW0zOUdKSkhSZjlScVQyYmtkbG9wYWY0ZzNkUHFVRHVUZGluTzZmVDJrQkhLT29Rdkw4TVF5amtzM2lxcE1DMkNtSEZFSnI4V2locXJEUGVodFVaam52NmZfak5yS0l0dmRhRV9SSHhkRkxTTDQ0aV8xWGhrTzhMZGU4SzM1R0VmUGFreUk4N0thWmlPbWRpNnF2TTJTUll4ekFmaTJxUlFBU2ZMZGRyOTJLOGtlc2hkZnJoRjRjS19ZN2c?oc=5",
-      "source": "Valor Econômico",
-      "published_at": "Wed, 07 Oct 2026 04:05:22 GMT",
-      "category": "IA",
-      "signal": "up"
-    },
-    {
-      "title": "Como a Iron Mountain usa IA para transformar documentos em dados úteis para as empresas",
-      "summary": "Como a Iron Mountain usa IA para transformar documentos em dados úteis para as empresas",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNRVdRUFRlZXZmbmFuWVg5Z2ZVeFRaWktsaW5QeF9sSlNvNDdsWG1fNEpuSndEdWRLUDZTMmJpTnhNck9qaGxvRVVBNk1pdVVfemR6bjZJdFp6OWl0akJsdTNVRW96UklzdWhEckNFenlURUlIeFZfMU55VlhPc1pNVDNIR2ZBZHZsVG5jd1RsWnh4RTJBRjgzUVBVaFItVGd1QlBlWWxSWGtydmc0VVhGb3FwMnVSdmllc0RpNW1mYXBzYlFCRXIzX3NHdFI4MkUxTHZPczFXcktpVjE1eGRmcFlkVmNmS2haQUp6eHEzd2hYa3ZGdFBIajBwMV9acjJHNm9wMEhtai11ODjSAZoCQVVfeXFMT010UnNrb0E2amFkYVA2LW1kMlptZGFWeUEyYnl3SlpYLUotU19VeExwVnpjSEQzaHhsa3BiaFgwOTJ4d0l5Wi1CVXJuRElJM0UzWkFHbXUwYWhlazZLb1ZEUS0zNVNMcTFnaUNwZGVqNUdnSzdaWVhkMmNkMGt6SU5YZTNWYW42MVVWYTU0dmVhaHpsVHV1cmVndzB3VnA4b3NJY2c3eVNScmZWdTFBbWltYlVkUUdwUzZDSlExZEd6N21qeDVyX0ZvUHJJV09pMUVVWTZoMXhmeTBuZC0ybUtDQXpKRFdIckdwblJtWDdEa051bTdKZmwyMjRYWndNbWpvOHZHQkpoeVMyTENBek02SDg0Sk02Y2RR?oc=5",
-      "source": "Época Negócios",
-      "published_at": "Thu, 08 Oct 2026 09:00:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "OAB-SP vai à Justiça contra empresa de IA que produz peças jurídicas",
-      "summary": "OAB-SP vai à Justiça contra empresa de IA que produz peças jurídicas",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa1VjV1ZCaGFfZUpJQjU1TU92c1dDMXFRRGZydzRQUVhBWU43QTdwcnZObUhpTEcxTXozLWpSQ0w5LXEzb0JIUjVQQ0c0WUJDUmFud1ZVbGxkN09JNUxMVXRZOHJPT20zYzNHdkYyWFlBaFZ5N2N4UTN6WXU4Qm9hMzVwRTBaTGFkb2RlZG5lMmU5NkVfcHdVTnBkcl84YzAxQU5wMTh2Y0U?oc=5",
-      "source": "Metrópoles",
-      "published_at": "Thu, 08 Oct 2026 01:28:00 GMT",
-      "category": "IA",
-      "signal": "flat"
-    },
-    {
-      "title": "Inteligência Artificial não salva empresa desorganizada: entenda o erro de gestão",
-      "summary": "Inteligência Artificial não salva empresa desorganizada: entenda o erro de gestão",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRTlkeHMwMDdUcDhMblVtYzZnNVZGWTNTcVVGTGRST3hZemFTSjZXSzN1UHRnMVI5VUhWN3J3Q1NGLWVPbVViRWtMYmVOUExWUlZ0SnpyWjZMR21Wc1hYbWxmSE92VE8wQkJZd29TYmYwUEtWYkRYNmFKTEQ4ZzVJWm1MNEwyTUtUWUpjdjdxMmRVZGJpV1A3ajhPNlhkM1pvdTBYQk1tc0ZkUmJUS1BZMlAtYVBJd0NOdjhCRDNsaXU1QQ?oc=5",
-      "source": "bra1.com.br",
-      "published_at": "Thu, 08 Oct 2026 12:32:00 GMT",
       "category": "IA",
       "signal": "flat"
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T14:58:47.669761+00:00",
+  "generated_at": "2026-10-09T00:04:22.689418+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de tecnologia.",
   "errors": [],
   "items": [
@@ -13,20 +13,20 @@
       "signal": "flat"
     },
     {
-      "title": "Equipe virtual de agentes de IA reduz em até 70% o tempo de desenvolvimento de software na Dígitro Tecnologia",
-      "summary": "Equipe virtual de agentes de IA reduz em até 70% o tempo de desenvolvimento de software na Dígitro Tecnologia",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObGluV1kyWmNZa2VuODZNQzJ1LWV6NllPTHg2eVdBanUycklHWG5zR2Y1bUZJYmFCUDVDaTRFeFZlaS1WZU9fXzVLSVNhNDJPZElXTHR3bjhzVmw4NVh1V1lsWXNuLW9ycGNNdmU5Z1NWRmN5Y2NVZndBQWxWcnRkUjdEZVE4RjhuaXpHWmVnYnUzOGlGWEFaVThiakF4S0k5aFJlcTVLV0IwTV9XODl6UU5tY1RaMFFXb1doX1Qtcjg0YzVlaVp4ZnRqSzNmdG9BdnJLQ0diaGc1cjVk?oc=5",
-      "source": "TI INSIDE Online",
-      "published_at": "Thu, 26 Mar 2026 07:00:00 GMT",
-      "category": "Tecnologia",
-      "signal": "flat"
-    },
-    {
       "title": "Nova plataforma da Meta leva agentes de IA para atendimento, vendas e desenvolvimento de software",
       "summary": "Nova plataforma da Meta leva agentes de IA para atendimento, vendas e desenvolvimento de software",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUDl5MzlQbmVNclRjYnRlSXEyejEyYnRJRlgzN1ppaGxqaFNrdHpfQ1NoTGFJdGQySEdMeGh1a2hQaVduYzRpeWtzT09NZzFHNWRsblRnZ0ZXajBheDc4ZVJYeWdSa182aWYxajNnUGhvTTFXMUJ1eXdRT202ZEFwRjNfU0lRY2oyLUFSajJ1WHZlV0RmWHhEbkE5WFp0UDNZendEQmk0UjBxWFVzbmNVdExoMFdEY2J0dEFXa2M0MWYxM0hGYW1BSW1wQWNfMGVIRmc?oc=5",
       "source": "Agora Litoral",
       "published_at": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "category": "Tecnologia",
+      "signal": "flat"
+    },
+    {
+      "title": "Equipe virtual de agentes de IA reduz em até 70% o tempo de desenvolvimento de software na Dígitro Tecnologia",
+      "summary": "Equipe virtual de agentes de IA reduz em até 70% o tempo de desenvolvimento de software na Dígitro Tecnologia",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObGluV1kyWmNZa2VuODZNQzJ1LWV6NllPTHg2eVdBanUycklHWG5zR2Y1bUZJYmFCUDVDaTRFeFZlaS1WZU9fXzVLSVNhNDJPZElXTHR3bjhzVmw4NVh1V1lsWXNuLW9ycGNNdmU5Z1NWRmN5Y2NVZndBQWxWcnRkUjdEZVE4RjhuaXpHWmVnYnUzOGlGWEFaVThiakF4S0k5aFJlcTVLV0IwTV9XODl6UU5tY1RaMFFXb1doX1Qtcjg0YzVlaVp4ZnRqSzNmdG9BdnJLQ0diaGc1cjVk?oc=5",
+      "source": "TI INSIDE Online",
+      "published_at": "Thu, 26 Mar 2026 07:00:00 GMT",
       "category": "Tecnologia",
       "signal": "flat"
     },
