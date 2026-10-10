@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T23:44:13.515122+00:00",
+  "generated_at": "2026-10-10T14:00:28.695788+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de IA.",
   "errors": [],
   "items": [
@@ -22,13 +22,22 @@
       "signal": "flat"
     },
     {
-      "title": "Empresas chinesas lançam 16 modelos de IA em um mês, apesar de alerta da Anthropic",
-      "summary": "Empresas chinesas lançam 16 modelos de IA em um mês, apesar de alerta da Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOME9Wb0c1Q0hqVExzcTZiZ2pYbDZ3ckNSLThDM3E3UzY1elRwOTNuTkNhRVNSa19oSDlqYmlRVENSVFhFc0U3Tm1ILUt6UXNuUENnWl91YjFmc2x4SGgwaXBxWWdiOGl4X0FPaUVvSnNaSDF3eE1pR0VGRHdRbjZsVEtUX21RU1FJd05rRC1SSGxubHJHblF3V3VQRUpmMFRuRmZzbTZSb0l2RU1JQlRFd0dDLVktX3lHS1p0cUVWdWxZNUJUVWx6VE9fd2ZYM2xJcG000gHiAUFVX3lxTE15ekJ6UlYxbkpXT05vbmp5M3o3V3RpTmQyeVVTLTE5SW0zOUdKSkhSZjlScVQyYmtkbG9wYWY0ZzNkUHFVRHVUZGluTzZmVDJrQkhLT29Rdkw4TVF5amtzM2lxcE1DMkNtSEZFSnI4V2locXJEUGVodFVaam52NmZfak5yS0l0dmRhRV9SSHhkRkxTTDQ0aV8xWGhrTzhMZGU4SzM1R0VmUGFreUk4N0thWmlPbWRpNnF2TTJTUll4ekFmaTJxUlFBU2ZMZGRyOTJLOGtlc2hkZnJoRjRjS19ZN2c?oc=5",
-      "source": "Valor Econômico",
-      "published_at": "Wed, 07 Oct 2026 04:05:22 GMT",
+      "title": "Por que o diferencial da IA está cada vez mais nos dados que as empresas possuem",
+      "summary": "Por que o diferencial da IA está cada vez mais nos dados que as empresas possuem",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX01Ud3BYbVp6X09IUEczcUx4MGxRS0J1QzBMSjlDS3JZUWJQQW9LdmV3UWpiUnZUQWpYeHdkQk9EcGFaRG1PUGUzZWFlSWY5Qy1MNTFhRmlKbXVnd2c2dUN4Q25NRkFmZzJQb1lVZVJCX0hzaFN2RWRzOHlvMTBfdkVoUDlZM1pwRnVPeWdaaGk0TUtSV25wamUzc1o3TXNySFpsd1dlSGVINEgwVVF6VWxROUJJUVE?oc=5",
+      "source": "VEJA",
+      "published_at": "Wed, 07 Oct 2026 11:00:33 GMT",
       "category": "IA",
-      "signal": "up"
+      "signal": "flat"
+    },
+    {
+      "title": "O que o IPO da Anthropic revela sobre a economia da inteligência artificial",
+      "summary": "O que o IPO da Anthropic revela sobre a economia da inteligência artificial",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVlJGZFhoaVJ5ekNUY0YxTW16NmljaWpYZGlaNDNsM0lqSFozM2k4ak9TNzhRdGhvbVBTQ0k3NW82Qy1tNFczNTBHZnhmLVVuaDFWMzVZTGpCcWhYZDBGbVVwcHdOX0hCd29XVG52YlAybGsxbEM1bDR1ZG9lWHAtdURPaEdOQQ?oc=5",
+      "source": "Monitor Mercantil",
+      "published_at": "Thu, 08 Oct 2026 17:31:51 GMT",
+      "category": "IA",
+      "signal": "flat"
     },
     {
       "title": "IA traz mais eficiência, mas também amplia riscos",
@@ -40,22 +49,13 @@
       "signal": "down"
     },
     {
-      "title": "Especialista em marketing digital, Rapha Falcão destaca o uso da inteligência artificial nas empresas",
-      "summary": "Especialista em marketing digital, Rapha Falcão destaca o uso da inteligência artificial nas empresas",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPN0Q2d1NBVGpjRktIbjd4SGpqTC14S0Q4bENMNVViNGdMNjdjdDR2Y19WYThxcEV3QW9PbDQtd3RLaW40NUVJVlN4WGNXQTRmQUN1aFREOUllVzd3d0FVX0lqWFhkN0NwRndqNTlQdnZrS3NHbG5FODFPV2pTUWhudTFqZTBHbUFSNC1tcmRNUml6WW16bVpiV29VWExNS0k1Vl9mRUF6RHl6MHF6SDNBdFRoSHkxWDhWMzFCTGRiM0o3bU1DYWpvdUNVU3ZyY29T?oc=5",
-      "source": "URB News",
-      "published_at": "Fri, 09 Oct 2026 20:35:00 GMT",
+      "title": "Empresas já testam agentes de IA no trabalho; veja o que eles estão fazendo",
+      "summary": "Empresas já testam agentes de IA no trabalho; veja o que eles estão fazendo",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mX0JmTHpTcUpaQmdCUTBSSXo5Y0EyRy1PbU5aRlBFQ1dTN1o3b3l1cWNrZjg0MzRXUk9CRnkzdkZvdDQ5NEdkemFha3Y3dDlyLVpqeE1WeU1YREJQVnRlVU5OVWQxOHV4UUhpQ0c2eDVVQdIBd0FVX3lxTFBRQVZnNG9vOHI1NE9Da1JvVUcyVmNkcXA4VEpMem1ieUdFeWx5NUVUY2RiN3NSdHVkNmFrYm5LSUk0cEtyZVZvRUFsakFnX3lpY2ZKcXRETENpemdUUTJrc2tiNnJkUDBrNHVEc1BrdmJremVHcE5j?oc=5",
+      "source": "InfoMoney",
+      "published_at": "Thu, 08 Oct 2026 14:00:00 GMT",
       "category": "IA",
       "signal": "flat"
-    },
-    {
-      "title": "Curso da ABIMAQ ensina como utilizar Inteligência Artificial para impulsionar empresas e otimizar processos",
-      "summary": "Curso da ABIMAQ ensina como utilizar Inteligência Artificial para impulsionar empresas e otimizar processos",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPak16eXRQeFN0YjQ4ajNpcTE5dnFwNzNka2RGTW04OEp2VGl0TWhTU2RsSWtidkJUakZFdXE2alFGYm9sb1ZmVFhRUFFZMVhBc3A2QlBMTFNpbjVEaVNuU3VvNnl5RWJxU2ZwWGw4WExyc3ZfYTZjRmJpNWZFR3JtVlBWRk1FT2pCbUtDYlNNTXBPeUdyaVdCRENoWEo0dDMzVzVoTjcwVzI0bDU4Wkl2bVlYdGZPV3hkTGZRQzVpelNmTGRzYWFCWTJaTmZ0QVRkdi1lbjlpYnlCb2ZpLTFnTXBJVjY?oc=5",
-      "source": "jornaltribuna.com.br",
-      "published_at": "Fri, 09 Oct 2026 14:03:32 GMT",
-      "category": "IA",
-      "signal": "down"
     }
   ],
   "category": "IA"

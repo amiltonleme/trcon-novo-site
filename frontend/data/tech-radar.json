@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T23:44:14.662901+00:00",
+  "generated_at": "2026-10-10T14:00:29.814021+00:00",
   "source_note": "Curadoria automatica por regras a partir de feeds RSS publicos de tecnologia.",
   "errors": [],
   "items": [
@@ -22,20 +22,11 @@
       "signal": "flat"
     },
     {
-      "title": "Nova plataforma da Meta leva agentes de IA para atendimento, vendas e desenvolvimento de software",
-      "summary": "Nova plataforma da Meta leva agentes de IA para atendimento, vendas e desenvolvimento de software",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUDl5MzlQbmVNclRjYnRlSXEyejEyYnRJRlgzN1ppaGxqaFNrdHpfQ1NoTGFJdGQySEdMeGh1a2hQaVduYzRpeWtzT09NZzFHNWRsblRnZ0ZXajBheDc4ZVJYeWdSa182aWYxajNnUGhvTTFXMUJ1eXdRT202ZEFwRjNfU0lRY2oyLUFSajJ1WHZlV0RmWHhEbkE5WFp0UDNZendEQmk0UjBxWFVzbmNVdExoMFdEY2J0dEFXa2M0MWYxM0hGYW1BSW1wQWNfMGVIRmc?oc=5",
-      "source": "Agora Litoral",
-      "published_at": "Mon, 28 Sep 2026 07:00:00 GMT",
-      "category": "Tecnologia",
-      "signal": "flat"
-    },
-    {
       "title": "IA aumenta produtividade no desenvolvimento de software, mas empresas ainda enfrentam gargalos de custo e revisão",
       "summary": "IA aumenta produtividade no desenvolvimento de software, mas empresas ainda enfrentam gargalos de custo e revisão",
       "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOYVp1cjRRcVY3UnIwbzlFTlRzc19wb1o5SkJwMnRpeTQwc3l2MlNjMWhhbGlKYWJ3cVBuUWtIdUIwSk0yWUZXUDU3bS1rdEJqcHA1d1VHS3VkclBIXzluUFVhMHU2N1VVS2taM1pXUkVnZWdsYkxPUmxGX0ZpU19QajhKYi1rOTQzZ0xiZ25TVURSV3NyMXFZSEFxWkg2cGNZQWw4Q3o3Mm1rWnBqSzVnSFdLVGdPSHN2S3hUY2lLUmFuSVM4M2pMZ0wtSlQwQVRSeXNaN2U0bnBwTUtlSmFPS1llYUQyOUdfUkgxXzVNTDZFaGJxMWxZYk9IXzlyTmc4czEtSWxZU0hCdWhndXk0TjREZGExTFQ2UEF0T0JCZmrSAa8CQVVfeXFMTU5QWl82WTZCLXBCZEdLbl9vTVY5cWFHXzNfb0pXc0dTVGF2RlhjYmFOSmlhQTBldXVWSnhPRE5RWjU1STVGM18zdmdUZnV2YVpVVTJzTVBJNUdfcHI3RjUzOERGMlF3QTgzOWJjcWpWSDBjQnJObHdnREVuaWhQY3I5Ym5SbUVUU0M2Y0txZEdxQVZyaVA5bFcyNVNZUjVuTUlzT3lqN1N6V3V1ZWpsbW9YS3M0X0FhZnJKZlNtdnhFR0hBNnQxUWNrYnlCWG1WNjZoUWxMTDRJNHhJU1dhb1AwWkVYUW84SmtZVWJoYy00U0RGZ0NhemRDWEh4X1gzcUlSTXdCczhHRjlOdTZKTUd4cTFIQWs1MWI5RW5ZZkk1SHBTaWZTd19nUFN1Z0tR?oc=5",
       "source": "Pequenas Empresas & Grandes Negócios",
-      "published_at": "Wed, 16 Sep 2026 12:15:28 GMT",
+      "published_at": "Wed, 16 Sep 2026 07:00:00 GMT",
       "category": "Tecnologia",
       "signal": "flat"
     },
@@ -53,9 +44,18 @@
       "summary": "Nava anuncia IA para acelerar desenvolvimento de software e controlar custos corporativos",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPamdmVENtYkZ2RFA3VEVpcGNmTERaUTkxVEJ4YW5xQU1UcFRkdDF6SDdILW9TS2Y0dGVKSnJ6VGNuSHVidVd0Rll0Ql90SFBLbXg1WnZwNlhtdE5WaE1DWVp1QVhNNkR4eXJrMlhwVWNmM1JSbFVnWmFvaUxxVjFWT0duWDhfNW5fQkkwYTJIZ3YzUVJQYlVNWUtsNDFJZnYwd1dZUXhKcWxPZHNOQ3Y1bWlXc0JjYjZpLThkU0NQamtDajE0bDhfbg?oc=5",
       "source": "Inforchannel",
-      "published_at": "Tue, 01 Sep 2026 16:29:25 GMT",
+      "published_at": "Tue, 01 Sep 2026 07:00:00 GMT",
       "category": "Tecnologia",
       "signal": "up"
+    },
+    {
+      "title": "O desenvolvimento de software entra em uma nova fase",
+      "summary": "O desenvolvimento de software entra em uma nova fase",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSnpBeW1nUVZVRFp3cWlWRVB3RVV1blJjSEwwcFFpU2UyQ3h2Zk56M3Fjby1JU2JqdUhEMlR2X2dCQlBVTHlnd2R5b3ZhdTRhUjZ4c0pfVGpnUjIzMW5HU0pzMDVDTDFHRnZkNVlqMHh5UHNmNW5rdUhFQWVMeDh5QXY0WEhJcU1kS3FId2dIRQ?oc=5",
+      "source": "ND Mais",
+      "published_at": "Mon, 08 Jun 2026 07:00:00 GMT",
+      "category": "Tecnologia",
+      "signal": "flat"
     }
   ],
   "category": "Tecnologia"
